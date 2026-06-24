@@ -1,9 +1,14 @@
 import json
+import time
 import requests
 from bs4 import BeautifulSoup
 
 URL = "https://oldschool.runescape.wiki/w/Quests/List"
 BASE_URL = "https://oldschool.runescape.wiki"
+
+HEADERS = {
+    "User-Agent": "OsrsQuestScraper/1.0 (contact: jouw@email.com)"
+}
 
 
 def clean(text):
@@ -87,11 +92,151 @@ def parse_quest_table(table, category):
     return quests
 
 
-headers = {
-    "User-Agent": "OsrsQuestScraper/1.0 (contact: jouw@email.com)"
-}
+def get_questdetails_field(soup, field_name):
+    """Zoek een specifiek veld in de questdetails tabel."""
+    table = soup.find("table", class_="questdetails")
+    if not table:
+        return None
+    for row in table.find_all("tr"):
+        th = row.find("th", class_="questdetails-header")
+        td = row.find("td", class_="questdetails-info")
+        if th and td and field_name.lower() in clean(th.get_text()).lower():
+            return td
+    return None
 
-response = requests.get(URL, headers=headers, timeout=30)
+
+def parse_start_point(soup):
+    td = get_questdetails_field(soup, "Start point")
+    if not td:
+        return ""
+    # Verwijder de map icon img en haal tekst op
+    for img in td.find_all("img"):
+        img.decompose()
+    # Verwijder "Show on map" link
+    for a in td.find_all("a", class_="mw-kartographer-maplink"):
+        a.decompose()
+    return clean(td.get_text())
+
+
+def parse_skill_requirements(soup):
+    td = get_questdetails_field(soup, "Requirements")
+    if not td:
+        return []
+    skills = []
+    for span in td.find_all("span", class_="scp"):
+        skill = span.get("data-skill", "")
+        level = span.get("data-level", "")
+        if skill and level:
+            # Bepaal of het boostable is
+            sup_texts = [clean(s.get_text()) for s in span.find_next_siblings("sup")]
+            boostable = not any("not boostable" in t for t in sup_texts)
+            skills.append({
+                "skill": skill,
+                "level": int(level),
+                "boostable": boostable
+            })
+    return skills
+
+
+def parse_quest_requirements(soup):
+    td = get_questdetails_field(soup, "Requirements")
+    if not td:
+        return []
+    quests = []
+    # Zoek de "Completion of the following quests" li
+    for li in td.find_all("li"):
+        text = clean(li.get_text())
+        # Sla skill requirements over (die hebben een scp span)
+        if li.find("span", class_="scp"):
+            continue
+        # Sla niet-quest teksten over
+        if any(skip in text for skip in ["Completion of", "Started the", "Kudos", "Quest points"]):
+            continue
+        link = li.find("a")
+        if link and "/w/" in link.get("href", ""):
+            href = link.get("href", "")
+            # Filter wiki-links die geen quests zijn
+            if any(skip in href for skip in ["/w/Miniquest", "/w/Barbarian_Training", "/w/Ancient_Cavern"]):
+                continue
+            quests.append({
+                "name": clean(link.get_text()),
+                "url": BASE_URL + href
+            })
+    return quests
+
+
+def parse_item_requirements(soup):
+    td = get_questdetails_field(soup, "Items required")
+    if not td:
+        return []
+    items = []
+    for li in td.find_all("li"):
+        items.append(clean(li.get_text()))
+    return items
+
+
+def parse_rewards(soup):
+    td = get_questdetails_field(soup, "Rewards")
+    if not td:
+        # Probeer de Rewards sectie op de pagina
+        rewards_heading = soup.find("h2", id="Rewards") or soup.find("span", id="Rewards")
+        if not rewards_heading:
+            return []
+        # Zoek de eerste ul na de heading
+        current = rewards_heading.parent.find_next_sibling() if rewards_heading.name == "h2" else rewards_heading.find_parent("h2").find_next_sibling()
+        while current:
+            ul = current.find("ul")
+            if ul:
+                return [clean(li.get_text()) for li in ul.find_all("li")]
+            if current.name in ("h2", "h3"):
+                break
+            current = current.find_next_sibling()
+        return []
+    rewards = []
+    for li in td.find_all("li"):
+        rewards.append(clean(li.get_text()))
+    return rewards
+
+
+def parse_enemies(soup):
+    td = get_questdetails_field(soup, "Enemies to defeat")
+    if not td:
+        return []
+    enemies = []
+    for li in td.find_all("li"):
+        enemies.append(clean(li.get_text()))
+    return enemies
+
+
+def fetch_quest_details(url):
+    """Haal detailpagina op en parse alle gevraagde velden."""
+    try:
+        response = requests.get(url, headers=HEADERS, timeout=30)
+        response.raise_for_status()
+        soup = BeautifulSoup(response.text, "html.parser")
+        return {
+            "start_point": parse_start_point(soup),
+            "skill_requirements": parse_skill_requirements(soup),
+            "quest_requirements": parse_quest_requirements(soup),
+            "item_requirements": parse_item_requirements(soup),
+            "rewards": parse_rewards(soup),
+            "enemies_to_defeat": parse_enemies(soup),
+        }
+    except Exception as e:
+        print(f"  [WARN] Fout bij ophalen {url}: {e}")
+        return {
+            "start_point": "",
+            "skill_requirements": [],
+            "quest_requirements": [],
+            "item_requirements": [],
+            "rewards": [],
+            "enemies_to_defeat": [],
+        }
+
+
+# ── Hoofdscript ──────────────────────────────────────────────────────────────
+
+response = requests.get(URL, headers=HEADERS, timeout=30)
 print("Status:", response.status_code)
 response.raise_for_status()
 
@@ -120,7 +265,19 @@ for heading, category in [
         parsed = parse_quest_table(t, category)
         all_quests.extend(parsed)
 
+print(f"Gevonden: {len(all_quests)} quests. Details ophalen...")
+
+for i, quest in enumerate(all_quests):
+    if not quest.get("url"):
+        print(f"  [{i+1}/{len(all_quests)}] Geen URL voor '{quest['name']}', overgeslagen")
+        continue
+
+    print(f"  [{i+1}/{len(all_quests)}] {quest['name']}")
+    details = fetch_quest_details(quest["url"])
+    quest.update(details)
+    time.sleep(0.5)
+
 with open("data/quests.json", "w", encoding="utf-8") as f:
     json.dump(all_quests, f, indent=2, ensure_ascii=False)
 
-print(f"Saved {len(all_quests)} quests")
+print(f"\nSaved {len(all_quests)} quests naar data/quests.json")
