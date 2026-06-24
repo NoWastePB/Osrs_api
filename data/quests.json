@@ -33,11 +33,7 @@
     "skill_requirements": [],
     "quest_requirements": [],
     "item_requirements": [],
-    "rewards": [
-      "v",
-      "t",
-      "e"
-    ],
+    "rewards": [],
     "enemies_to_defeat": []
   },
   {
@@ -111,11 +107,7 @@
       "Spade (obtainable during quest)",
       "Tinderbox (obtainable during quest)"
     ],
-    "rewards": [
-      "v",
-      "t",
-      "e"
-    ],
+    "rewards": [],
     "enemies_to_defeat": []
   },
   {
@@ -155,11 +147,7 @@
     "skill_requirements": [],
     "quest_requirements": [],
     "item_requirements": [],
-    "rewards": [
-      "v",
-      "t",
-      "e"
-    ],
+    "rewards": [],
     "enemies_to_defeat": []
   },
   {
@@ -180,12 +168,7 @@
         "boostable": true
       }
     ],
-    "quest_requirements": [
-      {
-        "name": "dragon",
-        "url": "https://oldschool.runescape.wiki/w/Elvarg"
-      }
-    ],
+    "quest_requirements": [],
     "item_requirements": [
       "Unfired bowl (can be made with soft clay on a Potter's Wheel with 8 Crafting)",
       "Wizard's mind bomb (can be bought in the Rising Sun Inn in Falador or The Toad and Chicken in Burthorpe)",
@@ -200,11 +183,7 @@
       "Member: Several other spawn locations or buy them at the sawmill",
       "2,000 coins"
     ],
-    "rewards": [
-      "v",
-      "t",
-      "e"
-    ],
+    "rewards": [],
     "enemies_to_defeat": [
       "Zombie rats (level 3)*",
       "Ghosts (level 19)*",
@@ -281,23 +260,14 @@
         "boostable": true
       }
     ],
-    "quest_requirements": [
-      {
-        "name": "level",
-        "url": "https://oldschool.runescape.wiki/w/Combat_level"
-      }
-    ],
+    "quest_requirements": [],
     "item_requirements": [
       "Redberry pie (not half a redberry pie)",
       "2 or 4 iron bars (4 if you want your own blurite sword)",
       "1-3 Blurite ore (obtained during the quest) - optionally an additional ore each for your own blurite sword and the Falador easy diary (Members only)",
       "Any pickaxe (one spawns in Rimmington)"
     ],
-    "rewards": [
-      "v",
-      "t",
-      "e"
-    ],
+    "rewards": [],
     "enemies_to_defeat": []
   },
   {
@@ -319,11 +289,7 @@
       "Onion",
       "Rat's tail (only obtainable after starting the quest)"
     ],
-    "rewards": [
-      "v",
-      "t",
-      "e"
-    ],
+    "rewards": [],
     "enemies_to_defeat": []
   },
   {
@@ -415,11 +381,7 @@
       "Rope (can be bought during the quest from Ned for 18 coins)",
       "30-40 coins for the Al Kharid toll gate if not using teleports to and from Al Kharid"
     ],
-    "rewards": [
-      "v",
-      "t",
-      "e"
-    ],
+    "rewards": [],
     "enemies_to_defeat": []
   },
   {
@@ -498,11 +460,7 @@
       "Fish food (obtainable during the quest)",
       "Poison (obtainable during the quest)"
     ],
-    "rewards": [
-      "v",
-      "t",
-      "e"
-    ],
+    "rewards": [],
     "enemies_to_defeat": []
   },
   {
@@ -539,11 +497,7 @@
       "20 balls of wool (unnoted) Shears if obtaining wool to spin into balls of wool (obtained during the quest)",
       "Shears if obtaining wool to spin into balls of wool (obtained during the quest)"
     ],
-    "rewards": [
-      "v",
-      "t",
-      "e"
-    ],
+    "rewards": [],
     "enemies_to_defeat": []
   },
   {
@@ -558,12 +512,7 @@
     "url": "https://oldschool.runescape.wiki/w/Shield_of_Arrav",
     "start_point": "Varrock Palace library. Talk to Reldo, the librarian, located at the northern end of Varrock Castle.",
     "skill_requirements": [],
-    "quest_requirements": [
-      {
-        "name": "chat-channel",
-        "url": "https://oldschool.runescape.wiki/w/Chat-channel"
-      }
-    ],
+    "quest_requirements": [],
     "item_requirements": [
       "Phoenix Gang: 20 coins",
       "Black Arm Gang: 2 Phoenix crossbows (obtained during the quest)"
@@ -595,11 +544,7 @@
       "25 bones (can't be noted, but can be delivered in increments)",
       "1 coin"
     ],
-    "rewards": [
-      "v",
-      "t",
-      "e"
-    ],
+    "rewards": [],
     "enemies_to_defeat": []
   },
   {
@@ -618,11 +563,7 @@
     "item_requirements": [
       "Cadava berries (obtainable during the quest)"
     ],
-    "rewards": [
-      "v",
-      "t",
-      "e"
-    ],
+    "rewards": [],
     "enemies_to_defeat": []
   },
   {
@@ -645,11 +586,7 @@
       "Pot of flour A pot (if obtaining the flour during the quest)",
       "A pot (if obtaining the flour during the quest)"
     ],
-    "rewards": [
-      "v",
-      "t",
-      "e"
-    ],
+    "rewards": [],
     "enemies_to_defeat": []
   },
   {
@@ -671,11 +608,7 @@
       "Raw beef",
       "Raw chicken"
     ],
-    "rewards": [
-      "v",
-      "t",
-      "e"
-    ],
+    "rewards": [],
     "enemies_to_defeat": []
   },
   {
@@ -711,11 +644,7 @@
       "Knife",
       "Woodcutting axe (you will need to bank the axe before accessing Entrana - you cannot use a blessed axe)"
     ],
-    "rewards": [
-      "v",
-      "t",
-      "e"
-    ],
+    "rewards": [],
     "enemies_to_defeat": [
       "Tree Spirit (level 101) (Safespottable)",
       "Multiple Zombies (level 25) (for a bronze axe)"
@@ -764,11 +693,7 @@
       "Bucket of wax (obtainable during the quest with either the Beekeeper's outfit or insect repellent; a bucket spawns near the east gate of the beehive enclosure)",
       "Bat bones (obtainable during the quest)"
     ],
-    "rewards": [
-      "v",
-      "t",
-      "e"
-    ],
+    "rewards": [],
     "enemies_to_defeat": [
       "Sir Mordred (level 39)",
       "Giant bat (level 27) (optional, to acquire bat bones)"
@@ -842,11 +767,7 @@
       "Black platelegs (plateskirt or trimmed will not work)",
       "Some form of Ranged or Magic attack method"
     ],
-    "rewards": [
-      "v",
-      "t",
-      "e"
-    ],
+    "rewards": [],
     "enemies_to_defeat": [
       "Ice Queen (level 111) (unless you already have Ice Gloves)",
       "Entrana firebird (level 2)",
@@ -872,12 +793,7 @@
         "boostable": false
       }
     ],
-    "quest_requirements": [
-      {
-        "name": "black demons",
-        "url": "https://oldschool.runescape.wiki/w/Black_demon"
-      }
-    ],
+    "quest_requirements": [],
     "item_requirements": [
       "Dusty key (obtainable during the quest) or 70 Agility [boostable]."
     ],
@@ -921,12 +837,7 @@
         "boostable": true
       }
     ],
-    "quest_requirements": [
-      {
-        "name": "demon",
-        "url": "https://oldschool.runescape.wiki/w/Demons"
-      }
-    ],
+    "quest_requirements": [],
     "item_requirements": [
       "Shrimps",
       "Salmon",
@@ -973,11 +884,7 @@
       "Fishing rod or Pearl fishing rod (oily fishing rod does not work)",
       "Red vine worm (obtainable during quest)"
     ],
-    "rewards": [
-      "v",
-      "t",
-      "e"
-    ],
+    "rewards": [],
     "enemies_to_defeat": []
   },
   {
@@ -1000,11 +907,7 @@
     ],
     "quest_requirements": [],
     "item_requirements": [],
-    "rewards": [
-      "v",
-      "t",
-      "e"
-    ],
+    "rewards": [],
     "enemies_to_defeat": []
   },
   {
@@ -1024,11 +927,7 @@
       "Jug of water",
       "Regular logs or a regular plank"
     ],
-    "rewards": [
-      "v",
-      "t",
-      "e"
-    ],
+    "rewards": [],
     "enemies_to_defeat": []
   },
   {
@@ -1062,11 +961,7 @@
       "Boots of lightness (can be obtained during the quest with a light source and slash weapon, such as a lit candle and knife)",
       "Other forms of weight-reducing clothing such as the graceful outfit"
     ],
-    "rewards": [
-      "v",
-      "t",
-      "e"
-    ],
+    "rewards": [],
     "enemies_to_defeat": [
       "Fire Warrior of Lesarkus (level 84)",
       "Guardian of Armadyl (level 43) (Safespottable) - only if siding with Lucien",
@@ -1090,11 +985,7 @@
       "Bucket of water (obtainable during quest) Alternatively, a Jug of water, Ice gloves, or Smiths gloves (i)",
       "Alternatively, a Jug of water, Ice gloves, or Smiths gloves (i)"
     ],
-    "rewards": [
-      "v",
-      "t",
-      "e"
-    ],
+    "rewards": [],
     "enemies_to_defeat": []
   },
   {
@@ -1128,11 +1019,7 @@
     "item_requirements": [
       "Excalibur"
     ],
-    "rewards": [
-      "v",
-      "t",
-      "e"
-    ],
+    "rewards": [],
     "enemies_to_defeat": []
   },
   {
@@ -1158,11 +1045,7 @@
       "Combat equipment",
       "Food"
     ],
-    "rewards": [
-      "v",
-      "t",
-      "e"
-    ],
+    "rewards": [],
     "enemies_to_defeat": [
       "Khazard warlord (level 112) (can be safespotted)"
     ]
@@ -1207,11 +1090,7 @@
     "skill_requirements": [],
     "quest_requirements": [],
     "item_requirements": [],
-    "rewards": [
-      "v",
-      "t",
-      "e"
-    ],
+    "rewards": [],
     "enemies_to_defeat": []
   },
   {
@@ -1230,11 +1109,7 @@
     "item_requirements": [
       "100 coins"
     ],
-    "rewards": [
-      "v",
-      "t",
-      "e"
-    ],
+    "rewards": [],
     "enemies_to_defeat": []
   },
   {
@@ -1263,11 +1138,7 @@
       "Snape grass (Spawns west of the Crafting Guild or the peninsula north-east of Hosidius. It can be grown at 61 Farming. Can also be obtained from killing Tribesmen in Karamja.)",
       "Picture of Elena (Inside Alrena and Edmond's house)"
     ],
-    "rewards": [
-      "v",
-      "t",
-      "e"
-    ],
+    "rewards": [],
     "enemies_to_defeat": []
   },
   {
@@ -1292,11 +1163,7 @@
     "item_requirements": [
       "Swamp paste (made by mixing flour with swamp tar then cooking the mixture on a fire; can also be bought from a Trader crewmember for 75 coins, from Rasolo for 60 coins west of the Fishing Guild, or from the Khazard General Store for 42 coins at full stock)"
     ],
-    "rewards": [
-      "v",
-      "t",
-      "e"
-    ],
+    "rewards": [],
     "enemies_to_defeat": []
   },
   {
@@ -1318,11 +1185,7 @@
       "6 Water runes",
       "Rope"
     ],
-    "rewards": [
-      "v",
-      "t",
-      "e"
-    ],
+    "rewards": [],
     "enemies_to_defeat": []
   },
   {
@@ -1350,11 +1213,7 @@
       }
     ],
     "item_requirements": [],
-    "rewards": [
-      "v",
-      "t",
-      "e"
-    ],
+    "rewards": [],
     "enemies_to_defeat": []
   },
   {
@@ -1384,11 +1243,7 @@
     "item_requirements": [
       "1,000 coins if you previously chose not to help Femi on your first entry to the Tree Gnome Stronghold (not required if you never used the gate entrance)"
     ],
-    "rewards": [
-      "v",
-      "t",
-      "e"
-    ],
+    "rewards": [],
     "enemies_to_defeat": [
       "Black demon (level 172) (can be safespotted)"
     ]
@@ -1513,11 +1368,7 @@
       "Ten feathers (30-50+ recommended at lower Fletching levels)",
       "Means to enter the desert, such as the Shantay pass, desert amulet 2, teleport tablets or scrolls, fairy rings or the pharaoh's sceptre"
     ],
-    "rewards": [
-      "v",
-      "t",
-      "e"
-    ],
+    "rewards": [],
     "enemies_to_defeat": [
       "Mercenary Captain (level 47) - safespottable"
     ]
@@ -1581,11 +1432,7 @@
       "Bat bones (obtainable during the quest with a knife or slash weapon, grinding the bat bones before starting the quest to leave the pestle and mortar in the bank is also an option)",
       "Jangerberries (obtainable during the quest)"
     ],
-    "rewards": [
-      "v",
-      "t",
-      "e"
-    ],
+    "rewards": [],
     "enemies_to_defeat": [
       "Gorad (level 68) (safespottable)",
       "Giant bat (level 27) (only if bat bones are needed)"
@@ -1607,11 +1454,7 @@
     "item_requirements": [
       "Hammer (obtained during the quest)"
     ],
-    "rewards": [
-      "v",
-      "t",
-      "e"
-    ],
+    "rewards": [],
     "enemies_to_defeat": []
   },
   {
@@ -1630,11 +1473,7 @@
     "item_requirements": [
       "Pot"
     ],
-    "rewards": [
-      "v",
-      "t",
-      "e"
-    ],
+    "rewards": [],
     "enemies_to_defeat": []
   },
   {
@@ -1679,11 +1518,7 @@
       "Panning tray (obtained during the quest)",
       "Trowel (obtained during the quest)"
     ],
-    "rewards": [
-      "v",
-      "t",
-      "e"
-    ],
+    "rewards": [],
     "enemies_to_defeat": []
   },
   {
@@ -1706,11 +1541,7 @@
       "Raw sardine (can be bought from Gerrant's Fishy Business.)",
       "Doogle leaves (obtainable during the quest)"
     ],
-    "rewards": [
-      "v",
-      "t",
-      "e"
-    ],
+    "rewards": [],
     "enemies_to_defeat": []
   },
   {
@@ -1862,11 +1693,7 @@
       "Charcoal (2-3 in case it breaks -- obtainable during the quest if travelling via Shilo Village)",
       "3 Papyrus (4-5 in case one is torn -- obtainable during the quest if travelling via Shilo Village or from the spawn on Radimus's desk)"
     ],
-    "rewards": [
-      "v",
-      "t",
-      "e"
-    ],
+    "rewards": [],
     "enemies_to_defeat": [
       "Ranalph Devere (level 92) — 2 times",
       "Irvig Senay (level 100) — 2 times",
@@ -1894,11 +1721,7 @@
       "Iron bar",
       "Asgarnian ale (can be found on the bar at the pub in Burthorpe)"
     ],
-    "rewards": [
-      "v",
-      "t",
-      "e"
-    ],
+    "rewards": [],
     "enemies_to_defeat": []
   },
   {
@@ -1943,11 +1766,7 @@
       "Pestle and mortar",
       "Ranarr potion (unf)"
     ],
-    "rewards": [
-      "v",
-      "t",
-      "e"
-    ],
+    "rewards": [],
     "enemies_to_defeat": []
   },
   {
@@ -1978,12 +1797,7 @@
         "boostable": false
       }
     ],
-    "quest_requirements": [
-      {
-        "name": "wolves",
-        "url": "https://oldschool.runescape.wiki/w/Wolves"
-      }
-    ],
+    "quest_requirements": [],
     "item_requirements": [
       "Any axe that you can use (Blessed axe does not work)",
       "Feathers (100 to be safe; coloured feathers from Hunter work) Bringing 50 to buy 25 feathers from Fycie also works",
@@ -1998,11 +1812,7 @@
       "Equa leaves (obtainable during the quest)",
       "Doogle leaves (obtainable during the quest)"
     ],
-    "rewards": [
-      "v",
-      "t",
-      "e"
-    ],
+    "rewards": [],
     "enemies_to_defeat": [
       "Chompy bird (level 6)",
       "Wolves (level 64) (optional)"
@@ -2046,11 +1856,7 @@
       "Hammer",
       "4 coal (4 more for each additional bar you would like to produce)"
     ],
-    "rewards": [
-      "v",
-      "t",
-      "e"
-    ],
+    "rewards": [],
     "enemies_to_defeat": [
       "Earth elemental (level 35)"
     ]
@@ -2073,11 +1879,7 @@
       "Ghostspeak amulet",
       "6 empty inventory spaces"
     ],
-    "rewards": [
-      "v",
-      "t",
-      "e"
-    ],
+    "rewards": [],
     "enemies_to_defeat": [
       "3 Ghasts (level 30)"
     ]
@@ -2099,11 +1901,7 @@
       "50 unnoted rune essence or pure essence (can be mined by talking to Aubury in Varrock, after completing Rune Mysteries. All 50 essence do not have to be of the same type) (does not needed to be handed in all at once; multiple trips can be made.)",
       "Bucket (obtainable during the quest from Varrock general store for 2 coins)"
     ],
-    "rewards": [
-      "v",
-      "t",
-      "e"
-    ],
+    "rewards": [],
     "enemies_to_defeat": [
       "Temple guardian dog (level 30) - can be safespotted or flinched, immune to Magic",
       "Monk of Zamorak (level 30) - can be safespotted or flinched"
@@ -2163,11 +1961,7 @@
       "Pot (obtainable during quest)",
       "Cooked rabbit (obtainable during quest) or roast rabbit"
     ],
-    "rewards": [
-      "v",
-      "t",
-      "e"
-    ],
+    "rewards": [],
     "enemies_to_defeat": [
       "Tyras guard (level 110) Safespottable"
     ]
@@ -2224,11 +2018,7 @@
       "Seaweed (obtainable during the quest)",
       "Karamjan rum or 30 coins to purchase (if obtaining the rum before starting, add the sliced banana or the rum will disappear when you leave the island)"
     ],
-    "rewards": [
-      "v",
-      "t",
-      "e"
-    ],
+    "rewards": [],
     "enemies_to_defeat": [
       "Monkey (level 3)"
     ]
@@ -2260,11 +2050,7 @@
     "item_requirements": [
       "Climbing boots or 12 coins to buy them"
     ],
-    "rewards": [
-      "v",
-      "t",
-      "e"
-    ],
+    "rewards": [],
     "enemies_to_defeat": [
       "Dad (level 101) (can be safespotted)",
       "Troll General (level 113) (can be safespotted)",
@@ -2322,11 +2108,7 @@
       "1 hammer Using a Flamtaer hammer is highly recommended in case the minigame is unpopulated, as a regular hammer is insufficient to build the temple alone. An additional 13,000 coins (or 5,400 on the Grand Exchange) allows you to buy a Flamtaer hammer from Razmire.",
       "Using a Flamtaer hammer is highly recommended in case the minigame is unpopulated, as a regular hammer is insufficient to build the temple alone. An additional 13,000 coins (or 5,400 on the Grand Exchange) allows you to buy a Flamtaer hammer from Razmire."
     ],
-    "rewards": [
-      "v",
-      "t",
-      "e"
-    ],
+    "rewards": [],
     "enemies_to_defeat": [
       "5 Loar Shades (level 40)"
     ]
@@ -2347,10 +2129,6 @@
       {
         "name": "Draugen",
         "url": "https://oldschool.runescape.wiki/w/Draugen"
-      },
-      {
-        "name": "fairly strong warrior",
-        "url": "https://oldschool.runescape.wiki/w/Koschei"
       }
     ],
     "item_requirements": [
@@ -2468,11 +2246,7 @@
       "A harpoon or lobster pot and 35 Fishing to fish tuna, lobsters or swordfish",
       "Logs (obtainable during the quest if you bring an axe)"
     ],
-    "rewards": [
-      "v",
-      "t",
-      "e"
-    ],
+    "rewards": [],
     "enemies_to_defeat": []
   },
   {
@@ -2508,11 +2282,7 @@
       "Monkey bones or corpse from Karamja (obtainable during quest)",
       "Five bananas (obtainable during quest)"
     ],
-    "rewards": [
-      "v",
-      "t",
-      "e"
-    ],
+    "rewards": [],
     "enemies_to_defeat": [
       "Jungle Demon (level 195)"
     ]
@@ -2548,11 +2318,7 @@
     "item_requirements": [
       "A chisel (obtainable during the quest)"
     ],
-    "rewards": [
-      "v",
-      "t",
-      "e"
-    ],
+    "rewards": [],
     "enemies_to_defeat": [
       "Treus Dayth (level 95)"
     ]
@@ -2583,10 +2349,6 @@
       {
         "name": "Death Plateau",
         "url": "https://oldschool.runescape.wiki/w/Death_Plateau"
-      },
-      {
-        "name": "troll",
-        "url": "https://oldschool.runescape.wiki/w/Arrg"
       }
     ],
     "item_requirements": [
@@ -2599,11 +2361,7 @@
       "A cake tin",
       "Swamp tar"
     ],
-    "rewards": [
-      "v",
-      "t",
-      "e"
-    ],
+    "rewards": [],
     "enemies_to_defeat": []
   },
   {
@@ -2636,10 +2394,6 @@
       {
         "name": "The Restless Ghost",
         "url": "https://oldschool.runescape.wiki/w/The_Restless_Ghost"
-      },
-      {
-        "name": "safespottable",
-        "url": "https://oldschool.runescape.wiki/w/Safespot"
       }
     ],
     "item_requirements": [
@@ -2656,11 +2410,7 @@
       "6 normal planks",
       "10 coins or a ring of charos (a)"
     ],
-    "rewards": [
-      "v",
-      "t",
-      "e"
-    ],
+    "rewards": [],
     "enemies_to_defeat": [
       "Skeleton Hellhound (level 97) - safespottable"
     ]
@@ -2703,11 +2453,7 @@
       "Spade",
       "50 coins OR 1 law & 1 air rune for Telekinetic Grab (requires 33 Magic)"
     ],
-    "rewards": [
-      "v",
-      "t",
-      "e"
-    ],
+    "rewards": [],
     "enemies_to_defeat": [
       "Experiment (level 51) - can be safespotted or flinched"
     ]
@@ -2750,10 +2496,6 @@
       {
         "name": "Waterfall Quest",
         "url": "https://oldschool.runescape.wiki/w/Waterfall_Quest"
-      },
-      {
-        "name": "heavy restrictions",
-        "url": "https://oldschool.runescape.wiki/w/Glarial%27s_Tomb#Restricted_items"
       }
     ],
     "item_requirements": [
@@ -2762,11 +2504,7 @@
       "Spade",
       "Rope"
     ],
-    "rewards": [
-      "v",
-      "t",
-      "e"
-    ],
+    "rewards": [],
     "enemies_to_defeat": [
       "Moss Guardian (level 84) (has to be killed with restricted items, can be flinched)"
     ]
@@ -2825,11 +2563,7 @@
       "Nettles (obtainable during the quest)",
       "Bowl of water (empty bowl can be purchased during quest -- the gold bowl won't work)"
     ],
-    "rewards": [
-      "v",
-      "t",
-      "e"
-    ],
+    "rewards": [],
     "enemies_to_defeat": [
       "Giant lobster (level 32) Can be safespotted."
     ]
@@ -2941,12 +2675,7 @@
         "boostable": true
       }
     ],
-    "quest_requirements": [
-      {
-        "name": "monster",
-        "url": "https://oldschool.runescape.wiki/w/The_Kendal"
-      }
-    ],
+    "quest_requirements": [],
     "item_requirements": [
       "Rope",
       "Pickaxe",
@@ -3007,11 +2736,7 @@
       "An ammo mould (can be bought for 5 coins during the quest) or a double ammo mould",
       "~830 coins (for cart and ferry)"
     ],
-    "rewards": [
-      "v",
-      "t",
-      "e"
-    ],
+    "rewards": [],
     "enemies_to_defeat": [
       "Scorpion(s) (level 14)",
       "Arzinian Being of Bordanzan (level 75-125)"
@@ -3035,12 +2760,7 @@
         "boostable": false
       }
     ],
-    "quest_requirements": [
-      {
-        "name": "bandit",
-        "url": "https://oldschool.runescape.wiki/w/Bandit_champion"
-      }
-    ],
+    "quest_requirements": [],
     "item_requirements": [
       "501+ coins",
       "Gloves - (see this page for gloves that do work; Barrows gloves, ice gloves, vambraces, and Slayer gloves do not work!)",
@@ -3052,11 +2772,7 @@
       "If you have the snake charm in your bank already, you will need to retrieve it.",
       "Snake basket (obtainable during quest by putting a coin in the snake charmer's money pot, whether or not you have one in your bank)"
     ],
-    "rewards": [
-      "v",
-      "t",
-      "e"
-    ],
+    "rewards": [],
     "enemies_to_defeat": [
       "Bandit champion (level 70)",
       "Tough Guy (level 75)"
@@ -3094,11 +2810,7 @@
       "Phoenix feather (can be obtained north-west of the ruins)",
       "Means to enter the desert (such as the Shantay pass, Teleport tablets or scrolls, Fairy rings or the Pharaoh's sceptre)"
     ],
-    "rewards": [
-      "v",
-      "t",
-      "e"
-    ],
+    "rewards": [],
     "enemies_to_defeat": []
   },
   {
@@ -3279,11 +2991,7 @@
       "Pickaxe",
       "Rope (if you have not yet entered the Lumbridge Swamp Caves)"
     ],
-    "rewards": [
-      "v",
-      "t",
-      "e"
-    ],
+    "rewards": [],
     "enemies_to_defeat": []
   },
   {
@@ -3328,11 +3036,7 @@
       "Pickaxe",
       "Light source (Note: Candles, torches, and oil lamps can cause swamp gas explosions if going off-route, and need a tinderbox to stay lit)"
     ],
-    "rewards": [
-      "v",
-      "t",
-      "e"
-    ],
+    "rewards": [],
     "enemies_to_defeat": []
   },
   {
@@ -3498,11 +3202,7 @@
       "Barrel of naphtha, or 5-9 coal to make one",
       "7 empty inventory spaces for the Mourner gear"
     ],
-    "rewards": [
-      "v",
-      "t",
-      "e"
-    ],
+    "rewards": [],
     "enemies_to_defeat": []
   },
   {
@@ -3606,11 +3306,7 @@
       "A filled plant pot",
       "2 ultracompost/supercompost/compost (note: Bottomless compost bucket will not work for these two required composts. The quality of these 2 composts do not matter.)"
     ],
-    "rewards": [
-      "v",
-      "t",
-      "e"
-    ],
+    "rewards": [],
     "enemies_to_defeat": []
   },
   {
@@ -3722,11 +3418,7 @@
       "The player must deliver all 20 rune essence at once",
       "Light source (Note: Candles, torches and oil lamps can cause swamp gas explosions if going off-route, and need a tinderbox to stay lit)"
     ],
-    "rewards": [
-      "v",
-      "t",
-      "e"
-    ],
+    "rewards": [],
     "enemies_to_defeat": [
       "Black Knight (level 32)",
       "Solus Dellagar"
@@ -3854,10 +3546,6 @@
       {
         "name": "Priest in Peril",
         "url": "https://oldschool.runescape.wiki/w/Priest_in_Peril"
-      },
-      {
-        "name": "combat level",
-        "url": "https://oldschool.runescape.wiki/w/Combat_level"
       }
     ],
     "item_requirements": [
@@ -3951,11 +3639,7 @@
       "1 bone, 1 pot and 1 bucket to earn 5 ecto-tokens (you still only need two) or",
       "5,200 gold for a Charter ship to Port Phasmatys (cheaper depending upon where you travel from and if you use ring of charos)."
     ],
-    "rewards": [
-      "v",
-      "t",
-      "e"
-    ],
+    "rewards": [],
     "enemies_to_defeat": []
   },
   {
@@ -4059,11 +3743,7 @@
       "Any pickaxe that you have the Mining level to use (a bronze pickaxe can be obtained during the quest)",
       "Some form of Ranged or Magic attack method, (a shortbow and bronze arrows can be obtained during the quest)"
     ],
-    "rewards": [
-      "v",
-      "t",
-      "e"
-    ],
+    "rewards": [],
     "enemies_to_defeat": [
       "Black golem (level 75)",
       "Grey golem (level 75)",
@@ -4192,11 +3872,7 @@
       "5 earth runes (can be bought from Betty for 20 gp)",
       "Bucket of sand (obtainable during quest if you bring a bucket)"
     ],
-    "rewards": [
-      "v",
-      "t",
-      "e"
-    ],
+    "rewards": [],
     "enemies_to_defeat": []
   },
   {
@@ -4232,12 +3908,7 @@
         "boostable": true
       }
     ],
-    "quest_requirements": [
-      {
-        "name": "standard spellbook",
-        "url": "https://oldschool.runescape.wiki/w/Standard_spellbook"
-      }
-    ],
+    "quest_requirements": [],
     "item_requirements": [
       "Chisel",
       "One of the following: bread, any kind of pie, cake or chocolate cake, any kind of pizza, or a baked potato with topping (partial pies, cakes and pizzas do not work, and neither will burnt versions)",
@@ -4257,11 +3928,7 @@
       "Runes to cast Crumble Undead (multiple casts recommended in case of splashing)",
       "Enough remaining Prayer points to cast Protect from Melee for about five seconds"
     ],
-    "rewards": [
-      "v",
-      "t",
-      "e"
-    ],
+    "rewards": [],
     "enemies_to_defeat": []
   },
   {
@@ -4328,11 +3995,7 @@
       }
     ],
     "item_requirements": [],
-    "rewards": [
-      "v",
-      "t",
-      "e"
-    ],
+    "rewards": [],
     "enemies_to_defeat": [
       "Pirates (level 57)"
     ]
@@ -4810,11 +4473,7 @@
       "Rope",
       "A weapon"
     ],
-    "rewards": [
-      "v",
-      "t",
-      "e"
-    ],
+    "rewards": [],
     "enemies_to_defeat": [
       "7-8 angry unicorns, angry bears, angry giant rats, and/or angry goblins",
       "5 fear reapers (level 42)",
@@ -4842,11 +4501,7 @@
       "8 logs of any type (or an axe to obtain them)",
       "Tinderbox"
     ],
-    "rewards": [
-      "v",
-      "t",
-      "e"
-    ],
+    "rewards": [],
     "enemies_to_defeat": []
   },
   {
@@ -4933,10 +4588,6 @@
       {
         "name": "The Restless Ghost",
         "url": "https://oldschool.runescape.wiki/w/The_Restless_Ghost"
-      },
-      {
-        "name": "combat level",
-        "url": "https://oldschool.runescape.wiki/w/Combat_level"
       }
     ],
     "item_requirements": [
@@ -5023,11 +4674,7 @@
       "2 rope (obtainable during the quest)",
       "1 plank (obtainable during the quest)"
     ],
-    "rewards": [
-      "v",
-      "t",
-      "e"
-    ],
+    "rewards": [],
     "enemies_to_defeat": []
   },
   {
@@ -5076,11 +4723,7 @@
       "2 full sets of H.A.M. robes (all 7 pieces) (chance to receive robes is significantly higher during the quest)[1]",
       "Pickaxe (if not using a games necklace to teleport to Tears of Guthix - only usable after you have completed the Tears of Guthix quest)"
     ],
-    "rewards": [
-      "v",
-      "t",
-      "e"
-    ],
+    "rewards": [],
     "enemies_to_defeat": [
       "Sigmund (level 50)",
       "3 H.A.M. Guards (level 22) (optional)"
@@ -5222,10 +4865,6 @@
       {
         "name": "Druidic Ritual",
         "url": "https://oldschool.runescape.wiki/w/Druidic_Ritual"
-      },
-      {
-        "name": "runic altars",
-        "url": "https://oldschool.runescape.wiki/w/Runic_altars"
       }
     ],
     "item_requirements": [
@@ -5244,11 +4883,7 @@
       "A dramen staff",
       "Combat equipment"
     ],
-    "rewards": [
-      "v",
-      "t",
-      "e"
-    ],
+    "rewards": [],
     "enemies_to_defeat": [
       "Multiple Suqah (level 111)",
       "Me (level 79)"
@@ -5746,11 +5381,7 @@
       "Holy symbol",
       "Polished buttons"
     ],
-    "rewards": [
-      "v",
-      "t",
-      "e"
-    ],
+    "rewards": [],
     "enemies_to_defeat": []
   },
   {
@@ -5832,12 +5463,7 @@
         "boostable": false
       }
     ],
-    "quest_requirements": [
-      {
-        "name": "crafting table 3",
-        "url": "https://oldschool.runescape.wiki/w/Crafting_table_3"
-      }
-    ],
+    "quest_requirements": [],
     "item_requirements": [
       "10 oak planks",
       "10 steel nails",
@@ -5990,10 +5616,6 @@
         "url": "https://oldschool.runescape.wiki/w/Cook%27s_Assistant"
       },
       {
-        "name": "player-owned house",
-        "url": "https://oldschool.runescape.wiki/w/Player-owned_house"
-      },
-      {
         "name": "Prayers",
         "url": "https://oldschool.runescape.wiki/w/Prayer"
       }
@@ -6054,11 +5676,7 @@
       "15 chaos runes",
       "Access to the Chaos Altar (Chaos talisman or tiara, Catalytic talisman or tiara, or travelling through the Abyss or Temple of the Eye)"
     ],
-    "rewards": [
-      "v",
-      "t",
-      "e"
-    ],
+    "rewards": [],
     "enemies_to_defeat": [
       "5 Outlaws (level 32)",
       "King Roald (level 47)"
@@ -6162,11 +5780,7 @@
       "Specimen brush (obtained during the quest)",
       "Magic or Ranged gear for enemy fight (cannot use Melee on them)"
     ],
-    "rewards": [
-      "v",
-      "t",
-      "e"
-    ],
+    "rewards": [],
     "enemies_to_defeat": [
       "H.A.M. Archer (level 30)",
       "H.A.M. Mage (level 30)",
@@ -6444,11 +6058,7 @@
       "Chisel (can be purchased at the store north of Tai Bwo Wannai for 1 coins)",
       "3 regular bones (obtainable during the quest)"
     ],
-    "rewards": [
-      "v",
-      "t",
-      "e"
-    ],
+    "rewards": [],
     "enemies_to_defeat": [
       "Nazastarool in 3 forms, levels 91, 68, and 93. (safespottable)"
     ]
@@ -6503,11 +6113,7 @@
       "Saw (or crystal saw)",
       "Beer (must be a regular beer - other beers do not work.)"
     ],
-    "rewards": [
-      "v",
-      "t",
-      "e"
-    ],
+    "rewards": [],
     "enemies_to_defeat": []
   },
   {
@@ -6568,11 +6174,7 @@
       "Fishing explosives",
       "Mirror shield or V's shield (unless using a workaround - see guide for how to get around using this)"
     ],
-    "rewards": [
-      "v",
-      "t",
-      "e"
-    ],
+    "rewards": [],
     "enemies_to_defeat": []
   },
   {
@@ -7015,11 +6617,7 @@
       "Hammer",
       "Feathers (4 per 1 brutal arrow)"
     ],
-    "rewards": [
-      "v",
-      "t",
-      "e"
-    ],
+    "rewards": [],
     "enemies_to_defeat": [
       "Slash Bash (level 111) (can be safespotted)",
       "Zombie (level 39)"
@@ -7227,11 +6825,7 @@
       "2 vodka",
       "Marrentill potion (unf)"
     ],
-    "rewards": [
-      "v",
-      "t",
-      "e"
-    ],
+    "rewards": [],
     "enemies_to_defeat": []
   },
   {
@@ -7602,10 +7196,6 @@
       {
         "name": "Fishing Contest",
         "url": "https://oldschool.runescape.wiki/w/Fishing_Contest"
-      },
-      {
-        "name": "icefiend",
-        "url": "https://oldschool.runescape.wiki/w/Icefiend"
       }
     ],
     "item_requirements": [
@@ -9203,11 +8793,7 @@
       "Rope",
       "Knife or a slash weapon (except abyssal whip, abyssal tentacle, noxious halberd, or dragon claws) (obtainable during the quest)"
     ],
-    "rewards": [
-      "v",
-      "t",
-      "e"
-    ],
+    "rewards": [],
     "enemies_to_defeat": []
   },
   {
@@ -9374,11 +8960,7 @@
       "Spade (obtainable during quest)",
       "Any cooked or raw meat (fish, raw bird meat, raw yak meat, raw pyre fox, raw chompy, and raw t-bone steak will not work; purchasable from shop during quest)"
     ],
-    "rewards": [
-      "v",
-      "t",
-      "e"
-    ],
+    "rewards": [],
     "enemies_to_defeat": [
       "Head Menaphite Guard (level 174) without the use of protection prayers",
       "Two Scarab Mages (level 119)",
@@ -9523,11 +9105,7 @@
       "Chisel",
       "1 bucket of water (Obtainable during quest) or ice gloves"
     ],
-    "rewards": [
-      "v",
-      "t",
-      "e"
-    ],
+    "rewards": [],
     "enemies_to_defeat": []
   },
   {
@@ -10031,11 +9609,7 @@
       "Lockpick (Strange Old Lockpick does NOT work)",
       "Tinderbox (obtainable during the quest)"
     ],
-    "rewards": [
-      "v",
-      "t",
-      "e"
-    ],
+    "rewards": [],
     "enemies_to_defeat": [
       "Evelot (level 148)",
       "Assassin (level 262)",
@@ -10056,11 +9630,7 @@
     "skill_requirements": [],
     "quest_requirements": [],
     "item_requirements": [],
-    "rewards": [
-      "v",
-      "t",
-      "e"
-    ],
+    "rewards": [],
     "enemies_to_defeat": []
   },
   {
@@ -10118,11 +9688,7 @@
       "Pestle and mortar (obtainable during quest)",
       "Combat equipment for multiple PvM encounters."
     ],
-    "rewards": [
-      "v",
-      "t",
-      "e"
-    ],
+    "rewards": [],
     "enemies_to_defeat": [
       "Sulphur Nagua (level 98)",
       "Blue Moon (level 329)",
@@ -10186,11 +9752,7 @@
     "item_requirements": [
       "Items for two different combat classes or a poisoned weapon (be warned that the poison method is much slower)."
     ],
-    "rewards": [
-      "v",
-      "t",
-      "e"
-    ],
+    "rewards": [],
     "enemies_to_defeat": [
       "Knight of Varlamore (level 81)",
       "8 cultists (level 34)"
@@ -10240,11 +9802,7 @@
       "2 jerboa tails (obtainable during quest) or a Box trap (can be bought from Imia's Supplies nearby)",
       "or a Box trap (can be bought from Imia's Supplies nearby)"
     ],
-    "rewards": [
-      "v",
-      "t",
-      "e"
-    ],
+    "rewards": [],
     "enemies_to_defeat": []
   },
   {
@@ -10294,11 +9852,7 @@
       "30 coins",
       "Up to 4 empty inventory slots"
     ],
-    "rewards": [
-      "v",
-      "t",
-      "e"
-    ],
+    "rewards": [],
     "enemies_to_defeat": [
       "Several Emissary Brawlers (levels 74 and 86)",
       "Several Emissary Conjurers (level 71)",
@@ -10336,11 +9890,7 @@
       }
     ],
     "item_requirements": [],
-    "rewards": [
-      "v",
-      "t",
-      "e"
-    ],
+    "rewards": [],
     "enemies_to_defeat": []
   },
   {
@@ -10362,11 +9912,7 @@
       }
     ],
     "item_requirements": [],
-    "rewards": [
-      "v",
-      "t",
-      "e"
-    ],
+    "rewards": [],
     "enemies_to_defeat": [
       "Dire Wolf Alpha (level 113)",
       "Minotaur (level 193)"
@@ -10538,11 +10084,7 @@
       "Redberry pie",
       "Captain's log"
     ],
-    "rewards": [
-      "v",
-      "t",
-      "e"
-    ],
+    "rewards": [],
     "enemies_to_defeat": [
       "Drink troll (level 14) - can be skipped"
     ]
@@ -10575,11 +10117,7 @@
       "Charcoal (obtainable during quest)",
       "50 Coins"
     ],
-    "rewards": [
-      "v",
-      "t",
-      "e"
-    ],
+    "rewards": [],
     "enemies_to_defeat": []
   },
   {
@@ -10631,11 +10169,7 @@
       "Hammer (obtainable during the quest) or Imcando hammer",
       "Saw (obtainable during the quest) or Amy's saw"
     ],
-    "rewards": [
-      "v",
-      "t",
-      "e"
-    ],
+    "rewards": [],
     "enemies_to_defeat": [
       "Gryphon (level 95)",
       "Shellbane gryphon (level 235)"
@@ -10742,11 +10276,7 @@
       "Fishing rod (obtainable during quest) (Oily fishing rod, Pearl fishing rod, or Barbarian rod also works)",
       "Hammer (obtainable during quest)"
     ],
-    "rewards": [
-      "v",
-      "t",
-      "e"
-    ],
+    "rewards": [],
     "enemies_to_defeat": []
   },
   {
@@ -10815,11 +10345,7 @@
     "item_requirements": [
       "208 coins to buy all the required alcohol"
     ],
-    "rewards": [
-      "v",
-      "t",
-      "e"
-    ],
+    "rewards": [],
     "enemies_to_defeat": []
   },
   {
@@ -11056,11 +10582,7 @@
     "item_requirements": [
       "100 coins required each time you use the banker Odovacar (optional)"
     ],
-    "rewards": [
-      "v",
-      "t",
-      "e"
-    ],
+    "rewards": [],
     "enemies_to_defeat": []
   },
   {
@@ -11080,11 +10602,7 @@
       "Spade",
       "Dusty key or 70/80 Agility [boostable] or Key master teleport"
     ],
-    "rewards": [
-      "v",
-      "t",
-      "e"
-    ],
+    "rewards": [],
     "enemies_to_defeat": []
   },
   {
@@ -11104,11 +10622,7 @@
       "Enchanted key (remove from your steel key ring if you previously put it there)",
       "Spade"
     ],
-    "rewards": [
-      "v",
-      "t",
-      "e"
-    ],
+    "rewards": [],
     "enemies_to_defeat": []
   },
   {
@@ -11134,11 +10648,7 @@
       "Runes or a powered staff to fight Kolodion",
       "Something to cut webs (knife, slash weapon, or any Wilderness sword)"
     ],
-    "rewards": [
-      "v",
-      "t",
-      "e"
-    ],
+    "rewards": [],
     "enemies_to_defeat": []
   },
   {
@@ -11374,11 +10884,7 @@
       }
     ],
     "item_requirements": [],
-    "rewards": [
-      "v",
-      "t",
-      "e"
-    ],
+    "rewards": [],
     "enemies_to_defeat": [
       "Note: This section assumes the raid level is 0 (no invocations).",
       "Akkha (level 337)",
@@ -11411,11 +10917,7 @@
       "Combat equipment to defeat the Barrows Brothers",
       "Spade"
     ],
-    "rewards": [
-      "v",
-      "t",
-      "e"
-    ],
+    "rewards": [],
     "enemies_to_defeat": [
       "Verac the Defiled (level 115)",
       "Dharok the Wretched (level 115)",
@@ -11458,11 +10960,7 @@
       "Knife (obtainable during the quest)",
       "Four fletched items of the same type of wood as the logs, such as unstrung longbows or shields (obtainable during the quest)"
     ],
-    "rewards": [
-      "v",
-      "t",
-      "e"
-    ],
+    "rewards": [],
     "enemies_to_defeat": []
   }
 ]
