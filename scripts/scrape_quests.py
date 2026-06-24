@@ -14,11 +14,6 @@ def get_tables_after_heading(soup, heading_text):
     """Geeft ALLE tabellen terug na een heading, tot de volgende h2."""
     h2 = soup.find("h2", id=heading_text)
     if not h2:
-        # Debug: print alle h2 IDs die "embers" bevatten
-        for tag in soup.find_all("h2"):
-            tag_id = tag.get("id", "")
-            if "embers" in tag_id:
-                print(f"[DEBUG] Gevonden h2 id: {repr(tag_id)}")
         raise Exception(f"Heading '{heading_text}' niet gevonden")
 
     tables = []
@@ -44,8 +39,23 @@ def parse_quest_table(table, category):
     for row in rows[1:]:
         cols = row.find_all("td")
 
-        # Free-to-play / Members: id, name, difficulty, length, qp, series, release_date (7 cols)
+        # Free-to-play: id, name, difficulty, length, qp, series, release_date (7 cols)
         if len(cols) == 7:
+            link = cols[1].find("a")
+            quests.append({
+                "category": category,
+                "id": clean(cols[0].get_text()),
+                "name": clean(cols[1].get_text()),
+                "difficulty": clean(cols[2].get_text()),
+                "length": clean(cols[3].get_text()),
+                "quest_points": clean(cols[4].get_text()),
+                "series": clean(cols[5].get_text()),
+                "release_date": clean(cols[6].get_text()),
+                "url": BASE_URL + link["href"] if link else ""
+            })
+
+        # Members: 8 kolommen, laatste overslaan
+        elif len(cols) == 8:
             link = cols[1].find("a")
             quests.append({
                 "category": category,
@@ -87,13 +97,12 @@ response.raise_for_status()
 
 soup = BeautifulSoup(response.text, "html.parser")
 
-# Zoek de exacte members heading ID op
+# Zoek de exacte members heading ID dynamisch op
 members_heading = None
 for h2 in soup.find_all("h2"):
     h2_id = h2.get("id", "")
     if "embers" in h2_id:
         members_heading = h2_id
-        print(f"[DEBUG] Members heading gevonden: {repr(members_heading)}")
         break
 
 if not members_heading:
@@ -107,15 +116,11 @@ for heading, category in [
     ("Miniquests", "miniquest"),
 ]:
     tables = get_tables_after_heading(soup, heading)
-    print(f"[DEBUG] '{heading}': {len(tables)} tabel(len) gevonden")
-    for i, t in enumerate(tables):
-        rows = t.find_all("tr")
-        cols_sample = len(rows[1].find_all("td")) if len(rows) > 1 else 0
+    for t in tables:
         parsed = parse_quest_table(t, category)
-        print(f"  Tabel {i+1}: {len(rows)} rijen, {cols_sample} kolommen -> {len(parsed)} quests")
         all_quests.extend(parsed)
 
 with open("data/quests.json", "w", encoding="utf-8") as f:
     json.dump(all_quests, f, indent=2, ensure_ascii=False)
 
-print(f"\nSaved {len(all_quests)} quests")
+print(f"Saved {len(all_quests)} quests")
