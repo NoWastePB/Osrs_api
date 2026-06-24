@@ -61,7 +61,7 @@ def parse_table(table, category):
 
 
 headers = {
-    "User-Agent": "Mozilla/5.0"
+    "User-Agent": "OsrsQuestScraper/1.0 (contact: jouw@email.com)"
 }
 
 response = requests.get(URL, headers=headers, timeout=30)
