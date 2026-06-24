@@ -11,15 +11,12 @@ def clean(text):
 
 
 def get_table_after_heading(soup, heading_text):
-    span = soup.find("span", id=heading_text)
-    if not span:
+    h2 = soup.find("h2", id=heading_text)
+    if not h2:
         raise Exception(f"Heading '{heading_text}' niet gevonden")
 
-    h2 = span.find_parent("h2")
-    if not h2:
-        raise Exception(f"Geen h2 gevonden voor '{heading_text}'")
-
-    current = h2.find_next_sibling()
+    current = h2.parent  # de <div class="mw-heading mw-heading2">
+    current = current.find_next_sibling()
     while current:
         if current.name == "table":
             return current
@@ -31,7 +28,6 @@ def get_table_after_heading(soup, heading_text):
         current = current.find_next_sibling()
 
     raise Exception(f"Tabel na '{heading_text}' niet gevonden")
-
 
 def parse_table(table, category):
     quests = []
