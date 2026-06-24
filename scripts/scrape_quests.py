@@ -16,25 +16,43 @@ def get_table_after_heading(soup, heading_text):
         raise Exception(f"Heading '{heading_text}' niet gevonden")
 
     current = h2.parent  # de <div class="mw-heading mw-heading2">
+    print(f"\n[DEBUG] Gevonden heading: '{heading_text}'")
+    print(f"[DEBUG] Parent tag: <{current.name} class='{current.get('class')}'>")
+
+    sibling_count = 0
     current = current.find_next_sibling()
     while current:
+        sibling_count += 1
+        print(f"[DEBUG]   Sibling #{sibling_count}: <{current.name}> class='{current.get('class', '')}'")
+
         if current.name == "table":
+            print(f"[DEBUG]   -> Directe tabel gevonden!")
             return current
+
         table = current.find("table")
         if table:
+            print(f"[DEBUG]   -> Tabel gevonden binnen <{current.name}>")
             return table
-        if current.name in ("h2", "h3"):
+
+        if current.name == "div" and "mw-heading" in " ".join(current.get("class", [])):
+            print(f"[DEBUG]   -> Volgende heading bereikt, stoppen")
             break
+
         current = current.find_next_sibling()
 
     raise Exception(f"Tabel na '{heading_text}' niet gevonden")
 
+
 def parse_table(table, category):
     quests = []
     rows = table.find_all("tr")
-    for row in rows[1:]:
+    print(f"\n[DEBUG] parse_table '{category}': {len(rows)} rijen gevonden")
+
+    for i, row in enumerate(rows[1:], start=1):
         cols = row.find_all("td")
+        print(f"[DEBUG]   Rij {i}: {len(cols)} kolommen | tekst: {[clean(c.get_text())[:20] for c in cols[:3]]}")
         if len(cols) < 7:
+            print(f"[DEBUG]   -> Overgeslagen (minder dan 7 kolommen)")
             continue
         link = cols[1].find("a")
         quest = {
@@ -49,7 +67,10 @@ def parse_table(table, category):
             "url": BASE_URL + link["href"] if link else ""
         }
         quests.append(quest)
+
+    print(f"[DEBUG]   -> {len(quests)} quests geparsed voor '{category}'")
     return quests
+
 
 headers = {
     "User-Agent": "OsrsQuestScraper/1.0 (contact: jouw@email.com)"
@@ -60,6 +81,11 @@ print("Status:", response.status_code)
 response.raise_for_status()
 
 soup = BeautifulSoup(response.text, "html.parser")
+
+# Debug: print alle h2 IDs op de pagina
+print("\n[DEBUG] Alle h2 elementen op de pagina:")
+for h2 in soup.find_all("h2"):
+    print(f"  id='{h2.get('id')}' | tekst='{h2.get_text().strip()}'")
 
 free_table = get_table_after_heading(soup, "Free-to-play_quests")
 members_table = get_table_after_heading(soup, "Members'_quests")
@@ -73,4 +99,4 @@ all_quests.extend(parse_table(miniquests_table, "miniquest"))
 with open("data/quests.json", "w", encoding="utf-8") as f:
     json.dump(all_quests, f, indent=2, ensure_ascii=False)
 
-print(f"Saved {len(all_quests)} quests")
+print(f"\nSaved {len(all_quests)} quests")
