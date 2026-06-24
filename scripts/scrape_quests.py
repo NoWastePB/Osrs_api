@@ -54,7 +54,7 @@ def parse_quest_table(table, category):
                 "url": BASE_URL + link["href"] if link else ""
             })
 
-        # Members: 8 kolommen, laatste overslaan
+        # Members: id, name, difficulty, length, qp, series, release_date + 1 extra (8 cols)
         elif len(cols) == 8:
             link = cols[1].find("a")
             quests.append({
@@ -69,7 +69,22 @@ def parse_quest_table(table, category):
                 "url": BASE_URL + link["href"] if link else ""
             })
 
-        # Miniquests: name, difficulty, length, qp, series, release_date (6 cols)
+        # Miniquests: name, difficulty, length, qp, release_date (geen id, geen series)
+        elif len(cols) == 5:
+            link = cols[0].find("a")
+            quests.append({
+                "category": category,
+                "id": "",
+                "name": clean(cols[0].get_text()),
+                "difficulty": clean(cols[1].get_text()),
+                "length": clean(cols[2].get_text()),
+                "quest_points": clean(cols[3].get_text()),
+                "series": "",
+                "release_date": clean(cols[4].get_text()),
+                "url": BASE_URL + link["href"] if link else ""
+            })
+
+        # Miniquests met series kolom: name, difficulty, length, qp, series, release_date (6 cols)
         elif len(cols) == 6:
             link = cols[0].find("a")
             quests.append({
