@@ -11,38 +11,36 @@ def clean(text):
 
 
 def get_table_after_heading(soup, heading_text):
-    h2 = soup.find("h2", id=heading_text)
-
-    if not h2:
+    span = soup.find("span", id=heading_text)
+    if not span:
         raise Exception(f"Heading '{heading_text}' niet gevonden")
 
-    current = h2.parent
+    h2 = span.find_parent("h2")
+    if not h2:
+        raise Exception(f"Geen h2 gevonden voor '{heading_text}'")
 
+    current = h2.find_next_sibling()
     while current:
-        current = current.find_next_sibling()
-
-        if current is None:
-            break
-
         if current.name == "table":
             return current
+        table = current.find("table")
+        if table:
+            return table
+        if current.name in ("h2", "h3"):
+            break
+        current = current.find_next_sibling()
 
     raise Exception(f"Tabel na '{heading_text}' niet gevonden")
 
 
 def parse_table(table, category):
     quests = []
-
     rows = table.find_all("tr")
-
     for row in rows[1:]:
         cols = row.find_all("td")
-
         if len(cols) < 7:
             continue
-
         link = cols[1].find("a")
-
         quest = {
             "category": category,
             "id": clean(cols[0].get_text()),
@@ -54,9 +52,7 @@ def parse_table(table, category):
             "release_date": clean(cols[6].get_text()),
             "url": BASE_URL + link["href"] if link else ""
         }
-
         quests.append(quest)
-
     return quests
 
 
@@ -65,52 +61,21 @@ headers = {
 }
 
 response = requests.get(URL, headers=headers, timeout=30)
-
 print("Status:", response.status_code)
-
 response.raise_for_status()
 
 soup = BeautifulSoup(response.text, "html.parser")
 
-free_table = get_table_after_heading(
-    soup,
-    "Free-to-play_quests"
-)
-
-members_table = get_table_after_heading(
-    soup,
-    "Members'_quests"
-)
-
-miniquests_table = get_table_after_heading(
-    soup,
-    "Miniquests"
-)
+free_table = get_table_after_heading(soup, "Free-to-play_quests")
+members_table = get_table_after_heading(soup, "Members'_quests")
+miniquests_table = get_table_after_heading(soup, "Miniquests")
 
 all_quests = []
+all_quests.extend(parse_table(free_table, "free_to_play"))
+all_quests.extend(parse_table(members_table, "members"))
+all_quests.extend(parse_table(miniquests_table, "miniquest"))
 
-all_quests.extend(
-    parse_table(free_table, "free_to_play")
-)
-
-all_quests.extend(
-    parse_table(members_table, "members")
-)
-
-all_quests.extend(
-    parse_table(miniquests_table, "miniquest")
-)
-
-with open(
-    "data/quests.json",
-    "w",
-    encoding="utf-8"
-) as f:
-    json.dump(
-        all_quests,
-        f,
-        indent=2,
-        ensure_ascii=False
-    )
+with open("data/quests.json", "w", encoding="utf-8") as f:
+    json.dump(all_quests, f, indent=2, ensure_ascii=False)
 
 print(f"Saved {len(all_quests)} quests")
