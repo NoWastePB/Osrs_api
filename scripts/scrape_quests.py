@@ -1,9 +1,8 @@
+import json
 import requests
 from bs4 import BeautifulSoup
-import json
 
 URL = "https://oldschool.runescape.wiki/w/Quests/List"
-
 BASE_URL = "https://oldschool.runescape.wiki"
 
 
@@ -11,12 +10,32 @@ def clean(text):
     return " ".join(text.strip().split())
 
 
+def get_table_after_heading(soup, heading_text):
+    h2 = soup.find("h2", id=heading_text)
+
+    if not h2:
+        raise Exception(f"Heading '{heading_text}' niet gevonden")
+
+    current = h2.parent
+
+    while current:
+        current = current.find_next_sibling()
+
+        if current is None:
+            break
+
+        if current.name == "table":
+            return current
+
+    raise Exception(f"Tabel na '{heading_text}' niet gevonden")
+
+
 def parse_table(table, category):
     quests = []
 
-    rows = table.find_all("tr")[1:]
+    rows = table.find_all("tr")
 
-    for row in rows:
+    for row in rows[1:]:
         cols = row.find_all("td")
 
         if len(cols) < 7:
@@ -26,14 +45,14 @@ def parse_table(table, category):
 
         quest = {
             "category": category,
-            "id": clean(cols[0].text),
-            "name": clean(cols[1].text),
-            "difficulty": clean(cols[2].text),
-            "length": clean(cols[3].text),
-            "quest_points": clean(cols[4].text),
-            "series": clean(cols[5].text),
-            "release_date": clean(cols[6].text),
-            "url": BASE_URL + link["href"]
+            "id": clean(cols[0].get_text()),
+            "name": clean(cols[1].get_text()),
+            "difficulty": clean(cols[2].get_text()),
+            "length": clean(cols[3].get_text()),
+            "quest_points": clean(cols[4].get_text()),
+            "series": clean(cols[5].get_text()),
+            "release_date": clean(cols[6].get_text()),
+            "url": BASE_URL + link["href"] if link else ""
         }
 
         quests.append(quest)
@@ -45,27 +64,48 @@ headers = {
     "User-Agent": "Mozilla/5.0"
 }
 
-html = requests.get(URL, headers=headers).text
+response = requests.get(URL, headers=headers, timeout=30)
 
-soup = BeautifulSoup(html, "html.parser")
+print("Status:", response.status_code)
 
-tables = soup.select("table.oqg-table")
+response.raise_for_status()
+
+soup = BeautifulSoup(response.text, "html.parser")
+
+free_table = get_table_after_heading(
+    soup,
+    "Free-to-play_quests"
+)
+
+members_table = get_table_after_heading(
+    soup,
+    "Members'_quests"
+)
+
+miniquests_table = get_table_after_heading(
+    soup,
+    "Miniquests"
+)
 
 all_quests = []
 
 all_quests.extend(
-    parse_table(tables[0], "free_to_play")
+    parse_table(free_table, "free_to_play")
 )
 
 all_quests.extend(
-    parse_table(tables[1], "members")
+    parse_table(members_table, "members")
 )
 
 all_quests.extend(
-    parse_table(tables[2], "miniquest")
+    parse_table(miniquests_table, "miniquest")
 )
 
-with open("data/quests.json", "w", encoding="utf-8") as f:
+with open(
+    "data/quests.json",
+    "w",
+    encoding="utf-8"
+) as f:
     json.dump(
         all_quests,
         f,
