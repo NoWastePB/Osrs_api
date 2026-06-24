@@ -143,25 +143,38 @@ def parse_quest_requirements(soup):
     if not td:
         return []
     quests = []
-    # Zoek de "Completion of the following quests" li
     for li in td.find_all("li"):
         text = clean(li.get_text())
         # Sla skill requirements over (die hebben een scp span)
         if li.find("span", class_="scp"):
             continue
-        # Sla niet-quest teksten over
+        # Sla beschrijvende teksten over
         if any(skip in text for skip in ["Completion of", "Started the", "Kudos", "Quest points"]):
             continue
         link = li.find("a")
-        if link and "/w/" in link.get("href", ""):
-            href = link.get("href", "")
-            # Filter wiki-links die geen quests zijn
-            if any(skip in href for skip in ["/w/Miniquest", "/w/Barbarian_Training", "/w/Ancient_Cavern"]):
-                continue
-            quests.append({
-                "name": clean(link.get_text()),
-                "url": BASE_URL + href
-            })
+        if not link:
+            continue
+        href = link.get("href", "")
+        # Alleen /w/ links die geen speciale wiki-pagina's zijn
+        if not href.startswith("/w/"):
+            continue
+        # Filter bekende niet-quest pagina's
+        non_quest_prefixes = [
+            "/w/Miniquest", "/w/Barbarian_Training", "/w/Ancient_Cavern",
+            "/w/Chat", "/w/Update", "/w/File", "/w/Help", "/w/Category",
+            "/w/Template", "/w/User", "/w/RuneScape", "/w/Kudos",
+        ]
+        if any(href.startswith(p) for p in non_quest_prefixes):
+            continue
+        # Alleen links waarvan de tekst een questnaam-achtige waarde heeft
+        # (begint met hoofdletter, geen lowercase utility-woorden)
+        name = clean(link.get_text())
+        if not name or name[0].islower():
+            continue
+        quests.append({
+            "name": name,
+            "url": BASE_URL + href
+        })
     return quests
 
 
@@ -182,19 +195,30 @@ def parse_rewards(soup):
         rewards_heading = soup.find("h2", id="Rewards") or soup.find("span", id="Rewards")
         if not rewards_heading:
             return []
-        # Zoek de eerste ul na de heading
         current = rewards_heading.parent.find_next_sibling() if rewards_heading.name == "h2" else rewards_heading.find_parent("h2").find_next_sibling()
         while current:
+            # Sla navbox tabellen over
+            if current.name == "table" and "navbox" in " ".join(current.get("class", [])):
+                current = current.find_next_sibling()
+                continue
             ul = current.find("ul")
             if ul:
-                return [clean(li.get_text()) for li in ul.find_all("li")]
+                # Verwijder eventuele navbox tabellen binnen de ul
+                for navbox in ul.find_all("table", class_="navbox"):
+                    navbox.decompose()
+                return [clean(li.get_text()) for li in ul.find_all("li") if clean(li.get_text())]
             if current.name in ("h2", "h3"):
                 break
             current = current.find_next_sibling()
         return []
+    # Verwijder navbox tabellen uit de td
+    for navbox in td.find_all("table"):
+        navbox.decompose()
     rewards = []
     for li in td.find_all("li"):
-        rewards.append(clean(li.get_text()))
+        text = clean(li.get_text())
+        if text:
+            rewards.append(text)
     return rewards
 
 
