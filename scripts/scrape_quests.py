@@ -97,6 +97,14 @@ response.raise_for_status()
 
 soup = BeautifulSoup(response.text, "html.parser")
 
+# Debug miniquests tabel
+miniquests_tables = get_tables_after_heading(soup, "Miniquests")
+rows = miniquests_tables[0].find_all("tr")
+print(f"\n[DEBUG] Miniquest header: {[th.get_text().strip() for th in rows[0].find_all('th')]}")
+for row in rows[1:4]:
+    cols = row.find_all("td")
+    print(f"[DEBUG] {len(cols)} kolommen: {[clean(c.get_text())[:20] for c in cols]}")
+
 # Zoek de exacte members heading ID dynamisch op
 members_heading = None
 for h2 in soup.find_all("h2"):
@@ -123,4 +131,4 @@ for heading, category in [
 with open("data/quests.json", "w", encoding="utf-8") as f:
     json.dump(all_quests, f, indent=2, ensure_ascii=False)
 
-print(f"Saved {len(all_quests)} quests")
+print(f"\nSaved {len(all_quests)} quests")
