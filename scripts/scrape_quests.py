@@ -14,6 +14,11 @@ def get_tables_after_heading(soup, heading_text):
     """Geeft ALLE tabellen terug na een heading, tot de volgende h2."""
     h2 = soup.find("h2", id=heading_text)
     if not h2:
+        # Debug: print alle h2 IDs die "embers" bevatten
+        for tag in soup.find_all("h2"):
+            tag_id = tag.get("id", "")
+            if "embers" in tag_id:
+                print(f"[DEBUG] Gevonden h2 id: {repr(tag_id)}")
         raise Exception(f"Heading '{heading_text}' niet gevonden")
 
     tables = []
@@ -82,11 +87,23 @@ response.raise_for_status()
 
 soup = BeautifulSoup(response.text, "html.parser")
 
+# Zoek de exacte members heading ID op
+members_heading = None
+for h2 in soup.find_all("h2"):
+    h2_id = h2.get("id", "")
+    if "embers" in h2_id:
+        members_heading = h2_id
+        print(f"[DEBUG] Members heading gevonden: {repr(members_heading)}")
+        break
+
+if not members_heading:
+    raise Exception("Geen members heading gevonden op de pagina!")
+
 all_quests = []
 
 for heading, category in [
     ("Free-to-play_quests", "free_to_play"),
-    ("Members\u2019_quests", "members"),  # ' = unicode curly apostrophe U+2019
+    (members_heading, "members"),
     ("Miniquests", "miniquest"),
 ]:
     tables = get_tables_after_heading(soup, heading)
