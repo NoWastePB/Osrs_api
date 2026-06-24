@@ -55,18 +55,6 @@ def parse_table(table, category):
         quests.append(quest)
     return quests
 
-URL = "https://oldschool.runescape.wiki/w/Quests/List"
-headers = {"User-Agent": "OsrsQuestScraper/1.0 (contact: jouw@email.com)"}
-
-response = requests.get(URL, headers=headers, timeout=30)
-soup = BeautifulSoup(response.text, "html.parser")
-
-# Print alle h2 headings en hun spans
-for h2 in soup.find_all("h2"):
-    span = h2.find("span", class_="mw-headline")
-    if span:
-        print(f"id='{span.get('id')}' | text='{span.get_text()}'")
-
 headers = {
     "User-Agent": "OsrsQuestScraper/1.0 (contact: jouw@email.com)"
 }
