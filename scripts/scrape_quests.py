@@ -86,7 +86,7 @@ all_quests = []
 
 for heading, category in [
     ("Free-to-play_quests", "free_to_play"),
-    ("Members'_quests", "members"),
+    ("Members\u2019_quests", "members"),  # ' = unicode curly apostrophe U+2019
     ("Miniquests", "miniquest"),
 ]:
     tables = get_tables_after_heading(soup, heading)
