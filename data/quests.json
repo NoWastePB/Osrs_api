@@ -14,8 +14,9 @@
     "quest_requirements": [],
     "item_requirements": [],
     "rewards": [
-      "Cowbell amulet",
-      "A magic lamp providing 1,000 experience in any combat skill, including Prayer."
+      "1 Quest point",
+      "Access to Brutus, the cow boss.",
+      "Additional rewards from Gillie Groats:"
     ],
     "enemies_to_defeat": []
   },
@@ -33,7 +34,13 @@
     "skill_requirements": [],
     "quest_requirements": [],
     "item_requirements": [],
-    "rewards": [],
+    "rewards": [
+      "1 Quest point",
+      "Access to the Mainland!",
+      "Access to the Lumbridge Home Teleport spell",
+      "A bronze axe, bronze pickaxe, tinderbox, small fishing net, one couple of shrimps, bronze dagger, bronze sword, wooden shield, shortbow, 25 bronze arrows, 25 air runes, 15 mind runes, bucket, pot, one loaf of bread, 6 water runes, 4 earth runes and 2 body runes",
+      "25 coins in the player's bank account"
+    ],
     "enemies_to_defeat": []
   },
   {
@@ -63,7 +70,11 @@
       "Alternatively Asgarnian ale, Dwarven stout, or a Wizard's mind bomb"
     ],
     "rewards": [
-      "At the end of the workout cutscene, the player runs up the castle steps and does the Cheer emote, a reference to the iconic step-climbing scene in the same film."
+      "1 Quest point",
+      "2,000 coins",
+      "Access to the Ruins of Camdozaal",
+      "Flex emote",
+      "The ability to make a steak sandwich"
     ],
     "enemies_to_defeat": []
   },
@@ -84,8 +95,12 @@
       "Spade (the Eastfloor spade does not work)"
     ],
     "rewards": [
-      "This story implies Konar quo Maten paid to have the Ancient casket hidden on the mainland, and that Veos believes it contains a dangerous amulet.",
-      "Upon unearthing the Ancient casket, the player will hear \"a faint whispering\". In response, they say Hmmmm... Must have been the wind. This is the same reaction the character in A curious Client has to the casket talking to them at first."
+      "1 Quest point",
+      "200 coins",
+      "Antique lamp providing 300 experience in a skill of the player's choosing (can be reclaimed if lost or destroyed)",
+      "The ability to receive scroll boxes",
+      "A beginner scroll box (only if the player does not have one already in their possession; can be claimed later if players had one in their possession already)",
+      "+1 cap on all tiers of clue scrolls"
     ],
     "enemies_to_defeat": []
   },
@@ -106,7 +121,11 @@
       "Spade (obtainable during quest)",
       "Tinderbox (obtainable during quest)"
     ],
-    "rewards": [],
+    "rewards": [
+      "2 Quest points",
+      "Access to Yusuf's bank in the Corsair Cove.",
+      "The ability to dock your Boat at the Corsair Cove Port"
+    ],
     "enemies_to_defeat": []
   },
   {
@@ -128,7 +147,11 @@
       "Knife (obtainable during quest)"
     ],
     "rewards": [
-      "The poll to include Misthalin Mystery as a permanent quest passed by the narrowest margin in the history of Old School RuneScape, reaching the 75% threshold by only 10 votes."
+      "1 Quest point",
+      "Uncut ruby",
+      "Uncut emerald",
+      "Uncut sapphire",
+      "600 Crafting experience"
     ],
     "enemies_to_defeat": []
   },
@@ -146,7 +169,13 @@
     "skill_requirements": [],
     "quest_requirements": [],
     "item_requirements": [],
-    "rewards": [],
+    "rewards": [
+      "1 Quest point",
+      "The ability to mine rune essence",
+      "An air talisman",
+      "The ability to use lamps and books of knowledge from random events on Runecraft",
+      "Completing this quest awards the player with 5 Kudos which can be claimed by talking to Historian Minas in the Varrock Museum."
+    ],
     "enemies_to_defeat": []
   },
   {
@@ -182,7 +211,15 @@
       "Member: Several other spawn locations or buy them at the sawmill",
       "2,000 coins"
     ],
-    "rewards": [],
+    "rewards": [
+      "2 Quest points",
+      "18,650 Strength experience",
+      "18,650 Defence experience",
+      "The ability to be assigned Dragons as a Slayer task (obtainable immediately after starting the quest)",
+      "The ability to use dragonfire protection (partial completion required)",
+      "The ability to equip a green d'hide body, rune platebody, and dragon platebody",
+      "The ability to hire the ghost of Cabin Boy Jenkins as a crewmate with 60 Sailing."
+    ],
     "enemies_to_defeat": [
       "Zombie rats (level 3)*",
       "Ghosts (level 19)*",
@@ -266,7 +303,12 @@
       "1-3 Blurite ore (obtained during the quest) - optionally an additional ore each for your own blurite sword and the Falador easy diary (Members only)",
       "Any pickaxe (one spawns in Rimmington)"
     ],
-    "rewards": [],
+    "rewards": [
+      "1 Quest point",
+      "12,725 Smithing experience",
+      "A blurite sword (if you got Thurgo to make you an extra one)",
+      "The ability to smelt blurite ore into blurite bars (members only)"
+    ],
     "enemies_to_defeat": []
   },
   {
@@ -288,7 +330,10 @@
       "Onion",
       "Rat's tail (only obtainable after starting the quest)"
     ],
-    "rewards": [],
+    "rewards": [
+      "1 Quest point",
+      "325 Magic experience"
+    ],
     "enemies_to_defeat": []
   },
   {
@@ -342,14 +387,11 @@
       "2 iron ores"
     ],
     "rewards": [
-      "Player: You know, it's funny you should require those exact things!",
-      "Doric: What do you mean?",
-      "Player: I can usually fit 28 things in my backpack and in a world full of quite literally limitless possibilities, a complete coincidence has occurred!",
-      "Doric: I don't quite understand what you're saying?",
-      "Player: Well, out of pure coincidence, despite definitely not knowing what you were about to request, I just so happened to have carried those exact items!",
-      "(If the player is holding exactly 6 clay, 4 copper ore, and 2 iron ore).",
-      "Player: In fact, in the exact quantities too!",
-      "Doric: Oh my, that is a coincidence! Pass them here, please. I can spare you some coins for your trouble, and please use my anvils any time you want."
+      "1 Quest point",
+      "1,300 Mining experience",
+      "180 coins",
+      "The ability to use Doric's anvils",
+      "Bronze pickaxe given at the start of the quest"
     ],
     "enemies_to_defeat": []
   },
@@ -380,7 +422,13 @@
       "Rope (can be bought during the quest from Ned for 18 coins)",
       "30-40 coins for the Al Kharid toll gate if not using teleports to and from Al Kharid"
     ],
-    "rewards": [],
+    "rewards": [
+      "3 Quest points",
+      "700 coins",
+      "Free passage through the Lumbridge - Al Kharid toll gate from now on.",
+      "(Members) Access to the Sorceress's Garden Thieving minigame.",
+      "(Members) Use of the window shortcut at the rear of Al Kharid Palace (requires 70 Agility)."
+    ],
     "enemies_to_defeat": []
   },
   {
@@ -403,13 +451,10 @@
       "White bead"
     ],
     "rewards": [
-      "Player: Well this is a surprising turn of events!",
-      "Wizard Mizgog: What?",
-      "Player: Well I just so happen to have all of those beads on me!",
-      "Wizard Mizgog: Are you saying that you stole my beads all this time and I've been blaming these imps!?",
-      "Player: No, not at all! I just found them throughout my travels and presumed somebody would need them at some point.",
-      "Wizard Mizgog: Bah! Fine.",
-      "Wizard Mizgog: Give them here and I'll check that they really are MY beads, before I give you your reward. You'll like it, it's an amulet of accuracy."
+      "1 Quest point",
+      "875 Magic experience",
+      "The amulet of accuracy",
+      "After the quest players can obtain more amulets by speaking to Wizard Mizgog with a complete set of beads."
     ],
     "enemies_to_defeat": [
       "Multiple imps (level 2) (optional unless ironman)"
@@ -459,7 +504,11 @@
       "Fish food (obtainable during the quest)",
       "Poison (obtainable during the quest)"
     ],
-    "rewards": [],
+    "rewards": [
+      "4 Quest points",
+      "300 Coins",
+      "Access to the Killerwatt Plane (Members only)"
+    ],
     "enemies_to_defeat": []
   },
   {
@@ -496,7 +545,11 @@
       "20 balls of wool (unnoted) Shears if obtaining wool to spin into balls of wool (obtained during the quest)",
       "Shears if obtaining wool to spin into balls of wool (obtained during the quest)"
     ],
-    "rewards": [],
+    "rewards": [
+      "1 Quest point",
+      "150 Crafting experience (An additional 50 experience if you make the balls of wool on a spinning wheel instead of buying it yourself)",
+      "60 coins"
+    ],
     "enemies_to_defeat": []
   },
   {
@@ -517,8 +570,9 @@
       "Black Arm Gang: 2 Phoenix crossbows (obtained during the quest)"
     ],
     "rewards": [
-      "Updated dialogue",
-      "Jonny the Beard is now only attackable when tasked by Straven with doing so, and permanently disappears after the quest for those who killed him."
+      "1 Quest point",
+      "600 coins",
+      "Ability to claim 5 Kudos and an Antique lamp rewarding 1,000 XP in any skill of at least level 20 from Historian Minas after completion of the quest (members only)"
     ],
     "enemies_to_defeat": [
       "Black Arm Gang: Weaponsmaster (level 23)",
@@ -543,7 +597,11 @@
       "25 bones (can't be noted, but can be delivered in increments)",
       "1 coin"
     ],
-    "rewards": [],
+    "rewards": [
+      "3 Quest points",
+      "Silverlight (if lost, players may retrieve it from Sir Prysin for a fee of 500 coins.)",
+      "5 Kudos, which members can claim by talking to Historian Minas in the Varrock Museum"
+    ],
     "enemies_to_defeat": []
   },
   {
@@ -562,7 +620,9 @@
     "item_requirements": [
       "Cadava berries (obtainable during the quest)"
     ],
-    "rewards": [],
+    "rewards": [
+      "5 Quest points"
+    ],
     "enemies_to_defeat": []
   },
   {
@@ -585,7 +645,11 @@
       "Pot of flour A pot (if obtaining the flour during the quest)",
       "A pot (if obtaining the flour during the quest)"
     ],
-    "rewards": [],
+    "rewards": [
+      "1 Quest point",
+      "300 Cooking experience",
+      "Permission to use the Cook-o-matic 100, which reduces the chance of burning some foods."
+    ],
     "enemies_to_defeat": []
   },
   {
@@ -607,7 +671,11 @@
       "Raw beef",
       "Raw chicken"
     ],
-    "rewards": [],
+    "rewards": [
+      "4 Quest points",
+      "250 Herblore experience",
+      "The ability to use the Herblore skill"
+    ],
     "enemies_to_defeat": []
   },
   {
@@ -643,7 +711,13 @@
       "Knife",
       "Woodcutting axe (you will need to bank the axe before accessing Entrana - you cannot use a blessed axe)"
     ],
-    "rewards": [],
+    "rewards": [
+      "3 Quest points",
+      "Access to Zanaris",
+      "Ability to buy and wield dragon longswords and dragon daggers (with level 60 Attack)",
+      "Ability to make cosmic runes with the Runecraft skill",
+      "A permanent portal to Puro-Puro in the wheat field east of the fairy ring in Zanaris."
+    ],
     "enemies_to_defeat": [
       "Tree Spirit (level 101) (Safespottable)",
       "Multiple Zombies (level 25) (for a bronze axe)"
@@ -667,7 +741,8 @@
       "Leather gloves or any of the gloves listed here (obtainable during the quest, may take some time)"
     ],
     "rewards": [
-      "While this idea was never used, something similar was used in the Grim Tales quest released in 2007, where the player does have to shrink down to enter the mouse hole used in this quest."
+      "4 Quest points",
+      "6,325 Hitpoints experience"
     ],
     "enemies_to_defeat": [
       "Witch's experiment (level 19, 30, 42 and 53)"
@@ -692,7 +767,12 @@
       "Bucket of wax (obtainable during the quest with either the Beekeeper's outfit or insect repellent; a bucket spawns near the east gate of the beehive enclosure)",
       "Bat bones (obtainable during the quest)"
     ],
-    "rewards": [],
+    "rewards": [
+      "6 Quest points",
+      "Excalibur (Required for Holy Grail quest.)",
+      "Ability to claim 5 Kudos and an Antique lamp rewarding 1,000 XP in any skill of at least level 20 from Historian Minas after completion of the quest",
+      "Appointment with a title as a Honorary Knight of the Round Table."
+    ],
     "enemies_to_defeat": [
       "Sir Mordred (level 39)",
       "Giant bat (level 27) (optional, to acquire bat bones)"
@@ -766,7 +846,26 @@
       "Black platelegs (plateskirt or trimmed will not work)",
       "Some form of Ranged or Magic attack method"
     ],
-    "rewards": [],
+    "rewards": [
+      "1 Quest point",
+      "3,075 Attack experience",
+      "3,075 Defence experience",
+      "3,075 Strength experience",
+      "3,075 Hitpoints experience",
+      "2,075 Ranged experience",
+      "2,725 Fishing experience",
+      "2,825 Cooking experience",
+      "1,575 Woodcutting experience",
+      "1,575 Firemaking experience",
+      "2,275 Smithing experience",
+      "2,575 Mining experience",
+      "1,325 Herblore experience",
+      "Access to the Heroes' Guild",
+      "The ability to purchase and wield dragon battleaxes and maces",
+      "Access to the Fountain of Heroes, where players can recharge their amulets of glory",
+      "Ability to use Charge dragonstone jewellery scrolls.",
+      "Ability to recharge amulets of glory at the Fountain of Rune (This grants 6 charges instead of the usual 4)"
+    ],
     "enemies_to_defeat": [
       "Ice Queen (level 111) (unless you already have Ice Gloves)",
       "Entrana firebird (level 2)",
@@ -797,7 +896,9 @@
       "Dusty key (obtainable during the quest) or 70 Agility [boostable]."
     ],
     "rewards": [
-      "It is also possible to catch the scorpions multiple times in different cages. Furthermore, only one full cage has to be given to Thormac to complete the quest. The remaining cages will be kept in the player's bank."
+      "1 Quest point",
+      "6,625 Strength experience",
+      "The ability to have Thormac turn a battlestaff into a mystic staff for 40,000 coins"
     ],
     "enemies_to_defeat": [
       "Jailer (level 47) if you need to acquire the dusty key (alternatively, you can skip this if you have access to the Legends Guild Shop of Useful Items, where the key is sold)"
@@ -851,7 +952,8 @@
       "Means to cast all 4 Blast spells"
     ],
     "rewards": [
-      "The steel gauntlets offer useful perks. Each brother will imbue them with a special ability. They will initially do this for free. Be careful choosing, though, since you can only have one effect, and it will cost you 25,000 coins to change them. Dimintheis will provide you with a \"magically\" found pair should you lose them."
+      "1 Quest point",
+      "Steel gauntlets"
     ],
     "enemies_to_defeat": [
       "Chronozon (level 170) (can be safespotted)"
@@ -883,7 +985,12 @@
       "Fishing rod or Pearl fishing rod (oily fishing rod does not work)",
       "Red vine worm (obtainable during quest)"
     ],
-    "rewards": [],
+    "rewards": [
+      "1 Quest point",
+      "2,437 Fishing experience",
+      "Access to the underground White Wolf Mountain passage",
+      "Ability to catch minnows in the Fishing Guild with 82 Fishing and a full Angler's outfit"
+    ],
     "enemies_to_defeat": []
   },
   {
@@ -906,7 +1013,11 @@
     ],
     "quest_requirements": [],
     "item_requirements": [],
-    "rewards": [],
+    "rewards": [
+      "1 Quest point",
+      "1,775 Thieving experience",
+      "5 Swordfish"
+    ],
     "enemies_to_defeat": []
   },
   {
@@ -926,7 +1037,12 @@
       "Jug of water",
       "Regular logs or a regular plank"
     ],
-    "rewards": [],
+    "rewards": [
+      "1 Quest point",
+      "2,000 Woodcutting experience",
+      "8 Law runes",
+      "Brother Omad will throw parties for you by speaking to him."
+    ],
     "enemies_to_defeat": []
   },
   {
@@ -960,7 +1076,16 @@
       "Boots of lightness (can be obtained during the quest with a light source and slash weapon, such as a lit candle and knife)",
       "Other forms of weight-reducing clothing such as the graceful outfit"
     ],
-    "rewards": [],
+    "rewards": [
+      "1 Quest point",
+      "10,500 Ranged experience",
+      "8,000 Fletching experience",
+      "Armadyl pendant (if you sided with Lucien, you must kill Guardians of Armadyl to obtain it)",
+      "Pendant of Lucien, which grants access to a door in the Temple of Ikov",
+      "Optional; Boots of lightness",
+      "Optional; Shiny key, for a shortcut between the Temple of Ikov and McGrubor's Wood",
+      "Completing this quest awards the player with 5 kudos which can be claimed by talking to Historian Minas in the Varrock Museum"
+    ],
     "enemies_to_defeat": [
       "Fire Warrior of Lesarkus (level 84)",
       "Guardian of Armadyl (level 43) (Safespottable) - only if siding with Lucien",
@@ -984,7 +1109,10 @@
       "Bucket of water (obtainable during quest) Alternatively, a Jug of water, Ice gloves, or Smiths gloves (i)",
       "Alternatively, a Jug of water, Ice gloves, or Smiths gloves (i)"
     ],
-    "rewards": [],
+    "rewards": [
+      "1 Quest point",
+      "500 coins"
+    ],
     "enemies_to_defeat": []
   },
   {
@@ -1018,7 +1146,13 @@
     "item_requirements": [
       "Excalibur"
     ],
-    "rewards": [],
+    "rewards": [
+      "2 Quest points",
+      "11,000 Prayer experience",
+      "15,300 Defence experience",
+      "Access to the Fisher Realm",
+      "Ability to put King Arthur picture on the wall in the Construction skill"
+    ],
     "enemies_to_defeat": []
   },
   {
@@ -1044,7 +1178,12 @@
       "Combat equipment",
       "Food"
     ],
-    "rewards": [],
+    "rewards": [
+      "2 Quest points",
+      "11,450 Attack experience",
+      "Use of spirit trees for transportation",
+      "The Gnome amulet"
+    ],
     "enemies_to_defeat": [
       "Khazard warlord (level 112) (can be safespotted)"
     ]
@@ -1066,7 +1205,11 @@
       "5 coins (for Khali brew)"
     ],
     "rewards": [
-      "The player is no longer sent back to their cell between battles."
+      "2 Quest points",
+      "12,175 Attack experience",
+      "2,175 Thieving experience",
+      "1,000 coins",
+      "The Khazard armour set"
     ],
     "enemies_to_defeat": [
       "Khazard scorpion (level 44)",
@@ -1089,7 +1232,14 @@
     "skill_requirements": [],
     "quest_requirements": [],
     "item_requirements": [],
-    "rewards": [],
+    "rewards": [
+      "1 Quest point",
+      "1500 Thieving experience",
+      "2000 coins (plus 5 from the fake ending if you sided with the Carnillean family)",
+      "Hazeel's mark (if you sided with Hazeel)",
+      "Carnillean armour (if you sided with Ceril and obtained an extra during the quest)",
+      "5 Kudos, which can be claimed by talking to Historian Minas in the Varrock Museum"
+    ],
     "enemies_to_defeat": []
   },
   {
@@ -1108,7 +1258,10 @@
     "item_requirements": [
       "100 coins"
     ],
-    "rewards": [],
+    "rewards": [
+      "4 Quest points",
+      "3,100 coins"
+    ],
     "enemies_to_defeat": []
   },
   {
@@ -1137,7 +1290,11 @@
       "Snape grass (Spawns west of the Crafting Guild or the peninsula north-east of Hosidius. It can be grown at 61 Farming. Can also be obtained from killing Tribesmen in Karamja.)",
       "Picture of Elena (Inside Alrena and Edmond's house)"
     ],
-    "rewards": [],
+    "rewards": [
+      "1 Quest point",
+      "2,425 Mining experience",
+      "Ardougne teleport scroll, reading it unlocks the Ardougne Teleport with 51 Magic and use of the Ardougne teletab."
+    ],
     "enemies_to_defeat": []
   },
   {
@@ -1162,7 +1319,12 @@
     "item_requirements": [
       "Swamp paste (made by mixing flour with swamp tar then cooking the mixture on a fire; can also be bought from a Trader crewmember for 75 coins, from Rasolo for 60 coins west of the Fishing Guild, or from the Khazard General Store for 42 coins at full stock)"
     ],
-    "rewards": [],
+    "rewards": [
+      "1 Quest point",
+      "7,175 Fishing experience",
+      "Access to the Fishing Platform",
+      "Oyster pearls"
+    ],
     "enemies_to_defeat": []
   },
   {
@@ -1184,7 +1346,14 @@
       "6 Water runes",
       "Rope"
     ],
-    "rewards": [],
+    "rewards": [
+      "1 Quest point",
+      "13,750 Strength experience",
+      "13,750 Attack experience",
+      "2 Diamonds",
+      "2 Gold bars",
+      "40 Mithril seeds"
+    ],
     "enemies_to_defeat": []
   },
   {
@@ -1212,7 +1381,10 @@
       }
     ],
     "item_requirements": [],
-    "rewards": [],
+    "rewards": [
+      "1 Quest point",
+      "775 Herblore experience"
+    ],
     "enemies_to_defeat": []
   },
   {
@@ -1242,7 +1414,17 @@
     "item_requirements": [
       "1,000 coins if you previously chose not to help Femi on your first entry to the Tree Gnome Stronghold (not required if you never used the gate entrance)"
     ],
-    "rewards": [],
+    "rewards": [
+      "5 Quest points",
+      "18,400 Attack experience",
+      "7,900 Agility experience",
+      "2,150 Magic experience",
+      "Access to the mine under the Grand Tree.",
+      "Access to the Gnome glider transportation system.",
+      "Ability to use the rocks as an Agility shortcut from the Grand Tree to the Barbarian Outpost (with 37 Agility).",
+      "Ability to use the spirit tree in the Stronghold after the completion of Tree Gnome Village.",
+      "Completing this quest awards the player with 5 Kudos which can be claimed by talking to Historian Minas in the Varrock Museum."
+    ],
     "enemies_to_defeat": [
       "Black demon (level 172) (can be safespotted)"
     ]
@@ -1284,14 +1466,11 @@
       "Tinderbox (obtainable during quest)"
     ],
     "rewards": [
-      "The entire Underground Pass quest now takes place in an instance.",
-      "Koftik no longer appears in multiple locations inside the dungeon, during the quest. Instead, he moves along with the player's progress, and a backpack containing oily cloth is left behind near the rope bridge instead.",
-      "The three paladins (Sir Carl, Sir Harry, and Sir Jerro) no longer respawn after their badges have been dropped in the well. Similarly, one cannot get duplicates of the orbs of light.",
-      "The patches of swamp found further in the dungeon are removed. Previously, there were swamps located near the blessed spiders just across the rope bridge, as well as inside the Thieving shortcut area in the first area with Agility obstacles.",
-      "Iban's shadow, ashes and dove are now automatically applied to the doll of iban when obtained with the doll in the inventory.",
-      "Iban has some dialogue when you first enter his temple and now only attacks when there is someone inside.",
-      "Kamen's homemade brew no longer damages the player between 3-5 Hitpoints.",
-      "The player no longer receives 30 fire runes and 15 death runes when throwing the doll of Iban into the Well of Voyage."
+      "5 Quest points",
+      "3,000 Agility experience",
+      "3,000 Attack experience",
+      "Iban's staff and use of the Iban Blast spell",
+      "Klank's gauntlets"
     ],
     "enemies_to_defeat": [
       "3 demons Doomion, Othainian, and Holthion (level 91) (easily safespottable)",
@@ -1319,18 +1498,13 @@
       "Molten glass"
     ],
     "rewards": [
-      "Aquarius: 25 water runes",
-      "Aries: 875 Attack experience",
-      "Cancer: An amulet of defence",
-      "Capricorn: 875 Strength experience",
-      "Gemini: A black 2h sword",
-      "Leo: 875 Hitpoints experience",
-      "Libra: 3 law runes",
-      "Pisces: 3 tuna",
-      "Sagittarius: A maple longbow",
-      "Scorpio: Weapon poison",
-      "Taurus: A 1-dose super strength potion",
-      "Virgo: 875 Defence experience"
+      "2 Quest points",
+      "2,250 Crafting experience",
+      "Your item reward depends on what astrological sign you see when you look through the telescope. It is different for each person. Each one rewards an uncut sapphire as well as one of the following:",
+      "The Spirit of Scorpius will now give you a mould to make unholy symbols, and he will bless them for you too. He can be found in the graveyard north of the Observatory.",
+      "Talk to the Observatory assistant after the quest and he will reward you with a jug of wine as well as tell you his and the professor's real name.",
+      "Access to the grappling shortcut rock outside the Observatory.",
+      "Completing this quest awards the player with 5 Kudos which can be claimed by talking to Historian Minas in the Varrock Museum."
     ],
     "enemies_to_defeat": [
       "Goblin guard (level 42) (Optional – can simply be trapped behind a column)"
@@ -1367,7 +1541,15 @@
       "Ten feathers (30-50+ recommended at lower Fletching levels)",
       "Means to enter the desert, such as the Shantay pass, desert amulet 2, teleport tablets or scrolls, fairy rings or the pharaoh's sceptre"
     ],
-    "rewards": [],
+    "rewards": [
+      "2 Quest points",
+      "4,650 Experience in your choice of two skills (you may pick same skill twice): Agility, Fletching, Smithing, or Thieving.",
+      "The ability to smith dart tips.",
+      "The wrought iron key - allows access to a special door inside the Desert Mining Camp, which has several higher tier ores inside, including mithril ore and adamantite ore.",
+      "Full slave robes",
+      "6 bronze darts",
+      "The ability to hire Ex-Captain Siad as a crewmate with 50 Sailing."
+    ],
     "enemies_to_defeat": [
       "Mercenary Captain (level 47) - safespottable"
     ]
@@ -1431,7 +1613,14 @@
       "Bat bones (obtainable during the quest with a knife or slash weapon, grinding the bat bones before starting the quest to leave the pestle and mortar in the bank is also an option)",
       "Jangerberries (obtainable during the quest)"
     ],
-    "rewards": [],
+    "rewards": [
+      "4 Quest points",
+      "15,250 Magic experience",
+      "5,000 Coins",
+      "A scroll, the reading of which gives you the ability to use Watchtower Teleport",
+      "Access to the ogre city, and Ogre Enclave where you can fight blue dragons. (You will not need an extra nightshade to enter after the quest is complete.)",
+      "Designation by the Ogres of Gu'Tanoth as a \"Friend of the Ogres\""
+    ],
     "enemies_to_defeat": [
       "Gorad (level 68) (safespottable)",
       "Giant bat (level 27) (only if bat bones are needed)"
@@ -1453,7 +1642,13 @@
     "item_requirements": [
       "Hammer (obtained during the quest)"
     ],
-    "rewards": [],
+    "rewards": [
+      "1 Quest point",
+      "750 Crafting experience",
+      "The ability to buy and use a dwarf multicannon",
+      "The ability to make cannonballs",
+      "Membership of the Black Guard"
+    ],
     "enemies_to_defeat": []
   },
   {
@@ -1472,7 +1667,11 @@
     "item_requirements": [
       "Pot"
     ],
-    "rewards": [],
+    "rewards": [
+      "3 Quest points",
+      "1,406 Crafting experience",
+      "2,000 Coins"
+    ],
     "enemies_to_defeat": []
   },
   {
@@ -1517,7 +1716,15 @@
       "Panning tray (obtained during the quest)",
       "Trowel (obtained during the quest)"
     ],
-    "rewards": [],
+    "rewards": [
+      "2 Quest points",
+      "15,300 Mining exp",
+      "2,000 Herblore exp",
+      "2 gold bars",
+      "Giving the museum curator the Level 3 certificate allows you to pick between something to drink (Fruit blast) or something to eat (chocolate cake). You will lose the reward if you exit the dialogue after he has taken your certificate but before you have chosen the reward. You do not need to give him the other two certificates to receive the reward. Get the cake for Desert Treasure I or the fruit blast for Recipe for Disaster.",
+      "The ability to do Varrock Museum specimen cleaning to obtain a Digsite pendant.",
+      "The Ancient talisman can be viewed in the Digsite Exhibit at the museum on the ground floor[UK]1st floor[US]."
+    ],
     "enemies_to_defeat": []
   },
   {
@@ -1540,7 +1747,14 @@
       "Raw sardine (can be bought from Gerrant's Fishy Business.)",
       "Doogle leaves (obtainable during the quest)"
     ],
-    "rewards": [],
+    "rewards": [
+      "1 Quest point",
+      "1,525 Cooking experience",
+      "Your own kitten",
+      "Chocolate cake",
+      "Stew",
+      "Gertrude will now sell kittens for you to raise for 100 coins each."
+    ],
     "enemies_to_defeat": []
   },
   {
@@ -1692,7 +1906,16 @@
       "Charcoal (2-3 in case it breaks -- obtainable during the quest if travelling via Shilo Village)",
       "3 Papyrus (4-5 in case one is torn -- obtainable during the quest if travelling via Shilo Village or from the spawn on Radimus's desk)"
     ],
-    "rewards": [],
+    "rewards": [
+      "4 Quest points",
+      "Access to the Legends' Guild (including shop to buy the cape of legends)",
+      "The ability to wield the dragon sq shield",
+      "30,000 experience each in four skills of your choice (limited to Attack, Defence, Strength, Hitpoints, Prayer, Magic, Woodcutting, Crafting, Smithing, Herblore, Agility, Thieving. It is possible to choose the same skill all four times)",
+      "The ability to charge your skills necklace or combat bracelet at the Legends' Guild or the Fountain of Rune",
+      "Access to the Kharazi Jungle and a vine shortcut into it, requiring 79 Agility",
+      "Radimus Erkle will provide replacement dark daggers, which can be investigated via right-click to switch appearance between a dark or glowing dagger",
+      "You can now receive the Rune spear, Dragon spear, and Shield left half from the Gem drop table."
+    ],
     "enemies_to_defeat": [
       "Ranalph Devere (level 92) — 2 times",
       "Irvig Senay (level 100) — 2 times",
@@ -1720,7 +1943,13 @@
       "Iron bar",
       "Asgarnian ale (can be found on the bar at the pub in Burthorpe)"
     ],
-    "rewards": [],
+    "rewards": [
+      "1 Quest point",
+      "3,000 Attack experience",
+      "Steel claws",
+      "The ability to make claws",
+      "Ability to purchase and wear climbing boots from Tenzing"
+    ],
     "enemies_to_defeat": []
   },
   {
@@ -1765,7 +1994,14 @@
       "Pestle and mortar",
       "Ranarr potion (unf)"
     ],
-    "rewards": [],
+    "rewards": [
+      "1 Quest point",
+      "11,000 Herblore experience",
+      "The ability to grow and steal Goutweed, which can be traded with Sanfew for herbs.",
+      "1 Burnt Meat",
+      "The ability to use the Trollheim Teleport spell.",
+      "The ability to use a Scroll of redirection to redirect a Teleport to house tablet to Trollheim."
+    ],
     "enemies_to_defeat": []
   },
   {
@@ -1811,7 +2047,15 @@
       "Equa leaves (obtainable during the quest)",
       "Doogle leaves (obtainable during the quest)"
     ],
-    "rewards": [],
+    "rewards": [
+      "2 Quest points",
+      "262 Fletching experience",
+      "1,470 Cooking experience",
+      "735 Ranged experience",
+      "An ogre bow",
+      "The ability to fletch ogre arrows",
+      "The ability to cook chompy birds and earn a bowman hat"
+    ],
     "enemies_to_defeat": [
       "Chompy bird (level 6)",
       "Wolves (level 64) (optional)"
@@ -1855,7 +2099,13 @@
       "Hammer",
       "4 coal (4 more for each additional bar you would like to produce)"
     ],
-    "rewards": [],
+    "rewards": [
+      "1 Quest point",
+      "5,000 Crafting experience",
+      "5,000 Smithing experience",
+      "Access to the Elemental Workshop",
+      "An elemental shield, as well as the ability to make and wield them"
+    ],
     "enemies_to_defeat": [
       "Earth elemental (level 35)"
     ]
@@ -1878,7 +2128,16 @@
       "Ghostspeak amulet",
       "6 empty inventory spaces"
     ],
-    "rewards": [],
+    "rewards": [
+      "2 Quest points",
+      "3,000 Crafting experience",
+      "2,000 Defence experience",
+      "2,000 Hitpoints experience",
+      "Access to Mort Myre Swamp and the Nature Spirit altar, where you can replenish and temporarily boost your prayer points by 2",
+      "Ability to fight ghasts",
+      "3 meat pies and 3 apple pies unless they were rotted by the ghasts",
+      "Ability to build the fire of dehumidification after completion of Making Friends with My Arm"
+    ],
     "enemies_to_defeat": [
       "3 Ghasts (level 30)"
     ]
@@ -1900,7 +2159,13 @@
       "50 unnoted rune essence or pure essence (can be mined by talking to Aubury in Varrock, after completing Rune Mysteries. All 50 essence do not have to be of the same type) (does not needed to be handed in all at once; multiple trips can be made.)",
       "Bucket (obtainable during the quest from Varrock general store for 2 coins)"
     ],
-    "rewards": [],
+    "rewards": [
+      "1 Quest point",
+      "1,406 Prayer experience",
+      "Wolfbane dagger, prevents the citizens of Canifis from transforming into werewolves when attacked",
+      "Route to Canifis and Morytania",
+      "Completing this quest awards the player with 5 Kudos which can be claimed by talking to Historian Minas in the Varrock Museum."
+    ],
     "enemies_to_defeat": [
       "Temple guardian dog (level 30) - can be safespotted or flinched, immune to Magic",
       "Monk of Zamorak (level 30) - can be safespotted or flinched"
@@ -1960,7 +2225,18 @@
       "Pot (obtainable during quest)",
       "Cooked rabbit (obtainable during quest) or roast rabbit"
     ],
-    "rewards": [],
+    "rewards": [
+      "3 Quest points",
+      "13,750 Agility experience",
+      "15,000 coins",
+      "Access to the elven kingdom of Tirannwn and the overpass of Arandar",
+      "The ability to wield the dragon halberd (With level 60 Attack and 30 Strength)",
+      "The ability to charter a ship to Port Tyras or dock a boat there with 66 Sailing",
+      "The ability to use Iorwerth camp teleport scrolls",
+      "The ability to use Zul-Andra teleport scrolls",
+      "The ability to use the BJS Fairy ring",
+      "The ability to attempt the Gwenith Glide, a Barracuda Trial"
+    ],
     "enemies_to_defeat": [
       "Tyras guard (level 110) Safespottable"
     ]
@@ -2017,7 +2293,20 @@
       "Seaweed (obtainable during the quest)",
       "Karamjan rum or 30 coins to purchase (if obtaining the rum before starting, add the sliced banana or the rum will disappear when you leave the island)"
     ],
-    "rewards": [],
+    "rewards": [
+      "2 Quest points",
+      "2,000 Coins (awarded by Timfraku immediately upon quest completion)",
+      "5,000 Cooking experience (claimed upon speaking to Tinsay after quest completion)",
+      "5,000 Fishing experience (claimed upon speaking to Tiadeche after quest completion)",
+      "2,500 Attack experience, 2,500 Strength experience, and a karambwan-poisoned rune spear (claimed upon speaking to Tamayu after quest completion)",
+      "Access to Tamayu's Spear Stall (sells cleaning cloths)",
+      "Access to Tiadeche's Karambwan Stall (sells raw karambwans and karambwan vessels)",
+      "The ability to pray at the newly repaired tribal statue (works like an altar) by talking to Tinsay and Tiadeche in the village after the quest",
+      "The ability to catch and cook karambwans by talking to Tinsay in the village after the quest",
+      "The ability to fight the Shaikahan (level 83 - you need a kp spear to hit it)",
+      "The ability to use Tai bwo wannai teleport scrolls",
+      "The ability to take part in the Smithing section of the Barbarian Training miniquest (Requires talking to Tamayu and claiming combat xp after quest completion)."
+    ],
     "enemies_to_defeat": [
       "Monkey (level 3)"
     ]
@@ -2049,7 +2338,14 @@
     "item_requirements": [
       "Climbing boots or 12 coins to buy them"
     ],
-    "rewards": [],
+    "rewards": [
+      "1 Quest point",
+      "Law talisman (if you lose it, you can get another from Dunstan for 1,000 coins)",
+      "Law talismans can be obtained via Guardians of the Rift",
+      "Ability to make law runes",
+      "Access to Trollheim, the Troll Stronghold and the Law Altar",
+      "Ability to access the God Wars Dungeon (though it can be accessed without the quest via the Ghommal's Hilt teleport)"
+    ],
     "enemies_to_defeat": [
       "Dad (level 101) (can be safespotted)",
       "Troll General (level 113) (can be safespotted)",
@@ -2107,7 +2403,14 @@
       "1 hammer Using a Flamtaer hammer is highly recommended in case the minigame is unpopulated, as a regular hammer is insufficient to build the temple alone. An additional 13,000 coins (or 5,400 on the Grand Exchange) allows you to buy a Flamtaer hammer from Razmire.",
       "Using a Flamtaer hammer is highly recommended in case the minigame is unpopulated, as a regular hammer is insufficient to build the temple alone. An additional 13,000 coins (or 5,400 on the Grand Exchange) allows you to buy a Flamtaer hammer from Razmire."
     ],
-    "rewards": [],
+    "rewards": [
+      "3 Quest points",
+      "2,000 Herblore experience",
+      "2,000 Crafting experience",
+      "Ability to play the Shades of Mort'ton minigame",
+      "Ability to use the Shades of Mort'ton minigame teleport",
+      "Bonus: If you take the Diary of Herbi Flax to the Apothecary in Varrock, you'll get an extra 335 Herblore experience (can only be done once)."
+    ],
     "enemies_to_defeat": [
       "5 Loar Shades (level 40)"
     ]
@@ -2144,7 +2447,23 @@
       "Cabbage (obtainable during quest)"
     ],
     "rewards": [
-      "A unique couplet also exists for members of the Myths' Guild, even though it can never be performed, as completion of The Fremennik Trials is a prerequisite for Dragon Slayer II.[1] If a member of the Myths' Guild were able to go on stage, they would sing:"
+      "3 Quest points",
+      "2,812.4 Agility experience",
+      "2,812.4 Attack experience",
+      "2,812.4 Crafting experience",
+      "2,812.4 Defence experience",
+      "2,812.4 Fishing experience",
+      "2,812.4 Fletching experience",
+      "2,812.4 Hitpoints experience",
+      "2,812.4 Strength experience",
+      "2,812.4 Thieving experience",
+      "2,812.4 Woodcutting experience",
+      "Access to the islands of Miscellania, Etceteria, Neitiznot, and Jatizso along with access to the facilities in Rellekka.",
+      "Ability to wear the Fremennik blade and the warrior, berserker, archer, and farseer helms",
+      "Ability to have Fossegrimen create the enchanted lyre(i)",
+      "A herring",
+      "Jarvald will charge no fee for travelling to Waterbirth Island",
+      "A Fremennik name as part of becoming a clansman in the Fremennik"
     ],
     "enemies_to_defeat": [
       "Koschei the deathless (first three forms)",
@@ -2189,7 +2508,12 @@
       "You may also bring means to deal Ranged and Melee damage (she has high resistance to melee)"
     ],
     "rewards": [
-      "Further damaged books can be purchased from Jossik for 5,000 coins each, even if you have not filled your other book(s)."
+      "2 Quest points",
+      "4,662.5 Magic experience",
+      "4,662.5 Strength experience",
+      "4,662.5 Ranged experience",
+      "A damaged book of your choice which, when complete, will become: a Holy book (Saradomin), an Unholy book (Zamorak), or a Book of balance (Guthix).",
+      "Access to the Lighthouse general store and the Dagannoth caves underneath."
     ],
     "enemies_to_defeat": [
       "Dagannoth (Horror from the Deep) (level 100) (can be completely safespotted)",
@@ -2245,7 +2569,12 @@
       "A harpoon or lobster pot and 35 Fishing to fish tuna, lobsters or swordfish",
       "Logs (obtainable during the quest if you bring an axe)"
     ],
-    "rewards": [],
+    "rewards": [
+      "1 Quest point",
+      "Management of Miscellania",
+      "10,000 coins (inside the Miscellania coffers)",
+      "The ability to teleport to Miscellania using a ring of wealth"
+    ],
     "enemies_to_defeat": []
   },
   {
@@ -2281,7 +2610,14 @@
       "Monkey bones or corpse from Karamja (obtainable during quest)",
       "Five bananas (obtainable during quest)"
     ],
-    "rewards": [],
+    "rewards": [
+      "3 Quest points",
+      "10,000 Coins",
+      "3 Diamonds",
+      "Speaking to Daero after the quest gives the choice of either, 35,000 experience in Attack and Defence and 20,000 experience in Strength and Hitpoints OR 35,000 experience in Strength and Hitpoints and 20,000 experience in Attack and Defence. The skills you tell Daero you want to focus on will receive 35,000 XP each, and the others 20,000 each.",
+      "The ability to buy and wield the Dragon scimitar.",
+      "Full access to Ape Atoll, with the exception of the bank and javelin store, which are unlocked after Monkey Madness II."
+    ],
     "enemies_to_defeat": [
       "Jungle Demon (level 195)"
     ]
@@ -2317,7 +2653,13 @@
     "item_requirements": [
       "A chisel (obtainable during the quest)"
     ],
-    "rewards": [],
+    "rewards": [
+      "2 Quest points",
+      "22,000 Strength experience",
+      "The ability to make the Salve amulet, which when equipped gives combat bonuses against undead monsters.",
+      "Access to a shortcut to the crystal outcrops",
+      "Access to Tarn's Lair"
+    ],
     "enemies_to_defeat": [
       "Treus Dayth (level 95)"
     ]
@@ -2360,7 +2702,14 @@
       "A cake tin",
       "Swamp tar"
     ],
-    "rewards": [],
+    "rewards": [
+      "2 Quest points",
+      "8,000 Agility experience",
+      "4,000 Strength experience",
+      "1 uncut diamond, 2 uncut rubies, and 4 uncut emeralds",
+      "A sled (required to complete a hard and two elite clue scroll steps)",
+      "Sledding route from Trollweiss Mountain"
+    ],
     "enemies_to_defeat": []
   },
   {
@@ -2409,7 +2758,15 @@
       "6 normal planks",
       "10 coins or a ring of charos (a)"
     ],
-    "rewards": [],
+    "rewards": [
+      "2 Quest points",
+      "600 Attack experience",
+      "600 Defence experience",
+      "600 Strength experience",
+      "600 Hitpoints experience",
+      "600 Crafting experience",
+      "Access to the Hollows and fairy ring DLS"
+    ],
     "enemies_to_defeat": [
       "Skeleton Hellhound (level 97) - safespottable"
     ]
@@ -2452,7 +2809,11 @@
       "Spade",
       "50 coins OR 1 law & 1 air rune for Telekinetic Grab (requires 33 Magic)"
     ],
-    "rewards": [],
+    "rewards": [
+      "2 Quest points",
+      "1,000 Thieving experience",
+      "The Ring of charos, which allows access to the Werewolf Agility Course, and, when activated during Garden of Tranquillity, reduced cost to many transport links."
+    ],
     "enemies_to_defeat": [
       "Experiment (level 51) - can be safespotted or flinched"
     ]
@@ -2503,7 +2864,11 @@
       "Spade",
       "Rope"
     ],
-    "rewards": [],
+    "rewards": [
+      "1 Quest point",
+      "10,000 Strength experience",
+      "Crystal shield or bow with 500 charges"
+    ],
     "enemies_to_defeat": [
       "Moss Guardian (level 84) (has to be killed with restricted items, can be flinched)"
     ]
@@ -2562,7 +2927,12 @@
       "Nettles (obtainable during the quest)",
       "Bowl of water (empty bowl can be purchased during quest -- the gold bowl won't work)"
     ],
-    "rewards": [],
+    "rewards": [
+      "2 Quest points",
+      "2,400 Prayer experience",
+      "Free passage into Port Phasmatys",
+      "The Ectophial, which allows direct teleport to the Ectofuntus, is refilled from the Ectofuntus."
+    ],
     "enemies_to_defeat": [
       "Giant lobster (level 32) Can be safespotted."
     ]
@@ -2639,17 +3009,12 @@
       "Sapphire (cannot be crushed, so you may choose to bring a chisel instead to cut the uncut sapphires given during the quest)"
     ],
     "rewards": [
-      "Recruitment Drive[2]",
-      "Devious Minds[3]",
-      "2018 Birthday event[4]",
-      "Making Friends with My Arm[5]",
-      "Temple of the Eye[6]",
-      "2023 Easter event[7]",
-      "2023 Christmas event[8]",
-      "Perilous Moons[9]",
-      "2024 Easter event[10]",
-      "Ethically Acquired Antiquities[11]",
-      "25th Anniversary event[12]"
+      "2 Quest points",
+      "Two experience lamps giving 10,000 experience to any skill of your choice. Skill must be at least level 30",
+      "A steel key ring",
+      "The ability to make and drink Guthix rest tea",
+      "The ability to craft pot lids",
+      "Access to the gnome glider route to the Feldip Hills"
     ],
     "enemies_to_defeat": [
       "Slagilith (level 92)",
@@ -2684,7 +3049,11 @@
       "Gloves (excluding: Slayer, Ranger, Moonclan, Lunar, vambraces, mystic and random event apparel)"
     ],
     "rewards": [
-      "Additionally, when Asleif asks you to make peace between her tribe and Rellekka, you can ask if this involves an anthem. This reference is available before beginning Throne of Miscellania, however."
+      "2 Quest points",
+      "2,000 Prayer experience",
+      "1,000 Attack experience",
+      "The Bearhead",
+      "The ability to pass into the Mountain Camp over the rockslide"
     ],
     "enemies_to_defeat": [
       "The Kendal (level 70)"
@@ -2735,7 +3104,16 @@
       "An ammo mould (can be bought for 5 coins during the quest) or a double ammo mould",
       "~830 coins (for cart and ferry)"
     ],
-    "rewards": [],
+    "rewards": [
+      "2 Quest points",
+      "5,000 Defence experience",
+      "5,000 Mining experience",
+      "5,000 Smithing experience",
+      "A rune pickaxe",
+      "A gold helmet",
+      "Access to the Arzinian Mine full of gold rocks and gold veins. A nearby dwarf at the river will bank the player's gold ore for a charge of 20% of the ores, rounded up (10% with the ring of charos (a)).",
+      "The ability to teleport to Dondakan's rock using a ring of wealth"
+    ],
     "enemies_to_defeat": [
       "Scorpion(s) (level 14)",
       "Arzinian Being of Bordanzan (level 75-125)"
@@ -2771,7 +3149,17 @@
       "If you have the snake charm in your bank already, you will need to retrieve it.",
       "Snake basket (obtainable during quest by putting a coin in the snake charmer's money pot, whether or not you have one in your bank)"
     ],
-    "rewards": [],
+    "rewards": [
+      "1 Quest point",
+      "15,000 Thieving experience",
+      "500 coins",
+      "An oak blackjack",
+      "A desert disguise (created during the quest)",
+      "A willow blackjack (as a drop from the tough guy)",
+      "An adamant scimitar (as a drop from the bandit champion)",
+      "Access to the Rogue Trader miniquest – Completing this will allow Ali Morrisane to sell blackjacks, various runes, and different clothing from around the Kharidian Desert",
+      "The ability to pickpocket villagers, bandits, and Menaphite thugs in Pollnivneach"
+    ],
     "enemies_to_defeat": [
       "Bandit champion (level 70)",
       "Tough Guy (level 75)"
@@ -2809,7 +3197,13 @@
       "Phoenix feather (can be obtained north-west of the ruins)",
       "Means to enter the desert (such as the Shantay pass, Teleport tablets or scrolls, Fairy rings or the Pharaoh's sceptre)"
     ],
-    "rewards": [],
+    "rewards": [
+      "1 Quest point",
+      "1,000 Thieving experience",
+      "1,000 Crafting experience",
+      "2 cut rubies, emeralds, and sapphires (collect these by using a chisel and hammer on the throne)",
+      "Unlock the carpet ride from Shantay Pass to Uzer"
+    ],
     "enemies_to_defeat": []
   },
   {
@@ -2900,7 +3294,13 @@
       "20-50+ lockpicks"
     ],
     "rewards": [
-      "He is also another nod to the Indiana Jones films, using the name format [Area name] [Common Surname]."
+      "3 Quest points",
+      "20,006.9 Magic experience[2]",
+      "The ability to use Ancient Magicks: At any time, you can pray at the altar and change between the standard and Ancient Magicks spellbooks. After traversing the pyramid for the first time, you may enter via the back-door of the pyramid to gain a short cut to the altar. Be warned that changing spellbooks will drain your prayer to 0.",
+      "Ring of visibility: If you ever lose it, you can obtain another one from Rasolo.",
+      "Access to ancient staff: You can buy one from Eblis for 80,000 coins. If you lose the staff, you will have to reobtain it from another source.",
+      "Access to the Smoke Dungeon, which can be used for various Slayer tasks.",
+      "Ability to talk to Eblis to obtain an ancient signet."
     ],
     "enemies_to_defeat": [
       "Dessous (level 139)",
@@ -2935,8 +3335,13 @@
       "Means to enter the desert. (Such as the Shantay pass, Teleport tablets or scrolls, Fairy rings or the Pharaoh's sceptre)"
     ],
     "rewards": [
-      "Fixed a few plotholes and inconsistencies in the Icthlarin's Little Helper and Contact! quests.",
-      "Removed some inappropriate dialogue from the Prince Ali Rescue, Icthlarin's Little Helper, and Contact! quests."
+      "2 Quest points",
+      "4,500 Thieving experience",
+      "4,000 Agility experience",
+      "4,000 Woodcutting experience",
+      "Catspeak amulet",
+      "Access to the city of Sophanem",
+      "Unlock the carpet rides from Pollnivneach to Sophanem and Menaphos"
     ],
     "enemies_to_defeat": [
       "Possessed Priest (level 91)",
@@ -2990,7 +3395,11 @@
       "Pickaxe",
       "Rope (if you have not yet entered the Lumbridge Swamp Caves)"
     ],
-    "rewards": [],
+    "rewards": [
+      "1 Quest point",
+      "1,000 Crafting experience",
+      "Ability to play the Tears of Guthix minigame once a week"
+    ],
     "enemies_to_defeat": []
   },
   {
@@ -3035,7 +3444,15 @@
       "Pickaxe",
       "Light source (Note: Candles, torches, and oil lamps can cause swamp gas explosions if going off-route, and need a tinderbox to stay lit)"
     ],
-    "rewards": [],
+    "rewards": [
+      "1 Quest point",
+      "3,000 Mining experience",
+      "The ability to use the Goblin Bow and Goblin Salute emotes",
+      "Access to the Dorgesh-Kaan mine",
+      "A ring of life",
+      "Access to Nardok's Bone Weapon's store where players can purchase the Dorgeshuun crossbow, bone bolts and other bone weapons.",
+      "A mining helmet from giving the brooch back to Mistag."
+    ],
     "enemies_to_defeat": []
   },
   {
@@ -3084,7 +3501,13 @@
       "Redberry pie"
     ],
     "rewards": [
-      "As a result, there are sixteen distinct cutscene rooms (four for each floor the game possesses) in which the player can be assigned to. If a seventeenth player attempts to enter a cutscene whilst all sixteen cutscene rooms are occupied, Commander Veldaban will tell the player that the Consortium either has \"other important business to attend to\", or that the meeting hasn't started yet. The exact conditions to what he says can be found in the quest's transcript."
+      "2 Quest points",
+      "2,500 Mining experience",
+      "2,500 Smithing experience",
+      "2,500 Crafting experience",
+      "1,500 Magic experience",
+      "1,500 Thieving experience",
+      "1,500 Firemaking experience"
     ],
     "enemies_to_defeat": []
   },
@@ -3112,20 +3535,14 @@
     ],
     "item_requirements": [],
     "rewards": [
-      "Sir Tiffy Cashien - Certification",
-      "Sir Kuam Ferentse - Circumference",
-      "Sir Leye - Surly",
-      "Sir Spishyus - Suspicious",
-      "Miss Hinn Terprett - Misinterpret",
-      "Sir Tinley - Certainly",
-      "Sir Ren Itchood - Serenitude",
-      "Lady Table - Lay the Table",
-      "Miss Cheevers - Mischievous",
-      "Sir Vey Lance - Surveillance",
-      "Sir Amik Varze - Ceramic Vase",
-      "Sir Vyvin - Surviving",
-      "Sir Renitee - Serenity",
-      "Sir Rebral - Cerebral"
+      "1 Quest point",
+      "1,000.5 Prayer experience",
+      "1,000.5 Herblore experience",
+      "1,000.5 Agility experience",
+      "3,000 coins",
+      "Access to initiate armour. You will be given a sallet for free, and you can buy subsequent sallets from Sir Tiffy Cashien for 6,000 coins, the cuisse for 8,000 coins, the hauberk for 10,000 coins, or the full set for 20,000 coins. It is aesthetically similar to white armour, with a gold trim.",
+      "The Gaze of Saradomin - When you die, you will have the option of returning to Falador instead of Lumbridge. Talk to Sir Tiffy Cashien to change your spawn point at any time.",
+      "Appointment with the title of Initiate in the Order of Temple Knights.[note]"
     ],
     "enemies_to_defeat": []
   },
@@ -3201,7 +3618,15 @@
       "Barrel of naphtha, or 5-9 coal to make one",
       "7 empty inventory spaces for the Mourner gear"
     ],
-    "rewards": [],
+    "rewards": [
+      "2 Quest points",
+      "40,000 Thieving experience",
+      "25,000 Hitpoints experience",
+      "Access to the Mourner HQ basement and the village of Lletya",
+      "Elf teleport crystal",
+      "The fixed device",
+      "Full mourner clothing"
+    ],
     "enemies_to_defeat": []
   },
   {
@@ -3250,7 +3675,10 @@
       "A random item from the list below (see list for details)"
     ],
     "rewards": [
-      "This dialogue was updated during the Sailing Technical Pre-Release on 5 November 2025 to reference sailors, reflecting the upcoming release of the Sailing skill later that month on 19 November."
+      "2 Quest points",
+      "5,000 Cooking experience",
+      "5,000 Farming experience",
+      "2 Dwarven stout (m)"
     ],
     "enemies_to_defeat": []
   },
@@ -3305,7 +3733,17 @@
       "A filled plant pot",
       "2 ultracompost/supercompost/compost (note: Bottomless compost bucket will not work for these two required composts. The quality of these 2 composts do not matter.)"
     ],
-    "rewards": [],
+    "rewards": [
+      "2 Quest points",
+      "5,000 Farming experience",
+      "An activated ring of charos - players can wear the activated ring to charm various NPCs to pay less for certain services, or get choices that are otherwise unavailable.",
+      "An apple tree seed",
+      "An acorn",
+      "5 guam seeds",
+      "4-dose compost potion, which can be used to turn compost into supercompost.",
+      "After the quest, the player can visit the garden and pick 4 fruits from the white tree. They regrow after some time, similar to other fruit bearing trees. Each fruit restores about 8% of energy.",
+      "Agility shortcut to the Varrock Palace garden via the southern trellis"
+    ],
     "enemies_to_defeat": []
   },
   {
@@ -3347,8 +3785,10 @@
       "Desert robe (obtainable during quest) or Druid's robe (The desert outfit does not work)"
     ],
     "rewards": [
-      "Two antique lamps worth 2,500 experience each in skills of your choice over 30",
-      "A Mouse toy (can be used to play with your cat, and functions as a fun weapon at the Emir's Arena)"
+      "2 Quest points",
+      "A Doctor's hat or Nurse hat (you can switch by destroying your hat and requesting a new one from the Apothecary)",
+      "A present containing:",
+      "Completing this quest awards the player with 5 Kudos which can be claimed by talking to Historian Minas in the Varrock Museum."
     ],
     "enemies_to_defeat": []
   },
@@ -3417,7 +3857,11 @@
       "The player must deliver all 20 rune essence at once",
       "Light source (Note: Candles, torches and oil lamps can cause swamp gas explosions if going off-route, and need a tinderbox to stay lit)"
     ],
-    "rewards": [],
+    "rewards": [
+      "1 Quest point",
+      "5,000 Slayer experience",
+      "Access to the armoury of the White Knights (White equipment)"
+    ],
     "enemies_to_defeat": [
       "Black Knight (level 32)",
       "Solus Dellagar"
@@ -3480,10 +3924,14 @@
       "Rope"
     ],
     "rewards": [
-      "Players can now equip weapons, shields and amulets when entering Mourner HQ.",
-      "The Head mourner was replaced with Essyllt.",
-      "The Colour wheel was removed from the dead guard at the entrance of the Temple of Light. A new dead guard with the Colour wheel and Scrawled notes was added by the crystal dispenser.",
-      "The light pillar interface was optimised to reduce the number of clicks required to place mirrors."
+      "2 Quest points",
+      "60,000 Agility experience",
+      "A crystal trinket, which allows you to enter the Temple of Light again after the quest",
+      "Access to the Death Altar",
+      "Death talismans can be obtained via Guardians of the Rift",
+      "Death runes can now be crafted during Guardians of the Rift",
+      "Access to Dark Beasts",
+      "Dark Beasts teleport enabled in Slayer rings menu"
     ],
     "enemies_to_defeat": []
   },
@@ -3554,10 +4002,12 @@
       "At least 47 prayer points for the Evil spirits part of the quest"
     ],
     "rewards": [
-      "One of the brewers in the 'rum' factory quotes a line from Monty Python's Dirty Hungarian Phrasebook: \"My hovercraft is full of eels\".",
-      "One brewer says \"Game over man, game over!\", which is a reference to the movie Aliens.",
-      "Another asks, after the player inquires about the priest, \"Do you need a young priest or an old priest?\" This is a reference to The Exorcist.",
-      "50% Luke says he was restored with witchwood, which may be a reference to wizardwood in Robin Hobb's Liveship Traders trilogy."
+      "2 Quest points",
+      "7,000 Fishing experience",
+      "7,000 Prayer experience",
+      "7,000 Farming experience",
+      "The Holy wrench (while in your inventory, this grants more prayer points when drinking a prayer potion)",
+      "Access to Braindeath Island"
     ],
     "enemies_to_defeat": [
       "Evil spirit (level 150) (safespottable)",
@@ -3602,7 +4052,10 @@
       "Means to enter the desert (such as the Shantay pass, Desert amulet 2, Teleport tablets or scrolls, Fairy rings or the Pharaoh's sceptre)"
     ],
     "rewards": [
-      "If you tell him you have some more questions for him during the sandstorm, there is an option to ask if he would participate in the demon summoning. If this option is selected, he refuses, saying he can't leave the rugs alone in the sandstorm or they might fly off."
+      "1 Quest point",
+      "10,000 experience in any combat skill other than Prayer.",
+      "Silverlight turns into the Darklight sword - it has a special attack and is even more powerful against demons. It costs slightly more to replace.",
+      "Six cut gems: two sapphires, two rubies and two emeralds, if you use a hammer and chisel on the demon's throne and had not yet removed them during The Golem."
     ],
     "enemies_to_defeat": []
   },
@@ -3638,7 +4091,16 @@
       "1 bone, 1 pot and 1 bucket to earn 5 ecto-tokens (you still only need two) or",
       "5,200 gold for a Charter ship to Port Phasmatys (cheaper depending upon where you travel from and if you use ring of charos)."
     ],
-    "rewards": [],
+    "rewards": [
+      "3 Quest points",
+      "1,000 Crafting experience",
+      "1,000 Prayer experience",
+      "750 coins",
+      "Enchanted key, allowing you to go on your own treasure digs until it disappears",
+      "Access to the museum in the outpost",
+      "Ability to complete master clue hot/cold Treasure Trails.",
+      "Ability to claim 5 Kudos and an Antique lamp rewarding 1,000 XP in any skill of at least level 20 from Historian Minas after completion of the quest"
+    ],
     "enemies_to_defeat": []
   },
   {
@@ -3689,9 +4151,13 @@
       "1 free inventory space"
     ],
     "rewards": [
-      "The rats are now easier for cats to catch.",
-      "Cats now run away when they reach 1 HP in their fight against the King Rat rather than fighting to the death - this only works if you select the option to tell your cat to be careful during the fight. If you select the 'don't hold back' option, your cat will fight to the death.",
-      "The guards in the mansion segment are now easier to anticipate, and they won't have difficult pathing rotations."
+      "2 Quest points",
+      "4,500 Thieving experience",
+      "A rat pole",
+      "The ability to train overgrown cats into wily and lazy cats.",
+      "The ability to name your wily or lazy cat (up to six letters long).",
+      "Access to the Rat Pits.",
+      "The ability to use the Minigame Teleport to the rat pits in Port Sarim, Ardougne, Varrock, and Keldagrim."
     ],
     "enemies_to_defeat": []
   },
@@ -3742,7 +4208,14 @@
       "Any pickaxe that you have the Mining level to use (a bronze pickaxe can be obtained during the quest)",
       "Some form of Ranged or Magic attack method, (a shortbow and bronze arrows can be obtained during the quest)"
     ],
-    "rewards": [],
+    "rewards": [
+      "2 Quest points",
+      "8,000 Prayer experience",
+      "1,000 Thieving experience",
+      "1,000 Magic experience",
+      "Access to Nardah's fountain for water and the shrine: Praying at the statuette will fill Hitpoints, temporarily boost it, cure poison and venom, restore prayer points, run energy, and special attack energy.",
+      "Robe of elidinis"
+    ],
     "enemies_to_defeat": [
       "Black golem (level 75)",
       "Grey golem (level 75)",
@@ -3833,7 +4306,10 @@
       "A non-degraded large or colossal pouch"
     ],
     "rewards": [
-      "Updated dialogue through-out the quest"
+      "1 Quest point",
+      "5,000 Fletching experience",
+      "5,000 Runecraft experience",
+      "6,500 Smithing experience"
     ],
     "enemies_to_defeat": []
   },
@@ -3871,7 +4347,14 @@
       "5 earth runes (can be bought from Betty for 20 gp)",
       "Bucket of sand (obtainable during quest if you bring a bucket)"
     ],
-    "rewards": [],
+    "rewards": [
+      "1 Quest point",
+      "1,000 Thieving experience",
+      "9,000 Crafting experience",
+      "Ability to buy pink dye from Betty",
+      "A secret reward from Bert - He simply loves sand, and wasn't in the job for the money. He will ship 84 buckets of sand to your bank if you talk to him after the quest. This can be done once per day (UTC). Asking Bert to take sand to your bank is also an Ardougne Medium task.",
+      "Access to the Wizards' Guild rune store"
+    ],
     "enemies_to_defeat": []
   },
   {
@@ -3927,7 +4410,15 @@
       "Runes to cast Crumble Undead (multiple casts recommended in case of splashing)",
       "Enough remaining Prayer points to cast Protect from Melee for about five seconds"
     ],
-    "rewards": [],
+    "rewards": [
+      "2 Quest points",
+      "7,000 Crafting experience",
+      "7,000 Mining experience",
+      "7,000 Firemaking experience",
+      "7,000 Magic experience",
+      "Camulet, which allows you to talk to camels and teleport to the temple four times. It can be recharged by using camel dung on it. You can pay Lazim 1 million gold pieces to give it unlimited charges.",
+      "Camel mask (Use a piece of soft clay on the pedestal with the globes on it to make.)"
+    ],
     "enemies_to_defeat": []
   },
   {
@@ -3994,7 +4485,18 @@
       }
     ],
     "item_requirements": [],
-    "rewards": [],
+    "rewards": [
+      "2 Quest points",
+      "7,000 Crafting experience",
+      "7,000 Smithing experience",
+      "7,000 Agility experience",
+      "10,000 coins (only if you speak to Bill Teach after the quest)",
+      "Access to Mos Le'Harmless",
+      "Access to kill cave horrors",
+      "The Book o' piracy",
+      "Charter ship prices are halved",
+      "Ability to play the Trouble Brewing minigame"
+    ],
     "enemies_to_defeat": [
       "Pirates (level 57)"
     ]
@@ -4042,7 +4544,11 @@
       "A combination of three items picked for you at random, see list of potential items."
     ],
     "rewards": [
-      "It is possible to ask a Tool Leprechaun about finding a fairy. However, they will direct you to Draynor Village to find Shamus instead. This can be done even before talking to the fifth gardener."
+      "2 Quest points",
+      "Magic secateurs (increases some crop harvests when Farming)",
+      "3,500 Farming experience",
+      "2,000 Attack experience",
+      "1,000 Magic experience"
     ],
     "enemies_to_defeat": []
   },
@@ -4338,8 +4844,17 @@
       "Rope"
     ],
     "rewards": [
-      "Mogre Camp",
-      "Evil Chicken's Lair"
+      "10 Quest points",
+      "An antique lamp, which grants 20,000 experience to any skill above 50 (can be banked for later use)",
+      "Access to the following areas:",
+      "Ability to dive for crabs",
+      "Ability to cook crab meat",
+      "Ability to catch hell-rats",
+      "Ability to own a hellcat",
+      "Ability to add coloured spices to stews of any sort",
+      "Ability to use the boat trip to travel between Karamja and Feldip Hills",
+      "Ape Atoll Teleport spell",
+      "Full access to Culinaromancer's Chest"
     ],
     "enemies_to_defeat": [
       "Icefiend (level 13) (only if you lack ice gloves)",
@@ -4447,7 +4962,17 @@
       "15 stew (highest healing), salmon, snails, or slimy eels"
     ],
     "rewards": [
-      "Adjusted Gadderanks and Vanstrom cutscene"
+      "2 Quest points",
+      "2,000 Attack experience",
+      "2,000 Strength experience",
+      "2,000 Crafting experience",
+      "2,000 Defence experience",
+      "Access to Burgh de Rott",
+      "Access to the Temple Trekking minigame",
+      "A Gadderhammer from defeating Gadderanks",
+      "The ability to make the Rod of Ivandis",
+      "The ability to hire Oarswoman Olga as a crewmate with 65 Sailing",
+      "Completing this quest awards the player with 5 Kudos which can be claimed by talking to Historian Minas in the Varrock Museum"
     ],
     "enemies_to_defeat": [
       "Gadderanks (level 35) (safespottable)",
@@ -4472,7 +4997,13 @@
       "Rope",
       "A weapon"
     ],
-    "rewards": [],
+    "rewards": [
+      "1 Quest point",
+      "500 Defence experience",
+      "500 Hitpoints experience",
+      "500 Coins",
+      "Access to Tolna's rift for combat training"
+    ],
     "enemies_to_defeat": [
       "7-8 angry unicorns, angry bears, angry giant rats, and/or angry goblins",
       "5 fear reapers (level 42)",
@@ -4500,7 +5031,11 @@
       "8 logs of any type (or an axe to obtain them)",
       "Tinderbox"
     ],
-    "rewards": [],
+    "rewards": [
+      "1 Quest point",
+      "500 Cooking experience",
+      "500 Prayer experience"
+    ],
     "enemies_to_defeat": []
   },
   {
@@ -4606,9 +5141,13 @@
       "A brown apron (obtained during the quest)"
     ],
     "rewards": [
-      "The ability to fish monkfish",
-      "The ability to use Skeleton Mages for training",
-      "Use Kathy Corkat's boat for free"
+      "2 Quest points",
+      "15,000 Magic experience",
+      "10,000 Prayer experience",
+      "50,000 Fishing experience",
+      "25,000 coins",
+      "Access to the Piscatoris Fishing Colony",
+      "Access to the following items from Malignius Mortifer upon request:"
     ],
     "enemies_to_defeat": [
       "11 Sea trolls (1 each of levels 65/87/101 and 8 of level 79)",
@@ -4673,7 +5212,15 @@
       "2 rope (obtainable during the quest)",
       "1 plank (obtainable during the quest)"
     ],
-    "rewards": [],
+    "rewards": [
+      "1 Quest point",
+      "20,000 Coins",
+      "5,000 Agility experience",
+      "5,000 Slayer experience",
+      "5,000 Hitpoints experience",
+      "The ability to hire Bosun Zarah as a crewmate with 80 Sailing",
+      "Enhanced rewards from Managing Miscellania"
+    ],
     "enemies_to_defeat": []
   },
   {
@@ -4722,7 +5269,11 @@
       "2 full sets of H.A.M. robes (all 7 pieces) (chance to receive robes is significantly higher during the quest)[1]",
       "Pickaxe (if not using a games necklace to teleport to Tears of Guthix - only usable after you have completed the Tears of Guthix quest)"
     ],
-    "rewards": [],
+    "rewards": [
+      "1 Quest point",
+      "2,000 Thieving experience",
+      "2,000 Ranged experience"
+    ],
     "enemies_to_defeat": [
       "Sigmund (level 50)",
       "3 H.A.M. Guards (level 22) (optional)"
@@ -4785,8 +5336,12 @@
       "Nuff's certificate (obtained during quest)"
     ],
     "rewards": [
-      "'Fairy Tale II - Cure a Queen' in the game window, when you click on the Quest Journal entry, and in the Quest Journal control panel.",
-      "'A Fairy Tale Part II - Cure a Queen' in the Knowledge Base."
+      "2 Quest points",
+      "3,500 Herblore experience",
+      "2,500 Thieving experience",
+      "An antique lamp granting 2,500 experience in any skill over level 30",
+      "Access to the fairy rings network",
+      "Access to Fairy Fixit's Fairy Enchantment shop"
     ],
     "enemies_to_defeat": [
       "Several Goraks (level 145) (can be safespotted, protection prayers are ineffective)"
@@ -4882,7 +5437,16 @@
       "A dramen staff",
       "Combat equipment"
     ],
-    "rewards": [],
+    "rewards": [
+      "2 Quest points",
+      "5,000 Magic experience",
+      "5,000 Runecraft experience",
+      "A seal of passage",
+      "Access to Lunar Isle and Lunar equipment",
+      "Access to the Lunar spellbook",
+      "Access to the Astral Altar",
+      "50 Astral runes"
+    ],
     "enemies_to_defeat": [
       "Multiple Suqah (level 111)",
       "Me (level 79)"
@@ -4927,8 +5491,13 @@
       "Pestle and mortar"
     ],
     "rewards": [
-      "The hand displayed when operating Oaknock's machines in The Eyes of Glouphrie now matches the player character's skin tone.",
-      "Certain shapes can now be obtained from Oaknock's machine."
+      "2 Quest points",
+      "12,000 Magic experience",
+      "2,500 Woodcutting experience",
+      "6,000 Runecraft experience",
+      "250 Construction experience",
+      "A crystal saw seed — Either take it to Ilfeen in Tirannwn or use it on the singing bowl by Brimstail to get an enchanted crystal saw. It allows items (that require a saw) to be made three levels above your Construction. It has a limited number of charges (28), but the recharge is free - use the bowl again.",
+      "Using the crystal seed with the singing bowl and getting a crystal saw is a medium task in the Western Provinces Diary."
     ],
     "enemies_to_defeat": []
   },
@@ -5010,9 +5579,13 @@
       "Means to cast Telekinetic Grab (air and law rune; both obtainable during the quest)"
     ],
     "rewards": [
-      "Some dialogue pertaining to the quest has been rewritten, including Drezel's explanation of the Edicts of Guthix.",
-      "A cutscene when sketching the west side of the castle was added.",
-      "Vanstrom Klause now attacks the player when they start sketching the south side instead of the west side."
+      "2 Quest points",
+      "7,000 Agility experience",
+      "6,000 Thieving experience",
+      "2,000 Construction experience",
+      "Tome of experience, granting 2,000 experience to any three skills of the player's choosing (level 30 or over). Can be the same skill.",
+      "Access to passage through two shortcut doors within Meiyerditch",
+      "Lore-related in-game Membership of the Myreque"
     ],
     "enemies_to_defeat": []
   },
@@ -5113,8 +5686,11 @@
       "Access to Guardians of the Rift"
     ],
     "rewards": [
-      "Buying the upgraded armour in separate pieces costs more: the helm costs 8,000 coins, the platelegs and plateskirt cost 10,000 coins, and the platebody costs 12,000 coins for a total of 30,000 coins",
-      "Required for the hard Falador Diary"
+      "1 Quest point",
+      "3,500 Crafting experience",
+      "3,500 Runecraft experience",
+      "3,500 Thieving experience",
+      "Promotion to Proselyte among the Temple Knights. This means you can buy and wear Proselyte armour with a greater Prayer bonus than Initiate. You can buy each piece individually, or buy the armour pack which, when opened, gives you the plate, helm, and legs/tassets all at once. The pack costs 25,000 coins"
     ],
     "enemies_to_defeat": []
   },
@@ -5151,7 +5727,10 @@
       "The battered key from Elemental Workshop I"
     ],
     "rewards": [
-      "To make a mind shield: have the slashed book from the Elemental Workshop I quest in your inventory, then smith a primed mind bar into a mind shield"
+      "1 Quest point",
+      "7,500 Smithing experience",
+      "7,500 Crafting experience",
+      "The ability to make and use elemental mind equipment"
     ],
     "enemies_to_defeat": []
   },
@@ -5227,7 +5806,12 @@
       "Climbing boots (can be bought from Tenzing for 12 coins)"
     ],
     "rewards": [
-      "45×7 (315 total) additional Farming experience while My Arm harvests his crop."
+      "1 Quest point",
+      "10,000 Herblore experience",
+      "5,000 Farming experience",
+      "Access to a disease-free herb patch on top of the Troll Stronghold. This patch does not allow growing of regular Goutweed.",
+      "Ability to use the rocks Agility shortcut outside the Troll Stronghold.",
+      "29 Burnt meat"
     ],
     "enemies_to_defeat": [
       "Baby Roc (level 75)",
@@ -5289,7 +5873,14 @@
       "A spade (only if planting the tree) (can also be exchanged from a Tool Leprechaun if placed there before)"
     ],
     "rewards": [
-      "Gnome goggles from the Gnome Restaurant minigame can be combined with the bomber cap by talking with Auguste"
+      "1 Quest point",
+      "2,000 Crafting experience",
+      "3,000 Farming experience",
+      "1,500 Woodcutting experience",
+      "4,000 Firemaking experience",
+      "The Bomber jacket and cap",
+      "Access to the balloon transport system",
+      "Ability to make origami balloons"
     ],
     "enemies_to_defeat": []
   },
@@ -5318,8 +5909,12 @@
       "50 Coins"
     ],
     "rewards": [
-      "Partial completion of the quest is now required to be able to use box traps.",
-      "Players can now decline receiving combat XP while dealing with the kebbit during the quest."
+      "2 Quest points",
+      "2500 Hunter experience",
+      "Ability to use box traps",
+      "Access to the Eagle transport system",
+      "Captured ferrets can be used to flush white rabbits from their holes, allowing them to be caught in rabbit snares",
+      "A box trap"
     ],
     "enemies_to_defeat": []
   },
@@ -5380,7 +5975,16 @@
       "Holy symbol",
       "Polished buttons"
     ],
-    "rewards": [],
+    "rewards": [
+      "1 Quest point",
+      "1,000 Crafting experience",
+      "1,000 Fletching experience",
+      "1,000 Slayer experience",
+      "2,500 Woodcutting experience",
+      "Ava's attractor if your Ranged level is less than 50, or Ava's accumulator if your Ranged level is 50 or higher",
+      "Ballistic attractor schematic from talking to Ava if the Pandemonium quest is completed",
+      "The ability to trade with Ava and purchase her devices"
+    ],
     "enemies_to_defeat": []
   },
   {
@@ -5414,8 +6018,12 @@
       "A tinderbox (unless you have a non extinguishable light source such as Kandarin headgear, Firemaking cape, Abyssal lantern, or a bruma torch). If you don't have one, the Sophanem guard will sell you one for 50 coins."
     ],
     "rewards": [
-      "Fixed a few plotholes and inconsistencies in the Icthlarin's Little Helper and Contact! quests.",
-      "Removed some inappropriate dialogue from the Prince Ali Rescue, Icthlarin's Little Helper and Contact! quests."
+      "1 Quest point",
+      "7,000 Thieving experience",
+      "Bankable Combat lamp granting 2 x 7,000 experience in Attack, Strength, Defence, Hitpoints, Ranged, or Magic",
+      "The Keris dagger",
+      "Access to Sophanem's shops including: bank, Blades by Urbi., Nathifa's Bake Stall., The Spice Is Right.",
+      "The music track Back to Life and The Spymaster"
     ],
     "enemies_to_defeat": [
       "Giant Scarab (level 191)",
@@ -5479,12 +6087,13 @@
       "Cowbell (obtainable only during quest)"
     ],
     "rewards": [
-      "The KGP is a take on the KGB, the Soviet Union's Security Agency.",
-      "The term \"Motherland\" was historically used in reference to the Soviet Union.",
-      "The term \"Comrade\" was often used in the Soviet Union.",
-      "Palingrad is a reference to the Russian city of Volgograd, formerly named Stalingrad.",
-      "When speaking to Ping, the player will say \" Sure, I haven't got anything to lose, except my eardrums\". This is possibly a reference to the popular phrase from The Communist Manifesto by Karl Marx and Friedrich Engels: \"Workers of the world, unite! You have nothing to lose but your chains!\"",
-      "The posters in the penguin outpost are a reference to patriotic murals in communist countries."
+      "1 Quest point",
+      "2,000 Crafting experience",
+      "5,000 Agility experience",
+      "1,500 Construction experience",
+      "The ability to make the penguin suit. To enter the suit again, you must talk to Larry again at the zoo, pier, or Iceberg",
+      "The ability to use the Penguin Agility Course",
+      "Players can also steal more cowbells and make more bongos. The cowbells or the bongos can only be played in a penguin suit"
     ],
     "enemies_to_defeat": []
   },
@@ -5525,8 +6134,20 @@
       "Silly jester costume (obtained during quest)"
     ],
     "rewards": [
-      "The window tax was also a British glass tax during 1696-1851.",
-      "The beard tax of 1698 is the best known of a series of measures enacted by Tsar Peter the Great to transform and regulate the appearance of his subjects."
+      "1 Quest point",
+      "5,000 Construction experience",
+      "5,000 Crafting experience",
+      "10,000 Woodcutting experience",
+      "Two lots of 10,000 Combat experience (choose between Strength, Attack, Defence or Hitpoints).",
+      "A Fremennik royal helm known as the helm of Neitiznot, which is the equivalent of a berserker helm with a +3 Prayer bonus, slightly better Magic and crush Defence, and no negative bonuses. If a player loses the helm, they can talk to Mawnis Burowgar to buy another one for 50,000 coins.",
+      "Access to arctic pine trees.",
+      "Access to an island with a runite rock north-east of Neitiznot, which also has seven (7) coal rocks nearby.",
+      "Access to the Jatizso mine, which contains up to adamantite rocks.",
+      "Around 20,000 coins in assorted rewards during quest.",
+      "The banks in Neitiznot and Jatizso are close to water, range, furnace, fishing spots, mining ores; a spinning wheel is also nearby.",
+      "If the jester outfit is lost, a player can retrieve another one from the chest behind King Gjuki Sorvott IV's throne.",
+      "Learn the ability to create yak-hide armour and Neitiznot shields.",
+      "The Contraband Yak Produce shop is available on Jatizso if a player refunds the 5,000 coin tax to Vanligga Gastfrihet, who is north of the king."
     ],
     "enemies_to_defeat": [
       "10 Ice Trolls (level 74-82)",
@@ -5634,12 +6255,15 @@
       "Ring of charos (if lost, can be re-obtained during quest by pickpocketing Fenkenstrain)"
     ],
     "rewards": [
-      "When Rufus comments that the cats aren't moving, the player will comment that they're \"probably pining\". This is one of RuneScape's many references to Monty Python, specifically their \"Dead Parrot\" sketch.",
-      "After the player builds the crate and fills it with the wooden cats, the player says \"Urge to kill...rising!\" This is a reference to an episode of The Simpsons where Homer says the same line.",
-      "When Dr Fenkenstrain tells you the list of equipment he needs, the player mentions \"Unusual Implements R Us\". This is a reference to the now-defunct toy store Toys \"R\" Us.",
-      "\"Not the box\" is a possible reference to the \"Boo Box\" from the film Hook.",
-      "At the beginning of the quest while talking to Brother Tranquility, the player refers to Mos Le'Harmless as \"a hive of scum and villainy\". This is a reference to Ben Kenobi's line describing Mos Eisley in Star Wars: Episode IV – A New Hope.",
-      "After retrieving the prayer book, Brother Tranquility asks, \"When you took the book from the shelf, did you say the words?\" This is a reference to the cult film Army of Darkness, where the main character, Ash, is told by a priest to retrieve the Necronomicon after reciting specific words. After retrieving the book, the priest asks Ash, \"When you removed the Necronomicon from its cradle, did you speak the words?\""
+      "2 Quest points",
+      "6,000 Prayer experience",
+      "3,000 Crafting experience",
+      "2,000 Construction experience",
+      "Blessed lamp ( 5,000 experience in a chosen skill above level 30 and can be placed in your bank)",
+      "Barrelchest anchor (To repair your barrelchest anchor, return to Mos Le'Harmless and make sure you have a book o' piracy in your inventory; then, go to the docks south of the bank and talk to \"Smith.\" He can fix your anchor for 230,000 coins.)",
+      "Prayer book",
+      "Ability to cast Harmony Island Teleport on the Arceuus spellbook",
+      "Ability to fight the Barrelchest within the Nightmare Zone."
     ],
     "enemies_to_defeat": [
       "Barrelchest (level 190)",
@@ -5675,7 +6299,15 @@
       "15 chaos runes",
       "Access to the Chaos Altar (Chaos talisman or tiara, Catalytic talisman or tiara, or travelling through the Abyss or Temple of the Eye)"
     ],
-    "rewards": [],
+    "rewards": [
+      "1 Quest point",
+      "8,000 Runecraft experience",
+      "2,000 Defence experience",
+      "The Beacon ring",
+      "Access to a shortcut to the Chaos Altar",
+      "Completing this quest awards the player with 5 Kudos which can be claimed by talking to Historian Minas in the Varrock Museum, while holding the Dagon'hai history book.",
+      "5 Battlestaves in stock of Zaff's Superior Staffs! store (after defeating King Roald - the quest doesn't need to be completed)"
+    ],
     "enemies_to_defeat": [
       "5 Outlaws (level 32)",
       "King Roald (level 47)"
@@ -5713,7 +6345,12 @@
       "4 free inventory slots (10 if not bringing your own ropes)"
     ],
     "rewards": [
-      "His son Volf's name may also be a reference to another character, Rolf, from the same show."
+      "1 Quest point",
+      "12,000 Defence experience",
+      "20,000 coins",
+      "4 cut rubies",
+      "Access to a cave where you can fight brine rats.",
+      "A piece of parchment telling you of other shipwrecks with more treasure (in the upcoming quest The Graveyard)."
     ],
     "enemies_to_defeat": [
       "Skeleton fremennik (level 40)",
@@ -5779,7 +6416,14 @@
       "Specimen brush (obtained during the quest)",
       "Magic or Ranged gear for enemy fight (cannot use Melee on them)"
     ],
-    "rewards": [],
+    "rewards": [
+      "1 Quest point",
+      "3,000 Mining experience",
+      "3,000 Prayer experience",
+      "The ancient mace",
+      "The ability to buy Goblin Village teleport spheres",
+      "Free access to the Dorgesh-Kaan–Keldagrim train system"
+    ],
     "enemies_to_defeat": [
       "H.A.M. Archer (level 30)",
       "H.A.M. Mage (level 30)",
@@ -5857,10 +6501,12 @@
       "A good weapon (trident of the seas recommended because they have no magic defence), good armour, good food such as sharks, and super potion sets."
     ],
     "rewards": [
-      "Killing TzTok-Jad.",
-      "Killing the Kalphite Queen, joined by some of the Slayer Masters.",
-      "A top secret meeting between the rulers of Gielinor (a possible reference to Recipe for Disaster).",
-      "Player killing in the Wilderness."
+      "2 Quest points",
+      "15,000 Hitpoints experience",
+      "10,000 Magic experience",
+      "7 new spells added to your Lunar spells book (Monster Examine, Humidify, Hunter Kit, Stat Spy, Dream, Plank Make, Spellbook Swap)",
+      "A dreamy lamp, which awards 15,000 experience in a combat skill of a player's choosing, apart from Attack and Prayer.",
+      "'Birds-Eye' Jack will now allow you to use the bank without a seal of passage equipped or in your inventory."
     ],
     "enemies_to_defeat": [
       "The Inadequacy (level 343)",
@@ -5927,11 +6573,14 @@
       "Good armour and a weapon (Ranged or Magic equipment recommended if you have low melee levels)"
     ],
     "rewards": [
-      "Woodcutting from 14,000 to 60,000",
-      "Agility from 6,000 to 25,000.",
-      "Thieving from 6,000 to 25,000.",
-      "Herblore from 5,000 to 15,000.",
-      "Farming from 4,000 to 10,000."
+      "1 Quest point",
+      "60,000 Woodcutting experience",
+      "25,000 Agility experience",
+      "25,000 Thieving experience",
+      "15,000 Herblore experience",
+      "10,000 Farming experience",
+      "5,000 Hitpoints experience",
+      "Dwarven helmet (equip this helmet in the Dwarven Mines to complete a Hard Falador task)"
     ],
     "enemies_to_defeat": []
   },
@@ -6005,7 +6654,12 @@
       "Animate rock scroll (obtainable during the quest). Note: if you have it in your bank, either destroy it or take it with you. You won't be able to receive another from Wizard Cromperty otherwise."
     ],
     "rewards": [
-      "When finding Anna not guilty, Party Room balloons fall down. This is because of the Party Room being here previously, as stated by the judge when talking to him after the acquittal, and the prosecutor also tells of the problem they have with the dancing knights."
+      "1 Quest point",
+      "33,000 experience",
+      "5,000 experience",
+      "An antique lamp granting 5,000 experience to any skill level 50 or above",
+      "Access to the Knight Waves Training Grounds",
+      "The ability to use the Chivalry and Piety prayers, with level 60 and 70 Prayer, respectively, after completion of Knight Waves Training Grounds"
     ],
     "enemies_to_defeat": []
   },
@@ -6057,7 +6711,15 @@
       "Chisel (can be purchased at the store north of Tai Bwo Wannai for 1 coins)",
       "3 regular bones (obtainable during the quest)"
     ],
-    "rewards": [],
+    "rewards": [
+      "2 Quest points",
+      "3,875 Crafting experience",
+      "Access to Shilo Village",
+      "Ability to quick travel to Shilo Village using the cart near the Brimhaven docks",
+      "After completing the quest, you can sell every item you obtained during the quest to Yanni Salika in Shilo Village for a total of 2,000 — 100 each for the stone-plaque, tattered scroll, crumpled scroll, Bervirius notes, and the bone key; 500 for the locating crystal; and 1000 for the beads of the dead.",
+      "Ability to charter the Lady of the Waves west to Shilo Village to Port Khazard or Port Sarim",
+      "Nazastarool accessible in the Nightmare Zone."
+    ],
     "enemies_to_defeat": [
       "Nazastarool in 3 forms, levels 91, 68, and 93. (safespottable)"
     ]
@@ -6080,9 +6742,11 @@
       "Gas mask (can be obtained for free from the cupboard in Edmond and Alrena's house in East Ardougne)"
     ],
     "rewards": [
-      "Teleporting with the plague sample and vials no longer breaks them.",
-      "The errand boy hands over the vials faster.",
-      "Talking to the Chemist or Guidor does not affect quest items."
+      "3 Quest points",
+      "1,250 Thieving experience",
+      "Use of the Combat Training Camp north of the city. Players can attack a total of six training dummies in the camp for 50 attack experience each.",
+      "The ability to travel freely through the West Ardougne gate.",
+      "The ability to use the West Ardougne Teleport in the Arceuus spellbook and teletab."
     ],
     "enemies_to_defeat": [
       "Mourner (level 13)"
@@ -6112,7 +6776,14 @@
       "Saw (or crystal saw)",
       "Beer (must be a regular beer - other beers do not work.)"
     ],
-    "rewards": [],
+    "rewards": [
+      "2 Quest points",
+      "1,000 Construction experience",
+      "500 Crafting experience",
+      "500 Thieving experience",
+      "Access to Creature Creation",
+      "Builder's costume"
+    ],
     "enemies_to_defeat": []
   },
   {
@@ -6173,7 +6844,12 @@
       "Fishing explosives",
       "Mirror shield or V's shield (unless using a workaround - see guide for how to get around using this)"
     ],
-    "rewards": [],
+    "rewards": [
+      "1 Quest point",
+      "5,000 Prayer experience",
+      "Bonesack",
+      "Ram skull helm"
+    ],
     "enemies_to_defeat": []
   },
   {
@@ -6259,10 +6935,15 @@
       "5 coins"
     ],
     "rewards": [
-      "The recommended combat level to complete the quest has been increased from 60 to 65.",
-      "Various spelling errors have been corrected in dialogue seen during the quest.",
-      "Dusk in Yu'biusk will now unlock upon arriving there during the quest, though it won't be played (as part of an artistic choice by the developers).",
-      "Oldak's dialogue now changes if players visit Yu'biusk properly by way of fairy ring."
+      "2 Quest points",
+      "8,000 Agility experience",
+      "8,000 Fishing experience",
+      "8,000 Thieving experience",
+      "8,000 Herblore experience",
+      "Access to the Goblin Temple (with an altar to recharge prayer points).",
+      "Access to Yu'biusk, using fairy ring code BLQ.",
+      "Ability to purchase plain of mud spheres that transport you to the Goblin Cave.",
+      "Ability to make goblin potions."
     ],
     "enemies_to_defeat": [
       "Snothead (level 32)",
@@ -6543,12 +7224,17 @@
       "One of each of the following runes: air, water, earth, fire, mind, law, death"
     ],
     "rewards": [
-      "Texts and dialogues throughout the quest have been adjusted to bring it in line with the quest in RuneScape 2.",
-      "A chest has been added to Movario's base that contains the runes players may need to open the old battered door.",
-      "Thaerisk will now give players one snapdragon seed for free, rather than charging roughly half the Grand Exchange value of the seed.",
-      "Akrisae will now offer a one-time teleport to Ice Mountain upon asking you to investigate Silif's whereabouts, and also remind you that a disguise is needed to enter Black Knights' Fortress.",
-      "Teleporting using the strange teleorb can now use runes from a rune pouch.",
-      "When placing herblore ingredients on statues within the Ancient Guthixian Temple, the corresponding alternate ingredients will now be returned to you; for example, placing a herb on a statue that already has one will give the initial herb back."
+      "5 Quest points",
+      "80,000 Thieving experience",
+      "75,000 Farming experience",
+      "75,000 Herblore experience",
+      "50,000 Hunter experience",
+      "Access to the Ancient Guthixian Temple and tormented demons",
+      "Duradel's notes, obtained from Kuradal, which grants Slayer experience equal to 15x the player's Slayer level when read, as well as the ability to craft the emberlight, scorching bow, and purging staff",
+      "100 death runes, 100 fire runes, 100 coal, and 100 magic logs can be looted from Movario's base",
+      "Elite black armour and Dark Squall robes",
+      "Access to the Black Knight Catacombs",
+      "The broav, if kept"
     ],
     "enemies_to_defeat": [
       "2 Assassins (level 167)",
@@ -6616,7 +7302,18 @@
       "Hammer",
       "Feathers (4 per 1 brutal arrow)"
     ],
-    "rewards": [],
+    "rewards": [
+      "1 Quest point",
+      "3 ourg bones",
+      "2 zogre bones",
+      "2,000 Fletching experience",
+      "2,000 Ranged experience",
+      "2,000 Herblore experience",
+      "Ability to make Relicym's balm",
+      "Ability to fletch comp ogre bows and brutal arrows",
+      "Ability to wear inoculation bracelets",
+      "Give a 2-, 3-, or 4-dose Relicym's balm to Uglug to gain access to ~ Uglug's stuffsies ~"
+    ],
     "enemies_to_defeat": [
       "Slash Bash (level 111) (can be safespotted)",
       "Zombie (level 39)"
@@ -6723,10 +7420,25 @@
       "The Translation book from The Grand Tree. If you have lost it a replacement can be obtained from King Narnode during the quest."
     ],
     "rewards": [
-      "Slayer from 25,000 to 80,000",
-      "Agility from 20,000 to 60,000.",
-      "Thieving from 15,000 to 50,000.",
-      "Hunter from 15,000 to 50,000."
+      "4 Quest points",
+      "80,000 Slayer experience",
+      "60,000 Agility experience",
+      "50,000 Thieving experience",
+      "50,000 Hunter experience",
+      "2x 50,000 experience rewards from Duke in your choice of Magic, Ranged, Attack, Defence, Strength, or Hitpoints. Found on the hill east of main gate of Ape Atoll. (Walk up west hill, and climb the ladder to reach the east hill). You cannot be trained if you have not yet been trained by Daero after completing Monkey Madness I. This effectively prevents certain account builds from receiving the training. Players must also accept both Duke's and Daero's training in order to make use of the Heavy Ballista.",
+      "A Royal seed pod, which provides unlimited teleports to the Grand Tree (up to level 30 Wilderness).",
+      "Access to the Crash Site Cavern containing demonic gorillas.",
+      "Access to a new maniacal monkey hunting area where Glough's laboratory used to be in Kruk's Dungeon.",
+      "Access to Ape Atoll bank and Oobapohk's Javelin Store.",
+      "Access to new glider spot directly to Ape Atoll.",
+      "The ability to communicate with monkeys without the monkeyspeak amulet.",
+      "All NPCs on the surface of Ape Atoll will be non-aggressive without requiring the use of Monkey greegrees.",
+      "Ability to wield the heavy ballista.",
+      "Various dragons will now drop dragon javelin tips.",
+      "The ability to reclaim lost Greegrees from Zooknock in his Gnome Stronghold house (no supplies required).",
+      "A Monkey can be found in one of the crates at the Crash Site. It is purely cosmetic and can be equipped in the cape slot.",
+      "Bobawu will now track your laps of the Ape Atoll Agility Course, with you being able to transform your monkey into other variants upon completing a number of laps.",
+      "The ability to re-fight Glough by gazing into the Burning brazier in Zooknock's house."
     ],
     "enemies_to_defeat": [
       "Kruk (level 207)",
@@ -6760,8 +7472,10 @@
       "Feather (a stripy or coloured feather can also be used, but a magic gold feather cannot)"
     ],
     "rewards": [
-      "As Kourend Favour has been removed, the quest no longer rewards the Kourend favour certificate.",
-      "Completion of the quest now unlocks the Kourend Castle Teleport spell."
+      "1 Quest point",
+      "Two antique lamps which provide 500 experience each in a skill of the player's choosing",
+      "Kharedst's memoirs",
+      "Kourend Castle Teleport spell"
     ],
     "enemies_to_defeat": []
   },
@@ -6797,8 +7511,11 @@
       "Stew (Cooking ingredients can be obtained during quest for 6 coins. Requires 25 Cooking)"
     ],
     "rewards": [
-      "As Kourend Favour has been removed, the quest no longer requires it to start. Additionally, the Piscarilius favour certificate is no longer rewarded.",
-      "Completion of the quest now unlocks the ability to recolour a graceful outfit to the colours of Port Piscarilius."
+      "1 Quest point",
+      "2,000 Thieving experience",
+      "2,000 coins",
+      "A page for Kharedst's memoirs, 'The fisher's flute.' It teleports players to the centre of Port Piscarilius.",
+      "Ability to recolour the graceful outfit to the colours of Port Piscarilius."
     ],
     "enemies_to_defeat": []
   },
@@ -6824,7 +7541,11 @@
       "2 vodka",
       "Marrentill potion (unf)"
     ],
-    "rewards": [],
+    "rewards": [
+      "1 Quest point",
+      "Access to Fossil Island - to disembark the boat upon arrival at Fossil Island, speak to the Junior Navigator.",
+      "Fossil island note book"
+    ],
     "enemies_to_defeat": []
   },
   {
@@ -7038,13 +7759,22 @@
       "Runes for 3 Fire Wave spells or 3 Fire Surge spells"
     ],
     "rewards": [
-      "Access to the pettable dog",
-      "Ability to make super antifire potions by speaking to Primula",
-      "4x 25,000 experience in Magic, Ranged, Strength, Attack, Defence, or Hitpoints by speaking to Ellen",
-      "Access to Fountain of Uhld where dragonstone jewellery (excluding the ring of wealth) can be recharged",
-      "Access to the Pool of Dreams where players can choose to fight Galvek again or rewatch cutscenes from the quest",
-      "Access to the Wrath Altar",
-      "Access to the shop to buy the mythical cape"
+      "5 Quest points",
+      "80,000 Smithing experience",
+      "60,000 Mining experience",
+      "50,000 Agility experience",
+      "50,000 Thieving experience",
+      "Ability to speak to cats without the Catspeak amulet",
+      "Access to the Myths' Guild",
+      "Access to adamant and rune dragons in the Lithkren Vault",
+      "Access to a stronger version of Vorkath on Ungael",
+      "Ability to reforge the dragon platebody and kiteshield",
+      "Ability to have a rune dragon as a Treasure Room guardian (requiring 99 Construction and 25,000,000 coins)",
+      "Ability to create an Ava's assembler by bringing Vorkath's head, 75 Mithril arrows, and 4,999 coins (or Ava's accumulator) to Ava in Draynor Manor",
+      "Ability to craft Ferocious gloves from Hydra leather in the Lithkren Vault (requires a hammer)",
+      "Ability to construct Mythical cape (mounted) in your POH",
+      "Ability to go back through the ancient doors on Lithkren and use your Digsite pendant on the Strange Machine north of the dragons. This will allow you to teleport there.",
+      "Locator orb"
     ],
     "enemies_to_defeat": [
       "Vorkath (level 392)",
@@ -7098,8 +7828,12 @@
     ],
     "item_requirements": [],
     "rewards": [
-      "As Kourend Favour has been removed, the quest no longer requires it to start. Additionally, the Hosidius favour certificate is no longer rewarded.",
-      "Completion of the quest now unlocks the ability to recolour a graceful outfit to the colours of Hosidius."
+      "1 Quest point",
+      "1,500 Agility experience",
+      "4,000 coins",
+      "A page for Kharedst's memoirs, 'Lunch by the lancalliums'. It teleports players to just east of the Hosidius Kitchen.",
+      "Ability to recolour the graceful outfit to the colours of Hosidius.",
+      "Ability to fight the Sand Snake within the Nightmare Zone."
     ],
     "enemies_to_defeat": []
   },
@@ -7686,12 +8420,10 @@
       "Weapons and armour"
     ],
     "rewards": [
-      "The Morytanian splinter group introduced in Legacy of Seergaze is completely omitted.",
-      "Flaygian Screwte still helps guide the player create the Ivandis flail, albeit in the form of Flaygian's notes after his death. In Legacy of Seergaze, Flaygian remains alive to help the player craft the flail, though he takes a stroll to have some fresh air afterwards and is presumed dead as he never makes an appearance again.",
-      "The chain used to create the Ivandis flail is a basic one made out of steel that can be taken from a crate. In Legacy of Seergaze, the player must make a special silvthril chain instead using a chain link mould.",
-      "The player discovers the rest of the Meiyerditch Laboratories in A Taste of Hope's sequel, Sins of the Father. In Legacy of Seergaze, the laboratory is where Andiess Juip is killed, rather than in the Myreque Hideout.",
-      "Mekritus A'hara is killed during the attack on the Myreque Hideout. In RuneScape 3, he is killed in the penultimate quest of the series, The Lord of Vampyrium.",
-      "Ranis Drakan is killed by the player in A Taste of Hope. In RuneScape, he is killed by his sister, Vanescula Drakan, after he nearly discovers the player's presence in Darkmeyer during the sequel to Legacy of Seergaze, The Branches of Darkmeyer."
+      "1 Quest point",
+      "Ivandis flail - A weapon that can damage the vyrewatch",
+      "Drakan's medallion - An amulet that gives the player unlimited teleports to the Theatre of Blood",
+      "Tome of experience, granting 2,500 experience to any three skills of the player's choosing (level 35 or over). Can be the same skill."
     ],
     "enemies_to_defeat": [
       "Abomination (Level 149)",
@@ -7740,8 +8472,12 @@
       "Rope"
     ],
     "rewards": [
-      "As Kourend Favour has been removed, the quest no longer requires it to start. Additionally, the Shayzien favour certificate is no longer rewarded.",
-      "Completion of the quest now unlocks the ability to recolour a graceful outfit to the colours of Shayzien."
+      "1 Quest point",
+      "8,000 coins",
+      "A page for Kharedst's memoirs, 'History and hearsay.' It teleports players to the Graveyard of Heroes south-west of the Shayzien bank.",
+      "Ability to recolour the graceful outfit to the colours of Shayzien.",
+      "Ability to fight the Corrupt Lizardman within the Nightmare Zone.",
+      "3 Xerician fabric (dropped by Corrupt Lizardman)"
     ],
     "enemies_to_defeat": []
   },
@@ -7865,10 +8601,15 @@
       "Climbing boots (if not using Trollheim teleports)"
     ],
     "rewards": [
-      "Agility from 10,000 to 50,000",
-      "Construction from 2,000 to 10,000.",
-      "Firemaking from 5,000 to 40,000.",
-      "Mining from 10,000 to 50,000."
+      "2 Quest points",
+      "10,000 Construction experience",
+      "40,000 Firemaking experience",
+      "50,000 Mining experience",
+      "50,000 Agility experience",
+      "Access to the Salt Mines",
+      "Ability to build fire pits",
+      "A new disease-free herb patch in Weiss (requires building the fire of nourishment before use)",
+      "Ability to direct a teleport room portal to Troll Stronghold with a combination of salt"
     ],
     "enemies_to_defeat": [
       "Don't Know What (Level 163)",
@@ -8127,16 +8868,16 @@
       "Spade"
     ],
     "rewards": [
-      "Ability to fight Zalcano",
-      "Access to The Gauntlet",
-      "Access to Trahaearn Mine",
-      "Access to Iorwerth Dungeon",
-      "Ability to change respawn point to Prifddinas",
-      "Ability to move Player-owned house to Prifddinas",
-      "Ability to teleport to Prifddinas with a teleport crystal",
-      "Access to a new spirit tree destination in Prifddinas",
-      "Ability to make divine potions",
-      "Ability to make crystal tools, armour and weaponry"
+      "4 Quest points",
+      "40,000 Agility experience",
+      "40,000 Construction experience",
+      "40,000 Farming experience",
+      "40,000 Herblore experience",
+      "40,000 Hunter experience",
+      "40,000 Mining experience",
+      "40,000 Smithing experience",
+      "40,000 Woodcutting experience",
+      "Access to Prifddinas"
     ],
     "enemies_to_defeat": [
       "21 Mourners (level 24, 51, and 106)",
@@ -8178,8 +8919,13 @@
     ],
     "item_requirements": [],
     "rewards": [
-      "As Kourend Favour has been removed, the quest no longer requires it to start. Additionally, the Arceuus favour certificate is no longer rewarded.",
-      "Completion of the quest now unlocks the ability to recolour a graceful outfit to the colours of Arceuus."
+      "1 Quest point",
+      "2,000 coins",
+      "1,500 Hunter experience",
+      "500 Runecraft experience",
+      "A page for Kharedst's memoirs, 'A dark disposition.' It teleports players to the centre of Arceuus.",
+      "Ability to recolour the graceful outfit to the colours of Arceuus.",
+      "Ability to fight the Trapped Soul within the Nightmare Zone."
     ],
     "enemies_to_defeat": [
       "5 Tormented Souls (Level 16)",
@@ -8212,9 +8958,13 @@
       "Tinderbox (obtainable during quest)"
     ],
     "rewards": [
-      "As Kourend Favour has been removed, the quest no longer requires it to start. Additionally, the Lovakengj favour certificate is no longer rewarded.",
-      "Completion of the quest now unlocks free use of the Lovakengj Minecart Network; players who have paid 100,000 coins to do so prior to this update can receive a refund from any minecart operator manning the stations.",
-      "Completion of the quest now unlocks the ability to recolour a graceful outfit to the colours of Lovakengj."
+      "1 Quest point",
+      "500 Mining experience",
+      "500 Smithing experience",
+      "6,000 coins",
+      "Free use of the Lovakengj Minecart Network",
+      "A page for Kharedst's memoirs, 'Jewellery of jubilation.' It teleports players north-east of the bank in Lovakengj.",
+      "Ability to recolour the graceful outfit to the colours of Lovakengj."
     ],
     "enemies_to_defeat": []
   },
@@ -8338,9 +9088,15 @@
       "Seal of Passage (if the elite Fremennik diaries aren't completed)"
     ],
     "rewards": [
-      "Slayer from 15,000 to 50,000",
-      "Crafting from 15,000 to 50,000.",
-      "Runecraft from 5,000 to 30,000."
+      "2 Quest points",
+      "V's shield",
+      "Access to the Island of Stone",
+      "Ability to kill a Basilisk Knight as a Slayer Task",
+      "A Fremennik honorific, Dräpare, added to the player's Fremennik name",
+      "Ability to create and equip the Neitiznot faceguard",
+      "50,000 Slayer experience",
+      "50,000 Crafting experience",
+      "30,000 Runecraft experience"
     ],
     "enemies_to_defeat": [
       "Basilisk Youngling (level 53)",
@@ -8468,10 +9224,11 @@
       "Insulated boots"
     ],
     "rewards": [
-      "Players can no longer walk into a wall within the Uzer Mastaba.",
-      "Arrav's ranged defences has been increased from +0 to +80 across the board.",
-      "Arrav can no longer be shoved with the special attack of the dragon spear (and variants) as this caused an unintentional bug in which doing so would cause all armoured zombies and venom pools to despawn.",
-      "Venom is now cured when the final cutscene plays."
+      "2 Quest points",
+      "40,000 Mining experience",
+      "40,000 Thieving experience",
+      "40,000 Agility experience",
+      "Access to Zemouregal's Fort."
     ],
     "enemies_to_defeat": [
       "Golem guard (level 141)",
@@ -8556,9 +9313,11 @@
       "Barronite deposit or a pickaxe to mine one"
     ],
     "rewards": [
-      "Completion of The Knight's Sword was replaced with Below Ice Mountain, as Camdozaal is properly accessible in Old School.",
-      "51 Agility and 59 Mining were originally requirements.",
-      "51 Hunter and 54 Smithing were originally required, which were raised to 52 and 55 respectively in Old School."
+      "2 Quest points",
+      "15,000 Smithing experience",
+      "15,000 Hunter experience",
+      "Access to Zemouregal's Base",
+      "Ability to claim 5 Kudos and an Antique lamp rewarding 5,000 XP in any skill of at least level 30 from Historian Minas after completion of the quest"
     ],
     "enemies_to_defeat": [
       "At least six armoured zombies (level 85)",
@@ -8657,10 +9416,15 @@
       "Runes for Lvl-3 Enchant (1 cosmic rune, 5 fire runes) or an enchant ruby or topaz tablet"
     ],
     "rewards": [
-      "Access to the Daeyalt Essence Mine",
-      "Access to the Hallowed Sepulchre",
-      "Ability to shop at stores in Darkmeyer while wearing Vyre noble clothing",
-      "Ability to purchase long rope from the Darkmeyer General Store, which can be used to build the following Agility shortcuts:"
+      "2 Quest points",
+      "Access to Darkmeyer",
+      "A tome of experience, granting 15,000 experience to any skill (level 60 or higher). This reward can be utilised six times and may be used for the same skill.",
+      "The Blisterwood flail",
+      "Darkmeyer teleport via Drakan's medallion",
+      "Boat travel between Burgh de Rott, Slepe and the Icyene Graveyard",
+      "Access to the mutated bloodvelds section of Meiyerditch Laboratories",
+      "Access to the True Blood Altar (with a Blood talisman)",
+      "Promotion to the rank of Lieutenant within The Myreque and its associated title"
     ],
     "enemies_to_defeat": [
       "Kroy (level 133)",
@@ -8763,7 +9527,12 @@
       "A dark essence block or a pickaxe and chisel (the latter is found at the mine) to obtain one"
     ],
     "rewards": [
-      "If players claimed the antique lamp from the Architectural Alliance miniquest before 10 January 2024, they will only receive one lamp."
+      "2 Quest points",
+      "The book of the dead",
+      "Two antique lamps giving 10,000 experience to any skill level 40 or above.",
+      "Ability to set your respawn point to Kourend Castle. Talk to Asteros Arceuus, now found on the 1st floor[UK]2nd floor[US] of Kourend Castle, to change your respawn point at any time.",
+      "24 new spells made available in the Arceuus spellbook (all combat spells with the exception of Ghostly Grasp and Inferior Demonbane, and all utility spells with the exception of Resurrect Crops and reanimation spells).",
+      "The ability to fight Yama"
     ],
     "enemies_to_defeat": [
       "Judge of Yama (Level 168)",
@@ -8790,7 +9559,15 @@
       "Rope",
       "Knife or a slash weapon (except abyssal whip, abyssal tentacle, noxious halberd, or dragon claws) (obtainable during the quest)"
     ],
-    "rewards": [],
+    "rewards": [
+      "1 Quest point",
+      "5,000 coins",
+      "1,000 Slayer experience",
+      "30 Slayer reward points",
+      "Access to the Sourhog Cave and sourhog Slayer tasks from Spria",
+      "Existing slayer helmets will have reinforced goggles added to them",
+      "Spria will now be able to give you Slayer tasks"
+    ],
     "enemies_to_defeat": []
   },
   {
@@ -8834,10 +9611,11 @@
       "Thread (obtainable upstairs in the house) unless you're using the Costume needle"
     ],
     "rewards": [
-      "Using Neilan's journal causes him to say anyone could have written it.",
-      "Using big bones causes him to say the bones could have been from anywhere.",
-      "Using an ensouled bear head causes him to say the beast was more than just a mere bear, and he tells you to get back to work finding the real head.",
-      "Using the Bearhead from Mountain Daughter causes him to say the head is part of a costume."
+      "1 Quest point",
+      "3,000 coins — If not claimed at quest completion due to no available inventory space, talk to Gordon again after the quest for the reward",
+      "4,000 Crafting experience",
+      "3,200 Construction experience",
+      "Access to a tannery in the Kebos Lowlands (speak to Mary to access tanning services)"
     ],
     "enemies_to_defeat": []
   },
@@ -8890,7 +9668,8 @@
       "Any axe besides the blessed axe"
     ],
     "rewards": [
-      "If players completed the quest before 28 July 2021 and have already used the original two antique lamps that were rewarded, they will only receive two additional antique lamp upon re-completing the quest."
+      "2 Quest points",
+      "Four antique lamps, each offering 20,000 experience in Attack, Strength, Defence, Ranged, Magic, or Hitpoints at level 50 or above."
     ],
     "enemies_to_defeat": [
       "Vyrewatch (Level 105)",
@@ -8957,7 +9736,15 @@
       "Spade (obtainable during quest)",
       "Any cooked or raw meat (fish, raw bird meat, raw yak meat, raw pyre fox, raw chompy, and raw t-bone steak will not work; purchasable from shop during quest)"
     ],
-    "rewards": [],
+    "rewards": [
+      "2 Quest points",
+      "50,000 Agility experience",
+      "Access to the Tombs of Amascut",
+      "A Keris partisan. (If your inventory was full, you may claim one for free from Selim in front of Al Kharid Palace.)",
+      "The circlet of water, an untradeable helm that acts like a waterskin when worn. (If your inventory was full, you may claim one for free from the High Priest in Sophanem.)",
+      "Access to a fairy ring on a small island south-west of the necropolis, code AKP. (Unlocked when entering the necropolis at the beginning of the quest.)",
+      "Jaltevas teleport option on the Pharaoh's sceptre. (Unlocked by selecting Commune on an obelisk in the necropolis, by the mine.)"
+    ],
     "enemies_to_defeat": [
       "Head Menaphite Guard (level 174) without the use of protection prayers",
       "Two Scarab Mages (level 119)",
@@ -8999,7 +9786,10 @@
       "Pickaxe (obtainable during quest)"
     ],
     "rewards": [
-      "An additional 4,210 Runecraft XP is gained during the quest, for a total of 9,210 XP"
+      "1 Quest point",
+      "5,000 Runecraft experience",
+      "Access to the Guardians of the Rift minigame",
+      "A medium pouch (if not already acquired)"
     ],
     "enemies_to_defeat": []
   },
@@ -9066,9 +9856,11 @@
       "Any crossbow"
     ],
     "rewards": [
-      "In chapter 1, Bolrie was not originally depicted as a king, and did not wear a crown. His advisor originally spoke about how General Khazard now leads the humans, how they would spell disaster for the gnomes, and how Healthorg and Argenthorg would do nothing to stop them. The advisor advised Bolrie to pre-emptively attack Khazard to win the hearts of all gnomes, and that he would surely be crowned king of the Tree Gnome Stronghold if he did, at which point Bolrie imagined himself wearing a crown.",
-      "In chapter 2, Healthorg's death was symbolically depicted as him turning into a stone statue. Models for this still exist in the game cache.",
-      "In chapter 3, the conversation between Bolrie and Argenthorg was longer, with the additional dialogue depicting Argenthorg as more spoiled and childish. After being exposed, Glouphrie originally had a conversation with Bolrie where he spoke about his motivation to protect gnomes from humanity, and his intentions to found Arposandra. As the cutscene ended, Bolrie originally spoke about pleading with Yewnock to build an anti-illusion machine under the Tree Gnome Village to protect his family, explaining why it's there, which is otherwise unexplained. The cutscene also ended with Bolrie staring at a king statue for a beat before leaving the grand tree."
+      "2 Quest points",
+      "Four magic lamps offering a total of 20,000 Slayer XP, 5,000 Thieving XP, 30,000 Strength XP, and 5,000 Magic XP",
+      "Access to the Poison Waste Dungeon",
+      "Ability to unlock Warped creatures as a Slayer task which drop the warped sceptre",
+      "Access to a new spirit tree destination in the Poison Waste"
     ],
     "enemies_to_defeat": [
       "3 Warped Terrorbirds (level 138)",
@@ -9102,7 +9894,11 @@
       "Chisel",
       "1 bucket of water (Obtainable during quest) or ice gloves"
     ],
-    "rewards": [],
+    "rewards": [
+      "1 Quest point",
+      "6,000 Smithing experience",
+      "Access to the Giants' Foundry"
+    ],
     "enemies_to_defeat": []
   },
   {
@@ -9128,12 +9924,8 @@
       "Secateurs (obtainable during quest) (magic secateurs also work)"
     ],
     "rewards": [
-      "Players are now prompted whether they want to attempt another translation after inputting a correct one.",
-      "Inputting a translation for a word the player hasn't discovered yet in-game now results in a different message.",
-      "Reading the stone tablet is now clearer; blue translated words now indicate words in incorrect context, whilst new, green translated words indicate the word is correct in context.",
-      "Players can no longer teleport within the dungeons; attempting to do so results in the game message \"An ancient magical force blocks your teleport.\"",
-      "The dragonkin symbols have been removed from the stone chests in the dungeons.",
-      "The dirty notes, wood carvings, and compass now have a \"Drop\" option instead of \"Destroy\"."
+      "1 Quest point",
+      "10,000 Farming experience"
     ],
     "enemies_to_defeat": []
   },
@@ -9407,17 +10199,13 @@
       "Facemask or Slayer helm"
     ],
     "rewards": [
-      "Strange shrines have been added throughout the Stranglewood to help with energy restoration during the quest.",
-      "Stink bombs have been added to a new stone chest in Kasonde's hideout to assist in repelling Strangled during the quest.",
-      "Progress in the Scar maze will now be saved.",
-      "A handful of notes from the Ghorrock Prison have been tweaked to be more clear in regards to the solution.",
-      "Locked gates in the Ghorrock Prison that require keys to open now have their names included to assist colourblind players (e.x. \"Gate\" -> \"Diamond Gate\")",
-      "Strange Pools have been added throughout the Lassar Undercity to help with energy restoration during the quest.",
-      "The four main bosses have received some minor balancing changes, but should remain very close to how they were on release.",
-      "The Mysterious Figure can no longer be safespotted.",
-      "Wighted Leeches now always target the player.",
-      "The damage Ketla the Unworthy and her clones now deal has been adjusted to be closer to what was originally intended.",
-      "Various spelling mistakes during the quest have been fixed."
+      "5 Quest points",
+      "Three ancient lamps, each offering 100,000 experience in Attack, Strength, Defence, Hitpoints, Ranged, Magic, or Prayer at level 60 or above.",
+      "Access to Scar essence mine",
+      "Ring of shadows",
+      "The ability to wear ancient rings.",
+      "The ability to repeat the Forgotten Four encounters as boss fights, along with the ability to challenge their awakened variants.",
+      "The ability to fight Demonic Brutus using abyssal potatoes."
     ],
     "enemies_to_defeat": [
       "Ancient Guardian (level 153)",
@@ -9606,7 +10394,14 @@
       "Lockpick (Strange Old Lockpick does NOT work)",
       "Tinderbox (obtainable during the quest)"
     ],
-    "rewards": [],
+    "rewards": [
+      "2 Quest points",
+      "60,000 Agility experience",
+      "50,000 Thieving experience",
+      "40,000 Hunter experience",
+      "Ability to mine ancient essence crystals in the Ghorrock Dungeon",
+      "Access to a stronger version of the Strange Creature, the Phantom Muspah"
+    ],
     "enemies_to_defeat": [
       "Evelot (level 148)",
       "Assassin (level 262)",
@@ -9627,7 +10422,10 @@
     "skill_requirements": [],
     "quest_requirements": [],
     "item_requirements": [],
-    "rewards": [],
+    "rewards": [
+      "1 Quest point",
+      "Access to Varlamore through the Quetzal Transport System and fairy rings"
+    ],
     "enemies_to_defeat": []
   },
   {
@@ -9685,7 +10483,15 @@
       "Pestle and mortar (obtainable during quest)",
       "Combat equipment for multiple PvM encounters."
     ],
-    "rewards": [],
+    "rewards": [
+      "2 Quest points",
+      "40,000 Slayer experience",
+      "5,000 Runecraft experience",
+      "5,000 Hunter experience",
+      "5,000 Fishing experience",
+      "Access to Neypotzli and the Moons of Peril",
+      "The ability to be assigned lesser nagua as a Slayer task."
+    ],
     "enemies_to_defeat": [
       "Sulphur Nagua (level 98)",
       "Blue Moon (level 329)",
@@ -9721,8 +10527,9 @@
       "Any axe (a bronze axe is obtainable during the quest)"
     ],
     "rewards": [
-      "The quest name contains the maximum amount of characters that the quest list currently allows.[1]",
-      "This is one of only two quests that take up multiple lines on the quest interface, the other one being Desert Treasure II - The Fallen Empire."
+      "1 Quest point",
+      "2,000 Woodcutting experience",
+      "Access to a new Hardwood Farming patch"
     ],
     "enemies_to_defeat": [
       "Cuthbert, Lord of Dread (level 1)"
@@ -9749,7 +10556,12 @@
     "item_requirements": [
       "Items for two different combat classes or a poisoned weapon (be warned that the poison method is much slower)."
     ],
-    "rewards": [],
+    "rewards": [
+      "1 Quest point",
+      "Ability to use the Civitas illa Fortis Teleport spell",
+      "Ability to use the Quetzal Transport System",
+      "3,000 Thieving experience"
+    ],
     "enemies_to_defeat": [
       "Knight of Varlamore (level 81)",
       "8 cultists (level 34)"
@@ -9799,7 +10611,13 @@
       "2 jerboa tails (obtainable during quest) or a Box trap (can be bought from Imia's Supplies nearby)",
       "or a Box trap (can be bought from Imia's Supplies nearby)"
     ],
-    "rewards": [],
+    "rewards": [
+      "1 Quest point",
+      "4,500 Hunter experience",
+      "800 Construction experience",
+      "500 Herblore experience",
+      "Access to Master Tier Hunters' Rumours"
+    ],
     "enemies_to_defeat": []
   },
   {
@@ -9849,7 +10667,14 @@
       "30 coins",
       "Up to 4 empty inventory slots"
     ],
-    "rewards": [],
+    "rewards": [
+      "2 Quest points",
+      "Access to Tapoyauik",
+      "8,000 Mining experience",
+      "8,000 Thieving experience",
+      "8,000 Slayer experience",
+      "8,000 Agility experience"
+    ],
     "enemies_to_defeat": [
       "Several Emissary Brawlers (levels 74 and 86)",
       "Several Emissary Conjurers (level 71)",
@@ -9887,7 +10712,15 @@
       }
     ],
     "item_requirements": [],
-    "rewards": [],
+    "rewards": [
+      "2 Quest points",
+      "10,000 Thieving experience",
+      "7,500 Agility experience",
+      "5,000 Crafting experience",
+      "A costume needle from the costumer",
+      "The butler's tray and an assortment of masks from the Head Butler",
+      "The ability to unlock the North Aldarin teleport destination via the pendant of ates"
+    ],
     "enemies_to_defeat": []
   },
   {
@@ -9909,7 +10742,11 @@
       }
     ],
     "item_requirements": [],
-    "rewards": [],
+    "rewards": [
+      "1 Quest point",
+      "8,000 Cooking experience",
+      "Access to Emelio's Kebab Shop"
+    ],
     "enemies_to_defeat": [
       "Dire Wolf Alpha (level 113)",
       "Minotaur (level 193)"
@@ -9945,7 +10782,9 @@
     ],
     "item_requirements": [],
     "rewards": [
-      "Upon finding the discarded label, it reads, 'Property of the Outpost. Contact Jorral if lost.' However, players who talk to Jorral after the quest will not have the option to talk about the label."
+      "1 Quest point",
+      "6,000 Thieving experience",
+      "5,000 coins"
     ],
     "enemies_to_defeat": []
   },
@@ -10010,7 +10849,14 @@
       "A beer (obtainable during the quest)"
     ],
     "rewards": [
-      "Doing so yields the message \"The dog takes Alan's bones. Something doesn't feel quite right about this, but the dog seems happy enough. He quickly calms down and gives your hand a little lick.\""
+      "3 Quest points",
+      "Arkan blade",
+      "55,000 experience",
+      "25,000 experience",
+      "25,000 experience",
+      "A lamp granting 55,000 experience to any combat skill of at least level 40, including Prayer",
+      "Access to the Crypt of Tonali",
+      "Access to the Doom of Mokhaiotl (also known as Osto-Ayak) 'delve' boss"
     ],
     "enemies_to_defeat": [
       "Emissary Enforcer (lvl-196)",
@@ -10038,7 +10884,14 @@
       "Saw (obtainable during the quest)"
     ],
     "rewards": [
-      "An additional 100 Sailing experience is gained when delivering the cargo, for a total of 400 experience"
+      "1 Quest point",
+      "300 Sailing experience",
+      "Access to the Sailing skill",
+      "Access to The Pandemonium",
+      "A raft",
+      "25 sawmill coupon (wood plank)",
+      "2 repair kits",
+      "A spyglass"
     ],
     "enemies_to_defeat": []
   },
@@ -10081,7 +10934,14 @@
       "Redberry pie",
       "Captain's log"
     ],
-    "rewards": [],
+    "rewards": [
+      "1 Quest point",
+      "1,000 Smithing experience",
+      "800 Sailing experience",
+      "Ability to chart forgotten drinks",
+      "25 sawmill coupon (oak plank)",
+      "Unlimited crowbars from the crate of crowbars"
+    ],
     "enemies_to_defeat": [
       "Drink troll (level 14) - can be skipped"
     ]
@@ -10114,7 +10974,15 @@
       "Charcoal (obtainable during quest)",
       "50 Coins"
     ],
-    "rewards": [],
+    "rewards": [
+      "1 Quest point",
+      "1,400 Sailing experience",
+      "1,000 Fishing experience",
+      "Access to Sea charting/Current",
+      "The current duck",
+      "The mayor of Catherby",
+      "25 sawmill coupon (oak plank)"
+    ],
     "enemies_to_defeat": []
   },
   {
@@ -10166,7 +11034,13 @@
       "Hammer (obtainable during the quest) or Imcando hammer",
       "Saw (obtainable during the quest) or Amy's saw"
     ],
-    "rewards": [],
+    "rewards": [
+      "1 Quest point",
+      "10,000 Sailing experience",
+      "8,000 Slayer experience",
+      "Access to the Great Conch and its facilities (such as the fairy ring CJQ and notice board)",
+      "Ability to fight gryphons"
+    ],
     "enemies_to_defeat": [
       "Gryphon (level 95)",
       "Shellbane gryphon (level 235)"
@@ -10210,7 +11084,12 @@
       "Cannons on your boat for ship combat, or Magic/Ranged gear to skip it"
     ],
     "rewards": [
-      "Ability to unlock Red Rock as a teleport destination on the Sailor's amulet by inspecting the Sailors' Marker just west of the bank"
+      "2 Quest points",
+      "15,000 Sailing experience",
+      "5,000 Smithing experience",
+      "Access to Red Rock (partial completion)",
+      "Access to the Sacred Grove",
+      "Bosun's workbench schematic"
     ],
     "enemies_to_defeat": [
       "2 pirate ships (or the crew on the ship) Oaky Doak (level 77) Boatswain Bill Teak (level 77) Mister U. (level 77) Captain Ruban Acer (level 95) Old Jack (level 77) Mute Jack (level 77) Bloody Jack (level 77) Captain Jack (level 95)",
@@ -10273,7 +11152,14 @@
       "Fishing rod (obtainable during quest) (Oily fishing rod, Pearl fishing rod, or Barbarian rod also works)",
       "Hammer (obtainable during quest)"
     ],
-    "rewards": [],
+    "rewards": [
+      "2 Quest points",
+      "10,000 Slayer experience",
+      "4,000 Hunter experience",
+      "3,000 Fishing experience",
+      "3,000 Construction experience",
+      "Access to the Stalker Den containing Custodian stalkers"
+    ],
     "enemies_to_defeat": []
   },
   {
@@ -10318,7 +11204,12 @@
       "Hammer (spawn in furnace house)"
     ],
     "rewards": [
-      "When King quotes this rhyme, the player will reply \"What's a horse?\", to which King replies she has no idea."
+      "1 Quest point",
+      "5,000 Construction experience",
+      "5,000 Cooking experience",
+      "5,000 Smithing experience",
+      "An Egg can be obtained by talking to the egg on the wall, which can be placed in the pet house",
+      "Alan's bones can be picked up from just south of the temple (if the player is wearing the Bonecrusher necklace the bones will automatically be buried and the player will receive 1.5 prayer xp)."
     ],
     "enemies_to_defeat": [
       "Large chicken (level 16)",
@@ -10360,8 +11251,10 @@
     "quest_requirements": [],
     "item_requirements": [],
     "rewards": [
-      "Dialogue pertaining to the miniquest was rewritten to flow better and be consistent with established lore.",
-      "The scrying orb was given a \"Destroy\" option, so can no longer be dropped."
+      "Ability to enter the Abyss",
+      "1,000 Runecraft experience",
+      "An abyssal book",
+      "A small pouch (able to carry 3 pure essence or rune essence)"
     ],
     "enemies_to_defeat": []
   },
@@ -10398,7 +11291,8 @@
       "A ring of visibility"
     ],
     "rewards": [
-      "This line is also similar to a classic oft-quoted line from Shakespeare's play Macbeth wherein Lady Macbeth utters the phrase \"Out, damned spot!\" when she is sleepwalking and feeling guilty for helping to murder the Scottish king."
+      "The Shadow sword. This can be reclaimed from the ghost that will appear after Bouncer's defeat for free.",
+      "2,000 Slayer experience"
     ],
     "enemies_to_defeat": []
   },
@@ -10579,7 +11473,11 @@
     "item_requirements": [
       "100 coins required each time you use the banker Odovacar (optional)"
     ],
-    "rewards": [],
+    "rewards": [
+      "5,000 Slayer experience (only if not in permanent Deadman Mode) [2]",
+      "Tarn's diary",
+      "Salve amulet (e) (20% Attack and Strength bonuses against the undead)"
+    ],
     "enemies_to_defeat": []
   },
   {
@@ -10599,7 +11497,9 @@
       "Spade",
       "Dusty key or 70/80 Agility [boostable] or Key master teleport"
     ],
-    "rewards": [],
+    "rewards": [
+      "Soul bearer"
+    ],
     "enemies_to_defeat": []
   },
   {
@@ -10619,7 +11519,11 @@
       "Enchanted key (remove from your steel key ring if you previously put it there)",
       "Spade"
     ],
-    "rewards": [],
+    "rewards": [
+      "Saradomin mjolnir",
+      "Guthix mjolnir",
+      "Zamorak mjolnir"
+    ],
     "enemies_to_defeat": []
   },
   {
@@ -10696,10 +11600,7 @@
       "Runes to cast god spells (air, fire, and blood)",
       "Item to cut webs (knife, slash weapon or any Wilderness sword)"
     ],
-    "rewards": [
-      "Each boss, while having a set of attacks shared between them, has its own unique special attack.",
-      "Despite their magic offence being almost twice as powerful compared to the original demons, their magic defence was significantly lowered to make up for it."
-    ],
+    "rewards": [],
     "enemies_to_defeat": []
   },
   {
@@ -10881,7 +11782,11 @@
       }
     ],
     "item_requirements": [],
-    "rewards": [],
+    "rewards": [
+      "An antique lamp giving 50,000 experience to any combat skill that is at least level 60, excluding Prayer.",
+      "Ability to obtain the ancient key.",
+      "Access to further runs of Tombs of Amascut"
+    ],
     "enemies_to_defeat": [
       "Note: This section assumes the raid level is 0 (no invocations).",
       "Akkha (level 337)",
@@ -10914,7 +11819,10 @@
       "Combat equipment to defeat the Barrows Brothers",
       "Spade"
     ],
-    "rewards": [],
+    "rewards": [
+      "A dusty lamp, which awards 20,000 Prayer experience.",
+      "A crypt map that upon studying permanently reveals the minimap while in the Barrows crypt and is then destroyed."
+    ],
     "enemies_to_defeat": [
       "Verac the Defiled (level 115)",
       "Dharok the Wretched (level 115)",
@@ -10957,7 +11865,10 @@
       "Knife (obtainable during the quest)",
       "Four fletched items of the same type of wood as the logs, such as unstrung longbows or shields (obtainable during the quest)"
     ],
-    "rewards": [],
+    "rewards": [
+      "Sacraments of ent folk",
+      "Access to the Fletching minigame Vale Totems"
+    ],
     "enemies_to_defeat": []
   }
 ]
