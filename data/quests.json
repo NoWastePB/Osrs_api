@@ -85,8 +85,7 @@
     ],
     "rewards": [
       "This story implies Konar quo Maten paid to have the Ancient casket hidden on the mainland, and that Veos believes it contains a dangerous amulet.",
-      "Upon unearthing the Ancient casket, the player will hear \"a faint whispering\". In response, they say Hmmmm... Must have been the wind. This is the same reaction the character in A curious Client has to the casket talking to them at first. Both the story and the quest are referencing the same phrase popularised by NPCs in the 2006 game The Elder Scrolls IV: Oblivion; Where it signals that an NPC is dismissing suspicious activity, resuming normal behaviour and pretending nothing is wrong. This also echoes similar lines in the Metal Gear (1987 and 1999) and Thief (1998) series.",
-      "Both the story and the quest are referencing the same phrase popularised by NPCs in the 2006 game The Elder Scrolls IV: Oblivion; Where it signals that an NPC is dismissing suspicious activity, resuming normal behaviour and pretending nothing is wrong. This also echoes similar lines in the Metal Gear (1987 and 1999) and Thief (1998) series."
+      "Upon unearthing the Ancient casket, the player will hear \"a faint whispering\". In response, they say Hmmmm... Must have been the wind. This is the same reaction the character in A curious Client has to the casket talking to them at first."
     ],
     "enemies_to_defeat": []
   },
@@ -8661,9 +8660,7 @@
       "Access to the Daeyalt Essence Mine",
       "Access to the Hallowed Sepulchre",
       "Ability to shop at stores in Darkmeyer while wearing Vyre noble clothing",
-      "Ability to purchase long rope from the Darkmeyer General Store, which can be used to build the following Agility shortcuts: The wall on the eastern side of Darkmeyer, requiring 63 Agility. The rocks on the tall cliff at the end of the Viyeldi caves, requiring 91 Agility and completion of Legends' Quest.",
-      "The wall on the eastern side of Darkmeyer, requiring 63 Agility.",
-      "The rocks on the tall cliff at the end of the Viyeldi caves, requiring 91 Agility and completion of Legends' Quest."
+      "Ability to purchase long rope from the Darkmeyer General Store, which can be used to build the following Agility shortcuts:"
     ],
     "enemies_to_defeat": [
       "Kroy (level 133)",
