@@ -188,10 +188,24 @@ def parse_item_requirements(soup):
     return items
 
 
+def parse_top_level_li(ul):
+    """Pak alleen de directe <li> children van een <ul>, sla geneste <ul> over."""
+    items = []
+    for li in ul.find_all("li", recursive=False):
+        # Kloon de li zonder geneste ul's voor de tekst
+        li_copy = BeautifulSoup(str(li), "html.parser").find("li")
+        for nested in li_copy.find_all("ul"):
+            nested.decompose()
+        text = clean(li_copy.get_text())
+        if text:
+            items.append(text)
+    return items
+
+
 def parse_rewards(soup):
     td = get_questdetails_field(soup, "Rewards")
     if not td:
-        # Probeer de Rewards sectie op de pagina
+        # Rewards staan als sectie op de pagina
         rewards_heading = soup.find("h2", id="Rewards") or soup.find("span", id="Rewards")
         if not rewards_heading:
             return []
@@ -203,23 +217,20 @@ def parse_rewards(soup):
                 continue
             ul = current.find("ul")
             if ul:
-                # Verwijder eventuele navbox tabellen binnen de ul
-                for navbox in ul.find_all("table", class_="navbox"):
+                for navbox in ul.find_all("table"):
                     navbox.decompose()
-                return [clean(li.get_text()) for li in ul.find_all("li") if clean(li.get_text())]
+                return parse_top_level_li(ul)
             if current.name in ("h2", "h3"):
                 break
             current = current.find_next_sibling()
         return []
-    # Verwijder navbox tabellen uit de td
+    # Rewards in questdetails tabel
     for navbox in td.find_all("table"):
         navbox.decompose()
-    rewards = []
-    for li in td.find_all("li"):
-        text = clean(li.get_text())
-        if text:
-            rewards.append(text)
-    return rewards
+    ul = td.find("ul")
+    if ul:
+        return parse_top_level_li(ul)
+    return [clean(li.get_text()) for li in td.find_all("li") if clean(li.get_text())]
 
 
 def parse_enemies(soup):
