@@ -54,20 +54,13 @@
     "release_date": "14 April 2021",
     "url": "https://oldschool.runescape.wiki/w/Below_Ice_Mountain",
     "start_point": "Willow on the path south of Ice Mountain",
-    "skill_requirements": [
-      {
-        "skill": "Quest points",
-        "level": 16,
-        "boostable": true
-      }
-    ],
+    "skill_requirements": [],
     "quest_requirements": [],
     "item_requirements": [
       "Cooked meat (obtainable during the quest)",
       "Bread",
       "Knife",
-      "Beer (obtainable during the quest) Alternatively Asgarnian ale, Dwarven stout, or a Wizard's mind bomb",
-      "Alternatively Asgarnian ale, Dwarven stout, or a Wizard's mind bomb"
+      "Beer (obtainable during the quest)"
     ],
     "rewards": [
       "1 Quest point",
@@ -191,8 +184,18 @@
     "start_point": "Speak to the Guildmaster in the Champions' Guild.",
     "skill_requirements": [
       {
-        "skill": "Quest points",
-        "level": 32,
+        "skill": "Crafting",
+        "level": 8,
+        "boostable": true
+      },
+      {
+        "skill": "Thieving",
+        "level": 20,
+        "boostable": true
+      },
+      {
+        "skill": "Smithing",
+        "level": 34,
         "boostable": true
       }
     ],
@@ -206,9 +209,7 @@
       "Hammer",
       "Anti-dragon shield (obtainable during the quest)",
       "90 steel nails (Members can buy these from the Sawmill operator north-east of Varrock, they can also be smithed at 34 Smithing using 6 steel bars by all players)",
-      "3 planks (only normal planks work) Free-to-play: Buy from Sawmill operator at the sawmill or pick up the spawns in the Graveyard of Shadows, level 19 Wilderness Member: Several other spawn locations or buy them at the sawmill",
-      "Free-to-play: Buy from Sawmill operator at the sawmill or pick up the spawns in the Graveyard of Shadows, level 19 Wilderness",
-      "Member: Several other spawn locations or buy them at the sawmill",
+      "3 planks (only normal planks work)",
       "2,000 coins"
     ],
     "rewards": [
@@ -269,11 +270,8 @@
     "quest_requirements": [],
     "item_requirements": [
       "3 sets of Goblin mail (obtained during the quest)",
-      "1 Blue dye (or 2 woad leaves and 5 coins to obtain a blue dye from Aggie) Offer 20 coins to Wyson the gardener and he will give you two woad leaves",
-      "Offer 20 coins to Wyson the gardener and he will give you two woad leaves",
-      "1 Orange dye – created by combining red dye with yellow dye 1 Red dye (or 3 redberries and 5 coins to obtain a red dye from Aggie) 1 Yellow dye (2 onions and 5 coins to obtain a yellow dye from Aggie)",
-      "1 Red dye (or 3 redberries and 5 coins to obtain a red dye from Aggie)",
-      "1 Yellow dye (2 onions and 5 coins to obtain a yellow dye from Aggie)"
+      "1 Blue dye (or 2 woad leaves and 5 coins to obtain a blue dye from Aggie)",
+      "1 Orange dye – created by combining red dye with yellow dye"
     ],
     "rewards": [],
     "enemies_to_defeat": []
@@ -347,13 +345,7 @@
     "release_date": "6 April 2001",
     "url": "https://oldschool.runescape.wiki/w/Black_Knights%27_Fortress",
     "start_point": "Speak to Sir Amik Varze on the 2nd floor[UK]3rd floor[US] of the White Knights' Castle's western tower in Falador.",
-    "skill_requirements": [
-      {
-        "skill": "Quest points",
-        "level": 12,
-        "boostable": true
-      }
-    ],
+    "skill_requirements": [],
     "quest_requirements": [
       {
         "name": "Black Knights",
@@ -542,8 +534,7 @@
     "skill_requirements": [],
     "quest_requirements": [],
     "item_requirements": [
-      "20 balls of wool (unnoted) Shears if obtaining wool to spin into balls of wool (obtained during the quest)",
-      "Shears if obtaining wool to spin into balls of wool (obtained during the quest)"
+      "20 balls of wool (unnoted)"
     ],
     "rewards": [
       "1 Quest point",
@@ -640,10 +631,8 @@
     "quest_requirements": [],
     "item_requirements": [
       "Egg (can be obtained during the quest)",
-      "Bucket of milk A bucket (if obtaining the milk during the quest)",
-      "A bucket (if obtaining the milk during the quest)",
-      "Pot of flour A pot (if obtaining the flour during the quest)",
-      "A pot (if obtaining the flour during the quest)"
+      "Bucket of milk",
+      "Pot of flour"
     ],
     "rewards": [
       "1 Quest point",
@@ -791,11 +780,6 @@
     "start_point": "Speak to Achietties by the entrance to the Heroes' Guild, between Taverley and Burthorpe.",
     "skill_requirements": [
       {
-        "skill": "Quest points",
-        "level": 55,
-        "boostable": true
-      },
-      {
         "skill": "Cooking",
         "level": 53,
         "boostable": true
@@ -840,11 +824,7 @@
       "Fishing bait (obtainable during the quest)",
       "Dusty key (obtainable during the quest; if travelling to Taverley Dungeon for the lava eel, without 70 Agility) OR a knife or slash weapon (if travelling to the Lava Maze for the lava eel) OR 60 Sailing level (if travelling to the Charred Dungeon)",
       "Harralander potion (unf) (or a harralander and a vial of water)",
-      "Pickaxe",
-      "Black full helm (trimmed will not work)",
-      "Black platebody (trimmed will not work)",
-      "Black platelegs (plateskirt or trimmed will not work)",
-      "Some form of Ranged or Magic attack method"
+      "Pickaxe"
     ],
     "rewards": [
       "1 Quest point",
@@ -889,6 +869,11 @@
         "skill": "Prayer",
         "level": 31,
         "boostable": false
+      },
+      {
+        "skill": "Agility",
+        "level": 70,
+        "boostable": true
       }
     ],
     "quest_requirements": [],
@@ -1072,9 +1057,7 @@
     "item_requirements": [
       "Any bow capable of firing ice arrows (yew bow or better) or any thrown weapon",
       "20 unnoted limpwurt roots",
-      "A method of reducing your weight to at least -1kg temporarily: Boots of lightness (can be obtained during the quest with a light source and slash weapon, such as a lit candle and knife) Other forms of weight-reducing clothing such as the graceful outfit",
-      "Boots of lightness (can be obtained during the quest with a light source and slash weapon, such as a lit candle and knife)",
-      "Other forms of weight-reducing clothing such as the graceful outfit"
+      "A method of reducing your weight to at least -1kg temporarily:"
     ],
     "rewards": [
       "1 Quest point",
@@ -1106,8 +1089,7 @@
     "skill_requirements": [],
     "quest_requirements": [],
     "item_requirements": [
-      "Bucket of water (obtainable during quest) Alternatively, a Jug of water, Ice gloves, or Smiths gloves (i)",
-      "Alternatively, a Jug of water, Ice gloves, or Smiths gloves (i)"
+      "Bucket of water (obtainable during quest)"
     ],
     "rewards": [
       "1 Quest point",
@@ -1282,12 +1264,7 @@
       "Rope (Purchasable in the East Ardougne general store, Port Khazard general store, Ned, or a spawn in Karamja general store.)",
       "Spade (One spawns near Edmond.)",
       "1-4 buckets of water (four uses required, there is a water source and bucket spawn nearby)",
-      "Hangover cure or the ingredients to make one: Chocolate dust Chocolate bar Knife or pestle and mortar Bucket of milk (Obtained by using a bucket on a dairy cow, one is north of Ardougne, or bought from Hudo or Heckel Funch.) Snape grass (Spawns west of the Crafting Guild or the peninsula north-east of Hosidius. It can be grown at 61 Farming. Can also be obtained from killing Tribesmen in Karamja.)",
-      "Chocolate dust Chocolate bar Knife or pestle and mortar",
-      "Chocolate bar",
-      "Knife or pestle and mortar",
-      "Bucket of milk (Obtained by using a bucket on a dairy cow, one is north of Ardougne, or bought from Hudo or Heckel Funch.)",
-      "Snape grass (Spawns west of the Crafting Guild or the peninsula north-east of Hosidius. It can be grown at 61 Farming. Can also be obtained from killing Tribesmen in Karamja.)",
+      "Hangover cure or the ingredients to make one:",
       "Picture of Elena (Inside Alrena and Edmond's house)"
     ],
     "rewards": [
@@ -1606,8 +1583,7 @@
       "Pickaxe",
       "Dragon bones",
       "2 ropes (2nd rope obtainable during the quest)",
-      "Guam potion (unf) Guam leaf and vial of water if making your own potion (vial obtainable during the quest)",
-      "Guam leaf and vial of water if making your own potion (vial obtainable during the quest)",
+      "Guam potion (unf)",
       "Any light source (obtainable during the quest)",
       "Pestle and mortar (obtainable during the quest)",
       "Bat bones (obtainable during the quest with a knife or slash weapon, grinding the bat bones before starting the quest to leave the pestle and mortar in the bank is also an option)",
@@ -1743,9 +1719,7 @@
     "item_requirements": [
       "Bucket of milk",
       "100 coins",
-      "Seasoned sardine (Bought from the Grand Exchange) or alternatively: Raw sardine (can be bought from Gerrant's Fishy Business.) Doogle leaves (obtainable during the quest)",
-      "Raw sardine (can be bought from Gerrant's Fishy Business.)",
-      "Doogle leaves (obtainable during the quest)"
+      "Seasoned sardine (Bought from the Grand Exchange) or alternatively:"
     ],
     "rewards": [
       "1 Quest point",
@@ -1769,11 +1743,6 @@
     "url": "https://oldschool.runescape.wiki/w/Legends%27_Quest",
     "start_point": "Talk to the Legends' Guards just outside of the Legends' Guild.",
     "skill_requirements": [
-      {
-        "skill": "Quest points",
-        "level": 107,
-        "boostable": true
-      },
       {
         "skill": "Agility",
         "level": 50,
@@ -1890,14 +1859,7 @@
       "Vial of water",
       "Ardrigal (obtainable during the quest)",
       "Snake weed (obtainable during the quest)",
-      "One of each cut gem up to diamond: Sapphire Emerald Ruby Diamond Opal Jade Red topaz",
-      "Sapphire",
-      "Emerald",
-      "Ruby",
-      "Diamond",
-      "Opal",
-      "Jade",
-      "Red topaz",
+      "One of each cut gem up to diamond:",
       "Soul rune",
       "Mind rune",
       "2 law runes",
@@ -2035,8 +1997,7 @@
     "quest_requirements": [],
     "item_requirements": [
       "Any axe that you can use (Blessed axe does not work)",
-      "Feathers (100 to be safe; coloured feathers from Hunter work) Bringing 50 to buy 25 feathers from Fycie also works",
-      "Bringing 50 to buy 25 feathers from Fycie also works",
+      "Feathers (100 to be safe; coloured feathers from Hunter work)",
       "Knife (or 10 to buy a knife and chisel from Bugs)",
       "Chisel (or 10 to buy a knife and chisel from Bugs)",
       "4 wolf bones (obtainable during the quest from level 65 wolves or from level 14 wolves in the Stronghold of Security)",
@@ -2400,8 +2361,7 @@
       "2 ashes",
       "Tinderbox",
       "Logs OR an axe to obtain some",
-      "1 hammer Using a Flamtaer hammer is highly recommended in case the minigame is unpopulated, as a regular hammer is insufficient to build the temple alone. An additional 13,000 coins (or 5,400 on the Grand Exchange) allows you to buy a Flamtaer hammer from Razmire.",
-      "Using a Flamtaer hammer is highly recommended in case the minigame is unpopulated, as a regular hammer is insufficient to build the temple alone. An additional 13,000 coins (or 5,400 on the Grand Exchange) allows you to buy a Flamtaer hammer from Razmire."
+      "1 hammer"
     ],
     "rewards": [
       "3 Quest points",
@@ -2426,7 +2386,23 @@
     "release_date": "2 November 2004",
     "url": "https://oldschool.runescape.wiki/w/The_Fremennik_Trials",
     "start_point": "Speak to Brundt the Chieftain (located in the longhall) in Rellekka.",
-    "skill_requirements": [],
+    "skill_requirements": [
+      {
+        "skill": "Fletching",
+        "level": 25,
+        "boostable": true
+      },
+      {
+        "skill": "Woodcutting",
+        "level": 40,
+        "boostable": true
+      },
+      {
+        "skill": "Crafting",
+        "level": 40,
+        "boostable": true
+      }
+    ],
     "quest_requirements": [
       {
         "name": "Draugen",
@@ -2438,13 +2414,7 @@
       "Beer (obtainable during quest)",
       "Tinderbox",
       "Either a raw shark, raw manta ray, or raw sea turtle",
-      "Lyre, obtainable as a drop from Lanzig, Borrokar, Lensa, or Freidir, or the skills and materials to make one: 25 Fletching, 40 Woodcutting, and 40 Crafting (all boostable) Woodcutting axe Knife Potato (obtainable during quest) Onion (obtainable during quest) Cabbage (obtainable during quest)",
-      "25 Fletching, 40 Woodcutting, and 40 Crafting (all boostable)",
-      "Woodcutting axe",
-      "Knife",
-      "Potato (obtainable during quest)",
-      "Onion (obtainable during quest)",
-      "Cabbage (obtainable during quest)"
+      "Lyre, obtainable as a drop from Lanzig, Borrokar, Lensa, or Freidir, or the skills and materials to make one:"
     ],
     "rewards": [
       "3 Quest points",
@@ -2503,9 +2473,7 @@
       "60 steel nails",
       "2 regular planks (can be obtained from Barbarian Outpost)",
       "Swamp tar",
-      "At least one combat style to defeat the Dagannoth Mother - she cycles every 18 seconds between only being vulnerable to one of six different types of attack Highly recommended to bring means to deal damage with all of the elemental Magic types (air, water, earth, and fire spells) You may also bring means to deal Ranged and Melee damage (she has high resistance to melee)",
-      "Highly recommended to bring means to deal damage with all of the elemental Magic types (air, water, earth, and fire spells)",
-      "You may also bring means to deal Ranged and Melee damage (she has high resistance to melee)"
+      "At least one combat style to defeat the Dagannoth Mother - she cycles every 18 seconds between only being vulnerable to one of six different types of attack"
     ],
     "rewards": [
       "2 Quest points",
@@ -2531,7 +2499,28 @@
     "release_date": "29 November 2004",
     "url": "https://oldschool.runescape.wiki/w/Throne_of_Miscellania",
     "start_point": "Talk to King Vargas in the Miscellania Castle. Take the longboat from Rellekka to access Miscellania.",
-    "skill_requirements": [],
+    "skill_requirements": [
+      {
+        "skill": "Woodcutting",
+        "level": 45,
+        "boostable": true
+      },
+      {
+        "skill": "Farming",
+        "level": 10,
+        "boostable": true
+      },
+      {
+        "skill": "Mining",
+        "level": 35,
+        "boostable": true
+      },
+      {
+        "skill": "Fishing",
+        "level": 35,
+        "boostable": true
+      }
+    ],
     "quest_requirements": [
       {
         "name": "Heroes' Quest",
@@ -2561,12 +2550,7 @@
     "item_requirements": [
       "Iron bar",
       "Any common, non-silver ring (such as a gold ring) that you're willing to lose (not onyx/dragonstone/explorer/beacon/'perfect' ring/nature/pineapple/Charos/fremennik/ancient)",
-      "At least one of the following to gain favour during the quest 1,875 to buy flowers from Flower Girl (fastest method, but click intensive) An axe and 45 Woodcutting to cut maple trees (slower, but more AFK than buying flowers manually, since one click yields multiple logs and therefore multiple instances of favour) A rake and 10 Farming to rake flax A pickaxe and 35 Mining to mine coal A harpoon or lobster pot and 35 Fishing to fish tuna, lobsters or swordfish",
-      "1,875 to buy flowers from Flower Girl (fastest method, but click intensive)",
-      "An axe and 45 Woodcutting to cut maple trees (slower, but more AFK than buying flowers manually, since one click yields multiple logs and therefore multiple instances of favour)",
-      "A rake and 10 Farming to rake flax",
-      "A pickaxe and 35 Mining to mine coal",
-      "A harpoon or lobster pot and 35 Fishing to fish tuna, lobsters or swordfish",
+      "At least one of the following to gain favour during the quest",
       "Logs (obtainable during the quest if you bring an axe)"
     ],
     "rewards": [
@@ -2697,10 +2681,7 @@
       "Maple or yew logs",
       "Rope",
       "Climbing boots (not needed if using Trollheim Teleport)",
-      "Wax (can be made ahead of time) A bucket of wax (use insect repellent on a beehive followed by a bucket) A cake tin Swamp tar",
-      "A bucket of wax (use insect repellent on a beehive followed by a bucket)",
-      "A cake tin",
-      "Swamp tar"
+      "Wax (can be made ahead of time)"
     ],
     "rewards": [
       "2 Quest points",
@@ -2751,9 +2732,7 @@
       "A steel warhammer",
       "A steel dagger",
       "225 steel nails",
-      "A Druid pouch containing at least 5 charges (3 charges must be added per fill) 6 Mort myre fungus OR 3 Mort myre pear OR 3 Mort myre stem to fill the pouch A Silver sickle (b) to collect these items for the charges if not buying from the Grand Exchange",
-      "6 Mort myre fungus OR 3 Mort myre pear OR 3 Mort myre stem to fill the pouch",
-      "A Silver sickle (b) to collect these items for the charges if not buying from the Grand Exchange",
+      "A Druid pouch containing at least 5 charges (3 charges must be added per fill)",
       "A hammer or Imcando hammer",
       "6 normal planks",
       "10 coins or a ring of charos (a)"
@@ -2791,6 +2770,11 @@
       {
         "skill": "Thieving",
         "level": 25,
+        "boostable": true
+      },
+      {
+        "skill": "Magic",
+        "level": 33,
         "boostable": true
       }
     ],
@@ -2907,10 +2891,7 @@
       }
     ],
     "item_requirements": [
-      "Some amount of Ecto-tokens: 31 Ecto-tokens (16 with ring of charos (a)) OR 25 Ecto-tokens (10 with ring) using charter ships OR 1 bone, 1 pot, and 1 bucket for every 5 ecto-tokens required (see Pre-quest for more info)",
-      "31 Ecto-tokens (16 with ring of charos (a))",
-      "OR 25 Ecto-tokens (10 with ring) using charter ships",
-      "OR 1 bone, 1 pot, and 1 bucket for every 5 ecto-tokens required (see Pre-quest for more info)",
+      "Some amount of Ecto-tokens:",
       "~400 Coins",
       "Ghostspeak amulet",
       "Bucket of milk",
@@ -2921,11 +2902,7 @@
       "Knife (can be purchased from the Canifis general store)",
       "Needle and thread (can be purchased from the Canifis general store) or a costume needle",
       "One extra bucket of slime for colouring the bed sheet (can be purchased from a Charter ship crewmember at the port).",
-      "Nettle tea (prepared ahead of time, within a bowl of water) or items to make nettle tea: A tinderbox and a log of which you have the Firemaking level to light. Tinderbox can be purchased from the general store during quest Gloves (must be closed fingered - Slayer gloves, Ranger gloves, Infinity gloves, Moonclan gloves, Granite gloves, Lunar gloves and Beekeeper's gloves won't work) Nettles (obtainable during the quest) Bowl of water (empty bowl can be purchased during quest -- the gold bowl won't work)",
-      "A tinderbox and a log of which you have the Firemaking level to light. Tinderbox can be purchased from the general store during quest",
-      "Gloves (must be closed fingered - Slayer gloves, Ranger gloves, Infinity gloves, Moonclan gloves, Granite gloves, Lunar gloves and Beekeeper's gloves won't work)",
-      "Nettles (obtainable during the quest)",
-      "Bowl of water (empty bowl can be purchased during quest -- the gold bowl won't work)"
+      "Nettle tea (prepared ahead of time, within a bowl of water) or items to make nettle tea:"
     ],
     "rewards": [
       "2 Quest points",
@@ -2992,21 +2969,12 @@
       "4 steel bars",
       "Bronze bar",
       "Iron bar",
-      "The ingredients required to make a Guthix rest: 2 Guam leaves Marrentill Harralander Cup of hot water (obtainable during the quest)",
-      "2 Guam leaves",
-      "Marrentill",
-      "Harralander",
-      "Cup of hot water (obtainable during the quest)",
+      "The ingredients required to make a Guthix rest:",
       "Hammer (obtainable during the quest) or Imcando hammer",
-      "5 pigeon cages (obtainable during the quest) Note: The pigeons do not need to be let out of the cages.",
-      "Note: The pigeons do not need to be let out of the cages.",
+      "5 pigeon cages (obtainable during the quest)",
       "Pot (obtainable during the quest)",
       "Soft clay (obtained during the quest)",
-      "Two of each of the following cut gems, or a chisel to cut the uncut gems received during the quest (high chance to crush them, up to 2 replacements available for 500 coins each during the quest) Opal Jade Red topaz Sapphire (cannot be crushed, so you may choose to bring a chisel instead to cut the uncut sapphires given during the quest)",
-      "Opal",
-      "Jade",
-      "Red topaz",
-      "Sapphire (cannot be crushed, so you may choose to bring a chisel instead to cut the uncut sapphires given during the quest)"
+      "Two of each of the following cut gems, or a chisel to cut the uncut gems received during the quest (high chance to crush them, up to 2 replacements available for 500 coins each during the quest)"
     ],
     "rewards": [
       "2 Quest points",
@@ -3145,8 +3113,7 @@
       "Fake beard (can be bought from Ali Morrisane)",
       "3 beers (obtainable during the quest, bought from Ali the Barman for 2 coins each)",
       "Bucket or Ugthanki dung (obtainable during the quest, spawns at the location it is needed – bring three extra buckets, four total, if you plan on doing My Arm's Big Adventure as three Ugthanki dung are needed for that quest). One more might be needed for Forgettable Tale... (1/25 chance for each player).",
-      "Snake charm (obtainable during the quest by putting a coin in the snake charmer's money pot, if you do not already have one in your bank) If you have the snake charm in your bank already, you will need to retrieve it.",
-      "If you have the snake charm in your bank already, you will need to retrieve it.",
+      "Snake charm (obtainable during the quest by putting a coin in the snake charmer's money pot, if you do not already have one in your bank)",
       "Snake basket (obtainable during quest by putting a coin in the snake charmer's money pot, whether or not you have one in your bank)"
     ],
     "rewards": [
@@ -3365,11 +3332,6 @@
     "start_point": "Talk to Juna, deep inside the Lumbridge Swamp Caves.",
     "skill_requirements": [
       {
-        "skill": "Quest points",
-        "level": 43,
-        "boostable": true
-      },
-      {
         "skill": "Firemaking",
         "level": 49,
         "boostable": true
@@ -3387,10 +3349,7 @@
     ],
     "quest_requirements": [],
     "item_requirements": [
-      "Lit sapphire lantern or the materials to make one Bullseye lantern or bullseye lantern (unf) (filled with lamp oil at the chemist in Rimmington or the lamp still in Dorgesh-Kaan) Cut sapphire Tinderbox",
-      "Bullseye lantern or bullseye lantern (unf) (filled with lamp oil at the chemist in Rimmington or the lamp still in Dorgesh-Kaan)",
-      "Cut sapphire",
-      "Tinderbox",
+      "Lit sapphire lantern or the materials to make one",
       "Chisel",
       "Pickaxe",
       "Rope (if you have not yet entered the Lumbridge Swamp Caves)"
@@ -3606,8 +3565,7 @@
     "item_requirements": [
       "Bear fur (obtainable during the quest near Jorral's Outpost)",
       "2 silk",
-      "Each of these dyes: red, yellow, green, and blue (can be bought during the quest for 6 coins each at the Lletya Seamstress). You may want to bring additional dyes to collect multiple coloured toads in case you miss when firing the device.",
-      "You may want to bring additional dyes to collect multiple coloured toads in case you miss when firing the device.",
+      "Each of these dyes: red, yellow, green, and blue (can be bought during the quest for 6 coins each at the Lletya Seamstress).",
       "Bucket of water (can be bought from the general store in Lletya during the quest, and used on the well)",
       "Feather",
       "Rotten apple (must be the rotten apple on the ground north of the Mourner Headquarters in West Ardougne, obtainable during the quest)",
@@ -3716,13 +3674,7 @@
     ],
     "item_requirements": [
       "Ring of charos",
-      "All tool leprechaun tools A rake A seed dibber (or partial completion of the Farming portion of the Barbarian Training miniquest) A spade Secateurs (magic secateurs work) A watering can A gardening trowel",
-      "A rake",
-      "A seed dibber (or partial completion of the Farming portion of the Barbarian Training miniquest)",
-      "A spade",
-      "Secateurs (magic secateurs work)",
-      "A watering can",
-      "A gardening trowel",
+      "All tool leprechaun tools",
       "2 plant cures",
       "A marigold seed (2 recommended in case of failure)",
       "3+ cabbage seeds (6 recommended to plant in both allotments to increase chance of survival)",
@@ -3803,13 +3755,7 @@
     "release_date": "17 October 2005",
     "url": "https://oldschool.runescape.wiki/w/Wanted!",
     "start_point": "Speak to Sir Tiffy Cashien in Falador Park.",
-    "skill_requirements": [
-      {
-        "skill": "Quest points",
-        "level": 32,
-        "boostable": true
-      }
-    ],
+    "skill_requirements": [],
     "quest_requirements": [
       {
         "name": "Recruitment Drive",
@@ -3849,12 +3795,8 @@
       }
     ],
     "item_requirements": [
-      "10,000 coins, or: Law rune Enchanted gem (bought from a Slayer Master) Molten glass",
-      "Law rune",
-      "Enchanted gem (bought from a Slayer Master)",
-      "Molten glass",
-      "20 un-noted Rune essence or pure essence (you'll get them back) The player must deliver all 20 rune essence at once",
-      "The player must deliver all 20 rune essence at once",
+      "10,000 coins, or:",
+      "20 un-noted Rune essence or pure essence (you'll get them back)",
       "Light source (Note: Candles, torches and oil lamps can cause swamp gas explosions if going off-route, and need a tinderbox to stay lit)"
     ],
     "rewards": [
@@ -4045,8 +3987,7 @@
     "item_requirements": [
       "Silverlight (obtainable at start of quest)",
       "Strange implement (obtainable during quest)",
-      "Any black outfit (minimum of 3 pieces, see below for the allowed gear — the dyed Silverlight does not count as a piece of black clothing) Note: You can make a black desert robe and shirt during the quest if you brought a desert robe and shirt",
-      "Note: You can make a black desert robe and shirt during the quest if you brought a desert robe and shirt",
+      "Any black outfit (minimum of 3 pieces, see below for the allowed gear — the dyed Silverlight does not count as a piece of black clothing)",
       "Black dye (from grinding a black mushroom using a pestle and mortar alongside a vial)",
       "Silver bar",
       "Means to enter the desert (such as the Shantay pass, Desert amulet 2, Teleport tablets or scrolls, Fairy rings or the Pharaoh's sceptre)"
@@ -4085,11 +4026,7 @@
       "Spade",
       "Sapphire amulet",
       "Ghostspeak amulet or Morytania legs 2 or higher",
-      "A way to enter Port Phasmatys Completion of Ghosts Ahoy or 2 ecto-token or 1 bone, 1 pot and 1 bucket to earn 5 ecto-tokens (you still only need two) or 5,200 gold for a Charter ship to Port Phasmatys (cheaper depending upon where you travel from and if you use ring of charos).",
-      "Completion of Ghosts Ahoy or",
-      "2 ecto-token or",
-      "1 bone, 1 pot and 1 bucket to earn 5 ecto-tokens (you still only need two) or",
-      "5,200 gold for a Charter ship to Port Phasmatys (cheaper depending upon where you travel from and if you use ring of charos)."
+      "A way to enter Port Phasmatys"
     ],
     "rewards": [
       "3 Quest points",
@@ -4136,10 +4073,7 @@
     "item_requirements": [
       "Any type of cat or hellcat (for most of the quest, a cat with a high successful rat catch rate is recommended, and overgrown cats cannot be used there -- during the Hooknosed Jack part of the quest, any cat with strong combat stats is recommended)",
       "4 cheese (or 4 Poisoned cheese)",
-      "Rat poison (if cheese is not already poisoned; can be found in the Clock Tower Basement), or made during the quest with the following items: Empty vial Cleaned kwuarm (grimy will not work; Zahur in Nardah cleans grimy herbs for 200 coins) Red spiders' eggs",
-      "Empty vial",
-      "Cleaned kwuarm (grimy will not work; Zahur in Nardah cleans grimy herbs for 200 coins)",
-      "Red spiders' eggs",
+      "Rat poison (if cheese is not already poisoned; can be found in the Clock Tower Basement), or made during the quest with the following items:",
       "Cleaned marrentill (grimy will not work)",
       "Unicorn horn dust",
       "Bucket of milk or Bottomless milk bucket",
@@ -4388,6 +4322,21 @@
         "skill": "Magic",
         "level": 39,
         "boostable": true
+      },
+      {
+        "skill": "Mining",
+        "level": 30,
+        "boostable": true
+      },
+      {
+        "skill": "Mining",
+        "level": 35,
+        "boostable": true
+      },
+      {
+        "skill": "Mining",
+        "level": 45,
+        "boostable": true
       }
     ],
     "quest_requirements": [],
@@ -4567,11 +4516,6 @@
       {
         "skill": "Cooking",
         "level": 10,
-        "boostable": true
-      },
-      {
-        "skill": "Quest points",
-        "level": 175,
         "boostable": true
       },
       {
@@ -4799,49 +4743,7 @@
       "Greenman's ale",
       "Rotten tomato",
       "Any fruit blast excluding a premade fr' blast",
-      "Ashes",
-      "About 320 coins (or 120 if you have the activated Ring of charos)",
-      "Bowl of water (an empty bowl can be bought from the Culinaromancer's Chest)",
-      "Bucket of water (an empty bucket can be bought from the Culinaromancer's Chest)",
-      "3 buckets of milk (can be bought from the Culinaromancer's Chest)",
-      "2 eggs (can be bought from the Culinaromancer's Chest)",
-      "Orange",
-      "Banana (obtainable during the quest)",
-      "Any dye except red, yellow, or orange",
-      "Spice or gnome spice (can be bought from the Culinaromancer's Chest)",
-      "Gloves (ice gloves are preferred)",
-      "Charcoal",
-      "Fishing bait",
-      "Fishbowl",
-      "2 bread",
-      "Pestle and mortar",
-      "Needle",
-      "3 bronze wires",
-      "Cake tin (can be bought from the Culinaromancer's Chest)",
-      "4 Asgarnian ale (6 recommended)",
-      "Any cat except an overgrown cat (you'll be chasing rats, so a wily cat is recommended)",
-      "Several bowls of stew (9 at most)",
-      "Raw chompy (several recommended in case of burning)",
-      "Raw chicken",
-      "Raw cod",
-      "Iron spit",
-      "Regular logs",
-      "Tinderbox",
-      "Ball of wool",
-      "Ogre bellows (obtainable during the quest)",
-      "Ogre bow and several ogre arrows (10 is enough)",
-      "2 pots of flour (can be bought from the Culinaromancer's Chest)",
-      "Pot of cornflour (or raw sweetcorn and an empty pot)",
-      "Pot of cream (can be bought from the Culinaromancer's Chest)",
-      "Any axe",
-      "Any pickaxe",
-      "Any machete",
-      "Knife",
-      "Dramen staff and branch",
-      "M'speak amulet",
-      "Gorilla, ninja and zombie greegree (or 3000 coins and combat equipment if making the greegrees during the quest)",
-      "Monkey nuts (or 3 coins)",
-      "Rope"
+      "Ashes"
     ],
     "rewards": [
       "10 Quest points",
@@ -4926,13 +4828,7 @@
       }
     ],
     "item_requirements": [
-      "A method to damage vampyres, either: Efaritay's aid equipped in combination with any weapon OR Silver weaponry, which includes: Wolfbane dagger A blessed or regular silver sickle A blessed axe (obtained during Animal Magnetism) Silverlight (obtained during Demon Slayer), Darklight (obtained during Shadow of the Storm), Arclight, or Emberlight",
-      "Efaritay's aid equipped in combination with any weapon OR",
-      "Silver weaponry, which includes: Wolfbane dagger A blessed or regular silver sickle A blessed axe (obtained during Animal Magnetism) Silverlight (obtained during Demon Slayer), Darklight (obtained during Shadow of the Storm), Arclight, or Emberlight",
-      "Wolfbane dagger",
-      "A blessed or regular silver sickle",
-      "A blessed axe (obtained during Animal Magnetism)",
-      "Silverlight (obtained during Demon Slayer), Darklight (obtained during Shadow of the Storm), Arclight, or Emberlight",
+      "A method to damage vampyres, either:",
       "1 piece of any food to enter Burgh de Rott for the first time",
       "A spade",
       "1-5 buckets (5 is highly recommended to save time)",
@@ -4951,15 +4847,8 @@
       "A silver bar",
       "A mithril bar",
       "A sapphire",
-      "On the standard spellbook for Lvl-1 Enchant: A cosmic rune A water rune",
-      "A cosmic rune",
-      "A water rune",
-      "Optional to give to Ivan Strom (Strongly recommended if you don't have a high combat level 85+, you will not get the items back): A steel med helm A steel chainbody Steel platelegs A silver sickle 15 stew (highest healing), salmon, snails, or slimy eels",
-      "A steel med helm",
-      "A steel chainbody",
-      "Steel platelegs",
-      "A silver sickle",
-      "15 stew (highest healing), salmon, snails, or slimy eels"
+      "On the standard spellbook for Lvl-1 Enchant:",
+      "Optional to give to Ivan Strom (Strongly recommended if you don't have a high combat level 85+, you will not get the items back):"
     ],
     "rewards": [
       "2 Quest points",
@@ -5051,11 +4940,6 @@
     "start_point": "The Piscatoris Fishing Colony. It can be reached via a boat trip from the river to the west of the Tree Gnome Stronghold.",
     "skill_requirements": [
       {
-        "skill": "Quest points",
-        "level": 100,
-        "boostable": true
-      },
-      {
         "skill": "Magic",
         "level": 66,
         "boostable": true
@@ -5129,12 +5013,9 @@
       "10 lava runes",
       "5 blood runes",
       "7 bones (obtainable during the quest)",
-      "An airtight pot – created by using a pot lid on a pot Soft clay if making your own pot lid during the quest (2 if also making the pot), or a pickaxe to obtain the clay during the quest",
-      "Soft clay if making your own pot lid during the quest (2 if also making the pot), or a pickaxe to obtain the clay during the quest",
-      "5 iron bars, or a pickaxe (obtainable during the quest) if mining your own iron during quest",
-      "a pickaxe (obtainable during the quest) if mining your own iron during quest",
-      "1 set of logs of any kind, or an axe (obtainable during quest) if chopping your own logs during quest",
-      "an axe (obtainable during quest) if chopping your own logs during quest",
+      "An airtight pot – created by using a pot lid on a pot",
+      "5 iron bars, or",
+      "1 set of logs of any kind, or",
       "A tinderbox (obtainable during the quest)",
       "A hammer (obtainable during the quest)",
       "A small fishing net (obtained during the quest)",
@@ -5679,11 +5560,7 @@
       "At least 5 rune/pure essence (bring 15–20 in case they shatter; succeeding with 5 is very unlikely)",
       "Chisel",
       "5 open inventory slots",
-      "Access to the Air, Water, Earth, Fire, and Mind Altars Elemental talisman OR Air, Water, Earth, and Fire talismans or tiaras Mind talisman or tiara OR Travelling through the Abyss or using a Runecraft cape OR Access to Guardians of the Rift",
-      "Elemental talisman OR Air, Water, Earth, and Fire talismans or tiaras",
-      "Mind talisman or tiara",
-      "Travelling through the Abyss or using a Runecraft cape",
-      "Access to Guardians of the Rift"
+      "Access to the Air, Water, Earth, Fire, and Mind Altars OR Travelling through the Abyss or using a Runecraft cape OR Access to Guardians of the Rift"
     ],
     "rewards": [
       "1 Quest point",
@@ -5721,9 +5598,7 @@
     "item_requirements": [
       "Pickaxe (if obtaining elemental ore during quest)",
       "Hammer",
-      "2 Elemental metals (3 elemental metals if you wish to smith the Mind shield), or: 2 Elemental ore (obtainable during quest) (3 if you wish to smith the mind shield) 8 Coal (12 if you wish to smith the mind shield)",
-      "2 Elemental ore (obtainable during quest) (3 if you wish to smith the mind shield)",
-      "8 Coal (12 if you wish to smith the mind shield)",
+      "2 Elemental metals (3 elemental metals if you wish to smith the Mind shield), or:",
       "The battered key from Elemental Workshop I"
     ],
     "rewards": [
@@ -5793,16 +5668,8 @@
     ],
     "item_requirements": [
       "Bucket (can be obtained during the quest, south of the cooking pot on Death Plateau)",
-      "3 Ugthanki dung, or the following materials to gather it: Red hot sauce (obtainable in Pollnivneach) or the Camulet (from Enakhra's Lament quest) Spade 3 additional buckets",
-      "Red hot sauce (obtainable in Pollnivneach) or the Camulet (from Enakhra's Lament quest)",
-      "Spade",
-      "3 additional buckets",
-      "Several farming supplies, which can be stored by any Tool Leprechaun and withdrawn from the Trollheim Tool Leprechaun. He sells all of these except for supercompost: 7 Supercompost (must be supercompost; one extra can be used instead of plant cure, making 8 total) Note: Bottomless compost bucket will not work, even one that is containing supercompost. Spade (To give to My Arm temporarily; he will return it near the end of the quest) Rake (To give to My Arm temporarily; he will return it near the end of the quest) Seed dibber (To give to My Arm temporarily; he will return it near the end of the quest. This is still needed even if Barbarian Training is completed) Plant cure (disease can be avoided with an additional supercompost but the plant can get diseased during a cutscene right after planting so plant cure is still recommended)",
-      "7 Supercompost (must be supercompost; one extra can be used instead of plant cure, making 8 total) Note: Bottomless compost bucket will not work, even one that is containing supercompost.",
-      "Spade (To give to My Arm temporarily; he will return it near the end of the quest)",
-      "Rake (To give to My Arm temporarily; he will return it near the end of the quest)",
-      "Seed dibber (To give to My Arm temporarily; he will return it near the end of the quest. This is still needed even if Barbarian Training is completed)",
-      "Plant cure (disease can be avoided with an additional supercompost but the plant can get diseased during a cutscene right after planting so plant cure is still recommended)",
+      "3 Ugthanki dung, or the following materials to gather it:",
+      "Several farming supplies, which can be stored by any Tool Leprechaun and withdrawn from the Trollheim Tool Leprechaun. He sells all of these except for supercompost:",
       "Climbing boots (can be bought from Tenzing for 12 coins)"
     ],
     "rewards": [
@@ -5831,11 +5698,6 @@
     "start_point": "Speak to Auguste on the island of Entrana.",
     "skill_requirements": [
       {
-        "skill": "Quest points",
-        "level": 20,
-        "boostable": true
-      },
-      {
         "skill": "Firemaking",
         "level": 20,
         "boostable": true
@@ -5853,24 +5715,8 @@
     ],
     "quest_requirements": [],
     "item_requirements": [
-      "TRIP 1 (starting the quest): 3 unnoted papyrus 1 ball of wool A full sack of potatoes (item is called Potatoes(10)) (there are potatoes growing in Entrana in the house east of Auguste, bring another empty sack if picking here) 8 empty sacks – bring 9 sacks if planning to fill one with potatoes on Entrana. 1 unlit candle or black candle (can be obtained during quest by stealing candles in Entrana church) Yellow dye Red dye 10 unnoted silk A bowl (obtainable during quest)",
-      "3 unnoted papyrus",
-      "1 ball of wool",
-      "A full sack of potatoes (item is called Potatoes(10)) (there are potatoes growing in Entrana in the house east of Auguste, bring another empty sack if picking here)",
-      "8 empty sacks – bring 9 sacks if planning to fill one with potatoes on Entrana.",
-      "1 unlit candle or black candle (can be obtained during quest by stealing candles in Entrana church)",
-      "Yellow dye",
-      "Red dye",
-      "10 unnoted silk",
-      "A bowl (obtainable during quest)",
-      "TRIP 2 (building the third balloon) At least 10 normal logs A tinderbox 12 unnoted willow branches (buy from the Grand Exchange, or plant a willow sapling and wait 4 hours.) Note: The player receives a willow sapling during the quest, although planting one beforehand may be faster. You will also receive a basket of apples to pay to protect the tree. Secateurs (only if planting the tree) (can also be exchanged from a Tool Leprechaun if placed there before) A rake (only if planting the tree) (can also be exchanged from a Tool Leprechaun if placed there before) A spade (only if planting the tree) (can also be exchanged from a Tool Leprechaun if placed there before)",
-      "At least 10 normal logs",
-      "A tinderbox",
-      "12 unnoted willow branches (buy from the Grand Exchange, or plant a willow sapling and wait 4 hours.) Note: The player receives a willow sapling during the quest, although planting one beforehand may be faster. You will also receive a basket of apples to pay to protect the tree. Secateurs (only if planting the tree) (can also be exchanged from a Tool Leprechaun if placed there before) A rake (only if planting the tree) (can also be exchanged from a Tool Leprechaun if placed there before) A spade (only if planting the tree) (can also be exchanged from a Tool Leprechaun if placed there before)",
-      "Note: The player receives a willow sapling during the quest, although planting one beforehand may be faster. You will also receive a basket of apples to pay to protect the tree.",
-      "Secateurs (only if planting the tree) (can also be exchanged from a Tool Leprechaun if placed there before)",
-      "A rake (only if planting the tree) (can also be exchanged from a Tool Leprechaun if placed there before)",
-      "A spade (only if planting the tree) (can also be exchanged from a Tool Leprechaun if placed there before)"
+      "TRIP 1 (starting the quest):",
+      "TRIP 2 (building the third balloon)"
     ],
     "rewards": [
       "1 Quest point",
@@ -6113,6 +5959,11 @@
         "skill": "Construction",
         "level": 20,
         "boostable": true
+      },
+      {
+        "skill": "Crafting",
+        "level": 30,
+        "boostable": true
       }
     ],
     "quest_requirements": [
@@ -6124,8 +5975,7 @@
     "item_requirements": [
       "A raw tuna (obtainable during quest, with 35 fishing or bought from the shop)",
       "Either 8 tin ores, 7 pieces of coal, or 6 mithril ores (depends on your Mining level; level 1 will require tin ore, 2-54 will require coal, and 55-99 require mithril ore). Note: The ores can be noted.",
-      "9 ropes (obtainable during quest with 30 Crafting) If the Neitiznot shield is already purchased, only 8 ropes are required.",
-      "If the Neitiznot shield is already purchased, only 8 ropes are required.",
+      "9 ropes (obtainable during quest with 30 Crafting)",
       "A knife",
       "8 split logs (obtainable during the quest with 56 Woodcutting and an axe)",
       "a Neitiznot shield (or 56 Woodcutting, a hammer and a bronze nail)",
@@ -6241,13 +6091,8 @@
       }
     ],
     "item_requirements": [
-      "Equipment to breathe underwater: A fishbowl helmet and a diving apparatus (reobtainable from Murphy in Port Khazard if you've lost them) OR a Medallion of the deep (counts as both helmet and apparatus)",
-      "A fishbowl helmet and a diving apparatus (reobtainable from Murphy in Port Khazard if you've lost them)",
-      "OR a Medallion of the deep (counts as both helmet and apparatus)",
-      "10 wooden cats – partial completion of The Great Brain Robbery is required to make these yourself, however they are tradeable and available at the Grand Exchange 4 oak planks, a hammer, and a saw (if you are building your own crafting table and do not already have one; build in the Clockmaking space of the Workshop) 10 planks (if making your own wooden cats) 10 pieces of fur: fur, bear fur, or grey wolf fur (if making your own wooden cats) (wolf fur can be obtained during quest by killing Canifis townsfolk. Baraek sells them for 20 gold each. Furs from Hunter monsters will not work)",
-      "4 oak planks, a hammer, and a saw (if you are building your own crafting table and do not already have one; build in the Clockmaking space of the Workshop)",
-      "10 planks (if making your own wooden cats)",
-      "10 pieces of fur: fur, bear fur, or grey wolf fur (if making your own wooden cats) (wolf fur can be obtained during quest by killing Canifis townsfolk. Baraek sells them for 20 gold each. Furs from Hunter monsters will not work)",
+      "Equipment to breathe underwater:",
+      "10 wooden cats – partial completion of The Great Brain Robbery is required to make these yourself, however they are tradeable and available at the Grand Exchange",
       "A hammer (Note: Imcando hammer does not work)",
       "About 100 nails (38 are needed, but some—especially bronze or iron—may bend)",
       "8 normal planks (18 if making the wooden cats instead of buying them from the Grand Exchange)",
@@ -6702,12 +6547,9 @@
     ],
     "item_requirements": [
       "Spade (can be purchased at the store north of Tai Bwo Wannai for 4 coins)",
-      "A lit torch (bruma works), candle or black candle (an unlit torch and tinderbox can be purchased at the store north of Tai Bwo Wannai for a total of 7 coins) you will not get this item back! Lanterns or Firemaking cape don't work",
-      "you will not get this item back!",
-      "Lanterns or Firemaking cape don't work",
+      "A lit torch (bruma works), candle or black candle (an unlit torch and tinderbox can be purchased at the store north of Tai Bwo Wannai for a total of 7 coins)",
       "Rope (can be purchased at the store north of Tai Bwo Wannai for 27 coins)",
-      "Bronze wire Bronze bar and hammer to create one (both can be purchased at the store north of Tai Bwo Wannai for a total of 13 coins, there is an Anvil nearby)",
-      "Bronze bar and hammer to create one (both can be purchased at the store north of Tai Bwo Wannai for a total of 13 coins, there is an Anvil nearby)",
+      "Bronze wire",
       "Chisel (can be purchased at the store north of Tai Bwo Wannai for 1 coins)",
       "3 regular bones (obtainable during the quest)"
     ],
@@ -6807,6 +6649,11 @@
         "skill": "Defence",
         "level": 20,
         "boostable": false
+      },
+      {
+        "skill": "Agility",
+        "level": 70,
+        "boostable": true
       }
     ],
     "quest_requirements": [
@@ -6839,10 +6686,7 @@
       "Light source",
       "Dusty key (if under 70 Agility)",
       "Rope",
-      "Combat gear to kill zogres (an ogre composite bow with brutal arrows or runes for Crumble Undead casts is advised)",
-      "Ice coolers",
-      "Fishing explosives",
-      "Mirror shield or V's shield (unless using a workaround - see guide for how to get around using this)"
+      "Combat gear to kill zogres (an ogre composite bow with brutal arrows or runes for Crumble Undead casts is advised)"
     ],
     "rewards": [
       "1 Quest point",
@@ -6922,14 +6766,12 @@
     "item_requirements": [
       "A light source",
       "Toadflax potion (unf)",
-      "Goblin mail (obtainable during quest) 6 goblin mails are recommended",
-      "6 goblin mails are recommended",
+      "Goblin mail (obtainable during quest)",
       "Yellow dye",
       "Blue dye",
       "Orange dye",
       "Purple dye",
-      "Black dye (black mushroom obtainable during quest) An empty vial and a pestle and mortar if making the black dye during the quest",
-      "An empty vial and a pestle and mortar if making the black dye during the quest",
+      "Black dye (black mushroom obtainable during quest)",
       "Fishing rod (oily fishing rod will not work)",
       "Raw slimy eel",
       "5 coins"
@@ -6965,11 +6807,6 @@
     "url": "https://oldschool.runescape.wiki/w/While_Guthix_Sleeps",
     "start_point": "Speak to Ivy Sophista in Taverley.",
     "skill_requirements": [
-      {
-        "skill": "Quest points",
-        "level": 180,
-        "boostable": true
-      },
       {
         "skill": "Thieving",
         "level": 72,
@@ -7214,14 +7051,7 @@
       "Runes to cast the NPC Contact spell four times (8 air runes, 4 astral rune, 4 cosmic rune)",
       "Runes for any charge orb spell (30 runes of a chosen element and 3 cosmic runes)",
       "Equipment for two different combat styles",
-      "Runes for the following spells: multiple casts of all four elemental spells, Snare/Entangle, Weaken/Enfeeble, Telekinetic Grab, and Low/High Level Alchemy; (Air, Water, Earth, Fire, Body/Soul, Nature, Law, and the highest of Mind/Chaos/Death/Blood/Wrath that you can use to cast all four elemental spells)",
-      "Mort myre fungus",
-      "1 log of any type except redwood (you can obtain one using a bronze axe next to the Hunting Expert, but you must not already have an axe in your inventory (a Zombie axe counts, even though it can not be used to cut down trees)",
-      "Pink dye (or 20 coins)",
-      "Snapdragon seed",
-      "Papyrus and charcoal",
-      "Restore potion",
-      "One of each of the following runes: air, water, earth, fire, mind, law, death"
+      "Runes for the following spells: multiple casts of all four elemental spells, Snare/Entangle, Weaken/Enfeeble, Telekinetic Grab, and Low/High Level Alchemy; (Air, Water, Earth, Fire, Body/Soul, Nature, Law, and the highest of Mind/Chaos/Death/Blood/Wrath that you can use to cast all four elemental spells)"
     ],
     "rewards": [
       "5 Quest points",
@@ -7291,16 +7121,8 @@
     "item_requirements": [
       "5 free inventory spaces are needed to receive items near the start of the quest",
       "Knife (obtainable during quest)",
-      "A comp ogre bow (not needed if using Crumble Undead in final battle) or: Wolf bones Achey logs (obtainable during quest) Axe of your Woodcutting level Bow string",
-      "Wolf bones",
-      "Achey logs (obtainable during quest)",
-      "Axe of your Woodcutting level",
-      "Bow string",
-      "Brutal arrows (not needed if using Crumble Undead in final battle) or: Achey logs (obtainable during quest) Nails (the best you can fletch into brutal arrows) Hammer Feathers (4 per 1 brutal arrow)",
-      "Achey logs (obtainable during quest)",
-      "Nails (the best you can fletch into brutal arrows)",
-      "Hammer",
-      "Feathers (4 per 1 brutal arrow)"
+      "A comp ogre bow (not needed if using Crumble Undead in final battle) or:",
+      "Brutal arrows (not needed if using Crumble Undead in final battle) or:"
     ],
     "rewards": [
       "1 Quest point",
@@ -7560,11 +7382,6 @@
     "url": "https://oldschool.runescape.wiki/w/Dragon_Slayer_II",
     "start_point": "Speak to Alec Kincade outside the Myths' Guild.",
     "skill_requirements": [
-      {
-        "skill": "Quest points",
-        "level": 200,
-        "boostable": true
-      },
       {
         "skill": "Magic",
         "level": 75,
@@ -7894,8 +7711,7 @@
     ],
     "item_requirements": [
       "Bread",
-      "Orange slices Use a knife on an orange",
-      "Use a knife on an orange",
+      "Orange slices",
       "Either blue, black, green, or purple dye (purple dye spawns directly east of the spirit tree at the Khazard Battlefield, south of the Ardougne Castle)",
       "Spice or gnome spice (can be bought or stolen from the Ardougne market, bought from the Culinaromancer's Chest or bought in the Tree Gnome Stronghold)",
       "Fishing bait",
@@ -7936,10 +7752,8 @@
       "Pot of flour (can be bought from the Culinaromancer's chest)",
       "Egg (can be bought from the Culinaromancer's chest)",
       "Bowl of water (a bowl and sink can be found in the kitchen of Lumbridge Castle)",
-      "4 Asgarnian ales (can be bought during the quest at the Rising Sun Inn in Falador) Recommended to bring at least 2 additional ales in case Rohak sobers up",
-      "Recommended to bring at least 2 additional ales in case Rohak sobers up",
-      "306 coins (300 + 1 coin per ale, 100 instead of 300 if you choose to bring an activated ring of charos, 150 instead of 300 if you choose to bring a chocolate bar) Bring additional coins if buying the other ingredients or bringing additional ales",
-      "Bring additional coins if buying the other ingredients or bringing additional ales",
+      "4 Asgarnian ales (can be bought during the quest at the Rising Sun Inn in Falador)",
+      "306 coins (300 + 1 coin per ale, 100 instead of 300 if you choose to bring an activated ring of charos, 150 instead of 300 if you choose to bring a chocolate bar)",
       "Gloves, If not using gloves make sure to bring Telekinetic Grab spell runes (Ice gloves are the best, but other gloves will work fine too)"
     ],
     "rewards": [],
@@ -8101,9 +7915,7 @@
       "A bucket of milk",
       "An egg",
       "A pot of flour",
-      "A cake tin",
-      "Minigame Teleport to Guardians of the Rift",
-      "Necklace of passage or access to fairy rings (DIS) and a Lunar/Dramen staff (for quick transportation to Wizards' Tower)"
+      "A cake tin"
     ],
     "rewards": [],
     "enemies_to_defeat": []
@@ -8121,8 +7933,8 @@
     "start_point": "Inspect Sir Amik Varze.",
     "skill_requirements": [
       {
-        "skill": "Quest points",
-        "level": 107,
+        "skill": "Farming",
+        "level": 20,
         "boostable": true
       }
     ],
@@ -8203,11 +8015,8 @@
     "item_requirements": [
       "Bucket of milk (can be bought from the Culinaromancer's Chest) or Bottomless milk bucket",
       "Pot of cream (can be bought from the Culinaromancer's Chest)",
-      "Pot of cornflour Sweetcorn (Can be picked from the sweetcorn fields south of Civitas illa Fortis in Varlamore without 20 Farming [boostable])",
-      "Sweetcorn (Can be picked from the sweetcorn fields south of Civitas illa Fortis in Varlamore without 20 Farming [boostable])",
-      "Vanilla pod or tools to get one: Any axe (the Blessed axe will not work!) Any machete (as well as Radimus notes if you haven't completed Legends' Quest)",
-      "Any axe (the Blessed axe will not work!)",
-      "Any machete (as well as Radimus notes if you haven't completed Legends' Quest)",
+      "Pot of cornflour",
+      "Vanilla pod or tools to get one:",
       "Dramen staff or Lunar staff to enter Zanaris if the Elite Lumbridge & Draynor diary has not been completed.",
       "Dramen branch to make cinnamon",
       "Pestle and mortar",
@@ -8411,9 +8220,7 @@
       "Knife or sickle",
       "Emerald",
       "Chisel",
-      "Either: 3 air runes, 1 cosmic rune, and having your magic set to the standard Spellbook An enchant emerald or jade tablet",
-      "3 air runes, 1 cosmic rune, and having your magic set to the standard Spellbook",
-      "An enchant emerald or jade tablet",
+      "Either:",
       "Rod of ivandis (obtainable during the quest)",
       "Pestle and mortar (obtainable during the quest)",
       "Vial of water (obtained during the quest)",
@@ -8627,13 +8434,7 @@
     "release_date": "15 March 2006",
     "url": "https://oldschool.runescape.wiki/w/Recipe_for_Disaster/Defeating_the_Culinaromancer",
     "start_point": "Release each member of the council from the Culinaromancer's spell.",
-    "skill_requirements": [
-      {
-        "skill": "Quest points",
-        "level": 175,
-        "boostable": true
-      }
-    ],
+    "skill_requirements": [],
     "quest_requirements": [
       {
         "name": "Desert Treasure I",
@@ -9009,6 +8810,11 @@
         "skill": "Mining",
         "level": 60,
         "boostable": true
+      },
+      {
+        "skill": "Agility",
+        "level": 85,
+        "boostable": true
       }
     ],
     "quest_requirements": [
@@ -9077,14 +8883,11 @@
       "100 Astral runes",
       "Pet rock",
       "Fishing rod or fly fishing rod",
-      "Fremennik shield (this is not the tradeable Neitiznot shield) Alternatively, get it from Bardur AFTER being exiled, for either 150,000 or for free using a Ring of charos (a) Recommended: Rune thrownaxes or 85 Agility to get to Bardur in the Waterbirth Island Dungeon",
-      "Alternatively, get it from Bardur AFTER being exiled, for either 150,000 or for free using a Ring of charos (a)",
-      "Recommended: Rune thrownaxes or 85 Agility to get to Bardur in the Waterbirth Island Dungeon",
+      "Fremennik shield (this is not the tradeable Neitiznot shield)",
       "Ice gloves or Smiths gloves (i)",
       "Hammer",
       "Glassblowing pipe",
-      "3 Lunar bars Or a pickaxe to obtain 3 ores to turn into Lunar bars (requires 60 Mining [boostable]).",
-      "Or a pickaxe to obtain 3 ores to turn into Lunar bars (requires 60 Mining [boostable]).",
+      "3 Lunar bars",
       "Seal of Passage (if the elite Fremennik diaries aren't completed)"
     ],
     "rewards": [
@@ -9596,10 +9399,7 @@
     "quest_requirements": [],
     "item_requirements": [
       "Bear fur, grey wolf fur, or Fur (a Grizzly bear and bear cub spawn west of the farm and two black bears spawn east of the farm)",
-      "Soft clay or a pickaxe you can use Clay rocks are found in the Kebos Lowlands mine passed during the quest; Gordon's house has a water source and a bucket spawn; There is a Bronze pickaxe spawn at the mine, stuck in some rocks.",
-      "Clay rocks are found in the Kebos Lowlands mine passed during the quest;",
-      "Gordon's house has a water source and a bucket spawn;",
-      "There is a Bronze pickaxe spawn at the mine, stuck in some rocks.",
+      "Soft clay or a pickaxe you can use",
       "Hammer (obtainable near the cattle gate) or Imcando hammer",
       "Saw (obtainable in the shed north of the house) or Amy's saw",
       "2 normal planks (obtainable near the cave entrance)",
@@ -10184,14 +9984,7 @@
     ],
     "item_requirements": [
       "Be on the Ancient Magicks spellbook",
-      "Runes to cast Blood Burst, Ice Burst, Smoke Burst, and Shadow Burst 8 Death runes 16 Chaos runes 2 Fire runes 3 Air runes 4 Water runes 2 Soul runes 2 Blood runes",
-      "8 Death runes",
-      "16 Chaos runes",
-      "2 Fire runes",
-      "3 Air runes",
-      "4 Water runes",
-      "2 Soul runes",
-      "2 Blood runes",
+      "Runes to cast Blood Burst, Ice Burst, Smoke Burst, and Shadow Burst",
       "Ring of visibility",
       "Tinderbox (obtainable during the quest)",
       "Pestle and mortar (obtainable during the quest)",
@@ -10608,8 +10401,7 @@
     "item_requirements": [
       "Needle or costume needle (one needle spawns in Pellem's Fur Store nearby)",
       "Hammer (obtainable during quest) or Imcando hammer",
-      "2 jerboa tails (obtainable during quest) or a Box trap (can be bought from Imia's Supplies nearby)",
-      "or a Box trap (can be bought from Imia's Supplies nearby)"
+      "2 jerboa tails (obtainable during quest)"
     ],
     "rewards": [
       "1 Quest point",
@@ -11146,8 +10938,7 @@
       }
     ],
     "item_requirements": [
-      "4 willow longbows Can be purchased from Arcuani's Archery Supplies in Tal Teklan or Lowe's Archery Emporium in Varrock",
-      "Can be purchased from Arcuani's Archery Supplies in Tal Teklan or Lowe's Archery Emporium in Varrock",
+      "4 willow longbows",
       "4 maple logs (obtainable during quest)",
       "Fishing rod (obtainable during quest) (Oily fishing rod, Pearl fishing rod, or Barbarian rod also works)",
       "Hammer (obtainable during quest)"
@@ -11351,27 +11142,11 @@
     ],
     "quest_requirements": [],
     "item_requirements": [
-      "Farming: Any seed that can be planted with a seed dibber (such as allotment and herb seeds) and a free Farming patch for it (part 1) Any sapling and a free Farming patch for it (part 2) A spade (part 2) An axe or 200 coins (part 2, to clear a required patch if it is occupied)",
-      "Any seed that can be planted with a seed dibber (such as allotment and herb seeds) and a free Farming patch for it (part 1)",
-      "Any sapling and a free Farming patch for it (part 2)",
-      "A spade (part 2)",
-      "An axe or 200 coins (part 2, to clear a required patch if it is occupied)",
-      "Firemaking: Any bow except twisted, cursed, dark, crystal, ogre, rain, or the signed oak bow (part 1) Oak logs (can get some oak logs north of Otto's house, down a hill) (part 1) A tinderbox (part 2) An axe (part 2)",
-      "Any bow except twisted, cursed, dark, crystal, ogre, rain, or the signed oak bow (part 1)",
-      "Oak logs (can get some oak logs north of Otto's house, down a hill) (part 1)",
-      "A tinderbox (part 2)",
-      "An axe (part 2)",
-      "Fishing: Some fishing bait or feathers A knife",
-      "Some fishing bait or feathers",
-      "A knife",
-      "Smithing: Hammer Two metal bars of a level you can smith Two logs corresponding to the type of metal bars you are using. Bronze, iron, steel, mithril, adamantite, and runite bars require normal, oak, willow, maple, yew, or magic logs, respectively.",
-      "Hammer",
-      "Two metal bars of a level you can smith",
-      "Two logs corresponding to the type of metal bars you are using. Bronze, iron, steel, mithril, adamantite, and runite bars require normal, oak, willow, maple, yew, or magic logs, respectively.",
-      "Herblore: A normal attack potion (2 doses) Roe (can be obtained during Barbarian Fishing) A knife for roe or caviar",
-      "A normal attack potion (2 doses)",
-      "Roe (can be obtained during Barbarian Fishing)",
-      "A knife for roe or caviar"
+      "Farming:",
+      "Firemaking:",
+      "Fishing:",
+      "Smithing:",
+      "Herblore:"
     ],
     "rewards": [],
     "enemies_to_defeat": [
@@ -11399,17 +11174,8 @@
     "quest_requirements": [],
     "item_requirements": [
       "Bucket of water",
-      "Nettle tea Nettle-water Bowl of water Nettles (more than one with low Cooking level, as it can fail due to over boiling) Gloves to pick the nettles (leather gloves are obtainable during the quest)",
-      "Nettle-water Bowl of water Nettles (more than one with low Cooking level, as it can fail due to over boiling) Gloves to pick the nettles (leather gloves are obtainable during the quest)",
-      "Bowl of water",
-      "Nettles (more than one with low Cooking level, as it can fail due to over boiling) Gloves to pick the nettles (leather gloves are obtainable during the quest)",
-      "Gloves to pick the nettles (leather gloves are obtainable during the quest)",
-      "Hangover cure or the ingredients to make one: Chocolate dust Chocolate bar Knife or pestle and mortar Bucket of milk Snape grass",
-      "Chocolate dust Chocolate bar Knife or pestle and mortar",
-      "Chocolate bar",
-      "Knife or pestle and mortar",
-      "Bucket of milk",
-      "Snape grass"
+      "Nettle tea",
+      "Hangover cure or the ingredients to make one:"
     ],
     "rewards": [],
     "enemies_to_defeat": []
