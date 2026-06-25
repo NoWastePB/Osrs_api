@@ -206,22 +206,23 @@ def parse_rewards(soup):
     td = get_questdetails_field(soup, "Rewards")
     if not td:
         # Rewards staan als sectie op de pagina
-        rewards_heading = soup.find("h2", id="Rewards") or soup.find("span", id="Rewards")
+        rewards_heading = soup.find("h2", id="Rewards")
         if not rewards_heading:
             return []
-        current = rewards_heading.parent.find_next_sibling() if rewards_heading.name == "h2" else rewards_heading.find_parent("h2").find_next_sibling()
+        current = rewards_heading.parent.find_next_sibling()
         while current:
+            # Stop bij de volgende heading
+            if current.name == "div" and "mw-heading" in " ".join(current.get("class", [])):
+                break
             # Sla navbox tabellen over
             if current.name == "table" and "navbox" in " ".join(current.get("class", [])):
                 current = current.find_next_sibling()
                 continue
-            ul = current.find("ul")
-            if ul:
-                for navbox in ul.find_all("table"):
+            # Pak alleen een directe <ul> sibling, niet geneste
+            if current.name == "ul":
+                for navbox in current.find_all("table"):
                     navbox.decompose()
-                return parse_top_level_li(ul)
-            if current.name in ("h2", "h3"):
-                break
+                return parse_top_level_li(current)
             current = current.find_next_sibling()
         return []
     # Rewards in questdetails tabel
