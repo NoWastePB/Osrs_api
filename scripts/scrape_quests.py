@@ -119,22 +119,40 @@ def parse_start_point(soup):
 
 
 def parse_skill_requirements(soup):
-    td = get_questdetails_field(soup, "Requirements")
-    if not td:
-        return []
     skills = []
-    for span in td.find_all("span", class_="scp"):
-        skill = span.get("data-skill", "")
-        level = span.get("data-level", "")
-        if skill and level:
-            # Bepaal of het boostable is
+    seen = set()  # voorkom duplicaten
+
+    def extract_skills_from_td(td):
+        for span in td.find_all("span", class_="scp"):
+            skill = span.get("data-skill", "")
+            level = span.get("data-level", "")
+            if not skill or not level:
+                continue
+            if skill == "Quest points":
+                continue
+            key = (skill, level)
+            if key in seen:
+                continue
+            seen.add(key)
             sup_texts = [clean(s.get_text()) for s in span.find_next_siblings("sup")]
             boostable = not any("not boostable" in t for t in sup_texts)
-            skills.append({
-                "skill": skill,
-                "level": int(level),
-                "boostable": boostable
-            })
+            try:
+                skills.append({
+                    "skill": skill,
+                    "level": int(level.replace(",", "")),
+                    "boostable": boostable
+                })
+            except ValueError:
+                pass
+
+    td_req = get_questdetails_field(soup, "Requirements")
+    if td_req:
+        extract_skills_from_td(td_req)
+
+    td_items = get_questdetails_field(soup, "Items required")
+    if td_items:
+        extract_skills_from_td(td_items)
+
     return skills
 
 
@@ -183,8 +201,18 @@ def parse_item_requirements(soup):
     if not td:
         return []
     items = []
-    for li in td.find_all("li"):
-        items.append(clean(li.get_text()))
+    ul = td.find("ul")
+    if not ul:
+        return []
+    for li in ul.find_all("li", recursive=False):
+        # Kloon de li en verwijder geneste ul's
+        li_copy = BeautifulSoup(str(li), "html.parser").find("li")
+        nested_ul = li_copy.find("ul")
+        if nested_ul:
+            nested_ul.decompose()
+        text = clean(li_copy.get_text())
+        if text:
+            items.append(text)
     return items
 
 
