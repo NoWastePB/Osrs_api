@@ -1,14 +1,16 @@
 """
 OSRS Bestiary Scraper
 Haalt alle monsters op van de OSRS Wiki Bestiary pagina's per level-range.
-Output: osrs_monsters.json en osrs_monsters.csv
+Output: data/monsters.json
+
+Fix: tabelheaders bevatten alleen afbeeldingen met title-attributen,
+     geen zichtbare tekst. We lezen de img alt of de span title.
 """
 
+import json
+import time
 import requests
 from bs4 import BeautifulSoup
-import json
-import csv
-import time
 
 BASE_URL = "https://oldschool.runescape.wiki"
 
@@ -38,10 +40,10 @@ BESTIARY_PAGES = [
 ]
 
 HEADERS = {
-    "User-Agent": "OSRSBestiaryScraper/1.0 (educational project; contact: piet@example.com)"
+    "User-Agent": "OSRSBestiaryScraper/1.0 (educational project)"
 }
 
-# Kolomnamen op basis van de tabelheaders
+# Mapping van de img alt / zichtbare tekst naar veldnaam
 COLUMN_MAP = {
     "Monster": "name",
     "Members": "members",
@@ -63,19 +65,74 @@ COLUMN_MAP = {
 }
 
 
+def clean(text):
+    return " ".join(text.strip().split())
+
+
+def get_th_label(th):
+    """
+    Haal de kolomlabel op uit een <th>-element.
+    Probeert in volgorde:
+      1. Zichtbare tekst (voor 'Monster', 'Members', 'Flat armour')
+      2. img[alt] attribuut
+      3. span[title] attribuut
+    """
+    text = clean(th.get_text())
+    if text and text in COLUMN_MAP:
+        return text
+
+    img = th.find("img")
+    if img:
+        for attr in ("alt", "title"):
+            val = img.get(attr, "").strip()
+            if val and val in COLUMN_MAP:
+                return val
+
+    span = th.find("span", title=True)
+    if span:
+        val = span["title"].strip()
+        if val and val in COLUMN_MAP:
+            return val
+
+    return None
+
+
 def parse_header_indices(header_row):
     """Bouw een mapping van kolomindex -> veldnaam op basis van de headerrij."""
     indices = {}
-    cells = header_row.find_all("th")
     col = 0
-    for cell in cells:
+    for cell in header_row.find_all("th"):
         colspan = int(cell.get("colspan", 1))
-        text = cell.get_text(strip=True)
-        field = COLUMN_MAP.get(text)
-        if field:
-            indices[col] = field
+        label = get_th_label(cell)
+        if label:
+            indices[col] = COLUMN_MAP[label]
         col += colspan
     return indices
+
+
+def parse_members(cell):
+    """Bepaal F2P of Members op basis van de afbeelding in de cel."""
+    img = cell.find("img")
+    if not img:
+        return ""
+    alt = img.get("alt", "")
+    if "Members" in alt:
+        return "Members"
+    if "Free" in alt or "F2P" in alt:
+        return "F2P"
+    return alt
+
+
+def parse_elemental_weakness(cell):
+    """Extraheer zwakheid type en percentage uit de laatste kolom."""
+    img = cell.find("img")
+    if not img:
+        return ""
+    weakness_type = img.get("alt", "").replace(" elemental weakness", "").strip()
+    text = clean(cell.get_text())
+    if weakness_type and text:
+        return f"{weakness_type} {text}"
+    return weakness_type
 
 
 def parse_monster_row(row, col_map):
@@ -93,26 +150,26 @@ def parse_monster_row(row, col_map):
 
         if field:
             if field == "name":
-                # Naam staat in de tweede td (eerste is het plaatje)
                 link = cell.find("a")
                 if link:
-                    monster["name"] = link.get_text(strip=True)
-                    monster["wiki_url"] = BASE_URL + link["href"]
+                    monster["name"] = clean(link.get_text())
+                    monster["wiki_url"] = BASE_URL + link.get("href", "")
+                    italic = cell.find("i")
+                    monster["variant"] = clean(italic.get_text()) if italic else ""
                 else:
-                    monster["name"] = cell.get_text(strip=True)
+                    monster["name"] = clean(cell.get_text())
                     monster["wiki_url"] = ""
+                    monster["variant"] = ""
             elif field == "members":
-                link = cell.find("a")
-                if link:
-                    monster["members"] = link.get_text(strip=True)
-                else:
-                    monster["members"] = cell.get_text(strip=True)
+                monster["members"] = parse_members(cell)
+            elif field == "elemental_weakness":
+                monster["elemental_weakness"] = parse_elemental_weakness(cell)
             else:
-                monster[field] = cell.get_text(strip=True)
+                monster[field] = clean(cell.get_text())
 
         col += colspan
 
-    return monster if "name" in monster and monster["name"] else None
+    return monster if monster.get("name") else None
 
 
 def scrape_page(path):
@@ -125,12 +182,17 @@ def scrape_page(path):
 
     soup = BeautifulSoup(resp.text, "html.parser")
 
-    # Zoek de hoofdtabel (de tabel met Monster als eerste header)
+    # Zoek de wikitable waarvan de eerste header 'Monster' is
     table = None
     for tbl in soup.find_all("table", class_="wikitable"):
-        first_th = tbl.find("th")
-        if first_th and "Monster" in first_th.get_text():
-            table = tbl
+        header_row = tbl.find("tr")
+        if not header_row:
+            continue
+        for th in header_row.find_all("th"):
+            if get_th_label(th) == "Monster":
+                table = tbl
+                break
+        if table:
             break
 
     if not table:
@@ -138,19 +200,12 @@ def scrape_page(path):
         return []
 
     rows = table.find_all("tr")
-    if not rows:
-        return []
-
-    # Eerste rij = headers
     col_map = parse_header_indices(rows[0])
 
     monsters = []
-    # Soms zijn er twee headerrijen (hoofdrij + subrij met afbeelding)
-    data_start = 1
-    if rows[1].find("th"):
-        data_start = 2
-
-    for row in rows[data_start:]:
+    for row in rows[1:]:
+        if row.find("th"):  # sla extra headerrijen over
+            continue
         monster = parse_monster_row(row, col_map)
         if monster:
             monsters.append(monster)
@@ -158,50 +213,31 @@ def scrape_page(path):
     return monsters
 
 
-def main():
-    all_monsters = []
-    seen_names = set()
+# ── Hoofdscript ──────────────────────────────────────────────────────────────
 
-    print(f"Start scrapen van {len(BESTIARY_PAGES)} pagina's...\n")
+all_monsters = []
+seen = set()
 
-    for page in BESTIARY_PAGES:
-        monsters = scrape_page(page)
-        new_count = 0
-        for m in monsters:
-            key = (m.get("name", ""), m.get("combat_level", ""))
-            if key not in seen_names:
-                seen_names.add(key)
-                all_monsters.append(m)
-                new_count += 1
-        print(f"    ✓ {new_count} monsters toegevoegd (totaal: {len(all_monsters)})")
-        time.sleep(0.5)  # Wees vriendelijk voor de wiki
+print(f"Start scrapen van {len(BESTIARY_PAGES)} pagina's...\n")
 
-    print(f"\nTotaal unieke monsters gevonden: {len(all_monsters)}")
+for page in BESTIARY_PAGES:
+    monsters = scrape_page(page)
+    new_count = 0
+    for m in monsters:
+        key = (m.get("name", ""), m.get("variant", ""), m.get("combat_level", ""))
+        if key not in seen:
+            seen.add(key)
+            all_monsters.append(m)
+            new_count += 1
+    print(f"    ✓ {new_count} monsters toegevoegd (totaal: {len(all_monsters)})")
+    time.sleep(0.5)
 
-    # Sla op als JSON
-    with open("osrs_monsters.json", "w", encoding="utf-8") as f:
-        json.dump(all_monsters, f, ensure_ascii=False, indent=2)
-    print("✓ Opgeslagen als osrs_monsters.json")
+print(f"\nGevonden: {len(all_monsters)} monsters")
 
-    # Sla op als CSV
-    if all_monsters:
-        fieldnames = list(all_monsters[0].keys())
-        # Zorg dat alle records dezelfde velden hebben
-        all_fields = set()
-        for m in all_monsters:
-            all_fields.update(m.keys())
-        all_fields = ["name", "wiki_url", "members", "combat_level", "hitpoints",
-                      "attack_level", "defence_level", "magic_level", "ranged_level",
-                      "stab_defence", "slash_defence", "crush_defence", "magic_defence",
-                      "light_ranged_defence", "standard_ranged_defence",
-                      "heavy_ranged_defence", "flat_armour", "elemental_weakness"]
+import os
+os.makedirs("data", exist_ok=True)
 
-        with open("osrs_monsters.csv", "w", newline="", encoding="utf-8") as f:
-            writer = csv.DictWriter(f, fieldnames=all_fields, extrasaction="ignore")
-            writer.writeheader()
-            writer.writerows(all_monsters)
-        print("✓ Opgeslagen als osrs_monsters.csv")
+with open("data/monsters.json", "w", encoding="utf-8") as f:
+    json.dump(all_monsters, f, indent=2, ensure_ascii=False)
 
-
-if __name__ == "__main__":
-    main()
+print(f"Saved {len(all_monsters)} monsters naar data/monsters.json")
