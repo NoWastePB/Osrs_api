@@ -110,6 +110,9 @@ def scrape_page(path):
         print(f"    ⚠ Kon {url} niet ophalen na meerdere pogingen")
         return []
 
+    # Debug: toon status en eerste 300 chars van de response
+    print(f"    DEBUG status={resp.status_code} len={len(resp.text)} first300={repr(resp.text[:300])}")
+
     soup = BeautifulSoup(resp.text, "html.parser")
 
     # Zoek de wikitable met 17+ kolommen in de headerrij
