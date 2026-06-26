@@ -124,7 +124,14 @@ def scrape_page(path):
             break
 
     if not table:
-        print(f"    ⚠ Geen tabel gevonden op {path}")
+        # Debug: toon alle tabellen die gevonden zijn
+        all_tables = soup.find_all("table")
+        print(f"    ⚠ Geen tabel gevonden op {path} ({len(all_tables)} tabellen op pagina)")
+        for i, tbl in enumerate(all_tables[:5]):
+            header_row = tbl.find("tr")
+            ths = header_row.find_all("th") if header_row else []
+            total_cols = sum(int(th.get("colspan", 1)) for th in ths)
+            print(f"       Tabel {i}: class={tbl.get('class', [])}, header_cols={total_cols}")
         return []
 
     rows = table.find_all("tr")
