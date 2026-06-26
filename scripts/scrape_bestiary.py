@@ -1,5 +1,7 @@
 """
 OSRS Bestiary Scraper
+Haalt alle monsters op van de OSRS Wiki Bestiary pagina's per level-range.
+Voor elk monster worden ook de detailpagina (infobox + drops) opgehaald.
 Output: data/monsters.json
 """
 
@@ -44,6 +46,8 @@ def clean(text):
     return " ".join(text.strip().split())
 
 
+# ── Bestiary lijst scraper ────────────────────────────────────────────────────
+
 def scrape_page(path):
     """Haal alle monsters op van één bestiary-pagina."""
     url = BASE_URL + path
@@ -51,21 +55,15 @@ def scrape_page(path):
 
     resp = requests.get(url, headers=HEADERS, timeout=15)
     resp.raise_for_status()
-
     soup = BeautifulSoup(resp.text, "html.parser")
 
-    # Zoek de wikitable met monsterdata
+    # Zoek de wikitable met 17+ kolommen in de headerrij
     table = None
     for tbl in soup.find_all("table", class_="wikitable"):
-        # De monstertabel heeft altijd een img met alt="Members" of "Free-to-play"
-        # in de derde kolom van data-rijen. Veiliger: zoek de tabel met
-        # veel kolommen (17+) in de headerrij.
         header_row = tbl.find("tr")
         if not header_row:
             continue
-        ths = header_row.find_all("th")
-        # Tel het totaal aantal kolommen (rekening houdend met colspan)
-        total_cols = sum(int(th.get("colspan", 1)) for th in ths)
+        total_cols = sum(int(th.get("colspan", 1)) for th in header_row.find_all("th"))
         if total_cols >= 17:
             table = tbl
             break
@@ -75,42 +73,12 @@ def scrape_page(path):
         return []
 
     rows = table.find_all("tr")
-
-    # Bouw kolomindices op basis van img alt-teksten in de headerrij
-    # De tabel heeft colspan=2 op "Monster" dus kolom 0 = afbeelding, kolom 1 = naam
-    # We slaan de colspan correct bij door de werkelijke td-positie te gebruiken.
-    # Eenvoudiger: we parsen elke data-rij direct op positie van de tds.
-    #
-    # Kolomvolgorde (bepaald uit de HTML):
-    # td[0] = monster afbeelding (overslaan)
-    # td[1] = naam + variant
-    # td[2] = members icon
-    # td[3] = combat level
-    # td[4] = hitpoints
-    # td[5] = attack level
-    # td[6] = defence level
-    # td[7] = magic level
-    # td[8] = ranged level
-    # td[9] = stab defence
-    # td[10] = slash defence
-    # td[11] = crush defence
-    # td[12] = magic defence
-    # td[13] = light ranged defence
-    # td[14] = standard ranged defence
-    # td[15] = heavy ranged defence
-    # td[16] = flat armour
-    # td[17] = elemental weakness
-
     monsters = []
 
     for row in rows[1:]:
-        # Sla headerrijen over
         if row.find("th"):
             continue
-
         tds = row.find_all("td")
-
-        # Verwacht minimaal 17 kolommen
         if len(tds) < 17:
             continue
 
@@ -119,28 +87,27 @@ def scrape_page(path):
         link = name_cell.find("a")
         if not link:
             continue
+
         name = clean(link.get_text())
         wiki_url = BASE_URL + link.get("href", "")
         italic = name_cell.find("i")
         variant = clean(italic.get_text()) if italic else ""
 
         # td[2]: members
-        members_cell = tds[2]
-        members_img = members_cell.find("img")
+        members_img = tds[2].find("img")
         if members_img:
             alt = members_img.get("alt", "")
             members = "Members" if "Members" in alt else "F2P"
         else:
             members = ""
 
-        # td[17]: elemental weakness (optioneel)
+        # td[17]: elemental weakness
         elemental_weakness = ""
         if len(tds) >= 18:
-            weak_cell = tds[17]
-            weak_img = weak_cell.find("img")
+            weak_img = tds[17].find("img")
             if weak_img:
                 weakness_type = weak_img.get("alt", "").replace(" elemental weakness", "").strip()
-                percentage = clean(weak_cell.get_text())
+                percentage = clean(tds[17].get_text())
                 elemental_weakness = f"{weakness_type} {percentage}" if weakness_type else ""
 
         monsters.append({
@@ -168,7 +135,116 @@ def scrape_page(path):
     return monsters
 
 
-# ── Hoofdscript ──────────────────────────────────────────────────────────────
+# ── Detail pagina scraper ─────────────────────────────────────────────────────
+
+def parse_infobox(soup):
+    """Parse de infobox-monster tabel voor extra velden."""
+    info = {}
+    infobox = soup.find("table", class_="infobox-monster")
+    if not infobox:
+        return info
+
+    for row in infobox.find_all("tr"):
+        th = row.find("th")
+        td = row.find("td")
+        if not th or not td:
+            continue
+        # Haal de tekst van de header op (soms alleen een afbeelding)
+        key = clean(th.get_text())
+        if not key:
+            continue
+        value = clean(td.get_text())
+
+        key_map = {
+            "XP bonus": "xp_bonus",
+            "Max hit": "max_hit",
+            "Aggressive": "aggressive",
+            "Poisonous": "poisonous",
+            "Attack style": "attack_style",
+            "Attack speed": "attack_speed",
+            "Respawn time": "respawn_time",
+            "Size": "size",
+            "Examine": "examine",
+            "Monster ID": "monster_id",
+        }
+        mapped = key_map.get(key)
+        if mapped:
+            info[mapped] = value
+
+    return info
+
+
+def parse_drops(soup):
+    """Parse de drops tabel op basis van de drops-img-header klasse."""
+    drops = []
+
+    # Zoek de tabel met de drops-img-header th
+    drop_table = None
+    for tbl in soup.find_all("table"):
+        if tbl.find("th", class_="drops-img-header"):
+            drop_table = tbl
+            break
+
+    if not drop_table:
+        return drops
+
+    for row in drop_table.find_all("tr"):
+        tds = row.find_all("td")
+        if len(tds) < 5:
+            continue
+
+        # td[0] = afbeelding, td[1] = itemnaam, td[2] = quantity,
+        # td[3] = rarity, td[4] = GE price, td[5] = high alch
+        item_cell = tds[1]
+        item_link = item_cell.find("a")
+        item_name = clean(item_link.get_text()) if item_link else clean(item_cell.get_text())
+        item_url = BASE_URL + item_link.get("href", "") if item_link else ""
+
+        quantity = clean(tds[2].get_text())
+
+        # Rarity: lees de data-drop-fraction of data-drop-percent attributen
+        rarity_span = tds[3].find("span", attrs={"data-drop-fraction": True})
+        if rarity_span:
+            rarity_fraction = rarity_span.get("data-drop-fraction", "")
+            rarity_percent = rarity_span.get("data-drop-percent", "")
+        else:
+            rarity_fraction = clean(tds[3].get_text())
+            rarity_percent = ""
+
+        ge_price = clean(tds[4].get_text()) if len(tds) > 4 else ""
+        high_alch = clean(tds[5].get_text()) if len(tds) > 5 else ""
+
+        if not item_name:
+            continue
+
+        drops.append({
+            "item": item_name,
+            "item_url": item_url,
+            "quantity": quantity,
+            "rarity_fraction": rarity_fraction,
+            "rarity_percent": rarity_percent,
+            "ge_price": ge_price,
+            "high_alch": high_alch,
+        })
+
+    return drops
+
+
+def fetch_monster_details(url):
+    """Haal detailpagina op en parse infobox en drops."""
+    try:
+        resp = requests.get(url, headers=HEADERS, timeout=30)
+        resp.raise_for_status()
+        soup = BeautifulSoup(resp.text, "html.parser")
+        info = parse_infobox(soup)
+        info["drops"] = parse_drops(soup)
+        return info
+    except Exception as e:
+        print(f"  [WARN] Fout bij ophalen {url}: {e}")
+        return {"drops": []}
+
+
+# ── Hoofdscript ───────────────────────────────────────────────────────────────
 
 all_monsters = []
 seen = set()
@@ -187,7 +263,17 @@ for page in BESTIARY_PAGES:
     print(f"    ✓ {new_count} monsters toegevoegd (totaal: {len(all_monsters)})")
     time.sleep(0.5)
 
-print(f"\nGevonden: {len(all_monsters)} monsters")
+print(f"\nGevonden: {len(all_monsters)} monsters. Details ophalen...\n")
+
+for i, monster in enumerate(all_monsters):
+    if not monster.get("wiki_url"):
+        print(f"  [{i+1}/{len(all_monsters)}] Geen URL voor '{monster['name']}', overgeslagen")
+        continue
+
+    print(f"  [{i+1}/{len(all_monsters)}] {monster['name']} {monster.get('variant', '')}")
+    details = fetch_monster_details(monster["wiki_url"])
+    monster.update(details)
+    time.sleep(0.5)
 
 import os
 os.makedirs("data", exist_ok=True)
@@ -195,4 +281,4 @@ os.makedirs("data", exist_ok=True)
 with open("data/monsters.json", "w", encoding="utf-8") as f:
     json.dump(all_monsters, f, indent=2, ensure_ascii=False)
 
-print(f"Saved {len(all_monsters)} monsters naar data/monsters.json")
+print(f"\nSaved {len(all_monsters)} monsters naar data/monsters.json")
