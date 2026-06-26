@@ -1,12 +1,11 @@
 """
 OSRS Bestiary Scraper
-Haalt alle monsters op van de OSRS Wiki Bestiary pagina's per level-range.
-Voor elk monster worden ook de detailpagina (infobox + drops) opgehaald.
 Output: data/monsters.json
 """
 
 import json
 import time
+import random
 import requests
 from bs4 import BeautifulSoup
 
@@ -37,13 +36,66 @@ BESTIARY_PAGES = [
     "/w/Bestiary/Levels_higher_than_400",
 ]
 
+# Realistischere headers die een echte browser nabootsen.
+# De OSRS Wiki vraagt expliciet om een beschrijvende User-Agent voor bots:
+# https://oldschool.runescape.wiki/w/RuneScape_Wiki:API
 HEADERS = {
-    "User-Agent": "OSRSBestiaryScraper/1.0 (educational project)"
+    "User-Agent": (
+        "OSRSBestiaryScraper/1.0 "
+        "(https://github.com/pietjetse/osrs-data; educational project)"
+    ),
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+    "Accept-Language": "nl,en-US;q=0.7,en;q=0.3",
+    "Accept-Encoding": "gzip, deflate, br",
+    "Connection": "keep-alive",
+    "DNT": "1",
 }
+
+# Gebruik een sessie zodat cookies en keep-alive hergebruikt worden.
+# Dit gedraagt zich meer als een echte browser dan losse requests.
+SESSION = requests.Session()
+SESSION.headers.update(HEADERS)
 
 
 def clean(text):
     return " ".join(text.strip().split())
+
+
+def polite_get(url, retries=3):
+    """
+    Haal een URL op met:
+    - Willekeurige pauze tussen 0.8 en 1.8 seconden (menselijker dan exact 0.5s)
+    - Retry bij tijdelijke fouten (429, 503) met exponential backoff
+    - Respecteert Retry-After header als de server die stuurt
+    """
+    for attempt in range(retries):
+        time.sleep(random.uniform(0.8, 1.8))
+        try:
+            resp = SESSION.get(url, timeout=20)
+
+            # Te veel requests: wacht en probeer opnieuw
+            if resp.status_code == 429:
+                retry_after = int(resp.headers.get("Retry-After", 60))
+                print(f"  [429] Rate limited. Wacht {retry_after}s...")
+                time.sleep(retry_after)
+                continue
+
+            # Tijdelijk onbeschikbaar
+            if resp.status_code == 503:
+                wait = 10 * (attempt + 1)
+                print(f"  [503] Server onbeschikbaar. Wacht {wait}s...")
+                time.sleep(wait)
+                continue
+
+            resp.raise_for_status()
+            return resp
+
+        except requests.exceptions.ConnectionError as e:
+            wait = 5 * (attempt + 1)
+            print(f"  [WARN] Verbindingsfout ({e}). Wacht {wait}s...")
+            time.sleep(wait)
+
+    return None
 
 
 # ── Bestiary lijst scraper ────────────────────────────────────────────────────
@@ -53,8 +105,11 @@ def scrape_page(path):
     url = BASE_URL + path
     print(f"  Scraping: {url}")
 
-    resp = requests.get(url, headers=HEADERS, timeout=15)
-    resp.raise_for_status()
+    resp = polite_get(url)
+    if not resp:
+        print(f"    ⚠ Kon {url} niet ophalen na meerdere pogingen")
+        return []
+
     soup = BeautifulSoup(resp.text, "html.parser")
 
     # Zoek de wikitable met 17+ kolommen in de headerrij
@@ -82,7 +137,6 @@ def scrape_page(path):
         if len(tds) < 17:
             continue
 
-        # td[1]: naam en variant
         name_cell = tds[1]
         link = name_cell.find("a")
         if not link:
@@ -93,7 +147,6 @@ def scrape_page(path):
         italic = name_cell.find("i")
         variant = clean(italic.get_text()) if italic else ""
 
-        # td[2]: members
         members_img = tds[2].find("img")
         if members_img:
             alt = members_img.get("alt", "")
@@ -101,7 +154,6 @@ def scrape_page(path):
         else:
             members = ""
 
-        # td[17]: elemental weakness
         elemental_weakness = ""
         if len(tds) >= 18:
             weak_img = tds[17].find("img")
@@ -144,41 +196,36 @@ def parse_infobox(soup):
     if not infobox:
         return info
 
+    key_map = {
+        "XP bonus": "xp_bonus",
+        "Max hit": "max_hit",
+        "Aggressive": "aggressive",
+        "Poisonous": "poisonous",
+        "Attack style": "attack_style",
+        "Attack speed": "attack_speed",
+        "Respawn time": "respawn_time",
+        "Size": "size",
+        "Examine": "examine",
+        "Monster ID": "monster_id",
+    }
+
     for row in infobox.find_all("tr"):
         th = row.find("th")
         td = row.find("td")
         if not th or not td:
             continue
-        # Haal de tekst van de header op (soms alleen een afbeelding)
         key = clean(th.get_text())
-        if not key:
-            continue
-        value = clean(td.get_text())
-
-        key_map = {
-            "XP bonus": "xp_bonus",
-            "Max hit": "max_hit",
-            "Aggressive": "aggressive",
-            "Poisonous": "poisonous",
-            "Attack style": "attack_style",
-            "Attack speed": "attack_speed",
-            "Respawn time": "respawn_time",
-            "Size": "size",
-            "Examine": "examine",
-            "Monster ID": "monster_id",
-        }
         mapped = key_map.get(key)
         if mapped:
-            info[mapped] = value
+            info[mapped] = clean(td.get_text())
 
     return info
 
 
 def parse_drops(soup):
-    """Parse de drops tabel op basis van de drops-img-header klasse."""
+    """Parse de drops tabel via de drops-img-header klasse."""
     drops = []
 
-    # Zoek de tabel met de drops-img-header th
     drop_table = None
     for tbl in soup.find_all("table"):
         if tbl.find("th", class_="drops-img-header"):
@@ -193,16 +240,12 @@ def parse_drops(soup):
         if len(tds) < 5:
             continue
 
-        # td[0] = afbeelding, td[1] = itemnaam, td[2] = quantity,
-        # td[3] = rarity, td[4] = GE price, td[5] = high alch
-        item_cell = tds[1]
-        item_link = item_cell.find("a")
-        item_name = clean(item_link.get_text()) if item_link else clean(item_cell.get_text())
+        item_link = tds[1].find("a")
+        item_name = clean(item_link.get_text()) if item_link else clean(tds[1].get_text())
         item_url = BASE_URL + item_link.get("href", "") if item_link else ""
 
         quantity = clean(tds[2].get_text())
 
-        # Rarity: lees de data-drop-fraction of data-drop-percent attributen
         rarity_span = tds[3].find("span", attrs={"data-drop-fraction": True})
         if rarity_span:
             rarity_fraction = rarity_span.get("data-drop-fraction", "")
@@ -232,16 +275,14 @@ def parse_drops(soup):
 
 def fetch_monster_details(url):
     """Haal detailpagina op en parse infobox en drops."""
-    try:
-        resp = requests.get(url, headers=HEADERS, timeout=30)
-        resp.raise_for_status()
-        soup = BeautifulSoup(resp.text, "html.parser")
-        info = parse_infobox(soup)
-        info["drops"] = parse_drops(soup)
-        return info
-    except Exception as e:
-        print(f"  [WARN] Fout bij ophalen {url}: {e}")
+    resp = polite_get(url)
+    if not resp:
+        print(f"  [WARN] Kon {url} niet ophalen")
         return {"drops": []}
+    soup = BeautifulSoup(resp.text, "html.parser")
+    info = parse_infobox(soup)
+    info["drops"] = parse_drops(soup)
+    return info
 
 
 # ── Hoofdscript ───────────────────────────────────────────────────────────────
@@ -261,7 +302,6 @@ for page in BESTIARY_PAGES:
             all_monsters.append(m)
             new_count += 1
     print(f"    ✓ {new_count} monsters toegevoegd (totaal: {len(all_monsters)})")
-    time.sleep(0.5)
 
 print(f"\nGevonden: {len(all_monsters)} monsters. Details ophalen...\n")
 
@@ -269,11 +309,9 @@ for i, monster in enumerate(all_monsters):
     if not monster.get("wiki_url"):
         print(f"  [{i+1}/{len(all_monsters)}] Geen URL voor '{monster['name']}', overgeslagen")
         continue
-
     print(f"  [{i+1}/{len(all_monsters)}] {monster['name']} {monster.get('variant', '')}")
     details = fetch_monster_details(monster["wiki_url"])
     monster.update(details)
-    time.sleep(0.5)
 
 import os
 os.makedirs("data", exist_ok=True)
