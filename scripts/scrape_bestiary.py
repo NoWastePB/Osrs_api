@@ -36,25 +36,20 @@ BESTIARY_PAGES = [
     "/w/Bestiary/Levels_higher_than_400",
 ]
 
-# Realistischere headers die een echte browser nabootsen.
-# De OSRS Wiki vraagt expliciet om een beschrijvende User-Agent voor bots:
-# https://oldschool.runescape.wiki/w/RuneScape_Wiki:API
-HEADERS = {
+SESSION = requests.Session()
+# Accept-Encoding NIET handmatig instellen: requests/urllib3 beheert
+# decompressie automatisch. Als je het zelf instelt zonder eigen decoder
+# krijg je rauwe gecomprimeerde bytes terug.
+SESSION.headers.update({
     "User-Agent": (
         "OSRSBestiaryScraper/1.0 "
         "(https://github.com/pietjetse/osrs-data; educational project)"
     ),
     "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
     "Accept-Language": "nl,en-US;q=0.7,en;q=0.3",
-    "Accept-Encoding": "gzip, deflate, br",
     "Connection": "keep-alive",
     "DNT": "1",
-}
-
-# Gebruik een sessie zodat cookies en keep-alive hergebruikt worden.
-# Dit gedraagt zich meer als een echte browser dan losse requests.
-SESSION = requests.Session()
-SESSION.headers.update(HEADERS)
+})
 
 
 def clean(text):
@@ -63,24 +58,19 @@ def clean(text):
 
 def polite_get(url, retries=3):
     """
-    Haal een URL op met:
-    - Willekeurige pauze tussen 0.8 en 1.8 seconden (menselijker dan exact 0.5s)
-    - Retry bij tijdelijke fouten (429, 503) met exponential backoff
-    - Respecteert Retry-After header als de server die stuurt
+    Haal een URL op met willekeurige pauze en retry bij fouten.
     """
     for attempt in range(retries):
         time.sleep(random.uniform(0.8, 1.8))
         try:
             resp = SESSION.get(url, timeout=20)
 
-            # Te veel requests: wacht en probeer opnieuw
             if resp.status_code == 429:
                 retry_after = int(resp.headers.get("Retry-After", 60))
                 print(f"  [429] Rate limited. Wacht {retry_after}s...")
                 time.sleep(retry_after)
                 continue
 
-            # Tijdelijk onbeschikbaar
             if resp.status_code == 503:
                 wait = 10 * (attempt + 1)
                 print(f"  [503] Server onbeschikbaar. Wacht {wait}s...")
@@ -110,9 +100,6 @@ def scrape_page(path):
         print(f"    ⚠ Kon {url} niet ophalen na meerdere pogingen")
         return []
 
-    # Debug: toon status en eerste 300 chars van de response
-    print(f"    DEBUG status={resp.status_code} len={len(resp.text)} first300={repr(resp.text[:300])}")
-
     soup = BeautifulSoup(resp.text, "html.parser")
 
     # Zoek de wikitable met 17+ kolommen in de headerrij
@@ -127,7 +114,6 @@ def scrape_page(path):
             break
 
     if not table:
-        # Debug: toon alle tabellen die gevonden zijn
         all_tables = soup.find_all("table")
         print(f"    ⚠ Geen tabel gevonden op {path} ({len(all_tables)} tabellen op pagina)")
         for i, tbl in enumerate(all_tables[:5]):
