@@ -218,20 +218,24 @@ def parse_infobox(soup):
     return info
 
 
-def parse_drops(soup):
-    """Parse de drops tabel via de drops-img-header klasse."""
+def get_section_name(tbl):
+    """Zoek de dichtstbijzijnde h2/h3 boven de tabel voor de sectienaam."""
+    for sibling in tbl.find_all_previous(["h2", "h3"]):
+        # Verwijder [edit] links
+        for edit in sibling.find_all("span", class_="mw-editsection"):
+            edit.decompose()
+        text = clean(sibling.get_text())
+        if text:
+            return text
+    return ""
+
+
+def parse_single_drop_table(tbl):
+    """Parse één drop tabel en geef een lijst van drops terug."""
     drops = []
+    section = get_section_name(tbl)
 
-    drop_table = None
-    for tbl in soup.find_all("table"):
-        if tbl.find("th", class_="drops-img-header"):
-            drop_table = tbl
-            break
-
-    if not drop_table:
-        return drops
-
-    for row in drop_table.find_all("tr"):
+    for row in tbl.find_all("tr"):
         tds = row.find_all("td")
         if len(tds) < 5:
             continue
@@ -264,9 +268,34 @@ def parse_drops(soup):
             "rarity_percent": rarity_percent,
             "ge_price": ge_price,
             "high_alch": high_alch,
+            "section": section,
         })
 
     return drops
+
+
+def parse_drops(soup):
+    """Verzamel drops uit ALLE drop tabellen op de pagina.
+    Monsters kunnen meerdere tabellen hebben, bijvoorbeeld:
+    - Drops (standaard)
+    - Rare drop table
+    - Gem drop table
+    - Herb drop table
+    """
+    all_drops = []
+    seen_keys = set()  # voorkom exacte duplicaten
+
+    for tbl in soup.find_all("table"):
+        if not tbl.find("th", class_="drops-img-header"):
+            continue
+        for drop in parse_single_drop_table(tbl):
+            # Dedupliceer op item + hoeveelheid + kans
+            key = (drop["item"], drop["quantity"], drop["rarity_fraction"])
+            if key not in seen_keys:
+                seen_keys.add(key)
+                all_drops.append(drop)
+
+    return all_drops
 
 
 def fetch_monster_details(url):
