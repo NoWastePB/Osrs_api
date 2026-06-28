@@ -1,5 +1,6 @@
 """
 OSRS Bestiary Scraper
+Gebruikt de MediaWiki API om bot-detectie te vermijden.
 Output: data/monsters.json
 """
 
@@ -10,45 +11,40 @@ import requests
 from bs4 import BeautifulSoup
 
 BASE_URL = "https://oldschool.runescape.wiki"
+API_URL = "https://oldschool.runescape.wiki/api.php"
 
 BESTIARY_PAGES = [
-    "/w/Bestiary/Levels_1_to_10",
-    "/w/Bestiary/Levels_11_to_20",
-    "/w/Bestiary/Levels_21_to_30",
-    "/w/Bestiary/Levels_31_to_40",
-    "/w/Bestiary/Levels_41_to_50",
-    "/w/Bestiary/Levels_51_to_60",
-    "/w/Bestiary/Levels_61_to_70",
-    "/w/Bestiary/Levels_71_to_80",
-    "/w/Bestiary/Levels_81_to_90",
-    "/w/Bestiary/Levels_91_to_100",
-    "/w/Bestiary/Levels_101_to_110",
-    "/w/Bestiary/Levels_111_to_120",
-    "/w/Bestiary/Levels_121_to_130",
-    "/w/Bestiary/Levels_131_to_140",
-    "/w/Bestiary/Levels_141_to_150",
-    "/w/Bestiary/Levels_151_to_160",
-    "/w/Bestiary/Levels_161_to_170",
-    "/w/Bestiary/Levels_171_to_180",
-    "/w/Bestiary/Levels_181_to_190",
-    "/w/Bestiary/Levels_191_to_200",
-    "/w/Bestiary/Levels_201_to_400",
-    "/w/Bestiary/Levels_higher_than_400",
+    "Bestiary/Levels_1_to_10",
+    "Bestiary/Levels_11_to_20",
+    "Bestiary/Levels_21_to_30",
+    "Bestiary/Levels_31_to_40",
+    "Bestiary/Levels_41_to_50",
+    "Bestiary/Levels_51_to_60",
+    "Bestiary/Levels_61_to_70",
+    "Bestiary/Levels_71_to_80",
+    "Bestiary/Levels_81_to_90",
+    "Bestiary/Levels_91_to_100",
+    "Bestiary/Levels_101_to_110",
+    "Bestiary/Levels_111_to_120",
+    "Bestiary/Levels_121_to_130",
+    "Bestiary/Levels_131_to_140",
+    "Bestiary/Levels_141_to_150",
+    "Bestiary/Levels_151_to_160",
+    "Bestiary/Levels_161_to_170",
+    "Bestiary/Levels_171_to_180",
+    "Bestiary/Levels_181_to_190",
+    "Bestiary/Levels_191_to_200",
+    "Bestiary/Levels_201_to_400",
+    "Bestiary/Levels_higher_than_400",
 ]
 
 SESSION = requests.Session()
-# Accept-Encoding NIET handmatig instellen: requests/urllib3 beheert
-# decompressie automatisch. Als je het zelf instelt zonder eigen decoder
-# krijg je rauwe gecomprimeerde bytes terug.
 SESSION.headers.update({
     "User-Agent": (
         "OSRSBestiaryScraper/1.0 "
         "(https://github.com/pietjetse/osrs-data; educational project)"
     ),
-    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
-    "Accept-Language": "nl,en-US;q=0.7,en;q=0.3",
-    "Connection": "keep-alive",
-    "DNT": "1",
+    "Accept": "application/json",
 })
 
 
@@ -56,14 +52,23 @@ def clean(text):
     return " ".join(text.strip().split())
 
 
-def polite_get(url, retries=3):
+def api_get(page, retries=3):
     """
-    Haal een URL op met willekeurige pauze en retry bij fouten.
+    Haal een wikipagina op via de MediaWiki API.
+    Geeft een BeautifulSoup object terug van de geparsede HTML.
     """
+    params = {
+        "action": "parse",
+        "page": page,
+        "prop": "text",
+        "format": "json",
+        "formatversion": "2",
+    }
+
     for attempt in range(retries):
         time.sleep(random.uniform(0.8, 1.8))
         try:
-            resp = SESSION.get(url, timeout=20)
+            resp = SESSION.get(API_URL, params=params, timeout=20)
 
             if resp.status_code == 429:
                 retry_after = int(resp.headers.get("Retry-After", 60))
@@ -78,29 +83,36 @@ def polite_get(url, retries=3):
                 continue
 
             resp.raise_for_status()
-            return resp
+            data = resp.json()
+
+            if "error" in data:
+                print(f"  [API ERROR] {data['error'].get('info', data['error'])}")
+                return None
+
+            html = data["parse"]["text"]
+            return BeautifulSoup(html, "html.parser")
 
         except requests.exceptions.ConnectionError as e:
             wait = 5 * (attempt + 1)
             print(f"  [WARN] Verbindingsfout ({e}). Wacht {wait}s...")
             time.sleep(wait)
+        except (KeyError, ValueError) as e:
+            print(f"  [WARN] Onverwachte API response ({e})")
+            return None
 
     return None
 
 
 # ── Bestiary lijst scraper ────────────────────────────────────────────────────
 
-def scrape_page(path):
-    """Haal alle monsters op van één bestiary-pagina."""
-    url = BASE_URL + path
-    print(f"  Scraping: {url}")
+def scrape_page(page):
+    """Haal alle monsters op van één bestiary-pagina via de API."""
+    print(f"  Scraping: {page}")
 
-    resp = polite_get(url)
-    if not resp:
-        print(f"    ⚠ Kon {url} niet ophalen na meerdere pogingen")
+    soup = api_get(page)
+    if not soup:
+        print(f"    ⚠ Kon {page} niet ophalen")
         return []
-
-    soup = BeautifulSoup(resp.text, "html.parser")
 
     # Zoek de wikitable met 17+ kolommen in de headerrij
     table = None
@@ -115,7 +127,7 @@ def scrape_page(path):
 
     if not table:
         all_tables = soup.find_all("table")
-        print(f"    ⚠ Geen tabel gevonden op {path} ({len(all_tables)} tabellen op pagina)")
+        print(f"    ⚠ Geen tabel gevonden op {page} ({len(all_tables)} tabellen op pagina)")
         for i, tbl in enumerate(all_tables[:5]):
             header_row = tbl.find("tr")
             ths = header_row.find_all("th") if header_row else []
@@ -139,7 +151,12 @@ def scrape_page(path):
             continue
 
         name = clean(link.get_text())
-        wiki_url = BASE_URL + link.get("href", "")
+        # De API geeft relatieve links terug, haal de paginanaam op
+        href = link.get("href", "")
+        # href is bv "/w/Goblin" — strip de /w/ prefix voor de API
+        wiki_page = href.replace("/w/", "").replace("_", " ") if href.startswith("/w/") else ""
+        wiki_url = BASE_URL + href
+
         italic = name_cell.find("i")
         variant = clean(italic.get_text()) if italic else ""
 
@@ -162,6 +179,7 @@ def scrape_page(path):
             "name": name,
             "variant": variant,
             "wiki_url": wiki_url,
+            "wiki_page": wiki_page,
             "members": members,
             "combat_level": clean(tds[3].get_text()),
             "hitpoints": clean(tds[4].get_text()),
@@ -221,7 +239,6 @@ def parse_infobox(soup):
 def get_section_name(tbl):
     """Zoek de dichtstbijzijnde h2/h3 boven de tabel voor de sectienaam."""
     for sibling in tbl.find_all_previous(["h2", "h3"]):
-        # Verwijder [edit] links
         for edit in sibling.find_all("span", class_="mw-editsection"):
             edit.decompose()
         text = clean(sibling.get_text())
@@ -275,21 +292,14 @@ def parse_single_drop_table(tbl):
 
 
 def parse_drops(soup):
-    """Verzamel drops uit ALLE drop tabellen op de pagina.
-    Monsters kunnen meerdere tabellen hebben, bijvoorbeeld:
-    - Drops (standaard)
-    - Rare drop table
-    - Gem drop table
-    - Herb drop table
-    """
+    """Verzamel drops uit ALLE drop tabellen op de pagina."""
     all_drops = []
-    seen_keys = set()  # voorkom exacte duplicaten
+    seen_keys = set()
 
     for tbl in soup.find_all("table"):
         if not tbl.find("th", class_="drops-img-header"):
             continue
         for drop in parse_single_drop_table(tbl):
-            # Dedupliceer op item + hoeveelheid + kans
             key = (drop["item"], drop["quantity"], drop["rarity_fraction"])
             if key not in seen_keys:
                 seen_keys.add(key)
@@ -298,13 +308,14 @@ def parse_drops(soup):
     return all_drops
 
 
-def fetch_monster_details(url):
-    """Haal detailpagina op en parse infobox en drops."""
-    resp = polite_get(url)
-    if not resp:
-        print(f"  [WARN] Kon {url} niet ophalen")
+def fetch_monster_details(wiki_page):
+    """Haal detailpagina op via API en parse infobox en drops."""
+    if not wiki_page:
         return {"drops": []}
-    soup = BeautifulSoup(resp.text, "html.parser")
+    soup = api_get(wiki_page)
+    if not soup:
+        print(f"  [WARN] Kon '{wiki_page}' niet ophalen")
+        return {"drops": []}
     info = parse_infobox(soup)
     info["drops"] = parse_drops(soup)
     return info
@@ -331,11 +342,12 @@ for page in BESTIARY_PAGES:
 print(f"\nGevonden: {len(all_monsters)} monsters. Details ophalen...\n")
 
 for i, monster in enumerate(all_monsters):
-    if not monster.get("wiki_url"):
-        print(f"  [{i+1}/{len(all_monsters)}] Geen URL voor '{monster['name']}', overgeslagen")
+    wiki_page = monster.get("wiki_page", "")
+    if not wiki_page:
+        print(f"  [{i+1}/{len(all_monsters)}] Geen wiki_page voor '{monster['name']}', overgeslagen")
         continue
     print(f"  [{i+1}/{len(all_monsters)}] {monster['name']} {monster.get('variant', '')}")
-    details = fetch_monster_details(monster["wiki_url"])
+    details = fetch_monster_details(wiki_page)
     monster.update(details)
 
 import os
