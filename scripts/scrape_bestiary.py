@@ -8,6 +8,7 @@ import json
 import time
 import random
 import requests
+from urllib.parse import unquote
 from bs4 import BeautifulSoup
 
 BASE_URL = "https://oldschool.runescape.wiki"
@@ -154,7 +155,8 @@ def scrape_page(page):
         # De API geeft relatieve links terug, haal de paginanaam op
         href = link.get("href", "")
         # href is bv "/w/Goblin" — strip de /w/ prefix voor de API
-        wiki_page = href.replace("/w/", "").replace("_", " ") if href.startswith("/w/") else ""
+        # Decodeer URL-encoding (%27 -> ', %28 -> (, etc.) voor de API
+        wiki_page = unquote(href.replace("/w/", "")).replace("_", " ") if href.startswith("/w/") else ""
         wiki_url = BASE_URL + href
 
         italic = name_cell.find("i")
