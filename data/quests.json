@@ -9,7 +9,7 @@
     "series": "N/A",
     "release_date": "25 February 2026",
     "url": "https://oldschool.runescape.wiki/w/The_Ides_of_Milk",
-    "start_point": "Speak to Cassius by the Lumbridge pond.",
+    "start_point": "Talk to Cassius by the Lumbridge pond.",
     "skill_requirements": [],
     "quest_requirements": [],
     "item_requirements": [],
@@ -30,7 +30,7 @@
     "series": "N/A",
     "release_date": "22 October 2025",
     "url": "https://oldschool.runescape.wiki/w/Learning_the_Ropes",
-    "start_point": "Start this quest by talking to the Quest Guide on Tutorial Island.",
+    "start_point": "Talk to the Quest Guide on Tutorial Island.",
     "skill_requirements": [],
     "quest_requirements": [],
     "item_requirements": [],
@@ -53,7 +53,7 @@
     "series": "N/A",
     "release_date": "14 April 2021",
     "url": "https://oldschool.runescape.wiki/w/Below_Ice_Mountain",
-    "start_point": "Willow on the path south of Ice Mountain",
+    "start_point": "Talk to Willow on the path south of Ice Mountain.",
     "skill_requirements": [],
     "quest_requirements": [],
     "item_requirements": [
@@ -81,7 +81,7 @@
     "series": "Great Kourend, #1",
     "release_date": "7 February 2019",
     "url": "https://oldschool.runescape.wiki/w/X_Marks_the_Spot",
-    "start_point": "Speak to Veos in The Sheared Ram in Lumbridge.",
+    "start_point": "Talk to Veos in The Sheared Ram in Lumbridge.",
     "skill_requirements": [],
     "quest_requirements": [],
     "item_requirements": [
@@ -107,7 +107,7 @@
     "series": "N/A",
     "release_date": "7 December 2017",
     "url": "https://oldschool.runescape.wiki/w/The_Corsair_Curse",
-    "start_point": "Speak to Captain Tock at the crossroads north of Port Sarim.",
+    "start_point": "Talk to Captain Tock at the crossroads north of Port Sarim.",
     "skill_requirements": [],
     "quest_requirements": [],
     "item_requirements": [
@@ -131,7 +131,7 @@
     "series": "N/A",
     "release_date": "26 January 2017",
     "url": "https://oldschool.runescape.wiki/w/Misthalin_Mystery",
-    "start_point": "Speak to Abigale (or Hewey, who sits next to her) in the south-eastern corner of Lumbridge Swamp, near the fishing spots.",
+    "start_point": "Talk to Abigale or Hewey in the south-eastern corner of Lumbridge Swamp, near the fishing spots.",
     "skill_requirements": [],
     "quest_requirements": [],
     "item_requirements": [
@@ -158,7 +158,7 @@
     "series": "Order of Wizards, #1",
     "release_date": "29 March 2004",
     "url": "https://oldschool.runescape.wiki/w/Rune_Mysteries",
-    "start_point": "Speak to Duke Horacio on the 1st floor[UK]2nd floor[US] of Lumbridge Castle.",
+    "start_point": "Talk to Duke Horacio on the 1st floor[UK]2nd floor[US] of Lumbridge Castle.",
     "skill_requirements": [],
     "quest_requirements": [],
     "item_requirements": [],
@@ -181,7 +181,7 @@
     "series": "Dragonkin, #1",
     "release_date": "23 September 2001",
     "url": "https://oldschool.runescape.wiki/w/Dragon_Slayer_I",
-    "start_point": "Speak to the Guildmaster in the Champions' Guild.",
+    "start_point": "Talk to the Guildmaster in the Champions' Guild.",
     "skill_requirements": [
       {
         "skill": "Crafting",
@@ -242,7 +242,7 @@
     "series": "N/A",
     "release_date": "11 June 2001",
     "url": "https://oldschool.runescape.wiki/w/Pirate%27s_Treasure",
-    "start_point": "Speak to Redbeard Frank at the northernmost dock at Port Sarim, just outside The Rusty Anchor.",
+    "start_point": "Talk to Redbeard Frank at the northernmost dock at Port Sarim, just outside The Rusty Anchor.",
     "skill_requirements": [],
     "quest_requirements": [],
     "item_requirements": [
@@ -265,7 +265,7 @@
     "series": "N/A",
     "release_date": "8 May 2001",
     "url": "https://oldschool.runescape.wiki/w/Goblin_Diplomacy",
-    "start_point": "Speak to General Bentnoze or General Wartface in Goblin Village.",
+    "start_point": "Talk to General Bentnoze or General Wartface in Goblin Village.",
     "skill_requirements": [],
     "quest_requirements": [],
     "item_requirements": [
@@ -286,7 +286,7 @@
     "series": "N/A",
     "release_date": "6 April 2001",
     "url": "https://oldschool.runescape.wiki/w/The_Knight%27s_Sword",
-    "start_point": "Speak to the squire in the courtyard of the White Knights' Castle in Falador.",
+    "start_point": "Talk to the squire in the courtyard of the White Knights' Castle in Falador.",
     "skill_requirements": [
       {
         "skill": "Mining",
@@ -344,7 +344,7 @@
     "series": "N/A",
     "release_date": "6 April 2001",
     "url": "https://oldschool.runescape.wiki/w/Black_Knights%27_Fortress",
-    "start_point": "Speak to Sir Amik Varze on the 2nd floor[UK]3rd floor[US] of the White Knights' Castle's western tower in Falador.",
+    "start_point": "Talk to Sir Amik Varze on the 2nd floor[UK]3rd floor[US] of the White Knights' Castle's western tower in Falador.",
     "skill_requirements": [],
     "quest_requirements": [
       {
@@ -370,7 +370,7 @@
     "series": "N/A",
     "release_date": "6 April 2001",
     "url": "https://oldschool.runescape.wiki/w/Doric%27s_Quest",
-    "start_point": "Speak to Doric in the small house north of Falador, just outside the east gate of Taverley.",
+    "start_point": "Talk to Doric in the small house north of Falador, just outside the east gate of Taverley.",
     "skill_requirements": [],
     "quest_requirements": [],
     "item_requirements": [
@@ -397,7 +397,7 @@
     "series": "Kharidian, #1",
     "release_date": "28 February 2001",
     "url": "https://oldschool.runescape.wiki/w/Prince_Ali_Rescue",
-    "start_point": "Speak to Hassan in the palace at Al Kharid.",
+    "start_point": "Talk to Hassan in the palace at Al Kharid.",
     "skill_requirements": [],
     "quest_requirements": [],
     "item_requirements": [
@@ -433,7 +433,7 @@
     "series": "N/A",
     "release_date": "16 February 2001",
     "url": "https://oldschool.runescape.wiki/w/Imp_Catcher",
-    "start_point": "Speak to Wizard Mizgog on the top floor of the Wizards' Tower.",
+    "start_point": "Talk to Wizard Mizgog on the top floor of the Wizards' Tower.",
     "skill_requirements": [],
     "quest_requirements": [],
     "item_requirements": [
@@ -462,7 +462,7 @@
     "series": "N/A",
     "release_date": "28 January 2001",
     "url": "https://oldschool.runescape.wiki/w/Vampyre_Slayer",
-    "start_point": "Speak to Morgan in his house in Draynor Village, just north of Ned's house.",
+    "start_point": "Talk to Morgan in his house in Draynor Village, just north of Ned's house.",
     "skill_requirements": [],
     "quest_requirements": [],
     "item_requirements": [
@@ -483,7 +483,7 @@
     "series": "N/A",
     "release_date": "21 January 2001",
     "url": "https://oldschool.runescape.wiki/w/Ernest_the_Chicken",
-    "start_point": "Speak to Veronica, south of Draynor Manor by the gate.",
+    "start_point": "Talk to Veronica, south of Draynor Manor by the gate.",
     "skill_requirements": [],
     "quest_requirements": [
       {
@@ -513,7 +513,7 @@
     "series": "N/A",
     "release_date": "4 January 2001",
     "url": "https://oldschool.runescape.wiki/w/The_Restless_Ghost",
-    "start_point": "Speak to Father Aereck in the chapel south-east of Lumbridge Castle.",
+    "start_point": "Talk to Father Aereck in the chapel south-east of Lumbridge Castle.",
     "skill_requirements": [],
     "quest_requirements": [],
     "item_requirements": [],
@@ -530,7 +530,7 @@
     "series": "N/A",
     "release_date": "4 January 2001",
     "url": "https://oldschool.runescape.wiki/w/Sheep_Shearer",
-    "start_point": "Speak to Fred the Farmer in the house by the sheep pen north of Lumbridge Castle.",
+    "start_point": "Talk to Fred the Farmer in the house by the sheep pen north of Lumbridge Castle.",
     "skill_requirements": [],
     "quest_requirements": [],
     "item_requirements": [
@@ -553,7 +553,7 @@
     "series": "N/A",
     "release_date": "4 January 2001",
     "url": "https://oldschool.runescape.wiki/w/Shield_of_Arrav",
-    "start_point": "Varrock Palace library. Talk to Reldo, the librarian, located at the northern end of Varrock Castle.",
+    "start_point": "Talk to Reldo in the Varrock library, located within the northern end of Varrock Castle.",
     "skill_requirements": [],
     "quest_requirements": [],
     "item_requirements": [
@@ -580,7 +580,7 @@
     "series": "Demon Slayer, #1",
     "release_date": "4 January 2001",
     "url": "https://oldschool.runescape.wiki/w/Demon_Slayer",
-    "start_point": "Speak to Aris in the tent on the western side of Varrock Square.",
+    "start_point": "Talk to Aris in the tent on the western side of Varrock Square.",
     "skill_requirements": [],
     "quest_requirements": [],
     "item_requirements": [
@@ -605,7 +605,7 @@
     "series": "N/A",
     "release_date": "4 January 2001",
     "url": "https://oldschool.runescape.wiki/w/Romeo_%26_Juliet",
-    "start_point": "Speak to Romeo in Varrock Square.",
+    "start_point": "Talk to Romeo in Varrock Square.",
     "skill_requirements": [],
     "quest_requirements": [],
     "item_requirements": [
@@ -626,7 +626,7 @@
     "series": "N/A",
     "release_date": "4 January 2001",
     "url": "https://oldschool.runescape.wiki/w/Cook%27s_Assistant",
-    "start_point": "Speak to the Cook in the kitchen of Lumbridge Castle.",
+    "start_point": "Talk to the Cook in the kitchen of Lumbridge Castle.",
     "skill_requirements": [],
     "quest_requirements": [],
     "item_requirements": [
@@ -651,7 +651,7 @@
     "series": "N/A",
     "release_date": "27 February 2002",
     "url": "https://oldschool.runescape.wiki/w/Druidic_Ritual",
-    "start_point": "Speak to Kaqemeex in the stone circle north of Taverley.",
+    "start_point": "Talk to Kaqemeex in the stone circle north of Taverley.",
     "skill_requirements": [],
     "quest_requirements": [],
     "item_requirements": [
@@ -677,7 +677,7 @@
     "series": "N/A",
     "release_date": "27 February 2002",
     "url": "https://oldschool.runescape.wiki/w/Lost_City",
-    "start_point": "Go to Lumbridge Swamp. Talk to the campers there.",
+    "start_point": "Talk to the warrior in the north-western corner of the Lumbridge Swamp.",
     "skill_requirements": [
       {
         "skill": "Crafting",
@@ -777,7 +777,7 @@
     "series": "N/A",
     "release_date": "27 February 2002",
     "url": "https://oldschool.runescape.wiki/w/Heroes%27_Quest",
-    "start_point": "Speak to Achietties by the entrance to the Heroes' Guild, between Taverley and Burthorpe.",
+    "start_point": "Talk to Achietties by the entrance to the Heroes' Guild, between Taverley and Burthorpe.",
     "skill_requirements": [
       {
         "skill": "Cooking",
@@ -863,7 +863,7 @@
     "series": "N/A",
     "release_date": "25 March 2002",
     "url": "https://oldschool.runescape.wiki/w/Scorpion_Catcher",
-    "start_point": "Speak to Thormac at the top floor of the Sorcerer's Tower, south-east of the Ranging Guild.",
+    "start_point": "Talk to Thormac at the top floor of the Sorcerer's Tower, south-east of the Ranging Guild.",
     "skill_requirements": [
       {
         "skill": "Prayer",
@@ -899,7 +899,7 @@
     "series": "N/A",
     "release_date": "9 April 2002",
     "url": "https://oldschool.runescape.wiki/w/Family_Crest",
-    "start_point": "Talk to Dimintheis in south-east Varrock.",
+    "start_point": "Talk to Dimintheis in south-eastern Varrock.",
     "skill_requirements": [
       {
         "skill": "Mining",
@@ -954,7 +954,7 @@
     "series": "N/A",
     "release_date": "28 May 2002",
     "url": "https://oldschool.runescape.wiki/w/Fishing_Contest",
-    "start_point": "Mountain Dwarves at either of the entrances to the tunnel that goes under White Wolf Mountain.",
+    "start_point": "Talk to Austri east of White Wolf Mountain or Vestri to the west of it, by either tunnel entrance.",
     "skill_requirements": [
       {
         "skill": "Fishing",
@@ -988,7 +988,7 @@
     "series": "N/A",
     "release_date": "30 April 2002",
     "url": "https://oldschool.runescape.wiki/w/Tribal_Totem",
-    "start_point": "Speak to Kangai Mau at The Shrimp and Parrot restaurant in Brimhaven.",
+    "start_point": "Talk to Kangai Mau at The Shrimp and Parrot restaurant in Brimhaven.",
     "skill_requirements": [
       {
         "skill": "Thieving",
@@ -1015,7 +1015,7 @@
     "series": "N/A",
     "release_date": "28 May 2002",
     "url": "https://oldschool.runescape.wiki/w/Monk%27s_Friend",
-    "start_point": "Speak to Brother Omad at the Ardougne Monastery south of East Ardougne.",
+    "start_point": "Talk to Brother Omad at the Ardougne Monastery south of East Ardougne.",
     "skill_requirements": [],
     "quest_requirements": [],
     "item_requirements": [
@@ -1040,7 +1040,7 @@
     "series": "Mahjarrat, #5",
     "release_date": "17 June 2002",
     "url": "https://oldschool.runescape.wiki/w/Temple_of_Ikov",
-    "start_point": "Speak to Lucien at the Flying Horse Inn in the north-west corner of East Ardougne.",
+    "start_point": "Talk to Lucien at the Flying Horse Inn in the north-western corner of East Ardougne.",
     "skill_requirements": [
       {
         "skill": "Thieving",
@@ -1107,7 +1107,7 @@
     "series": "Camelot, #2",
     "release_date": "23 July 2002",
     "url": "https://oldschool.runescape.wiki/w/Holy_Grail",
-    "start_point": "Speak to King Arthur in Camelot.",
+    "start_point": "Talk to King Arthur in Camelot.",
     "skill_requirements": [
       {
         "skill": "Attack",
@@ -1147,7 +1147,7 @@
     "series": "Gnome quest series",
     "release_date": "23 July 2002",
     "url": "https://oldschool.runescape.wiki/w/Tree_Gnome_Village",
-    "start_point": "Centre of the Tree Gnome Village Maze, talk to King Bolren.",
+    "start_point": "Talk to King Bolren at the centre of the Tree Gnome Village maze.",
     "skill_requirements": [],
     "quest_requirements": [
       {
@@ -1180,7 +1180,7 @@
     "series": "Mahjarrat, #3",
     "release_date": "23 July 2002",
     "url": "https://oldschool.runescape.wiki/w/Fight_Arena",
-    "start_point": "Talk to Lady Servil. She is west by south-west of the Monastery that is south of Ardougne.",
+    "start_point": "Talk to Lady Servil west of the Ardougne Monastery, just outside the north-eastern corner of the Gnome Maze.",
     "skill_requirements": [],
     "quest_requirements": [],
     "item_requirements": [
@@ -1210,7 +1210,7 @@
     "series": "Mahjarrat, #2",
     "release_date": "15 August 2002",
     "url": "https://oldschool.runescape.wiki/w/Hazeel_Cult",
-    "start_point": "Central Ardougne, south of King Lathas' castle. Talk to Ceril Carnillean.",
+    "start_point": "Talk to Ceril Carnillean in East Ardougne, just north of the Clock Tower.",
     "skill_requirements": [],
     "quest_requirements": [],
     "item_requirements": [],
@@ -1234,7 +1234,7 @@
     "series": "N/A",
     "release_date": "15 August 2002",
     "url": "https://oldschool.runescape.wiki/w/Sheep_Herder",
-    "start_point": "Speak to Councillor Halgrive outside of the East Ardougne church.",
+    "start_point": "Talk to Councillor Halgrive outside of the East Ardougne church.",
     "skill_requirements": [],
     "quest_requirements": [],
     "item_requirements": [
@@ -1256,7 +1256,7 @@
     "series": "Elf, #1",
     "release_date": "27 August 2002",
     "url": "https://oldschool.runescape.wiki/w/Plague_City",
-    "start_point": "Talk to Edmond, living next to the wall surrounding West Ardougne, north of Ardougne Castle.",
+    "start_point": "Talk to Edmond in the most north-western house of East Ardougne.",
     "skill_requirements": [],
     "quest_requirements": [],
     "item_requirements": [
@@ -1284,7 +1284,7 @@
     "series": "Temple Knight, #3",
     "release_date": "9 September 2002",
     "url": "https://oldschool.runescape.wiki/w/Sea_Slug",
-    "start_point": "Speak to Caroline just north of Witchaven.",
+    "start_point": "Talk to Caroline just north of Witchaven.",
     "skill_requirements": [
       {
         "skill": "Firemaking",
@@ -1314,7 +1314,7 @@
     "series": "N/A",
     "release_date": "24 September 2002",
     "url": "https://oldschool.runescape.wiki/w/Waterfall_Quest",
-    "start_point": "Speak to Almera in her house north-east of Baxtorian Falls.",
+    "start_point": "Talk to Almera in her house north-east of Baxtorian Falls.",
     "skill_requirements": [],
     "quest_requirements": [],
     "item_requirements": [
@@ -1343,7 +1343,7 @@
     "series": "N/A",
     "release_date": "23 October 2002",
     "url": "https://oldschool.runescape.wiki/w/Jungle_Potion",
-    "start_point": "Speak to Trufitus at Tai Bwo Wannai.",
+    "start_point": "Talk to Trufitus in Tai Bwo Wannai.",
     "skill_requirements": [
       {
         "skill": "Herblore",
@@ -1497,7 +1497,7 @@
     "series": "N/A",
     "release_date": "14 April 2003",
     "url": "https://oldschool.runescape.wiki/w/The_Tourist_Trap",
-    "start_point": "Speak to Irena by the Shantay Pass, south of Al Kharid.",
+    "start_point": "Talk to Irena by the Shantay Pass, south of Al Kharid.",
     "skill_requirements": [
       {
         "skill": "Fletching",
@@ -1541,7 +1541,7 @@
     "series": "N/A",
     "release_date": "7 May 2003",
     "url": "https://oldschool.runescape.wiki/w/Watchtower",
-    "start_point": "Begin the quest by speaking to Watchtower Wizard north of Yanille in the Watchtower. You must climb the trellis on the north side of the tower to get up there for the first time.",
+    "start_point": "Talk to the Watchtower Wizard in the Watchtower north of Yanille; you must climb the trellis on the north side of the tower.",
     "skill_requirements": [
       {
         "skill": "Magic",
@@ -1637,7 +1637,7 @@
     "series": "N/A",
     "release_date": "9 June 2003",
     "url": "https://oldschool.runescape.wiki/w/Murder_Mystery",
-    "start_point": "The Sinclair Mansion, north along the path between Seers' Village and Camelot. Talk to one of the guards around the mansion.",
+    "start_point": "Talk to any guard around the Sinclair Mansion, north of Seers' Village and Camelot.",
     "skill_requirements": [],
     "quest_requirements": [],
     "item_requirements": [
@@ -1660,7 +1660,7 @@
     "series": "Mahjarrat, #1",
     "release_date": "9 July 2003",
     "url": "https://oldschool.runescape.wiki/w/The_Dig_Site",
-    "start_point": "Talk to an examiner in the Exam Centre south of the digsite.",
+    "start_point": "Talk to an examiner in the Exam Centre south of the Digsite.",
     "skill_requirements": [
       {
         "skill": "Agility",
@@ -1713,7 +1713,7 @@
     "series": "N/A",
     "release_date": "28 July 2003",
     "url": "https://oldschool.runescape.wiki/w/Gertrude%27s_Cat",
-    "start_point": "Go to Gertrude's house which is just west of Varrock.",
+    "start_point": "Talk to Gertrude in her house just west of Varrock.",
     "skill_requirements": [],
     "quest_requirements": [],
     "item_requirements": [
@@ -1895,7 +1895,7 @@
     "series": "Troll, #1",
     "release_date": "9 August 2004",
     "url": "https://oldschool.runescape.wiki/w/Death_Plateau",
-    "start_point": "Talk to Denulth in his tent in Burthorpe. Tell him you will discover the path for him.",
+    "start_point": "Talk to Denulth in his tent in Burthorpe.",
     "skill_requirements": [],
     "quest_requirements": [],
     "item_requirements": [
@@ -1924,7 +1924,7 @@
     "series": "Troll, #3",
     "release_date": "5 October 2004",
     "url": "https://oldschool.runescape.wiki/w/Eadgar%27s_Ruse",
-    "start_point": "Talk to Sanfew in upper floor of the building where Jatix's Herblore Shop is in Taverley.",
+    "start_point": "Talk to Sanfew on the 1st floor[UK]2nd floor[US] of the herbalist shop in Taverley.",
     "skill_requirements": [
       {
         "skill": "Herblore",
@@ -1976,7 +1976,7 @@
     "series": "N/A",
     "release_date": "18 May 2004",
     "url": "https://oldschool.runescape.wiki/w/Big_Chompy_Bird_Hunting",
-    "start_point": "Speak to Rantz, far east of Feldip Hills.",
+    "start_point": "Talk to Rantz by the eastern coast of Feldip Hills, east of fairy ring AKS.",
     "skill_requirements": [
       {
         "skill": "Fletching",
@@ -2032,7 +2032,7 @@
     "series": "Elemental Workshop, #1",
     "release_date": "2 June 2004",
     "url": "https://oldschool.runescape.wiki/w/Elemental_Workshop_I",
-    "start_point": "Seers' Village, the house south-west of the bank. Search the bookcase there.",
+    "start_point": "Search the bookcase in the house immediately south-west of the Seers' Village bank.",
     "skill_requirements": [
       {
         "skill": "Mining",
@@ -2081,7 +2081,7 @@
     "series": "N/A",
     "release_date": "13 July 2004",
     "url": "https://oldschool.runescape.wiki/w/Nature_Spirit",
-    "start_point": "Speak to Drezel under the Paterdomus Temple near the River Salve.",
+    "start_point": "Talk to Drezel in the basement of the Paterdomus Temple by the northern end of the River Salve.",
     "skill_requirements": [],
     "quest_requirements": [],
     "item_requirements": [
@@ -2113,7 +2113,7 @@
     "series": "N/A",
     "release_date": "29 June 2004",
     "url": "https://oldschool.runescape.wiki/w/Priest_in_Peril",
-    "start_point": "Speak to King Roald in the Varrock Palace.",
+    "start_point": "Talk to King Roald in the Varrock Palace.",
     "skill_requirements": [],
     "quest_requirements": [],
     "item_requirements": [
@@ -2323,7 +2323,7 @@
     "series": "N/A",
     "release_date": "18 October 2004",
     "url": "https://oldschool.runescape.wiki/w/Shades_of_Mort%27ton",
-    "start_point": "Find the Diary of Herbi Flax on a shelf in a house at the village of Mort'ton.",
+    "start_point": "Search the shelf in the southern-western house of Mort'ton.",
     "skill_requirements": [
       {
         "skill": "Crafting",
@@ -2385,7 +2385,7 @@
     "series": "Fremennik, #1",
     "release_date": "2 November 2004",
     "url": "https://oldschool.runescape.wiki/w/The_Fremennik_Trials",
-    "start_point": "Speak to Brundt the Chieftain (located in the longhall) in Rellekka.",
+    "start_point": "Talk to Brundt the Chieftain in the Rellekka longhall.",
     "skill_requirements": [
       {
         "skill": "Fletching",
@@ -2451,7 +2451,7 @@
     "series": "N/A",
     "release_date": "17 November 2004",
     "url": "https://oldschool.runescape.wiki/w/Horror_from_the_Deep",
-    "start_point": "Speak with Larrissa, who is outside the Lighthouse, north of Barbarian Outpost.",
+    "start_point": "Talk to Larrissa outside the Lighthouse north of Barbarian Outpost.",
     "skill_requirements": [
       {
         "skill": "Agility",
@@ -2498,7 +2498,7 @@
     "series": "Miscellania, #1",
     "release_date": "29 November 2004",
     "url": "https://oldschool.runescape.wiki/w/Throne_of_Miscellania",
-    "start_point": "Talk to King Vargas in the Miscellania Castle. Take the longboat from Rellekka to access Miscellania.",
+    "start_point": "Talk to King Vargas in the Miscellania Castle.",
     "skill_requirements": [
       {
         "skill": "Woodcutting",
@@ -2616,7 +2616,7 @@
     "series": "N/A",
     "release_date": "21 December 2004",
     "url": "https://oldschool.runescape.wiki/w/Haunted_Mine",
-    "start_point": "Speak to the Zealot at the mines in Morytania on the path to Mort'ton.",
+    "start_point": "Talk to the Zealot by the Abandoned Mine in the south-western corner of Morytania.",
     "skill_requirements": [
       {
         "skill": "Crafting",
@@ -2658,7 +2658,7 @@
     "series": "N/A",
     "release_date": "5 January 2005",
     "url": "https://oldschool.runescape.wiki/w/Troll_Romance",
-    "start_point": "Speak to Ug at the Troll Stronghold.",
+    "start_point": "Talk to Ug at the Troll Stronghold.",
     "skill_requirements": [
       {
         "skill": "Agility",
@@ -2703,7 +2703,7 @@
     "series": "Myreque, #1",
     "release_date": "10 January 2005",
     "url": "https://oldschool.runescape.wiki/w/In_Search_of_the_Myreque",
-    "start_point": "Speak to Vanstrom Klause at the Hair of the Dog tavern in Canifis.",
+    "start_point": "Talk to Vanstrom Klause at the Hair of the Dog tavern in Canifis.",
     "skill_requirements": [
       {
         "skill": "Agility",
@@ -2867,7 +2867,7 @@
     "series": "N/A",
     "release_date": "15 February 2005",
     "url": "https://oldschool.runescape.wiki/w/Ghosts_Ahoy",
-    "start_point": "Talk to Velorina in Port Phasmatys. Can use a charter ship for 1,300 gp in Port Sarim talking to Trader Stan on the southern-most dock.",
+    "start_point": "Talk to Velorina in Port Phasmatys.",
     "skill_requirements": [
       {
         "skill": "Agility",
@@ -2924,7 +2924,7 @@
     "series": "N/A",
     "release_date": "28 February 2005",
     "url": "https://oldschool.runescape.wiki/w/One_Small_Favour",
-    "start_point": "Speak to Yanni Salika in Shilo Village.",
+    "start_point": "Talk to Yanni Salika in Shilo Village.",
     "skill_requirements": [
       {
         "skill": "Agility",
@@ -2999,7 +2999,7 @@
     "series": "N/A",
     "release_date": "7 March 2005",
     "url": "https://oldschool.runescape.wiki/w/Mountain_Daughter",
-    "start_point": "Talk to Hamal the Chieftain in the Mountain Camp east of Rellekka. To get in, take the path north of the Golden Apple Tree and use a rope on the boulder behind the guard (see below for more details).",
+    "start_point": "Talk to Hamal the Chieftain in the Mountain Camp east of Rellekka (to access the camp, see below)",
     "skill_requirements": [
       {
         "skill": "Agility",
@@ -3037,7 +3037,7 @@
     "series": "N/A",
     "release_date": "21 March 2005",
     "url": "https://oldschool.runescape.wiki/w/Between_a_Rock...",
-    "start_point": "Speak to Dondakan the Dwarf at the Keldagrim south-west mine.",
+    "start_point": "Talk to Dondakan the Dwarf at the Keldagrim south-west mine.",
     "skill_requirements": [
       {
         "skill": "Defence",
@@ -3183,7 +3183,7 @@
     "series": "Mahjarrat, #7",
     "release_date": "18 April 2005",
     "url": "https://oldschool.runescape.wiki/w/Desert_Treasure_I",
-    "start_point": "Speak to Asgarnia Smith at the Bedabin Camp.",
+    "start_point": "Talk to Asgarnia Smith at the Bedabin Camp.",
     "skill_requirements": [
       {
         "skill": "Thieving",
@@ -3288,7 +3288,7 @@
     "series": "Kharidian, #2",
     "release_date": "26 April 2005",
     "url": "https://oldschool.runescape.wiki/w/Icthlarin%27s_Little_Helper",
-    "start_point": "Speak to the wanderer in the camp west of the Agility Pyramid.",
+    "start_point": "Talk to the wanderer in the camp west of the Agility Pyramid.",
     "skill_requirements": [],
     "quest_requirements": [],
     "item_requirements": [
@@ -3424,7 +3424,7 @@
     "series": "Red Axe, #1",
     "release_date": "31 May 2005",
     "url": "https://oldschool.runescape.wiki/w/The_Giant_Dwarf",
-    "start_point": "The Keldagrim mines east of Rellekka and north of the Mountain Camp. Follow the dwarven statues to the underground river.",
+    "start_point": "Talk to the Dwarven Boatman by the underground River Kelda, accessible through the Keldagrim entrance east of Rellekka, in the cave beyond the statues.",
     "skill_requirements": [
       {
         "skill": "Crafting",
@@ -3480,7 +3480,7 @@
     "series": "Temple Knight, #1",
     "release_date": "27 June 2005",
     "url": "https://oldschool.runescape.wiki/w/Recruitment_Drive",
-    "start_point": "Speak to Sir Amik Varze on the 2nd floor[UK]3rd floor[US] of the White Knights' Castle's western tower in Falador.",
+    "start_point": "Talk to Sir Amik Varze on the 2nd floor[UK]3rd floor[US] of the White Knights' Castle's western tower in Falador.",
     "skill_requirements": [],
     "quest_requirements": [
       {
@@ -3650,7 +3650,7 @@
     "series": "N/A",
     "release_date": "30 August 2005",
     "url": "https://oldschool.runescape.wiki/w/Garden_of_Tranquillity",
-    "start_point": "Speak to Queen Ellamaria in the garden of Varrock Palace.",
+    "start_point": "Talk to Queen Ellamaria in the garden of Varrock Palace.",
     "skill_requirements": [
       {
         "skill": "Farming",
@@ -3754,7 +3754,7 @@
     "series": "Temple Knight, #2",
     "release_date": "17 October 2005",
     "url": "https://oldschool.runescape.wiki/w/Wanted!",
-    "start_point": "Speak to Sir Tiffy Cashien in Falador Park.",
+    "start_point": "Talk to Sir Tiffy Cashien in Falador Park.",
     "skill_requirements": [],
     "quest_requirements": [
       {
@@ -3819,7 +3819,7 @@
     "series": "Elf, #7",
     "release_date": "17 October 2005",
     "url": "https://oldschool.runescape.wiki/w/Mourning%27s_End_Part_II",
-    "start_point": "Speak to Arianwyn in Lletya.",
+    "start_point": "Talk to Arianwyn in Lletya.",
     "skill_requirements": [],
     "quest_requirements": [
       {
@@ -3887,7 +3887,7 @@
     "series": "Pirate, #1",
     "release_date": "31 October 2005",
     "url": "https://oldschool.runescape.wiki/w/Rum_Deal",
-    "start_point": "Pirate Pete, at a dock due north of Port Phasmatys.",
+    "start_point": "Talk to Pirate Pete on the dock north of Port Phasmatys.",
     "skill_requirements": [
       {
         "skill": "Crafting",
@@ -3966,7 +3966,7 @@
     "series": "Demon Slayer, #2",
     "release_date": "14 November 2005",
     "url": "https://oldschool.runescape.wiki/w/Shadow_of_the_Storm",
-    "start_point": "Speak to Father Reen, south of Al Kharid bank.",
+    "start_point": "Talk to Father Reen south of Al Kharid bank.",
     "skill_requirements": [
       {
         "skill": "Crafting",
@@ -4105,7 +4105,7 @@
     "series": "N/A",
     "release_date": "5 December 2005",
     "url": "https://oldschool.runescape.wiki/w/Spirits_of_the_Elid",
-    "start_point": "Talk to Awusah, Mayor of Nardah.",
+    "start_point": "Talk to Awusah the Mayor in Nardah.",
     "skill_requirements": [
       {
         "skill": "Magic",
@@ -4166,7 +4166,7 @@
     "series": "Mahjarrat, #11",
     "release_date": "19 December 2005",
     "url": "https://oldschool.runescape.wiki/w/Devious_Minds",
-    "start_point": "Talk to the monk outside Paterdomus, next to the River Salve.",
+    "start_point": "Talk to the monk outside the Paterdomus Temple, at the northern end of the River Salve.",
     "skill_requirements": [
       {
         "skill": "Smithing",
@@ -4351,7 +4351,7 @@
       "Maple logs",
       "Pickaxe (unless you already have the required items)",
       "Soft clay (obtainable during quest if you bring a pickaxe and bucket or jug of water)",
-      "Coal (obtainable during quest with level 30 Mining[boostable])",
+      "Coal (obtainable during quest with level 30 Mining[boostable] from the Bandit Camp Quarry)",
       "52 kg of sandstone (obtainable during quest with level 35 Mining [boostable])",
       "Two 5 kg pieces of granite (obtainable during quest with level 45 Mining [boostable])",
       "Runes to cast Fire Bolt, Fire Blast or Fire Wave",
@@ -4460,7 +4460,7 @@
     "series": "Fairytale, #1",
     "release_date": "27 February 2006",
     "url": "https://oldschool.runescape.wiki/w/Fairytale_I_-_Growing_Pains",
-    "start_point": "Speak to Martin the Master Gardener by the pig pen in Draynor Village.",
+    "start_point": "Talk to Martin the Master Gardener by the pig pen in Draynor Village.",
     "skill_requirements": [],
     "quest_requirements": [
       {
@@ -4511,7 +4511,7 @@
     "series": "N/A",
     "release_date": "15 March 2006",
     "url": "https://oldschool.runescape.wiki/w/Recipe_for_Disaster",
-    "start_point": "Speak to the Cook in the kitchen of Lumbridge Castle.",
+    "start_point": "Talk to the Cook in the kitchen of Lumbridge Castle.",
     "skill_requirements": [
       {
         "skill": "Cooking",
@@ -4786,7 +4786,7 @@
     "series": "Myreque, #2",
     "release_date": "22 March 2006",
     "url": "https://oldschool.runescape.wiki/w/In_Aid_of_the_Myreque",
-    "start_point": "Go to Canifis and down the ladder behind the pub there, through the secret wall and squeeze past the stalagmite on the east side of the cave. Speak to Veliaf Hurtz.",
+    "start_point": "Talk to to Veliaf Hurtz in the Myreque Hideout below the Canifis pub.",
     "skill_requirements": [
       {
         "skill": "Agility",
@@ -4879,7 +4879,7 @@
     "series": "N/A",
     "release_date": "3 April 2006",
     "url": "https://oldschool.runescape.wiki/w/A_Soul%27s_Bane",
-    "start_point": "Go east of Varrock, through the gate by the Earth Altar and just south of there, speak to Launa.",
+    "start_point": "Talk to Launa east of Varrock, just south of the Earth Altar.",
     "skill_requirements": [],
     "quest_requirements": [],
     "item_requirements": [
@@ -4911,7 +4911,7 @@
     "series": "Rag and Bone Man, #1",
     "release_date": "10 April 2006",
     "url": "https://oldschool.runescape.wiki/w/Rag_and_Bone_Man_I",
-    "start_point": "Speak to the Odd Old Man, located at the end of the northern path in central Silvarea.",
+    "start_point": "Talk to the Odd Old Man in Silvarea north-east of Varrock, by the Limestone Mine.",
     "skill_requirements": [],
     "quest_requirements": [],
     "item_requirements": [
@@ -4937,7 +4937,7 @@
     "series": "N/A",
     "release_date": "2 May 2006",
     "url": "https://oldschool.runescape.wiki/w/Swan_Song",
-    "start_point": "The Piscatoris Fishing Colony. It can be reached via a boat trip from the river to the west of the Tree Gnome Stronghold.",
+    "start_point": "Talk to Herman Caranos in the Piscatoris Fishing Colony, accessed via a boat trip from the river to the west of the Tree Gnome Stronghold.",
     "skill_requirements": [
       {
         "skill": "Magic",
@@ -5045,7 +5045,7 @@
     "series": "Miscellania, #2",
     "release_date": "22 May 2006",
     "url": "https://oldschool.runescape.wiki/w/Royal_Trouble",
-    "start_point": "Go to Miscellania and speak to Advisor Ghrim in the castle.",
+    "start_point": "Talk to Advisor Ghrim in Miscellania Castle.",
     "skill_requirements": [
       {
         "skill": "Agility",
@@ -5114,7 +5114,7 @@
     "series": "Dorgeshuun, #2",
     "release_date": "21 June 2006",
     "url": "https://oldschool.runescape.wiki/w/Death_to_the_Dorgeshuun",
-    "start_point": "Speak to Mistag in the Dorgesh-Kaan mine.",
+    "start_point": "Talk to Mistag in the Dorgesh-Kaan mine.",
     "skill_requirements": [
       {
         "skill": "Agility",
@@ -5170,7 +5170,7 @@
     "series": "Fairytale, #2",
     "release_date": "11 July 2006",
     "url": "https://oldschool.runescape.wiki/w/Fairytale_II_-_Cure_a_Queen",
-    "start_point": "Speak to Martin the Master Gardener by the pig pen in Draynor Village.",
+    "start_point": "Talk to Martin the Master Gardener by the pig pen in Draynor Village.",
     "skill_requirements": [
       {
         "skill": "Thieving",
@@ -5238,7 +5238,7 @@
     "series": "Fremennik, #3",
     "release_date": "24 July 2006",
     "url": "https://oldschool.runescape.wiki/w/Lunar_Diplomacy",
-    "start_point": "Speak to Lokar Searunner at the westernmost dock of Rellekka.",
+    "start_point": "Talk to Lokar Searunner at the westernmost dock of Rellekka.",
     "skill_requirements": [
       {
         "skill": "Herblore",
@@ -5343,7 +5343,7 @@
     "series": "Gnome, #2",
     "release_date": "15 August 2006",
     "url": "https://oldschool.runescape.wiki/w/The_Eyes_of_Glouphrie",
-    "start_point": "Speak to Brimstail in his cave south-west side of the Tree Gnome Stronghold, directly west of the bank near the Stronghold Slayer Cave.",
+    "start_point": "Talk to Brimstail in his cave south-west side of the Tree Gnome Stronghold, directly west of the bank near the Stronghold Slayer Cave.",
     "skill_requirements": [
       {
         "skill": "Construction",
@@ -5392,7 +5392,7 @@
     "series": "Myreque, #3",
     "release_date": "4 September 2006",
     "url": "https://oldschool.runescape.wiki/w/Darkness_of_Hallowvale",
-    "start_point": "Go to Burgh de Rott and into the basement of the inn there and speak to Veliaf Hurtz.",
+    "start_point": "Talk to Veliaf Hurtz in the basement of the Burgh de Rott pub.",
     "skill_requirements": [
       {
         "skill": "Construction",
@@ -5480,7 +5480,7 @@
     "series": "Temple Knight, #4",
     "release_date": "20 September 2006",
     "url": "https://oldschool.runescape.wiki/w/The_Slug_Menace",
-    "start_point": "Speak to Sir Tiffy Cashien in Falador Park.",
+    "start_point": "Talk to Sir Tiffy Cashien in Falador Park.",
     "skill_requirements": [
       {
         "skill": "Crafting",
@@ -5581,7 +5581,7 @@
     "series": "Elemental Workshop, #2",
     "release_date": "2 October 2006",
     "url": "https://oldschool.runescape.wiki/w/Elemental_Workshop_II",
-    "start_point": "Search the bookcases in the Exam Centre's library and read the beaten book",
+    "start_point": "Search the bookcases in the Exam Centre's library.",
     "skill_requirements": [
       {
         "skill": "Magic",
@@ -5619,7 +5619,7 @@
     "series": "Troll, #4",
     "release_date": "23 October 2006",
     "url": "https://oldschool.runescape.wiki/w/My_Arm%27s_Big_Adventure",
-    "start_point": "The kitchen, deep in the Troll Stronghold. Talk to Burntmeat.",
+    "start_point": "Talk to Burntmeat in the Troll Stronghold kitchen.",
     "skill_requirements": [
       {
         "skill": "Farming",
@@ -5695,7 +5695,7 @@
     "series": "N/A",
     "release_date": "6 November 2006",
     "url": "https://oldschool.runescape.wiki/w/Enlightened_Journey",
-    "start_point": "Speak to Auguste on the island of Entrana.",
+    "start_point": "Talk to Auguste on Entrana.",
     "skill_requirements": [
       {
         "skill": "Firemaking",
@@ -5740,7 +5740,7 @@
     "series": "N/A",
     "release_date": "28 November 2006",
     "url": "https://oldschool.runescape.wiki/w/Eagles%27_Peak",
-    "start_point": "Speak to Charlie, one of the keepers at Ardougne Zoo.",
+    "start_point": "Talk to Charlie at the Ardougne Zoo.",
     "skill_requirements": [
       {
         "skill": "Hunter",
@@ -5774,7 +5774,7 @@
     "series": "N/A",
     "release_date": "12 December 2006",
     "url": "https://oldschool.runescape.wiki/w/Animal_Magnetism",
-    "start_point": "Speak to Ava in Draynor Manor.",
+    "start_point": "Talk to Ava in Draynor Manor.",
     "skill_requirements": [
       {
         "skill": "Slayer",
@@ -5843,7 +5843,7 @@
     "series": "Kharidian, #3",
     "release_date": "10 January 2007",
     "url": "https://oldschool.runescape.wiki/w/Contact!",
-    "start_point": "Speak to the High Priest of Icthlarin in Sophanem.",
+    "start_point": "Talk to the High Priest of Icthlarin in Sophanem.",
     "skill_requirements": [],
     "quest_requirements": [
       {
@@ -5888,7 +5888,7 @@
     "series": "Penguin, #1",
     "release_date": "29 January 2007",
     "url": "https://oldschool.runescape.wiki/w/Cold_War",
-    "start_point": "Speak to Larry at Ardougne Zoo.",
+    "start_point": "Talk to Larry at Ardougne Zoo.",
     "skill_requirements": [
       {
         "skill": "Hunter",
@@ -5953,7 +5953,7 @@
     "series": "Fremennik, #2",
     "release_date": "6 February 2007",
     "url": "https://oldschool.runescape.wiki/w/The_Fremennik_Isles",
-    "start_point": "Speak to Mord Gunnars at the northernmost dock of Rellekka.",
+    "start_point": "Talk to Mord Gunnars at the northernmost dock of Rellekka.",
     "skill_requirements": [
       {
         "skill": "Construction",
@@ -6168,7 +6168,7 @@
     "series": "N/A",
     "release_date": "10 April 2007",
     "url": "https://oldschool.runescape.wiki/w/Olaf%27s_Quest",
-    "start_point": "Speak to Olaf Hradson by the isthmus leading to the Rellekka Hunter area.",
+    "start_point": "Talk to Olaf Hradson east of Rellekka, just south of the Rellekka Hunter area.",
     "skill_requirements": [
       {
         "skill": "Firemaking",
@@ -6212,7 +6212,7 @@
     "series": "Dorgeshuun, #3",
     "release_date": "24 April 2007",
     "url": "https://oldschool.runescape.wiki/w/Another_Slice_of_H.A.M.",
-    "start_point": "Go to Ur-tag's house in Dorgesh-Kaan. (Can be reached either via Kazgar from the Lumbridge cellar or via Dartog from the water mill by telling either NPC to take the player to the mines. Afterwards, go south past the sword icon and enter the door.)",
+    "start_point": "Talk to Ur-tag in Dorgesh-Kaan.",
     "skill_requirements": [
       {
         "skill": "Attack",
@@ -6638,7 +6638,7 @@
     "series": "Rag and Bone Man, #2",
     "release_date": "10 April 2006",
     "url": "https://oldschool.runescape.wiki/w/Rag_and_Bone_Man_II",
-    "start_point": "Speak to the Odd Old Man, located at the end of the northern path in central Silvarea.",
+    "start_point": "Talk to the Odd Old Man in Silvarea north-east of Varrock, by the Limestone Mine.",
     "skill_requirements": [
       {
         "skill": "Slayer",
@@ -6706,7 +6706,7 @@
     "series": "Dorgeshuun, #4",
     "release_date": "9 February 2022",
     "url": "https://oldschool.runescape.wiki/w/Land_of_the_Goblins",
-    "start_point": "Speak to Grubfoot in the Dorgesh-Kaan mine.",
+    "start_point": "Talk to Grubfoot in the Dorgesh-Kaan mine.",
     "skill_requirements": [
       {
         "skill": "Agility",
@@ -6805,7 +6805,7 @@
     "series": "Mahjarrat, #15",
     "release_date": "10 July 2024",
     "url": "https://oldschool.runescape.wiki/w/While_Guthix_Sleeps",
-    "start_point": "Speak to Ivy Sophista in Taverley.",
+    "start_point": "Talk to Ivy Sophista in Taverley.",
     "skill_requirements": [
       {
         "skill": "Thieving",
@@ -7086,7 +7086,7 @@
     "series": "N/A",
     "release_date": "17 May 2005",
     "url": "https://oldschool.runescape.wiki/w/Zogre_Flesh_Eaters",
-    "start_point": "Speak to Grish in Jiggig, just south of Castle Wars.",
+    "start_point": "Talk to Grish in Jiggig, just south of Castle Wars.",
     "skill_requirements": [
       {
         "skill": "Smithing",
@@ -7151,7 +7151,7 @@
     "series": "Gnome, #5",
     "release_date": "6 May 2016",
     "url": "https://oldschool.runescape.wiki/w/Monkey_Madness_II",
-    "start_point": "Talk to King Narnode Shareen in the Grand Tree. (You must have all the requirements to start the quest).",
+    "start_point": "Talk to King Narnode Shareen in the Grand Tree.",
     "skill_requirements": [
       {
         "skill": "Slayer",
@@ -7282,7 +7282,7 @@
     "series": "Great Kourend, #2",
     "release_date": "20 April 2017",
     "url": "https://oldschool.runescape.wiki/w/Client_of_Kourend",
-    "start_point": "Speak to Veos at Port Piscarilius.",
+    "start_point": "Talk to Veos at Port Piscarilius.",
     "skill_requirements": [],
     "quest_requirements": [
       {
@@ -7311,7 +7311,7 @@
     "series": "Great Kourend, #3A",
     "release_date": "9 November 2017",
     "url": "https://oldschool.runescape.wiki/w/The_Queen_of_Thieves",
-    "start_point": "Speak to Tomas Lawry outside the Port Piscarilius bank. Closest fairy ring AKR and head north.",
+    "start_point": "Talk to Tomas Lawry outside the Port Piscarilius bank.",
     "skill_requirements": [
       {
         "skill": "Thieving",
@@ -7380,7 +7380,7 @@
     "series": "Dragonkin, #3",
     "release_date": "4 January 2018",
     "url": "https://oldschool.runescape.wiki/w/Dragon_Slayer_II",
-    "start_point": "Speak to Alec Kincade outside the Myths' Guild.",
+    "start_point": "Talk to Alec Kincade outside the Myths' Guild.",
     "skill_requirements": [
       {
         "skill": "Magic",
@@ -7621,7 +7621,7 @@
     "series": "Great Kourend, #3B",
     "release_date": "9 November 2017",
     "url": "https://oldschool.runescape.wiki/w/The_Depths_of_Despair",
-    "start_point": "Speak to Lord Kandur Hosidius at his home in Hosidius, north-west of the Vinery.",
+    "start_point": "Talk to Lord Kandur Hosidius at his home in Hosidius, north-west of the Vinery.",
     "skill_requirements": [
       {
         "skill": "Agility",
@@ -7664,7 +7664,7 @@
     "series": "N/A",
     "release_date": "15 March 2006",
     "url": "https://oldschool.runescape.wiki/w/Recipe_for_Disaster/Another_Cook%27s_Quest",
-    "start_point": "The Cook in Lumbridge Castle's kitchen.",
+    "start_point": "Talk to the Cook in Lumbridge Castle's kitchen.",
     "skill_requirements": [
       {
         "skill": "Cooking",
@@ -7731,7 +7731,7 @@
     "series": "N/A",
     "release_date": "15 March 2006",
     "url": "https://oldschool.runescape.wiki/w/Recipe_for_Disaster/Freeing_the_Mountain_Dwarf",
-    "start_point": "Inspect the frozen dwarf in the Lumbridge Castle dining room to start the quest.",
+    "start_point": "Inspect the frozen dwarf in the Lumbridge Castle dining room.",
     "skill_requirements": [],
     "quest_requirements": [
       {
@@ -7814,7 +7814,7 @@
     "series": "N/A",
     "release_date": "15 March 2006",
     "url": "https://oldschool.runescape.wiki/w/Recipe_for_Disaster/Freeing_Pirate_Pete",
-    "start_point": "Inspect Pirate Pete.",
+    "start_point": "Inspect Pirate Pete in the Lumbridge Castle dining room.",
     "skill_requirements": [
       {
         "skill": "Cooking",
@@ -7857,7 +7857,7 @@
     "series": "N/A",
     "release_date": "15 March 2006",
     "url": "https://oldschool.runescape.wiki/w/Recipe_for_Disaster/Freeing_the_Lumbridge_Guide",
-    "start_point": "Inspect the Lumbridge Guide.",
+    "start_point": "Inspect the Lumbridge Guide in the Lumbridge Castle dining room.",
     "skill_requirements": [
       {
         "skill": "Cooking",
@@ -7930,7 +7930,7 @@
     "series": "N/A",
     "release_date": "15 March 2006",
     "url": "https://oldschool.runescape.wiki/w/Recipe_for_Disaster/Freeing_Sir_Amik_Varze",
-    "start_point": "Inspect Sir Amik Varze.",
+    "start_point": "Inspect Sir Amik Varze in the Lumbridge Castle dining room.",
     "skill_requirements": [
       {
         "skill": "Farming",
@@ -8039,7 +8039,7 @@
     "series": "N/A",
     "release_date": "15 March 2006",
     "url": "https://oldschool.runescape.wiki/w/Recipe_for_Disaster/Freeing_King_Awowogei",
-    "start_point": "Inspect Awowogei.",
+    "start_point": "Inspect Awowogei in the Lumbridge Castle dining room.",
     "skill_requirements": [
       {
         "skill": "Cooking",
@@ -8107,7 +8107,7 @@
     "series": "N/A",
     "release_date": "15 March 2006",
     "url": "https://oldschool.runescape.wiki/w/Recipe_for_Disaster/Freeing_Skrach_Uglogwee",
-    "start_point": "Inspect Skrach Uglogwee.",
+    "start_point": "Inspect Skrach Uglogwee in the Lumbridge Castle dining room.",
     "skill_requirements": [
       {
         "skill": "Cooking",
@@ -8161,7 +8161,7 @@
     "series": "Myreque, #4",
     "release_date": "24 May 2018",
     "url": "https://oldschool.runescape.wiki/w/A_Taste_of_Hope",
-    "start_point": "Speak to Garth in Ver Sinhaza by the entrance to the Theatre of Blood.",
+    "start_point": "Talk to Garth in Ver Sinhaza by the entrance to the Theatre of Blood.",
     "skill_requirements": [
       {
         "skill": "Crafting",
@@ -8248,7 +8248,7 @@
     "series": "Great Kourend, #3E",
     "release_date": "19 April 2018",
     "url": "https://oldschool.runescape.wiki/w/Tale_of_the_Righteous",
-    "start_point": "Speak to Phileas Rimor in his house west of The Cloak and Stagger tavern in Shayzien.",
+    "start_point": "Talk to Phileas Rimor in his house west of The Cloak and Stagger tavern in Shayzien.",
     "skill_requirements": [
       {
         "skill": "Strength",
@@ -8539,7 +8539,7 @@
     "series": "Elf, #8",
     "release_date": "25 July 2019",
     "url": "https://oldschool.runescape.wiki/w/Song_of_the_Elves",
-    "start_point": "Talk to Edmond, who can be found at his home in East Ardougne, north of the Flying Horse Inn.",
+    "start_point": "Talk to Edmond in East Ardougne, at his home north of the Flying Horse Inn.",
     "skill_requirements": [
       {
         "skill": "Agility",
@@ -8700,7 +8700,7 @@
     "series": "Great Kourend, #3C",
     "release_date": "10 January 2019",
     "url": "https://oldschool.runescape.wiki/w/The_Ascent_of_Arceuus",
-    "start_point": "Speak to Mori in Arceuus.",
+    "start_point": "Talk to Mori in Arceuus.",
     "skill_requirements": [
       {
         "skill": "Hunter",
@@ -8743,7 +8743,7 @@
     "series": "Great Kourend, #3D",
     "release_date": "10 January 2019",
     "url": "https://oldschool.runescape.wiki/w/The_Forsaken_Tower",
-    "start_point": "Speak to Lady Vulcana Lovakengj in Lovakengj.",
+    "start_point": "Talk to Lady Vulcana Lovakengj in Lovakengj.",
     "skill_requirements": [],
     "quest_requirements": [
       {
@@ -8779,7 +8779,7 @@
     "series": "Fremennik, #4",
     "release_date": "26 September 2019",
     "url": "https://oldschool.runescape.wiki/w/The_Fremennik_Exiles",
-    "start_point": "Speak to Brundt the Chieftain in Rellekka.",
+    "start_point": "Talk to Brundt the Chieftain in Rellekka.",
     "skill_requirements": [
       {
         "skill": "Crafting",
@@ -8919,7 +8919,7 @@
     "series": "Mahjarrat, #10",
     "release_date": "6 November 2024",
     "url": "https://oldschool.runescape.wiki/w/The_Curse_of_Arrav",
-    "start_point": "Speak to Elias White at the Uzer Oasis.",
+    "start_point": "Talk to Elias White at the Uzer Oasis.",
     "skill_requirements": [
       {
         "skill": "Mining",
@@ -9048,7 +9048,7 @@
     "series": "Mahjarrat, #6",
     "release_date": "21 February 2024",
     "url": "https://oldschool.runescape.wiki/w/Defender_of_Varrock",
-    "start_point": "Speak to Elias White in the Jolly Boar Inn.",
+    "start_point": "Talk to Elias White in the Jolly Boar Inn.",
     "skill_requirements": [
       {
         "skill": "Smithing",
@@ -9137,7 +9137,7 @@
     "series": "Myreque, #5",
     "release_date": "4 June 2020",
     "url": "https://oldschool.runescape.wiki/w/Sins_of_the_Father",
-    "start_point": "Speak to Veliaf Hurtz outside the church in Slepe.",
+    "start_point": "Talk to Veliaf Hurtz outside the church in Slepe.",
     "skill_requirements": [
       {
         "skill": "Woodcutting",
@@ -9249,7 +9249,7 @@
     "series": "Great Kourend, #4",
     "release_date": "16 June 2021",
     "url": "https://oldschool.runescape.wiki/w/A_Kingdom_Divided",
-    "start_point": "Speak to Martin Holt at the entrance to Kourend Castle in Kingstown.",
+    "start_point": "Talk to Martin Holt at the entrance to Kourend Castle in Kingstown.",
     "skill_requirements": [
       {
         "skill": "Agility",
@@ -9383,7 +9383,7 @@
     "series": "Twisted Tales",
     "release_date": "25 November 2020",
     "url": "https://oldschool.runescape.wiki/w/Getting_Ahead",
-    "start_point": "Speak to Gordon on his farm south of the Farming Guild.",
+    "start_point": "Talk to Gordon on his farm south of the Farming Guild.",
     "skill_requirements": [
       {
         "skill": "Crafting",
@@ -9429,7 +9429,7 @@
     "series": "N/A",
     "release_date": "3 June 2021",
     "url": "https://oldschool.runescape.wiki/w/A_Night_at_the_Theatre",
-    "start_point": "Mysterious Stranger inside Ver Sinhaza, south-east of Meiyerditch.",
+    "start_point": "Talk to the Mysterious Stranger inside Ver Sinhaza, south-east of Meiyerditch.",
     "skill_requirements": [],
     "quest_requirements": [
       {
@@ -9493,7 +9493,7 @@
     "series": "Kharidian, #4",
     "release_date": "27 April 2022",
     "url": "https://oldschool.runescape.wiki/w/Beneath_Cursed_Sands",
-    "start_point": "Speak to Jamila at her stall in Sophanem.",
+    "start_point": "Talk to Jamila at her stall in Sophanem.",
     "skill_requirements": [
       {
         "skill": "Agility",
@@ -9562,7 +9562,7 @@
     "series": "Order of Wizards, #3",
     "release_date": "23 March 2022",
     "url": "https://oldschool.runescape.wiki/w/Temple_of_the_Eye",
-    "start_point": "Wizard Persten north of Al Kharid, near the gate from Lumbridge.",
+    "start_point": "Talk to Wizard Persten north of Al Kharid, near the gate from Lumbridge.",
     "skill_requirements": [
       {
         "skill": "Runecraft",
@@ -9677,7 +9677,7 @@
     "series": "N/A",
     "release_date": "8 June 2022",
     "url": "https://oldschool.runescape.wiki/w/Sleeping_Giants",
-    "start_point": "Speak to Kovac at the Giants' Plateau, east of Al Kharid.",
+    "start_point": "Talk to Kovac at the Giants' Plateau, east of Al Kharid.",
     "skill_requirements": [
       {
         "skill": "Smithing",
@@ -10026,7 +10026,7 @@
     "series": "Mahjarrat, #13",
     "release_date": "11 January 2023",
     "url": "https://oldschool.runescape.wiki/w/Secrets_of_the_North",
-    "start_point": "The Carnillean Mansion in the south-west corner of East Ardougne",
+    "start_point": "Talk to the guard outside of the Carnillean Mansion in the south-western corner of East Ardougne.",
     "skill_requirements": [
       {
         "skill": "Agility",
@@ -10211,7 +10211,7 @@
     "series": "Twilight Emissaries, #1",
     "release_date": "10 January 2024",
     "url": "https://oldschool.runescape.wiki/w/Children_of_the_Sun",
-    "start_point": "Speak to Noah or Alina in Varrock square.",
+    "start_point": "Talk to Noah or Alina in Varrock square.",
     "skill_requirements": [],
     "quest_requirements": [],
     "item_requirements": [],
@@ -10231,7 +10231,7 @@
     "series": "N/A",
     "release_date": "20 March 2024",
     "url": "https://oldschool.runescape.wiki/w/Perilous_Moons",
-    "start_point": "Speak to Zuma or Attala at the entrance to Cam Torum.",
+    "start_point": "Talk to Zuma or Attala at the entrance to Cam Torum.",
     "skill_requirements": [
       {
         "skill": "Slayer",
@@ -10302,7 +10302,7 @@
     "series": "N/A",
     "release_date": "20 March 2024",
     "url": "https://oldschool.runescape.wiki/w/The_Ribbiting_Tale_of_a_Lily_Pad_Labour_Dispute",
-    "start_point": "Speak to Marcellus at the Locus Oasis.",
+    "start_point": "Talk to Marcellus at the Locus Oasis.",
     "skill_requirements": [
       {
         "skill": "Woodcutting",
@@ -10338,7 +10338,7 @@
     "series": "Twilight Emissaries, #2",
     "release_date": "20 March 2024",
     "url": "https://oldschool.runescape.wiki/w/Twilight%27s_Promise",
-    "start_point": "Speak to Ennius Tullus or Furia Tullus in front of the Sunrise Palace.",
+    "start_point": "Talk to Ennius Tullus or Furia Tullus in front of the Sunrise Palace.",
     "skill_requirements": [],
     "quest_requirements": [
       {
@@ -10370,7 +10370,7 @@
     "series": "N/A",
     "release_date": "20 March 2024",
     "url": "https://oldschool.runescape.wiki/w/At_First_Light",
-    "start_point": "Speak to Guildmaster Apatura at the Hunter Guild.",
+    "start_point": "Talk to Guildmaster Apatura at the Hunter Guild.",
     "skill_requirements": [
       {
         "skill": "Hunter",
@@ -10422,7 +10422,7 @@
     "series": "Twilight Emissaries, #3",
     "release_date": "25 September 2024",
     "url": "https://oldschool.runescape.wiki/w/The_Heart_of_Darkness",
-    "start_point": "Speak to Prince Itzla Arkan at the Teomat.",
+    "start_point": "Talk to Prince Itzla Arkan at the Teomat.",
     "skill_requirements": [
       {
         "skill": "Mining",
@@ -10484,7 +10484,7 @@
     "series": "N/A",
     "release_date": "25 September 2024",
     "url": "https://oldschool.runescape.wiki/w/Death_on_the_Isle",
-    "start_point": "Speak to Patzi by the entrance to Villa Lucens.",
+    "start_point": "Talk to Patzi by the entrance to Villa Lucens.",
     "skill_requirements": [
       {
         "skill": "Thieving",
@@ -10590,7 +10590,7 @@
     "series": "Twilight Emissaries, #4",
     "release_date": "23 July 2025",
     "url": "https://oldschool.runescape.wiki/w/The_Final_Dawn",
-    "start_point": "Speak to Servius in the Sunrise Palace.",
+    "start_point": "Talk to Servius in the Sunrise Palace.",
     "skill_requirements": [
       {
         "skill": "Thieving",
@@ -10668,7 +10668,7 @@
     "series": "N/A",
     "release_date": "19 November 2025",
     "url": "https://oldschool.runescape.wiki/w/Pandemonium",
-    "start_point": "Speak to Will and Anne on the docks of Port Sarim.",
+    "start_point": "Talk to Will and Anne on the docks of Port Sarim.",
     "skill_requirements": [],
     "quest_requirements": [],
     "item_requirements": [
@@ -10697,7 +10697,7 @@
     "series": "N/A",
     "release_date": "19 November 2025",
     "url": "https://oldschool.runescape.wiki/w/Prying_Times",
-    "start_point": "Steve Beanie on the Pandemonium might be able to help you with prying open crates.",
+    "start_point": "Talk to 'Squawking' Steve Beanie at The Pandemonium pub.",
     "skill_requirements": [
       {
         "skill": "Smithing",
@@ -10748,7 +10748,7 @@
     "series": "N/A",
     "release_date": "19 November 2025",
     "url": "https://oldschool.runescape.wiki/w/Current_Affairs",
-    "start_point": "Start the Quest by speaking to Arhein on the Catherby docks.",
+    "start_point": "Talk to Arhein on the Catherby docks.",
     "skill_requirements": [
       {
         "skill": "Sailing",
@@ -10787,7 +10787,7 @@
     "series": "Tortugan, #1",
     "release_date": "19 November 2025",
     "url": "https://oldschool.runescape.wiki/w/Troubled_Tortugans",
-    "start_point": "Talk to Floopa, an Injured Tortugan, on a Remote Island in the Unquiet Ocean.",
+    "start_point": "Talk to the injured tortugan on a Remote Island in the Unquiet Ocean.",
     "skill_requirements": [
       {
         "skill": "Slayer",
@@ -10963,7 +10963,7 @@
     "series": "N/A",
     "release_date": "23 July 2025",
     "url": "https://oldschool.runescape.wiki/w/Scrambled!",
-    "start_point": "Speak to Alan at the temple of Tal Teok north of Tal Teklan.",
+    "start_point": "Talk to Alan at the temple of Tal Teok north of Tal Teklan.",
     "skill_requirements": [
       {
         "skill": "Construction",
