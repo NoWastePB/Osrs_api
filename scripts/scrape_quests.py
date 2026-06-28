@@ -2,9 +2,11 @@ import json
 import time
 import requests
 from bs4 import BeautifulSoup
+from urllib.parse import urlparse, unquote
 
 URL = "https://oldschool.runescape.wiki/w/Quests/List"
 BASE_URL = "https://oldschool.runescape.wiki"
+API_URL = "https://oldschool.runescape.wiki/api.php"
 
 HEADERS = {
     "User-Agent": "OsrsQuestScraper/1.0 (contact: jouw@email.com)"
@@ -14,6 +16,36 @@ HEADERS = {
 def clean(text):
     return " ".join(text.strip().split())
 
+
+def url_to_page_title(url):
+    """Zet een wiki-URL om naar een paginatitel voor de API.
+    Bijv. https://oldschool.runescape.wiki/w/The_Feud -> 'The Feud'
+    """
+    path = urlparse(url).path          # /w/The_Feud
+    title = path.removeprefix("/w/")   # The_Feud
+    return unquote(title).replace("_", " ")
+
+
+def fetch_html_via_api(page_title):
+    """Haal de geparsede HTML op via de MediaWiki API."""
+    params = {
+        "action": "parse",
+        "page": page_title,
+        "prop": "text",
+        "format": "json",
+        "formatversion": "2",   # geeft text direct als string, niet als {"*": ...}
+    }
+    response = requests.get(API_URL, params=params, headers=HEADERS, timeout=30)
+    response.raise_for_status()
+    data = response.json()
+
+    if "error" in data:
+        raise ValueError(f"API-fout voor '{page_title}': {data['error'].get('info', data['error'])}")
+
+    return data["parse"]["text"]   # formatversion=2 geeft dit direct als string
+
+
+# ── Lijst-parsing (ongewijzigd: blijft van de HTML-pagina) ───────────────────
 
 def get_tables_after_heading(soup, heading_text):
     """Geeft ALLE tabellen terug na een heading, tot de volgende h2."""
@@ -74,7 +106,7 @@ def parse_quest_table(table, category):
                 "url": BASE_URL + link["href"] if link else ""
             })
 
-        # Miniquests: name, difficulty, length, series, release_date, leagues_region (laatste overslaan)
+        # Miniquests: name, difficulty, length, series, release_date, leagues_region
         elif len(cols) == 6:
             link = cols[0].find("a")
             quests.append({
@@ -91,6 +123,8 @@ def parse_quest_table(table, category):
 
     return quests
 
+
+# ── Detail-parsing (werkt op de HTML die de API teruggeeft) ─────────────────
 
 def get_questdetails_field(soup, field_name):
     """Zoek een specifiek veld in de questdetails tabel."""
@@ -109,10 +143,8 @@ def parse_start_point(soup):
     td = get_questdetails_field(soup, "Start point")
     if not td:
         return ""
-    # Verwijder de map icon img en haal tekst op
     for img in td.find_all("img"):
         img.decompose()
-    # Verwijder "Show on map" link
     for a in td.find_all("a", class_="mw-kartographer-maplink"):
         a.decompose()
     return clean(td.get_text())
@@ -120,7 +152,7 @@ def parse_start_point(soup):
 
 def parse_skill_requirements(soup):
     skills = []
-    seen = set()  # voorkom duplicaten
+    seen = set()
 
     def extract_skills_from_td(td):
         for span in td.find_all("span", class_="scp"):
@@ -163,20 +195,16 @@ def parse_quest_requirements(soup):
     quests = []
     for li in td.find_all("li"):
         text = clean(li.get_text())
-        # Sla skill requirements over (die hebben een scp span)
         if li.find("span", class_="scp"):
             continue
-        # Sla beschrijvende teksten over
         if any(skip in text for skip in ["Completion of", "Started the", "Kudos", "Quest points"]):
             continue
         link = li.find("a")
         if not link:
             continue
         href = link.get("href", "")
-        # Alleen /w/ links die geen speciale wiki-pagina's zijn
         if not href.startswith("/w/"):
             continue
-        # Filter bekende niet-quest pagina's
         non_quest_prefixes = [
             "/w/Miniquest", "/w/Barbarian_Training", "/w/Ancient_Cavern",
             "/w/Chat", "/w/Update", "/w/File", "/w/Help", "/w/Category",
@@ -184,8 +212,6 @@ def parse_quest_requirements(soup):
         ]
         if any(href.startswith(p) for p in non_quest_prefixes):
             continue
-        # Alleen links waarvan de tekst een questnaam-achtige waarde heeft
-        # (begint met hoofdletter, geen lowercase utility-woorden)
         name = clean(link.get_text())
         if not name or name[0].islower():
             continue
@@ -205,7 +231,6 @@ def parse_item_requirements(soup):
     if not ul:
         return []
     for li in ul.find_all("li", recursive=False):
-        # Kloon de li en verwijder geneste ul's
         li_copy = BeautifulSoup(str(li), "html.parser").find("li")
         nested_ul = li_copy.find("ul")
         if nested_ul:
@@ -220,7 +245,6 @@ def parse_top_level_li(ul):
     """Pak alleen de directe <li> children van een <ul>, sla geneste <ul> over."""
     items = []
     for li in ul.find_all("li", recursive=False):
-        # Kloon de li zonder geneste ul's voor de tekst
         li_copy = BeautifulSoup(str(li), "html.parser").find("li")
         for nested in li_copy.find_all("ul"):
             nested.decompose()
@@ -233,27 +257,22 @@ def parse_top_level_li(ul):
 def parse_rewards(soup):
     td = get_questdetails_field(soup, "Rewards")
     if not td:
-        # Rewards staan als sectie op de pagina
         rewards_heading = soup.find("h2", id="Rewards")
         if not rewards_heading:
             return []
         current = rewards_heading.parent.find_next_sibling()
         while current:
-            # Stop bij de volgende heading
             if current.name == "div" and "mw-heading" in " ".join(current.get("class", [])):
                 break
-            # Sla navbox tabellen over
             if current.name == "table" and "navbox" in " ".join(current.get("class", [])):
                 current = current.find_next_sibling()
                 continue
-            # Pak alleen een directe <ul> sibling, niet geneste
             if current.name == "ul":
                 for navbox in current.find_all("table"):
                     navbox.decompose()
                 return parse_top_level_li(current)
             current = current.find_next_sibling()
         return []
-    # Rewards in questdetails tabel
     for navbox in td.find_all("table"):
         navbox.decompose()
     ul = td.find("ul")
@@ -273,11 +292,11 @@ def parse_enemies(soup):
 
 
 def fetch_quest_details(url):
-    """Haal detailpagina op en parse alle gevraagde velden."""
+    """Haal detailpagina op via de MediaWiki API en parse alle gevraagde velden."""
+    page_title = url_to_page_title(url)
     try:
-        response = requests.get(url, headers=HEADERS, timeout=30)
-        response.raise_for_status()
-        soup = BeautifulSoup(response.text, "html.parser")
+        html = fetch_html_via_api(page_title)
+        soup = BeautifulSoup(html, "html.parser")
         return {
             "start_point": parse_start_point(soup),
             "skill_requirements": parse_skill_requirements(soup),
@@ -287,7 +306,7 @@ def fetch_quest_details(url):
             "enemies_to_defeat": parse_enemies(soup),
         }
     except Exception as e:
-        print(f"  [WARN] Fout bij ophalen {url}: {e}")
+        print(f"  [WARN] Fout bij ophalen '{page_title}': {e}")
         return {
             "start_point": "",
             "skill_requirements": [],
@@ -329,7 +348,7 @@ for heading, category in [
         parsed = parse_quest_table(t, category)
         all_quests.extend(parsed)
 
-print(f"Gevonden: {len(all_quests)} quests. Details ophalen...")
+print(f"Gevonden: {len(all_quests)} quests. Details ophalen via API...")
 
 for i, quest in enumerate(all_quests):
     if not quest.get("url"):
