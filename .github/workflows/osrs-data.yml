@@ -1,8 +1,8 @@
-name: OSRS Data Builder
+name: OSRS Dataset Builder
 
 on:
   schedule:
-    - cron: "0 3 * * *"   # elke dag 03:00 UTC
+    - cron: "0 3 * * *"
   workflow_dispatch:
 
 permissions:
@@ -24,16 +24,16 @@ jobs:
       - name: Install dependencies
         run: pip install requests
 
-      - name: Run dataset builder
+      - name: Build dataset
         run: python scripts/build_dataset.py
 
-      - name: Commit and push changes
+      - name: Commit changes
         run: |
           git config user.name "osrs-bot"
           git config user.email "osrs-bot@users.noreply.github.com"
 
           git add data/
 
-          git commit -m "Update OSRS dataset $(date +'%Y-%m-%d')" || echo "No changes"
+          git commit -m "Update OSRS dataset" || echo "No changes"
 
           git push
