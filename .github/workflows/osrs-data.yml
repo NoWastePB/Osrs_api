@@ -1,4 +1,4 @@
-name: OSRS Dataset Builder
+name: OSRS Data Engine V7
 
 on:
   schedule:
@@ -22,18 +22,18 @@ jobs:
           python-version: "3.10"
 
       - name: Install dependencies
-        run: pip install requests
+        run: pip install aiohttp beautifulsoup4 requests
 
-      - name: Build dataset
-        run: python scripts/build_dataset.py
+      - name: Run OSRS engine
+        run: python scripts/osrs_v7.py
 
-      - name: Commit changes
+      - name: Commit dataset
         run: |
           git config user.name "osrs-bot"
           git config user.email "osrs-bot@users.noreply.github.com"
 
-          git add data/
+          git add data/ graph/ meta/
 
-          git commit -m "Update OSRS dataset" || echo "No changes"
+          git commit -m "OSRS V7 update $(date +'%Y-%m-%d')" || echo "No changes"
 
           git push
