@@ -67,7 +67,7 @@ def api_get(page, retries=3):
     }
 
     for attempt in range(retries):
-        time.sleep(random.uniform(0.8, 1.8))
+        time.sleep(random.uniform(0.3, 0.6))
         try:
             resp = SESSION.get(API_URL, params=params, timeout=20)
 
@@ -343,14 +343,24 @@ for page in BESTIARY_PAGES:
 
 print(f"\nGevonden: {len(all_monsters)} monsters. Details ophalen...\n")
 
-for i, monster in enumerate(all_monsters):
+# Groepeer monsters op wiki_page zodat elke pagina maar één keer opgehaald wordt.
+# Bijvoorbeeld: "Goblin (Level 2)", "Goblin (Level 5)" etc. delen dezelfde pagina.
+page_cache = {}  # wiki_page -> details dict
+unique_pages = sorted(set(
+    m["wiki_page"] for m in all_monsters if m.get("wiki_page")
+))
+
+print(f"Unieke wiki pagina's te ophalen: {len(unique_pages)}\n")
+
+for i, wiki_page in enumerate(unique_pages):
+    print(f"  [{i+1}/{len(unique_pages)}] {wiki_page}")
+    page_cache[wiki_page] = fetch_monster_details(wiki_page)
+
+# Wijs de gecachede details toe aan alle monsters
+for monster in all_monsters:
     wiki_page = monster.get("wiki_page", "")
-    if not wiki_page:
-        print(f"  [{i+1}/{len(all_monsters)}] Geen wiki_page voor '{monster['name']}', overgeslagen")
-        continue
-    print(f"  [{i+1}/{len(all_monsters)}] {monster['name']} {monster.get('variant', '')}")
-    details = fetch_monster_details(wiki_page)
-    monster.update(details)
+    if wiki_page and wiki_page in page_cache:
+        monster.update(page_cache[wiki_page])
 
 import os
 os.makedirs("data", exist_ok=True)
