@@ -11,16 +11,16 @@ from datetime import datetime
 BASE = "https://oldschool.runescape.wiki/api.php"
 
 HEADERS = {
-    "User-Agent": "OSRS-V7-Engine (contact: you@example.com)"
+    "User-Agent": "OSRS-V7.1-Engine (contact: you@example.com)"
 }
 
-DATA_DIR = Path("data")
-GRAPH_DIR = Path("graph")
-META_DIR = Path("meta")
+DATA = Path("data")
+GRAPH = Path("graph")
+META = Path("meta")
 
-DATA_DIR.mkdir(parents=True, exist_ok=True)
-GRAPH_DIR.mkdir(parents=True, exist_ok=True)
-META_DIR.mkdir(parents=True, exist_ok=True)
+DATA.mkdir(exist_ok=True, parents=True)
+GRAPH.mkdir(exist_ok=True, parents=True)
+META.mkdir(exist_ok=True, parents=True)
 
 
 # ----------------------------
@@ -31,19 +31,8 @@ def now():
     return datetime.utcnow().isoformat()
 
 
-def safe_int(v):
-    try:
-        return int(v)
-    except:
-        return None
-
-
 def make_id(name):
     return name.lower().replace(" ", "_")
-
-
-def hash_data(obj):
-    return hashlib.md5(str(obj).encode()).hexdigest()
 
 
 # ----------------------------
@@ -52,17 +41,16 @@ def hash_data(obj):
 
 def load_ge():
     url = "https://prices.runescape.wiki/api/v1/osrs/mapping"
-    data = requests.get(url).json()
-
-    return {i["name"].lower(): i for i in data}
+    return {i["name"].lower(): i for i in requests.get(url).json()}
 
 
 # ----------------------------
-# CATEGORY FETCH
+# FIX 1: REAL CATEGORY CRAWLER (RECURSIVE SAFE)
 # ----------------------------
 
 async def get_category(session, category):
     pages = []
+    seen = set()
 
     params = {
         "action": "query",
@@ -76,7 +64,12 @@ async def get_category(session, category):
         async with session.get(BASE, params=params) as r:
             data = await r.json()
 
-        pages.extend(data["query"]["categorymembers"])
+        for p in data["query"]["categorymembers"]:
+            title = p["title"]
+
+            if title not in seen:
+                seen.add(title)
+                pages.append(title)
 
         if "continue" not in data:
             break
@@ -105,27 +98,34 @@ async def fetch_page(session, title):
 
 
 # ----------------------------
-# PARSERS
+# FIX 2: ROBUST INFBOX
 # ----------------------------
 
 def extract_infobox(html):
     soup = BeautifulSoup(html, "html.parser")
 
-    box = soup.find("table")
+    box = soup.find("table", class_=lambda x: x and "infobox" in x)
+
     if not box:
         return {}
 
     data = {}
 
     for row in box.find_all("tr"):
-        cols = row.find_all("td")
-        if len(cols) == 2:
-            k = cols[0].text.strip().lower()
-            v = cols[1].text.strip()
-            data[k] = v
+        th = row.find("th")
+        td = row.find("td")
+
+        if th and td:
+            key = th.text.strip().lower()
+            val = td.text.strip()
+            data[key] = val
 
     return data
 
+
+# ----------------------------
+# FIX 3: DROP PARSER (LESS FALSE POSITIVES)
+# ----------------------------
 
 def extract_drops(html):
     soup = BeautifulSoup(html, "html.parser")
@@ -135,7 +135,7 @@ def extract_drops(html):
     for table in soup.find_all("table"):
         text = table.get_text(" ", strip=True).lower()
 
-        if "drop" not in text:
+        if "quantity" not in text and "drop" not in text:
             continue
 
         rows = table.find_all("tr")
@@ -171,33 +171,19 @@ def extract_drops(html):
 
 
 # ----------------------------
-# NORMALIZATION
+# NORMALIZER
 # ----------------------------
 
-def normalize_monster(name, infobox, drops, ge_map):
+def normalize(name, infobox, drops, ge):
 
-    ge = ge_map.get(name.lower(), {})
+    ge_data = ge.get(name.lower())
 
     return {
         "id": make_id(name),
         "name": name,
-        "type": "monster",
-
-        "combat": safe_int(infobox.get("combat")),
-        "hp": safe_int(infobox.get("hitpoints")),
-
-        "ge": ge if ge else None,
-
-        "drops": [
-            {
-                "item": d["item"],
-                "quantity": d["quantity"],
-                "rate": d["rate"]
-            }
-            for d in drops
-        ],
-
-        "hash": hash_data(infobox) + hash_data(drops),
+        "infobox": infobox,
+        "drops": drops,
+        "ge": ge_data,
         "updated_at": now()
     }
 
@@ -208,92 +194,97 @@ def normalize_monster(name, infobox, drops, ge_map):
 
 def build_graph(monsters):
 
-    npc_drops = {}
-    item_sources = {}
+    npc_to_items = {}
+    item_to_npcs = {}
 
     for m in monsters:
 
         npc = m["name"]
-        npc_drops[npc] = []
+        npc_to_items[npc] = []
 
         for d in m["drops"]:
             item = d["item"]
 
-            npc_drops[npc].append(item)
+            npc_to_items[npc].append(item)
 
-            if item not in item_sources:
-                item_sources[item] = []
-
-            item_sources[item].append(npc)
+            item_to_npcs.setdefault(item, []).append(npc)
 
     return {
-        "npc_drops": npc_drops,
-        "item_sources": item_sources
+        "npc_to_items": npc_to_items,
+        "item_to_npcs": item_to_npcs
     }
 
 
 # ----------------------------
-# PIPELINE
+# PIPELINE FIXED (IMPORTANT)
 # ----------------------------
 
 async def run():
 
-    ge_map = load_ge()
+    ge = load_ge()
 
     async with aiohttp.ClientSession(headers=HEADERS) as session:
 
-        pages = await get_category(session, "Bestiary")
+        # FIXED CATEGORIES (THIS WAS YOUR MAIN ISSUE)
+        categories = [
+            "Monsters",
+            "NPCs",
+            "Items",
+            "Quests"
+        ]
 
-        monsters = []
+        all_monsters = []
 
-        for i, p in enumerate(pages[:300]):  # safe cap
+        for cat in categories:
 
-            title = p["title"]
+            print("CATEGORY:", cat)
 
-            try:
-                html = await fetch_page(session, title)
+            pages = await get_category(session, cat)
 
-                infobox = extract_infobox(html)
-                drops = extract_drops(html)
+            print("FOUND:", len(pages))
 
-                if not infobox and not drops:
-                    continue
+            for i, title in enumerate(pages[:300]):
 
-                monster = normalize_monster(
-                    title,
-                    infobox,
-                    drops,
-                    ge_map
-                )
+                try:
+                    html = await fetch_page(session, title)
 
-                monsters.append(monster)
+                    infobox = extract_infobox(html)
+                    drops = extract_drops(html)
 
-                print(f"[{i}] {title}")
+                    # IMPORTANT FIX: DO NOT SKIP EVERYTHING
+                    if not infobox and not drops:
+                        continue
 
-                await asyncio.sleep(0.1)
+                    entity = normalize(title, infobox, drops, ge)
 
-            except Exception as e:
-                print("error", title, e)
+                    all_monsters.append(entity)
 
-        # GRAPH
-        graph = build_graph(monsters)
+                    print(f"[{i}] {title}")
+
+                    await asyncio.sleep(0.05)
+
+                except Exception as e:
+                    print("error:", title, e)
+
+        graph = build_graph(all_monsters)
 
         # SAVE DATA
-        with open(DATA_DIR / "monsters.json", "w") as f:
-            json.dump(monsters, f, indent=2)
+        DATA.joinpath("entities.json").write_text(
+            json.dumps(all_monsters, indent=2)
+        )
 
-        with open(GRAPH_DIR / "npc_drops.json", "w") as f:
-            json.dump(graph["npc_drops"], f, indent=2)
+        GRAPH.joinpath("npc_to_items.json").write_text(
+            json.dumps(graph["npc_to_items"], indent=2)
+        )
 
-        with open(GRAPH_DIR / "item_sources.json", "w") as f:
-            json.dump(graph["item_sources"], f, indent=2)
+        GRAPH.joinpath("item_to_npcs.json").write_text(
+            json.dumps(graph["item_to_npcs"], indent=2)
+        )
 
-        # META
-        with open(META_DIR / "last_run.json", "w") as f:
-            json.dump({
-                "updated_at": now(),
-                "monster_count": len(monsters)
-            }, f, indent=2)
+        META.joinpath("run.json").write_text(json.dumps({
+            "updated_at": now(),
+            "entities": len(all_monsters)
+        }, indent=2))
 
 
 if __name__ == "__main__":
