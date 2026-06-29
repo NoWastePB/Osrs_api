@@ -35,7 +35,7 @@ jobs:
 
       # -----------------------------------------------------------------------
       - name: Run clue scraper
-        run: python scrape_clues.py
+        run: python scripts/scrape_clues.py
 
       # -----------------------------------------------------------------------
       - name: Check for changes
