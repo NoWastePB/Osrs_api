@@ -2,7 +2,6 @@ name: Update OSRS Quests
 
 on:
   workflow_dispatch:
-
   schedule:
     - cron: "0 4 * * *"
 
@@ -11,15 +10,13 @@ permissions:
 
 jobs:
   update:
-
     runs-on: ubuntu-latest
 
     steps:
-
-      - name: Checkout
+      - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Setup Python
+      - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.12"
@@ -30,17 +27,18 @@ jobs:
           pip install -r requirements.txt
 
       - name: Run scraper
-        run: |
-          python scripts/scrape_quests.py
+        run: python scripts/scrape_quests.py
 
-      - name: Commit changes
+      - name: Commit updated data
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
 
           git add data/quests.json
 
-          git diff --staged --quiet || (
+          if git diff --cached --quiet; then
+            echo "No changes detected."
+          else
             git commit -m "Update OSRS quest data"
             git push
-          )
+          fi
