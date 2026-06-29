@@ -174,15 +174,21 @@ def parse_ciphers(soup: BeautifulSoup) -> list[dict]:
 def parse_coordinates(soup: BeautifulSoup) -> list[dict]:
     """
     Columns: Coordinate | Location | Closest teleport | Wilderness?
+    Rows where both coordinate and location are empty are skipped.
     """
     clues: list[dict] = []
     for table in all_tables(soup):
         for row in rows_from_table(table):
             if len(row) < 2:
                 continue
+            coordinate = row[0]
+            location   = row[1]
+            # Skip rows that carry no useful data
+            if not coordinate and not location:
+                continue
             entry: dict[str, Any] = {
-                "coordinate": row[0],
-                "location":   row[1],
+                "coordinate": coordinate,
+                "location":   location,
             }
             if len(row) > 2:
                 entry["closest_teleport"] = row[2]
@@ -252,10 +258,48 @@ def parse_emote(soup: BeautifulSoup) -> list[dict]:
     return clues
 
 
+def extract_image_url(cell: Tag) -> str | None:
+    """
+    Return the full image URL from a table cell, or None.
+    The OSRS Wiki uses lazy-loading: the real URL is in data-src,
+    with a fallback to src. Thumbnail paths are converted to full-size.
+    """
+    img = cell.find("img")
+    if not img:
+        return None
+    # Prefer data-src (lazy-load), fall back to src
+    src = img.get("data-src") or img.get("src") or ""
+    if not src:
+        return None
+    # Strip thumbnail sizing: /images/thumb/a/ab/File.png/120px-File.png
+    # → /images/a/ab/File.png
+    src = re.sub(r"/thumb(/[^/]+/[^/]+/[^/]+)/\d+px-[^/]+$", r"\1", src)
+    # Make absolute
+    if src.startswith("//"):
+        src = "https:" + src
+    elif src.startswith("/"):
+        src = "https://oldschool.runescape.wiki" + src
+    return src
+
+
+def rows_from_table_raw(table: Tag) -> list[list[Tag]]:
+    """Like rows_from_table but returns Tag objects instead of text."""
+    rows = []
+    for tr in table.find_all("tr"):
+        cells = tr.find_all(["td", "th"])
+        if not cells:
+            continue
+        if all(c.name == "th" for c in cells):
+            continue
+        rows.append(cells)
+    return rows
+
+
 def parse_maps(soup: BeautifulSoup) -> list[dict]:
     """
-    Maps pages typically list map clues with an image and a location text.
-    We capture whatever tabular data is available.
+    Maps page: each row has a map image, a location description, and
+    optionally a solution/extra column.
+    image_url is extracted from the <img> tag in the first cell.
     """
     clues: list[dict] = []
     current_difficulty = "unknown"
@@ -268,17 +312,28 @@ def parse_maps(soup: BeautifulSoup) -> list[dict]:
                     current_difficulty = diff
                     break
         elif element.name == "table" and "wikitable" in element.get("class", []):
-            for row in rows_from_table(element):
-                if not any(row):
+            for cells in rows_from_table_raw(element):
+                if not cells:
                     continue
+                texts = [clean(c.get_text()) for c in cells]
+                # Skip completely empty rows
+                if not any(texts):
+                    continue
+
                 entry: dict[str, Any] = {"difficulty": current_difficulty}
-                # Columns vary; capture them positionally
-                if len(row) >= 1:
-                    entry["map_description"] = row[0]
-                if len(row) >= 2:
-                    entry["location"] = row[1]
-                if len(row) >= 3:
-                    entry["extra"] = row[2]
+
+                # First cell: try to get the image, fall back to text
+                image_url = extract_image_url(cells[0])
+                if image_url:
+                    entry["image_url"] = image_url
+                else:
+                    entry["map_description"] = texts[0]
+
+                if len(cells) >= 2:
+                    entry["location"] = texts[1]
+                if len(cells) >= 3:
+                    entry["extra"] = texts[2]
+
                 clues.append(entry)
     return clues
 
