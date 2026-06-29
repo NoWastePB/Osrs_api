@@ -1,0 +1,64 @@
+name: Scrape OSRS Clue Data
+
+on:
+  # Run automatically every Sunday at 04:00 UTC
+  schedule:
+    - cron: "0 4 * * 0"
+
+  # Allow a manual trigger from the Actions tab
+  workflow_dispatch:
+
+jobs:
+  scrape:
+    name: Fetch & commit clue data
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write   # needed to push clues.json back to the repo
+
+    steps:
+      # -----------------------------------------------------------------------
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # -----------------------------------------------------------------------
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      # -----------------------------------------------------------------------
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests beautifulsoup4
+
+      # -----------------------------------------------------------------------
+      - name: Run clue scraper
+        run: python scrape_clues.py
+
+      # -----------------------------------------------------------------------
+      - name: Check for changes
+        id: diff
+        run: |
+          git diff --quiet clues.json \
+            && echo "changed=false" >> "$GITHUB_OUTPUT" \
+            || echo "changed=true"  >> "$GITHUB_OUTPUT"
+
+      # -----------------------------------------------------------------------
+      - name: Commit & push updated clues.json
+        if: steps.diff.outputs.changed == 'true'
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add clues.json
+          git commit -m "chore(data): update clues.json [$(date -u +'%Y-%m-%d')]"
+          git push
+
+      # -----------------------------------------------------------------------
+      - name: Upload clues.json as artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: clues-json
+          path: clues.json
+          retention-days: 30
