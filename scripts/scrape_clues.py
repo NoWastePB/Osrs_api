@@ -173,27 +173,40 @@ def parse_ciphers(soup: BeautifulSoup) -> list[dict]:
 
 def parse_coordinates(soup: BeautifulSoup) -> list[dict]:
     """
-    Columns: Coordinate | Location | Closest teleport | Wilderness?
-    Rows where both coordinate and location are empty are skipped.
+    Columns: Coordinate | Image (optional) | Location | Closest teleport | Wilderness?
+    Rows where coordinate and location are both empty are skipped.
     """
     clues: list[dict] = []
     for table in all_tables(soup):
-        for row in rows_from_table(table):
-            if len(row) < 2:
+        for cells in rows_from_table_raw(table):
+            texts = [clean(c.get_text()) for c in cells]
+            if len(texts) < 2:
                 continue
-            coordinate = row[0]
-            location   = row[1]
-            # Skip rows that carry no useful data
-            if not coordinate and not location:
+            coordinate = texts[0]
+            # Skip completely empty rows
+            if not any(texts):
                 continue
-            entry: dict[str, Any] = {
-                "coordinate": coordinate,
-                "location":   location,
-            }
-            if len(row) > 2:
-                entry["closest_teleport"] = row[2]
-            if len(row) > 3:
-                entry["wilderness"] = row[3].lower() in ("yes", "true", "✓")
+            if not coordinate and not texts[1]:
+                continue
+
+            entry: dict[str, Any] = {"coordinate": coordinate}
+
+            # Check every cell for an image; attach the first one found
+            for cell in cells:
+                image_url = extract_image_url(cell)
+                if image_url:
+                    entry["image_url"] = image_url
+                    break
+
+            # Remaining text columns — skip cells that only contained an image
+            text_cols = [t for t in texts[1:] if t]
+            if len(text_cols) >= 1:
+                entry["location"] = text_cols[0]
+            if len(text_cols) >= 2:
+                entry["closest_teleport"] = text_cols[1]
+            if len(text_cols) >= 3:
+                entry["wilderness"] = text_cols[2].lower() in ("yes", "true", "✓")
+
             clues.append(entry)
     return clues
 
