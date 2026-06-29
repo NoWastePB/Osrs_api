@@ -1,0 +1,39 @@
+name: OSRS Data Builder
+
+on:
+  schedule:
+    - cron: "0 3 * * *"   # elke dag 03:00 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.10"
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Run dataset builder
+        run: python scripts/build_dataset.py
+
+      - name: Commit and push changes
+        run: |
+          git config user.name "osrs-bot"
+          git config user.email "osrs-bot@users.noreply.github.com"
+
+          git add data/
+
+          git commit -m "Update OSRS dataset $(date +'%Y-%m-%d')" || echo "No changes"
+
+          git push
