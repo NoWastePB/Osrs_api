@@ -1,4 +1,4 @@
-name: OSRS Data Engine V7
+name: OSRS Data Engine V7.1
 
 on:
   schedule:
@@ -13,27 +13,19 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repo
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
 
-      - name: Setup Python
-        uses: actions/setup-python@v5
+      - uses: actions/setup-python@v5
         with:
           python-version: "3.10"
 
-      - name: Install dependencies
-        run: pip install aiohttp beautifulsoup4 requests
+      - run: pip install aiohttp beautifulsoup4 requests
 
-      - name: Run OSRS engine
-        run: python scripts/osrs_v7.py
+      - run: python scripts/osrs_v7_1.py
 
-      - name: Commit dataset
-        run: |
+      - run: |
           git config user.name "osrs-bot"
           git config user.email "osrs-bot@users.noreply.github.com"
-
           git add data/ graph/ meta/
-
-          git commit -m "OSRS V7 update $(date +'%Y-%m-%d')" || echo "No changes"
-
+          git commit -m "V7.1 update" || echo "no changes"
           git push
