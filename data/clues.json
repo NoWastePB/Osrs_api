@@ -1,7 +1,7 @@
 {
   "meta": {
     "source": "https://oldschool.runescape.wiki",
-    "generated_at": "2026-06-29T11:26:40Z"
+    "generated_at": "2026-06-29T11:36:12Z"
   },
   "anagrams": [
     {
@@ -1157,996 +1157,1117 @@
   "coordinates": [
     {
       "coordinate": "00 degrees 05 minutes south, 01 degrees 13 minutes east",
+      "image_url": "https://oldschool.runescape.wiki/images/X_mark.svg?922a1",
       "location": "00.05S, 01.13E",
-      "closest_teleport": "None.",
-      "wilderness": false
+      "closest_teleport": "None."
     },
     {
       "coordinate": "00 degrees 13 minutes south, 13 degrees 58 minutes east",
+      "image_url": "https://oldschool.runescape.wiki/images/X_mark.svg?922a1",
       "location": "00.13S, 13.58E",
-      "closest_teleport": "None.",
-      "wilderness": false
+      "closest_teleport": "None."
     },
     {
       "coordinate": "00 degrees 18 minutes south, 09 degrees 28 minutes east",
+      "image_url": "https://oldschool.runescape.wiki/images/X_mark.svg?922a1",
       "location": "00.18S, 09.28E",
-      "closest_teleport": "None.",
-      "wilderness": false
+      "closest_teleport": "None."
     },
     {
       "coordinate": "00 degrees 20 minutes south, 23 degrees 15 minutes east",
+      "image_url": "https://oldschool.runescape.wiki/images/X_mark.svg?922a1",
       "location": "00.20S, 23.15E",
-      "closest_teleport": "None.",
-      "wilderness": false
+      "closest_teleport": "None."
     },
     {
       "coordinate": "00 degrees 30 minutes north, 24 degrees 16 minutes east",
+      "image_url": "https://oldschool.runescape.wiki/images/X_mark.svg?922a1",
       "location": "00.30N, 24.16E",
-      "closest_teleport": "None.",
-      "wilderness": false
+      "closest_teleport": "None."
     },
     {
       "coordinate": "00 degrees 31 minutes south, 17 degrees 43 minutes east",
+      "image_url": "https://oldschool.runescape.wiki/images/X_mark.svg?922a1",
       "location": "00.31S, 17.43E",
-      "closest_teleport": "None.",
-      "wilderness": false
+      "closest_teleport": "None."
     },
     {
       "coordinate": "01 degrees 18 minutes south, 14 degrees 15 minutes east",
+      "image_url": "https://oldschool.runescape.wiki/images/X_mark.svg?922a1",
       "location": "01.18S, 14.15E",
-      "closest_teleport": "None.",
-      "wilderness": false
+      "closest_teleport": "None."
     },
     {
       "coordinate": "01 degrees 26 minutes north, 08 degrees 01 minutes east",
+      "image_url": "https://oldschool.runescape.wiki/images/Agility_icon.png?389e0",
       "location": "01.26N, 08.01E",
-      "closest_teleport": "10",
-      "wilderness": false
+      "closest_teleport": "10"
     },
     {
       "coordinate": "01 degrees 33 minutes south, 24 degrees 24 minutes west",
+      "image_url": "https://oldschool.runescape.wiki/images/X_mark.svg?922a1",
       "location": "01.33S, 24.24W",
-      "closest_teleport": "Completion of Children of the Sun",
-      "wilderness": false
+      "closest_teleport": "Completion of Children of the Sun"
     },
     {
       "coordinate": "01 degrees 35 minutes south, 07 degrees 28 minutes east",
+      "image_url": "https://oldschool.runescape.wiki/images/X_mark.svg?922a1",
       "location": "01.35S, 07.28E",
-      "closest_teleport": "None.",
-      "wilderness": false
+      "closest_teleport": "None."
     },
     {
       "coordinate": "02 degrees 16 minutes north, 12 degrees 07 minutes east",
+      "image_url": "https://oldschool.runescape.wiki/images/X_mark.svg?922a1",
       "location": "02.16N, 12.07E",
-      "closest_teleport": "Partial completion of Dragon Slayer I",
-      "wilderness": false
+      "closest_teleport": "Partial completion of Dragon Slayer I"
     },
     {
       "coordinate": "02 degrees 43 minutes south, 33 degrees 26 minutes east",
+      "image_url": "https://oldschool.runescape.wiki/images/X_mark.svg?922a1",
       "location": "02.43S, 33.26E",
-      "closest_teleport": "None.",
-      "wilderness": false
+      "closest_teleport": "None."
     },
     {
       "coordinate": "02 degrees 48 minutes north, 22 degrees 30 minutes east",
+      "image_url": "https://oldschool.runescape.wiki/images/X_mark.svg?922a1",
       "location": "02.48N, 22.30E",
-      "closest_teleport": "None.",
-      "wilderness": false
+      "closest_teleport": "None."
     },
     {
       "coordinate": "02 degrees 50 minutes north, 06 degrees 20 minutes east",
+      "image_url": "https://oldschool.runescape.wiki/images/X_mark.svg?922a1",
       "location": "02.50N, 06.20E",
-      "closest_teleport": "None.",
-      "wilderness": false
+      "closest_teleport": "None."
     },
     {
       "coordinate": "03 degrees 07 minutes south, 03 degrees 41 minutes west",
+      "image_url": "https://oldschool.runescape.wiki/images/X_mark.svg?922a1",
       "location": "03.07S, 03.41W",
-      "closest_teleport": "None.",
-      "wilderness": false
+      "closest_teleport": "None."
     },
     {
       "coordinate": "03 degrees 35 minutes south, 13 degrees 35 minutes east",
+      "image_url": "https://oldschool.runescape.wiki/images/X_mark.svg?922a1",
       "location": "03.35S, 13.35E",
-      "closest_teleport": "None.",
-      "wilderness": false
+      "closest_teleport": "None."
     },
     {
       "coordinate": "04 degrees 00 minutes south, 12 degrees 46 minutes east",
+      "image_url": "https://oldschool.runescape.wiki/images/X_mark.svg?922a1",
       "location": "04.00S, 12.46E",
-      "closest_teleport": "None.",
-      "wilderness": false
+      "closest_teleport": "None."
     },
     {
       "coordinate": "04 degrees 13 minutes north, 12 degrees 45 minutes east",
+      "image_url": "https://oldschool.runescape.wiki/images/X_mark.svg?922a1",
       "location": "04.13N, 12.45E",
-      "closest_teleport": "Partial completion of Dragon Slayer I",
-      "wilderness": false
+      "closest_teleport": "Partial completion of Dragon Slayer I"
     },
     {
       "coordinate": "05 degrees 20 minutes south, 04 degrees 28 minutes east",
+      "image_url": "https://oldschool.runescape.wiki/images/X_mark.svg?922a1",
       "location": "05.20S, 04.28E",
-      "closest_teleport": "None.",
-      "wilderness": false
+      "closest_teleport": "None."
     },
     {
       "coordinate": "05 degrees 43 minutes north, 23 degrees 05 minutes east",
+      "image_url": "https://oldschool.runescape.wiki/images/X_mark.svg?922a1",
       "location": "05.43N, 23.05E",
-      "closest_teleport": "None.",
-      "wilderness": false
+      "closest_teleport": "None."
     },
     {
       "coordinate": "06 degrees 31 minutes north, 01 degrees 46 minutes west",
+      "image_url": "https://oldschool.runescape.wiki/images/X_mark.svg?922a1",
       "location": "06.31N, 01.46W",
-      "closest_teleport": "None.",
-      "wilderness": false
+      "closest_teleport": "None."
     },
     {
       "coordinate": "06 degrees 41 minutes north, 27 degrees 15 minutes east",
+      "image_url": "https://oldschool.runescape.wiki/images/X_mark.svg?922a1",
       "location": "06.41N, 27.15E",
-      "closest_teleport": "None.",
-      "wilderness": false
+      "closest_teleport": "None."
     },
     {
       "coordinate": "06 degrees 58 minutes north, 21 degrees 16 minutes east",
+      "image_url": "https://oldschool.runescape.wiki/images/X_mark.svg?922a1",
       "location": "06.58N, 21.16E",
-      "closest_teleport": "None.",
-      "wilderness": false
+      "closest_teleport": "None."
     },
     {
       "coordinate": "07 degrees 05 minutes north, 30 degrees 56 minutes east",
+      "image_url": "https://oldschool.runescape.wiki/images/X_mark.svg?922a1",
       "location": "07.05N, 30.56E",
-      "closest_teleport": "Priest in Peril (to enter Canifis)",
-      "wilderness": false
+      "closest_teleport": "Priest in Peril (to enter Canifis)"
     },
     {
       "coordinate": "07 degrees 33 minutes north, 15 degrees 00 minutes east",
+      "image_url": "https://oldschool.runescape.wiki/images/X_mark.svg?922a1",
       "location": "07.33N, 15.00E",
-      "closest_teleport": "None.",
-      "wilderness": false
+      "closest_teleport": "None."
     },
     {
       "coordinate": "08 degrees 11 minutes south, 04 degrees 48 minutes east",
+      "image_url": "https://oldschool.runescape.wiki/images/X_mark.svg?922a1",
       "location": "08.11S, 04.48E",
-      "closest_teleport": "Spade",
-      "wilderness": false
+      "closest_teleport": "Spade"
     },
     {
       "coordinate": "08 degrees 33 minutes north, 01 degrees 39 minutes west",
+      "image_url": "https://oldschool.runescape.wiki/images/X_mark.svg?922a1",
       "location": "08.33N, 01.39W",
-      "closest_teleport": "None.",
-      "wilderness": false
+      "closest_teleport": "None."
     },
     {
       "coordinate": "09 degrees 33 minutes north, 02 degrees 15 minutes east",
+      "image_url": "https://oldschool.runescape.wiki/images/X_mark.svg?922a1",
       "location": "09.33N, 02.15E",
-      "closest_teleport": "Started Waterfall Quest Rope",
-      "wilderness": false
+      "closest_teleport": "Started Waterfall Quest Rope"
     },
     {
       "coordinate": "09 degrees 35 minutes north, 01 degrees 50 minutes west",
+      "image_url": "https://oldschool.runescape.wiki/images/X_mark.svg?922a1",
       "location": "09.35N, 01.50W",
-      "closest_teleport": "None.",
-      "wilderness": false
+      "closest_teleport": "None."
     },
     {
       "coordinate": "09 degrees 48 minutes north, 17 degrees 39 minutes east",
+      "image_url": "https://oldschool.runescape.wiki/images/X_mark.svg?922a1",
       "location": "09.48N, 17.39E",
-      "closest_teleport": "None.",
-      "wilderness": false
+      "closest_teleport": "None."
     },
     {
       "coordinate": "10 degrees 45 minutes north, 04 degrees 31 minutes east",
+      "image_url": "https://oldschool.runescape.wiki/images/X_mark.svg?922a1",
       "location": "10.45N, 04.31E",
-      "closest_teleport": "Recommended: 20 Agility for Shortcut",
-      "wilderness": false
+      "closest_teleport": "Recommended: 20 Agility for Shortcut"
     },
     {
       "coordinate": "11 degrees 03 minutes north, 31 degrees 20 minutes east",
+      "image_url": "https://oldschool.runescape.wiki/images/X_mark.svg?922a1",
       "location": "11.03N, 31.20E",
-      "closest_teleport": "Completion of Priest in Peril",
-      "wilderness": false
+      "closest_teleport": "Completion of Priest in Peril"
     },
     {
       "coordinate": "11 degrees 05 minutes north, 00 degrees 45 minutes west",
+      "image_url": "https://oldschool.runescape.wiki/images/X_mark.svg?922a1",
       "location": "11.05N, 00.45W",
-      "closest_teleport": "None.",
-      "wilderness": false
+      "closest_teleport": "None."
     },
     {
       "coordinate": "11 degrees 18 minutes north, 30 degrees 54 minutes east",
+      "image_url": "https://oldschool.runescape.wiki/images/X_mark.svg?922a1",
       "location": "11.18N, 30.54E",
-      "closest_teleport": "Completion of Priest in Peril.",
-      "wilderness": false
+      "closest_teleport": "Completion of Priest in Peril."
     },
     {
       "coordinate": "11 degrees 33 minutes north, 02 degrees 24 minutes west",
+      "image_url": "https://oldschool.runescape.wiki/images/X_mark.svg?922a1",
       "location": "11.33N, 02.24W",
-      "closest_teleport": "None.",
-      "wilderness": false
+      "closest_teleport": "None."
     },
     {
       "coordinate": "11 degrees 41 minutes north, 14 degrees 58 minutes east",
+      "image_url": "https://oldschool.runescape.wiki/images/X_mark.svg?922a1",
       "location": "11.41N, 14.58E",
-      "closest_teleport": "None.",
-      "wilderness": false
+      "closest_teleport": "None."
     },
     {
       "coordinate": "12 degrees 28 minutes north, 34 degrees 37 minutes east",
+      "image_url": "https://oldschool.runescape.wiki/images/X_mark.svg?922a1",
       "location": "12.28N, 34.37E",
-      "closest_teleport": "Priest in Peril",
-      "wilderness": false
+      "closest_teleport": "Priest in Peril"
     },
     {
       "coordinate": "12 degrees 39 minutes north, 30 degrees 07 minutes west",
+      "image_url": "https://oldschool.runescape.wiki/images/X_mark.svg?922a1",
       "location": "12.39N, 30.07W",
-      "closest_teleport": "None.",
-      "wilderness": false
+      "closest_teleport": "None."
     },
     {
       "coordinate": "14 degrees 54 minutes north, 9 degrees 13 minutes east",
+      "image_url": "https://oldschool.runescape.wiki/images/X_mark.svg?922a1",
       "location": "14.54N, 9.13E",
-      "closest_teleport": "None.",
-      "wilderness": false
+      "closest_teleport": "None."
     },
     {
       "coordinate": "15 degrees 22 minutes north, 07 degrees 31 minutes east",
+      "image_url": "https://oldschool.runescape.wiki/images/X_mark.svg?922a1",
       "location": "15.22N, 07.31E",
-      "closest_teleport": "None.",
-      "wilderness": false
+      "closest_teleport": "None."
     },
     {
       "coordinate": "17 degrees 39 minutes north, 37 degrees 16 minutes west",
+      "image_url": "https://oldschool.runescape.wiki/images/X_mark.svg?922a1",
       "location": "17.39N, 37.16W",
-      "closest_teleport": "45 Farming",
-      "wilderness": false
+      "closest_teleport": "45 Farming"
     },
     {
       "coordinate": "22 degrees 07 minutes south, 23 degrees 13 minutes east",
+      "image_url": "https://oldschool.runescape.wiki/images/X_mark.svg?922a1",
       "location": "22.07S, 23.13E",
-      "closest_teleport": "Partial Completion of the Troubled Tortugans quest",
-      "wilderness": false
+      "closest_teleport": "Partial Completion of the Troubled Tortugans quest"
     },
     {
       "coordinate": "22 degrees 30 minutes north, 03 degrees 01 minutes east",
+      "image_url": "https://oldschool.runescape.wiki/images/X_mark.svg?922a1",
       "location": "22.30N, 03.01E",
-      "closest_teleport": "Completion of the Fremennik Trials quest",
-      "wilderness": false
+      "closest_teleport": "Completion of the Fremennik Trials quest"
     },
     {
       "coordinate": "23 degrees 05 minutes north, 41 degrees 22 minutes east",
+      "image_url": "https://oldschool.runescape.wiki/images/X_mark.svg?922a1",
       "location": "23.05N, 41.22E",
-      "closest_teleport": "Completion of Bone Voyage",
-      "wilderness": false
+      "closest_teleport": "Completion of Bone Voyage"
     },
     {
       "coordinate": "00 degrees 00 minutes north, 07 degrees 13 minutes west",
+      "image_url": "https://oldschool.runescape.wiki/images/Yes_check.svg?4e3f5",
       "location": "00.00N, 07.13W",
       "closest_teleport": "Regicide",
       "wilderness": false
     },
     {
       "coordinate": "01 degrees 24 minutes north, 08 degrees 05 minutes west",
+      "image_url": "https://oldschool.runescape.wiki/images/Yes_check.svg?4e3f5",
       "location": "01.24N, 08.05W",
       "closest_teleport": "Regicide",
       "wilderness": false
     },
     {
       "coordinate": "01 degrees 30 minutes north, 20 degrees 01 minutes east",
+      "image_url": "https://oldschool.runescape.wiki/images/Yes_check.svg?4e3f5",
       "location": "01.30N, 20.01E",
       "closest_teleport": "Partial completion of Fairytale II - Cure a Queen for access to fairy rings.",
       "wilderness": false
     },
     {
       "coordinate": "02 degrees 39 minutes north, 29 degrees 58 minutes east",
+      "image_url": "https://oldschool.runescape.wiki/images/X_mark.svg?922a1",
       "location": "02.39N, 29.58E",
-      "closest_teleport": "None.",
-      "wilderness": false
+      "closest_teleport": "None."
     },
     {
       "coordinate": "02 degrees 48 minutes north, 08 degrees 05 minutes east",
+      "image_url": "https://oldschool.runescape.wiki/images/Yes_check.svg?4e3f5",
       "location": "02.48N, 08.05E",
       "closest_teleport": "Partial completion of Fairytale II - Cure a Queen Either a dramen or lunar staff",
       "wilderness": false
     },
     {
       "coordinate": "02 degrees 48 minutes north, 34 degrees 33 minutes east",
+      "image_url": "https://oldschool.runescape.wiki/images/Yes_check.svg?4e3f5",
       "location": "02.48N, 34.33E",
       "closest_teleport": "Started In Aid of the Myreque",
       "wilderness": false
     },
     {
       "coordinate": "02 degrees 58 minutes north, 34 degrees 30 minutes east",
+      "image_url": "https://oldschool.runescape.wiki/images/Yes_check.svg?4e3f5",
       "location": "02.58N, 34.30E",
       "closest_teleport": "Started In Aid of the Myreque",
       "wilderness": false
     },
     {
       "coordinate": "03 degrees 18 minutes north,12 degrees 31 minutes east",
+      "image_url": "https://oldschool.runescape.wiki/images/Yes_check.svg?4e3f5",
       "location": "03.18N,12.31E",
       "closest_teleport": "Partial completion of Dragon Slayer I",
       "wilderness": false
     },
     {
       "coordinate": "03 degrees 45 minutes south, 22 degrees 45 minutes east",
+      "image_url": "https://oldschool.runescape.wiki/images/Yes_check.svg?4e3f5",
       "location": "03.45S, 22.45E",
       "closest_teleport": "None.",
       "wilderness": false
     },
     {
       "coordinate": "04 degrees 03 minutes south, 03 degrees 11 minutes east",
+      "image_url": "https://oldschool.runescape.wiki/images/Agility_icon.png?389e0",
       "location": "04.03S, 03.11E",
       "closest_teleport": "Partial completion of Watchtower 20 coins if Watchtower has not been completed, or if you have used the bridge to cross back[1] (if you used the bridge to cross back, but have 71 , you don't need the coins)",
       "wilderness": false
     },
     {
       "coordinate": "04 degrees 05 minutes south, 04 degrees 24 minutes east",
+      "image_url": "https://oldschool.runescape.wiki/images/Yes_check.svg?4e3f5",
       "location": "04.05S, 04.24E",
       "closest_teleport": "None.",
       "wilderness": false
     },
     {
       "coordinate": "04 degrees 16 minutes south, 16 degrees 16 minutes east",
+      "image_url": "https://oldschool.runescape.wiki/images/Yes_check.svg?4e3f5",
       "location": "04.16S, 16.16E",
       "closest_teleport": "Partial completion of The Grand Tree",
       "wilderness": false
     },
     {
       "coordinate": "04 degrees 41 minutes north, 03 degrees 09 minutes west",
+      "image_url": "https://oldschool.runescape.wiki/images/Yes_check.svg?4e3f5",
       "location": "04.41N, 03.09W",
       "closest_teleport": "Start of Regicide",
       "wilderness": false
     },
     {
       "coordinate": "05 degrees 03 minutes north, 34 degrees 58 minutes west",
+      "image_url": "https://oldschool.runescape.wiki/images/Yes_check.svg?4e3f5",
       "location": "05.03N, 34.58W",
       "closest_teleport": "Completion of Children of the Sun",
       "wilderness": false
     },
     {
       "coordinate": "05 degrees 37 minutes north, 31 degrees 15 minutes east",
+      "image_url": "https://oldschool.runescape.wiki/images/Yes_check.svg?4e3f5",
       "location": "05.37N, 31.15E",
       "closest_teleport": "Partial completion of Nature Spirit",
       "wilderness": false
     },
     {
       "coordinate": "05 degrees 50 minutes south, 10 degrees 05 minutes east",
+      "image_url": "https://oldschool.runescape.wiki/images/Agility_icon.png?389e0",
       "location": "05.50S, 10.05E",
       "closest_teleport": "15",
       "wilderness": false
     },
     {
       "coordinate": "06 degrees 00 minutes south, 21 degrees 48 minutes east",
+      "image_url": "https://oldschool.runescape.wiki/images/Yes_check.svg?4e3f5",
       "location": "06.00S, 21.48E",
       "closest_teleport": "None.",
       "wilderness": false
     },
     {
       "coordinate": "06 degrees 11 minutes south, 15 degrees 07 minutes east",
+      "image_url": "https://oldschool.runescape.wiki/images/Yes_check.svg?4e3f5",
       "location": "06.11S, 15.07E",
       "closest_teleport": "None.",
       "wilderness": false
     },
     {
       "coordinate": "07 degrees 43 minutes south, 12 degrees 26 minutes east",
+      "image_url": "https://oldschool.runescape.wiki/images/Yes_check.svg?4e3f5",
       "location": "07.43S, 12.26E",
       "closest_teleport": "Partial completion of Legends' Quest",
       "wilderness": false
     },
     {
       "coordinate": "08 degrees 03 minutes north, 31 degrees 16 minutes east",
+      "image_url": "https://oldschool.runescape.wiki/images/Yes_check.svg?4e3f5",
       "location": "08.03N, 31.16E",
       "closest_teleport": "Started Priest in Peril",
       "wilderness": false
     },
     {
       "coordinate": "08 degrees 05 minutes south, 15 degrees 56 minutes east",
+      "image_url": "https://oldschool.runescape.wiki/images/Yes_check.svg?4e3f5",
       "location": "08.05S, 15.56E",
       "closest_teleport": "Partial completion of Legends' Quest",
       "wilderness": false
     },
     {
       "coordinate": "08 degrees 26 minutes south, 10 degrees 28 minutes east",
+      "image_url": "https://oldschool.runescape.wiki/images/Yes_check.svg?4e3f5",
       "location": "08.26S, 10.28E",
       "closest_teleport": "Partial completion of Legends' Quest",
       "wilderness": false
     },
     {
       "coordinate": "10 degrees 03 minutes north, 32 degrees 13 minutes west",
+      "image_url": "https://oldschool.runescape.wiki/images/Yes_check.svg?4e3f5",
       "location": "10.03N, 32.13W",
       "closest_teleport": "None.",
       "wilderness": false
     },
     {
       "coordinate": "12 degrees 05 minutes south, 38 degrees 58 minutes west",
+      "image_url": "https://oldschool.runescape.wiki/images/Sailing_icon.png?ebfec",
       "location": "12.05S, 38.58W",
       "closest_teleport": "58",
       "wilderness": false
     },
     {
       "coordinate": "13 degrees 46 minutes north, 21 degrees 01 minutes east",
+      "image_url": "https://oldschool.runescape.wiki/images/Yes_check.svg?4e3f5",
       "location": "13.46N, 21.01E",
       "closest_teleport": "None.",
       "wilderness": false
     },
     {
       "coordinate": "16 degrees 03 minutes north, 14 degrees 07 minutes east",
+      "image_url": "https://oldschool.runescape.wiki/images/Yes_check.svg?4e3f5",
       "location": "16.03N, 14.07E",
       "closest_teleport": "Start Troll Stronghold, bring climbing boots",
       "wilderness": false
     },
     {
       "coordinate": "16 degrees 07 minutes north, 22 degrees 45 minutes east",
+      "image_url": "https://oldschool.runescape.wiki/images/Yes_check.svg?4e3f5",
       "location": "16.07N, 22.45E",
       "closest_teleport": "None.",
       "wilderness": false
     },
     {
       "coordinate": "16 degrees 31 minutes north, 12 degrees 54 minutes east",
+      "image_url": "https://oldschool.runescape.wiki/images/Yes_check.svg?4e3f5",
       "location": "16.31N, 12.54E",
       "closest_teleport": "Partial completion of the Troll Stronghold quest",
       "wilderness": false
     },
     {
       "coordinate": "16 degrees 35 minutes north, 27 degrees 01 minutes east",
+      "image_url": "https://oldschool.runescape.wiki/images/Yes_check.svg?4e3f5",
       "location": "16.35N, 27.01E",
       "closest_teleport": "None.",
       "wilderness": false
     },
     {
       "coordinate": "16 degrees 43 minutes north, 19 degrees 13 minutes east",
+      "image_url": "https://oldschool.runescape.wiki/images/Yes_check.svg?4e3f5",
       "location": "16.43N, 19.13E",
       "closest_teleport": "None.",
       "wilderness": false
     },
     {
       "coordinate": "16 degrees 43 minutes north, 26 degrees 56 minutes east",
+      "image_url": "https://oldschool.runescape.wiki/images/Yes_check.svg?4e3f5",
       "location": "16.43N, 26.56E",
       "closest_teleport": "None.",
       "wilderness": false
     },
     {
       "coordinate": "16 degrees 45 minutes north, 03 degrees 05 minutes west",
+      "image_url": "https://oldschool.runescape.wiki/images/Yes_check.svg?4e3f5",
       "location": "16.45N, 03.05W",
       "closest_teleport": "Completion of Swan Song",
       "wilderness": false
     },
     {
       "coordinate": "16 degrees 48 minutes north, 30 degrees 01 minutes west",
+      "image_url": "https://oldschool.runescape.wiki/images/Yes_check.svg?4e3f5",
       "location": "16.48N, 30.01W",
       "closest_teleport": "None.",
       "wilderness": false
     },
     {
       "coordinate": "17 degrees 50 minutes north, 08 degrees 30 minutes east",
+      "image_url": "https://oldschool.runescape.wiki/images/Yes_check.svg?4e3f5",
       "location": "17.50N, 08.30E",
       "closest_teleport": "None.",
       "wilderness": false
     },
     {
       "coordinate": "18 degrees 22 minutes north, 16 degrees 33 minutes east",
+      "image_url": "https://oldschool.runescape.wiki/images/Yes_check.svg?4e3f5",
       "location": "18.22N, 16.33E",
       "closest_teleport": "None.",
       "wilderness": false
     },
     {
       "coordinate": "18 degrees 50 minutes north, 20 degrees 26 minutes east",
+      "image_url": "https://oldschool.runescape.wiki/images/Yes_check.svg?4e3f5",
       "location": "18.50N, 20.26E",
       "closest_teleport": "None.",
       "wilderness": false
     },
     {
       "coordinate": "19 degrees 00 minutes north, 27 degrees 13 minutes east",
+      "image_url": "https://oldschool.runescape.wiki/images/Yes_check.svg?4e3f5",
       "location": "19.00N, 27.13E",
       "closest_teleport": "None.",
       "wilderness": false
     },
     {
       "coordinate": "19 degrees 09 minutes north, 21 degrees 58 minutes east",
+      "image_url": "https://oldschool.runescape.wiki/images/Yes_check.svg?4e3f5",
       "location": "19.09N, 21.58E",
       "closest_teleport": "None.",
       "wilderness": false
     },
     {
       "coordinate": "19 degrees 24 minutes north, 30 degrees 37 minutes west",
+      "image_url": "https://oldschool.runescape.wiki/images/Yes_check.svg?4e3f5",
       "location": "19.24N, 30.37W",
       "closest_teleport": "None.",
       "wilderness": false
     },
     {
       "coordinate": "19 degrees 43 minutes north, 25 degrees 07 minutes east",
+      "image_url": "https://oldschool.runescape.wiki/images/Yes_check.svg?4e3f5",
       "location": "19.43N, 25.07E",
       "closest_teleport": "None.",
       "wilderness": false
     },
     {
       "coordinate": "20 degrees 05 minutes north, 21 degrees 52 minutes east",
+      "image_url": "https://oldschool.runescape.wiki/images/Yes_check.svg?4e3f5",
       "location": "20.05N, 21.52E",
       "closest_teleport": "None.",
       "wilderness": false
     },
     {
       "coordinate": "20 degrees 33 minutes north, 15 degrees 48 minutes east",
+      "image_url": "https://oldschool.runescape.wiki/images/Yes_check.svg?4e3f5",
       "location": "20.33N, 15.48E",
       "closest_teleport": "None.",
       "wilderness": false
     },
     {
       "coordinate": "20 degrees 45 minutes north, 41 degrees 35 minutes east",
+      "image_url": "https://oldschool.runescape.wiki/images/Yes_check.svg?4e3f5",
       "location": "20.45N, 41.35E",
       "closest_teleport": "Completed Bone Voyage",
       "wilderness": false
     },
     {
       "coordinate": "21 degrees 24 minutes north, 17 degrees 54 minutes east",
+      "image_url": "https://oldschool.runescape.wiki/images/Yes_check.svg?4e3f5",
       "location": "21.24N, 17.54E",
       "closest_teleport": "None.",
       "wilderness": false
     },
     {
       "coordinate": "22 degrees 35 minutes north, 19 degrees 18 minutes east",
+      "image_url": "https://oldschool.runescape.wiki/images/Yes_check.svg?4e3f5",
       "location": "22.35N, 19.18E",
       "closest_teleport": "None.",
       "wilderness": false
     },
     {
       "coordinate": "22 degrees 45 minutes north, 26 degrees 33 minutes east",
+      "image_url": "https://oldschool.runescape.wiki/images/Yes_check.svg?4e3f5",
       "location": "22.45N, 26.33E",
       "closest_teleport": "None.",
       "wilderness": false
     },
     {
       "coordinate": "23 degrees 03 minutes north, 41 degrees 24 minutes east",
+      "image_url": "https://oldschool.runescape.wiki/images/Yes_check.svg?4e3f5",
       "location": "23.03N, 41.24E",
       "closest_teleport": "Completion of Bone Voyage",
       "wilderness": false
     },
     {
       "coordinate": "23 degrees 03 minutes north, 02 degrees 01 minutes east",
+      "image_url": "https://oldschool.runescape.wiki/images/Yes_check.svg?4e3f5",
       "location": "23.03N, 02.01E",
       "closest_teleport": "Partial completion of Fairytale II - Cure a Queen for access to fairy rings.",
       "wilderness": false
     },
     {
       "coordinate": "23 degrees 30 minutes north, 16 degrees 33 minutes east",
+      "image_url": "https://oldschool.runescape.wiki/images/Yes_check.svg?4e3f5",
       "location": "23.30N, 16.33E",
       "closest_teleport": "None.",
       "wilderness": false
     },
     {
       "coordinate": "24 degrees 24 minutes north, 26 degrees 24 minutes east",
+      "image_url": "https://oldschool.runescape.wiki/images/Yes_check.svg?4e3f5",
       "location": "24.24N, 26.24E",
       "closest_teleport": "None.",
       "wilderness": false
     },
     {
       "coordinate": "24 degrees 56 minutes north, 22 degrees 28 minutes east",
+      "image_url": "https://oldschool.runescape.wiki/images/Yes_check.svg?4e3f5",
       "location": "24.56N, 22.28E",
       "closest_teleport": "None.",
       "wilderness": false
     },
     {
       "coordinate": "24 degrees 58 minutes north, 18 degrees 43 minutes east",
+      "image_url": "https://oldschool.runescape.wiki/images/Yes_check.svg?4e3f5",
       "location": "24.58N, 18.43E",
       "closest_teleport": "None.",
       "wilderness": false
     },
     {
       "coordinate": "25 degrees 03 minutes north, 17 degrees 05 minutes east",
+      "image_url": "https://oldschool.runescape.wiki/images/Yes_check.svg?4e3f5",
       "location": "25.03N, 17.05E",
       "closest_teleport": "None.",
       "wilderness": false
     },
     {
       "coordinate": "25 degrees 03 minutes north, 23 degrees 24 minutes east",
+      "image_url": "https://oldschool.runescape.wiki/images/Yes_check.svg?4e3f5",
       "location": "25.03N, 23.24E",
       "closest_teleport": "None.",
       "wilderness": false
     },
     {
       "coordinate": "00 degrees 18 minutes south, 02 degrees 35 minutes west",
+      "image_url": "https://oldschool.runescape.wiki/images/Yes_check.svg?4e3f5",
       "location": "00.18S, 02.35W",
       "closest_teleport": "Started Mourning's End Part I",
       "wilderness": false
     },
     {
       "coordinate": "00 degrees 35 minutes north, 35 degrees 50 minutes east",
+      "image_url": "https://oldschool.runescape.wiki/images/Yes_check.svg?4e3f5",
       "location": "00.35N, 35.50E",
       "closest_teleport": "Partial completion of Darkness of Hallowvale.",
       "wilderness": false
     },
     {
       "coordinate": "00 degrees 41 minutes north, 27 degrees 35 minutes west",
+      "image_url": "https://oldschool.runescape.wiki/images/Yes_check.svg?4e3f5",
       "location": "00.41N, 27.35W",
       "closest_teleport": "Completion of Children of the Sun",
       "wilderness": false
     },
     {
       "coordinate": "00 degrees 43 minutes north, 11 degrees 13 minutes west",
+      "image_url": "https://oldschool.runescape.wiki/images/Yes_check.svg?4e3f5",
       "location": "00.43N, 11.13W",
       "closest_teleport": "Completion of Pandemonium, 66 Sailing and an Adamant keel for traversing the crystal-flecked waters.",
       "wilderness": false
     },
     {
       "coordinate": "02 degrees 35 minutes south, 11 degrees 52 minutes east",
+      "image_url": "https://oldschool.runescape.wiki/images/Yes_check.svg?4e3f5",
       "location": "02.35S, 11.52E",
       "closest_teleport": "Jungle Potion quest and 100 trading sticks are required to enter.",
       "wilderness": false
     },
     {
       "coordinate": "02 degrees 37 minutes north, 27 degrees 09 minutes west",
+      "image_url": "https://oldschool.runescape.wiki/images/Yes_check.svg?4e3f5",
       "location": "02.37N, 27.09W",
       "closest_teleport": "Children of the Sun is required to access the Proudspire.",
       "wilderness": false
     },
     {
       "coordinate": "03 degrees 09 minutes south, 42 degrees 50 minutes east",
+      "image_url": "https://oldschool.runescape.wiki/images/Yes_check.svg?4e3f5",
       "location": "03.09S, 42.50E",
       "closest_teleport": "Cabin Fever",
       "wilderness": false
     },
     {
       "coordinate": "03 degrees 46 minutes north, 08 degrees 07 minutes west",
+      "image_url": "https://oldschool.runescape.wiki/images/Yes_check.svg?4e3f5",
       "location": "03.46N, 08.07W",
       "closest_teleport": "Regicide",
       "wilderness": false
     },
     {
       "coordinate": "05 degrees 07 minutes south, 13 degrees 26 minutes east",
+      "image_url": "https://oldschool.runescape.wiki/images/Yes_check.svg?4e3f5",
       "location": "05.07S, 13.26E",
       "closest_teleport": "Completion of the Shilo Village quest",
       "wilderness": false
     },
     {
       "coordinate": "05 degrees 18 minutes north, 6 degrees 48 minutes west",
+      "image_url": "https://oldschool.runescape.wiki/images/Yes_check.svg?4e3f5",
       "location": "05.18N, 6.48W",
       "closest_teleport": "Completion of the Song of the Elves quest",
       "wilderness": false
     },
     {
       "coordinate": "05 degrees 24 minutes south, 26 degrees 56 minutes east",
+      "image_url": "https://oldschool.runescape.wiki/images/Yes_check.svg?4e3f5",
       "location": "05.24S, 26.56E",
       "closest_teleport": "None.",
       "wilderness": false
     },
     {
       "coordinate": "05 degrees 39 minutes south, 02 degrees 13 minutes east",
+      "image_url": "https://oldschool.runescape.wiki/images/Yes_check.svg?4e3f5",
       "location": "05.39S, 02.13E",
       "closest_teleport": "None.",
       "wilderness": false
     },
     {
       "coordinate": "06 degrees 28 minutes south, 03 degrees 48 minutes west",
+      "image_url": "https://oldschool.runescape.wiki/images/Yes_check.svg?4e3f5",
       "location": "06.28S, 03.48W",
       "closest_teleport": "None.",
       "wilderness": false
     },
     {
       "coordinate": "06 degrees 35 minutes north, 09 degrees 07 minutes east",
+      "image_url": "https://oldschool.runescape.wiki/images/Yes_check.svg?4e3f5",
       "location": "06.35N, 09.07E",
       "closest_teleport": "Started Legends' Quest",
       "wilderness": false
     },
     {
       "coordinate": "08 degrees 15 minutes north, 35 degrees 24 minutes east",
+      "image_url": "https://oldschool.runescape.wiki/images/Yes_check.svg?4e3f5",
       "location": "08.15N, 35.24E",
       "closest_teleport": "Priest in Peril",
       "wilderness": false
     },
     {
       "coordinate": "08 degrees 30 minutes south, 10 degrees 48 minutes west",
+      "image_url": "https://oldschool.runescape.wiki/images/Yes_check.svg?4e3f5",
       "location": "08.30S, 10.48W",
       "closest_teleport": "None.",
       "wilderness": false
     },
     {
       "coordinate": "09 degrees 46 minutes south, 43 degrees 22 minutes east",
+      "image_url": "https://oldschool.runescape.wiki/images/Yes_check.svg?4e3f5",
       "location": "09.46S, 43.22E",
       "closest_teleport": "Started The Great Brain Robbery",
       "wilderness": false
     },
     {
       "coordinate": "10 degrees 05 minutes south, 24 degrees 31 minutes east",
+      "image_url": "https://oldschool.runescape.wiki/images/Yes_check.svg?4e3f5",
       "location": "10.05S, 24.31E",
       "closest_teleport": "None.",
       "wilderness": false
     },
     {
       "coordinate": "10 degrees 52 minutes north, 30 degrees 54 minutes west",
+      "image_url": "https://oldschool.runescape.wiki/images/Yes_check.svg?4e3f5",
       "location": "10.52N, 30.54W",
       "closest_teleport": "None.",
       "wilderness": false
     },
     {
       "coordinate": "10 degrees 54 minutes north, 20 degrees 50 minutes west",
+      "image_url": "https://oldschool.runescape.wiki/images/Yes_check.svg?4e3f5",
       "location": "10.54N, 20.50W",
       "closest_teleport": "None.",
       "wilderness": false
     },
     {
       "coordinate": "12 degrees 31 minutes north, 43 degrees 11 minutes east",
+      "image_url": "https://oldschool.runescape.wiki/images/Yes_check.svg?4e3f5",
       "location": "12.31N, 43.11E",
       "closest_teleport": "None.",
       "wilderness": false
     },
     {
       "coordinate": "12 degrees 35 minutes north, 36 degrees 20 minutes east",
+      "image_url": "https://oldschool.runescape.wiki/images/Agility_icon.png?389e0",
       "location": "12.35N, 36.20E",
       "closest_teleport": "25",
       "wilderness": false
     },
     {
       "coordinate": "13 degrees 45 minutes south, 15 degrees 30 minutes east",
+      "image_url": "https://oldschool.runescape.wiki/images/Yes_check.svg?4e3f5",
       "location": "13.45S, 15.30E",
       "closest_teleport": "Partial completion of Monkey Madness I",
       "wilderness": false
     },
     {
       "coordinate": "14 degrees 13 minutes south, 27 degrees 26 minutes east",
+      "image_url": "https://oldschool.runescape.wiki/images/Yes_check.svg?4e3f5",
       "location": "14.13S, 27.26E",
       "closest_teleport": "Partial completion of Beneath Cursed Sands",
       "wilderness": false
     },
     {
       "coordinate": "14 degrees 15 minutes south, 08 degrees 01 minutes east",
+      "image_url": "https://oldschool.runescape.wiki/images/Yes_check.svg?4e3f5",
       "location": "14.15S, 08.01E",
       "closest_teleport": "Partial completion of Monkey Madness I",
       "wilderness": false
     },
     {
       "coordinate": "16 degrees 09 minutes north, 10 degrees 33 minutes east",
+      "image_url": "https://oldschool.runescape.wiki/images/Yes_check.svg?4e3f5",
       "location": "16.09N, 10.33E",
       "closest_teleport": "A rope (if Mountain Daughter not completed)",
       "wilderness": false
     },
     {
       "coordinate": "17 degrees 58 minutes north, 19 degrees 05 minutes east",
+      "image_url": "https://oldschool.runescape.wiki/images/Yes_check.svg?4e3f5",
       "location": "17.58N, 19.05E",
       "closest_teleport": "None.",
       "wilderness": false
     },
     {
       "coordinate": "18 degrees 05 minutes north, 12 degrees 05 minutes east",
+      "image_url": "https://oldschool.runescape.wiki/images/Yes_check.svg?4e3f5",
       "location": "18.05N, 12.05E",
       "closest_teleport": "Access to Trollheim, requires quests",
       "wilderness": false
     },
     {
       "coordinate": "19 degrees 56 minutes north, 02 degrees 31 minutes west",
+      "image_url": "https://oldschool.runescape.wiki/images/Yes_check.svg?4e3f5",
       "location": "19.56N, 02.31W",
       "closest_teleport": "Partial completion of The Fremennik Isles",
       "wilderness": false
     },
     {
       "coordinate": "20 degrees 11 minutes north, 07 degrees 41 minutes west",
+      "image_url": "https://oldschool.runescape.wiki/images/Yes_check.svg?4e3f5",
       "location": "20.11N, 07.41W",
       "closest_teleport": "Started Lunar Diplomacy to access Pirates' Cove",
       "wilderness": false
     },
     {
       "coordinate": "20 degrees 13 minutes north, 08 degrees 07 minutes east",
+      "image_url": "https://oldschool.runescape.wiki/images/Yes_check.svg?4e3f5",
       "location": "20.13N, 08.07E",
       "closest_teleport": "None.",
       "wilderness": false
     },
     {
       "coordinate": "20 degrees 24 minutes north, 03 degrees 52 minutes west",
+      "image_url": "https://oldschool.runescape.wiki/images/Yes_check.svg?4e3f5",
       "location": "20.24N, 03.52W",
       "closest_teleport": "Started The Fremennik Isles to access Neitiznot",
       "wilderness": false
     },
     {
       "coordinate": "21 degrees 03 minutes north, 24 degrees 13 minutes east",
+      "image_url": "https://oldschool.runescape.wiki/images/Yes_check.svg?4e3f5",
       "location": "21.03N, 24.13E",
       "closest_teleport": "None.",
       "wilderness": false
     },
     {
       "coordinate": "22 degrees 54 minutes north, 29 degrees 01 minutes east",
+      "image_url": "https://oldschool.runescape.wiki/images/Yes_check.svg?4e3f5",
       "location": "22.54N, 29.01E",
       "closest_teleport": "None.",
       "wilderness": false
     },
     {
       "coordinate": "23 degrees 48 minutes north, 11 degrees 43 minutes west",
+      "image_url": "https://oldschool.runescape.wiki/images/Yes_check.svg?4e3f5",
       "location": "23.48N, 11.43W",
       "closest_teleport": "Started Lunar Diplomacy to access Lunar Isle",
       "wilderness": false
     },
     {
       "coordinate": "24 degrees 07 minutes north, 23 degrees 22 minutes east",
+      "image_url": "https://oldschool.runescape.wiki/images/Yes_check.svg?4e3f5",
       "location": "24.07N, 23.22E",
       "closest_teleport": "None.",
       "wilderness": false
     },
     {
       "coordinate": "24 degrees 15 minutes north, 13 degrees 30 minutes east",
+      "image_url": "https://oldschool.runescape.wiki/images/Yes_check.svg?4e3f5",
       "location": "24.15N, 13.30E",
       "closest_teleport": "Partial completion of Making Friends with My Arm",
       "wilderness": false
     },
     {
       "coordinate": "24 degrees 20 minutes north, 18 degrees 50 minutes east",
+      "image_url": "https://oldschool.runescape.wiki/images/Yes_check.svg?4e3f5",
       "location": "24.20N, 18.50E",
       "closest_teleport": "None.",
       "wilderness": false
     },
     {
       "coordinate": "25 degrees 03 minutes north, 29 degrees 22 minutes east",
+      "image_url": "https://oldschool.runescape.wiki/images/Yes_check.svg?4e3f5",
       "location": "25.03N, 29.22E",
       "closest_teleport": "None.",
       "wilderness": false
     },
     {
       "coordinate": "25 degrees 48 minutes north, 35 degrees 00 minutes east",
+      "image_url": "https://oldschool.runescape.wiki/images/Yes_check.svg?4e3f5",
       "location": "25.48N, 35.00E",
       "closest_teleport": "Partial completion of Dragon Slayer II",
       "wilderness": false
     },
     {
       "coordinate": "26 degrees 43 minutes north, 01 degrees 22 minutes east",
+      "image_url": "https://oldschool.runescape.wiki/images/Yes_check.svg?4e3f5",
       "location": "26.43N, 01.22E",
       "closest_teleport": "Partial completion of The Fremennik Exiles",
       "wilderness": false
     },
     {
       "coordinate": "01 degrees 30 minutes north, 08 degrees 11 minutes west",
+      "image_url": "https://oldschool.runescape.wiki/images/Yes_check.svg?4e3f5",
       "location": "01.30N,08.11W",
       "closest_teleport": "Regicide",
       "wilderness": false
     },
     {
       "coordinate": "01 degrees 54 minutes south, 08 degrees 54 minutes west",
+      "image_url": "https://oldschool.runescape.wiki/images/Yes_check.svg?4e3f5",
       "location": "01.54S, 08.54W",
       "closest_teleport": "Partial completion of Regicide",
       "wilderness": false
     },
     {
       "coordinate": "02 degrees 09 minutes south,06 degrees 58 minutes west",
+      "image_url": "https://oldschool.runescape.wiki/images/Yes_check.svg?4e3f5",
       "location": "02.09S,06.58W",
       "closest_teleport": "Partial completion of Fairytale II - Cure a Queen for access to fairy rings.",
       "wilderness": false
     },
     {
       "coordinate": "03 degrees 09 minutes south, 43 degrees 26 minutes east",
+      "image_url": "https://oldschool.runescape.wiki/images/Yes_check.svg?4e3f5",
       "location": "03.09S, 43.26E",
       "closest_teleport": "Cabin Fever",
       "wilderness": false
     },
     {
       "coordinate": "03 degrees 26 minutes north, 12 degrees 18 minutes east",
+      "image_url": "https://oldschool.runescape.wiki/images/Yes_check.svg?4e3f5",
       "location": "03.26N, 12.18E",
       "closest_teleport": "Partial completion of Dragon Slayer I",
       "wilderness": false
     },
     {
       "coordinate": "03 degrees 50 minutes north, 09 degrees 07 minutes east",
+      "image_url": "https://oldschool.runescape.wiki/images/Yes_check.svg?4e3f5",
       "location": "03.50N, 09.07E",
       "closest_teleport": "None.",
       "wilderness": false
     },
     {
       "coordinate": "04 degrees 58 minutes north, 36 degrees 56 minutes east",
+      "image_url": "https://oldschool.runescape.wiki/images/Yes_check.svg?4e3f5",
       "location": "04.58N, 36.56E",
       "closest_teleport": "Partial completion of Darkness of Hallowvale",
       "wilderness": false
     },
     {
       "coordinate": "05 degrees 13 minutes north, 04 degrees 16 minutes west",
+      "image_url": "https://oldschool.runescape.wiki/images/Yes_check.svg?4e3f5",
       "location": "05.13N, 04.16W",
       "closest_teleport": "Partial completion of Regicide",
       "wilderness": false
     },
     {
       "coordinate": "07 degrees 37 minutes north, 35 degrees 18 minutes east",
+      "image_url": "https://oldschool.runescape.wiki/images/Yes_check.svg?4e3f5",
       "location": "07.37N, 35.18E",
       "closest_teleport": "None.",
       "wilderness": false
     },
     {
       "coordinate": "08 degrees 01 minutes north, 20 degrees 58 minutes west",
+      "image_url": "https://oldschool.runescape.wiki/images/Yes_check.svg?4e3f5",
       "location": "08.01N, 20.58W",
       "closest_teleport": "None.",
       "wilderness": false
     },
     {
       "coordinate": "08 degrees 11 minutes north, 12 degrees 30 minutes east",
+      "image_url": "https://oldschool.runescape.wiki/images/Yes_check.svg?4e3f5",
       "location": "08.11N, 12.30E",
       "closest_teleport": "None.",
       "wilderness": false
     },
     {
       "coordinate": "12 degrees 35 minutes north, 36 degrees 22 minutes east",
+      "image_url": "https://oldschool.runescape.wiki/images/Agility_icon.png?389e0",
       "location": "12.35N, 36.22E",
       "closest_teleport": "25",
       "wilderness": false
     },
     {
       "coordinate": "12 degrees 45 minutes north, 20 degrees 09 minutes east",
+      "image_url": "https://oldschool.runescape.wiki/images/Yes_check.svg?4e3f5",
       "location": "12.45N, 20.09E",
       "closest_teleport": "None.",
       "wilderness": false
     },
     {
       "coordinate": "13 degrees 33 minutes south, 15 degrees 26 minutes east",
+      "image_url": "https://oldschool.runescape.wiki/images/Yes_check.svg?4e3f5",
       "location": "13.33S, 15.26E",
       "closest_teleport": "Partial completion of Monkey Madness I",
       "wilderness": false
     },
     {
       "coordinate": "16 degrees 41 minutes north, 30 degrees 54 minutes west",
+      "image_url": "https://oldschool.runescape.wiki/images/Yes_check.svg?4e3f5",
       "location": "16.41N, 30.54W",
       "closest_teleport": "None.",
       "wilderness": false
     },
     {
       "coordinate": "18 degrees 03 minutes north, 03 degrees 03 minutes east",
+      "image_url": "https://oldschool.runescape.wiki/images/Yes_check.svg?4e3f5",
       "location": "18.03N, 03.03E",
       "closest_teleport": "1,000 coins (or completion of The Fremennik Trials)",
       "wilderness": false
     },
     {
       "coordinate": "18 degrees 26 minutes north, 37 degrees 15 minutes west",
+      "image_url": "https://oldschool.runescape.wiki/images/Farming_icon.png?558fa",
       "location": "18.26N, 37.15W",
       "closest_teleport": "85",
       "wilderness": false
     },
     {
       "coordinate": "19 degrees 43 minutes north, 23 degrees 11 minutes west",
+      "image_url": "https://oldschool.runescape.wiki/images/Yes_check.svg?4e3f5",
       "location": "19.43N, 23.11W",
       "closest_teleport": "None.",
       "wilderness": false
     },
     {
       "coordinate": "20 degrees 35 minutes north, 15 degrees 58 minutes east",
+      "image_url": "https://oldschool.runescape.wiki/images/Yes_check.svg?4e3f5",
       "location": "20.35N, 15.58E",
       "closest_teleport": "None.",
       "wilderness": false
     },
     {
       "coordinate": "20 degrees 45 minutes north, 7 degrees 26 degrees west",
+      "image_url": "https://oldschool.runescape.wiki/images/Yes_check.svg?4e3f5",
       "location": "20.45N, 7.26.W",
       "closest_teleport": "Started Lunar Diplomacy to access Pirates' Cove",
       "wilderness": false
     },
     {
       "coordinate": "21 degrees 37 minutes north, 21 degrees 13 minutes west",
+      "image_url": "https://oldschool.runescape.wiki/images/Yes_check.svg?4e3f5",
       "location": "21.37N, 21.13W",
       "closest_teleport": "None.",
       "wilderness": false
     },
     {
       "coordinate": "21 degrees 56 minutes north, 10 degrees 56 minutes west",
+      "image_url": "https://oldschool.runescape.wiki/images/Yes_check.svg?4e3f5",
       "location": "21.56N, 10.56W",
       "closest_teleport": "Started Lunar Diplomacy",
       "wilderness": false
     },
     {
       "coordinate": "22 degrees 24 minutes north, 31 degrees 11 minutes west",
+      "image_url": "https://oldschool.runescape.wiki/images/Yes_check.svg?4e3f5",
       "location": "22.24N, 31.11W",
       "closest_teleport": "None.",
       "wilderness": false
     },
     {
       "coordinate": "24 degrees 00 minutes north,29 degrees 22 minutes east",
+      "image_url": "https://oldschool.runescape.wiki/images/Yes_check.svg?4e3f5",
       "location": "24.00N,29.22E",
       "closest_teleport": "None.",
       "wilderness": false
     },
     {
       "coordinate": "24 degrees 18 minutes north, 23 degrees 22 minutes east",
+      "image_url": "https://oldschool.runescape.wiki/images/Yes_check.svg?4e3f5",
       "location": "24.18N, 23.22E",
       "closest_teleport": "None.",
       "wilderness": false
     },
     {
       "coordinate": "24 degrees 22 minutes north, 27 degrees 00 minutes east",
+      "image_url": "https://oldschool.runescape.wiki/images/Yes_check.svg?4e3f5",
       "location": "24.22N, 27.00E",
       "closest_teleport": "None.",
       "wilderness": false
     },
     {
       "coordinate": "23 degrees 58 minutes north, 18 degrees 22 minutes east",
+      "image_url": "https://oldschool.runescape.wiki/images/Yes_check.svg?4e3f5",
       "location": "23.58N, 18.22E",
       "closest_teleport": "None.",
       "wilderness": false
@@ -3976,1125 +4097,1334 @@
   ],
   "emote": [
     {
-      "difficulty": "unknown",
+      "difficulty": "beginner",
       "clue": "Blow a raspberry at Aris in her tent. Equip a gold ring and a gold necklace.",
-      "location": "",
-      "emotes": [
-        "Aris can be found in her tent at Varrock Square."
+      "items": [
+        "Gold ring",
+        "Gold necklace"
       ],
-      "items_required": []
+      "notes": "Aris can be found in her tent at Varrock Square.",
+      "map_image_url": "https://oldschool.runescape.wiki/images/thumb/Emote_clue_-_raspberry_gypsy_aris.png/150px-Emote_clue_-_raspberry_gypsy_aris.png?96e58"
     },
     {
-      "difficulty": "unknown",
+      "difficulty": "beginner",
       "clue": "Bow to Brugsen Bursen at the Grand Exchange.",
-      "location": "",
-      "emotes": [
-        "Brugsen Bursen is found inside the Grand Exchange."
-      ],
-      "items_required": []
+      "items": [],
+      "notes": "Brugsen Bursen is found inside the Grand Exchange.",
+      "map_image_url": "https://oldschool.runescape.wiki/images/thumb/Emote_clue_-_bow_Brugsen_Bursen.png/150px-Emote_clue_-_bow_Brugsen_Bursen.png?e40de"
     },
     {
-      "difficulty": "unknown",
+      "difficulty": "beginner",
       "clue": "Cheer at Iffie Nitter. Equip a chef's hat and a red cape.",
-      "location": "",
-      "emotes": [
-        "Iffie can be found in Thessalia's Fine Clothes store in Varrock."
+      "items": [
+        "Chef's hat",
+        "Red cape"
       ],
-      "items_required": []
+      "notes": "Iffie can be found in Thessalia's Fine Clothes store in Varrock.",
+      "map_image_url": "https://oldschool.runescape.wiki/images/thumb/Emote_clue_-_cheer_iffie_nitter.png/150px-Emote_clue_-_cheer_iffie_nitter.png?d9507"
     },
     {
-      "difficulty": "unknown",
+      "difficulty": "beginner",
       "clue": "Clap at Bob's Brilliant Axes. Equip a bronze axe and leather boots.",
-      "location": "",
-      "emotes": [
-        "Bob's Brilliant Axes is located in south Lumbridge",
-        "right outside Lumbridge Castle."
+      "items": [
+        "Bronze axe",
+        "Leather boots"
       ],
-      "items_required": []
+      "notes": "Bob's Brilliant Axes is located in south Lumbridge, right outside Lumbridge Castle.",
+      "map_image_url": "https://oldschool.runescape.wiki/images/thumb/Emote_clue_-_clap_bobs_brilliant_axes.png/150px-Emote_clue_-_clap_bobs_brilliant_axes.png?3f8af"
     },
     {
-      "difficulty": "unknown",
+      "difficulty": "beginner",
       "clue": "Panic at Al Kharid mine.",
-      "location": "",
-      "emotes": [
-        "Al Kharid mine is located just north of Al Kharid. The area is quite large",
-        "so the step can also be completed at the southern entrance of the mine or standing in the north-western corner outside the mine."
-      ],
-      "items_required": []
+      "items": [],
+      "notes": "Al Kharid mine is located just north of Al Kharid. The area is quite large, so the step can also be completed at the southern entrance of the mine or standing in the north-western corner outside the mine.",
+      "map_image_url": "https://oldschool.runescape.wiki/images/thumb/Emote_clue_-_panic_al_kharid_mine.png/150px-Emote_clue_-_panic_al_kharid_mine.png?d2a3e"
     },
     {
-      "difficulty": "unknown",
+      "difficulty": "beginner",
       "clue": "Spin at Flynn's Mace Shop.",
-      "location": "",
-      "emotes": [
-        "Flynn's Mace Market is located near the north entrance of Falador."
-      ],
-      "items_required": []
+      "items": [],
+      "notes": "Flynn's Mace Market is located near the north entrance of Falador.",
+      "map_image_url": "https://oldschool.runescape.wiki/images/thumb/Emote_clue_-_spin_mace_market.png/150px-Emote_clue_-_spin_mace_market.png?a33c1"
     },
     {
       "difficulty": "easy",
       "clue": "Blow a raspberry at the monkey cage in Ardougne Zoo. Equip a studded leather body, bronze platelegs and a normal staff with no orb.",
-      "location": "",
-      "emotes": [],
-      "items_required": []
+      "items": [
+        "Studded body",
+        "Bronze platelegs",
+        "Staff"
+      ],
+      "notes": "",
+      "map_image_url": "https://oldschool.runescape.wiki/images/thumb/Emote_clue_-_raspberry_monkey_cage_zoo.png/150px-Emote_clue_-_raspberry_monkey_cage_zoo.png?3d926"
     },
     {
       "difficulty": "easy",
       "clue": "Blow raspberries outside the entrance to Keep Le Faye. Equip a coif, an iron platebody and leather gloves.",
-      "location": "",
-      "emotes": [
-        "Keep Le Faye can be found south of Seers' Village",
-        "and can be easily reached by using Camelot Teleport then running south",
-        "or by using fairy ring code BLR"
+      "items": [
+        "Coif",
+        "Iron platebody",
+        "Leather gloves"
       ],
-      "items_required": []
+      "notes": "Keep Le Faye can be found south of Seers' Village, and can be easily reached by using Camelot Teleport then running south, or by using fairy ring code BLR",
+      "map_image_url": "https://oldschool.runescape.wiki/images/thumb/Emote_clue_-_raspberry_keep_le_faye.png/150px-Emote_clue_-_raspberry_keep_le_faye.png?4cbd5"
     },
     {
       "difficulty": "easy",
       "clue": "Bow in the office of the Emir's Arena. Equip an iron chain body, leather chaps and coif.",
-      "location": "",
-      "emotes": [],
-      "items_required": []
+      "items": [
+        "Iron chainbody",
+        "Leather chaps",
+        "Coif"
+      ],
+      "notes": "",
+      "map_image_url": "https://oldschool.runescape.wiki/images/thumb/Emote_clue_-_bow_ticket_office_duel_arena.png/150px-Emote_clue_-_bow_ticket_office_duel_arena.png?b6cfa"
     },
     {
       "difficulty": "easy",
       "clue": "Bow outside the entrance to the Legends' Guild. Equip iron platelegs, an emerald amulet and an oak longbow.",
-      "location": "",
-      "emotes": [],
-      "items_required": []
+      "items": [
+        "Iron platelegs",
+        "Emerald amulet",
+        "Oak longbow"
+      ],
+      "notes": "",
+      "map_image_url": "https://oldschool.runescape.wiki/images/thumb/Emote_clue_-_bow_legends_guild.png/150px-Emote_clue_-_bow_legends_guild.png?938db"
     },
     {
       "difficulty": "easy",
       "clue": "Cheer at the Druids' Circle. Equip a blue wizard hat, a bronze two-handed sword and HAM boots.",
-      "location": "",
-      "emotes": [],
-      "items_required": []
+      "items": [
+        "Blue wizard hat",
+        "Bronze 2h sword",
+        "Ham boots"
+      ],
+      "notes": "",
+      "map_image_url": "https://oldschool.runescape.wiki/images/thumb/Emote_clue_-_cheer_druid_circle.png/150px-Emote_clue_-_cheer_druid_circle.png?6c791"
     },
     {
       "difficulty": "easy",
       "clue": "Cheer at the games room. Have nothing equipped at all when you do.",
-      "location": "Nothing",
-      "emotes": [
-        "The basement of the Burthorpe Games Room in Burthorpe."
+      "items": [
+        "Nothing"
       ],
-      "items_required": []
+      "notes": "The basement of the Burthorpe Games Room in Burthorpe.",
+      "map_image_url": "https://oldschool.runescape.wiki/images/thumb/Emote_clue_-_cheer_games_room.png/150px-Emote_clue_-_cheer_games_room.png?bd538"
     },
     {
       "difficulty": "easy",
       "clue": "Cheer for the monks at Port Sarim. Equip a coif, steel plateskirt and a sapphire necklace.",
-      "location": "",
-      "emotes": [
-        "Requires 20 Ranged for equipping the coif."
+      "items": [
+        "Coif",
+        "Steel plateskirt",
+        "Sapphire necklace"
       ],
-      "items_required": []
+      "notes": "Requires 20 Ranged for equipping the coif.",
+      "map_image_url": "https://oldschool.runescape.wiki/images/thumb/Emote_clue_-_cheer_monks_port_sarim.png/150px-Emote_clue_-_cheer_monks_port_sarim.png?b4818"
     },
     {
       "difficulty": "easy",
       "clue": "Clap in the main exam room in the Exam Centre. Equip a white apron, green gnome boots and leather gloves.",
-      "location": "",
-      "emotes": [
-        "The Exam Centre is located east of Varrock",
-        "just south of the Digsite."
+      "items": [
+        "White apron",
+        "Green boots",
+        "Leather gloves"
       ],
-      "items_required": []
+      "notes": "The Exam Centre is located east of Varrock, just south of the Digsite.",
+      "map_image_url": "https://oldschool.runescape.wiki/images/thumb/Emote_clue_-_clap_exam_centre.png/150px-Emote_clue_-_clap_exam_centre.png?24bdd"
     },
     {
       "difficulty": "easy",
       "clue": "Clap on the causeway to the Wizards' Tower. Equip an iron medium helmet, emerald ring and a white apron.",
-      "location": "",
-      "emotes": [],
-      "items_required": []
+      "items": [
+        "Iron med helm",
+        "Emerald ring",
+        "White apron"
+      ],
+      "notes": "",
+      "map_image_url": "https://oldschool.runescape.wiki/images/thumb/Emote_clue_-_clap_causeway_wizards_tower.png/150px-Emote_clue_-_clap_causeway_wizards_tower.png?9cade"
     },
     {
       "difficulty": "easy",
       "clue": "Clap on the top level of the mill, north of East Ardougne. Equip a blue gnome robe top, HAM robe bottom and an unenchanted tiara.",
-      "location": "",
-      "emotes": [],
-      "items_required": []
+      "items": [
+        "Blue robe top",
+        "Ham robe",
+        "Tiara"
+      ],
+      "notes": "",
+      "map_image_url": "https://oldschool.runescape.wiki/images/thumb/Emote_clue_-_clap_mill_north_ardougne.png/150px-Emote_clue_-_clap_mill_north_ardougne.png?c4041"
     },
     {
       "difficulty": "easy",
       "clue": "Dance a jig behind the bar on the Pandemonium. Equip a right eye patch and a bronze scimitar.",
-      "location": "",
-      "emotes": [],
-      "items_required": []
+      "items": [
+        "Right eye patch",
+        "Bronze scimitar"
+      ],
+      "notes": "",
+      "map_image_url": "https://oldschool.runescape.wiki/images/thumb/Emote_clue_-_dance_jig_Pandemonium_bar.png/150px-Emote_clue_-_dance_jig_Pandemonium_bar.png?c4a86"
     },
     {
       "difficulty": "easy",
       "clue": "Dance a jig by the entrance to the Fishing Guild. Equip an emerald ring, a sapphire amulet, and a bronze chain body.",
-      "location": "",
-      "emotes": [],
-      "items_required": []
+      "items": [
+        "Emerald ring",
+        "Sapphire amulet",
+        "Bronze chainbody"
+      ],
+      "notes": "",
+      "map_image_url": "https://oldschool.runescape.wiki/images/thumb/Emote_clue_-_dance_jig_fishing_guild_entrance.png/150px-Emote_clue_-_dance_jig_fishing_guild_entrance.png?f2631"
     },
     {
       "difficulty": "easy",
       "clue": "Dance at the crossroads north of Draynor. Equip an iron chain body, a sapphire ring and a longbow.",
-      "location": "",
-      "emotes": [],
-      "items_required": []
+      "items": [
+        "Iron chainbody",
+        "Sapphire ring",
+        "Longbow"
+      ],
+      "notes": "",
+      "map_image_url": "https://oldschool.runescape.wiki/images/thumb/Emote_clue_-_dance_draynor_crossroads.png/150px-Emote_clue_-_dance_draynor_crossroads.png?a1d85"
     },
     {
       "difficulty": "easy",
       "clue": "Dance at the entrance to the Grand Exchange. Equip a pink skirt, pink robe top and a body tiara.",
-      "location": "",
-      "emotes": [
-        "Important note: Pink skirt from Varrock",
-        "Pink robe top from Gnome Stronghold. Be aware of this!"
+      "items": [
+        "Pink skirt",
+        "Pink robe top",
+        "Body tiara"
       ],
-      "items_required": []
+      "notes": "Important note: Pink skirt from Varrock, Pink robe top from Gnome Stronghold. Be aware of this!",
+      "map_image_url": "https://oldschool.runescape.wiki/images/thumb/Emote_clue_-_dance_ge_entrance.png/150px-Emote_clue_-_dance_ge_entrance.png?24cec"
     },
     {
       "difficulty": "easy",
       "clue": "Dance in the Party Room. Equip a steel full helmet, steel platebody and an iron plateskirt.",
-      "location": "",
-      "emotes": [],
-      "items_required": []
+      "items": [
+        "Steel full helm",
+        "Steel platebody",
+        "Iron plateskirt"
+      ],
+      "notes": "",
+      "map_image_url": "https://oldschool.runescape.wiki/images/thumb/Emote_clue_-_dance_falador_party_room.png/150px-Emote_clue_-_dance_falador_party_room.png?64efc"
     },
     {
       "difficulty": "easy",
       "clue": "Dance in the shack in Lumbridge Swamp. Equip a bronze dagger, iron full helmet and a gold ring.",
-      "location": "",
-      "emotes": [
-        "This step provides players who have completed the Lumbridge and Draynor elite diary an option to enter the shed. Those players are otherwise unable to enter without teleporting to Zanaris."
+      "items": [
+        "Bronze dagger",
+        "Iron full helm",
+        "Gold ring"
       ],
-      "items_required": []
+      "notes": "This step provides players who have completed the Lumbridge and Draynor elite diary an option to enter the shed. Those players are otherwise unable to enter without teleporting to Zanaris.",
+      "map_image_url": "https://oldschool.runescape.wiki/images/thumb/Emote_clue_-_dance_shack_lumbridge_swamp.png/150px-Emote_clue_-_dance_shack_lumbridge_swamp.png?44551"
     },
     {
       "difficulty": "easy",
       "clue": "Do a jig in Varrock's rune store. Equip an air tiara and a staff of water.",
-      "location": "",
-      "emotes": [],
-      "items_required": []
+      "items": [
+        "Air tiara",
+        "Staff of water"
+      ],
+      "notes": "",
+      "map_image_url": "https://oldschool.runescape.wiki/images/thumb/Emote_clue_-_dance_jig_varrock_rune_store.png/150px-Emote_clue_-_dance_jig_varrock_rune_store.png?86004"
     },
     {
       "difficulty": "easy",
       "clue": "Headbang in the mine north of Al Kharid. Equip a desert shirt, leather gloves and leather boots.",
-      "location": "",
-      "emotes": [],
-      "items_required": []
+      "items": [
+        "Desert shirt",
+        "Leather gloves",
+        "Leather boots"
+      ],
+      "notes": "",
+      "map_image_url": "https://oldschool.runescape.wiki/images/thumb/Emote_clue_-_headbang_al_kharid_mine.png/150px-Emote_clue_-_headbang_al_kharid_mine.png?cab6e"
     },
     {
       "difficulty": "easy",
       "clue": "Jump for joy at the beehives. Equip a desert shirt, green gnome robe bottoms and a steel axe.",
-      "location": "",
-      "emotes": [
-        "Beehives are located west of Catherby."
+      "items": [
+        "Desert shirt",
+        "Green robe bottoms",
+        "Steel axe"
       ],
-      "items_required": []
+      "notes": "Beehives are located west of Catherby.",
+      "map_image_url": "https://oldschool.runescape.wiki/images/thumb/Emote_clue_-_jump_joy_beehives.png/150px-Emote_clue_-_jump_joy_beehives.png?bc029"
     },
     {
       "difficulty": "easy",
       "clue": "Laugh at the crossroads south of the Sinclair mansion. Equip a cowl, a blue wizard robe top and an iron scimitar.",
-      "location": "",
-      "emotes": [],
-      "items_required": []
+      "items": [
+        "Leather cowl",
+        "Iron scimitar",
+        "Blue wizard robe"
+      ],
+      "notes": "",
+      "map_image_url": "https://oldschool.runescape.wiki/images/thumb/Emote_clue_-_laugh_sinclair_crossroads.png/150px-Emote_clue_-_laugh_sinclair_crossroads.png?32692"
     },
     {
       "difficulty": "easy",
       "clue": "Panic in the Limestone Mine. Equip bronze platelegs, a steel pickaxe and a steel medium helmet.",
-      "location": "",
-      "emotes": [
-        "Located east of the Lumber Yard."
+      "items": [
+        "Bronze platelegs",
+        "Steel pickaxe",
+        "Steel med helm"
       ],
-      "items_required": []
+      "notes": "Located east of the Lumber Yard.",
+      "map_image_url": "https://oldschool.runescape.wiki/images/thumb/Emote_clue_-_panic_limestone_mine.png/150px-Emote_clue_-_panic_limestone_mine.png?b1991"
     },
     {
       "difficulty": "easy",
       "clue": "Panic on the pier where you catch the Fishing trawler. Have nothing equipped at all when you do.",
-      "location": "None",
-      "emotes": [
-        "Northernmost dock in Port Khazard",
-        "east of the Fight Arena."
+      "items": [
+        "None"
       ],
-      "items_required": []
+      "notes": "Northernmost dock in Port Khazard, east of the Fight Arena.",
+      "map_image_url": "https://oldschool.runescape.wiki/images/thumb/Emote_clue_-_panic_pier_fishing_trawler.png/150px-Emote_clue_-_panic_pier_fishing_trawler.png?eb497"
     },
     {
       "difficulty": "easy",
       "clue": "Shrug in the mine near Rimmington. Equip a gold necklace, a gold ring and a bronze spear.",
-      "location": "",
-      "emotes": [],
-      "items_required": []
+      "items": [
+        "Gold necklace",
+        "Gold ring",
+        "Bronze spear"
+      ],
+      "notes": "",
+      "map_image_url": "https://oldschool.runescape.wiki/images/thumb/Emote_clue_-_shrug_rimmington_mine.png/150px-Emote_clue_-_shrug_rimmington_mine.png?b61e4"
     },
     {
       "difficulty": "easy",
       "clue": "Spin at the crossroads north of Rimmington. Equip a green gnome hat, cream gnome top and leather chaps.",
-      "location": "",
-      "emotes": [],
-      "items_required": []
+      "items": [
+        "Green hat",
+        "Cream robe top",
+        "Leather chaps"
+      ],
+      "notes": "",
+      "map_image_url": "https://oldschool.runescape.wiki/images/thumb/Emote_clue_-_spin_rimmington_crossroads.png/150px-Emote_clue_-_spin_rimmington_crossroads.png?a61d7"
     },
     {
       "difficulty": "easy",
       "clue": "Spin in Draynor Manor by the fountain. Equip an iron platebody, studded leather chaps and a bronze full helmet.",
-      "location": "",
-      "emotes": [],
-      "items_required": []
+      "items": [
+        "Iron platebody",
+        "Studded chaps",
+        "Bronze full helm"
+      ],
+      "notes": "",
+      "map_image_url": "https://oldschool.runescape.wiki/images/thumb/Emote_clue_-_spin_draynor_manor_fountain.png/150px-Emote_clue_-_spin_draynor_manor_fountain.png?4069d"
     },
     {
       "difficulty": "easy",
       "clue": "Spin in the Varrock Castle courtyard. Equip a black axe, a coif and a ruby ring.",
-      "location": "",
-      "emotes": [],
-      "items_required": []
+      "items": [
+        "Black axe",
+        "Coif",
+        "Ruby ring"
+      ],
+      "notes": "",
+      "map_image_url": "https://oldschool.runescape.wiki/images/thumb/Emote_clue_-_spin_varrock_castle_courtyard.png/150px-Emote_clue_-_spin_varrock_castle_courtyard.png?c8196"
     },
     {
       "difficulty": "easy",
       "clue": "Think in middle of the wheat field by the Lumbridge mill. Equip a blue gnome robetop, a turquoise gnome robe bottom and an oak shortbow.",
-      "location": "",
-      "emotes": [],
-      "items_required": []
+      "items": [
+        "Blue robe top",
+        "Turquoise robe bottoms",
+        "Oak shortbow"
+      ],
+      "notes": "",
+      "map_image_url": "https://oldschool.runescape.wiki/images/thumb/Emote_clue_-_think_lumbridge_mill_wheat_field.png/150px-Emote_clue_-_think_lumbridge_mill_wheat_field.png?7b191"
     },
     {
       "difficulty": "easy",
       "clue": "Wave along the south fence of the Lumber Yard. Equip a hard leather body, leather chaps and a bronze axe.",
-      "location": "",
-      "emotes": [],
-      "items_required": []
+      "items": [
+        "Hardleather body",
+        "Leather chaps",
+        "Bronze axe"
+      ],
+      "notes": "",
+      "map_image_url": "https://oldschool.runescape.wiki/images/thumb/Emote_clue_-_wave_south_fence_lumber_yard.png/150px-Emote_clue_-_wave_south_fence_lumber_yard.png?0743d"
     },
     {
       "difficulty": "easy",
       "clue": "Wave in the Falador gem store. Equip a Mithril pickaxe, Black platebody and an Iron Kiteshield.",
-      "location": "",
-      "emotes": [],
-      "items_required": []
+      "items": [
+        "Mithril pickaxe",
+        "Black platebody",
+        "Iron kiteshield"
+      ],
+      "notes": "",
+      "map_image_url": "https://oldschool.runescape.wiki/images/thumb/Emote_clue_-_wave_falador_gem_store.png/150px-Emote_clue_-_wave_falador_gem_store.png?2629f"
     },
     {
       "difficulty": "easy",
       "clue": "Wave on Mudskipper Point. Equip a black cape, leather chaps and a steel mace.",
-      "location": "",
-      "emotes": [
-        "The fairy ring code AIQ teleports you to the correct spot."
+      "items": [
+        "Black cape",
+        "Leather chaps",
+        "Steel mace"
       ],
-      "items_required": []
+      "notes": "The fairy ring code AIQ teleports you to the correct spot.",
+      "map_image_url": "https://oldschool.runescape.wiki/images/thumb/Emote_clue_-_wave_mudskipper_point.png/150px-Emote_clue_-_wave_mudskipper_point.png?9d634"
     },
     {
       "difficulty": "easy",
       "clue": "Yawn in Draynor Marketplace. Equip studded leather chaps, an iron kiteshield and a steel longsword.",
-      "location": "",
-      "emotes": [],
-      "items_required": []
+      "items": [
+        "Studded chaps",
+        "Iron kiteshield",
+        "Steel longsword"
+      ],
+      "notes": "",
+      "map_image_url": "https://oldschool.runescape.wiki/images/thumb/Emote_clue_-_yawn_draynor_marketplace.png/150px-Emote_clue_-_yawn_draynor_marketplace.png?2e301"
     },
     {
       "difficulty": "easy",
       "clue": "Yawn in the Fortis Grand Museum. Equip an emerald necklace, blue skirt, and turquoise gnome robe top.",
-      "location": "",
-      "emotes": [],
-      "items_required": []
+      "items": [
+        "Emerald necklace",
+        "Blue skirt",
+        "Turquoise robe top"
+      ],
+      "notes": "",
+      "map_image_url": "https://oldschool.runescape.wiki/images/thumb/Emote_clue_-_yawn_Grand_Museum.png/150px-Emote_clue_-_yawn_Grand_Museum.png?8c528"
     },
     {
       "difficulty": "easy",
       "clue": "Yawn in the Varrock library. Equip a green gnome robe top, HAM robe bottom and an iron warhammer.",
-      "location": "",
-      "emotes": [],
-      "items_required": []
+      "items": [
+        "Green robe top",
+        "Ham robe",
+        "Iron warhammer"
+      ],
+      "notes": "",
+      "map_image_url": "https://oldschool.runescape.wiki/images/thumb/Emote_clue_-_yawn_varrock_library.png/150px-Emote_clue_-_yawn_varrock_library.png?a5881"
     },
     {
       "difficulty": "medium",
       "clue": "Beckon in Tai Bwo Wannai. Clap before you talk to me. Equip green d'hide chaps, a ring of dueling and a mithril med helm.",
-      "location": "",
-      "emotes": [
-        "Do the emotes within the barricaded part of Tai Bwo Wannai."
+      "items": [
+        "Green d'hide chaps",
+        "Ring of dueling",
+        "Mithril med helm"
       ],
-      "items_required": []
+      "notes": "Do the emotes within the barricaded part of Tai Bwo Wannai.",
+      "map_image_url": "https://oldschool.runescape.wiki/images/thumb/Emote_clue_-_beckon_tai_bwo_wannai.png/150px-Emote_clue_-_beckon_tai_bwo_wannai.png?473ea"
     },
     {
       "difficulty": "medium",
       "clue": "Beckon in the Digsite, near the eastern winch. Bow before you talk to me. Equip a green hat, snakeskin boots and an iron pickaxe.",
-      "location": "",
-      "emotes": [],
-      "items_required": []
+      "items": [
+        "Green hat",
+        "Snakeskin boots",
+        "Iron pickaxe"
+      ],
+      "notes": "",
+      "map_image_url": "https://oldschool.runescape.wiki/images/thumb/Emote_clue_-_beckon_digsite_winch.png/150px-Emote_clue_-_beckon_digsite_winch.png?45c05"
     },
     {
       "difficulty": "medium",
       "clue": "Beckon in the Shayzien Combat Ring. Show your anger before you talk to me. Equip an adamant platebody, adamant full helm and adamant platelegs.",
-      "location": "",
-      "emotes": [
-        "The Combat Ring of Shayzien is located south-east of the bank. Other versions of the adamant platebody and legs do not work."
+      "items": [
+        "Adamant platebody",
+        "Adamant full helm",
+        "Adamant platelegs"
       ],
-      "items_required": []
+      "notes": "The Combat Ring of Shayzien is located south-east of the bank. Other versions of the adamant platebody and legs do not work.",
+      "map_image_url": "https://oldschool.runescape.wiki/images/thumb/Emote_clue_-_beckon_shayzien_ring.png/150px-Emote_clue_-_beckon_shayzien_ring.png?34843"
     },
     {
       "difficulty": "medium",
       "clue": "Cheer in the Barbarian Agility Arena. Headbang before you talk to me. Equip a steel platebody, maple shortbow and a Wilderness cape.",
-      "location": "",
-      "emotes": [
-        "Requires miniquest Alfred Grimhand's Barcrawl and 30 in Ranged (to wield the maple shortbow) While level 35 Agility is required to enter the arena itself",
-        "the clue can be completed without it. Upon entering from the gate",
-        "walk into the building located to the south. Inside the building",
-        "walk to the most south-eastern corner",
-        "and do the emote. The Team cape i",
-        "Team cape x and Team cape zero can also be used."
+      "items": [
+        "Steel platebody",
+        "Maple shortbow",
+        "Team cape"
       ],
-      "items_required": []
+      "notes": "Requires miniquest Alfred Grimhand's Barcrawl and 30 in Ranged (to wield the maple shortbow) While level 35 Agility is required to enter the arena itself, the clue can be completed without it. Upon entering from the gate, walk into the building located to the south. Inside the building, walk to the most south-eastern corner, and do the emote. The Team cape i, Team cape x and Team cape zero can also be used.",
+      "map_image_url": "https://oldschool.runescape.wiki/images/thumb/Emote_clue_-_cheer_headbang_barbarian_agility.png/150px-Emote_clue_-_cheer_headbang_barbarian_agility.png?d6491"
     },
     {
       "difficulty": "medium",
       "clue": "Cheer in the Edgeville general store. Dance before you talk to me. Equip a brown apron, leather boots and leather gloves.",
-      "location": "",
-      "emotes": [],
-      "items_required": []
+      "items": [
+        "Brown apron",
+        "Leather boots",
+        "Leather gloves"
+      ],
+      "notes": "",
+      "map_image_url": "https://oldschool.runescape.wiki/images/thumb/Emote_clue_-_cheer_edgeville_general_store.png/150px-Emote_clue_-_cheer_edgeville_general_store.png?dde71"
     },
     {
       "difficulty": "medium",
       "clue": "Cheer in the Ogre Pen in the Training Camp. Show you are angry before you talk to me. Equip a green d'hide body and chaps and a steel square shield.",
-      "location": "",
-      "emotes": [
-        "Access to the Combat Training Camp requires completion of the Biohazard quest. Equipping the green d'hide body requires completion of Dragon Slayer I."
+      "items": [
+        "Green d'hide body",
+        "Green d'hide chaps",
+        "Steel sq shield"
       ],
-      "items_required": []
+      "notes": "Access to the Combat Training Camp requires completion of the Biohazard quest. Equipping the green d'hide body requires completion of Dragon Slayer I.",
+      "map_image_url": "https://oldschool.runescape.wiki/images/thumb/Emote_clue_-_cheer_ogre_training_camp.png/150px-Emote_clue_-_cheer_ogre_training_camp.png?c1b46"
     },
     {
       "difficulty": "medium",
       "clue": "Clap in Seers court house. Spin before you talk to me. Equip an adamant halberd, blue mystic robe bottom and a diamond ring.",
-      "location": "",
-      "emotes": [
-        "Ironman accounts must start the Regicide quest to purchase an adamant halberd. These can also be obtained as loot from Bull sharks ."
+      "items": [
+        "Adamant halberd",
+        "Mystic robe bottom",
+        "Diamond ring"
       ],
-      "items_required": []
+      "notes": "Ironman accounts must start the Regicide quest to purchase an adamant halberd. These can also be obtained as loot from Bull sharks .",
+      "map_image_url": "https://oldschool.runescape.wiki/images/thumb/Emote_clue_-_clap_seers_court_house.png/150px-Emote_clue_-_clap_seers_court_house.png?1f0c8"
     },
     {
       "difficulty": "medium",
       "clue": "Clap your hands north of Mount Karuulm. Spin before you talk to me. Equip an adamant warhammer, mithril boots and a ring of life.",
-      "location": "",
-      "emotes": [
-        "Fairy ring code CIR or Battlefront teleport",
-        "and run to the northern end of the volcano."
+      "items": [
+        "Adamant warhammer",
+        "Mithril boots",
+        "Ring of life"
       ],
-      "items_required": []
+      "notes": "Fairy ring code CIR or Battlefront teleport, and run to the northern end of the volcano.",
+      "map_image_url": "https://oldschool.runescape.wiki/images/thumb/Emote_clue_-_clap_Mount_Karuulm.png/150px-Emote_clue_-_clap_Mount_Karuulm.png?298f9"
     },
     {
       "difficulty": "medium",
       "clue": "Cry in the Catherby Ranging shop. Bow before you talk to me. Equip blue gnome boots, a hard leather body and an unblessed silver sickle.",
-      "location": "",
-      "emotes": [],
-      "items_required": []
+      "items": [
+        "Blue boots",
+        "Hardleather body",
+        "Silver sickle"
+      ],
+      "notes": "",
+      "map_image_url": "https://oldschool.runescape.wiki/images/thumb/Emote_clue_-_cry_catherby_ranging_shop.png/150px-Emote_clue_-_cry_catherby_ranging_shop.png?d7a95"
     },
     {
       "difficulty": "medium",
       "clue": "Cry in the Draynor Village jail. Jump for joy before you talk to me. Equip an adamant sword, a sapphire amulet and an adamant plateskirt.",
-      "location": "",
-      "emotes": [],
-      "items_required": []
+      "items": [
+        "Adamant sword",
+        "Sapphire amulet",
+        "Adamant plateskirt"
+      ],
+      "notes": "",
+      "map_image_url": "https://oldschool.runescape.wiki/images/thumb/Emote_clue_-_cry_draynor_jail.png/150px-Emote_clue_-_cry_draynor_jail.png?5af2f"
     },
     {
       "difficulty": "medium",
       "clue": "Cry on the shore of Catherby beach. Laugh before you talk to me. Equip an adamant sq shield, a bone dagger and mithril platebody.",
-      "location": "",
-      "emotes": [],
-      "items_required": []
+      "items": [
+        "Adamant sq shield",
+        "Bone dagger",
+        "Mithril platebody"
+      ],
+      "notes": "",
+      "map_image_url": "https://oldschool.runescape.wiki/images/thumb/Emote_clue_-_cry_catherby_beach.png/150px-Emote_clue_-_cry_catherby_beach.png?1ee76"
     },
     {
       "difficulty": "medium",
       "clue": "Cry on top of the western tree in the Gnome Agility Arena. Indicate 'no' before you talk to me. Equip a steel kiteshield, ring of forging, and green d'hide chaps.",
-      "location": "",
-      "emotes": [],
-      "items_required": []
+      "items": [
+        "Steel kiteshield",
+        "Ring of forging",
+        "Green d'hide chaps"
+      ],
+      "notes": "",
+      "map_image_url": "https://oldschool.runescape.wiki/images/thumb/Emote_clue_-_cry_gnome_agility_arena.png/150px-Emote_clue_-_cry_gnome_agility_arena.png?53006"
     },
     {
       "difficulty": "medium",
       "clue": "Dance a jig under Shantay's Awning. Bow before you talk to me. Equip a bruise blue snelm, an air staff and a bronze square shield.",
-      "location": "",
-      "emotes": [
-        "South of Al Kharid",
-        "Shantay Pass. Only the pointed blue snelm will work!"
+      "items": [
+        "Pointed bruise blue snelm",
+        "Staff of air",
+        "Bronze sq shield"
       ],
-      "items_required": []
+      "notes": "South of Al Kharid, Shantay Pass. Only the pointed blue snelm will work!",
+      "map_image_url": "https://oldschool.runescape.wiki/images/thumb/Emote_clue_-_dance_jig_shantay_awning.png/150px-Emote_clue_-_dance_jig_shantay_awning.png?71c0c"
     },
     {
       "difficulty": "medium",
       "clue": "Dance in the centre of Canifis. Bow before you talk to me. Equip a green gnome robe top, mithril platelegs and an iron two-handed sword.",
-      "location": "",
-      "emotes": [],
-      "items_required": []
+      "items": [
+        "Green robe top",
+        "Mithril platelegs",
+        "Iron 2h sword"
+      ],
+      "notes": "",
+      "map_image_url": "https://oldschool.runescape.wiki/images/thumb/Emote_clue_-_dance_centre_canifis.png/150px-Emote_clue_-_dance_centre_canifis.png?e1308"
     },
     {
       "difficulty": "medium",
       "clue": "Dance in the dark caves beneath Lumbridge Swamp. Blow a kiss before you talk to me. Equip an air staff, bronze full helm and an amulet of power.",
-      "location": "",
-      "emotes": [
-        "You need a rope to enter this cave the first time. You always need a light source in the caves",
-        "except when you have built the fire of eternal light. If using the Lumbridge Castle basement to access the caves via the northern entrance",
-        "you will need to step one square south of the cave entrance as the square next to the entrance does not work when you dance. Two STASH units are provided",
-        "one near each of the main entrances. Building one of them will automatically build the other one."
+      "items": [
+        "Staff of air",
+        "Bronze full helm",
+        "Amulet of power"
       ],
-      "items_required": []
+      "notes": "You need a rope to enter this cave the first time. You always need a light source in the caves, except when you have built the fire of eternal light. If using the Lumbridge Castle basement to access the caves via the northern entrance, you will need to step one square south of the cave entrance as the square next to the entrance does not work when you dance. Two STASH units are provided, one near each of the main entrances. Building one of them will automatically build the other one.",
+      "map_image_url": "https://oldschool.runescape.wiki/images/thumb/Emote_clue_-_dance_caves_lumbridge_swamp.png/150px-Emote_clue_-_dance_caves_lumbridge_swamp.png?b1b42"
     },
     {
       "difficulty": "medium",
       "clue": "Jump for Joy in the mine near the Twilight Temple. Bow before you talk to me. Equip a maple longbow, a ruby amulet and some steel platelegs.",
-      "location": "",
-      "emotes": [
-        "Pendant of ates teleport to Twilight Temple",
-        "or Quetzal Transport System to Salvager Overlook and head east towards the East Salvager Overlook mine."
+      "items": [
+        "Maple longbow",
+        "Ruby amulet",
+        "Steel platelegs"
       ],
-      "items_required": []
+      "notes": "Pendant of ates teleport to Twilight Temple, or Quetzal Transport System to Salvager Overlook and head east towards the East Salvager Overlook mine.",
+      "map_image_url": "https://oldschool.runescape.wiki/images/thumb/Emote_clue_-_Jump_for_Joy_Twlight_Temple_mine.png/150px-Emote_clue_-_Jump_for_Joy_Twlight_Temple_mine.png?c9536"
     },
     {
       "difficulty": "medium",
       "clue": "Jump for joy in the TzHaar sword shop. Shrug before you talk to me. Equip a steel longsword, blue d'hide body and blue mystic gloves.",
-      "location": "",
-      "emotes": [
-        "BLP"
+      "items": [
+        "Steel longsword",
+        "Blue d'hide body",
+        "Mystic gloves"
       ],
-      "items_required": []
+      "notes": "BLP",
+      "map_image_url": "https://oldschool.runescape.wiki/images/thumb/Emote_clue_-_jump_tzhaar_sword_shop.png/150px-Emote_clue_-_jump_tzhaar_sword_shop.png?9ca16"
     },
     {
       "difficulty": "medium",
       "clue": "Jump for joy in Yanille bank. Dance a jig before you talk to me. Equip a brown apron, adamantite medium helm and snakeskin chaps.",
-      "location": "",
-      "emotes": [],
-      "items_required": []
+      "items": [
+        "Brown apron",
+        "Adamant med helm",
+        "Snakeskin chaps"
+      ],
+      "notes": "",
+      "map_image_url": "https://oldschool.runescape.wiki/images/thumb/Emote_clue_-_jump_joy_yanille_bank.png/150px-Emote_clue_-_jump_joy_yanille_bank.png?8a3be"
     },
     {
       "difficulty": "medium",
       "clue": "Nod your head where the River Ortus meets the Proudspire. Indicate 'no' before you talk to me. Equip a blue wizard hat, a blue wizard robe and wear nothing on your legs.",
-      "location": "",
-      "emotes": [
-        "Pendant of ates teleport to Twilight Temple",
-        "then run north-west past the Tower of Ascension to the end of the River Ortus."
+      "items": [
+        "Blue wizard hat",
+        "Blue wizard robe"
       ],
-      "items_required": []
+      "notes": "Pendant of ates teleport to Twilight Temple, then run north-west past the Tower of Ascension to the end of the River Ortus.",
+      "map_image_url": "https://oldschool.runescape.wiki/images/thumb/Emote_clue_-_Yes_Proudspire.png/150px-Emote_clue_-_Yes_Proudspire.png?4c7cc"
     },
     {
       "difficulty": "medium",
       "clue": "Panic by the mausoleum in Morytania. Wave before you speak to me. Equip a mithril plate skirt[sic], maple longbow and no boots.",
-      "location": "",
-      "emotes": [
-        "Starting Creature of Fenkenstrain quest is required to access the area. Go through the tombstone south-east of Fenkenstrain's Castle to reach the Experiment cave. If the quest is not completed",
-        "kill an Experiment for a key. Go north-west through the gate (unlocked if the quest has been completed) and up the ladder. Remember",
-        "no boots. After the quest you can repair the bridge to make a shortcut you can cross if you have 69 Agility."
+      "items": [
+        "Mithril plateskirt",
+        "Maple longbow"
       ],
-      "items_required": []
+      "notes": "Starting Creature of Fenkenstrain quest is required to access the area. Go through the tombstone south-east of Fenkenstrain's Castle to reach the Experiment cave. If the quest is not completed, kill an Experiment for a key. Go north-west through the gate (unlocked if the quest has been completed) and up the ladder. Remember, no boots. After the quest you can repair the bridge to make a shortcut you can cross if you have 69 Agility.",
+      "map_image_url": "https://oldschool.runescape.wiki/images/thumb/Emote_clue_-_panic_mausoleum.png/150px-Emote_clue_-_panic_mausoleum.png?df29f"
     },
     {
       "difficulty": "medium",
       "clue": "Shrug in Catherby bank. Yawn before you talk to me. Equip a maple longbow, green d'hide chaps and an iron med helm.",
-      "location": "",
-      "emotes": [],
-      "items_required": []
+      "items": [
+        "Maple longbow",
+        "Green d'hide chaps",
+        "Iron med helm"
+      ],
+      "notes": "",
+      "map_image_url": "https://oldschool.runescape.wiki/images/thumb/Emote_clue_-_shrug_catherby_bank.png/150px-Emote_clue_-_shrug_catherby_bank.png?eaeef"
     },
     {
       "difficulty": "medium",
       "clue": "Spin on the bridge by the Barbarian Village. Salute before you talk to me. Equip purple gloves, a steel kiteshield and a mithril full helm.",
-      "location": "",
-      "emotes": [],
-      "items_required": []
+      "items": [
+        "Purple gloves",
+        "Steel kiteshield",
+        "Mithril full helm"
+      ],
+      "notes": "",
+      "map_image_url": "https://oldschool.runescape.wiki/images/thumb/Emote_clue_-_spin_barbarian_village_bridge.png/150px-Emote_clue_-_spin_barbarian_village_bridge.png?4190a"
     },
     {
       "difficulty": "medium",
       "clue": "Think in the centre of the Observatory. Spin before you talk to me. Equip a mithril chainbody, green dragonhide chaps and a ruby amulet.",
-      "location": "",
-      "emotes": [
-        "Players who have completed the Observatory Quest with level 23 Agility",
-        "24 Ranged and 28 Strength may use a shortcut by using the grapple-able rock just outside the observatory; players need only bring a crossbow and grapple for the first trip. Otherwise",
-        "players must navigate through the Observatory Dungeon to reach this clue."
+      "items": [
+        "Mithril chainbody",
+        "Green d'hide chaps",
+        "Ruby amulet"
       ],
-      "items_required": []
+      "notes": "Players who have completed the Observatory Quest with level 23 Agility, 24 Ranged and 28 Strength may use a shortcut by using the grapple-able rock just outside the observatory; players need only bring a crossbow and grapple for the first trip. Otherwise, players must navigate through the Observatory Dungeon to reach this clue.",
+      "map_image_url": "https://oldschool.runescape.wiki/images/thumb/Emote_clue_-_think_centre_observatory.png/150px-Emote_clue_-_think_centre_observatory.png?5ef1c"
     },
     {
       "difficulty": "medium",
       "clue": "Yawn in the Castle Wars lobby. Shrug before you talk to me. Equip a ruby amulet, a mithril scimitar and a Wilderness cape.",
-      "location": "",
-      "emotes": [
-        "The Team cape i",
-        "Team cape x and Team cape zero can also be used."
+      "items": [
+        "Ruby amulet",
+        "Mithril scimitar",
+        "Team cape"
       ],
-      "items_required": []
+      "notes": "The Team cape i, Team cape x and Team cape zero can also be used.",
+      "map_image_url": "https://oldschool.runescape.wiki/images/thumb/Emote_clue_-_yawn_castle_wars_lobby.png/150px-Emote_clue_-_yawn_castle_wars_lobby.png?0832a"
     },
     {
       "difficulty": "medium",
       "clue": "Yawn in the centre of Arceuus library. Nod your head before you talk to me. Equip blue dragonhide vambraces, adamant boots and an adamant dagger.",
-      "location": "",
-      "emotes": [
-        "The fairy ring code CIS teleports you north of the library. Use the \"yes\" emote to nod your head. Note: You cannot get this step playing Ironman Mode.[1]"
+      "items": [
+        "Blue d'hide vambraces",
+        "Adamant boots",
+        "Adamant dagger"
       ],
-      "items_required": []
+      "notes": "The fairy ring code CIS teleports you north of the library. Use the \"yes\" emote to nod your head. Note: You cannot get this step playing Ironman Mode.[1]",
+      "map_image_url": "https://oldschool.runescape.wiki/images/thumb/Emote_clue_-_yawn_arceuus_library.png/150px-Emote_clue_-_yawn_arceuus_library.png?b9475"
     },
     {
       "difficulty": "hard",
       "clue": "Beckon on the east coast of the Kharazi Jungle. Beware of double agents! Equip any vestment stole and a heraldic rune shield.",
-      "location": "",
-      "emotes": [
-        "Must have started Legends' Quest. Equipping the stole requires level 60 Prayer. The heraldic crest rune kiteshields do not work. Note: An axe and machete are required to enter the Kharazi Jungle",
-        "or players may also use two vines on either side of the jungle that require 79 Agility."
+      "items": [
+        "Rune heraldic armour",
+        "Stole"
       ],
-      "items_required": []
+      "notes": "Must have started Legends' Quest. Equipping the stole requires level 60 Prayer. The heraldic crest rune kiteshields do not work. Note: An axe and machete are required to enter the Kharazi Jungle, or players may also use two vines on either side of the jungle that require 79 Agility.",
+      "map_image_url": "https://oldschool.runescape.wiki/images/thumb/Emote_clue_-_beckon_east_kharazi_coast.png/150px-Emote_clue_-_beckon_east_kharazi_coast.png?772bf"
     },
     {
       "difficulty": "hard",
       "clue": "Blow a kiss between the tables in Shilo Village bank. Beware of double agents! Equip a blue mystic hat, bone spear and rune platebody.",
-      "location": "",
-      "emotes": [
-        "Shilo Village is a village on Karamja. It is only accessible to players that have completed the Shilo Village quest. The gilded and trimmed versions of the rune platebody do not work."
+      "items": [
+        "Mystic hat",
+        "Bone spear",
+        "Rune platebody"
       ],
-      "items_required": []
+      "notes": "Shilo Village is a village on Karamja. It is only accessible to players that have completed the Shilo Village quest. The gilded and trimmed versions of the rune platebody do not work.",
+      "map_image_url": "https://oldschool.runescape.wiki/images/thumb/Emote_clue_-_kiss_shilo_village.png/150px-Emote_clue_-_kiss_shilo_village.png?d6234"
     },
     {
       "difficulty": "hard",
       "clue": "Blow a raspberry in the Fishing Guild bank. Beware of double agents! Equip an elemental shield, blue d'hide chaps and a rune warhammer.",
-      "location": "",
-      "emotes": [
-        "Requires Elemental Workshop I and 68 fishing to enter the guild (boost allowed)"
+      "items": [
+        "Elemental shield",
+        "Blue d'hide chaps",
+        "Rune warhammer"
       ],
-      "items_required": []
+      "notes": "Requires Elemental Workshop I and 68 fishing to enter the guild (boost allowed)",
+      "map_image_url": "https://oldschool.runescape.wiki/images/thumb/Emote_clue_-_raspberry_fishing_guild_bank.png/150px-Emote_clue_-_raspberry_fishing_guild_bank.png?b2178"
     },
     {
       "difficulty": "hard",
       "clue": "Bow at the top of the lighthouse. Beware of double agents! Equip a blue d'hide body, blue d'hide vambraces and no jewellery.",
-      "location": "",
-      "emotes": [
-        "Must have repaired the Lighthouse lighting mechanism in the Horror from the Deep quest to access. The fairy ring code ALP teleports you right outside the Lighthouse."
+      "items": [
+        "Blue d'hide body",
+        "Blue d'hide vambraces"
       ],
-      "items_required": []
+      "notes": "Must have repaired the Lighthouse lighting mechanism in the Horror from the Deep quest to access. The fairy ring code ALP teleports you right outside the Lighthouse.",
+      "map_image_url": "https://oldschool.runescape.wiki/images/thumb/Emote_clue_-_bow_lighthouse.png/150px-Emote_clue_-_bow_lighthouse.png?94af1"
     },
     {
       "difficulty": "hard",
       "clue": "Cheer at the top of the agility pyramid. Beware of double agents! Equip a blue mystic robe top, and any rune heraldic shield.",
-      "location": "",
-      "emotes": [
-        "Requires 30 Agility to reach the top of the pyramid",
-        "40 Magic and 40 Defence to equip items. The player-made heraldic crest rune kiteshields do not work. Only the blue mystic robe top works!"
+      "items": [
+        "Mystic robe top",
+        "Rune heraldic armour"
       ],
-      "items_required": []
+      "notes": "Requires 30 Agility to reach the top of the pyramid, 40 Magic and 40 Defence to equip items. The player-made heraldic crest rune kiteshields do not work. Only the blue mystic robe top works!",
+      "map_image_url": "https://oldschool.runescape.wiki/images/thumb/Emote_clue_-_cheer_agility_pyramid_top.png/150px-Emote_clue_-_cheer_agility_pyramid_top.png?25240"
     },
     {
       "difficulty": "hard",
       "clue": "Dance at the cat-doored pyramid in Sophanem. Beware of double agents! Equip a ring of life, an uncharged amulet of glory and an adamant two-handed sword.",
-      "location": "",
-      "emotes": [
-        "Partial completion of Icthlarin's Little Helper required to access Sophanem. Your amulet of glory must be uncharged in order to work. Amulet of glory (t) does not work for this clue step."
+      "items": [
+        "Ring of life",
+        "Amulet of glory",
+        "Adamant 2h sword"
       ],
-      "items_required": []
+      "notes": "Partial completion of Icthlarin's Little Helper required to access Sophanem. Your amulet of glory must be uncharged in order to work. Amulet of glory (t) does not work for this clue step.",
+      "map_image_url": "https://oldschool.runescape.wiki/images/thumb/Emote_clue_-_dance_pyramid_sophanem.png/150px-Emote_clue_-_dance_pyramid_sophanem.png?856b9"
     },
     {
       "difficulty": "hard",
       "clue": "Headbang at the exam centre. Beware of double agents! Equip a mystic fire staff, a diamond bracelet and rune boots.",
-      "location": "",
-      "emotes": [
-        "The Digsite Exam Centre is located just south of the Digsite."
+      "items": [
+        "Mystic fire staff",
+        "Diamond bracelet",
+        "Rune boots"
       ],
-      "items_required": []
+      "notes": "The Digsite Exam Centre is located just south of the Digsite.",
+      "map_image_url": "https://oldschool.runescape.wiki/images/thumb/Emote_clue_-_headbang_exam_centre.png/150px-Emote_clue_-_headbang_exam_centre.png?06623"
     },
     {
       "difficulty": "hard",
       "clue": "Jig at Jiggig. Beware of double agents! Equip a rune spear, rune platelegs and any rune heraldic helm.",
-      "location": "",
-      "emotes": [
-        "South of Castle Wars",
-        "talk to the quest starter if you haven't started Zogre Flesh Eaters",
-        "and he will grant you access to the location in Jiggig; you need to jig. The gilded and trimmed versions of the rune platelegs do not work. Poisoned versions of the Rune Spear do not work. Note: You need to complete Big Chompy Bird Hunting and Jungle Potion to start Zogre Flesh Eaters."
+      "items": [
+        "Rune spear",
+        "Rune platelegs",
+        "Rune heraldic armour"
       ],
-      "items_required": []
+      "notes": "South of Castle Wars, talk to the quest starter if you haven't started Zogre Flesh Eaters, and he will grant you access to the location in Jiggig; you need to jig. The gilded and trimmed versions of the rune platelegs do not work. Poisoned versions of the Rune Spear do not work. Note: You need to complete Big Chompy Bird Hunting and Jungle Potion to start Zogre Flesh Eaters.",
+      "map_image_url": "https://oldschool.runescape.wiki/images/thumb/Emote_clue_-_jig_at_jiggig.png/150px-Emote_clue_-_jig_at_jiggig.png?f35c5"
     },
     {
       "difficulty": "hard",
       "clue": "Laugh in Jokul's tent in the Mountain Camp. Beware of double agents! Equip a rune full helmet, blue d'hide chaps and a fire battlestaff.",
-      "location": "",
-      "emotes": [
-        "Bring rope if you haven't completed the Mountain Daughter quest. Go up the top path",
-        "and use on the boulder (fairy ring code: AJR)."
+      "items": [
+        "Rune full helm",
+        "Blue d'hide chaps",
+        "Fire battlestaff"
       ],
-      "items_required": []
+      "notes": "Bring rope if you haven't completed the Mountain Daughter quest. Go up the top path, and use on the boulder (fairy ring code: AJR).",
+      "map_image_url": "https://oldschool.runescape.wiki/images/thumb/Emote_clue_-_laugh_jokul%27s_tent_mountain_camp.png/150px-Emote_clue_-_laugh_jokul%27s_tent_mountain_camp.png?d07e8"
     },
     {
       "difficulty": "hard",
       "clue": "Panic by the pilot on White Wolf Mountain. Beware of double agents! Equip mithril platelegs, a ring of life, and a rune axe.",
-      "location": "",
-      "emotes": [
-        "Panic by Captain Bleemadge on White Wolf Mountain. Be careful of the aggressive level 73 Big Wolf."
+      "items": [
+        "Mithril platelegs",
+        "Ring of life",
+        "Rune axe"
       ],
-      "items_required": []
+      "notes": "Panic by Captain Bleemadge on White Wolf Mountain. Be careful of the aggressive level 73 Big Wolf.",
+      "map_image_url": "https://oldschool.runescape.wiki/images/thumb/Emote_clue_-_panic_white_wolf_mountain.png/150px-Emote_clue_-_panic_white_wolf_mountain.png?8fbad"
     },
     {
       "difficulty": "hard",
       "clue": "Panic in the heart of the Haunted Woods. Beware of double agents! Have no items equipped when you do.",
-      "location": "Nothing",
-      "emotes": [
-        "The location is east of the Fairy ring ALQ in the Haunted Woods. Players should be careful of the Feral Vampyres summoned by the spider roaming around that area."
+      "items": [
+        "Nothing"
       ],
-      "items_required": []
+      "notes": "The location is east of the Fairy ring ALQ in the Haunted Woods. Players should be careful of the Feral Vampyres summoned by the spider roaming around that area.",
+      "map_image_url": "https://oldschool.runescape.wiki/images/thumb/Emote_clue_-_panic_haunted_woods.png/150px-Emote_clue_-_panic_haunted_woods.png?88415"
     },
     {
       "difficulty": "hard",
       "clue": "Panic on the Wilderness volcano bridge. Beware of double agents! Equip any headband and crozier.",
-      "location": "",
-      "emotes": [
-        "Required: 60 The Blighted Volcano is located in the north-east corner of the Wilderness. Players should be cautious of player killers and dangerous monsters. A Clue Box may also be helpful."
+      "items": [
+        "Headband",
+        "Crozier"
       ],
-      "items_required": []
+      "notes": "Required: 60 The Blighted Volcano is located in the north-east corner of the Wilderness. Players should be cautious of player killers and dangerous monsters. A Clue Box may also be helpful.",
+      "map_image_url": "https://oldschool.runescape.wiki/images/thumb/Emote_clue_-_panic_wilderness_volcano_bridge.png/150px-Emote_clue_-_panic_wilderness_volcano_bridge.png?03888"
     },
     {
       "difficulty": "hard",
       "clue": "Panic outside the Twilight Temple. Beware of double agents! Equip a rune longsword, rune platebody and a rune plateskirt.",
-      "location": "",
-      "emotes": [
-        "Twilight Temple is located in Varlamore",
-        "which is accessible upon completion of Children of the Sun. Beware of Twilight Emissaries",
-        "ranging from level 34 to 117 (aggressive",
-        "multi-combat)."
+      "items": [
+        "Rune longsword",
+        "Rune platebody",
+        "Rune plateskirt"
       ],
-      "items_required": []
+      "notes": "Twilight Temple is located in Varlamore, which is accessible upon completion of Children of the Sun. Beware of Twilight Emissaries, ranging from level 34 to 117 (aggressive, multi-combat).",
+      "map_image_url": "https://oldschool.runescape.wiki/images/thumb/Emote_clue_-_panic_outside_the_Twlight_Temple.png/150px-Emote_clue_-_panic_outside_the_Twlight_Temple.png?5227e"
     },
     {
       "difficulty": "hard",
       "clue": "Salute in the banana plantation. Beware of double agents! Equip a diamond ring, amulet of power, and nothing on your chest and legs.",
-      "location": "",
-      "emotes": [
-        "Players can perform the emote near the STASH (if they have built one) within the Musa Point banana plantation."
+      "items": [
+        "Diamond ring",
+        "Amulet of power"
       ],
-      "items_required": []
+      "notes": "Players can perform the emote near the STASH (if they have built one) within the Musa Point banana plantation.",
+      "map_image_url": "https://oldschool.runescape.wiki/images/thumb/Emote_clue_-_salute_banana_plantation.png/150px-Emote_clue_-_salute_banana_plantation.png?dc82a"
     },
     {
       "difficulty": "hard",
       "clue": "Salute in the centre of the mess hall. Beware of double agents! Equip a rune halberd, rune platebody and an amulet of strength.",
-      "location": "",
-      "emotes": [
-        "Kourend Castle Teleport teleports the player just north of the Mess. Salute in the centre of the kitchen rather than the dining room."
+      "items": [
+        "Rune halberd",
+        "Rune platebody",
+        "Amulet of strength"
       ],
-      "items_required": []
+      "notes": "Kourend Castle Teleport teleports the player just north of the Mess. Salute in the centre of the kitchen rather than the dining room.",
+      "map_image_url": "https://oldschool.runescape.wiki/images/thumb/Emote_clue_-_salute_mess_hall.png/150px-Emote_clue_-_salute_mess_hall.png?acf16"
     },
     {
       "difficulty": "hard",
       "clue": "Shrug in the woods east of the Level 19 Wilderness Obelisk. Beware of double agents! Equip rune platelegs, an iron platebody and blue d'hide vambraces.",
-      "location": "",
-      "emotes": [
-        "Players should be cautious of player killers. The step location is in level 19 Wilderness. You can bring a teleport as it is below level 20 Wilderness; however",
-        "be wary of Tele Block."
+      "items": [
+        "Rune platelegs",
+        "Iron platebody",
+        "Blue d'hide vambraces"
       ],
-      "items_required": []
+      "notes": "Players should be cautious of player killers. The step location is in level 19 Wilderness. You can bring a teleport as it is below level 20 Wilderness; however, be wary of Tele Block.",
+      "map_image_url": "https://oldschool.runescape.wiki/images/thumb/Emote_clue_-_shrug_east_level_19_Wilderness_Obelisk.png/150px-Emote_clue_-_shrug_east_level_19_Wilderness_Obelisk.png?a96c2"
     },
     {
       "difficulty": "hard",
       "clue": "Yawn in the rogues' general store. Beware of double agents! Equip an adamant square shield, blue dragon vambraces and a rune pickaxe.",
-      "location": "",
-      "emotes": [
-        "Bandit Camp general store in level 23 Wilderness",
-        "north of the Dark Warriors' Fortress. The burning amulet can take you there",
-        "but be wary of player killers and level 130 Bandits."
+      "items": [
+        "Adamant sq shield",
+        "Blue d'hide vambraces",
+        "Rune pickaxe"
       ],
-      "items_required": []
+      "notes": "Bandit Camp general store in level 23 Wilderness, north of the Dark Warriors' Fortress. The burning amulet can take you there, but be wary of player killers and level 130 Bandits.",
+      "map_image_url": "https://oldschool.runescape.wiki/images/thumb/Emote_clue_-_yawn_rogues_general_store.png/150px-Emote_clue_-_yawn_rogues_general_store.png?3be1b"
     },
     {
       "difficulty": "elite",
       "clue": "Blow a kiss in the heart of the lava maze. Equip black d'hide chaps, a spotted cape and a rolling pin.",
-      "location": "",
-      "emotes": [
-        "Perform the emote at the centre of the Lava Maze",
-        "next to entrance of the Lava Maze Dungeon. A slashing weapon or knife is required to navigate the maze."
+      "items": [
+        "Black d'hide chaps",
+        "Spotted cape",
+        "Rolling pin"
       ],
-      "items_required": []
+      "notes": "Perform the emote at the centre of the Lava Maze, next to entrance of the Lava Maze Dungeon. A slashing weapon or knife is required to navigate the maze.",
+      "map_image_url": "https://oldschool.runescape.wiki/images/thumb/Emote_clue_-_kiss_lava_maze.png/150px-Emote_clue_-_kiss_lava_maze.png?d16d0"
     },
     {
       "difficulty": "elite",
       "clue": "Bow on the ground floor of the Legend's[sic] guild. Equip Legend's[sic] cape, a dragon battleaxe and an amulet of glory.",
-      "location": "",
-      "emotes": [
-        "Players require completion of Legends' Quest to access the Legends' Guild. An amulet of glory with any amount of charges or an amulet of eternal glory will work."
+      "items": [
+        "Cape of legends",
+        "Dragon battleaxe",
+        "Amulet of glory(4)"
       ],
-      "items_required": []
+      "notes": "Players require completion of Legends' Quest to access the Legends' Guild. An amulet of glory with any amount of charges or an amulet of eternal glory will work.",
+      "map_image_url": "https://oldschool.runescape.wiki/images/thumb/Emote_clue_-_bow_inside_legends_guild.png/150px-Emote_clue_-_bow_inside_legends_guild.png?0430b"
     },
     {
       "difficulty": "elite",
       "clue": "Bow upstairs in the Edgeville Monastery. Equip a completed prayer book.",
-      "location": "",
-      "emotes": [
-        "Players require a Prayer level of 31 to enter the Edgeville Monastery. Any completed god book is usable for this clue."
+      "items": [
+        "God book"
       ],
-      "items_required": []
+      "notes": "Players require a Prayer level of 31 to enter the Edgeville Monastery. Any completed god book is usable for this clue.",
+      "map_image_url": "https://oldschool.runescape.wiki/images/thumb/Emote_clue_-_bow_edgeville_monastery.png/150px-Emote_clue_-_bow_edgeville_monastery.png?251ce"
     },
     {
       "difficulty": "elite",
       "clue": "Bow within the temple in Civitas illa Fortis. Equip any piece of sunfire fanatic armour.",
-      "location": "",
-      "emotes": [
-        "The temple is found near the southern entrance to Civitas illa Fortis."
+      "items": [
+        "Sunfire fanatic helm",
+        "Sunfire fanatic cuirass",
+        "Sunfire fanatic chausses"
       ],
-      "items_required": []
+      "notes": "The temple is found near the southern entrance to Civitas illa Fortis.",
+      "map_image_url": "https://oldschool.runescape.wiki/images/thumb/Emote_clue_-_bow_fortis_temple.png/150px-Emote_clue_-_bow_fortis_temple.png?9d9d9"
     },
     {
       "difficulty": "elite",
       "clue": "Cheer in the Shadow dungeon. Equip a rune crossbow, climbing boots and any mitre.",
-      "location": "",
-      "emotes": [
-        "Requires partial completion of Desert Treasure I. Bring a ring of visibility or a ring of shadows. The ornamental rune crossbow also works. Climbing boots (g) do not work. The Egg priest mitre does not work."
+      "items": [
+        "Rune crossbow",
+        "Climbing boots",
+        "Mitre"
       ],
-      "items_required": []
+      "notes": "Requires partial completion of Desert Treasure I. Bring a ring of visibility or a ring of shadows. The ornamental rune crossbow also works. Climbing boots (g) do not work. The Egg priest mitre does not work.",
+      "map_image_url": "https://oldschool.runescape.wiki/images/thumb/Emote_clue_-_cheer_shadow_dungeon.png/150px-Emote_clue_-_cheer_shadow_dungeon.png?94e1a"
     },
     {
       "difficulty": "elite",
       "clue": "Dance on the Fishing Platform. Equip barrows gloves, an amulet of glory and a dragon med helm.",
-      "location": "",
-      "emotes": [
-        "Barrows gloves require full completion of Recipe for Disaster to equip. An amulet of glory with any amount of charges or an amulet of eternal glory will work."
+      "items": [
+        "Barrows gloves",
+        "Amulet of glory(4)",
+        "Dragon med helm"
       ],
-      "items_required": []
+      "notes": "Barrows gloves require full completion of Recipe for Disaster to equip. An amulet of glory with any amount of charges or an amulet of eternal glory will work.",
+      "map_image_url": "https://oldschool.runescape.wiki/images/thumb/Emote_clue_-_dance_fish_platform.png/150px-Emote_clue_-_dance_fish_platform.png?e11ba"
     },
     {
       "difficulty": "elite",
       "clue": "Do the crab dance by the monument on Wintumber Island. Equip a crab helmet and a crab claw.",
-      "location": "",
-      "emotes": [
-        "Requires level 63 sailing to reach Wintumber Island."
+      "items": [
+        "Crab helmet",
+        "Crab claw"
       ],
-      "items_required": []
+      "notes": "Requires level 63 sailing to reach Wintumber Island.",
+      "map_image_url": "https://oldschool.runescape.wiki/images/thumb/Emote_clue_-_crab_dance_Wintumber_Island.png/150px-Emote_clue_-_crab_dance_Wintumber_Island.png?1fde3"
     },
     {
       "difficulty": "elite",
       "clue": "Headbang at the top of the Slayer Tower. Equip a seercull, a combat bracelet, and helm of neitiznot.",
-      "location": "",
-      "emotes": [
-        "Equipping the Helm of Neitiznot requires completion of The Fremennik Isles. If taking shortcuts to the top",
-        "it is advised to have a nosepeg or Slayer helmet in order to avoid stat draining from aberrant spectres."
+      "items": [
+        "Seercull",
+        "Combat bracelet",
+        "Helm of neitiznot"
       ],
-      "items_required": []
+      "notes": "Equipping the Helm of Neitiznot requires completion of The Fremennik Isles. If taking shortcuts to the top, it is advised to have a nosepeg or Slayer helmet in order to avoid stat draining from aberrant spectres.",
+      "map_image_url": "https://oldschool.runescape.wiki/images/thumb/Emote_clue_-_headbang_top_of_slayer_tower.png/150px-Emote_clue_-_headbang_top_of_slayer_tower.png?72ace"
     },
     {
       "difficulty": "elite",
       "clue": "Headbang in the Fight Arena pub. Equip a pirate bandana, a dragonstone necklace and a magic longbow.",
-      "location": "",
-      "emotes": [
-        "Near Nightmare Zone. On the west side of the fight arena."
+      "items": [
+        "Pirate bandana",
+        "Dragon necklace",
+        "Magic longbow"
       ],
-      "items_required": []
+      "notes": "Near Nightmare Zone. On the west side of the fight arena.",
+      "map_image_url": "https://oldschool.runescape.wiki/images/thumb/Emote_clue_-_headbang_fight_arena_pub.png/150px-Emote_clue_-_headbang_fight_arena_pub.png?17e41"
     },
     {
       "difficulty": "elite",
       "clue": "Jump for joy at the Neitiznot rune rock. Equip rune boots, a proselyte hauberk and a dragonstone ring.",
-      "location": "",
-      "emotes": [
-        "Players must complete Fremennik Isles in order to access the Neitiznot runite rock. The Slug Menace must be completed in order to equip the Prostelyte Hauberk."
+      "items": [
+        "Rune boots",
+        "Proselyte hauberk",
+        "Dragonstone ring"
       ],
-      "items_required": []
+      "notes": "Players must complete Fremennik Isles in order to access the Neitiznot runite rock. The Slug Menace must be completed in order to equip the Prostelyte Hauberk.",
+      "map_image_url": "https://oldschool.runescape.wiki/images/thumb/Emote_clue_-_jump_neitiznot_rocks.png/150px-Emote_clue_-_jump_neitiznot_rocks.png?02399"
     },
     {
       "difficulty": "elite",
       "clue": "Jump for joy in the Ancient Cavern. Equip a granite shield, splitbark body, and any rune heraldic helm.",
-      "location": "",
-      "emotes": [
-        "Players need to have started the Barbarian Training miniquest in order to enter the caverns. The rune heraldic helm is the rune helm from Treasure Trails",
-        "not the painted heraldic armour from player-owned houses!"
+      "items": [
+        "Granite shield",
+        "Splitbark body",
+        "Rune heraldic armour"
       ],
-      "items_required": []
+      "notes": "Players need to have started the Barbarian Training miniquest in order to enter the caverns. The rune heraldic helm is the rune helm from Treasure Trails, not the painted heraldic armour from player-owned houses!",
+      "map_image_url": "https://oldschool.runescape.wiki/images/thumb/Emote_clue_-_jump_ancient_cavern.png/150px-Emote_clue_-_jump_ancient_cavern.png?b828b"
     },
     {
       "difficulty": "elite",
       "clue": "Laugh by the fountain of heroes. Equip splitbark legs, dragon boots and a rune longsword.",
-      "location": "",
-      "emotes": [
-        "Completion of Heroes' Quest is required. The gilded dragon boots",
-        "Dragon boots (cr)",
-        "primordial boots",
-        "Avernic treads (pr)",
-        "Avernic treads (pr)(et)",
-        "Avernic treads (pr)(pe)",
-        "Avernic treads (max) also work."
+      "items": [
+        "Splitbark legs",
+        "Dragon boots",
+        "Rune longsword"
       ],
-      "items_required": []
+      "notes": "Completion of Heroes' Quest is required. The gilded dragon boots, Dragon boots (cr), primordial boots, Avernic treads (pr), Avernic treads (pr)(et), Avernic treads (pr)(pe), Avernic treads (max) also work.",
+      "map_image_url": "https://oldschool.runescape.wiki/images/thumb/Emote_clue_-_laugh_fountain_of_heroes.png/150px-Emote_clue_-_laugh_fountain_of_heroes.png?c2fc9"
     },
     {
       "difficulty": "elite",
       "clue": "Laugh in front of the gem store in Ardougne market. Equip a Castle wars bracelet, a dragonstone amulet and a ring of forging.",
-      "location": "",
-      "emotes": [],
-      "items_required": []
+      "items": [
+        "Castle wars bracelet",
+        "Dragonstone amulet",
+        "Ring of forging"
+      ],
+      "notes": "",
+      "map_image_url": "https://oldschool.runescape.wiki/images/thumb/Emote_clue_-_laugh_ardougne_gem_stall.png/150px-Emote_clue_-_laugh_ardougne_gem_stall.png?17e41"
     },
     {
       "difficulty": "elite",
       "clue": "Panic at the area flowers meet snow. Equip blue d'hide vambraces, a dragon spear and a rune plateskirt.",
-      "location": "",
-      "emotes": [
-        "Panic by the Trollweiss flowers after sledding down Trollweiss Mountain. Make sure to bring a sled",
-        "otherwise you won't be able to complete the step. The poisoned dragon spear or rune plateskirt versions do not work."
+      "items": [
+        "Blue d'hide vambraces",
+        "Dragon spear",
+        "Rune plateskirt"
       ],
-      "items_required": []
+      "notes": "Panic by the Trollweiss flowers after sledding down Trollweiss Mountain. Make sure to bring a sled, otherwise you won't be able to complete the step. The poisoned dragon spear or rune plateskirt versions do not work.",
+      "map_image_url": "https://oldschool.runescape.wiki/images/thumb/Emote_clue_-_panic_trollweiss.png/150px-Emote_clue_-_panic_trollweiss.png?b14de"
     },
     {
       "difficulty": "elite",
       "clue": "Salute by the Charcoal Burners. Equip a Farmer's strawhat, Shayzien body (5), and Pyromancer robes.",
-      "location": "",
-      "emotes": [
-        "Salute by the charcoal furnace south of Hosidius"
+      "items": [
+        "Farmer's strawhat",
+        "Shayzien body (5)",
+        "Pyromancer robe"
       ],
-      "items_required": []
+      "notes": "Salute by the charcoal furnace south of Hosidius",
+      "map_image_url": "https://oldschool.runescape.wiki/images/thumb/Emote_clue_-_salute_charcoal_burners.png/150px-Emote_clue_-_salute_charcoal_burners.png?a0871"
     },
     {
       "difficulty": "elite",
       "clue": "Salute in the warriors' guild bank. Equip only a black salamander.",
-      "location": "",
-      "emotes": [
-        "Black salamanders require 70 Ranged",
-        "70 Magic",
-        "and 70 Attack to equip."
+      "items": [
+        "Black salamander"
       ],
-      "items_required": []
+      "notes": "Black salamanders require 70 Ranged, 70 Magic, and 70 Attack to equip.",
+      "map_image_url": "https://oldschool.runescape.wiki/images/thumb/Emote_clue_-_salute_warriors%27_guild_bank.png/150px-Emote_clue_-_salute_warriors%27_guild_bank.png?8381d"
     },
     {
       "difficulty": "elite",
       "clue": "Shrug in the Shayzien war tent. Equip a blue mystic robe bottom, a rune kiteshield and any bob shirt.",
-      "location": "",
-      "emotes": [
-        "The War Tent is the large tent in the western end of the Shayzien Encampment. (South of the bank chest.)"
+      "items": [
+        "Mystic robe bottom",
+        "Rune kiteshield",
+        "Bob shirt"
       ],
-      "items_required": []
+      "notes": "The War Tent is the large tent in the western end of the Shayzien Encampment. (South of the bank chest.)",
+      "map_image_url": "https://oldschool.runescape.wiki/images/thumb/Emote_clue_-_shrug_Shayzien_command_tent.png/150px-Emote_clue_-_shrug_Shayzien_command_tent.png?34843"
     },
     {
       "difficulty": "elite",
       "clue": "Spin in West Ardougne Church. Equip a dragon spear and red d'hide chaps.",
-      "location": "",
-      "emotes": [],
-      "items_required": []
+      "items": [
+        "Dragon spear",
+        "Red d'hide chaps"
+      ],
+      "notes": "",
+      "map_image_url": "https://oldschool.runescape.wiki/images/thumb/Emote_clue_-_spin_West_Ardougne_church.png/150px-Emote_clue_-_spin_West_Ardougne_church.png?3aab3"
     },
     {
       "difficulty": "elite",
       "clue": "Yawn at the top of Trollheim. Equip a lava battlestaff, black d'hide vambraces and a mind shield.",
-      "location": "",
-      "emotes": [
-        "Requires Elemental Workshop I and II and parts of Troll Stronghold completed. An ornamental lava battlestaff can be used."
+      "items": [
+        "Lava battlestaff",
+        "Black d'hide vambraces",
+        "Mind shield"
       ],
-      "items_required": []
+      "notes": "Requires Elemental Workshop I and II and parts of Troll Stronghold completed. An ornamental lava battlestaff can be used.",
+      "map_image_url": "https://oldschool.runescape.wiki/images/thumb/Emote_clue_-_yawn_trollheim.png/150px-Emote_clue_-_yawn_trollheim.png?71cac"
     },
     {
       "difficulty": "master",
       "clue": "Beckon by a collection of crystalline maple trees. Beware of double agents! Equip Bryophyta's staff and a nature tiara.",
-      "location": "",
-      "emotes": [
-        "The maple trees are found within the town of Gwenith",
-        "which requires completion of Song of the Elves to reach. Bryophyta's staff can either be uncharged or charged; both can be used."
+      "items": [
+        "Bryophyta's staff",
+        "Nature tiara"
       ],
-      "items_required": []
+      "notes": "The maple trees are found within the town of Gwenith, which requires completion of Song of the Elves to reach. Bryophyta's staff can either be uncharged or charged; both can be used.",
+      "map_image_url": "https://oldschool.runescape.wiki/images/thumb/Emote_clue_-_beckon_crystalline_maple_trees.png/150px-Emote_clue_-_beckon_crystalline_maple_trees.png?c3e13"
     },
     {
       "difficulty": "master",
       "clue": "Blow a kiss outside K'ril Tsutsaroth's chamber. Beware of double agents! Equip a Zamorak full helm and the Shadow sword.",
-      "location": "",
-      "emotes": [
-        "70 Hitpoints is required to access this part of the God Wars Dungeon. Completion of The General's Shadow miniquest is required to obtain the Shadow sword."
+      "items": [
+        "Zamorak full helm",
+        "Shadow sword"
       ],
-      "items_required": []
+      "notes": "70 Hitpoints is required to access this part of the God Wars Dungeon. Completion of The General's Shadow miniquest is required to obtain the Shadow sword.",
+      "map_image_url": "https://oldschool.runescape.wiki/images/thumb/Emote_clue_-_kiss_door_of_K%27ril_Tsutsaroth.png/150px-Emote_clue_-_kiss_door_of_K%27ril_Tsutsaroth.png?3c55e"
     },
     {
       "difficulty": "master",
       "clue": "Blow a raspberry at the bank of the Warrior's[sic] guild. Beware of double agents! Equip a dragon battleaxe, a slayer helm of any kind and a dragon defender or avernic defender.",
-      "location": "",
-      "emotes": [
-        "Any variant of Slayer helmet is acceptable. A total of 130 levels in Attack and Strength or level 99 in either skill is required to enter the guild. A trimmed dragon or avernic defender can be used."
+      "items": [
+        "Dragon battleaxe",
+        "Dragon defender",
+        "Slayer helmet"
       ],
-      "items_required": []
+      "notes": "Any variant of Slayer helmet is acceptable. A total of 130 levels in Attack and Strength or level 99 in either skill is required to enter the guild. A trimmed dragon or avernic defender can be used.",
+      "map_image_url": "https://oldschool.runescape.wiki/images/thumb/Emote_clue_-_raspberry_warrior_guild_bank.png/150px-Emote_clue_-_raspberry_warrior_guild_bank.png?686c6"
     },
     {
       "difficulty": "master",
       "clue": "Bow in front of the cave on Brittle Isle. Beware of double agents! Equip a medallion of the deep and a rosewood blowpipe.",
-      "location": "",
-      "emotes": [
-        "81 Sailing and a boat with an eternal brazier are required to dock at Brittle Isle. At least one dart (adamant or lower) must be loaded in the blowpipe in order to equip it."
+      "items": [
+        "Medallion of the deep",
+        "Rosewood blowpipe"
       ],
-      "items_required": []
+      "notes": "81 Sailing and a boat with an eternal brazier are required to dock at Brittle Isle. At least one dart (adamant or lower) must be loaded in the blowpipe in order to equip it.",
+      "map_image_url": "https://oldschool.runescape.wiki/images/thumb/Emote_clue_-_bow_Brittle_Isle.png/150px-Emote_clue_-_bow_Brittle_Isle.png?93d91"
     },
     {
       "difficulty": "master",
       "clue": "Bow in the Iorwerth Camp. Beware of double agents! Equip a charged crystal bow.",
-      "location": "or",
-      "emotes": [
-        "Bow near the stools at the south-eastern fire in the Iorwerth Camp. Works with any amount of charges left on the bow",
-        "or the Bow of Faerdhinen."
+      "items": [
+        "Crystal bow",
+        "Bow of faerdhinen"
       ],
-      "items_required": []
+      "notes": "Bow near the stools at the south-eastern fire in the Iorwerth Camp. Works with any amount of charges left on the bow, or the Bow of Faerdhinen.",
+      "map_image_url": "https://oldschool.runescape.wiki/images/thumb/Emote_clue_-_bow_near_lord_iorwerth.png/150px-Emote_clue_-_bow_near_lord_iorwerth.png?c450f"
     },
     {
       "difficulty": "master",
       "clue": "Cheer in the Entrana church. Beware of double agents! Equip a set of full black dragonhide armour.",
-      "location": "",
-      "emotes": [
-        "Players must take a needle",
-        "thread",
-        "and six black dragon leathers",
-        "and craft the armour after arriving at Entrana (or trade another player on Entrana who has done so). Players with level 88 in Construction can make a master STASH unit to store the dragonhide armour in."
+      "items": [
+        "Black d'hide body",
+        "Black d'hide chaps",
+        "Black d'hide vambraces"
       ],
-      "items_required": []
+      "notes": "Players must take a needle, thread, and six black dragon leathers, and craft the armour after arriving at Entrana (or trade another player on Entrana who has done so). Players with level 88 in Construction can make a master STASH unit to store the dragonhide armour in.",
+      "map_image_url": "https://oldschool.runescape.wiki/images/thumb/Emote_clue_-_cheer_entrana_church.png/150px-Emote_clue_-_cheer_entrana_church.png?9f2ed"
     },
     {
       "difficulty": "master",
       "clue": "Clap in the magic axe hut. Beware of double agents! Equip only flared trousers.",
-      "location": "",
-      "emotes": [
-        "Level 55 Wilderness",
-        "north-east of the Deserted Keep. Lockpick required to enter"
+      "items": [
+        "Flared trousers",
+        "Lockpick"
       ],
-      "items_required": []
+      "notes": "Level 55 Wilderness, north-east of the Deserted Keep. Lockpick required to enter",
+      "map_image_url": "https://oldschool.runescape.wiki/images/thumb/Emote_clue_-_clap_magic_axe_hut.png/150px-Emote_clue_-_clap_magic_axe_hut.png?7a00e"
     },
     {
       "difficulty": "master",
       "clue": "Cry in the Tzhaar gem store. Beware of the double agents! Equip a fire cape and a TokTz-Xil-Ul.",
-      "location": "",
-      "emotes": [
-        "The Toktz-xil-ul requires level 60 Ranged to equip. Turn off Auto Retaliate before performing the emote",
-        "as you may lose the TokTz-Xil-Ul from retaliating against the double agent! The fire max cape",
-        "infernal cape",
-        "and infernal max cape work in place of a fire cape."
+      "items": [
+        "Fire cape",
+        "Toktz-xil-ul"
       ],
-      "items_required": []
+      "notes": "The Toktz-xil-ul requires level 60 Ranged to equip. Turn off Auto Retaliate before performing the emote, as you may lose the TokTz-Xil-Ul from retaliating against the double agent! The fire max cape, infernal cape, and infernal max cape work in place of a fire cape.",
+      "map_image_url": "https://oldschool.runescape.wiki/images/thumb/Emote_clue_-_cry_tzhaar_gem_shop.png/150px-Emote_clue_-_cry_tzhaar_gem_shop.png?9b01e"
     },
     {
       "difficulty": "master",
       "clue": "Dance in Iban's temple. Beware of double agents! Equip Iban's staff, a black mystic top, and a black mystic bottom.",
-      "location": "",
-      "emotes": [
-        "Requires completion of Underground Pass. Iban's staff (u) can be used as a substitute. The easiest route is from Lletya",
-        "running north to the Pass entrance. Note that the temple cannot be entered until the Regicide quest is started."
+      "items": [
+        "Iban's staff",
+        "Mystic robe top (dark)",
+        "Mystic robe bottom (dark)"
       ],
-      "items_required": []
+      "notes": "Requires completion of Underground Pass. Iban's staff (u) can be used as a substitute. The easiest route is from Lletya, running north to the Pass entrance. Note that the temple cannot be entered until the Regicide quest is started.",
+      "map_image_url": "https://oldschool.runescape.wiki/images/thumb/Emote_clue_-_dance_ibans_temple.png/150px-Emote_clue_-_dance_ibans_temple.png?797f8"
     },
     {
       "difficulty": "master",
       "clue": "Dance in the King Black Dragon's lair. Beware of double agents! Equip a black d'hide body, black d'hide vambraces and a black dragon mask.",
-      "location": "",
-      "emotes": [
-        "An anti-dragon shield is recommended to defend against the King Black Dragon's attacks. A STASH unit is found at the south-east corner of the lair for emote item storage."
+      "items": [
+        "Black d'hide body",
+        "Black d'hide vambraces",
+        "Black dragon mask"
       ],
-      "items_required": []
+      "notes": "An anti-dragon shield is recommended to defend against the King Black Dragon's attacks. A STASH unit is found at the south-east corner of the lair for emote item storage.",
+      "map_image_url": "https://oldschool.runescape.wiki/images/thumb/Emote_clue_-_dance_kbd_lair.png/150px-Emote_clue_-_dance_kbd_lair.png?0cac8"
     },
     {
       "difficulty": "master",
       "clue": "Do a jig at the Barrows chest. Beware of double agents! Equip any full barrows set.",
-      "location": "Any set of Barrows equipment.",
-      "emotes": [
-        "Echo Ahrim's can be used for this clue."
+      "items": [
+        "Barrows equipment"
       ],
-      "items_required": []
+      "notes": "Echo Ahrim's can be used for this clue.",
+      "map_image_url": "https://oldschool.runescape.wiki/images/thumb/Emote_clue_-_jig_at_barrows_chest.png/150px-Emote_clue_-_jig_at_barrows_chest.png?6c637"
     },
     {
       "difficulty": "master",
       "clue": "Flap at the Death Altar. Beware of double agents! Equip a death tiara, a legend's cape and any ring of wealth.",
-      "location": "",
-      "emotes": [
-        "The flap emote requires opening the Gift of Peace at the centre of the Stronghold of Security's first level. Accessing the Death Altar requires completion of Mourning's End Part II",
-        "and a Cape of legends can only be obtained after completion of Legends' Quest. Accessing the altar through Guardians of the Rift works for this clue."
+      "items": [
+        "Death tiara",
+        "Cape of legends",
+        "Ring of wealth"
       ],
-      "items_required": []
+      "notes": "The flap emote requires opening the Gift of Peace at the centre of the Stronghold of Security's first level. Accessing the Death Altar requires completion of Mourning's End Part II, and a Cape of legends can only be obtained after completion of Legends' Quest. Accessing the altar through Guardians of the Rift works for this clue.",
+      "map_image_url": "https://oldschool.runescape.wiki/images/thumb/Emote_clue_-_flap_at_Death_Altar.png/150px-Emote_clue_-_flap_at_Death_Altar.png?7ea63"
     },
     {
       "difficulty": "master",
       "clue": "Goblin Salute at the Goblin Village. Beware of double agents! Equip a Bandos platebody, Bandos cloak and Bandos godsword.",
-      "location": "",
-      "emotes": [
-        "The Goblin Salute emote requires partial completion of The Lost Tribe quest. An ornamental bandos godsword can be used for this clue."
+      "items": [
+        "Bandos platebody",
+        "Bandos cloak",
+        "Bandos godsword"
       ],
-      "items_required": []
+      "notes": "The Goblin Salute emote requires partial completion of The Lost Tribe quest. An ornamental bandos godsword can be used for this clue.",
+      "map_image_url": "https://oldschool.runescape.wiki/images/thumb/Emote_clue_-_goblin_salute_at_goblin_village.png/150px-Emote_clue_-_goblin_salute_at_goblin_village.png?9851e"
     },
     {
       "difficulty": "master",
       "clue": "Jump for joy in the centre of Zul-Andra. Beware of double agents! Equip a dragon 2h sword, Bandos boots and an obsidian cape.",
-      "location": "",
-      "emotes": [
-        "Partial completion of Regicide is required to reach Zul-Andra. Guardian or echo boots can be used in place of Bandos boots."
+      "items": [
+        "Dragon 2h sword",
+        "Bandos boots",
+        "Obsidian cape"
       ],
-      "items_required": []
+      "notes": "Partial completion of Regicide is required to reach Zul-Andra. Guardian or echo boots can be used in place of Bandos boots.",
+      "map_image_url": "https://oldschool.runescape.wiki/images/thumb/Emote_clue_-_jump_for_joy_Zul-Andra.png/150px-Emote_clue_-_jump_for_joy_Zul-Andra.png?7230d"
     },
     {
       "difficulty": "master",
       "clue": "Panic by the big egg where no one dare goes and the ground is burnt. Beware of double agents! Equip a dragon med helm, a TokTz-Ket-Xil, a brine sabre, rune platebody and an uncharged amulet of glory.",
-      "location": "",
-      "emotes": [
-        "Panic by the big egg on the east side of Lava Dragon Isle. Be careful of the lava dragons and player killers roaming the area."
+      "items": [
+        "Dragon med helm",
+        "Toktz-ket-xil",
+        "Rune platebody",
+        "Brine sabre",
+        "Amulet of glory"
       ],
-      "items_required": []
+      "notes": "Panic by the big egg on the east side of Lava Dragon Isle. Be careful of the lava dragons and player killers roaming the area.",
+      "map_image_url": "https://oldschool.runescape.wiki/images/thumb/Emote_clue_-_panic_lava_dragon_isle.png/150px-Emote_clue_-_panic_lava_dragon_isle.png?52fdd"
     },
     {
       "difficulty": "master",
       "clue": "Salute outside the gates of Cam Torum. Beware of double agents! Equip a full set of blue moon equipment.",
-      "location": "",
-      "emotes": [
-        "Perform the emote at the entrance to Cam Torum. Used versions of the armour pieces can be used for this clue (but not fully broken)."
+      "items": [
+        "Blue moon helm",
+        "Blue moon chestplate",
+        "Blue moon tassets",
+        "Blue moon spear"
       ],
-      "items_required": []
+      "notes": "Perform the emote at the entrance to Cam Torum. Used versions of the armour pieces can be used for this clue (but not fully broken).",
+      "map_image_url": "https://oldschool.runescape.wiki/images/thumb/Emote_clue_-_salute_Cam_Torum.png/150px-Emote_clue_-_salute_Cam_Torum.png?a7100"
     },
     {
       "difficulty": "master",
       "clue": "Show your anger at the Wise old man. Beware of double agents! Equip an abyssal whip, a legend's cape and some spined chaps.",
-      "location": "",
-      "emotes": [
-        "Any whip variant can be used for this clue."
+      "items": [
+        "Abyssal whip",
+        "Cape of legends",
+        "Spined chaps"
       ],
-      "items_required": []
+      "notes": "Any whip variant can be used for this clue.",
+      "map_image_url": "https://oldschool.runescape.wiki/images/thumb/Emote_clue_-_anger_wise_old_man.png/150px-Emote_clue_-_anger_wise_old_man.png?bf057"
     },
     {
       "difficulty": "master",
       "clue": "Show your anger towards the Statue of Saradomin in Ellamaria's garden. Beware of double agents! Equip a Zamorak godsword.",
-      "location": "",
-      "emotes": [
-        "75 Attack is required to wield the Zamorak godsword. Zamorak godsword (or) can be used as substitute. Partial completion of Garden of Tranquillity is required."
+      "items": [
+        "Zamorak godsword"
       ],
-      "items_required": []
+      "notes": "75 Attack is required to wield the Zamorak godsword. Zamorak godsword (or) can be used as substitute. Partial completion of Garden of Tranquillity is required.",
+      "map_image_url": "https://oldschool.runescape.wiki/images/thumb/Emote_clue_-_anger_saradomin_statue.png/150px-Emote_clue_-_anger_saradomin_statue.png?af3ae"
     },
     {
       "difficulty": "master",
       "clue": "Slap your head in the centre of the Kourend catacombs. Beware of double agents! Equip arclight or emberlight along with the amulet of the damned.",
-      "location": "",
-      "emotes": [
-        "Kourend Castle Teleport teleports the player directly to the Catacombs' main entrance. Partially charged items work. An Emberlight or an inactive Arclight will work for this step."
+      "items": [
+        "Arclight",
+        "Amulet of the damned"
       ],
-      "items_required": []
+      "notes": "Kourend Castle Teleport teleports the player directly to the Catacombs' main entrance. Partially charged items work. An Emberlight or an inactive Arclight will work for this step.",
+      "map_image_url": "https://oldschool.runescape.wiki/images/thumb/Emote_clue_-_slap_head_kourend_catacombs.png/150px-Emote_clue_-_slap_head_kourend_catacombs.png?af3ae"
     },
     {
       "difficulty": "master",
       "clue": "Spin in front of the Soul Altar. Beware of double agents! Equip a dragon pickaxe, helm of neitiznot and a pair of rune boots.",
-      "location": "",
-      "emotes": [
-        "Completion of The Fremennik Isles is required to wear the helm of neitiznot. The neitiznot faceguard can't be used. Any variant of a dragon pickaxe will work",
-        "as well as a crystal pickaxe."
+      "items": [
+        "Dragon pickaxe",
+        "Helm of neitiznot",
+        "Rune boots"
       ],
-      "items_required": []
+      "notes": "Completion of The Fremennik Isles is required to wear the helm of neitiznot. The neitiznot faceguard can't be used. Any variant of a dragon pickaxe will work, as well as a crystal pickaxe.",
+      "map_image_url": "https://oldschool.runescape.wiki/images/thumb/Emote_clue_-_spin_Soul_Altar.png/150px-Emote_clue_-_spin_Soul_Altar.png?ae361"
     },
     {
       "difficulty": "master",
       "clue": "Stamp in the Enchanted valley west of the waterfall. Beware of double agents! Equip a dragon axe.",
-      "location": "",
-      "emotes": [
-        "Fairy ring code BKQ (requires partial completion of Fairytale II - Cure a Queen) and the Stamp emote unlocked. The infernal axe",
-        "crystal axe",
-        "dragon felling axe",
-        "and crystal felling axe can be used instead of a regular dragon axe."
+      "items": [
+        "Dragon axe"
       ],
-      "items_required": []
+      "notes": "Fairy ring code BKQ (requires partial completion of Fairytale II - Cure a Queen) and the Stamp emote unlocked. The infernal axe, crystal axe, dragon felling axe, and crystal felling axe can be used instead of a regular dragon axe.",
+      "map_image_url": "https://oldschool.runescape.wiki/images/thumb/Emote_clue_-_stomp_enchanted_valley.png/150px-Emote_clue_-_stomp_enchanted_valley.png?80873"
     },
     {
       "difficulty": "master",
       "clue": "Swing a bullroarer at the top of the watchtower. Beware of double agents! Equip a dragon plateskirt, climbing boots and a dragon chainbody.",
-      "location": "",
-      "emotes": [
-        "Partial completion of Legends' Quest is required to obtain the bullroarer. Completion of Watchtower Quest is required. Death Plateau is also required to wear climbing boots. The gilded chainbody and plateskirt also work."
+      "items": [
+        "Bullroarer",
+        "Dragon plateskirt",
+        "Climbing boots",
+        "Dragon chainbody"
       ],
-      "items_required": []
+      "notes": "Partial completion of Legends' Quest is required to obtain the bullroarer. Completion of Watchtower Quest is required. Death Plateau is also required to wear climbing boots. The gilded chainbody and plateskirt also work.",
+      "map_image_url": "https://oldschool.runescape.wiki/images/thumb/Emote_clue_-_swing_bullroarer_watchtower.png/150px-Emote_clue_-_swing_bullroarer_watchtower.png?8dff0"
     },
     {
       "difficulty": "master",
       "clue": "Wave on the northern wall of the Castle Drakan. Beware of double agents! Wear a dragon sq shield, splitbark body and any boater.",
-      "location": "",
-      "emotes": [
-        "Completion of Legends' Quest and partial completion of Darkness of Hallowvale is required. Any coloured boater and the gilded dragon sq shield will work. The location is accessed by entering the western wall in the far south-west corner of Meiyerditch and following north. With level 86 Agility",
-        "completion of Sins of the Father",
-        "and two long ropes",
-        "players can use an alternate route without the presence of vyrewatch by climbing the wall at the north-eastern side of Darkmeyer. After climbing the wall",
-        "players can then run north-west until they reach some rocks that must be jumped over."
+      "items": [
+        "Dragon sq shield",
+        "Splitbark body",
+        "Boater"
       ],
-      "items_required": []
+      "notes": "Completion of Legends' Quest and partial completion of Darkness of Hallowvale is required. Any coloured boater and the gilded dragon sq shield will work. The location is accessed by entering the western wall in the far south-west corner of Meiyerditch and following north. With level 86 Agility, completion of Sins of the Father, and two long ropes, players can use an alternate route without the presence of vyrewatch by climbing the wall at the north-eastern side of Darkmeyer. After climbing the wall, players can then run north-west until they reach some rocks that must be jumped over.",
+      "map_image_url": "https://oldschool.runescape.wiki/images/thumb/Emote_clue_-_wave_castle_drakan.png/150px-Emote_clue_-_wave_castle_drakan.png?b39e8"
     },
     {
       "difficulty": "master",
       "clue": "Yawn in the 7th room of Pyramid Plunder. Beware of double agents! Equip a pharaoh's sceptre and a full set of menaphite robes.",
-      "location": "",
-      "emotes": [
-        "81 Thieving (cannot be boosted) is required to reach this room",
-        "in addition to completing Icthlarin's Little Helper. Any amount of charges will work for the Pharaoh's sceptre",
-        "and any menaphite clothing will work as long as all the pieces are the same colour. A set of menaphite clothing may be stored without storing the sceptre."
+      "items": [
+        "Pharaoh's sceptre",
+        "Menaphite purple hat",
+        "Menaphite purple top",
+        "Menaphite purple robe"
       ],
-      "items_required": []
+      "notes": "81 Thieving (cannot be boosted) is required to reach this room, in addition to completing Icthlarin's Little Helper. Any amount of charges will work for the Pharaoh's sceptre, and any menaphite clothing will work as long as all the pieces are the same colour. A set of menaphite clothing may be stored without storing the sceptre.",
+      "map_image_url": "https://oldschool.runescape.wiki/images/thumb/Emote_clue_-_yawn_pyramid_plunder.png/150px-Emote_clue_-_yawn_pyramid_plunder.png?1a3eb"
     },
     {
       "difficulty": "master",
       "clue": "Think on the western coast of Salvager Overlook. Beware of double agents! Equip a Hueycoatl hide coif and some Hueycoatl hide vambraces.",
-      "location": "",
-      "emotes": [],
-      "items_required": []
+      "items": [
+        "Hueycoatl hide coif",
+        "Hueycoatl hide vambraces"
+      ],
+      "notes": "",
+      "map_image_url": "https://oldschool.runescape.wiki/images/thumb/Emote_clue_-_think_salvager_overlook.png/150px-Emote_clue_-_think_salvager_overlook.png?a4e3b"
     }
   ],
   "maps": [
