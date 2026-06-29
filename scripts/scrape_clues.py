@@ -241,7 +241,10 @@ def parse_cryptic(soup: BeautifulSoup) -> list[dict]:
 
 def parse_emote(soup: BeautifulSoup) -> list[dict]:
     """
-    Columns: Clue text | Location | Emote(s) | Item(s) required | Ugly duckling hint (elite)
+    Table columns: Clue | Items | Notes | Map
+    Difficulty comes from the preceding <h3> heading.
+    Items are icon-links — extract item names from <a title="..."> attributes.
+    The map image is in the last (4th) column.
     """
     clues: list[dict] = []
     current_difficulty = "unknown"
@@ -249,24 +252,53 @@ def parse_emote(soup: BeautifulSoup) -> list[dict]:
     for element in soup.find_all(["h2", "h3", "table"]):
         if element.name in ("h2", "h3"):
             heading = clean(element.get_text())
-            for diff in ("easy", "medium", "hard", "elite", "master"):
+            for diff in ("beginner", "easy", "medium", "hard", "elite", "master"):
                 if diff in heading.lower():
                     current_difficulty = diff
                     break
+
         elif element.name == "table" and "wikitable" in element.get("class", []):
-            for row in rows_from_table(element):
-                if len(row) < 3:
+            for cells in rows_from_table_raw(element):
+                if len(cells) < 3:
                     continue
+
+                # Col 0: clue text (includes emote instruction + gear to equip)
+                clue_text = clean(cells[0].get_text())
+                if not clue_text:
+                    continue
+
+                # Col 1: items required — extract from <a title="..."> links
+                item_links = cells[1].find_all("a", title=True)
+                items: list[str] = []
+                seen: set[str] = set()
+                for a in item_links:
+                    name = clean(a.get("title", ""))
+                    if name and name not in seen:
+                        items.append(name)
+                        seen.add(name)
+                # Fallback for plain-text cells like "Nothing" / "None"
+                if not items:
+                    fallback = clean(cells[1].get_text())
+                    if fallback:
+                        items = [fallback]
+
+                # Col 2: notes / location hints
+                notes = clean(cells[2].get_text()) if len(cells) > 2 else ""
+
+                # Col 3: map image
+                map_image_url = None
+                if len(cells) > 3:
+                    map_image_url = extract_image_url(cells[3])
+
                 entry: dict[str, Any] = {
                     "difficulty": current_difficulty,
-                    "clue":       row[0],
-                    "location":   row[1],
-                    "emotes":     [e.strip() for e in row[2].split(",") if e.strip()],
+                    "clue":       clue_text,
+                    "items":      items,
+                    "notes":      notes,
                 }
-                if len(row) > 3:
-                    entry["items_required"] = [i.strip() for i in row[3].split(",") if i.strip()]
-                if len(row) > 4:
-                    entry["extra"] = row[4]
+                if map_image_url:
+                    entry["map_image_url"] = map_image_url
+
                 clues.append(entry)
     return clues
 
