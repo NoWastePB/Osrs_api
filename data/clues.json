@@ -1,7 +1,7 @@
 {
   "meta": {
     "source": "https://oldschool.runescape.wiki",
-    "generated_at": "2026-06-29T11:20:20Z"
+    "generated_at": "2026-06-29T11:26:40Z"
   },
   "anagrams": [
     {
@@ -1162,18 +1162,10 @@
       "wilderness": false
     },
     {
-      "coordinate": "",
-      "location": ""
-    },
-    {
       "coordinate": "00 degrees 13 minutes south, 13 degrees 58 minutes east",
       "location": "00.13S, 13.58E",
       "closest_teleport": "None.",
       "wilderness": false
-    },
-    {
-      "coordinate": "",
-      "location": ""
     },
     {
       "coordinate": "00 degrees 18 minutes south, 09 degrees 28 minutes east",
@@ -1182,18 +1174,10 @@
       "wilderness": false
     },
     {
-      "coordinate": "",
-      "location": ""
-    },
-    {
       "coordinate": "00 degrees 20 minutes south, 23 degrees 15 minutes east",
       "location": "00.20S, 23.15E",
       "closest_teleport": "None.",
       "wilderness": false
-    },
-    {
-      "coordinate": "",
-      "location": ""
     },
     {
       "coordinate": "00 degrees 30 minutes north, 24 degrees 16 minutes east",
@@ -1202,18 +1186,10 @@
       "wilderness": false
     },
     {
-      "coordinate": "",
-      "location": ""
-    },
-    {
       "coordinate": "00 degrees 31 minutes south, 17 degrees 43 minutes east",
       "location": "00.31S, 17.43E",
       "closest_teleport": "None.",
       "wilderness": false
-    },
-    {
-      "coordinate": "",
-      "location": ""
     },
     {
       "coordinate": "01 degrees 18 minutes south, 14 degrees 15 minutes east",
@@ -1222,18 +1198,10 @@
       "wilderness": false
     },
     {
-      "coordinate": "",
-      "location": ""
-    },
-    {
       "coordinate": "01 degrees 26 minutes north, 08 degrees 01 minutes east",
       "location": "01.26N, 08.01E",
       "closest_teleport": "10",
       "wilderness": false
-    },
-    {
-      "coordinate": "",
-      "location": ""
     },
     {
       "coordinate": "01 degrees 33 minutes south, 24 degrees 24 minutes west",
@@ -1242,18 +1210,10 @@
       "wilderness": false
     },
     {
-      "coordinate": "",
-      "location": ""
-    },
-    {
       "coordinate": "01 degrees 35 minutes south, 07 degrees 28 minutes east",
       "location": "01.35S, 07.28E",
       "closest_teleport": "None.",
       "wilderness": false
-    },
-    {
-      "coordinate": "",
-      "location": ""
     },
     {
       "coordinate": "02 degrees 16 minutes north, 12 degrees 07 minutes east",
@@ -1262,18 +1222,10 @@
       "wilderness": false
     },
     {
-      "coordinate": "",
-      "location": ""
-    },
-    {
       "coordinate": "02 degrees 43 minutes south, 33 degrees 26 minutes east",
       "location": "02.43S, 33.26E",
       "closest_teleport": "None.",
       "wilderness": false
-    },
-    {
-      "coordinate": "",
-      "location": ""
     },
     {
       "coordinate": "02 degrees 48 minutes north, 22 degrees 30 minutes east",
@@ -1282,18 +1234,10 @@
       "wilderness": false
     },
     {
-      "coordinate": "",
-      "location": ""
-    },
-    {
       "coordinate": "02 degrees 50 minutes north, 06 degrees 20 minutes east",
       "location": "02.50N, 06.20E",
       "closest_teleport": "None.",
       "wilderness": false
-    },
-    {
-      "coordinate": "",
-      "location": ""
     },
     {
       "coordinate": "03 degrees 07 minutes south, 03 degrees 41 minutes west",
@@ -1302,18 +1246,10 @@
       "wilderness": false
     },
     {
-      "coordinate": "",
-      "location": ""
-    },
-    {
       "coordinate": "03 degrees 35 minutes south, 13 degrees 35 minutes east",
       "location": "03.35S, 13.35E",
       "closest_teleport": "None.",
       "wilderness": false
-    },
-    {
-      "coordinate": "",
-      "location": ""
     },
     {
       "coordinate": "04 degrees 00 minutes south, 12 degrees 46 minutes east",
@@ -1322,18 +1258,10 @@
       "wilderness": false
     },
     {
-      "coordinate": "",
-      "location": ""
-    },
-    {
       "coordinate": "04 degrees 13 minutes north, 12 degrees 45 minutes east",
       "location": "04.13N, 12.45E",
       "closest_teleport": "Partial completion of Dragon Slayer I",
       "wilderness": false
-    },
-    {
-      "coordinate": "",
-      "location": ""
     },
     {
       "coordinate": "05 degrees 20 minutes south, 04 degrees 28 minutes east",
@@ -1342,18 +1270,10 @@
       "wilderness": false
     },
     {
-      "coordinate": "",
-      "location": ""
-    },
-    {
       "coordinate": "05 degrees 43 minutes north, 23 degrees 05 minutes east",
       "location": "05.43N, 23.05E",
       "closest_teleport": "None.",
       "wilderness": false
-    },
-    {
-      "coordinate": "",
-      "location": ""
     },
     {
       "coordinate": "06 degrees 31 minutes north, 01 degrees 46 minutes west",
@@ -1362,18 +1282,10 @@
       "wilderness": false
     },
     {
-      "coordinate": "",
-      "location": ""
-    },
-    {
       "coordinate": "06 degrees 41 minutes north, 27 degrees 15 minutes east",
       "location": "06.41N, 27.15E",
       "closest_teleport": "None.",
       "wilderness": false
-    },
-    {
-      "coordinate": "",
-      "location": ""
     },
     {
       "coordinate": "06 degrees 58 minutes north, 21 degrees 16 minutes east",
@@ -1382,18 +1294,10 @@
       "wilderness": false
     },
     {
-      "coordinate": "",
-      "location": ""
-    },
-    {
       "coordinate": "07 degrees 05 minutes north, 30 degrees 56 minutes east",
       "location": "07.05N, 30.56E",
       "closest_teleport": "Priest in Peril (to enter Canifis)",
       "wilderness": false
-    },
-    {
-      "coordinate": "",
-      "location": ""
     },
     {
       "coordinate": "07 degrees 33 minutes north, 15 degrees 00 minutes east",
@@ -1402,18 +1306,10 @@
       "wilderness": false
     },
     {
-      "coordinate": "",
-      "location": ""
-    },
-    {
       "coordinate": "08 degrees 11 minutes south, 04 degrees 48 minutes east",
       "location": "08.11S, 04.48E",
       "closest_teleport": "Spade",
       "wilderness": false
-    },
-    {
-      "coordinate": "",
-      "location": ""
     },
     {
       "coordinate": "08 degrees 33 minutes north, 01 degrees 39 minutes west",
@@ -1422,18 +1318,10 @@
       "wilderness": false
     },
     {
-      "coordinate": "",
-      "location": ""
-    },
-    {
       "coordinate": "09 degrees 33 minutes north, 02 degrees 15 minutes east",
       "location": "09.33N, 02.15E",
       "closest_teleport": "Started Waterfall Quest Rope",
       "wilderness": false
-    },
-    {
-      "coordinate": "",
-      "location": ""
     },
     {
       "coordinate": "09 degrees 35 minutes north, 01 degrees 50 minutes west",
@@ -1442,18 +1330,10 @@
       "wilderness": false
     },
     {
-      "coordinate": "",
-      "location": ""
-    },
-    {
       "coordinate": "09 degrees 48 minutes north, 17 degrees 39 minutes east",
       "location": "09.48N, 17.39E",
       "closest_teleport": "None.",
       "wilderness": false
-    },
-    {
-      "coordinate": "",
-      "location": ""
     },
     {
       "coordinate": "10 degrees 45 minutes north, 04 degrees 31 minutes east",
@@ -1462,18 +1342,10 @@
       "wilderness": false
     },
     {
-      "coordinate": "",
-      "location": ""
-    },
-    {
       "coordinate": "11 degrees 03 minutes north, 31 degrees 20 minutes east",
       "location": "11.03N, 31.20E",
       "closest_teleport": "Completion of Priest in Peril",
       "wilderness": false
-    },
-    {
-      "coordinate": "",
-      "location": ""
     },
     {
       "coordinate": "11 degrees 05 minutes north, 00 degrees 45 minutes west",
@@ -1482,18 +1354,10 @@
       "wilderness": false
     },
     {
-      "coordinate": "",
-      "location": ""
-    },
-    {
       "coordinate": "11 degrees 18 minutes north, 30 degrees 54 minutes east",
       "location": "11.18N, 30.54E",
       "closest_teleport": "Completion of Priest in Peril.",
       "wilderness": false
-    },
-    {
-      "coordinate": "",
-      "location": ""
     },
     {
       "coordinate": "11 degrees 33 minutes north, 02 degrees 24 minutes west",
@@ -1502,18 +1366,10 @@
       "wilderness": false
     },
     {
-      "coordinate": "",
-      "location": ""
-    },
-    {
       "coordinate": "11 degrees 41 minutes north, 14 degrees 58 minutes east",
       "location": "11.41N, 14.58E",
       "closest_teleport": "None.",
       "wilderness": false
-    },
-    {
-      "coordinate": "",
-      "location": ""
     },
     {
       "coordinate": "12 degrees 28 minutes north, 34 degrees 37 minutes east",
@@ -1522,18 +1378,10 @@
       "wilderness": false
     },
     {
-      "coordinate": "",
-      "location": ""
-    },
-    {
       "coordinate": "12 degrees 39 minutes north, 30 degrees 07 minutes west",
       "location": "12.39N, 30.07W",
       "closest_teleport": "None.",
       "wilderness": false
-    },
-    {
-      "coordinate": "",
-      "location": ""
     },
     {
       "coordinate": "14 degrees 54 minutes north, 9 degrees 13 minutes east",
@@ -1542,18 +1390,10 @@
       "wilderness": false
     },
     {
-      "coordinate": "",
-      "location": ""
-    },
-    {
       "coordinate": "15 degrees 22 minutes north, 07 degrees 31 minutes east",
       "location": "15.22N, 07.31E",
       "closest_teleport": "None.",
       "wilderness": false
-    },
-    {
-      "coordinate": "",
-      "location": ""
     },
     {
       "coordinate": "17 degrees 39 minutes north, 37 degrees 16 minutes west",
@@ -1562,18 +1402,10 @@
       "wilderness": false
     },
     {
-      "coordinate": "",
-      "location": ""
-    },
-    {
       "coordinate": "22 degrees 07 minutes south, 23 degrees 13 minutes east",
       "location": "22.07S, 23.13E",
       "closest_teleport": "Partial Completion of the Troubled Tortugans quest",
       "wilderness": false
-    },
-    {
-      "coordinate": "",
-      "location": ""
     },
     {
       "coordinate": "22 degrees 30 minutes north, 03 degrees 01 minutes east",
@@ -1582,18 +1414,10 @@
       "wilderness": false
     },
     {
-      "coordinate": "",
-      "location": ""
-    },
-    {
       "coordinate": "23 degrees 05 minutes north, 41 degrees 22 minutes east",
       "location": "23.05N, 41.22E",
       "closest_teleport": "Completion of Bone Voyage",
       "wilderness": false
-    },
-    {
-      "coordinate": "",
-      "location": ""
     },
     {
       "coordinate": "00 degrees 00 minutes north, 07 degrees 13 minutes west",
@@ -1602,18 +1426,10 @@
       "wilderness": false
     },
     {
-      "coordinate": "",
-      "location": ""
-    },
-    {
       "coordinate": "01 degrees 24 minutes north, 08 degrees 05 minutes west",
       "location": "01.24N, 08.05W",
       "closest_teleport": "Regicide",
       "wilderness": false
-    },
-    {
-      "coordinate": "",
-      "location": ""
     },
     {
       "coordinate": "01 degrees 30 minutes north, 20 degrees 01 minutes east",
@@ -1622,18 +1438,10 @@
       "wilderness": false
     },
     {
-      "coordinate": "",
-      "location": ""
-    },
-    {
       "coordinate": "02 degrees 39 minutes north, 29 degrees 58 minutes east",
       "location": "02.39N, 29.58E",
       "closest_teleport": "None.",
       "wilderness": false
-    },
-    {
-      "coordinate": "",
-      "location": ""
     },
     {
       "coordinate": "02 degrees 48 minutes north, 08 degrees 05 minutes east",
@@ -1642,18 +1450,10 @@
       "wilderness": false
     },
     {
-      "coordinate": "",
-      "location": ""
-    },
-    {
       "coordinate": "02 degrees 48 minutes north, 34 degrees 33 minutes east",
       "location": "02.48N, 34.33E",
       "closest_teleport": "Started In Aid of the Myreque",
       "wilderness": false
-    },
-    {
-      "coordinate": "",
-      "location": ""
     },
     {
       "coordinate": "02 degrees 58 minutes north, 34 degrees 30 minutes east",
@@ -1662,18 +1462,10 @@
       "wilderness": false
     },
     {
-      "coordinate": "",
-      "location": ""
-    },
-    {
       "coordinate": "03 degrees 18 minutes north,12 degrees 31 minutes east",
       "location": "03.18N,12.31E",
       "closest_teleport": "Partial completion of Dragon Slayer I",
       "wilderness": false
-    },
-    {
-      "coordinate": "",
-      "location": ""
     },
     {
       "coordinate": "03 degrees 45 minutes south, 22 degrees 45 minutes east",
@@ -1682,18 +1474,10 @@
       "wilderness": false
     },
     {
-      "coordinate": "",
-      "location": ""
-    },
-    {
       "coordinate": "04 degrees 03 minutes south, 03 degrees 11 minutes east",
       "location": "04.03S, 03.11E",
       "closest_teleport": "Partial completion of Watchtower 20 coins if Watchtower has not been completed, or if you have used the bridge to cross back[1] (if you used the bridge to cross back, but have 71 , you don't need the coins)",
       "wilderness": false
-    },
-    {
-      "coordinate": "",
-      "location": ""
     },
     {
       "coordinate": "04 degrees 05 minutes south, 04 degrees 24 minutes east",
@@ -1702,18 +1486,10 @@
       "wilderness": false
     },
     {
-      "coordinate": "",
-      "location": ""
-    },
-    {
       "coordinate": "04 degrees 16 minutes south, 16 degrees 16 minutes east",
       "location": "04.16S, 16.16E",
       "closest_teleport": "Partial completion of The Grand Tree",
       "wilderness": false
-    },
-    {
-      "coordinate": "",
-      "location": ""
     },
     {
       "coordinate": "04 degrees 41 minutes north, 03 degrees 09 minutes west",
@@ -1722,18 +1498,10 @@
       "wilderness": false
     },
     {
-      "coordinate": "",
-      "location": ""
-    },
-    {
       "coordinate": "05 degrees 03 minutes north, 34 degrees 58 minutes west",
       "location": "05.03N, 34.58W",
       "closest_teleport": "Completion of Children of the Sun",
       "wilderness": false
-    },
-    {
-      "coordinate": "",
-      "location": ""
     },
     {
       "coordinate": "05 degrees 37 minutes north, 31 degrees 15 minutes east",
@@ -1742,18 +1510,10 @@
       "wilderness": false
     },
     {
-      "coordinate": "",
-      "location": ""
-    },
-    {
       "coordinate": "05 degrees 50 minutes south, 10 degrees 05 minutes east",
       "location": "05.50S, 10.05E",
       "closest_teleport": "15",
       "wilderness": false
-    },
-    {
-      "coordinate": "",
-      "location": ""
     },
     {
       "coordinate": "06 degrees 00 minutes south, 21 degrees 48 minutes east",
@@ -1762,18 +1522,10 @@
       "wilderness": false
     },
     {
-      "coordinate": "",
-      "location": ""
-    },
-    {
       "coordinate": "06 degrees 11 minutes south, 15 degrees 07 minutes east",
       "location": "06.11S, 15.07E",
       "closest_teleport": "None.",
       "wilderness": false
-    },
-    {
-      "coordinate": "",
-      "location": ""
     },
     {
       "coordinate": "07 degrees 43 minutes south, 12 degrees 26 minutes east",
@@ -1782,18 +1534,10 @@
       "wilderness": false
     },
     {
-      "coordinate": "",
-      "location": ""
-    },
-    {
       "coordinate": "08 degrees 03 minutes north, 31 degrees 16 minutes east",
       "location": "08.03N, 31.16E",
       "closest_teleport": "Started Priest in Peril",
       "wilderness": false
-    },
-    {
-      "coordinate": "",
-      "location": ""
     },
     {
       "coordinate": "08 degrees 05 minutes south, 15 degrees 56 minutes east",
@@ -1802,18 +1546,10 @@
       "wilderness": false
     },
     {
-      "coordinate": "",
-      "location": ""
-    },
-    {
       "coordinate": "08 degrees 26 minutes south, 10 degrees 28 minutes east",
       "location": "08.26S, 10.28E",
       "closest_teleport": "Partial completion of Legends' Quest",
       "wilderness": false
-    },
-    {
-      "coordinate": "",
-      "location": ""
     },
     {
       "coordinate": "10 degrees 03 minutes north, 32 degrees 13 minutes west",
@@ -1822,18 +1558,10 @@
       "wilderness": false
     },
     {
-      "coordinate": "",
-      "location": ""
-    },
-    {
       "coordinate": "12 degrees 05 minutes south, 38 degrees 58 minutes west",
       "location": "12.05S, 38.58W",
       "closest_teleport": "58",
       "wilderness": false
-    },
-    {
-      "coordinate": "",
-      "location": ""
     },
     {
       "coordinate": "13 degrees 46 minutes north, 21 degrees 01 minutes east",
@@ -1842,18 +1570,10 @@
       "wilderness": false
     },
     {
-      "coordinate": "",
-      "location": ""
-    },
-    {
       "coordinate": "16 degrees 03 minutes north, 14 degrees 07 minutes east",
       "location": "16.03N, 14.07E",
       "closest_teleport": "Start Troll Stronghold, bring climbing boots",
       "wilderness": false
-    },
-    {
-      "coordinate": "",
-      "location": ""
     },
     {
       "coordinate": "16 degrees 07 minutes north, 22 degrees 45 minutes east",
@@ -1862,18 +1582,10 @@
       "wilderness": false
     },
     {
-      "coordinate": "",
-      "location": ""
-    },
-    {
       "coordinate": "16 degrees 31 minutes north, 12 degrees 54 minutes east",
       "location": "16.31N, 12.54E",
       "closest_teleport": "Partial completion of the Troll Stronghold quest",
       "wilderness": false
-    },
-    {
-      "coordinate": "",
-      "location": ""
     },
     {
       "coordinate": "16 degrees 35 minutes north, 27 degrees 01 minutes east",
@@ -1882,18 +1594,10 @@
       "wilderness": false
     },
     {
-      "coordinate": "",
-      "location": ""
-    },
-    {
       "coordinate": "16 degrees 43 minutes north, 19 degrees 13 minutes east",
       "location": "16.43N, 19.13E",
       "closest_teleport": "None.",
       "wilderness": false
-    },
-    {
-      "coordinate": "",
-      "location": ""
     },
     {
       "coordinate": "16 degrees 43 minutes north, 26 degrees 56 minutes east",
@@ -1902,18 +1606,10 @@
       "wilderness": false
     },
     {
-      "coordinate": "",
-      "location": ""
-    },
-    {
       "coordinate": "16 degrees 45 minutes north, 03 degrees 05 minutes west",
       "location": "16.45N, 03.05W",
       "closest_teleport": "Completion of Swan Song",
       "wilderness": false
-    },
-    {
-      "coordinate": "",
-      "location": ""
     },
     {
       "coordinate": "16 degrees 48 minutes north, 30 degrees 01 minutes west",
@@ -1922,18 +1618,10 @@
       "wilderness": false
     },
     {
-      "coordinate": "",
-      "location": ""
-    },
-    {
       "coordinate": "17 degrees 50 minutes north, 08 degrees 30 minutes east",
       "location": "17.50N, 08.30E",
       "closest_teleport": "None.",
       "wilderness": false
-    },
-    {
-      "coordinate": "",
-      "location": ""
     },
     {
       "coordinate": "18 degrees 22 minutes north, 16 degrees 33 minutes east",
@@ -1942,18 +1630,10 @@
       "wilderness": false
     },
     {
-      "coordinate": "",
-      "location": ""
-    },
-    {
       "coordinate": "18 degrees 50 minutes north, 20 degrees 26 minutes east",
       "location": "18.50N, 20.26E",
       "closest_teleport": "None.",
       "wilderness": false
-    },
-    {
-      "coordinate": "",
-      "location": ""
     },
     {
       "coordinate": "19 degrees 00 minutes north, 27 degrees 13 minutes east",
@@ -1962,18 +1642,10 @@
       "wilderness": false
     },
     {
-      "coordinate": "",
-      "location": ""
-    },
-    {
       "coordinate": "19 degrees 09 minutes north, 21 degrees 58 minutes east",
       "location": "19.09N, 21.58E",
       "closest_teleport": "None.",
       "wilderness": false
-    },
-    {
-      "coordinate": "",
-      "location": ""
     },
     {
       "coordinate": "19 degrees 24 minutes north, 30 degrees 37 minutes west",
@@ -1982,18 +1654,10 @@
       "wilderness": false
     },
     {
-      "coordinate": "",
-      "location": ""
-    },
-    {
       "coordinate": "19 degrees 43 minutes north, 25 degrees 07 minutes east",
       "location": "19.43N, 25.07E",
       "closest_teleport": "None.",
       "wilderness": false
-    },
-    {
-      "coordinate": "",
-      "location": ""
     },
     {
       "coordinate": "20 degrees 05 minutes north, 21 degrees 52 minutes east",
@@ -2002,18 +1666,10 @@
       "wilderness": false
     },
     {
-      "coordinate": "",
-      "location": ""
-    },
-    {
       "coordinate": "20 degrees 33 minutes north, 15 degrees 48 minutes east",
       "location": "20.33N, 15.48E",
       "closest_teleport": "None.",
       "wilderness": false
-    },
-    {
-      "coordinate": "",
-      "location": ""
     },
     {
       "coordinate": "20 degrees 45 minutes north, 41 degrees 35 minutes east",
@@ -2022,18 +1678,10 @@
       "wilderness": false
     },
     {
-      "coordinate": "",
-      "location": ""
-    },
-    {
       "coordinate": "21 degrees 24 minutes north, 17 degrees 54 minutes east",
       "location": "21.24N, 17.54E",
       "closest_teleport": "None.",
       "wilderness": false
-    },
-    {
-      "coordinate": "",
-      "location": ""
     },
     {
       "coordinate": "22 degrees 35 minutes north, 19 degrees 18 minutes east",
@@ -2042,18 +1690,10 @@
       "wilderness": false
     },
     {
-      "coordinate": "",
-      "location": ""
-    },
-    {
       "coordinate": "22 degrees 45 minutes north, 26 degrees 33 minutes east",
       "location": "22.45N, 26.33E",
       "closest_teleport": "None.",
       "wilderness": false
-    },
-    {
-      "coordinate": "",
-      "location": ""
     },
     {
       "coordinate": "23 degrees 03 minutes north, 41 degrees 24 minutes east",
@@ -2062,18 +1702,10 @@
       "wilderness": false
     },
     {
-      "coordinate": "",
-      "location": ""
-    },
-    {
       "coordinate": "23 degrees 03 minutes north, 02 degrees 01 minutes east",
       "location": "23.03N, 02.01E",
       "closest_teleport": "Partial completion of Fairytale II - Cure a Queen for access to fairy rings.",
       "wilderness": false
-    },
-    {
-      "coordinate": "",
-      "location": ""
     },
     {
       "coordinate": "23 degrees 30 minutes north, 16 degrees 33 minutes east",
@@ -2082,18 +1714,10 @@
       "wilderness": false
     },
     {
-      "coordinate": "",
-      "location": ""
-    },
-    {
       "coordinate": "24 degrees 24 minutes north, 26 degrees 24 minutes east",
       "location": "24.24N, 26.24E",
       "closest_teleport": "None.",
       "wilderness": false
-    },
-    {
-      "coordinate": "",
-      "location": ""
     },
     {
       "coordinate": "24 degrees 56 minutes north, 22 degrees 28 minutes east",
@@ -2102,18 +1726,10 @@
       "wilderness": false
     },
     {
-      "coordinate": "",
-      "location": ""
-    },
-    {
       "coordinate": "24 degrees 58 minutes north, 18 degrees 43 minutes east",
       "location": "24.58N, 18.43E",
       "closest_teleport": "None.",
       "wilderness": false
-    },
-    {
-      "coordinate": "",
-      "location": ""
     },
     {
       "coordinate": "25 degrees 03 minutes north, 17 degrees 05 minutes east",
@@ -2122,18 +1738,10 @@
       "wilderness": false
     },
     {
-      "coordinate": "",
-      "location": ""
-    },
-    {
       "coordinate": "25 degrees 03 minutes north, 23 degrees 24 minutes east",
       "location": "25.03N, 23.24E",
       "closest_teleport": "None.",
       "wilderness": false
-    },
-    {
-      "coordinate": "",
-      "location": ""
     },
     {
       "coordinate": "00 degrees 18 minutes south, 02 degrees 35 minutes west",
@@ -2142,18 +1750,10 @@
       "wilderness": false
     },
     {
-      "coordinate": "",
-      "location": ""
-    },
-    {
       "coordinate": "00 degrees 35 minutes north, 35 degrees 50 minutes east",
       "location": "00.35N, 35.50E",
       "closest_teleport": "Partial completion of Darkness of Hallowvale.",
       "wilderness": false
-    },
-    {
-      "coordinate": "",
-      "location": ""
     },
     {
       "coordinate": "00 degrees 41 minutes north, 27 degrees 35 minutes west",
@@ -2162,18 +1762,10 @@
       "wilderness": false
     },
     {
-      "coordinate": "",
-      "location": ""
-    },
-    {
       "coordinate": "00 degrees 43 minutes north, 11 degrees 13 minutes west",
       "location": "00.43N, 11.13W",
       "closest_teleport": "Completion of Pandemonium, 66 Sailing and an Adamant keel for traversing the crystal-flecked waters.",
       "wilderness": false
-    },
-    {
-      "coordinate": "",
-      "location": ""
     },
     {
       "coordinate": "02 degrees 35 minutes south, 11 degrees 52 minutes east",
@@ -2182,18 +1774,10 @@
       "wilderness": false
     },
     {
-      "coordinate": "",
-      "location": ""
-    },
-    {
       "coordinate": "02 degrees 37 minutes north, 27 degrees 09 minutes west",
       "location": "02.37N, 27.09W",
       "closest_teleport": "Children of the Sun is required to access the Proudspire.",
       "wilderness": false
-    },
-    {
-      "coordinate": "",
-      "location": ""
     },
     {
       "coordinate": "03 degrees 09 minutes south, 42 degrees 50 minutes east",
@@ -2202,18 +1786,10 @@
       "wilderness": false
     },
     {
-      "coordinate": "",
-      "location": ""
-    },
-    {
       "coordinate": "03 degrees 46 minutes north, 08 degrees 07 minutes west",
       "location": "03.46N, 08.07W",
       "closest_teleport": "Regicide",
       "wilderness": false
-    },
-    {
-      "coordinate": "",
-      "location": ""
     },
     {
       "coordinate": "05 degrees 07 minutes south, 13 degrees 26 minutes east",
@@ -2222,18 +1798,10 @@
       "wilderness": false
     },
     {
-      "coordinate": "",
-      "location": ""
-    },
-    {
       "coordinate": "05 degrees 18 minutes north, 6 degrees 48 minutes west",
       "location": "05.18N, 6.48W",
       "closest_teleport": "Completion of the Song of the Elves quest",
       "wilderness": false
-    },
-    {
-      "coordinate": "",
-      "location": ""
     },
     {
       "coordinate": "05 degrees 24 minutes south, 26 degrees 56 minutes east",
@@ -2242,18 +1810,10 @@
       "wilderness": false
     },
     {
-      "coordinate": "",
-      "location": ""
-    },
-    {
       "coordinate": "05 degrees 39 minutes south, 02 degrees 13 minutes east",
       "location": "05.39S, 02.13E",
       "closest_teleport": "None.",
       "wilderness": false
-    },
-    {
-      "coordinate": "",
-      "location": ""
     },
     {
       "coordinate": "06 degrees 28 minutes south, 03 degrees 48 minutes west",
@@ -2262,18 +1822,10 @@
       "wilderness": false
     },
     {
-      "coordinate": "",
-      "location": ""
-    },
-    {
       "coordinate": "06 degrees 35 minutes north, 09 degrees 07 minutes east",
       "location": "06.35N, 09.07E",
       "closest_teleport": "Started Legends' Quest",
       "wilderness": false
-    },
-    {
-      "coordinate": "",
-      "location": ""
     },
     {
       "coordinate": "08 degrees 15 minutes north, 35 degrees 24 minutes east",
@@ -2282,18 +1834,10 @@
       "wilderness": false
     },
     {
-      "coordinate": "",
-      "location": ""
-    },
-    {
       "coordinate": "08 degrees 30 minutes south, 10 degrees 48 minutes west",
       "location": "08.30S, 10.48W",
       "closest_teleport": "None.",
       "wilderness": false
-    },
-    {
-      "coordinate": "",
-      "location": ""
     },
     {
       "coordinate": "09 degrees 46 minutes south, 43 degrees 22 minutes east",
@@ -2302,18 +1846,10 @@
       "wilderness": false
     },
     {
-      "coordinate": "",
-      "location": ""
-    },
-    {
       "coordinate": "10 degrees 05 minutes south, 24 degrees 31 minutes east",
       "location": "10.05S, 24.31E",
       "closest_teleport": "None.",
       "wilderness": false
-    },
-    {
-      "coordinate": "",
-      "location": ""
     },
     {
       "coordinate": "10 degrees 52 minutes north, 30 degrees 54 minutes west",
@@ -2322,18 +1858,10 @@
       "wilderness": false
     },
     {
-      "coordinate": "",
-      "location": ""
-    },
-    {
       "coordinate": "10 degrees 54 minutes north, 20 degrees 50 minutes west",
       "location": "10.54N, 20.50W",
       "closest_teleport": "None.",
       "wilderness": false
-    },
-    {
-      "coordinate": "",
-      "location": ""
     },
     {
       "coordinate": "12 degrees 31 minutes north, 43 degrees 11 minutes east",
@@ -2342,18 +1870,10 @@
       "wilderness": false
     },
     {
-      "coordinate": "",
-      "location": ""
-    },
-    {
       "coordinate": "12 degrees 35 minutes north, 36 degrees 20 minutes east",
       "location": "12.35N, 36.20E",
       "closest_teleport": "25",
       "wilderness": false
-    },
-    {
-      "coordinate": "",
-      "location": ""
     },
     {
       "coordinate": "13 degrees 45 minutes south, 15 degrees 30 minutes east",
@@ -2362,18 +1882,10 @@
       "wilderness": false
     },
     {
-      "coordinate": "",
-      "location": ""
-    },
-    {
       "coordinate": "14 degrees 13 minutes south, 27 degrees 26 minutes east",
       "location": "14.13S, 27.26E",
       "closest_teleport": "Partial completion of Beneath Cursed Sands",
       "wilderness": false
-    },
-    {
-      "coordinate": "",
-      "location": ""
     },
     {
       "coordinate": "14 degrees 15 minutes south, 08 degrees 01 minutes east",
@@ -2382,18 +1894,10 @@
       "wilderness": false
     },
     {
-      "coordinate": "",
-      "location": ""
-    },
-    {
       "coordinate": "16 degrees 09 minutes north, 10 degrees 33 minutes east",
       "location": "16.09N, 10.33E",
       "closest_teleport": "A rope (if Mountain Daughter not completed)",
       "wilderness": false
-    },
-    {
-      "coordinate": "",
-      "location": ""
     },
     {
       "coordinate": "17 degrees 58 minutes north, 19 degrees 05 minutes east",
@@ -2402,18 +1906,10 @@
       "wilderness": false
     },
     {
-      "coordinate": "",
-      "location": ""
-    },
-    {
       "coordinate": "18 degrees 05 minutes north, 12 degrees 05 minutes east",
       "location": "18.05N, 12.05E",
       "closest_teleport": "Access to Trollheim, requires quests",
       "wilderness": false
-    },
-    {
-      "coordinate": "",
-      "location": ""
     },
     {
       "coordinate": "19 degrees 56 minutes north, 02 degrees 31 minutes west",
@@ -2422,18 +1918,10 @@
       "wilderness": false
     },
     {
-      "coordinate": "",
-      "location": ""
-    },
-    {
       "coordinate": "20 degrees 11 minutes north, 07 degrees 41 minutes west",
       "location": "20.11N, 07.41W",
       "closest_teleport": "Started Lunar Diplomacy to access Pirates' Cove",
       "wilderness": false
-    },
-    {
-      "coordinate": "",
-      "location": ""
     },
     {
       "coordinate": "20 degrees 13 minutes north, 08 degrees 07 minutes east",
@@ -2442,18 +1930,10 @@
       "wilderness": false
     },
     {
-      "coordinate": "",
-      "location": ""
-    },
-    {
       "coordinate": "20 degrees 24 minutes north, 03 degrees 52 minutes west",
       "location": "20.24N, 03.52W",
       "closest_teleport": "Started The Fremennik Isles to access Neitiznot",
       "wilderness": false
-    },
-    {
-      "coordinate": "",
-      "location": ""
     },
     {
       "coordinate": "21 degrees 03 minutes north, 24 degrees 13 minutes east",
@@ -2462,18 +1942,10 @@
       "wilderness": false
     },
     {
-      "coordinate": "",
-      "location": ""
-    },
-    {
       "coordinate": "22 degrees 54 minutes north, 29 degrees 01 minutes east",
       "location": "22.54N, 29.01E",
       "closest_teleport": "None.",
       "wilderness": false
-    },
-    {
-      "coordinate": "",
-      "location": ""
     },
     {
       "coordinate": "23 degrees 48 minutes north, 11 degrees 43 minutes west",
@@ -2482,18 +1954,10 @@
       "wilderness": false
     },
     {
-      "coordinate": "",
-      "location": ""
-    },
-    {
       "coordinate": "24 degrees 07 minutes north, 23 degrees 22 minutes east",
       "location": "24.07N, 23.22E",
       "closest_teleport": "None.",
       "wilderness": false
-    },
-    {
-      "coordinate": "",
-      "location": ""
     },
     {
       "coordinate": "24 degrees 15 minutes north, 13 degrees 30 minutes east",
@@ -2502,18 +1966,10 @@
       "wilderness": false
     },
     {
-      "coordinate": "",
-      "location": ""
-    },
-    {
       "coordinate": "24 degrees 20 minutes north, 18 degrees 50 minutes east",
       "location": "24.20N, 18.50E",
       "closest_teleport": "None.",
       "wilderness": false
-    },
-    {
-      "coordinate": "",
-      "location": ""
     },
     {
       "coordinate": "25 degrees 03 minutes north, 29 degrees 22 minutes east",
@@ -2522,18 +1978,10 @@
       "wilderness": false
     },
     {
-      "coordinate": "",
-      "location": ""
-    },
-    {
       "coordinate": "25 degrees 48 minutes north, 35 degrees 00 minutes east",
       "location": "25.48N, 35.00E",
       "closest_teleport": "Partial completion of Dragon Slayer II",
       "wilderness": false
-    },
-    {
-      "coordinate": "",
-      "location": ""
     },
     {
       "coordinate": "26 degrees 43 minutes north, 01 degrees 22 minutes east",
@@ -2542,18 +1990,10 @@
       "wilderness": false
     },
     {
-      "coordinate": "",
-      "location": ""
-    },
-    {
       "coordinate": "01 degrees 30 minutes north, 08 degrees 11 minutes west",
       "location": "01.30N,08.11W",
       "closest_teleport": "Regicide",
       "wilderness": false
-    },
-    {
-      "coordinate": "",
-      "location": ""
     },
     {
       "coordinate": "01 degrees 54 minutes south, 08 degrees 54 minutes west",
@@ -2562,18 +2002,10 @@
       "wilderness": false
     },
     {
-      "coordinate": "",
-      "location": ""
-    },
-    {
       "coordinate": "02 degrees 09 minutes south,06 degrees 58 minutes west",
       "location": "02.09S,06.58W",
       "closest_teleport": "Partial completion of Fairytale II - Cure a Queen for access to fairy rings.",
       "wilderness": false
-    },
-    {
-      "coordinate": "",
-      "location": ""
     },
     {
       "coordinate": "03 degrees 09 minutes south, 43 degrees 26 minutes east",
@@ -2582,18 +2014,10 @@
       "wilderness": false
     },
     {
-      "coordinate": "",
-      "location": ""
-    },
-    {
       "coordinate": "03 degrees 26 minutes north, 12 degrees 18 minutes east",
       "location": "03.26N, 12.18E",
       "closest_teleport": "Partial completion of Dragon Slayer I",
       "wilderness": false
-    },
-    {
-      "coordinate": "",
-      "location": ""
     },
     {
       "coordinate": "03 degrees 50 minutes north, 09 degrees 07 minutes east",
@@ -2602,18 +2026,10 @@
       "wilderness": false
     },
     {
-      "coordinate": "",
-      "location": ""
-    },
-    {
       "coordinate": "04 degrees 58 minutes north, 36 degrees 56 minutes east",
       "location": "04.58N, 36.56E",
       "closest_teleport": "Partial completion of Darkness of Hallowvale",
       "wilderness": false
-    },
-    {
-      "coordinate": "",
-      "location": ""
     },
     {
       "coordinate": "05 degrees 13 minutes north, 04 degrees 16 minutes west",
@@ -2622,18 +2038,10 @@
       "wilderness": false
     },
     {
-      "coordinate": "",
-      "location": ""
-    },
-    {
       "coordinate": "07 degrees 37 minutes north, 35 degrees 18 minutes east",
       "location": "07.37N, 35.18E",
       "closest_teleport": "None.",
       "wilderness": false
-    },
-    {
-      "coordinate": "",
-      "location": ""
     },
     {
       "coordinate": "08 degrees 01 minutes north, 20 degrees 58 minutes west",
@@ -2642,18 +2050,10 @@
       "wilderness": false
     },
     {
-      "coordinate": "",
-      "location": ""
-    },
-    {
       "coordinate": "08 degrees 11 minutes north, 12 degrees 30 minutes east",
       "location": "08.11N, 12.30E",
       "closest_teleport": "None.",
       "wilderness": false
-    },
-    {
-      "coordinate": "",
-      "location": ""
     },
     {
       "coordinate": "12 degrees 35 minutes north, 36 degrees 22 minutes east",
@@ -2662,18 +2062,10 @@
       "wilderness": false
     },
     {
-      "coordinate": "",
-      "location": ""
-    },
-    {
       "coordinate": "12 degrees 45 minutes north, 20 degrees 09 minutes east",
       "location": "12.45N, 20.09E",
       "closest_teleport": "None.",
       "wilderness": false
-    },
-    {
-      "coordinate": "",
-      "location": ""
     },
     {
       "coordinate": "13 degrees 33 minutes south, 15 degrees 26 minutes east",
@@ -2682,18 +2074,10 @@
       "wilderness": false
     },
     {
-      "coordinate": "",
-      "location": ""
-    },
-    {
       "coordinate": "16 degrees 41 minutes north, 30 degrees 54 minutes west",
       "location": "16.41N, 30.54W",
       "closest_teleport": "None.",
       "wilderness": false
-    },
-    {
-      "coordinate": "",
-      "location": ""
     },
     {
       "coordinate": "18 degrees 03 minutes north, 03 degrees 03 minutes east",
@@ -2702,18 +2086,10 @@
       "wilderness": false
     },
     {
-      "coordinate": "",
-      "location": ""
-    },
-    {
       "coordinate": "18 degrees 26 minutes north, 37 degrees 15 minutes west",
       "location": "18.26N, 37.15W",
       "closest_teleport": "85",
       "wilderness": false
-    },
-    {
-      "coordinate": "",
-      "location": ""
     },
     {
       "coordinate": "19 degrees 43 minutes north, 23 degrees 11 minutes west",
@@ -2722,18 +2098,10 @@
       "wilderness": false
     },
     {
-      "coordinate": "",
-      "location": ""
-    },
-    {
       "coordinate": "20 degrees 35 minutes north, 15 degrees 58 minutes east",
       "location": "20.35N, 15.58E",
       "closest_teleport": "None.",
       "wilderness": false
-    },
-    {
-      "coordinate": "",
-      "location": ""
     },
     {
       "coordinate": "20 degrees 45 minutes north, 7 degrees 26 degrees west",
@@ -2742,18 +2110,10 @@
       "wilderness": false
     },
     {
-      "coordinate": "",
-      "location": ""
-    },
-    {
       "coordinate": "21 degrees 37 minutes north, 21 degrees 13 minutes west",
       "location": "21.37N, 21.13W",
       "closest_teleport": "None.",
       "wilderness": false
-    },
-    {
-      "coordinate": "",
-      "location": ""
     },
     {
       "coordinate": "21 degrees 56 minutes north, 10 degrees 56 minutes west",
@@ -2762,18 +2122,10 @@
       "wilderness": false
     },
     {
-      "coordinate": "",
-      "location": ""
-    },
-    {
       "coordinate": "22 degrees 24 minutes north, 31 degrees 11 minutes west",
       "location": "22.24N, 31.11W",
       "closest_teleport": "None.",
       "wilderness": false
-    },
-    {
-      "coordinate": "",
-      "location": ""
     },
     {
       "coordinate": "24 degrees 00 minutes north,29 degrees 22 minutes east",
@@ -2782,18 +2134,10 @@
       "wilderness": false
     },
     {
-      "coordinate": "",
-      "location": ""
-    },
-    {
       "coordinate": "24 degrees 18 minutes north, 23 degrees 22 minutes east",
       "location": "24.18N, 23.22E",
       "closest_teleport": "None.",
       "wilderness": false
-    },
-    {
-      "coordinate": "",
-      "location": ""
     },
     {
       "coordinate": "24 degrees 22 minutes north, 27 degrees 00 minutes east",
@@ -2802,18 +2146,10 @@
       "wilderness": false
     },
     {
-      "coordinate": "",
-      "location": ""
-    },
-    {
       "coordinate": "23 degrees 58 minutes north, 18 degrees 22 minutes east",
       "location": "23.58N, 18.22E",
       "closest_teleport": "None.",
       "wilderness": false
-    },
-    {
-      "coordinate": "",
-      "location": ""
     },
     {
       "coordinate": "2 October 2014(Update)",
@@ -5764,217 +5100,217 @@
   "maps": [
     {
       "difficulty": "unknown",
-      "map_description": "",
+      "image_url": "https://oldschool.runescape.wiki/images/thumb/Map_clue_Champions_guild.png/200px-Map_clue_Champions_guild.png?3bdf1",
       "location": "Clue scroll (beginner) - West of the Champions' Guild",
       "extra": "Locate the single tree that is west of the Champions' Guild, outside Varrock. Dig two squares to the east of it."
     },
     {
       "difficulty": "unknown",
-      "map_description": "",
+      "image_url": "https://oldschool.runescape.wiki/images/thumb/Map_clue_Falador_stones.png/200px-Map_clue_Falador_stones.png?1d2b6",
       "location": "Clue scroll (beginner) - At the standing stones north of Falador",
       "extra": "Due east of Falador's north gate. Look for the (grapple) agility shortcut icon."
     },
     {
       "difficulty": "unknown",
-      "map_description": "",
+      "image_url": "https://oldschool.runescape.wiki/images/thumb/Map_clue_Draynor_willows.png/200px-Map_clue_Draynor_willows.png?bb604",
       "location": "Clue scroll (beginner) - South of Draynor Village bank",
       "extra": "South of Draynor Village bank, by the fishing spot."
     },
     {
       "difficulty": "unknown",
-      "map_description": "",
+      "image_url": "https://oldschool.runescape.wiki/images/thumb/Map_clue_South-eastern_Varrock_Mine.png/200px-Map_clue_South-eastern_Varrock_Mine.png?f0802",
       "location": "Clue scroll (beginner) - South-east Varrock mine",
       "extra": "South-east Varrock mine. Dig one square west of the small fern."
     },
     {
       "difficulty": "unknown",
-      "map_description": "",
+      "image_url": "https://oldschool.runescape.wiki/images/thumb/Map_clue_Wizard_tower.png/200px-Map_clue_Wizard_tower.png?e1c87",
       "location": "Clue scroll (beginner) - Directly behind the Wizards' Tower",
       "extra": "Directly behind the Wizards' Tower, there's a fern you can use as a reference; the dig spot is one tile directly north of the fern. Fairy ring code DIS is very close."
     },
     {
       "difficulty": "easy",
-      "map_description": "",
+      "image_url": "https://oldschool.runescape.wiki/images/thumb/Map_clue_Champions_guild.png/200px-Map_clue_Champions_guild.png?3bdf1",
       "location": "Locate the single tree that is west of the Champions' Guild, outside Varrock. Dig two squares to the east of it.",
       "extra": ""
     },
     {
       "difficulty": "easy",
-      "map_description": "",
+      "image_url": "https://oldschool.runescape.wiki/images/thumb/Map_clue_Al_Kharid_mines.png/200px-Map_clue_Al_Kharid_mines.png?e9990",
       "location": "Just north of Al Kharid, in the centre of the mine.",
       "extra": ""
     },
     {
       "difficulty": "easy",
-      "map_description": "",
+      "image_url": "https://oldschool.runescape.wiki/images/thumb/Map_clue_Wizard_tower.png/200px-Map_clue_Wizard_tower.png?e1c87",
       "location": "Directly behind the Wizards' Tower, there's a fern you can use as a reference; the dig spot is one tile directly north of the fern. Fairy ring code DIS is very close.",
       "extra": ""
     },
     {
       "difficulty": "easy",
-      "map_description": "",
+      "image_url": "https://oldschool.runescape.wiki/images/thumb/Map_clue_Galahad.png/200px-Map_clue_Galahad.png?554e8",
       "location": "One tile west of the north door of Galahad's house, west of McGrubor's Wood. Fairy ring code ALS is very close, squeeze through the gate north-east of the fairy ring (around the building.)",
       "extra": ""
     },
     {
       "difficulty": "easy",
-      "map_description": "",
+      "image_url": "https://oldschool.runescape.wiki/images/thumb/Map_clue_Falador_stones.png/200px-Map_clue_Falador_stones.png?1d2b6",
       "location": "Due east of Falador's north gate. Look for the (grapple) agility shortcut icon.",
       "extra": ""
     },
     {
       "difficulty": "easy",
-      "map_description": "",
+      "image_url": "https://oldschool.runescape.wiki/images/thumb/Map_clue_South-eastern_Varrock_Mine.png/200px-Map_clue_South-eastern_Varrock_Mine.png?f0802",
       "location": "South-east Varrock mine. Dig one square south of the small fern.",
       "extra": ""
     },
     {
       "difficulty": "easy",
-      "map_description": "",
+      "image_url": "https://oldschool.runescape.wiki/images/thumb/Map_clue_Falador_statue_crossroads.png/200px-Map_clue_Falador_statue_crossroads.png?01058",
       "location": "The statue is located at the crossroads north of Falador.",
       "extra": ""
     },
     {
       "difficulty": "medium",
-      "map_description": "",
+      "image_url": "https://oldschool.runescape.wiki/images/thumb/Map_clue_Clocktower.png/200px-Map_clue_Clocktower.png?7fd42",
       "location": "Search the crate by the Clock Tower, south-west of East Ardougne. Using a Spirit tree to Battlefield of Khazard is the fastest route. Ardougne cloak's Monastery Teleport is also close by.",
       "extra": ""
     },
     {
       "difficulty": "medium",
-      "map_description": "",
+      "image_url": "https://oldschool.runescape.wiki/images/thumb/Map_clue_McGrubors.png/200px-Map_clue_McGrubors.png?0a25a",
       "location": "Inside McGrubor's Wood, west of Seers' Village. Fairy ring code ALS. If approaching from outside, squeeze through the broken fence by the northern half of the hut in the centre and search the crate south of the house.",
       "extra": ""
     },
     {
       "difficulty": "medium",
-      "map_description": "",
+      "image_url": "https://oldschool.runescape.wiki/images/thumb/Map_clue_Lighthouse_peninsula.png/200px-Map_clue_Lighthouse_peninsula.png?eaa10",
       "location": "Road between Rellekka and the Lighthouse. Fairy code ALP and run East.",
       "extra": ""
     },
     {
       "difficulty": "medium",
-      "map_description": "",
+      "image_url": "https://oldschool.runescape.wiki/images/thumb/Map_clue_Lava_chaos_altar.png/200px-Map_clue_Lava_chaos_altar.png?2c13c",
       "location": "By the entrance to the Ourania Cave. Use the spirit tree to the Khazard Battlefield, or teleport to Castle Wars with a Ring of dueling and run North past the Observatory.",
       "extra": ""
     },
     {
       "difficulty": "medium",
-      "map_description": "",
+      "image_url": "https://oldschool.runescape.wiki/images/thumb/Map_clue_Mort_Myre.png/200px-Map_clue_Mort_Myre.png?8ad0b",
       "location": "South of the path to Mort'ton; fairy ring BIP is nearby (50 Agility is required when you use the fairy ring).",
       "extra": ""
     },
     {
       "difficulty": "medium",
-      "map_description": "",
+      "image_url": "https://oldschool.runescape.wiki/images/thumb/Map_clue_Tower_of_Life.png/200px-Map_clue_Tower_of_Life.png?99b21",
       "location": "Just south of East Ardougne (straight south of town square), north of the Tower of Life, near the Necromancer Tower. Dig two spaces north of the smaller crate that Bonafido is leaning on. Fairy ring code DJP is very close, or use any Ardougne cloak to the Monastery.",
       "extra": ""
     },
     {
       "difficulty": "medium",
-      "map_description": "",
+      "image_url": "https://oldschool.runescape.wiki/images/thumb/Map_clue_Miscellania.png/200px-Map_clue_Miscellania.png?ee5fc",
       "location": "On Miscellania, one of the Fremennik Isles, just east of the castle. Fairy ring code CIP accessible only after completing The Fremennik Trials.",
       "extra": ""
     },
     {
       "difficulty": "medium",
-      "map_description": "",
+      "image_url": "https://oldschool.runescape.wiki/images/thumb/Map_clue_Chemist_house.png/200px-Map_clue_Chemist_house.png?efe67",
       "location": "Just west of the Chemist's house in Rimmington. South of Falador, west of Port Sarim.",
       "extra": ""
     },
     {
       "difficulty": "medium",
-      "map_description": "",
+      "image_url": "https://oldschool.runescape.wiki/images/thumb/Map_clue_hobgoblin_peninsula.png/200px-Map_clue_hobgoblin_peninsula.png?aba92",
       "location": "West of the Crafting Guild. Dig north of the sandpile at the tip of the peninsula.",
       "extra": ""
     },
     {
       "difficulty": "medium",
-      "map_description": "",
+      "image_url": "https://oldschool.runescape.wiki/images/thumb/Map_clue_North_Seers.png/200px-Map_clue_North_Seers.png?18cb0",
       "location": "North of Seers' Village, along the path towards Rellekka.",
       "extra": ""
     },
     {
       "difficulty": "medium",
-      "map_description": "",
+      "image_url": "https://oldschool.runescape.wiki/images/thumb/Map_clue_Draynor_willows.png/200px-Map_clue_Draynor_willows.png?bb604",
       "location": "South of Draynor Village bank, by the fishing spot.",
       "extra": ""
     },
     {
       "difficulty": "hard",
-      "map_description": "",
+      "image_url": "https://oldschool.runescape.wiki/images/thumb/Map_clue_Lumberyard.png/200px-Map_clue_Lumberyard.png?985cc",
       "location": "Search the crate inside the Lumberyard, north-east of Varrock.",
       "extra": ""
     },
     {
       "difficulty": "hard",
-      "map_description": "",
+      "image_url": "https://oldschool.runescape.wiki/images/thumb/Map_clue_observatory.png/200px-Map_clue_observatory.png?c6867",
       "location": "North-east of the Observatory, north of Castle Wars, search a crate in the western most building of the goblin overrun houses. This house holds the entrance stairs to the dungeon below.",
       "extra": ""
     },
     {
       "difficulty": "hard",
-      "map_description": "",
+      "image_url": "https://oldschool.runescape.wiki/images/thumb/Map_clue_Dark_Warriors%27_Fortress.png/200px-Map_clue_Dark_Warriors%27_Fortress.png?d27c0",
       "location": "In level 14 Wilderness, at the Dark Warriors' Fortress, search the pile of crates in the south-west corner of the central courtyard. Warning: Beware of level 145 dark warriors. This area is also a hotspot for player killers.",
       "extra": ""
     },
     {
       "difficulty": "hard",
-      "map_description": "",
+      "image_url": "https://oldschool.runescape.wiki/images/thumb/Map_clue_Yanille_anvil.png/200px-Map_clue_Yanille_anvil.png?253bb",
       "location": "South of Yanille bank. Behind the house with an anvil.",
       "extra": ""
     },
     {
       "difficulty": "hard",
-      "map_description": "",
+      "image_url": "https://oldschool.runescape.wiki/images/thumb/Map_clue_small_volcanoes.png/200px-Map_clue_small_volcanoes.png?3e678",
       "location": "Level 50 Wilderness, near Wilderness Agility Course; south-west of Deep Wilderness Dungeon entrance and west of the Mage Arena.",
       "extra": ""
     },
     {
       "difficulty": "hard",
-      "map_description": "",
+      "image_url": "https://oldschool.runescape.wiki/images/thumb/Map_clue_Picnic_tables.png/200px-Map_clue_Picnic_tables.png?788d4",
       "location": "The picnic tables south of the Legends' Guild, north-east of East Ardougne. South of fairy ring BLR",
       "extra": ""
     },
     {
       "difficulty": "hard",
-      "map_description": "",
+      "image_url": "https://oldschool.runescape.wiki/images/thumb/Map_clue_West_Ardougne.png/200px-Map_clue_West_Ardougne.png?2caea",
       "location": "Located in West Ardougne, dig inside one of the destroyed buildings. It is in the north-east corner of the housing buildings in the south-west area of West Ardougne. Head due west from the main gate, and you'll get to the buildings.",
       "extra": ""
     },
     {
       "difficulty": "elite",
-      "map_description": "",
+      "image_url": "https://oldschool.runescape.wiki/images/thumb/Map_clue_ape_atoll_shack.png/200px-Map_clue_ape_atoll_shack.png?47f13",
       "location": "In the south-west coast of Ape Atoll, there is a little shack where the crate is located. Fairy ring code CLR is close to it. If you haven't completed Monkey Madness II then bring a ninja monkey greegree or Kruk greegree when using the fairy ring.",
       "extra": ""
     },
     {
       "difficulty": "elite",
-      "map_description": "",
+      "image_url": "https://oldschool.runescape.wiki/images/thumb/Map_clue_Zul-Andra.png/200px-Map_clue_Zul-Andra.png?ce05c",
       "location": "East of the small building in Zul-Andra, next to the tree. Requires starting Regicide. Fairy ring code BJS (76 Agility)",
       "extra": ""
     },
     {
       "difficulty": "elite",
-      "map_description": "",
+      "image_url": "https://oldschool.runescape.wiki/images/thumb/Map_clue_Burgh_de_Rott_furnace.png/200px-Map_clue_Burgh_de_Rott_furnace.png?fca9c",
       "location": "East of the Burgh de Rott furnace. Requires starting In Aid of the Myreque.",
       "extra": ""
     },
     {
       "difficulty": "elite",
-      "map_description": "",
+      "image_url": "https://oldschool.runescape.wiki/images/thumb/Map_clue_Soul_Altar.png/200px-Map_clue_Soul_Altar.png?c4e82",
       "location": "Directly south of the Soul Altar.",
       "extra": ""
     },
     {
       "difficulty": "elite",
-      "map_description": "",
+      "image_url": "https://oldschool.runescape.wiki/images/thumb/Map_clue_Mogre_Camp.png/200px-Map_clue_Mogre_Camp.png?25cfd",
       "location": "Inside the mudskipper cave west of the Mogre Camp. Speak to Murphy at Port Khazard to go diving. Players must collect five rocks before going inside.",
       "extra": ""
     },
     {
       "difficulty": "elite",
-      "map_description": "",
+      "image_url": "https://oldschool.runescape.wiki/images/thumb/Map_clue_Castle_Wars.png/200px-Map_clue_Castle_Wars.png?aabae",
       "location": "North east of Castle Wars, just west of fairy ring CIQ",
       "extra": ""
     }
