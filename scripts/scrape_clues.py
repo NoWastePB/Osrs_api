@@ -324,7 +324,9 @@ def main() -> None:
 
         time.sleep(REQUEST_DELAY)
 
-    out_path = "clues.json"
+    import os
+    os.makedirs("data", exist_ok=True)
+    out_path = "data/clues.json"
     with open(out_path, "w", encoding="utf-8") as fh:
         json.dump(output, fh, ensure_ascii=False, indent=2)
 
