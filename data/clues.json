@@ -1,7 +1,7 @@
 {
   "meta": {
     "source": "https://oldschool.runescape.wiki",
-    "generated_at": "2026-06-29T18:55:45Z"
+    "generated_at": "2026-06-30T15:32:01Z"
   },
   "anagrams": [
     {
@@ -1461,9 +1461,9 @@
       "wilderness": false
     },
     {
-      "coordinate": "02 degrees 58 minutes north, 34 degrees 30 minutes east",
+      "coordinate": "02 degrees 56 minutes north, 34 degrees 30 minutes east",
       "image_url": "https://oldschool.runescape.wiki/images/Yes_check.svg?4e3f5",
-      "location": "02.58N, 34.30E",
+      "location": "02.56N, 34.30E",
       "closest_teleport": "Started In Aid of the Myreque",
       "wilderness": false
     },
