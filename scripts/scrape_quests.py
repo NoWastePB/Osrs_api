@@ -1,7 +1,7 @@
 import json
 import time
 import requests
-from bs4 import BeautifulSoup
+from bs4 import BeautifulSoup, Tag
 from urllib.parse import urlparse, unquote
 
 URL = "https://oldschool.runescape.wiki/w/Quests/List"
