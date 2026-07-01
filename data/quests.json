@@ -10583,7 +10583,7 @@
   },
   {
     "category": "members",
-    "id": "181",
+    "id": "180",
     "name": "The Blood Moon Rises",
     "difficulty": "Grandmaster",
     "length": "Very Long",
@@ -10591,7 +10591,7 @@
     "series": "Myreque, #6",
     "release_date": "30 June 2026",
     "url": "https://oldschool.runescape.wiki/w/The_Blood_Moon_Rises",
-    "start_point": "Speak to Sarius Guile in the Icyene Graveyard.",
+    "start_point": "Talk to Sarius Guile in the Icyene Graveyard.",
     "skill_requirements": [
       {
         "skill": "Slayer",
@@ -10606,17 +10606,17 @@
       {
         "skill": "Smithing",
         "level": 72,
-        "boostable": true
+        "boostable": false
       },
       {
         "skill": "Cooking",
         "level": 72,
-        "boostable": true
+        "boostable": false
       },
       {
         "skill": "Fletching",
         "level": 70,
-        "boostable": true
+        "boostable": false
       },
       {
         "skill": "Mining",
@@ -10648,34 +10648,6 @@
       {
         "name": "A Night at the Theatre",
         "url": "https://oldschool.runescape.wiki/w/A_Night_at_the_Theatre"
-      },
-      {
-        "name": "A Taste of Hope",
-        "url": "https://oldschool.runescape.wiki/w/A_Taste_of_Hope"
-      },
-      {
-        "name": "Darkness of Hallowvale",
-        "url": "https://oldschool.runescape.wiki/w/Darkness_of_Hallowvale"
-      },
-      {
-        "name": "In Aid of the Myreque",
-        "url": "https://oldschool.runescape.wiki/w/In_Aid_of_the_Myreque"
-      },
-      {
-        "name": "In Search of the Myreque",
-        "url": "https://oldschool.runescape.wiki/w/In_Search_of_the_Myreque"
-      },
-      {
-        "name": "Nature Spirit",
-        "url": "https://oldschool.runescape.wiki/w/Nature_Spirit"
-      },
-      {
-        "name": "Priest in Peril",
-        "url": "https://oldschool.runescape.wiki/w/Priest_in_Peril"
-      },
-      {
-        "name": "The Restless Ghost",
-        "url": "https://oldschool.runescape.wiki/w/The_Restless_Ghost"
       },
       {
         "name": "Sins of the Father",
@@ -10715,20 +10687,26 @@
       }
     ],
     "item_requirements": [
-      "Ivandis_flail or 40,000 coins",
+      "Blisterwood flail or 40,000 coins",
       "Vyre noble clothing (Obtainable for free during quest from the chest in the Myreque Hideout under Old Man Ral's house.)"
     ],
     "rewards": [
       "4 Quest points",
       "Access to Vampyrium",
       "A tome of experience, granting 30,000 experience to any skill over level 70. This reward can be utilised six times and may be used for the same skill.",
-      "The hallowed flail",
-      "The sunspear"
+      "Hallowed flail",
+      "Sunspear",
+      "A new Fermenting Vat for Brewing, located in the Burgh de Rott Myreque Hideout.",
+      "After completion of the Blood Moon Rises quest, Vyrewatch Sentinels are no longer aggressive. You can make them aggressive again by speaking to the Werewolf in the house south of the Darkmeyer teleport. After a quick chat, he will give you access to his store that sells garlic cocktails which will cause Vyrewatch Sentinels to be aggressive as long as you have it in your inventory."
     ],
     "enemies_to_defeat": [
-      "Lowerniel Drakan (level 927)",
+      "Lowerniel Drakan (level 1063) (4 times)",
       "Several vyrewatch and vyrewatch sentinels during various encounters",
-      "Several Monk of Zamorak"
+      "Several Monk of Zamorak",
+      "2 level 98 Webbed-winged crows",
+      "A level 200 Venator",
+      "Several level 106 Sanguidae",
+      "Wyrn (Safalan)"
     ]
   },
   {
