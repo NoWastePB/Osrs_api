@@ -69,7 +69,7 @@ def api_get(page, retries=3):
     for attempt in range(retries):
         time.sleep(random.uniform(0.3, 0.6))
         try:
-            resp = SESSION.get(API_URL, params=params, timeout=20)
+            resp = SESSION.get(API_URL, params=params, timeout=30)
 
             if resp.status_code == 429:
                 retry_after = int(resp.headers.get("Retry-After", 60))
@@ -93,9 +93,9 @@ def api_get(page, retries=3):
             html = data["parse"]["text"]
             return BeautifulSoup(html, "html.parser")
 
-        except requests.exceptions.ConnectionError as e:
+        except (requests.exceptions.ConnectionError, requests.exceptions.ReadTimeout) as e:
             wait = 5 * (attempt + 1)
-            print(f"  [WARN] Verbindingsfout ({e}). Wacht {wait}s...")
+            print(f"  [WARN] Verbindingsfout/timeout ({e.__class__.__name__}). Wacht {wait}s en probeer opnieuw ({attempt+1}/{retries})...")
             time.sleep(wait)
         except (KeyError, ValueError) as e:
             print(f"  [WARN] Onverwachte API response ({e})")
