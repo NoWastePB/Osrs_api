@@ -4,6 +4,7 @@ import aiohttp
 import json
 import os
 import random
+import time
 from bs4 import BeautifulSoup
 
 MAPPING_URL = "https://prices.runescape.wiki/api/v1/osrs/mapping"
@@ -210,19 +211,23 @@ async def process_item(session, item):
 # WORKER
 # -----------------------------
 
-async def worker(queue, session, results, progress, total):
+async def worker(queue, session, results, progress, total, verbose=False):
     while True:
         item = await queue.get()
         if item is None:
             queue.task_done()
             break
 
+        name = item.get("name")
+
         try:
             result = await process_item(session, item)
             if result:
                 results[result.get("id", item.get("id"))] = result
+            if verbose:
+                print(f"[ITEM] {name} -> ok")
         except Exception as e:
-            print(f"[ERROR] {item.get('name')}: {e}")
+            print(f"[ERROR] {name}: {e}")
 
         progress["done"] += 1
 
@@ -238,10 +243,46 @@ async def worker(queue, session, results, progress, total):
 
 
 # -----------------------------
+# PROGRESS TICKER (debug)
+# -----------------------------
+
+async def progress_reporter(progress, total, start_time, interval=10):
+    """
+    Print elke `interval` seconden een voortgangsregel met snelheid en ETA.
+    Draait als losse achtergrondtaak zolang de queue nog niet leeg is.
+    """
+    try:
+        while True:
+            await asyncio.sleep(interval)
+
+            done = progress["done"]
+            elapsed = time.monotonic() - start_time
+            rate = done / elapsed if elapsed > 0 else 0
+            remaining = total - done
+            eta_seconds = remaining / rate if rate > 0 else None
+
+            pct = (done / total * 100) if total else 0
+
+            if eta_seconds is not None:
+                eta_str = time.strftime("%H:%M:%S", time.gmtime(eta_seconds))
+            else:
+                eta_str = "onbekend"
+
+            print(
+                f"[PROGRESS] {done}/{total} ({pct:.1f}%) | "
+                f"{rate:.2f} items/sec | verstreken {time.strftime('%H:%M:%S', time.gmtime(elapsed))} | "
+                f"ETA {eta_str} | "
+                f"ok={stats['ok']} 429={stats['429']} err={stats['error']} timeout={stats['timeout']}"
+            )
+    except asyncio.CancelledError:
+        pass
+
+
+# -----------------------------
 # MAIN
 # -----------------------------
 
-async def main(limit=None, rescrape_all=False):
+async def main(limit=None, rescrape_all=False, verbose=False, progress_interval=10):
     ensure_dir()
 
     existing = {} if rescrape_all else load_existing()
@@ -278,23 +319,28 @@ async def main(limit=None, rescrape_all=False):
             await queue.put(item)
 
         progress = {"done": 0}
+        start_time = time.monotonic()
 
         workers = [
-            asyncio.create_task(worker(queue, session, results, progress, total))
+            asyncio.create_task(worker(queue, session, results, progress, total, verbose=verbose))
             for _ in range(CONCURRENCY)
         ]
+
+        reporter = asyncio.create_task(progress_reporter(progress, total, start_time, interval=progress_interval))
 
         for _ in range(CONCURRENCY):
             await queue.put(None)
 
         await queue.join()
 
+        reporter.cancel()
         for w in workers:
             w.cancel()
 
         save_json_atomic(OUTPUT_FILE, list(results.values()))
 
-        print(f"DONE. Totaal opgeslagen: {len(results)}")
+        elapsed = time.monotonic() - start_time
+        print(f"DONE. Totaal opgeslagen: {len(results)} in {time.strftime('%H:%M:%S', time.gmtime(elapsed))}")
         print(f"Stats: {stats}")
 
 
@@ -302,6 +348,13 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="OSRS item scraper")
     parser.add_argument("--limit", type=int, default=None, help="Alleen eerste N items scrapen (voor testen)")
     parser.add_argument("--rescrape-all", action="store_true", help="Negeer bestaande data/items.json en scrape alles opnieuw")
+    parser.add_argument("--verbose", action="store_true", help="Print elk item apart zodra het klaar is (naast de periodieke progress-regel)")
+    parser.add_argument("--progress-interval", type=int, default=10, help="Aantal seconden tussen [PROGRESS]-regels (default: 10)")
     args = parser.parse_args()
 
-    asyncio.run(main(limit=args.limit, rescrape_all=args.rescrape_all))
+    asyncio.run(main(
+        limit=args.limit,
+        rescrape_all=args.rescrape_all,
+        verbose=args.verbose,
+        progress_interval=args.progress_interval,
+    ))
