@@ -50290,5 +50290,499 @@
     "high_alch": 180000,
     "low_alch": 120000,
     "icon": "Zuriel's staff.png"
+  },
+  {
+    "id": 33631,
+    "name": "Crimson kisten",
+    "examine": "A nasty war implement. I should be careful not to hit myself.",
+    "members": true,
+    "limit": 5,
+    "value": null,
+    "high_alch": null,
+    "low_alch": null,
+    "wiki": {
+      "released": "30 June 2026 ( Update )",
+      "members": "Yes",
+      "quest_item": "No",
+      "tradeable": "Yes",
+      "equipable": "Yes",
+      "stackable": "No",
+      "noteable": "Yes",
+      "options": "Wield, Drop",
+      "examine": "A nasty war implement. I should be careful not to hit myself.",
+      "value": "240,000 coins",
+      "high_alch": "144,000 coins",
+      "low_alch": "96,000 coins",
+      "weight": "2.825 kg",
+      "combat_stats": {
+        "Other bonuses": "Slot"
+      },
+      "sources": [
+        "1 successful roll: 70-110%",
+        "2 successful rolls: 90-130%",
+        "3 successful rolls: 110-150%",
+        "4 successful rolls: 130-170%"
+      ]
+    }
+  },
+  {
+    "id": 33636,
+    "name": "Etched elder venator fang",
+    "examine": "A still dripping bloody fang from a venator etched with powerful runes.",
+    "members": true,
+    "limit": null,
+    "value": null,
+    "high_alch": null,
+    "low_alch": null,
+    "wiki": {
+      "released": "30 June 2026 ( Update )",
+      "members": "Yes",
+      "quest_item": "No",
+      "tradeable": "Yes",
+      "equipable": "No",
+      "stackable": "No",
+      "noteable": "Yes",
+      "options": "Drop",
+      "examine": "A still dripping bloody fang from a venator etched with powerful runes.",
+      "value": "200,000 coins",
+      "high_alch": "120,000 coins",
+      "low_alch": "80,000 coins",
+      "weight": "0.001 kg",
+      "combat_stats": {},
+      "sources": []
+    }
+  },
+  {
+    "id": 33644,
+    "name": "Dummy stymphike feather",
+    "examine": "placeholder",
+    "members": false,
+    "limit": null,
+    "value": null,
+    "high_alch": null,
+    "low_alch": null,
+    "wiki": {
+      "released": "30 June 2026 ( Update )",
+      "members": "No",
+      "quest_item": "No",
+      "tradeable": "Yes",
+      "equipable": "Yes",
+      "stackable": "No",
+      "noteable": "Yes",
+      "options": "Wield, Drop",
+      "examine": "placeholder",
+      "value": "1,500 coins",
+      "high_alch": "900 coins",
+      "low_alch": "600 coins",
+      "weight": "2 kg",
+      "combat_stats": {
+        "Other bonuses": "Slot"
+      },
+      "sources": []
+    }
+  },
+  {
+    "id": 33534,
+    "name": "Etched araxyte fang",
+    "examine": "A still dripping venomous fang from a powerful araxyte etched with powerful runes.",
+    "members": true,
+    "limit": null,
+    "value": null,
+    "high_alch": null,
+    "low_alch": null,
+    "wiki": {
+      "released": "30 June 2026 ( Update )",
+      "members": "Yes",
+      "quest_item": "No",
+      "tradeable": "Yes",
+      "equipable": "No",
+      "stackable": "No",
+      "noteable": "Yes",
+      "options": "Drop",
+      "examine": "A still dripping venomous fang from a powerful araxyte etched with powerful runes.",
+      "value": "200,000 coins",
+      "high_alch": "120,000 coins",
+      "low_alch": "80,000 coins",
+      "weight": "0.001 kg",
+      "combat_stats": {},
+      "sources": []
+    }
+  },
+  {
+    "id": 33639,
+    "name": "Necklace of rupture",
+    "examine": "The necklace vibrates threateningly when pressed.",
+    "members": true,
+    "limit": null,
+    "value": null,
+    "high_alch": null,
+    "low_alch": null,
+    "wiki": {
+      "released": "30 June 2026 ( Update )",
+      "members": "Yes",
+      "quest_item": "No",
+      "tradeable": "Yes",
+      "equipable": "Yes",
+      "stackable": "No",
+      "noteable": "Yes",
+      "options": "Wear, Drop",
+      "examine": "The necklace vibrates threateningly when pressed.",
+      "value": "242,000 coins",
+      "high_alch": "145,200 coins",
+      "low_alch": "96,800 coins",
+      "weight": "0.01 kg",
+      "combat_stats": {
+        "Other bonuses": "Slot"
+      },
+      "sources": []
+    }
+  },
+  {
+    "id": 33625,
+    "name": "Letvek",
+    "examine": "Let 'em what?",
+    "members": true,
+    "limit": null,
+    "value": null,
+    "high_alch": null,
+    "low_alch": null,
+    "wiki": {
+      "released": "30 June 2026 ( Update )",
+      "members": "Yes",
+      "quest_item": "No",
+      "tradeable": "Yes",
+      "equipable": "? (edit)",
+      "stackable": "Yes",
+      "noteable": "No",
+      "options": "Drop",
+      "examine": "Let 'em what?",
+      "value": "240 coins",
+      "high_alch": "144 coins",
+      "low_alch": "96 coins",
+      "weight": "0.02 kg",
+      "combat_stats": {},
+      "sources": [
+        "v",
+        "t",
+        "e"
+      ]
+    }
+  },
+  {
+    "id": 33657,
+    "name": "Orikalkum gravel",
+    "examine": "Unrefined dragon metal.",
+    "members": true,
+    "limit": null,
+    "value": null,
+    "high_alch": null,
+    "low_alch": null,
+    "wiki": {
+      "released": "30 June 2026 ( Update )",
+      "members": "Yes",
+      "quest_item": "No",
+      "tradeable": "Yes",
+      "equipable": "No",
+      "stackable": "Yes",
+      "noteable": "No",
+      "options": "Drop",
+      "examine": "Unrefined dragon metal.",
+      "value": "170,000 coins",
+      "high_alch": "102,000 coins",
+      "low_alch": "68,000 coins",
+      "weight": "0.907 kg",
+      "combat_stats": {},
+      "sources": [
+        "v",
+        "t",
+        "e"
+      ]
+    }
+  },
+  {
+    "id": 33821,
+    "name": "Raw impaler meat",
+    "examine": "I need to cook this first.",
+    "members": false,
+    "limit": null,
+    "value": null,
+    "high_alch": null,
+    "low_alch": null,
+    "wiki": {
+      "released": "30 June 2026 ( Update )",
+      "members": "No",
+      "quest_item": "No",
+      "tradeable": "Yes",
+      "equipable": "No",
+      "stackable": "No",
+      "noteable": "Yes",
+      "options": "Drop",
+      "examine": "I need to cook this first.",
+      "value": "1 coin",
+      "high_alch": "0 coins",
+      "low_alch": "0 coins",
+      "weight": "0.425 kg",
+      "combat_stats": {},
+      "sources": []
+    }
+  },
+  {
+    "id": 33577,
+    "name": "Seeking adamant arrow",
+    "examine": "Bloodwood-treated arrows with adamant heads.",
+    "members": false,
+    "limit": null,
+    "value": null,
+    "high_alch": null,
+    "low_alch": null,
+    "wiki": {
+      "released": "30 June 2026 ( Update )",
+      "members": "Yes",
+      "quest_item": "No",
+      "tradeable": "Yes",
+      "equipable": "Yes",
+      "stackable": "Yes",
+      "noteable": "No",
+      "options": "Wield, Drop",
+      "examine": "Bloodwood-treated arrows with adamant heads.",
+      "value": "80 coins",
+      "high_alch": "48 coins",
+      "low_alch": "32 coins",
+      "weight": "0.018 kg",
+      "combat_stats": {
+        "Other bonuses": "Slot"
+      },
+      "sources": []
+    }
+  },
+  {
+    "id": 33589,
+    "name": "Seeking amethyst arrow",
+    "examine": "Bloodwood-treated arrows with amethyst heads.",
+    "members": true,
+    "limit": null,
+    "value": null,
+    "high_alch": null,
+    "low_alch": null,
+    "wiki": {
+      "released": "30 June 2026 ( Update )",
+      "members": "Yes",
+      "quest_item": "No",
+      "tradeable": "Yes",
+      "equipable": "Yes",
+      "stackable": "Yes",
+      "noteable": "No",
+      "options": "Wield, Drop",
+      "examine": "Bloodwood-treated arrows with amethyst heads.",
+      "value": "490 coins",
+      "high_alch": "294 coins",
+      "low_alch": "196 coins",
+      "weight": "0.016 kg",
+      "combat_stats": {
+        "Other bonuses": "Slot"
+      },
+      "sources": []
+    }
+  },
+  {
+    "id": 33553,
+    "name": "Seeking bronze arrow",
+    "examine": "Bloodwood-treated arrows with bronze heads.",
+    "members": false,
+    "limit": null,
+    "value": null,
+    "high_alch": null,
+    "low_alch": null,
+    "wiki": {
+      "released": "30 June 2026 ( Update )",
+      "members": "Yes",
+      "quest_item": "No",
+      "tradeable": "Yes",
+      "equipable": "Yes",
+      "stackable": "Yes",
+      "noteable": "No",
+      "options": "Wield, Drop",
+      "examine": "Bloodwood-treated arrows with bronze heads.",
+      "value": "1 coin",
+      "high_alch": "0 coins",
+      "low_alch": "0 coins",
+      "weight": "0.016 kg",
+      "combat_stats": {
+        "Other bonuses": "Slot"
+      },
+      "sources": []
+    }
+  },
+  {
+    "id": 33595,
+    "name": "Seeking dragon arrow",
+    "examine": "An arrow made using a dragon's talon.",
+    "members": true,
+    "limit": null,
+    "value": null,
+    "high_alch": null,
+    "low_alch": null,
+    "wiki": {
+      "released": "30 June 2026 ( Update )",
+      "members": "Yes",
+      "quest_item": "No",
+      "tradeable": "Yes",
+      "equipable": "Yes",
+      "stackable": "Yes",
+      "noteable": "No",
+      "options": "Wield, Drop",
+      "examine": "An arrow made using a dragon's talon.",
+      "value": "800 coins",
+      "high_alch": "480 coins",
+      "low_alch": "320 coins",
+      "weight": "0.016 kg",
+      "combat_stats": {
+        "Other bonuses": "Slot"
+      },
+      "sources": []
+    }
+  },
+  {
+    "id": 33559,
+    "name": "Seeking iron arrow",
+    "examine": "Bloodwood-treated arrows with iron heads.",
+    "members": false,
+    "limit": null,
+    "value": null,
+    "high_alch": null,
+    "low_alch": null,
+    "wiki": {
+      "released": "30 June 2026 ( Update )",
+      "members": "Yes",
+      "quest_item": "No",
+      "tradeable": "Yes",
+      "equipable": "Yes",
+      "stackable": "Yes",
+      "noteable": "No",
+      "options": "Wield, Drop",
+      "examine": "Bloodwood-treated arrows with iron heads.",
+      "value": "3 coins",
+      "high_alch": "1 coin",
+      "low_alch": "1 coin",
+      "weight": "0.016 kg",
+      "combat_stats": {
+        "Other bonuses": "Slot"
+      },
+      "sources": []
+    }
+  },
+  {
+    "id": 33571,
+    "name": "Seeking mithril arrow",
+    "examine": "Bloodwood-treated arrows with mithril heads.",
+    "members": false,
+    "limit": null,
+    "value": null,
+    "high_alch": null,
+    "low_alch": null,
+    "wiki": {
+      "released": "30 June 2026 ( Update )",
+      "members": "Yes",
+      "quest_item": "No",
+      "tradeable": "Yes",
+      "equipable": "Yes",
+      "stackable": "Yes",
+      "noteable": "No",
+      "options": "Wield, Drop",
+      "examine": "Bloodwood-treated arrows with mithril heads.",
+      "value": "32 coins",
+      "high_alch": "19 coins",
+      "low_alch": "12 coins",
+      "weight": "0.014 kg",
+      "combat_stats": {
+        "Other bonuses": "Slot"
+      },
+      "sources": []
+    }
+  },
+  {
+    "id": 33583,
+    "name": "Seeking rune arrow",
+    "examine": "Bloodwood-treated arrows with rune heads.",
+    "members": true,
+    "limit": null,
+    "value": null,
+    "high_alch": null,
+    "low_alch": null,
+    "wiki": {
+      "released": "30 June 2026 ( Update )",
+      "members": "Yes",
+      "quest_item": "No",
+      "tradeable": "Yes",
+      "equipable": "Yes",
+      "stackable": "Yes",
+      "noteable": "No",
+      "options": "Wield, Drop",
+      "examine": "Bloodwood-treated arrows with rune heads.",
+      "value": "400 coins",
+      "high_alch": "240 coins",
+      "low_alch": "160 coins",
+      "weight": "0.016 kg",
+      "combat_stats": {
+        "Other bonuses": "Slot"
+      },
+      "sources": []
+    }
+  },
+  {
+    "id": 33565,
+    "name": "Seeking steel arrow",
+    "examine": "Bloodwood-treated arrows with steel heads.",
+    "members": false,
+    "limit": null,
+    "value": null,
+    "high_alch": null,
+    "low_alch": null,
+    "wiki": {
+      "released": "30 June 2026 ( Update )",
+      "members": "Yes",
+      "quest_item": "No",
+      "tradeable": "Yes",
+      "equipable": "Yes",
+      "stackable": "Yes",
+      "noteable": "No",
+      "options": "Wield, Drop",
+      "examine": "Bloodwood-treated arrows with steel heads.",
+      "value": "12 coins",
+      "high_alch": "7 coins",
+      "low_alch": "4 coins",
+      "weight": "0.016 kg",
+      "combat_stats": {
+        "Other bonuses": "Slot"
+      },
+      "sources": []
+    }
+  },
+  {
+    "id": 33651,
+    "name": "Stymphike feather",
+    "examine": "An alien feather from an alien bird.",
+    "members": true,
+    "limit": null,
+    "value": null,
+    "high_alch": null,
+    "low_alch": null,
+    "wiki": {
+      "released": "30 June 2026 ( Update )",
+      "members": "Yes",
+      "quest_item": "No",
+      "tradeable": "Yes",
+      "equipable": "No",
+      "stackable": "Yes",
+      "noteable": "No",
+      "options": "Drop",
+      "examine": "An alien feather from an alien bird.",
+      "value": "12 coins",
+      "high_alch": "7 coins",
+      "low_alch": "4 coins",
+      "weight": "0 kg",
+      "combat_stats": {},
+      "sources": []
+    }
   }
 ]
