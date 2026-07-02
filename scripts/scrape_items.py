@@ -47,12 +47,16 @@ def save_json_atomic(path, data):
 
 def load_existing():
     if not os.path.exists(OUTPUT_FILE):
+        print(f"[LOAD] Geen bestaand bestand gevonden op {OUTPUT_FILE}, start vanaf 0.")
         return {}
     try:
         with open(OUTPUT_FILE, "r", encoding="utf-8") as f:
             data = json.load(f)
-        return {item["id"]: item for item in data if item and item.get("id") is not None}
-    except (json.JSONDecodeError, OSError):
+        loaded = {item["id"]: item for item in data if item and item.get("id") is not None}
+        print(f"[LOAD] {len(loaded)} bestaande items geladen uit {OUTPUT_FILE} (checkpoint).")
+        return loaded
+    except (json.JSONDecodeError, OSError) as e:
+        print(f"[LOAD] Kon {OUTPUT_FILE} niet lezen ({e}), start vanaf 0.")
         return {}
 
 
@@ -293,9 +297,10 @@ async def main(limit=None, rescrape_all=False, verbose=False, progress_interval=
 
     async with aiohttp.ClientSession(headers=HEADERS, timeout=timeout, connector=connector) as session:
 
-        print("Fetching mapping...")
+        print("Fetching mapping van Wiki Prices API...")
+        t0 = time.monotonic()
         mapping = await fetch_mapping(session)
-        print(f"Items in mapping: {len(mapping)}")
+        print(f"[LOAD] Mapping geladen: {len(mapping)} items in {time.monotonic() - t0:.2f}s")
 
         if not rescrape_all:
             before = len(mapping)
