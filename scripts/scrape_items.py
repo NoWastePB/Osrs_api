@@ -132,30 +132,140 @@ def parse_infobox(html):
     return data
 
 
+KNOWN_BONUS_LABELS = {
+    "stab", "slash", "crush", "magic", "ranged",
+    "strength", "ranged_strength", "magic_damage", "prayer",
+}
+
+
+def _to_number(text):
+    """'+17' -> 17, '-4' -> -4, '+0%' -> 0. Returns None if not numeric."""
+    cleaned = text.strip().replace(",", "").rstrip("%")
+    try:
+        return int(cleaned)
+    except ValueError:
+        return None
+
+
 def parse_combat_stats(soup):
-    stats_out = {}
+    """
+    Anchors on the 'Combat stats' heading (id='Combat_stats') and only looks at
+    the table immediately following it, instead of scanning every table on the
+    page for the text 'attack bonus' (which can also match unrelated tables,
+    e.g. the Changes/update-history table).
 
-    for table in soup.find_all("table"):
-        text = table.get_text(" ").lower()
+    The bonuses table alternates: a row of stat icons (identified via <img alt=...>)
+    followed by a row of plain-text values in the same column order. We pair those
+    two rows up rather than assuming a fixed 2-column layout.
+    """
+    headline = soup.find(id="Combat_stats")
+    if not headline:
+        return {}
 
-        if "attack bonus" in text or "defence bonus" in text:
-            for row in table.find_all("tr"):
-                cols = row.find_all(["th", "td"])
-                if len(cols) == 2:
-                    stats_out[cols[0].get_text(strip=True)] = cols[1].get_text(strip=True)
+    heading = headline.find_parent(["h2", "h3"])
+    if not heading:
+        return {}
 
-    return stats_out
+    table = heading.find_next("table")
+    if not table:
+        return {}
+
+    result = {"attack_bonuses": {}, "defence_bonuses": {}, "other_bonuses": {}, "slot": None}
+    section = None
+    rows = table.find_all("tr")
+
+    i = 0
+    while i < len(rows):
+        row_text = rows[i].get_text(" ", strip=True)
+
+        if "Attack bonuses" in row_text:
+            section = "attack_bonuses"
+        elif "Defence bonuses" in row_text:
+            section = "defence_bonuses"
+        elif "Other bonuses" in row_text:
+            section = "other_bonuses"
+
+        # Collect stat labels from <img alt="..."> icons in this row —
+        # but only ones matching a known stat name, so the section-header
+        # icon itself (e.g. an icon next to "Attack bonuses") isn't mistaken
+        # for a stat label.
+        labels = []
+        for cell in rows[i].find_all(["th", "td"]):
+            img = cell.find("img")
+            if img and img.get("alt"):
+                candidate = img["alt"].strip()
+                key = candidate.lower().replace(" ", "_")
+                if key in KNOWN_BONUS_LABELS or key.endswith("_slot_table"):
+                    labels.append(candidate)
+
+        if labels and section:
+            # Walk forward to the next row that actually has plain-text values
+            j = i + 1
+            values = []
+            while j < len(rows):
+                texts = [c.get_text(" ", strip=True) for c in rows[j].find_all(["th", "td"])]
+                texts = [t for t in texts if t]
+                if texts:
+                    values = texts
+                    break
+                j += 1
+
+            for label, value in zip(labels, values):
+                key = label.lower().replace(" ", "_")
+
+                if "slot" in key:
+                    result["slot"] = key.replace("_slot_table", "")
+                    continue
+
+                num = _to_number(value)
+                result[section][key] = num if num is not None else value
+
+            i = j + 1
+        else:
+            i += 1
+
+    return result
 
 
 def parse_sources(soup):
-    sources = []
+    """
+    Anchors on the 'Item sources' heading (id='Item_sources') and parses the
+    table that follows it. Item sources on the wiki are rendered as a table
+    (Source / Level / Quantity / Rarity / ...), not a <ul>, so searching for
+    the nearest <ul> after the heading (the old approach) can walk straight
+    past this section and pick up an unrelated list further down the page
+    (e.g. navbox 'v/t/e' links).
+    """
+    headline = soup.find(id="Item_sources")
+    if not headline:
+        return []
 
-    for h in soup.find_all(["h2", "h3"]):
-        if "source" in h.get_text().lower():
-            ul = h.find_next("ul")
-            if ul:
-                for li in ul.find_all("li"):
-                    sources.append(li.get_text(" ", strip=True))
+    heading = headline.find_parent(["h2", "h3"])
+    if not heading:
+        return []
+
+    table = heading.find_next("table")
+    if not table:
+        return []
+
+    rows = table.find_all("tr")
+    if not rows:
+        return []
+
+    headers = [c.get_text(" ", strip=True) for c in rows[0].find_all(["th", "td"])]
+    if not headers:
+        return []
+
+    sources = []
+    for row in rows[1:]:
+        cells = row.find_all(["th", "td"])
+        if not cells:
+            continue
+        entry = {}
+        for header, cell in zip(headers, cells):
+            key = header.lower().replace(" ", "_") or "value"
+            entry[key] = cell.get_text(" ", strip=True)
+        sources.append(entry)
 
     return sources
 
