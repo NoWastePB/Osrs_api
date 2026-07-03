@@ -147,6 +147,26 @@ def _to_number(text):
         return None
 
 
+def _find_section_heading(soup, heading_id):
+    """
+    Locate the heading element for a given section id, e.g. 'Combat_stats'.
+
+    Older MediaWiki output puts the id on a <span class="mw-headline"> nested
+    inside the <h2>/<h3>, so you need to walk up to the parent heading.
+    Newer MediaWiki (this wiki runs 1.45.x) puts the id directly on the
+    <h2>/<h3> itself, wrapped in a <div class="mw-heading">. This helper
+    handles both cases instead of assuming the older structure.
+    """
+    el = soup.find(id=heading_id)
+    if not el:
+        return None
+
+    if el.name in ("h2", "h3", "h4"):
+        return el
+
+    return el.find_parent(["h2", "h3", "h4"])
+
+
 def parse_combat_stats(soup):
     """
     Anchors on the 'Combat stats' heading (id='Combat_stats') and only looks at
@@ -158,11 +178,7 @@ def parse_combat_stats(soup):
     followed by a row of plain-text values in the same column order. We pair those
     two rows up rather than assuming a fixed 2-column layout.
     """
-    headline = soup.find(id="Combat_stats")
-    if not headline:
-        return {}
-
-    heading = headline.find_parent(["h2", "h3"])
+    heading = _find_section_heading(soup, "Combat_stats")
     if not heading:
         return {}
 
@@ -236,11 +252,7 @@ def parse_sources(soup):
     past this section and pick up an unrelated list further down the page
     (e.g. navbox 'v/t/e' links).
     """
-    headline = soup.find(id="Item_sources")
-    if not headline:
-        return []
-
-    heading = headline.find_parent(["h2", "h3"])
+    heading = _find_section_heading(soup, "Item_sources")
     if not heading:
         return []
 
