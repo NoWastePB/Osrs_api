@@ -10691,7 +10691,10 @@
       "Vyre noble clothing (obtainable for free during quest from the chest in the Myreque Hideout under Old Man Ral's house)",
       "Melee combat gear",
       "Tinderbox (obtainable during quest)",
-      "Pickaxe (a bronze pickaxe is obtainable during quest from Ivan Strom)"
+      "Pickaxe (a bronze pickaxe is obtainable during quest from Ivan Strom)",
+      "Hammer (obtainable during quest)",
+      "knife (obtainable during quest)",
+      "Chisel (obtainable during quest)"
     ],
     "rewards": [
       "4 Quest points",
@@ -10700,7 +10703,7 @@
       "Hallowed flail",
       "Sunspear",
       "A new Fermenting Vat for Brewing, located in the Burgh de Rott Myreque Hideout. The pub itself is restored, and is run by Veliaf Hurtz.",
-      "The vyres of Morytania will now be tolerant to the player, and Darkmeyer services can be used without utilising a vyre noble outfit. This is unlocked after the third fight with Lowerniel."
+      "The vyres of Morytania will now be tolerant to the player, and Darkmeyer services can be used without utilising a vyre noble outfit. This is unlocked before the final fight with Lowerniel."
     ],
     "enemies_to_defeat": [
       "Several vyrewatch and vyrewatch sentinels during various encounters",
