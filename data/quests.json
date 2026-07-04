@@ -5100,7 +5100,8 @@
       "5,000 Slayer experience",
       "5,000 Hitpoints experience",
       "The ability to hire Bosun Zarah as a crewmate with 80 Sailing",
-      "Enhanced rewards from Managing Miscellania"
+      "Enhanced rewards from Managing Miscellania",
+      "The ability to dock at Etceteria with 65 Sailing"
     ],
     "enemies_to_defeat": []
   },
@@ -7351,23 +7352,11 @@
     "series": "N/A",
     "release_date": "7 September 2017",
     "url": "https://oldschool.runescape.wiki/w/Bone_Voyage",
-    "start_point": "Talk to Curator Haig Halen in the Varrock Museum.",
+    "start_point": "",
     "skill_requirements": [],
-    "quest_requirements": [
-      {
-        "name": "The Dig Site",
-        "url": "https://oldschool.runescape.wiki/w/The_Dig_Site"
-      }
-    ],
-    "item_requirements": [
-      "2 vodka",
-      "Marrentill potion (unf)"
-    ],
-    "rewards": [
-      "1 Quest point",
-      "Access to Fossil Island - to disembark the boat upon arrival at Fossil Island, speak to the Junior Navigator.",
-      "Fossil island note book"
-    ],
+    "quest_requirements": [],
+    "item_requirements": [],
+    "rewards": [],
     "enemies_to_defeat": []
   },
   {
@@ -10693,7 +10682,7 @@
       "Tinderbox (obtainable during quest)",
       "Pickaxe (a bronze pickaxe is obtainable during quest from Ivan Strom)",
       "Hammer (obtainable during quest)",
-      "knife (obtainable during quest)",
+      "Knife (obtainable during quest)",
       "Chisel (obtainable during quest)"
     ],
     "rewards": [
