@@ -7352,11 +7352,23 @@
     "series": "N/A",
     "release_date": "7 September 2017",
     "url": "https://oldschool.runescape.wiki/w/Bone_Voyage",
-    "start_point": "",
+    "start_point": "Talk to Curator Haig Halen in the Varrock Museum.",
     "skill_requirements": [],
-    "quest_requirements": [],
-    "item_requirements": [],
-    "rewards": [],
+    "quest_requirements": [
+      {
+        "name": "The Dig Site",
+        "url": "https://oldschool.runescape.wiki/w/The_Dig_Site"
+      }
+    ],
+    "item_requirements": [
+      "2 vodka",
+      "Marrentill potion (unf)"
+    ],
+    "rewards": [
+      "1 Quest point",
+      "Access to Fossil Island - to disembark the boat upon arrival at Fossil Island, speak to the Junior Navigator.",
+      "Fossil island note book"
+    ],
     "enemies_to_defeat": []
   },
   {
@@ -10683,7 +10695,8 @@
       "Pickaxe (a bronze pickaxe is obtainable during quest from Ivan Strom)",
       "Hammer (obtainable during quest)",
       "Knife (obtainable during quest)",
-      "Chisel (obtainable during quest)"
+      "Chisel (obtainable during quest)",
+      "Blisterwood logs (obtainable during quest)"
     ],
     "rewards": [
       "4 Quest points",
