@@ -27,7 +27,7 @@ HEADERS = {
 semaphore = asyncio.Semaphore(CONCURRENCY)
 
 # Simpele teller voor diagnose
-stats = {"ok": 0, "429": 0, "error": 0, "timeout": 0, "skipped": 0}
+stats = {"ok": 0, "429": 0, "error": 0, "timeout": 0, "skipped": 0, "empty_infobox": 0}
 
 
 # -----------------------------
@@ -79,6 +79,7 @@ async def fetch_wiki(session, name):
         "page": name,
         "prop": "text",
         "format": "json",
+        "redirects": 1,
     }
 
     for attempt in range(5):
@@ -303,6 +304,14 @@ async def process_item(session, item):
     combat = parse_combat_stats(soup)
     sources = parse_sources(soup)
 
+    if not infobox:
+        stats["empty_infobox"] += 1
+        print(
+            f"[WARN] Geen infobox gevonden voor '{name}' (id={item.get('id')}) — "
+            f"mogelijk een 'switch infobox'-pagina (charged/uncharged, ornament kit, "
+            f"degradable item) waar meerdere item-versies één pagina delen."
+        )
+
     return {
         "id": item.get("id"),
         "name": name,
@@ -361,7 +370,7 @@ async def worker(queue, session, results, progress, total, verbose=False):
             save_json_atomic(OUTPUT_FILE, list(results.values()))
             print(
                 f"[SAVE] {progress['done']}/{total} "
-                f"(ok={stats['ok']} 429={stats['429']} err={stats['error']} timeout={stats['timeout']})"
+                f"(ok={stats['ok']} 429={stats['429']} err={stats['error']} timeout={stats['timeout']} empty_infobox={stats['empty_infobox']})"
             )
 
         queue.task_done()
@@ -398,7 +407,7 @@ async def progress_reporter(progress, total, start_time, interval=10):
                 f"[PROGRESS] {done}/{total} ({pct:.1f}%) | "
                 f"{rate:.2f} items/sec | verstreken {time.strftime('%H:%M:%S', time.gmtime(elapsed))} | "
                 f"ETA {eta_str} | "
-                f"ok={stats['ok']} 429={stats['429']} err={stats['error']} timeout={stats['timeout']}"
+                f"ok={stats['ok']} 429={stats['429']} err={stats['error']} timeout={stats['timeout']} empty_infobox={stats['empty_infobox']}"
             )
     except asyncio.CancelledError:
         pass
