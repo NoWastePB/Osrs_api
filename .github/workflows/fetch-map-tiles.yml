@@ -1,0 +1,110 @@
+name: Fetch OSRS Map Tiles
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 3 * * 1'   # elke maandag 03:00 UTC
+
+jobs:
+  check-and-fetch:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout eigen repo
+        uses: actions/checkout@v4
+
+      - name: Bepaal laatste commit SHA van map "0" in bronrepo
+        id: remote
+        run: |
+          SHA=$(curl -s -H "Authorization: Bearer ${{ github.token }}" \
+            "https://api.github.com/repos/Explv/osrs_map_tiles/commits?path=0&per_page=1" \
+            | jq -r '.[0].sha')
+          if [ -z "$SHA" ] || [ "$SHA" == "null" ]; then
+            echo "Kon geen commit SHA ophalen, stop workflow."
+            exit 1
+          fi
+          echo "sha=$SHA" >> "$GITHUB_OUTPUT"
+          echo "Laatste remote commit voor map 0: $SHA"
+
+      - name: Lees vorige bekende SHA
+        id: local
+        run: |
+          FILE="state/map_tiles_0.json"
+          if [ -f "$FILE" ]; then
+            PREV=$(jq -r '.last_sha' "$FILE")
+          else
+            PREV="none"
+          fi
+          echo "sha=$PREV" >> "$GITHUB_OUTPUT"
+          echo "Vorige opgeslagen SHA: $PREV"
+
+      - name: Vergelijk SHAs
+        id: diff
+        run: |
+          if [ "${{ steps.remote.outputs.sha }}" == "${{ steps.local.outputs.sha }}" ]; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "Geen wijzigingen, workflow stopt hier."
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+            echo "Wijziging gedetecteerd, ga door met ophalen."
+          fi
+
+      - name: Sparse clone map_tiles (alleen map "0")
+        if: steps.diff.outputs.changed == 'true'
+        run: |
+          git clone --depth 1 --filter=blob:none --sparse \
+            https://github.com/Explv/osrs_map_tiles.git tiles_src
+          cd tiles_src
+          git sparse-checkout set 0
+          cd ..
+          echo "Aantal bestanden:"
+          find tiles_src/0 -type f | wc -l
+          echo "Grootte:"
+          du -sh tiles_src/0
+
+      - name: Zip de tiles
+        if: steps.diff.outputs.changed == 'true'
+        run: |
+          cd tiles_src
+          zip -r ../map_tiles_0.zip 0
+          cd ..
+          ls -lh map_tiles_0.zip
+
+      - name: Checksum bepalen
+        if: steps.diff.outputs.changed == 'true'
+        id: hash
+        run: echo "sha256=$(sha256sum map_tiles_0.zip | cut -d' ' -f1)" >> "$GITHUB_OUTPUT"
+
+      - name: Release aanmaken/updaten
+        if: steps.diff.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          TAG="map-tiles-plane0"
+          if gh release view "$TAG" >/dev/null 2>&1; then
+            gh release upload "$TAG" map_tiles_0.zip --clobber
+          else
+            gh release create "$TAG" map_tiles_0.zip \
+              --title "OSRS Map Tiles (plane 0)" \
+              --notes "Automatisch gegenereerd. SHA256: ${{ steps.hash.outputs.sha256 }}"
+          fi
+
+      - name: State-bestand bijwerken en committen
+        if: steps.diff.outputs.changed == 'true'
+        run: |
+          mkdir -p state
+          cat > state/map_tiles_0.json <<EOF
+          {
+            "last_sha": "${{ steps.remote.outputs.sha }}",
+            "zip_sha256": "${{ steps.hash.outputs.sha256 }}",
+            "updated_at": "$(date -u +%Y-%m-%dT%H:%M:%SZ)"
+          }
+          EOF
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add state/map_tiles_0.json
+          git commit -m "Update map_tiles_0 state ($(date -u +%Y-%m-%dT%H:%M:%SZ))"
+          git pull --rebase origin main
+          git push
