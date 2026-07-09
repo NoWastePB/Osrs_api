@@ -77,9 +77,9 @@ def api_get(page, retries=3):
                 time.sleep(retry_after)
                 continue
 
-            if resp.status_code == 503:
+            if resp.status_code in (502, 503, 504):
                 wait = 10 * (attempt + 1)
-                print(f"  [503] Server onbeschikbaar. Wacht {wait}s...")
+                print(f"  [{resp.status_code}] Server fout. Wacht {wait}s en probeer opnieuw ({attempt+1}/{retries})...")
                 time.sleep(wait)
                 continue
 
