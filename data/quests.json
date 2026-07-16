@@ -5393,7 +5393,7 @@
     "series": "Myreque, #3",
     "release_date": "4 September 2006",
     "url": "https://oldschool.runescape.wiki/w/Darkness_of_Hallowvale",
-    "start_point": "Talk to Veliaf Hurtz in the basement of the Burgh de Rott pub.",
+    "start_point": "Talk to Veliaf Hurtz in the basement of the Burgh de Rott inn.",
     "skill_requirements": [
       {
         "skill": "Construction",
@@ -7041,7 +7041,7 @@
       }
     ],
     "item_requirements": [
-      "Ring of charos(a) or 500 coins",
+      "Ring of Charos(a) or 500 coins",
       "Knife",
       "Seed dibber (only if Barbarian Farming Training has not been completed)",
       "Lantern lens",
