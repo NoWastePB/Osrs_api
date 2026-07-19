@@ -381036,5 +381036,103 @@
       },
       "sources": []
     }
+  },
+  {
+    "id": 33663,
+    "name": "Venator tooth",
+    "examine": "A pointy tooth.",
+    "members": true,
+    "limit": null,
+    "value": 250,
+    "high_alch": 150,
+    "low_alch": 100,
+    "wiki": {
+      "released": "30 June 2026 ( Update )",
+      "members": "Yes",
+      "quest_item": "No",
+      "tradeable": "Yes",
+      "equipable": "No",
+      "stackable": "Yes",
+      "noteable": "No",
+      "options": "Drop",
+      "examine": "A pointy tooth.",
+      "value": "250 coins",
+      "high_alch": "150 coins",
+      "low_alch": "100 coins",
+      "weight": "0 kg",
+      "combat_stats": {},
+      "sources": [
+        {
+          "source": "Maggot King",
+          "level": "741",
+          "quantity": "178–219",
+          "rarity": "2/159",
+          "league_region": "N/A"
+        },
+        {
+          "source": "Venator",
+          "level": "246",
+          "quantity": "15–30",
+          "rarity": "7/131",
+          "league_region": "N/A"
+        },
+        {
+          "source": "Blood-starved venator",
+          "level": "246",
+          "quantity": "15–30",
+          "rarity": "3 × Unknown",
+          "league_region": "N/A"
+        }
+      ]
+    }
+  },
+  {
+    "id": 33661,
+    "name": "Venator fang",
+    "examine": "A sharp tooth.",
+    "members": true,
+    "limit": null,
+    "value": 500,
+    "high_alch": 300,
+    "low_alch": 200,
+    "wiki": {
+      "released": "30 June 2026 ( Update )",
+      "members": "Yes",
+      "quest_item": "No",
+      "tradeable": "Yes",
+      "equipable": "No",
+      "stackable": "Yes",
+      "noteable": "No",
+      "options": "Drop",
+      "examine": "A sharp tooth.",
+      "value": "500 coins",
+      "high_alch": "300 coins",
+      "low_alch": "200 coins",
+      "weight": "0 kg",
+      "combat_stats": {},
+      "sources": [
+        {
+          "source": "Maggot King",
+          "level": "741",
+          "quantity": "112–179",
+          "rarity": "2/159",
+          "league_region": "N/A"
+        },
+        {
+          "source": "Venator",
+          "level": "246",
+          "quantity": "10–20",
+          "rarity": "7/131",
+          "league_region": "N/A"
+        },
+        {
+          "source": "Blood-starved venator",
+          "level": "246",
+          "quantity": "10–20",
+          "rarity": "3 × Unknown",
+          "league_region": "N/A"
+        }
+      ]
+    }
   }
 ]
