@@ -1641,7 +1641,7 @@
     "skill_requirements": [],
     "quest_requirements": [],
     "item_requirements": [
-      "Pot"
+      "Pot or Pot of flour"
     ],
     "rewards": [
       "3 Quest points",
@@ -3721,20 +3721,20 @@
       }
     ],
     "item_requirements": [
-      "Cat or kitten (Hellcats work. Be sure to bring fish for your kitten if you're using one.)",
+      "Cat or kitten (hellcats work. Be sure to bring fish for your kitten if you're using one.)",
       "Catspeak amulet",
       "5 death runes",
       "Chocolate cake (made with cake and chocolate bar or chocolate dust with 50 )",
       "Logs",
       "Tinderbox",
-      "Bucket of milk (or one use of the Bottomless milk bucket)",
+      "Bucket of milk (or one use of the bottomless milk bucket)",
       "Shears",
       "4 potato seeds",
       "Rake",
       "Seed dibber (or partial completion of the Farming portion of Barbarian Training)",
       "Vial of water",
-      "Desert shirt (obtainable during quest) or Druid's robe top (The desert outfit does not work)",
-      "Desert robe (obtainable during quest) or Druid's robe (The desert outfit does not work)"
+      "Desert shirt (obtainable during quest) or druid's robe top (the desert outfit does not work)",
+      "Desert robe (obtainable during quest) or druid's robe (the desert outfit does not work)"
     ],
     "rewards": [
       "2 Quest points",
@@ -6273,7 +6273,7 @@
     "enemies_to_defeat": [
       "H.A.M. Archer (level 30)",
       "H.A.M. Mage (level 30)",
-      "Sigmund#Another_Slice_of_H.A.M. (level 64)"
+      "Sigmund (level 64)"
     ]
   },
   {
