@@ -4350,7 +4350,7 @@
       "Willow logs",
       "Maple logs",
       "Pickaxe (unless you already have the required items)",
-      "Soft clay (obtainable during quest if you bring a pickaxe and bucket or jug of water)",
+      "Soft clay (obtainable during quest if you bring a pickaxe and bucket, vial or jug of water)",
       "Coal (obtainable during quest with level 30 Mining[boostable] from the Bandit Camp Quarry)",
       "52 kg of sandstone (obtainable during quest with level 35 Mining [boostable])",
       "Two 5 kg pieces of granite (obtainable during quest with level 45 Mining [boostable])",
@@ -7122,8 +7122,7 @@
     "item_requirements": [
       "5 free inventory spaces are needed to receive items near the start of the quest",
       "Knife (obtainable during quest)",
-      "A comp ogre bow (not needed if using Crumble Undead in final battle) or:",
-      "Brutal arrows (not needed if using Crumble Undead in final battle) or:"
+      "Combat equipment to defeat Slash Bash, who takes reduced damage from all sources other than:"
     ],
     "rewards": [
       "1 Quest point",
