@@ -161,7 +161,9 @@
     "start_point": "Talk to Duke Horacio on the 1st floor[UK]2nd floor[US] of Lumbridge Castle.",
     "skill_requirements": [],
     "quest_requirements": [],
-    "item_requirements": [],
+    "item_requirements": [
+      "Air talisman (is given for free at the start of the quest)"
+    ],
     "rewards": [
       "1 Quest point",
       "The ability to mine rune essence",
