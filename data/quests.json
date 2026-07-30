@@ -1244,7 +1244,8 @@
     ],
     "rewards": [
       "4 Quest points",
-      "3,100 coins"
+      "3,100 coins",
+      "Ability to hunt goats on Wyrmscraig"
     ],
     "enemies_to_defeat": []
   },
@@ -7051,7 +7052,7 @@
       "Bronze med helm",
       "Iron chainbody",
       "Sapphire lantern",
-      "Runes to cast the NPC Contact spell four times (8 air runes, 4 astral rune, 4 cosmic rune)",
+      "Runes to cast the Astral Contact spell four times (8 air runes, 4 astral rune, 4 cosmic rune)",
       "Runes for any charge orb spell (30 runes of a chosen element and 3 cosmic runes)",
       "Equipment for two different combat styles",
       "Runes for the following spells: multiple casts of all four elemental spells, Snare/Entangle, Weaken/Enfeeble, Telekinetic Grab, and Low/High Level Alchemy; (Air, Water, Earth, Fire, Body/Soul, Nature, Law, and the highest of Mind/Chaos/Death/Blood/Wrath that you can use to cast all four elemental spells)"
@@ -11148,6 +11149,67 @@
       "Large chicken (level 16)",
       "Black jaguar (level 88) - can be safespotted",
       "Red dragon (level 106) - can be safespotted"
+    ]
+  },
+  {
+    "category": "members",
+    "id": "181",
+    "name": "Fallen From Grace",
+    "difficulty": "Experienced",
+    "length": "Short",
+    "quest_points": "2",
+    "series": "",
+    "release_date": "29 July 2026",
+    "url": "https://oldschool.runescape.wiki/w/Fallen_From_Grace",
+    "start_point": "Talk to Cormac, the mayor of Auchrie, on the island of Wyrmscraig.",
+    "skill_requirements": [
+      {
+        "skill": "Sailing",
+        "level": 62,
+        "boostable": false
+      },
+      {
+        "skill": "Crafting",
+        "level": 60,
+        "boostable": true
+      },
+      {
+        "skill": "Runecraft",
+        "level": 47,
+        "boostable": false
+      },
+      {
+        "skill": "Mining",
+        "level": 53,
+        "boostable": true
+      }
+    ],
+    "quest_requirements": [
+      {
+        "name": "Pandemonium",
+        "url": "https://oldschool.runescape.wiki/w/Pandemonium"
+      }
+    ],
+    "item_requirements": [
+      "A raft or skiff (a Sloop does NOT work) (You MUST use your own boat - you will not be able to disembark in Wyrmscraig cave unless you are the only player on the boat)",
+      "A pickaxe (obtainable during the quest)",
+      "Chisel (obtainable during the quest)",
+      "Hammer (Imcando hammer does NOT work) (obtainable during the quest)"
+    ],
+    "rewards": [
+      "2 Quest points",
+      "10,000 Crafting experience",
+      "12,500 Sailing experience",
+      "5,000 Mining experience",
+      "5,000 Runecraft experience",
+      "Access to a new Slayer Master, Mortimer. (Unlocked upon entering Wyrmscraig Cavern during the quest.)",
+      "Access to the Mad Angel, a repeatable boss",
+      "Access to the Crafting minigame Golem crafting",
+      "Ability to teleport to Wyrmscraig with the necklace of passage"
+    ],
+    "enemies_to_defeat": [
+      "3 mountain trolls (level 69)",
+      "Mad Angel (level 270)"
     ]
   },
   {
