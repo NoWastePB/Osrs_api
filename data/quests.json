@@ -11158,7 +11158,7 @@
     "difficulty": "Experienced",
     "length": "Short",
     "quest_points": "2",
-    "series": "",
+    "series": "N/A",
     "release_date": "29 July 2026",
     "url": "https://oldschool.runescape.wiki/w/Fallen_From_Grace",
     "start_point": "Talk to Cormac, the mayor of Auchrie, on the island of Wyrmscraig.",
@@ -11191,10 +11191,11 @@
       }
     ],
     "item_requirements": [
-      "A raft or skiff (a Sloop does NOT work) (You MUST use your own boat - you will not be able to disembark in Wyrmscraig cave unless you are the only player on the boat)",
+      "A raft or skiff (a sloop does NOT work) (You MUST use your own boat - you will not be able to disembark in Wyrmscraig Cavern unless you are the only player on the boat)",
       "A pickaxe (obtainable during the quest)",
       "Chisel (obtainable during the quest)",
-      "Hammer (Imcando hammer does NOT work) (obtainable during the quest)"
+      "Hammer (Imcando hammer does NOT work) (obtainable during the quest)",
+      "Combat equipment and supplies to defeat the Mad Angel, weak to Crush"
     ],
     "rewards": [
       "2 Quest points",
