@@ -11171,7 +11171,7 @@
       {
         "skill": "Crafting",
         "level": 60,
-        "boostable": true
+        "boostable": false
       },
       {
         "skill": "Runecraft",
@@ -11206,7 +11206,7 @@
       "Access to a new Slayer Master, Mortimer. (Unlocked upon entering Wyrmscraig Cavern during the quest.)",
       "Access to the Mad Angel, a repeatable boss",
       "Access to the Crafting minigame Golem crafting",
-      "Ability to teleport to Wyrmscraig with the necklace of passage"
+      "Ability to teleport to Wyrmscraig with the necklace of passage, Slayer ring or Ardeaglais teleport"
     ],
     "enemies_to_defeat": [
       "3 mountain trolls (level 69)",
