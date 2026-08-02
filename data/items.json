@@ -381134,5 +381134,3099 @@
         }
       ]
     }
+  },
+  {
+    "id": 33851,
+    "name": "Noble robe top (black)",
+    "examine": "Tied up with a bow.",
+    "members": true,
+    "limit": null,
+    "value": 50000,
+    "high_alch": 30000,
+    "low_alch": 20000,
+    "wiki": {
+      "released": "29 July 2026 ( Update )",
+      "members": "Yes",
+      "quest_item": "No",
+      "tradeable": "Yes",
+      "equipable": "Yes",
+      "stackable": "No",
+      "noteable": "Yes",
+      "options": "Wear, Drop",
+      "examine": "Tied up with a bow.",
+      "value": "50,000 coins",
+      "high_alch": "30,000 coins",
+      "low_alch": "20,000 coins",
+      "weight": "0.907 kg",
+      "combat_stats": {
+        "attack_bonuses": {
+          "stab": 0,
+          "slash": 0,
+          "crush": 0,
+          "magic": 0,
+          "ranged": 0
+        },
+        "defence_bonuses": {
+          "stab": 0,
+          "slash": 0,
+          "crush": 0,
+          "magic": 0,
+          "ranged": 0
+        },
+        "other_bonuses": {
+          "strength": 0,
+          "ranged": 0,
+          "magic_damage": 0,
+          "prayer": 0
+        },
+        "slot": "body"
+      },
+      "sources": []
+    }
+  },
+  {
+    "id": 34033,
+    "name": "Ardeaglais teleport",
+    "examine": "Teleports you to Ardeaglais.",
+    "members": true,
+    "limit": null,
+    "value": 10,
+    "high_alch": 6,
+    "low_alch": 4,
+    "wiki": {
+      "released": "29 July 2026 ( Update )",
+      "members": "Yes",
+      "quest_item": "No",
+      "tradeable": "Yes",
+      "equipable": "No",
+      "stackable": "Yes",
+      "noteable": "No",
+      "options": "Teleport, Drop",
+      "examine": "Teleports you to Ardeaglais.",
+      "value": "10 coins",
+      "high_alch": "6 coins",
+      "low_alch": "4 coins",
+      "weight": "0 kg",
+      "combat_stats": {},
+      "sources": [
+        {
+          "source": "Mad Angel",
+          "level": "270; 588",
+          "quantity": "2",
+          "rarity": "1/25",
+          "league_region": "N/A"
+        }
+      ]
+    }
+  },
+  {
+    "id": 34027,
+    "name": "Hallowfell",
+    "examine": "This really fells my hallow.",
+    "members": true,
+    "limit": null,
+    "value": 1250000,
+    "high_alch": 750000,
+    "low_alch": 500000,
+    "wiki": {
+      "released": "29 July 2026 ( Update )",
+      "members": "Yes",
+      "quest_item": "No",
+      "tradeable": "Yes",
+      "equipable": "Yes",
+      "stackable": "No",
+      "noteable": "Yes",
+      "options": "Wield, Drop",
+      "examine": "This really fells my hallow.",
+      "value": "1,250,000 coins",
+      "high_alch": "750,000 coins",
+      "low_alch": "500,000 coins",
+      "weight": "10 kg",
+      "combat_stats": {
+        "attack_bonuses": {
+          "stab": 0,
+          "slash": 117,
+          "crush": 25,
+          "magic": 0,
+          "ranged": 0
+        },
+        "defence_bonuses": {
+          "stab": 0,
+          "slash": 0,
+          "crush": 0,
+          "magic": 0,
+          "ranged": 0
+        },
+        "other_bonuses": {
+          "strength": 110,
+          "ranged": 0,
+          "magic_damage": 0,
+          "prayer": 4
+        },
+        "slot": "2h"
+      },
+      "sources": [
+        {
+          "source": "Mad Angel",
+          "level": "270; 588",
+          "quantity": "1",
+          "rarity": "1/128",
+          "league_region": "N/A"
+        }
+      ]
+    }
+  },
+  {
+    "id": 33839,
+    "name": "Noble robe top (blue)",
+    "examine": "Tied up with a bow.",
+    "members": true,
+    "limit": null,
+    "value": 50000,
+    "high_alch": 30000,
+    "low_alch": 20000,
+    "wiki": {
+      "released": "29 July 2026 ( Update )",
+      "members": "Yes",
+      "quest_item": "No",
+      "tradeable": "Yes",
+      "equipable": "Yes",
+      "stackable": "No",
+      "noteable": "Yes",
+      "options": "Wear, Drop",
+      "examine": "Tied up with a bow.",
+      "value": "50,000 coins",
+      "high_alch": "30,000 coins",
+      "low_alch": "20,000 coins",
+      "weight": "0.907 kg",
+      "combat_stats": {
+        "attack_bonuses": {
+          "stab": 0,
+          "slash": 0,
+          "crush": 0,
+          "magic": 0,
+          "ranged": 0
+        },
+        "defence_bonuses": {
+          "stab": 0,
+          "slash": 0,
+          "crush": 0,
+          "magic": 0,
+          "ranged": 0
+        },
+        "other_bonuses": {
+          "strength": 0,
+          "ranged": 0,
+          "magic_damage": 0,
+          "prayer": 0
+        },
+        "slot": "body"
+      },
+      "sources": []
+    }
+  },
+  {
+    "id": 33836,
+    "name": "Noble robe top (green)",
+    "examine": "Tied up with a bow.",
+    "members": true,
+    "limit": null,
+    "value": 50000,
+    "high_alch": 30000,
+    "low_alch": 20000,
+    "wiki": {
+      "released": "29 July 2026 ( Update )",
+      "members": "Yes",
+      "quest_item": "No",
+      "tradeable": "Yes",
+      "equipable": "Yes",
+      "stackable": "No",
+      "noteable": "Yes",
+      "options": "Wear, Drop",
+      "examine": "Tied up with a bow.",
+      "value": "50,000 coins",
+      "high_alch": "30,000 coins",
+      "low_alch": "20,000 coins",
+      "weight": "0.907 kg",
+      "combat_stats": {
+        "attack_bonuses": {
+          "stab": 0,
+          "slash": 0,
+          "crush": 0,
+          "magic": 0,
+          "ranged": 0
+        },
+        "defence_bonuses": {
+          "stab": 0,
+          "slash": 0,
+          "crush": 0,
+          "magic": 0,
+          "ranged": 0
+        },
+        "other_bonuses": {
+          "strength": 0,
+          "ranged": 0,
+          "magic_damage": 0,
+          "prayer": 0
+        },
+        "slot": "body"
+      },
+      "sources": []
+    }
+  },
+  {
+    "id": 33854,
+    "name": "Noble robe top (pink)",
+    "examine": "Tied up with a bow.",
+    "members": true,
+    "limit": null,
+    "value": 50000,
+    "high_alch": 30000,
+    "low_alch": 20000,
+    "wiki": {
+      "released": "29 July 2026 ( Update )",
+      "members": "Yes",
+      "quest_item": "No",
+      "tradeable": "Yes",
+      "equipable": "Yes",
+      "stackable": "No",
+      "noteable": "Yes",
+      "options": "Wear, Drop",
+      "examine": "Tied up with a bow.",
+      "value": "50,000 coins",
+      "high_alch": "30,000 coins",
+      "low_alch": "20,000 coins",
+      "weight": "0.907 kg",
+      "combat_stats": {
+        "attack_bonuses": {
+          "stab": 0,
+          "slash": 0,
+          "crush": 0,
+          "magic": 0,
+          "ranged": 0
+        },
+        "defence_bonuses": {
+          "stab": 0,
+          "slash": 0,
+          "crush": 0,
+          "magic": 0,
+          "ranged": 0
+        },
+        "other_bonuses": {
+          "strength": 0,
+          "ranged": 0,
+          "magic_damage": 0,
+          "prayer": 0
+        },
+        "slot": "body"
+      },
+      "sources": []
+    }
+  },
+  {
+    "id": 33842,
+    "name": "Noble robe top (red)",
+    "examine": "Tied up with a bow.",
+    "members": true,
+    "limit": null,
+    "value": 50000,
+    "high_alch": 30000,
+    "low_alch": 20000,
+    "wiki": {
+      "released": "29 July 2026 ( Update )",
+      "members": "Yes",
+      "quest_item": "No",
+      "tradeable": "Yes",
+      "equipable": "Yes",
+      "stackable": "No",
+      "noteable": "Yes",
+      "options": "Wear, Drop",
+      "examine": "Tied up with a bow.",
+      "value": "50,000 coins",
+      "high_alch": "30,000 coins",
+      "low_alch": "20,000 coins",
+      "weight": "0.907 kg",
+      "combat_stats": {
+        "attack_bonuses": {
+          "stab": 0,
+          "slash": 0,
+          "crush": 0,
+          "magic": 0,
+          "ranged": 0
+        },
+        "defence_bonuses": {
+          "stab": 0,
+          "slash": 0,
+          "crush": 0,
+          "magic": 0,
+          "ranged": 0
+        },
+        "other_bonuses": {
+          "strength": 0,
+          "ranged": 0,
+          "magic_damage": 0,
+          "prayer": 0
+        },
+        "slot": "body"
+      },
+      "sources": []
+    }
+  },
+  {
+    "id": 33848,
+    "name": "Noble robe top (white)",
+    "examine": "Tied up with a bow.",
+    "members": true,
+    "limit": null,
+    "value": 50000,
+    "high_alch": 30000,
+    "low_alch": 20000,
+    "wiki": {
+      "released": "29 July 2026 ( Update )",
+      "members": "Yes",
+      "quest_item": "No",
+      "tradeable": "Yes",
+      "equipable": "Yes",
+      "stackable": "No",
+      "noteable": "Yes",
+      "options": "Wear, Drop",
+      "examine": "Tied up with a bow.",
+      "value": "50,000 coins",
+      "high_alch": "30,000 coins",
+      "low_alch": "20,000 coins",
+      "weight": "0.907 kg",
+      "combat_stats": {
+        "attack_bonuses": {
+          "stab": 0,
+          "slash": 0,
+          "crush": 0,
+          "magic": 0,
+          "ranged": 0
+        },
+        "defence_bonuses": {
+          "stab": 0,
+          "slash": 0,
+          "crush": 0,
+          "magic": 0,
+          "ranged": 0
+        },
+        "other_bonuses": {
+          "strength": 0,
+          "ranged": 0,
+          "magic_damage": 0,
+          "prayer": 0
+        },
+        "slot": "body"
+      },
+      "sources": []
+    }
+  },
+  {
+    "id": 33845,
+    "name": "Noble robe top (yellow)",
+    "examine": "Tied up with a bow.",
+    "members": true,
+    "limit": null,
+    "value": 50000,
+    "high_alch": 30000,
+    "low_alch": 20000,
+    "wiki": {
+      "released": "29 July 2026 ( Update )",
+      "members": "Yes",
+      "quest_item": "No",
+      "tradeable": "Yes",
+      "equipable": "Yes",
+      "stackable": "No",
+      "noteable": "Yes",
+      "options": "Wear, Drop",
+      "examine": "Tied up with a bow.",
+      "value": "50,000 coins",
+      "high_alch": "30,000 coins",
+      "low_alch": "20,000 coins",
+      "weight": "0.907 kg",
+      "combat_stats": {
+        "attack_bonuses": {
+          "stab": 0,
+          "slash": 0,
+          "crush": 0,
+          "magic": 0,
+          "ranged": 0
+        },
+        "defence_bonuses": {
+          "stab": 0,
+          "slash": 0,
+          "crush": 0,
+          "magic": 0,
+          "ranged": 0
+        },
+        "other_bonuses": {
+          "strength": 0,
+          "ranged": 0,
+          "magic_damage": 0,
+          "prayer": 0
+        },
+        "slot": "body"
+      },
+      "sources": []
+    }
+  },
+  {
+    "id": 34035,
+    "name": "Placeholder",
+    "examine": "placeholder.",
+    "members": true,
+    "limit": null,
+    "value": null,
+    "high_alch": null,
+    "low_alch": null,
+    "wiki": {
+      "released": "11 August 2016 ( Update )",
+      "members": "No",
+      "quest_item": "No",
+      "tradeable": "No",
+      "equipable": "No",
+      "stackable": "No",
+      "noteable": "No",
+      "options": "Drop",
+      "examine": "Fills your bank.",
+      "value": "0 coins",
+      "high_alch": null,
+      "low_alch": null,
+      "weight": "0 kg",
+      "combat_stats": {},
+      "sources": []
+    }
+  },
+  {
+    "id": 33881,
+    "name": "Wyrmscraig boots",
+    "examine": "The leather is soft.",
+    "members": true,
+    "limit": null,
+    "value": 10000,
+    "high_alch": 6000,
+    "low_alch": 4000,
+    "wiki": {
+      "released": "29 July 2026 ( Update )",
+      "members": "Yes",
+      "quest_item": "No",
+      "tradeable": "Yes",
+      "equipable": "Yes",
+      "stackable": "No",
+      "noteable": "Yes",
+      "options": "Wear, Drop",
+      "examine": "The leather is soft.",
+      "value": "10,000 coins",
+      "high_alch": "6,000 coins",
+      "low_alch": "4,000 coins",
+      "weight": "0.34 kg",
+      "combat_stats": {
+        "attack_bonuses": {
+          "stab": 0,
+          "slash": 0,
+          "crush": 0,
+          "magic": 0,
+          "ranged": 0
+        },
+        "defence_bonuses": {
+          "stab": 0,
+          "slash": 0,
+          "crush": 0,
+          "magic": 0,
+          "ranged": 0
+        },
+        "other_bonuses": {
+          "strength": 0,
+          "ranged": 0,
+          "magic_damage": 0,
+          "prayer": 0
+        },
+        "slot": "feet"
+      },
+      "sources": []
+    }
+  },
+  {
+    "id": 34017,
+    "name": "Wyrmscraig goat fur",
+    "examine": "You have a strange urge to clothe a golem in this.",
+    "members": true,
+    "limit": null,
+    "value": 10,
+    "high_alch": 6,
+    "low_alch": 4,
+    "wiki": {
+      "released": "29 July 2026 ( Update )",
+      "members": "No",
+      "quest_item": "No",
+      "tradeable": "Yes",
+      "equipable": "No",
+      "stackable": "No",
+      "noteable": "Yes",
+      "options": "Drop",
+      "examine": "You have a strange urge to clothe a golem in this.",
+      "value": "10 coins",
+      "high_alch": "6 coins",
+      "low_alch": "4 coins",
+      "weight": "3 kg",
+      "combat_stats": {},
+      "sources": [
+        {
+          "source": "Wyrmscraig Goat",
+          "level": "60",
+          "quantity": "1",
+          "rarity": "1/4",
+          "league_region": "N/A"
+        }
+      ]
+    }
+  },
+  {
+    "id": 33872,
+    "name": "Wyrmscraig noble skirt (black)",
+    "examine": "A skirt woven from a thick wool.",
+    "members": true,
+    "limit": null,
+    "value": 40000,
+    "high_alch": 24000,
+    "low_alch": 16000,
+    "wiki": {
+      "released": "29 July 2026 ( Update )",
+      "members": "Yes",
+      "quest_item": "No",
+      "tradeable": "Yes",
+      "equipable": "Yes",
+      "stackable": "No",
+      "noteable": "Yes",
+      "options": "Wear, Drop",
+      "examine": "A skirt woven from a thick wool.",
+      "value": "40,000 coins",
+      "high_alch": "24,000 coins",
+      "low_alch": "16,000 coins",
+      "weight": "0.907 kg",
+      "combat_stats": {
+        "attack_bonuses": {
+          "stab": 0,
+          "slash": 0,
+          "crush": 0,
+          "magic": 0,
+          "ranged": 0
+        },
+        "defence_bonuses": {
+          "stab": 0,
+          "slash": 0,
+          "crush": 0,
+          "magic": 0,
+          "ranged": 0
+        },
+        "other_bonuses": {
+          "strength": 0,
+          "ranged": 0,
+          "magic_damage": 0,
+          "prayer": 0
+        },
+        "slot": "legs"
+      },
+      "sources": []
+    }
+  },
+  {
+    "id": 33860,
+    "name": "Wyrmscraig noble skirt (blue)",
+    "examine": "A skirt woven from a thick wool.",
+    "members": true,
+    "limit": null,
+    "value": 40000,
+    "high_alch": 24000,
+    "low_alch": 16000,
+    "wiki": {
+      "released": "29 July 2026 ( Update )",
+      "members": "Yes",
+      "quest_item": "No",
+      "tradeable": "Yes",
+      "equipable": "Yes",
+      "stackable": "No",
+      "noteable": "Yes",
+      "options": "Wear, Drop",
+      "examine": "A skirt woven from a thick wool.",
+      "value": "40,000 coins",
+      "high_alch": "24,000 coins",
+      "low_alch": "16,000 coins",
+      "weight": "0.907 kg",
+      "combat_stats": {
+        "attack_bonuses": {
+          "stab": 0,
+          "slash": 0,
+          "crush": 0,
+          "magic": 0,
+          "ranged": 0
+        },
+        "defence_bonuses": {
+          "stab": 0,
+          "slash": 0,
+          "crush": 0,
+          "magic": 0,
+          "ranged": 0
+        },
+        "other_bonuses": {
+          "strength": 0,
+          "ranged": 0,
+          "magic_damage": 0,
+          "prayer": 0
+        },
+        "slot": "legs"
+      },
+      "sources": []
+    }
+  },
+  {
+    "id": 33857,
+    "name": "Wyrmscraig noble skirt (green)",
+    "examine": "A skirt woven from a thick wool.",
+    "members": true,
+    "limit": null,
+    "value": 40000,
+    "high_alch": 24000,
+    "low_alch": 16000,
+    "wiki": {
+      "released": "29 July 2026 ( Update )",
+      "members": "Yes",
+      "quest_item": "No",
+      "tradeable": "Yes",
+      "equipable": "Yes",
+      "stackable": "No",
+      "noteable": "Yes",
+      "options": "Wear, Drop",
+      "examine": "A skirt woven from a thick wool.",
+      "value": "40,000 coins",
+      "high_alch": "24,000 coins",
+      "low_alch": "16,000 coins",
+      "weight": "0.907 kg",
+      "combat_stats": {
+        "attack_bonuses": {
+          "stab": 0,
+          "slash": 0,
+          "crush": 0,
+          "magic": 0,
+          "ranged": 0
+        },
+        "defence_bonuses": {
+          "stab": 0,
+          "slash": 0,
+          "crush": 0,
+          "magic": 0,
+          "ranged": 0
+        },
+        "other_bonuses": {
+          "strength": 0,
+          "ranged": 0,
+          "magic_damage": 0,
+          "prayer": 0
+        },
+        "slot": "legs"
+      },
+      "sources": []
+    }
+  },
+  {
+    "id": 33875,
+    "name": "Wyrmscraig noble skirt (pink)",
+    "examine": "A skirt woven from a thick wool.",
+    "members": true,
+    "limit": null,
+    "value": 40000,
+    "high_alch": 24000,
+    "low_alch": 16000,
+    "wiki": {
+      "released": "29 July 2026 ( Update )",
+      "members": "Yes",
+      "quest_item": "No",
+      "tradeable": "Yes",
+      "equipable": "Yes",
+      "stackable": "No",
+      "noteable": "Yes",
+      "options": "Wear, Drop",
+      "examine": "A skirt woven from a thick wool.",
+      "value": "40,000 coins",
+      "high_alch": "24,000 coins",
+      "low_alch": "16,000 coins",
+      "weight": "0.907 kg",
+      "combat_stats": {
+        "attack_bonuses": {
+          "stab": 0,
+          "slash": 0,
+          "crush": 0,
+          "magic": 0,
+          "ranged": 0
+        },
+        "defence_bonuses": {
+          "stab": 0,
+          "slash": 0,
+          "crush": 0,
+          "magic": 0,
+          "ranged": 0
+        },
+        "other_bonuses": {
+          "strength": 0,
+          "ranged": 0,
+          "magic_damage": 0,
+          "prayer": 0
+        },
+        "slot": "legs"
+      },
+      "sources": []
+    }
+  },
+  {
+    "id": 33863,
+    "name": "Wyrmscraig noble skirt (red)",
+    "examine": "A skirt woven from a thick wool.",
+    "members": true,
+    "limit": null,
+    "value": 40000,
+    "high_alch": 24000,
+    "low_alch": 16000,
+    "wiki": {
+      "released": "29 July 2026 ( Update )",
+      "members": "Yes",
+      "quest_item": "No",
+      "tradeable": "Yes",
+      "equipable": "Yes",
+      "stackable": "No",
+      "noteable": "Yes",
+      "options": "Wear, Drop",
+      "examine": "A skirt woven from a thick wool.",
+      "value": "40,000 coins",
+      "high_alch": "24,000 coins",
+      "low_alch": "16,000 coins",
+      "weight": "0.907 kg",
+      "combat_stats": {
+        "attack_bonuses": {
+          "stab": 0,
+          "slash": 0,
+          "crush": 0,
+          "magic": 0,
+          "ranged": 0
+        },
+        "defence_bonuses": {
+          "stab": 0,
+          "slash": 0,
+          "crush": 0,
+          "magic": 0,
+          "ranged": 0
+        },
+        "other_bonuses": {
+          "strength": 0,
+          "ranged": 0,
+          "magic_damage": 0,
+          "prayer": 0
+        },
+        "slot": "legs"
+      },
+      "sources": []
+    }
+  },
+  {
+    "id": 33869,
+    "name": "Wyrmscraig noble skirt (white)",
+    "examine": "A skirt woven from a thick wool.",
+    "members": true,
+    "limit": null,
+    "value": 40000,
+    "high_alch": 24000,
+    "low_alch": 16000,
+    "wiki": {
+      "released": "29 July 2026 ( Update )",
+      "members": "Yes",
+      "quest_item": "No",
+      "tradeable": "Yes",
+      "equipable": "Yes",
+      "stackable": "No",
+      "noteable": "Yes",
+      "options": "Wear, Drop",
+      "examine": "A skirt woven from a thick wool.",
+      "value": "40,000 coins",
+      "high_alch": "24,000 coins",
+      "low_alch": "16,000 coins",
+      "weight": "0.907 kg",
+      "combat_stats": {
+        "attack_bonuses": {
+          "stab": 0,
+          "slash": 0,
+          "crush": 0,
+          "magic": 0,
+          "ranged": 0
+        },
+        "defence_bonuses": {
+          "stab": 0,
+          "slash": 0,
+          "crush": 0,
+          "magic": 0,
+          "ranged": 0
+        },
+        "other_bonuses": {
+          "strength": 0,
+          "ranged": 0,
+          "magic_damage": 0,
+          "prayer": 0
+        },
+        "slot": "legs"
+      },
+      "sources": []
+    }
+  },
+  {
+    "id": 33866,
+    "name": "Wyrmscraig noble skirt (yellow)",
+    "examine": "A skirt woven from a thick wool.",
+    "members": true,
+    "limit": null,
+    "value": 40000,
+    "high_alch": 24000,
+    "low_alch": 16000,
+    "wiki": {
+      "released": "29 July 2026 ( Update )",
+      "members": "Yes",
+      "quest_item": "No",
+      "tradeable": "Yes",
+      "equipable": "Yes",
+      "stackable": "No",
+      "noteable": "Yes",
+      "options": "Wear, Drop",
+      "examine": "A skirt woven from a thick wool.",
+      "value": "40,000 coins",
+      "high_alch": "24,000 coins",
+      "low_alch": "16,000 coins",
+      "weight": "0.907 kg",
+      "combat_stats": {
+        "attack_bonuses": {
+          "stab": 0,
+          "slash": 0,
+          "crush": 0,
+          "magic": 0,
+          "ranged": 0
+        },
+        "defence_bonuses": {
+          "stab": 0,
+          "slash": 0,
+          "crush": 0,
+          "magic": 0,
+          "ranged": 0
+        },
+        "other_bonuses": {
+          "strength": 0,
+          "ranged": 0,
+          "magic_damage": 0,
+          "prayer": 0
+        },
+        "slot": "legs"
+      },
+      "sources": []
+    }
+  },
+  {
+    "id": 33878,
+    "name": "Wyrmscraig shoes",
+    "examine": "Soft leather shoes.",
+    "members": true,
+    "limit": null,
+    "value": 10000,
+    "high_alch": 6000,
+    "low_alch": 4000,
+    "wiki": {
+      "released": "29 July 2026 ( Update )",
+      "members": "Yes",
+      "quest_item": "No",
+      "tradeable": "Yes",
+      "equipable": "Yes",
+      "stackable": "No",
+      "noteable": "Yes",
+      "options": "Wear, Drop",
+      "examine": "Soft leather shoes.",
+      "value": "10,000 coins",
+      "high_alch": "6,000 coins",
+      "low_alch": "4,000 coins",
+      "weight": "0.34 kg",
+      "combat_stats": {
+        "attack_bonuses": {
+          "stab": 0,
+          "slash": 0,
+          "crush": 0,
+          "magic": 0,
+          "ranged": 0
+        },
+        "defence_bonuses": {
+          "stab": 0,
+          "slash": 0,
+          "crush": 0,
+          "magic": 0,
+          "ranged": 0
+        },
+        "other_bonuses": {
+          "strength": 0,
+          "ranged": 0,
+          "magic_damage": 0,
+          "prayer": 0
+        },
+        "slot": "feet"
+      },
+      "sources": []
+    }
+  },
+  {
+    "id": 33923,
+    "name": "Wyrmscraig villager robe bottom (A, black)",
+    "examine": "A plain and simple robe bottom.",
+    "members": true,
+    "limit": null,
+    "value": 400,
+    "high_alch": 240,
+    "low_alch": 160,
+    "wiki": {
+      "released": "29 July 2026 ( Update )",
+      "members": "Yes",
+      "quest_item": "No",
+      "tradeable": "Yes",
+      "equipable": "Yes",
+      "stackable": "No",
+      "noteable": "Yes",
+      "options": "Wear, Drop",
+      "examine": "A plain and simple robe bottom.",
+      "value": "400 coins",
+      "high_alch": "240 coins",
+      "low_alch": "160 coins",
+      "weight": "0.907 kg",
+      "combat_stats": {
+        "attack_bonuses": {
+          "stab": 0,
+          "slash": 0,
+          "crush": 0,
+          "magic": 0,
+          "ranged": 0
+        },
+        "defence_bonuses": {
+          "stab": 0,
+          "slash": 0,
+          "crush": 0,
+          "magic": 0,
+          "ranged": 0
+        },
+        "other_bonuses": {
+          "strength": 0,
+          "ranged": 0,
+          "magic_damage": 0,
+          "prayer": 0
+        },
+        "slot": "body"
+      },
+      "sources": []
+    }
+  },
+  {
+    "id": 33911,
+    "name": "Wyrmscraig villager robe bottom (A, blue)",
+    "examine": "A plain and simple robe bottom.",
+    "members": true,
+    "limit": null,
+    "value": 400,
+    "high_alch": 240,
+    "low_alch": 160,
+    "wiki": {
+      "released": "29 July 2026 ( Update )",
+      "members": "Yes",
+      "quest_item": "No",
+      "tradeable": "Yes",
+      "equipable": "Yes",
+      "stackable": "No",
+      "noteable": "Yes",
+      "options": "Wear, Drop",
+      "examine": "A plain and simple robe bottom.",
+      "value": "400 coins",
+      "high_alch": "240 coins",
+      "low_alch": "160 coins",
+      "weight": "0.907 kg",
+      "combat_stats": {
+        "attack_bonuses": {
+          "stab": 0,
+          "slash": 0,
+          "crush": 0,
+          "magic": 0,
+          "ranged": 0
+        },
+        "defence_bonuses": {
+          "stab": 0,
+          "slash": 0,
+          "crush": 0,
+          "magic": 0,
+          "ranged": 0
+        },
+        "other_bonuses": {
+          "strength": 0,
+          "ranged": 0,
+          "magic_damage": 0,
+          "prayer": 0
+        },
+        "slot": "body"
+      },
+      "sources": []
+    }
+  },
+  {
+    "id": 33908,
+    "name": "Wyrmscraig villager robe bottom (A, green)",
+    "examine": "A plain and simple robe bottom.",
+    "members": true,
+    "limit": null,
+    "value": 400,
+    "high_alch": 240,
+    "low_alch": 160,
+    "wiki": {
+      "released": "29 July 2026 ( Update )",
+      "members": "Yes",
+      "quest_item": "No",
+      "tradeable": "Yes",
+      "equipable": "Yes",
+      "stackable": "No",
+      "noteable": "Yes",
+      "options": "Wear, Drop",
+      "examine": "A plain and simple robe bottom.",
+      "value": "400 coins",
+      "high_alch": "240 coins",
+      "low_alch": "160 coins",
+      "weight": "0.907 kg",
+      "combat_stats": {
+        "attack_bonuses": {
+          "stab": 0,
+          "slash": 0,
+          "crush": 0,
+          "magic": 0,
+          "ranged": 0
+        },
+        "defence_bonuses": {
+          "stab": 0,
+          "slash": 0,
+          "crush": 0,
+          "magic": 0,
+          "ranged": 0
+        },
+        "other_bonuses": {
+          "strength": 0,
+          "ranged": 0,
+          "magic_damage": 0,
+          "prayer": 0
+        },
+        "slot": "body"
+      },
+      "sources": []
+    }
+  },
+  {
+    "id": 33926,
+    "name": "Wyrmscraig villager robe bottom (A, pink)",
+    "examine": "A plain and simple robe bottom.",
+    "members": true,
+    "limit": null,
+    "value": 400,
+    "high_alch": 240,
+    "low_alch": 160,
+    "wiki": {
+      "released": "29 July 2026 ( Update )",
+      "members": "Yes",
+      "quest_item": "No",
+      "tradeable": "Yes",
+      "equipable": "Yes",
+      "stackable": "No",
+      "noteable": "Yes",
+      "options": "Wear, Drop",
+      "examine": "A plain and simple robe bottom.",
+      "value": "400 coins",
+      "high_alch": "240 coins",
+      "low_alch": "160 coins",
+      "weight": "0.907 kg",
+      "combat_stats": {
+        "attack_bonuses": {
+          "stab": 0,
+          "slash": 0,
+          "crush": 0,
+          "magic": 0,
+          "ranged": 0
+        },
+        "defence_bonuses": {
+          "stab": 0,
+          "slash": 0,
+          "crush": 0,
+          "magic": 0,
+          "ranged": 0
+        },
+        "other_bonuses": {
+          "strength": 0,
+          "ranged": 0,
+          "magic_damage": 0,
+          "prayer": 0
+        },
+        "slot": "body"
+      },
+      "sources": []
+    }
+  },
+  {
+    "id": 33914,
+    "name": "Wyrmscraig villager robe bottom (A, red)",
+    "examine": "A plain and simple robe bottom.",
+    "members": true,
+    "limit": null,
+    "value": 400,
+    "high_alch": 240,
+    "low_alch": 160,
+    "wiki": {
+      "released": "29 July 2026 ( Update )",
+      "members": "Yes",
+      "quest_item": "No",
+      "tradeable": "Yes",
+      "equipable": "Yes",
+      "stackable": "No",
+      "noteable": "Yes",
+      "options": "Wear, Drop",
+      "examine": "A plain and simple robe bottom.",
+      "value": "400 coins",
+      "high_alch": "240 coins",
+      "low_alch": "160 coins",
+      "weight": "0.907 kg",
+      "combat_stats": {
+        "attack_bonuses": {
+          "stab": 0,
+          "slash": 0,
+          "crush": 0,
+          "magic": 0,
+          "ranged": 0
+        },
+        "defence_bonuses": {
+          "stab": 0,
+          "slash": 0,
+          "crush": 0,
+          "magic": 0,
+          "ranged": 0
+        },
+        "other_bonuses": {
+          "strength": 0,
+          "ranged": 0,
+          "magic_damage": 0,
+          "prayer": 0
+        },
+        "slot": "body"
+      },
+      "sources": []
+    }
+  },
+  {
+    "id": 33920,
+    "name": "Wyrmscraig villager robe bottom (A, white)",
+    "examine": "A plain and simple robe bottom.",
+    "members": true,
+    "limit": null,
+    "value": 400,
+    "high_alch": 240,
+    "low_alch": 160,
+    "wiki": {
+      "released": "29 July 2026 ( Update )",
+      "members": "Yes",
+      "quest_item": "No",
+      "tradeable": "Yes",
+      "equipable": "Yes",
+      "stackable": "No",
+      "noteable": "Yes",
+      "options": "Wear, Drop",
+      "examine": "A plain and simple robe bottom.",
+      "value": "400 coins",
+      "high_alch": "240 coins",
+      "low_alch": "160 coins",
+      "weight": "0.907 kg",
+      "combat_stats": {
+        "attack_bonuses": {
+          "stab": 0,
+          "slash": 0,
+          "crush": 0,
+          "magic": 0,
+          "ranged": 0
+        },
+        "defence_bonuses": {
+          "stab": 0,
+          "slash": 0,
+          "crush": 0,
+          "magic": 0,
+          "ranged": 0
+        },
+        "other_bonuses": {
+          "strength": 0,
+          "ranged": 0,
+          "magic_damage": 0,
+          "prayer": 0
+        },
+        "slot": "body"
+      },
+      "sources": []
+    }
+  },
+  {
+    "id": 33917,
+    "name": "Wyrmscraig villager robe bottom (A, yellow)",
+    "examine": "A plain and simple robe bottom.",
+    "members": true,
+    "limit": null,
+    "value": 400,
+    "high_alch": 240,
+    "low_alch": 160,
+    "wiki": {
+      "released": "29 July 2026 ( Update )",
+      "members": "Yes",
+      "quest_item": "No",
+      "tradeable": "Yes",
+      "equipable": "Yes",
+      "stackable": "No",
+      "noteable": "Yes",
+      "options": "Wear, Drop",
+      "examine": "A plain and simple robe bottom.",
+      "value": "400 coins",
+      "high_alch": "240 coins",
+      "low_alch": "160 coins",
+      "weight": "0.907 kg",
+      "combat_stats": {
+        "attack_bonuses": {
+          "stab": 0,
+          "slash": 0,
+          "crush": 0,
+          "magic": 0,
+          "ranged": 0
+        },
+        "defence_bonuses": {
+          "stab": 0,
+          "slash": 0,
+          "crush": 0,
+          "magic": 0,
+          "ranged": 0
+        },
+        "other_bonuses": {
+          "strength": 0,
+          "ranged": 0,
+          "magic_damage": 0,
+          "prayer": 0
+        },
+        "slot": "body"
+      },
+      "sources": []
+    }
+  },
+  {
+    "id": 33944,
+    "name": "Wyrmscraig villager robe bottom (B, black)",
+    "examine": "A plain and simple robe bottom.",
+    "members": true,
+    "limit": null,
+    "value": 400,
+    "high_alch": 240,
+    "low_alch": 160,
+    "wiki": {
+      "released": "29 July 2026 ( Update )",
+      "members": "Yes",
+      "quest_item": "No",
+      "tradeable": "Yes",
+      "equipable": "Yes",
+      "stackable": "No",
+      "noteable": "Yes",
+      "options": "Wear, Drop",
+      "examine": "A plain and simple robe bottom.",
+      "value": "400 coins",
+      "high_alch": "240 coins",
+      "low_alch": "160 coins",
+      "weight": "0.907 kg",
+      "combat_stats": {
+        "attack_bonuses": {
+          "stab": 0,
+          "slash": 0,
+          "crush": 0,
+          "magic": 0,
+          "ranged": 0
+        },
+        "defence_bonuses": {
+          "stab": 0,
+          "slash": 0,
+          "crush": 0,
+          "magic": 0,
+          "ranged": 0
+        },
+        "other_bonuses": {
+          "strength": 0,
+          "ranged": 0,
+          "magic_damage": 0,
+          "prayer": 0
+        },
+        "slot": "body"
+      },
+      "sources": []
+    }
+  },
+  {
+    "id": 33932,
+    "name": "Wyrmscraig villager robe bottom (B, blue)",
+    "examine": "A plain and simple robe bottom.",
+    "members": true,
+    "limit": null,
+    "value": 400,
+    "high_alch": 240,
+    "low_alch": 160,
+    "wiki": {
+      "released": "29 July 2026 ( Update )",
+      "members": "Yes",
+      "quest_item": "No",
+      "tradeable": "Yes",
+      "equipable": "Yes",
+      "stackable": "No",
+      "noteable": "Yes",
+      "options": "Wear, Drop",
+      "examine": "A plain and simple robe bottom.",
+      "value": "400 coins",
+      "high_alch": "240 coins",
+      "low_alch": "160 coins",
+      "weight": "0.907 kg",
+      "combat_stats": {
+        "attack_bonuses": {
+          "stab": 0,
+          "slash": 0,
+          "crush": 0,
+          "magic": 0,
+          "ranged": 0
+        },
+        "defence_bonuses": {
+          "stab": 0,
+          "slash": 0,
+          "crush": 0,
+          "magic": 0,
+          "ranged": 0
+        },
+        "other_bonuses": {
+          "strength": 0,
+          "ranged": 0,
+          "magic_damage": 0,
+          "prayer": 0
+        },
+        "slot": "body"
+      },
+      "sources": []
+    }
+  },
+  {
+    "id": 33929,
+    "name": "Wyrmscraig villager robe bottom (B, green)",
+    "examine": "A plain and simple robe bottom.",
+    "members": true,
+    "limit": null,
+    "value": 400,
+    "high_alch": 240,
+    "low_alch": 160,
+    "wiki": {
+      "released": "29 July 2026 ( Update )",
+      "members": "Yes",
+      "quest_item": "No",
+      "tradeable": "Yes",
+      "equipable": "Yes",
+      "stackable": "No",
+      "noteable": "Yes",
+      "options": "Wear, Drop",
+      "examine": "A plain and simple robe bottom.",
+      "value": "400 coins",
+      "high_alch": "240 coins",
+      "low_alch": "160 coins",
+      "weight": "0.907 kg",
+      "combat_stats": {
+        "attack_bonuses": {
+          "stab": 0,
+          "slash": 0,
+          "crush": 0,
+          "magic": 0,
+          "ranged": 0
+        },
+        "defence_bonuses": {
+          "stab": 0,
+          "slash": 0,
+          "crush": 0,
+          "magic": 0,
+          "ranged": 0
+        },
+        "other_bonuses": {
+          "strength": 0,
+          "ranged": 0,
+          "magic_damage": 0,
+          "prayer": 0
+        },
+        "slot": "body"
+      },
+      "sources": []
+    }
+  },
+  {
+    "id": 33947,
+    "name": "Wyrmscraig villager robe bottom (B, pink)",
+    "examine": "A plain and simple robe bottom.",
+    "members": true,
+    "limit": null,
+    "value": 400,
+    "high_alch": 240,
+    "low_alch": 160,
+    "wiki": {
+      "released": "29 July 2026 ( Update )",
+      "members": "Yes",
+      "quest_item": "No",
+      "tradeable": "Yes",
+      "equipable": "Yes",
+      "stackable": "No",
+      "noteable": "Yes",
+      "options": "Wear, Drop",
+      "examine": "A plain and simple robe bottom.",
+      "value": "400 coins",
+      "high_alch": "240 coins",
+      "low_alch": "160 coins",
+      "weight": "0.907 kg",
+      "combat_stats": {
+        "attack_bonuses": {
+          "stab": 0,
+          "slash": 0,
+          "crush": 0,
+          "magic": 0,
+          "ranged": 0
+        },
+        "defence_bonuses": {
+          "stab": 0,
+          "slash": 0,
+          "crush": 0,
+          "magic": 0,
+          "ranged": 0
+        },
+        "other_bonuses": {
+          "strength": 0,
+          "ranged": 0,
+          "magic_damage": 0,
+          "prayer": 0
+        },
+        "slot": "body"
+      },
+      "sources": []
+    }
+  },
+  {
+    "id": 33935,
+    "name": "Wyrmscraig villager robe bottom (B, red)",
+    "examine": "A plain and simple robe bottom.",
+    "members": true,
+    "limit": null,
+    "value": 400,
+    "high_alch": 240,
+    "low_alch": 160,
+    "wiki": {
+      "released": "29 July 2026 ( Update )",
+      "members": "Yes",
+      "quest_item": "No",
+      "tradeable": "Yes",
+      "equipable": "Yes",
+      "stackable": "No",
+      "noteable": "Yes",
+      "options": "Wear, Drop",
+      "examine": "A plain and simple robe bottom.",
+      "value": "400 coins",
+      "high_alch": "240 coins",
+      "low_alch": "160 coins",
+      "weight": "0.907 kg",
+      "combat_stats": {
+        "attack_bonuses": {
+          "stab": 0,
+          "slash": 0,
+          "crush": 0,
+          "magic": 0,
+          "ranged": 0
+        },
+        "defence_bonuses": {
+          "stab": 0,
+          "slash": 0,
+          "crush": 0,
+          "magic": 0,
+          "ranged": 0
+        },
+        "other_bonuses": {
+          "strength": 0,
+          "ranged": 0,
+          "magic_damage": 0,
+          "prayer": 0
+        },
+        "slot": "body"
+      },
+      "sources": []
+    }
+  },
+  {
+    "id": 33941,
+    "name": "Wyrmscraig villager robe bottom (B, white)",
+    "examine": "A plain and simple robe bottom.",
+    "members": true,
+    "limit": null,
+    "value": 400,
+    "high_alch": 240,
+    "low_alch": 160,
+    "wiki": {
+      "released": "29 July 2026 ( Update )",
+      "members": "Yes",
+      "quest_item": "No",
+      "tradeable": "Yes",
+      "equipable": "Yes",
+      "stackable": "No",
+      "noteable": "Yes",
+      "options": "Wear, Drop",
+      "examine": "A plain and simple robe bottom.",
+      "value": "400 coins",
+      "high_alch": "240 coins",
+      "low_alch": "160 coins",
+      "weight": "0.907 kg",
+      "combat_stats": {
+        "attack_bonuses": {
+          "stab": 0,
+          "slash": 0,
+          "crush": 0,
+          "magic": 0,
+          "ranged": 0
+        },
+        "defence_bonuses": {
+          "stab": 0,
+          "slash": 0,
+          "crush": 0,
+          "magic": 0,
+          "ranged": 0
+        },
+        "other_bonuses": {
+          "strength": 0,
+          "ranged": 0,
+          "magic_damage": 0,
+          "prayer": 0
+        },
+        "slot": "body"
+      },
+      "sources": []
+    }
+  },
+  {
+    "id": 33938,
+    "name": "Wyrmscraig villager robe bottom (B, yellow)",
+    "examine": "A plain and simple robe bottom.",
+    "members": true,
+    "limit": null,
+    "value": 400,
+    "high_alch": 240,
+    "low_alch": 160,
+    "wiki": {
+      "released": "29 July 2026 ( Update )",
+      "members": "Yes",
+      "quest_item": "No",
+      "tradeable": "Yes",
+      "equipable": "Yes",
+      "stackable": "No",
+      "noteable": "Yes",
+      "options": "Wear, Drop",
+      "examine": "A plain and simple robe bottom.",
+      "value": "400 coins",
+      "high_alch": "240 coins",
+      "low_alch": "160 coins",
+      "weight": "0.907 kg",
+      "combat_stats": {
+        "attack_bonuses": {
+          "stab": 0,
+          "slash": 0,
+          "crush": 0,
+          "magic": 0,
+          "ranged": 0
+        },
+        "defence_bonuses": {
+          "stab": 0,
+          "slash": 0,
+          "crush": 0,
+          "magic": 0,
+          "ranged": 0
+        },
+        "other_bonuses": {
+          "strength": 0,
+          "ranged": 0,
+          "magic_damage": 0,
+          "prayer": 0
+        },
+        "slot": "body"
+      },
+      "sources": []
+    }
+  },
+  {
+    "id": 33899,
+    "name": "Wyrmscraig villager robe top (A, black)",
+    "examine": "A plain and simple robe top.",
+    "members": true,
+    "limit": null,
+    "value": 500,
+    "high_alch": 300,
+    "low_alch": 200,
+    "wiki": {
+      "released": "29 July 2026 ( Update )",
+      "members": "Yes",
+      "quest_item": "No",
+      "tradeable": "Yes",
+      "equipable": "Yes",
+      "stackable": "No",
+      "noteable": "Yes",
+      "options": "Wear, Drop",
+      "examine": "A plain and simple robe top.",
+      "value": "500 coins",
+      "high_alch": "300 coins",
+      "low_alch": "200 coins",
+      "weight": "0.907 kg",
+      "combat_stats": {
+        "attack_bonuses": {
+          "stab": 0,
+          "slash": 0,
+          "crush": 0,
+          "magic": 0,
+          "ranged": 0
+        },
+        "defence_bonuses": {
+          "stab": 0,
+          "slash": 0,
+          "crush": 0,
+          "magic": 0,
+          "ranged": 0
+        },
+        "other_bonuses": {
+          "strength": 0,
+          "ranged": 0,
+          "magic_damage": 0,
+          "prayer": 0
+        },
+        "slot": "body"
+      },
+      "sources": []
+    }
+  },
+  {
+    "id": 33905,
+    "name": "Wyrmscraig villager robe top (A, beige)",
+    "examine": "A plain and simple robe top.",
+    "members": true,
+    "limit": null,
+    "value": 500,
+    "high_alch": 300,
+    "low_alch": 200,
+    "wiki": {
+      "released": "29 July 2026 ( Update )",
+      "members": "Yes",
+      "quest_item": "No",
+      "tradeable": "Yes",
+      "equipable": "Yes",
+      "stackable": "No",
+      "noteable": "Yes",
+      "options": "Wear, Drop",
+      "examine": "A plain and simple robe top.",
+      "value": "500 coins",
+      "high_alch": "300 coins",
+      "low_alch": "200 coins",
+      "weight": "0.907 kg",
+      "combat_stats": {
+        "attack_bonuses": {
+          "stab": 0,
+          "slash": 0,
+          "crush": 0,
+          "magic": 0,
+          "ranged": 0
+        },
+        "defence_bonuses": {
+          "stab": 0,
+          "slash": 0,
+          "crush": 0,
+          "magic": 0,
+          "ranged": 0
+        },
+        "other_bonuses": {
+          "strength": 0,
+          "ranged": 0,
+          "magic_damage": 0,
+          "prayer": 0
+        },
+        "slot": "body"
+      },
+      "sources": []
+    }
+  },
+  {
+    "id": 33884,
+    "name": "Wyrmscraig villager robe top (A, green)",
+    "examine": "A plain and simple robe top.",
+    "members": true,
+    "limit": null,
+    "value": 500,
+    "high_alch": 300,
+    "low_alch": 200,
+    "wiki": {
+      "released": "29 July 2026 ( Update )",
+      "members": "Yes",
+      "quest_item": "No",
+      "tradeable": "Yes",
+      "equipable": "Yes",
+      "stackable": "No",
+      "noteable": "Yes",
+      "options": "Wear, Drop",
+      "examine": "A plain and simple robe top.",
+      "value": "500 coins",
+      "high_alch": "300 coins",
+      "low_alch": "200 coins",
+      "weight": "0.907 kg",
+      "combat_stats": {
+        "attack_bonuses": {
+          "stab": 0,
+          "slash": 0,
+          "crush": 0,
+          "magic": 0,
+          "ranged": 0
+        },
+        "defence_bonuses": {
+          "stab": 0,
+          "slash": 0,
+          "crush": 0,
+          "magic": 0,
+          "ranged": 0
+        },
+        "other_bonuses": {
+          "strength": 0,
+          "ranged": 0,
+          "magic_damage": 0,
+          "prayer": 0
+        },
+        "slot": "body"
+      },
+      "sources": []
+    }
+  },
+  {
+    "id": 33887,
+    "name": "Wyrmscraig villager robe top (A, blue)",
+    "examine": "A plain and simple robe top.",
+    "members": true,
+    "limit": null,
+    "value": 500,
+    "high_alch": 300,
+    "low_alch": 200,
+    "wiki": {
+      "released": "29 July 2026 ( Update )",
+      "members": "Yes",
+      "quest_item": "No",
+      "tradeable": "Yes",
+      "equipable": "Yes",
+      "stackable": "No",
+      "noteable": "Yes",
+      "options": "Wear, Drop",
+      "examine": "A plain and simple robe top.",
+      "value": "500 coins",
+      "high_alch": "300 coins",
+      "low_alch": "200 coins",
+      "weight": "0.907 kg",
+      "combat_stats": {
+        "attack_bonuses": {
+          "stab": 0,
+          "slash": 0,
+          "crush": 0,
+          "magic": 0,
+          "ranged": 0
+        },
+        "defence_bonuses": {
+          "stab": 0,
+          "slash": 0,
+          "crush": 0,
+          "magic": 0,
+          "ranged": 0
+        },
+        "other_bonuses": {
+          "strength": 0,
+          "ranged": 0,
+          "magic_damage": 0,
+          "prayer": 0
+        },
+        "slot": "body"
+      },
+      "sources": []
+    }
+  },
+  {
+    "id": 33902,
+    "name": "Wyrmscraig villager robe top (A, pink)",
+    "examine": "A plain and simple robe top.",
+    "members": true,
+    "limit": null,
+    "value": 500,
+    "high_alch": 300,
+    "low_alch": 200,
+    "wiki": {
+      "released": "29 July 2026 ( Update )",
+      "members": "Yes",
+      "quest_item": "No",
+      "tradeable": "Yes",
+      "equipable": "Yes",
+      "stackable": "No",
+      "noteable": "Yes",
+      "options": "Wear, Drop",
+      "examine": "A plain and simple robe top.",
+      "value": "500 coins",
+      "high_alch": "300 coins",
+      "low_alch": "200 coins",
+      "weight": "0.907 kg",
+      "combat_stats": {
+        "attack_bonuses": {
+          "stab": 0,
+          "slash": 0,
+          "crush": 0,
+          "magic": 0,
+          "ranged": 0
+        },
+        "defence_bonuses": {
+          "stab": 0,
+          "slash": 0,
+          "crush": 0,
+          "magic": 0,
+          "ranged": 0
+        },
+        "other_bonuses": {
+          "strength": 0,
+          "ranged": 0,
+          "magic_damage": 0,
+          "prayer": 0
+        },
+        "slot": "body"
+      },
+      "sources": []
+    }
+  },
+  {
+    "id": 33890,
+    "name": "Wyrmscraig villager robe top (A, red)",
+    "examine": "A plain and simple robe top.",
+    "members": true,
+    "limit": null,
+    "value": 500,
+    "high_alch": 300,
+    "low_alch": 200,
+    "wiki": {
+      "released": "29 July 2026 ( Update )",
+      "members": "Yes",
+      "quest_item": "No",
+      "tradeable": "Yes",
+      "equipable": "Yes",
+      "stackable": "No",
+      "noteable": "Yes",
+      "options": "Wear, Drop",
+      "examine": "A plain and simple robe top.",
+      "value": "500 coins",
+      "high_alch": "300 coins",
+      "low_alch": "200 coins",
+      "weight": "0.907 kg",
+      "combat_stats": {
+        "attack_bonuses": {
+          "stab": 0,
+          "slash": 0,
+          "crush": 0,
+          "magic": 0,
+          "ranged": 0
+        },
+        "defence_bonuses": {
+          "stab": 0,
+          "slash": 0,
+          "crush": 0,
+          "magic": 0,
+          "ranged": 0
+        },
+        "other_bonuses": {
+          "strength": 0,
+          "ranged": 0,
+          "magic_damage": 0,
+          "prayer": 0
+        },
+        "slot": "body"
+      },
+      "sources": []
+    }
+  },
+  {
+    "id": 33893,
+    "name": "Wyrmscraig villager robe top (A, yellow)",
+    "examine": "A plain and simple robe top.",
+    "members": true,
+    "limit": null,
+    "value": 500,
+    "high_alch": 300,
+    "low_alch": 200,
+    "wiki": {
+      "released": "29 July 2026 ( Update )",
+      "members": "Yes",
+      "quest_item": "No",
+      "tradeable": "Yes",
+      "equipable": "Yes",
+      "stackable": "No",
+      "noteable": "Yes",
+      "options": "Wear, Drop",
+      "examine": "A plain and simple robe top.",
+      "value": "500 coins",
+      "high_alch": "300 coins",
+      "low_alch": "200 coins",
+      "weight": "0.907 kg",
+      "combat_stats": {
+        "attack_bonuses": {
+          "stab": 0,
+          "slash": 0,
+          "crush": 0,
+          "magic": 0,
+          "ranged": 0
+        },
+        "defence_bonuses": {
+          "stab": 0,
+          "slash": 0,
+          "crush": 0,
+          "magic": 0,
+          "ranged": 0
+        },
+        "other_bonuses": {
+          "strength": 0,
+          "ranged": 0,
+          "magic_damage": 0,
+          "prayer": 0
+        },
+        "slot": "body"
+      },
+      "sources": []
+    }
+  },
+  {
+    "id": 33965,
+    "name": "Wyrmscraig villager robe top (B, black)",
+    "examine": "A plain and simple robe top.",
+    "members": true,
+    "limit": null,
+    "value": 500,
+    "high_alch": 300,
+    "low_alch": 200,
+    "wiki": {
+      "released": "29 July 2026 ( Update )",
+      "members": "Yes",
+      "quest_item": "No",
+      "tradeable": "Yes",
+      "equipable": "Yes",
+      "stackable": "No",
+      "noteable": "Yes",
+      "options": "Wear, Drop",
+      "examine": "A plain and simple robe top.",
+      "value": "500 coins",
+      "high_alch": "300 coins",
+      "low_alch": "200 coins",
+      "weight": "0.907 kg",
+      "combat_stats": {
+        "attack_bonuses": {
+          "stab": 0,
+          "slash": 0,
+          "crush": 0,
+          "magic": 0,
+          "ranged": 0
+        },
+        "defence_bonuses": {
+          "stab": 0,
+          "slash": 0,
+          "crush": 0,
+          "magic": 0,
+          "ranged": 0
+        },
+        "other_bonuses": {
+          "strength": 0,
+          "ranged": 0,
+          "magic_damage": 0,
+          "prayer": 0
+        },
+        "slot": "body"
+      },
+      "sources": []
+    }
+  },
+  {
+    "id": 33896,
+    "name": "Wyrmscraig villager robe top (A, white)",
+    "examine": "A plain and simple robe top.",
+    "members": true,
+    "limit": null,
+    "value": 500,
+    "high_alch": 300,
+    "low_alch": 200,
+    "wiki": {
+      "released": "29 July 2026 ( Update )",
+      "members": "Yes",
+      "quest_item": "No",
+      "tradeable": "Yes",
+      "equipable": "Yes",
+      "stackable": "No",
+      "noteable": "Yes",
+      "options": "Wear, Drop",
+      "examine": "A plain and simple robe top.",
+      "value": "500 coins",
+      "high_alch": "300 coins",
+      "low_alch": "200 coins",
+      "weight": "0.907 kg",
+      "combat_stats": {
+        "attack_bonuses": {
+          "stab": 0,
+          "slash": 0,
+          "crush": 0,
+          "magic": 0,
+          "ranged": 0
+        },
+        "defence_bonuses": {
+          "stab": 0,
+          "slash": 0,
+          "crush": 0,
+          "magic": 0,
+          "ranged": 0
+        },
+        "other_bonuses": {
+          "strength": 0,
+          "ranged": 0,
+          "magic_damage": 0,
+          "prayer": 0
+        },
+        "slot": "body"
+      },
+      "sources": []
+    }
+  },
+  {
+    "id": 33953,
+    "name": "Wyrmscraig villager robe top (B, blue)",
+    "examine": "A plain and simple robe top.",
+    "members": true,
+    "limit": null,
+    "value": 500,
+    "high_alch": 300,
+    "low_alch": 200,
+    "wiki": {
+      "released": "29 July 2026 ( Update )",
+      "members": "Yes",
+      "quest_item": "No",
+      "tradeable": "Yes",
+      "equipable": "Yes",
+      "stackable": "No",
+      "noteable": "Yes",
+      "options": "Wear, Drop",
+      "examine": "A plain and simple robe top.",
+      "value": "500 coins",
+      "high_alch": "300 coins",
+      "low_alch": "200 coins",
+      "weight": "0.907 kg",
+      "combat_stats": {
+        "attack_bonuses": {
+          "stab": 0,
+          "slash": 0,
+          "crush": 0,
+          "magic": 0,
+          "ranged": 0
+        },
+        "defence_bonuses": {
+          "stab": 0,
+          "slash": 0,
+          "crush": 0,
+          "magic": 0,
+          "ranged": 0
+        },
+        "other_bonuses": {
+          "strength": 0,
+          "ranged": 0,
+          "magic_damage": 0,
+          "prayer": 0
+        },
+        "slot": "body"
+      },
+      "sources": []
+    }
+  },
+  {
+    "id": 33968,
+    "name": "Wyrmscraig villager robe top (B, pink)",
+    "examine": "A plain and simple robe top.",
+    "members": true,
+    "limit": null,
+    "value": 500,
+    "high_alch": 300,
+    "low_alch": 200,
+    "wiki": {
+      "released": "29 July 2026 ( Update )",
+      "members": "Yes",
+      "quest_item": "No",
+      "tradeable": "Yes",
+      "equipable": "Yes",
+      "stackable": "No",
+      "noteable": "Yes",
+      "options": "Wear, Drop",
+      "examine": "A plain and simple robe top.",
+      "value": "500 coins",
+      "high_alch": "300 coins",
+      "low_alch": "200 coins",
+      "weight": "0.907 kg",
+      "combat_stats": {
+        "attack_bonuses": {
+          "stab": 0,
+          "slash": 0,
+          "crush": 0,
+          "magic": 0,
+          "ranged": 0
+        },
+        "defence_bonuses": {
+          "stab": 0,
+          "slash": 0,
+          "crush": 0,
+          "magic": 0,
+          "ranged": 0
+        },
+        "other_bonuses": {
+          "strength": 0,
+          "ranged": 0,
+          "magic_damage": 0,
+          "prayer": 0
+        },
+        "slot": "body"
+      },
+      "sources": []
+    }
+  },
+  {
+    "id": 33950,
+    "name": "Wyrmscraig villager robe top (B, green)",
+    "examine": "A plain and simple robe top.",
+    "members": true,
+    "limit": null,
+    "value": 500,
+    "high_alch": 300,
+    "low_alch": 200,
+    "wiki": {
+      "released": "29 July 2026 ( Update )",
+      "members": "Yes",
+      "quest_item": "No",
+      "tradeable": "Yes",
+      "equipable": "Yes",
+      "stackable": "No",
+      "noteable": "Yes",
+      "options": "Wear, Drop",
+      "examine": "A plain and simple robe top.",
+      "value": "500 coins",
+      "high_alch": "300 coins",
+      "low_alch": "200 coins",
+      "weight": "0.907 kg",
+      "combat_stats": {
+        "attack_bonuses": {
+          "stab": 0,
+          "slash": 0,
+          "crush": 0,
+          "magic": 0,
+          "ranged": 0
+        },
+        "defence_bonuses": {
+          "stab": 0,
+          "slash": 0,
+          "crush": 0,
+          "magic": 0,
+          "ranged": 0
+        },
+        "other_bonuses": {
+          "strength": 0,
+          "ranged": 0,
+          "magic_damage": 0,
+          "prayer": 0
+        },
+        "slot": "body"
+      },
+      "sources": []
+    }
+  },
+  {
+    "id": 33956,
+    "name": "Wyrmscraig villager robe top (B, red)",
+    "examine": "A plain and simple robe top.",
+    "members": true,
+    "limit": null,
+    "value": 500,
+    "high_alch": 300,
+    "low_alch": 200,
+    "wiki": {
+      "released": "29 July 2026 ( Update )",
+      "members": "Yes",
+      "quest_item": "No",
+      "tradeable": "Yes",
+      "equipable": "Yes",
+      "stackable": "No",
+      "noteable": "Yes",
+      "options": "Wear, Drop",
+      "examine": "A plain and simple robe top.",
+      "value": "500 coins",
+      "high_alch": "300 coins",
+      "low_alch": "200 coins",
+      "weight": "0.907 kg",
+      "combat_stats": {
+        "attack_bonuses": {
+          "stab": 0,
+          "slash": 0,
+          "crush": 0,
+          "magic": 0,
+          "ranged": 0
+        },
+        "defence_bonuses": {
+          "stab": 0,
+          "slash": 0,
+          "crush": 0,
+          "magic": 0,
+          "ranged": 0
+        },
+        "other_bonuses": {
+          "strength": 0,
+          "ranged": 0,
+          "magic_damage": 0,
+          "prayer": 0
+        },
+        "slot": "body"
+      },
+      "sources": []
+    }
+  },
+  {
+    "id": 33962,
+    "name": "Wyrmscraig villager robe top (B, white)",
+    "examine": "A plain and simple robe top.",
+    "members": true,
+    "limit": null,
+    "value": 500,
+    "high_alch": 300,
+    "low_alch": 200,
+    "wiki": {
+      "released": "29 July 2026 ( Update )",
+      "members": "Yes",
+      "quest_item": "No",
+      "tradeable": "Yes",
+      "equipable": "Yes",
+      "stackable": "No",
+      "noteable": "Yes",
+      "options": "Wear, Drop",
+      "examine": "A plain and simple robe top.",
+      "value": "500 coins",
+      "high_alch": "300 coins",
+      "low_alch": "200 coins",
+      "weight": "0.907 kg",
+      "combat_stats": {
+        "attack_bonuses": {
+          "stab": 0,
+          "slash": 0,
+          "crush": 0,
+          "magic": 0,
+          "ranged": 0
+        },
+        "defence_bonuses": {
+          "stab": 0,
+          "slash": 0,
+          "crush": 0,
+          "magic": 0,
+          "ranged": 0
+        },
+        "other_bonuses": {
+          "strength": 0,
+          "ranged": 0,
+          "magic_damage": 0,
+          "prayer": 0
+        },
+        "slot": "body"
+      },
+      "sources": []
+    }
+  },
+  {
+    "id": 33959,
+    "name": "Wyrmscraig villager robe top (B, yellow)",
+    "examine": "A plain and simple robe top.",
+    "members": true,
+    "limit": null,
+    "value": 500,
+    "high_alch": 300,
+    "low_alch": 200,
+    "wiki": {
+      "released": "29 July 2026 ( Update )",
+      "members": "Yes",
+      "quest_item": "No",
+      "tradeable": "Yes",
+      "equipable": "Yes",
+      "stackable": "No",
+      "noteable": "Yes",
+      "options": "Wear, Drop",
+      "examine": "A plain and simple robe top.",
+      "value": "500 coins",
+      "high_alch": "300 coins",
+      "low_alch": "200 coins",
+      "weight": "0.907 kg",
+      "combat_stats": {
+        "attack_bonuses": {
+          "stab": 0,
+          "slash": 0,
+          "crush": 0,
+          "magic": 0,
+          "ranged": 0
+        },
+        "defence_bonuses": {
+          "stab": 0,
+          "slash": 0,
+          "crush": 0,
+          "magic": 0,
+          "ranged": 0
+        },
+        "other_bonuses": {
+          "strength": 0,
+          "ranged": 0,
+          "magic_damage": 0,
+          "prayer": 0
+        },
+        "slot": "body"
+      },
+      "sources": []
+    }
+  },
+  {
+    "id": 33986,
+    "name": "Wyrmscraig villager skirt (black)",
+    "examine": "A plain and simple skirt.",
+    "members": true,
+    "limit": null,
+    "value": 400,
+    "high_alch": 240,
+    "low_alch": 160,
+    "wiki": {
+      "released": "29 July 2026 ( Update )",
+      "members": "Yes",
+      "quest_item": "No",
+      "tradeable": "Yes",
+      "equipable": "Yes",
+      "stackable": "No",
+      "noteable": "Yes",
+      "options": "Wear, Drop",
+      "examine": "A plain and simple skirt.",
+      "value": "400 coins",
+      "high_alch": "240 coins",
+      "low_alch": "160 coins",
+      "weight": "0.907 kg",
+      "combat_stats": {
+        "attack_bonuses": {
+          "stab": 0,
+          "slash": 0,
+          "crush": 0,
+          "magic": 0,
+          "ranged": 0
+        },
+        "defence_bonuses": {
+          "stab": 0,
+          "slash": 0,
+          "crush": 0,
+          "magic": 0,
+          "ranged": 0
+        },
+        "other_bonuses": {
+          "strength": 0,
+          "ranged": 0,
+          "magic_damage": 0,
+          "prayer": 0
+        },
+        "slot": "legs"
+      },
+      "sources": []
+    }
+  },
+  {
+    "id": 33974,
+    "name": "Wyrmscraig villager skirt (blue)",
+    "examine": "A plain and simple skirt.",
+    "members": true,
+    "limit": null,
+    "value": 400,
+    "high_alch": 240,
+    "low_alch": 160,
+    "wiki": {
+      "released": "29 July 2026 ( Update )",
+      "members": "Yes",
+      "quest_item": "No",
+      "tradeable": "Yes",
+      "equipable": "Yes",
+      "stackable": "No",
+      "noteable": "Yes",
+      "options": "Wear, Drop",
+      "examine": "A plain and simple skirt.",
+      "value": "400 coins",
+      "high_alch": "240 coins",
+      "low_alch": "160 coins",
+      "weight": "0.907 kg",
+      "combat_stats": {
+        "attack_bonuses": {
+          "stab": 0,
+          "slash": 0,
+          "crush": 0,
+          "magic": 0,
+          "ranged": 0
+        },
+        "defence_bonuses": {
+          "stab": 0,
+          "slash": 0,
+          "crush": 0,
+          "magic": 0,
+          "ranged": 0
+        },
+        "other_bonuses": {
+          "strength": 0,
+          "ranged": 0,
+          "magic_damage": 0,
+          "prayer": 0
+        },
+        "slot": "legs"
+      },
+      "sources": []
+    }
+  },
+  {
+    "id": 33989,
+    "name": "Wyrmscraig villager skirt (pink)",
+    "examine": "A plain and simple skirt.",
+    "members": true,
+    "limit": null,
+    "value": 400,
+    "high_alch": 240,
+    "low_alch": 160,
+    "wiki": {
+      "released": "29 July 2026 ( Update )",
+      "members": "Yes",
+      "quest_item": "No",
+      "tradeable": "Yes",
+      "equipable": "Yes",
+      "stackable": "No",
+      "noteable": "Yes",
+      "options": "Wear, Drop",
+      "examine": "A plain and simple skirt.",
+      "value": "400 coins",
+      "high_alch": "240 coins",
+      "low_alch": "160 coins",
+      "weight": "0.907 kg",
+      "combat_stats": {
+        "attack_bonuses": {
+          "stab": 0,
+          "slash": 0,
+          "crush": 0,
+          "magic": 0,
+          "ranged": 0
+        },
+        "defence_bonuses": {
+          "stab": 0,
+          "slash": 0,
+          "crush": 0,
+          "magic": 0,
+          "ranged": 0
+        },
+        "other_bonuses": {
+          "strength": 0,
+          "ranged": 0,
+          "magic_damage": 0,
+          "prayer": 0
+        },
+        "slot": "legs"
+      },
+      "sources": []
+    }
+  },
+  {
+    "id": 33971,
+    "name": "Wyrmscraig villager skirt (green)",
+    "examine": "A plain and simple skirt.",
+    "members": true,
+    "limit": null,
+    "value": 400,
+    "high_alch": 240,
+    "low_alch": 160,
+    "wiki": {
+      "released": "29 July 2026 ( Update )",
+      "members": "Yes",
+      "quest_item": "No",
+      "tradeable": "Yes",
+      "equipable": "Yes",
+      "stackable": "No",
+      "noteable": "Yes",
+      "options": "Wear, Drop",
+      "examine": "A plain and simple skirt.",
+      "value": "400 coins",
+      "high_alch": "240 coins",
+      "low_alch": "160 coins",
+      "weight": "0.907 kg",
+      "combat_stats": {
+        "attack_bonuses": {
+          "stab": 0,
+          "slash": 0,
+          "crush": 0,
+          "magic": 0,
+          "ranged": 0
+        },
+        "defence_bonuses": {
+          "stab": 0,
+          "slash": 0,
+          "crush": 0,
+          "magic": 0,
+          "ranged": 0
+        },
+        "other_bonuses": {
+          "strength": 0,
+          "ranged": 0,
+          "magic_damage": 0,
+          "prayer": 0
+        },
+        "slot": "legs"
+      },
+      "sources": []
+    }
+  },
+  {
+    "id": 33977,
+    "name": "Wyrmscraig villager skirt (red)",
+    "examine": "A plain and simple skirt.",
+    "members": true,
+    "limit": null,
+    "value": 400,
+    "high_alch": 240,
+    "low_alch": 160,
+    "wiki": {
+      "released": "29 July 2026 ( Update )",
+      "members": "Yes",
+      "quest_item": "No",
+      "tradeable": "Yes",
+      "equipable": "Yes",
+      "stackable": "No",
+      "noteable": "Yes",
+      "options": "Wear, Drop",
+      "examine": "A plain and simple skirt.",
+      "value": "400 coins",
+      "high_alch": "240 coins",
+      "low_alch": "160 coins",
+      "weight": "0.907 kg",
+      "combat_stats": {
+        "attack_bonuses": {
+          "stab": 0,
+          "slash": 0,
+          "crush": 0,
+          "magic": 0,
+          "ranged": 0
+        },
+        "defence_bonuses": {
+          "stab": 0,
+          "slash": 0,
+          "crush": 0,
+          "magic": 0,
+          "ranged": 0
+        },
+        "other_bonuses": {
+          "strength": 0,
+          "ranged": 0,
+          "magic_damage": 0,
+          "prayer": 0
+        },
+        "slot": "legs"
+      },
+      "sources": []
+    }
+  },
+  {
+    "id": 33983,
+    "name": "Wyrmscraig villager skirt (white)",
+    "examine": "A plain and simple skirt.",
+    "members": true,
+    "limit": null,
+    "value": 400,
+    "high_alch": 240,
+    "low_alch": 160,
+    "wiki": {
+      "released": "29 July 2026 ( Update )",
+      "members": "Yes",
+      "quest_item": "No",
+      "tradeable": "Yes",
+      "equipable": "Yes",
+      "stackable": "No",
+      "noteable": "Yes",
+      "options": "Wear, Drop",
+      "examine": "A plain and simple skirt.",
+      "value": "400 coins",
+      "high_alch": "240 coins",
+      "low_alch": "160 coins",
+      "weight": "0.907 kg",
+      "combat_stats": {
+        "attack_bonuses": {
+          "stab": 0,
+          "slash": 0,
+          "crush": 0,
+          "magic": 0,
+          "ranged": 0
+        },
+        "defence_bonuses": {
+          "stab": 0,
+          "slash": 0,
+          "crush": 0,
+          "magic": 0,
+          "ranged": 0
+        },
+        "other_bonuses": {
+          "strength": 0,
+          "ranged": 0,
+          "magic_damage": 0,
+          "prayer": 0
+        },
+        "slot": "legs"
+      },
+      "sources": []
+    }
+  },
+  {
+    "id": 33980,
+    "name": "Wyrmscraig villager skirt (yellow)",
+    "examine": "A plain and simple skirt.",
+    "members": true,
+    "limit": null,
+    "value": 400,
+    "high_alch": 240,
+    "low_alch": 160,
+    "wiki": {
+      "released": "29 July 2026 ( Update )",
+      "members": "Yes",
+      "quest_item": "No",
+      "tradeable": "Yes",
+      "equipable": "Yes",
+      "stackable": "No",
+      "noteable": "Yes",
+      "options": "Wear, Drop",
+      "examine": "A plain and simple skirt.",
+      "value": "400 coins",
+      "high_alch": "240 coins",
+      "low_alch": "160 coins",
+      "weight": "0.907 kg",
+      "combat_stats": {
+        "attack_bonuses": {
+          "stab": 0,
+          "slash": 0,
+          "crush": 0,
+          "magic": 0,
+          "ranged": 0
+        },
+        "defence_bonuses": {
+          "stab": 0,
+          "slash": 0,
+          "crush": 0,
+          "magic": 0,
+          "ranged": 0
+        },
+        "other_bonuses": {
+          "strength": 0,
+          "ranged": 0,
+          "magic_damage": 0,
+          "prayer": 0
+        },
+        "slot": "legs"
+      },
+      "sources": []
+    }
+  },
+  {
+    "id": 34007,
+    "name": "Wyrmscraig villager work skirt (black)",
+    "examine": "A skirt for working in.",
+    "members": true,
+    "limit": null,
+    "value": 400,
+    "high_alch": 240,
+    "low_alch": 160,
+    "wiki": {
+      "released": "29 July 2026 ( Update )",
+      "members": "Yes",
+      "quest_item": "No",
+      "tradeable": "Yes",
+      "equipable": "Yes",
+      "stackable": "No",
+      "noteable": "Yes",
+      "options": "Wear, Drop",
+      "examine": "A skirt for working in.",
+      "value": "400 coins",
+      "high_alch": "240 coins",
+      "low_alch": "160 coins",
+      "weight": "0.907 kg",
+      "combat_stats": {
+        "attack_bonuses": {
+          "stab": 0,
+          "slash": 0,
+          "crush": 0,
+          "magic": 0,
+          "ranged": 0
+        },
+        "defence_bonuses": {
+          "stab": 0,
+          "slash": 0,
+          "crush": 0,
+          "magic": 0,
+          "ranged": 0
+        },
+        "other_bonuses": {
+          "strength": 0,
+          "ranged": 0,
+          "magic_damage": 0,
+          "prayer": 0
+        },
+        "slot": "legs"
+      },
+      "sources": []
+    }
+  },
+  {
+    "id": 34013,
+    "name": "Wyrmscraig villager work skirt (beige)",
+    "examine": "A skirt for working in.",
+    "members": true,
+    "limit": null,
+    "value": 400,
+    "high_alch": 240,
+    "low_alch": 160,
+    "wiki": {
+      "released": "29 July 2026 ( Update )",
+      "members": "Yes",
+      "quest_item": "No",
+      "tradeable": "Yes",
+      "equipable": "Yes",
+      "stackable": "No",
+      "noteable": "Yes",
+      "options": "Wear, Drop",
+      "examine": "A skirt for working in.",
+      "value": "400 coins",
+      "high_alch": "240 coins",
+      "low_alch": "160 coins",
+      "weight": "0.907 kg",
+      "combat_stats": {
+        "attack_bonuses": {
+          "stab": 0,
+          "slash": 0,
+          "crush": 0,
+          "magic": 0,
+          "ranged": 0
+        },
+        "defence_bonuses": {
+          "stab": 0,
+          "slash": 0,
+          "crush": 0,
+          "magic": 0,
+          "ranged": 0
+        },
+        "other_bonuses": {
+          "strength": 0,
+          "ranged": 0,
+          "magic_damage": 0,
+          "prayer": 0
+        },
+        "slot": "legs"
+      },
+      "sources": []
+    }
+  },
+  {
+    "id": 33995,
+    "name": "Wyrmscraig villager work skirt (blue)",
+    "examine": "A skirt for working in.",
+    "members": true,
+    "limit": null,
+    "value": 400,
+    "high_alch": 240,
+    "low_alch": 160,
+    "wiki": {
+      "released": "29 July 2026 ( Update )",
+      "members": "Yes",
+      "quest_item": "No",
+      "tradeable": "Yes",
+      "equipable": "Yes",
+      "stackable": "No",
+      "noteable": "Yes",
+      "options": "Wear, Drop",
+      "examine": "A skirt for working in.",
+      "value": "400 coins",
+      "high_alch": "240 coins",
+      "low_alch": "160 coins",
+      "weight": "0.907 kg",
+      "combat_stats": {
+        "attack_bonuses": {
+          "stab": 0,
+          "slash": 0,
+          "crush": 0,
+          "magic": 0,
+          "ranged": 0
+        },
+        "defence_bonuses": {
+          "stab": 0,
+          "slash": 0,
+          "crush": 0,
+          "magic": 0,
+          "ranged": 0
+        },
+        "other_bonuses": {
+          "strength": 0,
+          "ranged": 0,
+          "magic_damage": 0,
+          "prayer": 0
+        },
+        "slot": "legs"
+      },
+      "sources": []
+    }
+  },
+  {
+    "id": 33992,
+    "name": "Wyrmscraig villager work skirt (green)",
+    "examine": "A skirt for working in.",
+    "members": true,
+    "limit": null,
+    "value": 400,
+    "high_alch": 240,
+    "low_alch": 160,
+    "wiki": {
+      "released": "29 July 2026 ( Update )",
+      "members": "Yes",
+      "quest_item": "No",
+      "tradeable": "Yes",
+      "equipable": "Yes",
+      "stackable": "No",
+      "noteable": "Yes",
+      "options": "Wear, Drop",
+      "examine": "A skirt for working in.",
+      "value": "400 coins",
+      "high_alch": "240 coins",
+      "low_alch": "160 coins",
+      "weight": "0.907 kg",
+      "combat_stats": {
+        "attack_bonuses": {
+          "stab": 0,
+          "slash": 0,
+          "crush": 0,
+          "magic": 0,
+          "ranged": 0
+        },
+        "defence_bonuses": {
+          "stab": 0,
+          "slash": 0,
+          "crush": 0,
+          "magic": 0,
+          "ranged": 0
+        },
+        "other_bonuses": {
+          "strength": 0,
+          "ranged": 0,
+          "magic_damage": 0,
+          "prayer": 0
+        },
+        "slot": "legs"
+      },
+      "sources": []
+    }
+  },
+  {
+    "id": 34010,
+    "name": "Wyrmscraig villager work skirt (pink)",
+    "examine": "A skirt for working in.",
+    "members": true,
+    "limit": null,
+    "value": 400,
+    "high_alch": 240,
+    "low_alch": 160,
+    "wiki": {
+      "released": "29 July 2026 ( Update )",
+      "members": "Yes",
+      "quest_item": "No",
+      "tradeable": "Yes",
+      "equipable": "Yes",
+      "stackable": "No",
+      "noteable": "Yes",
+      "options": "Wear, Drop",
+      "examine": "A skirt for working in.",
+      "value": "400 coins",
+      "high_alch": "240 coins",
+      "low_alch": "160 coins",
+      "weight": "0.907 kg",
+      "combat_stats": {
+        "attack_bonuses": {
+          "stab": 0,
+          "slash": 0,
+          "crush": 0,
+          "magic": 0,
+          "ranged": 0
+        },
+        "defence_bonuses": {
+          "stab": 0,
+          "slash": 0,
+          "crush": 0,
+          "magic": 0,
+          "ranged": 0
+        },
+        "other_bonuses": {
+          "strength": 0,
+          "ranged": 0,
+          "magic_damage": 0,
+          "prayer": 0
+        },
+        "slot": "legs"
+      },
+      "sources": []
+    }
+  },
+  {
+    "id": 33998,
+    "name": "Wyrmscraig villager work skirt (red)",
+    "examine": "A skirt for working in.",
+    "members": true,
+    "limit": null,
+    "value": 400,
+    "high_alch": 240,
+    "low_alch": 160,
+    "wiki": {
+      "released": "29 July 2026 ( Update )",
+      "members": "Yes",
+      "quest_item": "No",
+      "tradeable": "Yes",
+      "equipable": "Yes",
+      "stackable": "No",
+      "noteable": "Yes",
+      "options": "Wear, Drop",
+      "examine": "A skirt for working in.",
+      "value": "400 coins",
+      "high_alch": "240 coins",
+      "low_alch": "160 coins",
+      "weight": "0.907 kg",
+      "combat_stats": {
+        "attack_bonuses": {
+          "stab": 0,
+          "slash": 0,
+          "crush": 0,
+          "magic": 0,
+          "ranged": 0
+        },
+        "defence_bonuses": {
+          "stab": 0,
+          "slash": 0,
+          "crush": 0,
+          "magic": 0,
+          "ranged": 0
+        },
+        "other_bonuses": {
+          "strength": 0,
+          "ranged": 0,
+          "magic_damage": 0,
+          "prayer": 0
+        },
+        "slot": "legs"
+      },
+      "sources": []
+    }
+  },
+  {
+    "id": 34004,
+    "name": "Wyrmscraig villager work skirt (white)",
+    "examine": "A skirt for working in.",
+    "members": true,
+    "limit": null,
+    "value": 400,
+    "high_alch": 240,
+    "low_alch": 160,
+    "wiki": {
+      "released": "29 July 2026 ( Update )",
+      "members": "Yes",
+      "quest_item": "No",
+      "tradeable": "Yes",
+      "equipable": "Yes",
+      "stackable": "No",
+      "noteable": "Yes",
+      "options": "Wear, Drop",
+      "examine": "A skirt for working in.",
+      "value": "400 coins",
+      "high_alch": "240 coins",
+      "low_alch": "160 coins",
+      "weight": "0.907 kg",
+      "combat_stats": {
+        "attack_bonuses": {
+          "stab": 0,
+          "slash": 0,
+          "crush": 0,
+          "magic": 0,
+          "ranged": 0
+        },
+        "defence_bonuses": {
+          "stab": 0,
+          "slash": 0,
+          "crush": 0,
+          "magic": 0,
+          "ranged": 0
+        },
+        "other_bonuses": {
+          "strength": 0,
+          "ranged": 0,
+          "magic_damage": 0,
+          "prayer": 0
+        },
+        "slot": "legs"
+      },
+      "sources": []
+    }
+  },
+  {
+    "id": 34001,
+    "name": "Wyrmscraig villager work skirt (yellow)",
+    "examine": "A skirt for working in.",
+    "members": true,
+    "limit": null,
+    "value": 400,
+    "high_alch": 240,
+    "low_alch": 160,
+    "wiki": {
+      "released": "29 July 2026 ( Update )",
+      "members": "Yes",
+      "quest_item": "No",
+      "tradeable": "Yes",
+      "equipable": "Yes",
+      "stackable": "No",
+      "noteable": "Yes",
+      "options": "Wear, Drop",
+      "examine": "A skirt for working in.",
+      "value": "400 coins",
+      "high_alch": "240 coins",
+      "low_alch": "160 coins",
+      "weight": "0.907 kg",
+      "combat_stats": {
+        "attack_bonuses": {
+          "stab": 0,
+          "slash": 0,
+          "crush": 0,
+          "magic": 0,
+          "ranged": 0
+        },
+        "defence_bonuses": {
+          "stab": 0,
+          "slash": 0,
+          "crush": 0,
+          "magic": 0,
+          "ranged": 0
+        },
+        "other_bonuses": {
+          "strength": 0,
+          "ranged": 0,
+          "magic_damage": 0,
+          "prayer": 0
+        },
+        "slot": "legs"
+      },
+      "sources": []
+    }
   }
 ]
