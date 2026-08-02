@@ -1,7 +1,7 @@
 {
   "meta": {
     "source": "https://oldschool.runescape.wiki",
-    "generated_at": "2026-07-26T06:27:26Z"
+    "generated_at": "2026-08-02T06:24:28Z"
   },
   "anagrams": [
     {
@@ -65,12 +65,6 @@
       "area": "None"
     },
     {
-      "anagram": "BMJ UIF LFCBC TFMMFS",
-      "answer": "Ali the Kebab seller",
-      "location": "in Pollnivneach. Note: If you have completed The Feud you need to talk to Isma'il The Kebab Seller",
-      "area": "399"
-    },
-    {
       "anagram": "CALAMARI MADE MUD",
       "answer": "Madame Caldarium",
       "location": "Next to a spa in the Corsair Cove.",
@@ -81,6 +75,12 @@
       "answer": "Nicholas",
       "location": "Most north-eastern point of Port Piscarilius, north of the fishing shop.",
       "area": "4"
+    },
+    {
+      "anagram": "CUTE HI",
+      "answer": "Teicuh",
+      "location": "Rune Shop in Tal Teklan.",
+      "area": "4097"
     },
     {
       "anagram": "DT RUN B",
@@ -331,7 +331,7 @@
     {
       "anagram": "DEKAGRAM",
       "answer": "Dark mage",
-      "location": "Centre of the inner ring of the Abyss. NPC Contact does not work.",
+      "location": "Centre of the inner ring of the Abyss. Astral Contact does not work.",
       "area": "13"
     },
     {
@@ -571,472 +571,472 @@
   ],
   "challenge_scrolls": [
     {
-      "difficulty": "unknown",
-      "clue": "Ironman tutor",
-      "challenge": "How many snakeskins are needed in order to craft 44 boots, 29 vambraces and 34 bandanas?",
-      "answer": "666"
-    },
-    {
-      "difficulty": "unknown",
+      "difficulty": "medium",
       "clue": "Ali the Kebab seller[1]",
       "challenge": "How many coins would you need to purchase 133 kebabs from me?",
       "answer": "399"
     },
     {
-      "difficulty": "unknown",
-      "clue": "Ambassador Alvijar",
-      "challenge": "Double the miles before the initial Dorgeshuun veteran.",
-      "answer": "2,505"
-    },
-    {
-      "difficulty": "unknown",
+      "difficulty": "medium",
       "clue": "Aretha",
       "challenge": "32 - 5x = 22, what is x?",
       "answer": "2"
     },
     {
-      "difficulty": "unknown",
-      "clue": "Awowogei",
-      "challenge": "If I have 303 bananas, and share them between 31 friends evenly, only handing out full bananas. How many will I have left over?",
-      "answer": "24"
-    },
-    {
-      "difficulty": "unknown",
+      "difficulty": "medium",
       "clue": "Baraek",
       "challenge": "How many stalls are there in Varrock Square?",
       "answer": "5"
     },
     {
-      "difficulty": "unknown",
-      "clue": "Bolkoy",
-      "challenge": "How many flowers are there in the clearing below this platform?",
-      "answer": "13"
-    },
-    {
-      "difficulty": "unknown",
-      "clue": "Brother Kojo",
-      "challenge": "On a clock, how many times a day do the minute hand and the hour hand overlap?",
-      "answer": "22"
-    },
-    {
-      "difficulty": "unknown",
-      "clue": "Brother Omad",
-      "challenge": "What is the next number? 12, 13, 15, 17, 111, 113, 117, 119, 123....?",
-      "answer": "129"
-    },
-    {
-      "difficulty": "unknown",
-      "clue": "Brother Tranquility",
-      "challenge": "If I have 49 bottles of rum to share between 7 pirates, how many would each pirate get?",
-      "answer": "7"
-    },
-    {
-      "difficulty": "unknown",
+      "difficulty": "medium",
       "clue": "Brundt the Chieftain",
       "challenge": "How many people are waiting for the next bard to perform?",
       "answer": "5"
     },
     {
-      "difficulty": "unknown",
-      "clue": "Cam the Camel",
-      "challenge": "How many items can carry water in Gielinor?",
-      "answer": "6"
-    },
-    {
-      "difficulty": "unknown",
-      "clue": "Cap'n Izzy No-Beard's parrot",
-      "challenge": "How many Banana Trees are there in the plantation?",
-      "answer": "33"
-    },
-    {
-      "difficulty": "unknown",
+      "difficulty": "medium",
       "clue": "Captain Ginea",
       "challenge": "1 soldier can deal with 6 lizardmen. How many soldiers do we need for an army of 678 lizardmen?",
       "answer": "113"
     },
     {
-      "difficulty": "unknown",
+      "difficulty": "medium",
       "clue": "Captain Khaled",
       "challenge": "How many fishing cranes can you find around here?",
       "answer": "5"
     },
     {
-      "difficulty": "unknown",
+      "difficulty": "medium",
       "clue": "Captain Tobias",
       "challenge": "How many ships are there docked at Port Sarim currently?",
       "answer": "6"
     },
     {
-      "difficulty": "unknown",
+      "difficulty": "medium",
       "clue": "Caroline",
       "challenge": "How many fishermen are there on the fishing platform?",
       "answer": "11"
     },
     {
-      "difficulty": "unknown",
+      "difficulty": "medium",
       "clue": "Charlie the Tramp",
       "challenge": "How many coins would I have if I have 0 coins and attempt to buy 10 loaves of bread for 3 coins each?",
       "answer": "0"
     },
     {
-      "difficulty": "unknown",
+      "difficulty": "medium",
       "clue": "Clerris",
       "challenge": "If I have 1,000 blood runes, and cast 131 ice barrage spells, how many blood runes do I have left?",
       "answer": "738"
     },
     {
-      "difficulty": "unknown",
+      "difficulty": "medium",
       "clue": "Cook",
       "challenge": "How many cannons does Lumbridge Castle have?",
       "answer": "9"
     },
     {
-      "difficulty": "unknown",
-      "clue": "Dark mage",
-      "challenge": "How many rifts are found here in the abyss?",
-      "answer": "13"
-    },
-    {
-      "difficulty": "unknown",
+      "difficulty": "medium",
       "clue": "Dockmaster",
       "challenge": "What is the cube root of 125?",
       "answer": "5"
     },
     {
-      "difficulty": "unknown",
+      "difficulty": "medium",
       "clue": "Dominic Onion",
       "challenge": "How many reward points does a herb box cost?",
       "answer": "9,500"
     },
     {
-      "difficulty": "unknown",
-      "clue": "Doomsayer",
-      "challenge": "What is 40 divided by 1/2 plus 15?",
-      "answer": "95"
-    },
-    {
-      "difficulty": "unknown",
+      "difficulty": "medium",
       "clue": "Drezel",
       "challenge": "Please solve this for x: 7x - 28=21",
       "answer": "7"
     },
     {
-      "difficulty": "unknown",
+      "difficulty": "medium",
       "clue": "Drunken soldier",
       "challenge": "If 13 Shayzien Soldiers kill 46 Lizardmen each in a day, how many Lizardmen have they killed in total in a single day?",
       "answer": "598"
     },
     {
-      "difficulty": "unknown",
+      "difficulty": "medium",
       "clue": "Dunstan",
       "challenge": "How much smithing experience does one receive for smelting a blurite bar?",
       "answer": "8"
     },
     {
-      "difficulty": "unknown",
+      "difficulty": "medium",
       "clue": "Edmond",
       "challenge": "How many pigeon cages are there around the back of Jerico's house?",
       "answer": "3"
     },
     {
-      "difficulty": "unknown",
-      "clue": "Eluned",
-      "challenge": "A question on elven crystal math. I have 5 and 3 crystals, large and small respectively. A large crystal is worth 10,000 coins and a small is worth but 1,000. How much are all my crystals worth?",
-      "answer": "53,000"
-    },
-    {
-      "difficulty": "unknown",
+      "difficulty": "medium",
       "clue": "Eohric",
       "challenge": "King Arthur and Merlin sit down at the Round Table with 8 knights. How many degrees does each get?",
       "answer": "36"
     },
     {
-      "difficulty": "unknown",
-      "clue": "Evil Dave",
-      "challenge": "What is 333 multiplied by 2?",
-      "answer": "666"
-    },
-    {
-      "difficulty": "unknown",
-      "clue": "Fairy Godfather",
-      "challenge": "There are 3 inputs and 4 letters on each ring How many total individual fairy ring codes are possible?",
-      "answer": "64"
-    },
-    {
-      "difficulty": "unknown",
+      "difficulty": "medium",
       "clue": "Father Aereck",
       "challenge": "How many gravestones are in the church graveyard? Note: If players failed to save Jarvis during the 2017 Halloween event, the answer is 20 instead of 19.",
       "answer": "19"
     },
     {
-      "difficulty": "unknown",
+      "difficulty": "medium",
       "clue": "Flax keeper",
       "challenge": "If I have 1014 flax, and I spin a third of them into bowstring, how many flax do I have left?",
       "answer": "676"
     },
     {
-      "difficulty": "unknown",
+      "difficulty": "medium",
       "clue": "Gabooty",
       "challenge": "How many buildings are in the village?",
       "answer": "11"
     },
     {
-      "difficulty": "unknown",
+      "difficulty": "medium",
       "clue": "Gallow",
       "challenge": "How many vine patches can you find in this vinery?",
       "answer": "12"
     },
     {
-      "difficulty": "unknown",
+      "difficulty": "medium",
       "clue": "Gnome ball referee",
       "challenge": "What is 57 x 89 + 23?",
       "answer": "5096"
     },
     {
-      "difficulty": "unknown",
-      "clue": "Gnome Coach",
-      "challenge": "How many gnomes on the Gnome ball field have red patches on their uniforms?",
-      "answer": "6"
-    },
-    {
-      "difficulty": "unknown",
-      "clue": "Guard Vemmeldo",
-      "challenge": "How many magic trees can you find inside the Gnome Stronghold?",
-      "answer": "3"
-    },
-    {
-      "difficulty": "unknown",
+      "difficulty": "medium",
       "clue": "Hickton",
       "challenge": "How many ranges are there in Catherby?",
       "answer": "2"
     },
     {
-      "difficulty": "unknown",
+      "difficulty": "medium",
       "clue": "Horphis",
       "challenge": "On a scale of 1-10, how helpful is Logosia?",
       "answer": "1"
     },
     {
-      "difficulty": "unknown",
-      "clue": "Jardric",
-      "challenge": "What is 3 to the power of 0?",
-      "answer": "1"
+      "difficulty": "medium",
+      "clue": "Ironman tutor",
+      "challenge": "How many snakeskins are needed in order to craft 44 boots, 29 vambraces and 34 bandanas?",
+      "answer": "666"
     },
     {
-      "difficulty": "unknown",
+      "difficulty": "medium",
       "clue": "Jethick",
       "challenge": "How many graves are there in the city graveyard?",
       "answer": "38"
     },
     {
-      "difficulty": "unknown",
+      "difficulty": "medium",
       "clue": "Karim",
       "challenge": "I have 16 kebabs, I eat one myself and then share the rest equally between 3 friends. How many do they have each?",
       "answer": "5"
     },
     {
-      "difficulty": "unknown",
+      "difficulty": "medium",
       "clue": "Kaylee",
       "challenge": "How many chairs are there in the Rising Sun?",
       "answer": "18"
     },
     {
-      "difficulty": "unknown",
+      "difficulty": "medium",
       "clue": "King Roald",
       "challenge": "How many bookcases are there in the palace library?",
       "answer": "24"
     },
     {
-      "difficulty": "unknown",
-      "clue": "Lisse Isaakson",
-      "challenge": "How many arctic logs are required to make a large fremennik round shield?",
-      "answer": "2"
-    },
-    {
-      "difficulty": "unknown",
+      "difficulty": "medium",
       "clue": "Madame Caldarium",
       "challenge": "What is 3(5-3)?",
       "answer": "6"
     },
     {
-      "difficulty": "unknown",
-      "clue": "Mandrith",
-      "challenge": "How many scorpions live under the pit?",
-      "answer": "28"
-    },
-    {
-      "difficulty": "unknown",
+      "difficulty": "medium",
       "clue": "Marisi",
       "challenge": "How many cities form the Kingdom of Great Kourend?",
       "answer": "5"
     },
     {
-      "difficulty": "unknown",
-      "clue": "Martin Thwait",
-      "challenge": "How many natural fires burn in Rogue's Den?",
-      "answer": "2"
-    },
-    {
-      "difficulty": "unknown",
-      "clue": "Miner Magnus",
-      "challenge": "How many coal rocks are around here?",
-      "answer": "8"
-    },
-    {
-      "difficulty": "unknown",
+      "difficulty": "medium",
       "clue": "Nicholas",
       "challenge": "How many windows are in Tynan's shop?",
       "answer": "4"
     },
     {
-      "difficulty": "unknown",
+      "difficulty": "medium",
       "clue": "Nieve/Steve",
       "challenge": "How many farming patches are there in Gnome stronghold?",
       "answer": "2"
     },
     {
-      "difficulty": "unknown",
-      "clue": "Nurse Wooned",
-      "challenge": "How many wounded soldiers are in the camp?",
-      "answer": "16"
-    },
-    {
-      "difficulty": "unknown",
-      "clue": "Old crone",
-      "challenge": "What is the combined combat level of each species that live in Slayer tower?",
-      "answer": "619"
-    },
-    {
-      "difficulty": "unknown",
-      "clue": "Oneiromancer",
-      "challenge": "How many Suqah inhabit Lunar isle?",
-      "answer": "25"
-    },
-    {
-      "difficulty": "unknown",
+      "difficulty": "medium",
       "clue": "Oracle",
       "challenge": "If x is 15 and y is 3 what is 3x + y?",
       "answer": "48"
     },
     {
-      "difficulty": "unknown",
-      "clue": "Oronwen",
-      "challenge": "What is the minimum amount of quest points required to reach Lletya?",
-      "answer": "20"
-    },
-    {
-      "difficulty": "unknown",
+      "difficulty": "medium",
       "clue": "Otto Godblessed",
       "challenge": "How many types of dragon are there beneath the whirlpool's cavern?",
       "answer": "2"
     },
     {
-      "difficulty": "unknown",
-      "clue": "Otto Godblessed",
-      "challenge": "How many pyre sites are found around this lake?",
-      "answer": "3"
-    },
-    {
-      "difficulty": "unknown",
+      "difficulty": "medium",
       "clue": "Professor Gracklebone",
       "challenge": "How many round tables can be found on this floor of the library?",
       "answer": "9"
     },
     {
-      "difficulty": "unknown",
-      "clue": "Prospector Percy",
-      "challenge": "During a party, everyone shook hands with everybody else. There were 66 handshakes. How many people were at the party?",
-      "answer": "12"
-    },
-    {
-      "difficulty": "unknown",
-      "clue": "Regath",
-      "challenge": "What is -5 to the power of 2?",
-      "answer": "25"
-    },
-    {
-      "difficulty": "unknown",
-      "clue": "Sigli the Huntsman",
-      "challenge": "What is the combined slayer requirement of every monster in the slayer cave?",
-      "answer": "302"
-    },
-    {
-      "difficulty": "unknown",
+      "difficulty": "medium",
       "clue": "Sir Kay",
       "challenge": "How many fountains are there within the grounds of Camelot castle?",
       "answer": "6"
     },
     {
-      "difficulty": "unknown",
-      "clue": "Sir Percival/King Percival",
-      "challenge": "How many cannons are on this here castle?",
-      "answer": "5"
-    },
-    {
-      "difficulty": "unknown",
-      "clue": "Spirit tree",
-      "challenge": "What is the next number in the sequence? 1, 11, 21, 1211, 111221, 312211",
-      "answer": "13112221"
-    },
-    {
-      "difficulty": "unknown",
+      "difficulty": "medium",
       "clue": "Squire",
       "challenge": "White Knights of Falador are stronger than the Black Knights of the Kinshra. 2 White Knights can handle 3 Kinshra. How many White Knights would we need against an army of 981 Kinshra?",
       "answer": "654"
     },
     {
-      "difficulty": "unknown",
-      "clue": "Strange Old Man",
-      "challenge": "One pipe fills a barrel in 1 hour while another pipe can fill the same barrel in 2 hours. How many minutes will it take to fill the tank if both pipes are used?",
-      "answer": "40"
-    },
-    {
-      "difficulty": "unknown",
-      "clue": "Sulisal",
-      "challenge": "If a fish can feed four people, and I'm hosting 15 guests, how many whole fish will I need?",
-      "answer": "4"
-    },
-    {
-      "difficulty": "unknown",
+      "difficulty": "medium",
       "clue": "Taria",
       "challenge": "How many buildings are there in Rimmington?",
       "answer": "7"
     },
     {
-      "difficulty": "unknown",
+      "difficulty": "medium",
       "clue": "Teicuh",
       "challenge": "If a death rune costs 220 coins, an air rune costs 3 coins, and a water rune costs 4 coins, how many coins do I need to cast Water Blast 17 times?",
       "answer": "4,097"
     },
     {
-      "difficulty": "unknown",
+      "difficulty": "medium",
       "clue": "Traiborn",
       "challenge": "How many air runes would I need to cast 630 wind waves?",
       "answer": "3,150"
     },
     {
-      "difficulty": "unknown",
+      "difficulty": "medium",
       "clue": "Uglug Nar",
       "challenge": "What is 19 to the power of 3?",
       "answer": "6859"
     },
     {
-      "difficulty": "unknown",
+      "difficulty": "medium",
+      "clue": "Zoo keeper",
+      "challenge": "How many animals in total are there in the zoo? Note: If the player has completed Eagles' Peak, the answer is 51 instead of 50.",
+      "answer": "50"
+    },
+    {
+      "difficulty": "hard",
+      "clue": "Awowogei",
+      "challenge": "If I have 303 bananas, and share them between 31 friends evenly, only handing out full bananas. How many will I have left over?",
+      "answer": "24"
+    },
+    {
+      "difficulty": "hard",
+      "clue": "Bolkoy",
+      "challenge": "How many flowers are there in the clearing below this platform?",
+      "answer": "13"
+    },
+    {
+      "difficulty": "hard",
+      "clue": "Brother Kojo",
+      "challenge": "On a clock, how many times a day do the minute hand and the hour hand overlap?",
+      "answer": "22"
+    },
+    {
+      "difficulty": "hard",
+      "clue": "Brother Omad",
+      "challenge": "What is the next number? 12, 13, 15, 17, 111, 113, 117, 119, 123....?",
+      "answer": "129"
+    },
+    {
+      "difficulty": "hard",
+      "clue": "Brother Tranquility",
+      "challenge": "If I have 49 bottles of rum to share between 7 pirates, how many would each pirate get?",
+      "answer": "7"
+    },
+    {
+      "difficulty": "hard",
+      "clue": "Cap'n Izzy No-Beard's parrot",
+      "challenge": "How many Banana Trees are there in the plantation?",
+      "answer": "33"
+    },
+    {
+      "difficulty": "hard",
+      "clue": "Dark mage",
+      "challenge": "How many rifts are found here in the abyss?",
+      "answer": "13"
+    },
+    {
+      "difficulty": "hard",
+      "clue": "Doomsayer",
+      "challenge": "What is 40 divided by 1/2 plus 15?",
+      "answer": "95"
+    },
+    {
+      "difficulty": "hard",
+      "clue": "Eluned",
+      "challenge": "A question on elven crystal math. I have 5 and 3 crystals, large and small respectively. A large crystal is worth 10,000 coins and a small is worth but 1,000. How much are all my crystals worth?",
+      "answer": "53,000"
+    },
+    {
+      "difficulty": "hard",
+      "clue": "Evil Dave",
+      "challenge": "What is 333 multiplied by 2?",
+      "answer": "666"
+    },
+    {
+      "difficulty": "hard",
+      "clue": "Fairy Godfather",
+      "challenge": "There are 3 inputs and 4 letters on each ring How many total individual fairy ring codes are possible?",
+      "answer": "64"
+    },
+    {
+      "difficulty": "hard",
+      "clue": "Gnome Coach",
+      "challenge": "How many gnomes on the Gnome ball field have red patches on their uniforms?",
+      "answer": "6"
+    },
+    {
+      "difficulty": "hard",
+      "clue": "Martin Thwait",
+      "challenge": "How many natural fires burn in Rogue's Den?",
+      "answer": "2"
+    },
+    {
+      "difficulty": "hard",
+      "clue": "Miner Magnus",
+      "challenge": "How many coal rocks are around here?",
+      "answer": "8"
+    },
+    {
+      "difficulty": "hard",
+      "clue": "Otto Godblessed",
+      "challenge": "How many pyre sites are found around this lake?",
+      "answer": "3"
+    },
+    {
+      "difficulty": "hard",
+      "clue": "Prospector Percy",
+      "challenge": "During a party, everyone shook hands with everybody else. There were 66 handshakes. How many people were at the party?",
+      "answer": "12"
+    },
+    {
+      "difficulty": "hard",
+      "clue": "Sir Percival/King Percival",
+      "challenge": "How many cannons are on this here castle?",
+      "answer": "5"
+    },
+    {
+      "difficulty": "hard",
+      "clue": "Spirit tree",
+      "challenge": "What is the next number in the sequence? 1, 11, 21, 1211, 111221, 312211",
+      "answer": "13112221"
+    },
+    {
+      "difficulty": "hard",
+      "clue": "Strange Old Man",
+      "challenge": "One pipe fills a barrel in 1 hour while another pipe can fill the same barrel in 2 hours. How many minutes will it take to fill the tank if both pipes are used?",
+      "answer": "40"
+    },
+    {
+      "difficulty": "hard",
+      "clue": "Sulisal",
+      "challenge": "If a fish can feed four people, and I'm hosting 15 guests, how many whole fish will I need?",
+      "answer": "4"
+    },
+    {
+      "difficulty": "hard",
       "clue": "Weird Old Man",
       "challenge": "SIX LEGS! All of them have 6! There are 25 of them! How many legs?",
       "answer": "150"
     },
     {
-      "difficulty": "unknown",
+      "difficulty": "hard",
       "clue": "Wise Old Man",
       "challenge": "How many bookcases are in the Wise Old Man's house?",
       "answer": "28"
     },
     {
-      "difficulty": "unknown",
-      "clue": "Zoo keeper",
-      "challenge": "How many animals in total are there in the zoo? Note: If the player has completed Eagles' Peak, the answer is 51 instead of 50.",
-      "answer": "50"
+      "difficulty": "elite",
+      "clue": "Ambassador Alvijar",
+      "challenge": "Double the miles before the initial Dorgeshuun veteran.",
+      "answer": "2,505"
+    },
+    {
+      "difficulty": "elite",
+      "clue": "Cam the Camel",
+      "challenge": "How many items can carry water in Gielinor?",
+      "answer": "6"
+    },
+    {
+      "difficulty": "elite",
+      "clue": "Guard Vemmeldo",
+      "challenge": "How many magic trees can you find inside the Gnome Stronghold?",
+      "answer": "3"
+    },
+    {
+      "difficulty": "elite",
+      "clue": "Jardric",
+      "challenge": "What is 3 to the power of 0?",
+      "answer": "1"
+    },
+    {
+      "difficulty": "elite",
+      "clue": "Lisse Isaakson",
+      "challenge": "How many arctic logs are required to make a large fremennik round shield?",
+      "answer": "2"
+    },
+    {
+      "difficulty": "elite",
+      "clue": "Mandrith",
+      "challenge": "How many scorpions live under the pit?",
+      "answer": "28"
+    },
+    {
+      "difficulty": "elite",
+      "clue": "Nurse Wooned",
+      "challenge": "How many wounded soldiers are in the camp?",
+      "answer": "16"
+    },
+    {
+      "difficulty": "elite",
+      "clue": "Old crone",
+      "challenge": "What is the combined combat level of each species that live in Slayer tower?",
+      "answer": "619"
+    },
+    {
+      "difficulty": "elite",
+      "clue": "Oneiromancer",
+      "challenge": "How many Suqah inhabit Lunar isle?",
+      "answer": "25"
+    },
+    {
+      "difficulty": "elite",
+      "clue": "Oronwen",
+      "challenge": "What is the minimum amount of quest points required to reach Lletya?",
+      "answer": "20"
+    },
+    {
+      "difficulty": "elite",
+      "clue": "Regath",
+      "challenge": "What is -5 to the power of 2?",
+      "answer": "25"
+    },
+    {
+      "difficulty": "elite",
+      "clue": "Sigli the Huntsman",
+      "challenge": "What is the combined slayer requirement of every monster in the slayer cave?",
+      "answer": "302"
     }
   ],
   "ciphers": [
@@ -1050,12 +1050,6 @@
       "decoded": "Ali the Kebab seller (Known as Isma'il The Kebab Seller after The Feud quest)",
       "npc": "Pollnivneach",
       "challenge_answer": "399"
-    },
-    {
-      "cipher": "CUTE HI[c 1]",
-      "decoded": "Teicuh",
-      "npc": "Rune Shop in Tal Teklan.",
-      "challenge_answer": "4097"
     },
     {
       "cipher": "ECRVCKP MJCNGF",
@@ -4043,7 +4037,7 @@
     {
       "difficulty": "master",
       "clue": "Robin wishes to see your finest ranged equipment.",
-      "solution": "Robin at the inn in Port Phasmatys. Speak to him while wearing equipment adding up to 180 ranged attack bonus or over ( crystal bow gives +100 ranged attack bonus on its own). The bonuses from a toxic blowpipe does not count.",
+      "solution": "Robin at the inn in Port Phasmatys. Speak to him while wearing equipment adding up to 180 ranged attack bonus or over (crystal bow gives +100 ranged attack bonus on its own). The bonuses from a toxic blowpipe does not count.",
       "extra": ""
     },
     {
