@@ -8885,7 +8885,7 @@
       "1 Molten glass",
       "100 Astral runes",
       "Pet rock",
-      "Fishing rod or fly fishing rod",
+      "Fishing rod, fly fishing rod, or barbarian fishing rod",
       "Fremennik shield (this is not the tradeable Neitiznot shield)",
       "Ice gloves or Smiths gloves (i)",
       "Hammer",
@@ -11193,7 +11193,7 @@
     "item_requirements": [
       "A raft or skiff (a sloop does NOT work) (You MUST use your own boat - you will not be able to disembark in Wyrmscraig Cavern unless you are the only player on the boat)",
       "A pickaxe (obtainable during the quest)",
-      "Chisel or hammer (both obtainable during the quest; Imcando hammer does not work)",
+      "Chisel & hammer (both obtainable during the quest)",
       "Combat equipment and supplies to defeat the Mad Angel, weak to Crush"
     ],
     "rewards": [
@@ -11205,7 +11205,7 @@
       "Access to a new Slayer Master, Mortimer. (Unlocked upon entering Wyrmscraig Cavern during the quest.)",
       "Access to the Mad Angel, a repeatable boss",
       "Access to the Crafting minigame Golem crafting",
-      "Ability to teleport to Wyrmscraig with the necklace of passage, Slayer ring or Ardeaglais teleport"
+      "Ability to teleport to Wyrmscraig with the necklace of passage, Slayer ring, or Ardeaglais teleport"
     ],
     "enemies_to_defeat": [
       "3 mountain trolls (level 69)",
