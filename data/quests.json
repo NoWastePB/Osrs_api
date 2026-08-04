@@ -5934,7 +5934,7 @@
       "5 feathers (only regular chicken feathers work)",
       "Mahogany plank",
       "Leather",
-      "Cowbell (obtainable only during quest)"
+      "Cowbells (obtainable only during quest)"
     ],
     "rewards": [
       "1 Quest point",
@@ -10624,27 +10624,27 @@
       {
         "skill": "Mining",
         "level": 66,
-        "boostable": true
+        "boostable": false
       },
       {
         "skill": "Hunter",
         "level": 65,
-        "boostable": true
+        "boostable": false
       },
       {
         "skill": "Crafting",
         "level": 64,
-        "boostable": true
+        "boostable": false
       },
       {
         "skill": "Herblore",
         "level": 64,
-        "boostable": true
+        "boostable": false
       },
       {
         "skill": "Magic",
         "level": 57,
-        "boostable": true
+        "boostable": false
       }
     ],
     "quest_requirements": [
