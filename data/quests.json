@@ -1954,8 +1954,8 @@
       "Vodka (sold by Heckel Funch at the Tree Gnome Stronghold bar for 5 coins)",
       "Pineapple chunks (pineapples are sold by Heckel Funch at the Tree Gnome Stronghold bar or any Charter Ship, use a knife to dice the pineapple into chunks)",
       "1 Log (2 logs and a tinderbox are recommended)",
-      "10 Grain (obtainable during the quest, just south of Tegid in Taverley)",
-      "5 Raw chicken (there are chickens on the way at Tenzing the Sherpa's house. Undead chickens do not work)",
+      "10 Grain (obtainable during the quest, just south of Tegid in Taverley, or North of East Ardougne after visiting the zoo)",
+      "5 Raw chicken (there are chickens on the way at Tenzing the Sherpa's house, or between East Ardougne and Witchaven. Undead chickens do not work.)",
       "Pestle and mortar",
       "Ranarr potion (unf)"
     ],
@@ -5020,7 +5020,7 @@
       "5 iron bars, or",
       "1 set of logs of any kind, or",
       "A tinderbox (obtainable during the quest)",
-      "A hammer (obtainable during the quest)",
+      "A hammer (obtainable during the quest) or Imcando hammer",
       "A small fishing net (obtained during the quest)",
       "A brown apron (obtained during the quest)"
     ],
@@ -6345,7 +6345,7 @@
       "Goutweed",
       "An astral rune",
       "A tinderbox",
-      "A hammer",
+      "A hammer or Imcando hammer",
       "A pestle and mortar",
       "A good weapon (trident of the seas recommended because they have no magic defence), good armour, good food such as sharks, and super potion sets."
     ],
