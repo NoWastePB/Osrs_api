@@ -384228,5 +384228,75 @@
       },
       "sources": []
     }
+  },
+  {
+    "id": 12751,
+    "name": "Archaic emblem (tier 5)",
+    "examine": "An emblem of ancient times, now superseded.",
+    "members": true,
+    "limit": null,
+    "value": 50004,
+    "high_alch": null,
+    "low_alch": null,
+    "wiki": {
+      "released": "17 October 2019 ( Update )",
+      "members": "Yes",
+      "quest_item": "No",
+      "tradeable": "Yes",
+      "equipable": "No",
+      "stackable": "No",
+      "noteable": "No",
+      "options": "Destroy",
+      "examine": "An emblem of ancient times, now superseded.",
+      "value": "50,000 coins",
+      "high_alch": null,
+      "low_alch": null,
+      "weight": "0.1 kg",
+      "combat_stats": {},
+      "sources": [
+        {
+          "source": "Zemouregal Summon",
+          "level": "90–163",
+          "quantity": "1",
+          "rarity": "Unknown",
+          "league_region": "N/A"
+        }
+      ]
+    }
+  },
+  {
+    "id": 12746,
+    "name": "Archaic emblem (tier 1)",
+    "examine": "An emblem of ancient times, now superseded.",
+    "members": true,
+    "limit": null,
+    "value": 50000,
+    "high_alch": null,
+    "low_alch": null,
+    "wiki": {
+      "released": "17 October 2019 ( Update )",
+      "members": "Yes",
+      "quest_item": "No",
+      "tradeable": "Yes",
+      "equipable": "No",
+      "stackable": "No",
+      "noteable": "No",
+      "options": "Destroy",
+      "examine": "An emblem of ancient times, now superseded.",
+      "value": "50,000 coins",
+      "high_alch": null,
+      "low_alch": null,
+      "weight": "0.1 kg",
+      "combat_stats": {},
+      "sources": [
+        {
+          "source": "Zemouregal Summon",
+          "level": "90–163",
+          "quantity": "1",
+          "rarity": "Unknown",
+          "league_region": "N/A"
+        }
+      ]
+    }
   }
 ]
