@@ -357,7 +357,7 @@
     "item_requirements": [
       "Cabbage (can be obtained from the cabbage patch in Edgeville Monastery and South Falador Farm, as well as Lumbridge cellar. Cabbages obtained from Draynor Manor CANNOT be used)",
       "Iron chainbody (can be purchased at Horvik's Armour Shop in Varrock and from Wayne's Chains in Falador)",
-      "Bronze med helm (can be purchased in the helmet shop in Barbarian Village, spawns by the backdoor of Draynor Manor)"
+      "Bronze med helm (can be purchased in the helmet shop in Barbarian Village, spawns by the backdoor of Draynor Manor). Alternatively, a Black full helm, Black platebody and Black platelegs/black plateskirt can be used in place of the Iron chainbody and Bronze med helm."
     ],
     "rewards": [],
     "enemies_to_defeat": []
@@ -6670,16 +6670,8 @@
         "url": "https://oldschool.runescape.wiki/w/Skippy_and_the_Mogres"
       },
       {
-        "name": "Horror from the Deep",
-        "url": "https://oldschool.runescape.wiki/w/Horror_from_the_Deep"
-      },
-      {
         "name": "Creature of Fenkenstrain",
         "url": "https://oldschool.runescape.wiki/w/Creature_of_Fenkenstrain"
-      },
-      {
-        "name": "Waterfall Quest",
-        "url": "https://oldschool.runescape.wiki/w/Waterfall_Quest"
       }
     ],
     "item_requirements": [
