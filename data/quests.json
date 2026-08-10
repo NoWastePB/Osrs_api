@@ -705,7 +705,7 @@
     "rewards": [
       "3 Quest points",
       "Access to Zanaris",
-      "Ability to buy and wield dragon longswords and dragon daggers (with level 60 Attack)",
+      "Ability to buy and wield the Dragon longsword and the Dragon dagger (with level 60 Attack)",
       "Ability to make cosmic runes with the Runecraft skill",
       "A permanent portal to Puro-Puro in the wheat field east of the fairy ring in Zanaris."
     ],
@@ -2194,7 +2194,7 @@
       "13,750 Agility experience",
       "15,000 coins",
       "Access to the elven kingdom of Tirannwn and the overpass of Arandar",
-      "The ability to wield the dragon halberd (With level 60 Attack and 30 Strength)",
+      "Ability to wield the Dragon halberd (with level 60 Attack and 30 Strength)",
       "The ability to charter a ship to Port Tyras or dock a boat there with 66 Sailing",
       "The ability to use Iorwerth camp teleport scrolls",
       "The ability to use Zul-Andra teleport scrolls",
@@ -2432,7 +2432,8 @@
       "2,812.4 Thieving experience",
       "2,812.4 Woodcutting experience",
       "Access to the islands of Miscellania, Etceteria, Neitiznot, and Jatizso along with access to the facilities in Rellekka.",
-      "Ability to wear the Fremennik blade and the warrior, berserker, archer, and farseer helms",
+      "Ability to buy and wear the Warrior helm, Berserker helm, Archer helm, and Farseer helm (with 45 Defence)",
+      "Ability to wield the Fremennik blade (with 30 Attack)",
       "Ability to have Fossegrimen create the enchanted lyre(i)",
       "A herring",
       "Jarvald will charge no fee for travelling to Waterbirth Island",
@@ -2602,7 +2603,7 @@
       "10,000 Coins",
       "3 Diamonds",
       "Speaking to Daero after the quest gives the choice of either, 35,000 experience in Attack and Defence and 20,000 experience in Strength and Hitpoints OR 35,000 experience in Strength and Hitpoints and 20,000 experience in Attack and Defence. The skills you tell Daero you want to focus on will receive 35,000 XP each, and the others 20,000 each.",
-      "The ability to buy and wield the Dragon scimitar.",
+      "Ability to buy and wield the Dragon scimitar (with level 60 Attack)",
       "Full access to Ape Atoll, with the exception of the bank and javelin store, which are unlocked after Monkey Madness II."
     ],
     "enemies_to_defeat": [
@@ -2854,7 +2855,8 @@
     "rewards": [
       "1 Quest point",
       "10,000 Strength experience",
-      "Crystal shield or bow with 500 charges"
+      "Ability to wield the Crystal shield and the Crystal bow (with 50 Agility and 70 Ranged for the bow, and 50 Agility and 70 Defence for the shield)",
+      "Crystal shield or Crystal bow with 500 charges"
     ],
     "enemies_to_defeat": [
       "Moss Guardian (level 84) (has to be killed with restricted items, can be flinched)"
@@ -5993,7 +5995,8 @@
       "5,000 Crafting experience",
       "10,000 Woodcutting experience",
       "Two lots of 10,000 Combat experience (choose between Strength, Attack, Defence or Hitpoints).",
-      "A Fremennik royal helm known as the helm of Neitiznot, which is the equivalent of a berserker helm with a +3 Prayer bonus, slightly better Magic and crush Defence, and no negative bonuses. If a player loses the helm, they can talk to Mawnis Burowgar to buy another one for 50,000 coins.",
+      "A Fremennik royal helm known as the Helm of Neitiznot, which requires 55 Defence to equip. The Helm of Neitiznot is a direct upgrade to the Berserker helm with a +3 Prayer bonus, slightly better Magic and crush Defence, and no negative bonuses.",
+      "Ability to buy additional Helms of Neitiznot from Mawnis Burowgar for 50,000 coins.",
       "Access to arctic pine trees.",
       "Access to an island with a runite rock north-east of Neitiznot, which also has seven (7) coal rocks nearby.",
       "Access to the Jatizso mine, which contains up to adamantite rocks.",
@@ -8887,14 +8890,14 @@
     ],
     "rewards": [
       "2 Quest points",
-      "V's shield",
-      "Access to the Island of Stone",
-      "Ability to kill a Basilisk Knight as a Slayer Task",
-      "A Fremennik honorific, Dräpare, added to the player's Fremennik name",
-      "Ability to create and equip the Neitiznot faceguard",
       "50,000 Slayer experience",
       "50,000 Crafting experience",
-      "30,000 Runecraft experience"
+      "30,000 Runecraft experience",
+      "V's shield",
+      "Access to the Island of Stone",
+      "Ability to kill a Basilisk Knight as a Slayer task",
+      "A Fremennik honorific, Dräpare, added to the player's Fremennik name",
+      "Ability to create and equip the Neitiznot faceguard (with 70 Defence)"
     ],
     "enemies_to_defeat": [
       "Basilisk Youngling (level 53)",
