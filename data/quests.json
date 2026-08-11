@@ -9533,7 +9533,7 @@
       "Iron bar",
       "Tinderbox (obtainable during quest)",
       "Spade (obtainable during quest)",
-      "Any cooked or raw meat (fish, raw bird meat, raw yak meat, raw pyre fox, raw chompy, and raw t-bone steak will not work; purchasable from shop during quest)"
+      "Any cooked or raw meat (fish, raw bird meat, raw yak meat, raw pyre fox, raw chompy, and raw t-bone steak will NOT work; purchasable from shop during quest)"
     ],
     "rewards": [
       "2 Quest points",
