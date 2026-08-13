@@ -2484,7 +2484,7 @@
       "4,662.5 Magic experience",
       "4,662.5 Strength experience",
       "4,662.5 Ranged experience",
-      "A damaged book of your choice which, when complete, will become: a Holy book (Saradomin), an Unholy book (Zamorak), or a Book of balance (Guthix).",
+      "A damaged book of your choice which, when complete, will become: a Holy book (Saradomin), an Unholy book (Zamorak), or a Book of Balance (Guthix).",
       "Access to the Lighthouse general store and the Dagannoth caves underneath."
     ],
     "enemies_to_defeat": [
@@ -4447,7 +4447,7 @@
       "10,000 coins (only if you speak to Bill Teach after the quest)",
       "Access to Mos Le'Harmless",
       "Access to kill cave horrors",
-      "The Book o' piracy",
+      "The Book o' Piracy",
       "Charter ship prices are halved",
       "Ability to play the Trouble Brewing minigame"
     ],
@@ -6112,7 +6112,7 @@
       "3,000 Crafting experience",
       "2,000 Construction experience",
       "Blessed lamp ( 5,000 experience in a chosen skill above level 30 and can be placed in your bank)",
-      "Barrelchest anchor (To repair your barrelchest anchor, return to Mos Le'Harmless and make sure you have a book o' piracy in your inventory; then, go to the docks south of the bank and talk to \"Smith.\" He can fix your anchor for 230,000 coins.)",
+      "Barrelchest anchor (To repair your barrelchest anchor, return to Mos Le'Harmless and make sure you have a book o' Piracy in your inventory; then, go to the docks south of the bank and talk to \"Smith.\" He can fix your anchor for 230,000 coins.)",
       "Prayer book",
       "Ability to cast Harmony Island Teleport on the Arceuus spellbook",
       "Ability to fight the Barrelchest within the Nightmare Zone."
@@ -8653,7 +8653,7 @@
       "Nature rune",
       "Flowers from mithril seeds or adamant seeds, or an irit leaf",
       "Adamant chainbody (consumed during the quest)",
-      "Wine of zamorak OR Zamorak brew(4)",
+      "Wine of Zamorak OR Zamorak brew(4)",
       "Cabbage (obtainable during the quest)",
       "Black knife OR black dagger",
       "Cadantine seed",
@@ -11188,7 +11188,7 @@
     "item_requirements": [
       "A raft or skiff (a sloop does NOT work) (You MUST use your own boat - you will not be able to disembark in Wyrmscraig Cavern unless you are the only player on the boat)",
       "A pickaxe (obtainable during the quest)",
-      "Chisel & hammer (both obtainable during the quest, Imcando hammer will not work for some required steps)",
+      "A chisel (obtainable during the quest)",
       "Combat equipment and supplies to defeat the Mad Angel, weak to Crush"
     ],
     "rewards": [
