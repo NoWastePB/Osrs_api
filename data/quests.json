@@ -1,78 +1,6 @@
 [
   {
     "category": "free_to_play",
-    "id": "178",
-    "name": "The Ides of Milk",
-    "difficulty": "Novice",
-    "length": "Short",
-    "quest_points": "1",
-    "series": "N/A",
-    "release_date": "25 February 2026",
-    "url": "https://oldschool.runescape.wiki/w/The_Ides_of_Milk",
-    "start_point": "Talk to Cassius by the Lumbridge pond.",
-    "skill_requirements": [],
-    "quest_requirements": [],
-    "item_requirements": [],
-    "rewards": [
-      "1 Quest point",
-      "Access to Brutus, the cow boss.",
-      "Additional rewards from Gillie Groats:"
-    ],
-    "enemies_to_defeat": []
-  },
-  {
-    "category": "free_to_play",
-    "id": "0",
-    "name": "Learning the Ropes",
-    "difficulty": "Novice",
-    "length": "Very Short",
-    "quest_points": "1",
-    "series": "N/A",
-    "release_date": "22 October 2025",
-    "url": "https://oldschool.runescape.wiki/w/Learning_the_Ropes",
-    "start_point": "Talk to the Quest Guide on Tutorial Island.",
-    "skill_requirements": [],
-    "quest_requirements": [],
-    "item_requirements": [],
-    "rewards": [
-      "1 Quest point",
-      "Access to the Mainland!",
-      "Access to the Lumbridge Home Teleport spell",
-      "A bronze axe, bronze pickaxe, tinderbox, small fishing net, one couple of shrimps, bronze dagger, bronze sword, wooden shield, shortbow, 25 bronze arrows, 25 air runes, 15 mind runes, bucket, pot, one loaf of bread, 6 water runes, 4 earth runes and 2 body runes",
-      "25 coins in the player's bank account"
-    ],
-    "enemies_to_defeat": []
-  },
-  {
-    "category": "free_to_play",
-    "id": "148",
-    "name": "Below Ice Mountain",
-    "difficulty": "Novice",
-    "length": "Short",
-    "quest_points": "1",
-    "series": "N/A",
-    "release_date": "14 April 2021",
-    "url": "https://oldschool.runescape.wiki/w/Below_Ice_Mountain",
-    "start_point": "Talk to Willow on the path south of Ice Mountain.",
-    "skill_requirements": [],
-    "quest_requirements": [],
-    "item_requirements": [
-      "Cooked meat (obtainable during the quest)",
-      "Bread",
-      "Knife",
-      "Beer (obtainable during the quest)"
-    ],
-    "rewards": [
-      "1 Quest point",
-      "2,000 coins",
-      "Access to the Ruins of Camdozaal",
-      "Flex emote",
-      "The ability to make a steak sandwich"
-    ],
-    "enemies_to_defeat": []
-  },
-  {
-    "category": "free_to_play",
     "id": "142",
     "name": "X Marks the Spot",
     "difficulty": "Novice",
@@ -99,26 +27,241 @@
   },
   {
     "category": "free_to_play",
-    "id": "135",
-    "name": "The Corsair Curse",
-    "difficulty": "Intermediate",
-    "length": "Short",
-    "quest_points": "2",
+    "id": "13",
+    "name": "Witch's Potion",
+    "difficulty": "Novice",
+    "length": "Very Short",
+    "quest_points": "1",
     "series": "N/A",
-    "release_date": "7 December 2017",
-    "url": "https://oldschool.runescape.wiki/w/The_Corsair_Curse",
-    "start_point": "Talk to Captain Tock at the crossroads north of Port Sarim.",
+    "release_date": "6 April 2001",
+    "url": "https://oldschool.runescape.wiki/w/Witch%27s_Potion",
+    "start_point": "Talk to Hetty in her house in Rimmington, south of Falador and west of Port Sarim.",
     "skill_requirements": [],
     "quest_requirements": [],
     "item_requirements": [
-      "Spade (obtainable during quest)",
-      "Tinderbox (obtainable during quest)"
+      "Burnt meat",
+      "Eye of newt",
+      "Onion",
+      "Rat's tail (only obtainable after starting the quest)"
     ],
     "rewards": [
-      "2 Quest points",
-      "Access to Yusuf's bank in the Corsair Cove.",
-      "The ability to dock your Boat at the Corsair Cove Port"
+      "1 Quest point",
+      "325 Magic experience"
     ],
+    "enemies_to_defeat": []
+  },
+  {
+    "category": "free_to_play",
+    "id": "8",
+    "name": "Vampyre Slayer",
+    "difficulty": "Intermediate",
+    "length": "Very Short",
+    "quest_points": "3",
+    "series": "N/A",
+    "release_date": "28 January 2001",
+    "url": "https://oldschool.runescape.wiki/w/Vampyre_Slayer",
+    "start_point": "Talk to Morgan in his house in Draynor Village, just north of Ned's house.",
+    "skill_requirements": [],
+    "quest_requirements": [],
+    "item_requirements": [
+      "Hammer (can be bought from the general store just north of the Blue Moon Inn for 1 coin)",
+      "Beer (obtainable during the quest for 2 coins)",
+      "Stake (obtained during the quest)"
+    ],
+    "rewards": [],
+    "enemies_to_defeat": []
+  },
+  {
+    "category": "free_to_play",
+    "id": "178",
+    "name": "The Ides of Milk",
+    "difficulty": "Novice",
+    "length": "Short",
+    "quest_points": "1",
+    "series": "N/A",
+    "release_date": "25 February 2026",
+    "url": "https://oldschool.runescape.wiki/w/The_Ides_of_Milk",
+    "start_point": "Talk to Cassius by the Lumbridge pond.",
+    "skill_requirements": [],
+    "quest_requirements": [],
+    "item_requirements": [],
+    "rewards": [
+      "1 Quest point",
+      "Access to Brutus, the cow boss.",
+      "Additional rewards from Gillie Groats:"
+    ],
+    "enemies_to_defeat": []
+  },
+  {
+    "category": "free_to_play",
+    "id": "6",
+    "name": "Shield of Arrav",
+    "difficulty": "Novice",
+    "length": "Short",
+    "quest_points": "1",
+    "series": "N/A",
+    "release_date": "4 January 2001",
+    "url": "https://oldschool.runescape.wiki/w/Shield_of_Arrav",
+    "start_point": "Talk to Reldo in the Varrock library, located within the northern end of Varrock Castle.",
+    "skill_requirements": [],
+    "quest_requirements": [],
+    "item_requirements": [
+      "Phoenix Gang: 20 coins",
+      "Black Arm Gang: 2 Phoenix crossbows (obtained during the quest)"
+    ],
+    "rewards": [
+      "1 Quest point",
+      "600 coins",
+      "Ability to claim 5 Kudos and an Antique lamp rewarding 1,000 XP in any skill of at least level 20 from Historian Minas after completion of the quest (members only)"
+    ],
+    "enemies_to_defeat": [
+      "Black Arm Gang: Weaponsmaster (level 23)",
+      "Phoenix Gang: Jonny the Beard (level 2)"
+    ]
+  },
+  {
+    "category": "free_to_play",
+    "id": "5",
+    "name": "Sheep Shearer",
+    "difficulty": "Novice",
+    "length": "Very Short",
+    "quest_points": "1",
+    "series": "N/A",
+    "release_date": "4 January 2001",
+    "url": "https://oldschool.runescape.wiki/w/Sheep_Shearer",
+    "start_point": "Talk to Fred the Farmer in the house by the sheep pen north of Lumbridge Castle.",
+    "skill_requirements": [],
+    "quest_requirements": [],
+    "item_requirements": [
+      "20 balls of wool (unnoted)"
+    ],
+    "rewards": [
+      "1 Quest point",
+      "150 Crafting experience (An additional 50 experience if you make the balls of wool on a spinning wheel instead of buying it yourself)",
+      "60 coins"
+    ],
+    "enemies_to_defeat": []
+  },
+  {
+    "category": "free_to_play",
+    "id": "51",
+    "name": "Rune Mysteries",
+    "difficulty": "Novice",
+    "length": "Short",
+    "quest_points": "1",
+    "series": "Order of Wizards, #1",
+    "release_date": "29 March 2004",
+    "url": "https://oldschool.runescape.wiki/w/Rune_Mysteries",
+    "start_point": "Talk to Duke Horacio on the 1st floor[UK]2nd floor[US] of Lumbridge Castle.",
+    "skill_requirements": [],
+    "quest_requirements": [],
+    "item_requirements": [
+      "Air talisman (is given for free at the start of the quest)"
+    ],
+    "rewards": [
+      "1 Quest point",
+      "The ability to mine rune essence",
+      "An air talisman",
+      "The ability to use lamps and books of knowledge from random events on Runecraft",
+      "Completing this quest awards the player with 5 Kudos which can be claimed by talking to Historian Minas in the Varrock Museum."
+    ],
+    "enemies_to_defeat": []
+  },
+  {
+    "category": "free_to_play",
+    "id": "4",
+    "name": "Romeo & Juliet",
+    "difficulty": "Novice",
+    "length": "Short",
+    "quest_points": "5",
+    "series": "N/A",
+    "release_date": "4 January 2001",
+    "url": "https://oldschool.runescape.wiki/w/Romeo_%26_Juliet",
+    "start_point": "Talk to Romeo in Varrock Square.",
+    "skill_requirements": [],
+    "quest_requirements": [],
+    "item_requirements": [
+      "Cadava berries (obtainable during the quest)"
+    ],
+    "rewards": [
+      "5 Quest points"
+    ],
+    "enemies_to_defeat": []
+  },
+  {
+    "category": "free_to_play",
+    "id": "3",
+    "name": "The Restless Ghost",
+    "difficulty": "Novice",
+    "length": "Short",
+    "quest_points": "1",
+    "series": "N/A",
+    "release_date": "4 January 2001",
+    "url": "https://oldschool.runescape.wiki/w/The_Restless_Ghost",
+    "start_point": "Talk to Father Aereck in the chapel south-east of Lumbridge Castle.",
+    "skill_requirements": [],
+    "quest_requirements": [],
+    "item_requirements": [],
+    "rewards": [],
+    "enemies_to_defeat": []
+  },
+  {
+    "category": "free_to_play",
+    "id": "10",
+    "name": "Prince Ali Rescue",
+    "difficulty": "Novice",
+    "length": "Short",
+    "quest_points": "3",
+    "series": "Kharidian, #1",
+    "release_date": "28 February 2001",
+    "url": "https://oldschool.runescape.wiki/w/Prince_Ali_Rescue",
+    "start_point": "Talk to Hassan in the palace at Al Kharid.",
+    "skill_requirements": [],
+    "quest_requirements": [],
+    "item_requirements": [
+      "Soft clay",
+      "3 balls of wool",
+      "Yellow dye or 2 onions and 5 coins",
+      "Redberries",
+      "Ashes",
+      "Bucket of water or jug of water (obtainable during quest)",
+      "Pot of flour",
+      "Bronze bar",
+      "Pink skirt",
+      "3 beers",
+      "Rope (can be bought during the quest from Ned for 18 coins)",
+      "30-40 coins for the Al Kharid toll gate if not using teleports to and from Al Kharid"
+    ],
+    "rewards": [
+      "3 Quest points",
+      "700 coins",
+      "Free passage through the Lumbridge - Al Kharid toll gate from now on.",
+      "(Members) Access to the Sorceress's Garden Thieving minigame.",
+      "(Members) Use of the window shortcut at the rear of Al Kharid Palace (requires 70 Agility)."
+    ],
+    "enemies_to_defeat": []
+  },
+  {
+    "category": "free_to_play",
+    "id": "16",
+    "name": "Pirate's Treasure",
+    "difficulty": "Novice",
+    "length": "Very Short",
+    "quest_points": "2",
+    "series": "N/A",
+    "release_date": "11 June 2001",
+    "url": "https://oldschool.runescape.wiki/w/Pirate%27s_Treasure",
+    "start_point": "Talk to Redbeard Frank at the northernmost dock at Port Sarim, just outside The Rusty Anchor.",
+    "skill_requirements": [],
+    "quest_requirements": [],
+    "item_requirements": [
+      "Karamjan rum (obtainable during the quest for 30 coins)",
+      "White apron (obtainable during the quest in Port Sarim at Gerrant's Fishy Business.)",
+      "60 coins (only 30 are needed if using a Ring of charos(a))",
+      "10 bananas (obtainable during the quest)",
+      "Spade (obtainable during the quest)"
+    ],
+    "rewards": [],
     "enemies_to_defeat": []
   },
   {
@@ -150,26 +293,137 @@
   },
   {
     "category": "free_to_play",
-    "id": "51",
-    "name": "Rune Mysteries",
+    "id": "0",
+    "name": "Learning the Ropes",
     "difficulty": "Novice",
-    "length": "Short",
+    "length": "Very Short",
     "quest_points": "1",
-    "series": "Order of Wizards, #1",
-    "release_date": "29 March 2004",
-    "url": "https://oldschool.runescape.wiki/w/Rune_Mysteries",
-    "start_point": "Talk to Duke Horacio on the 1st floor[UK]2nd floor[US] of Lumbridge Castle.",
+    "series": "N/A",
+    "release_date": "22 October 2025",
+    "url": "https://oldschool.runescape.wiki/w/Learning_the_Ropes",
+    "start_point": "Talk to the Quest Guide on Tutorial Island.",
     "skill_requirements": [],
     "quest_requirements": [],
+    "item_requirements": [],
+    "rewards": [
+      "1 Quest point",
+      "Access to the Mainland!",
+      "Access to the Lumbridge Home Teleport spell",
+      "A bronze axe, bronze pickaxe, tinderbox, small fishing net, one couple of shrimps, bronze dagger, bronze sword, wooden shield, shortbow, 25 bronze arrows, 25 air runes, 15 mind runes, bucket, pot, one loaf of bread, 6 water runes, 4 earth runes and 2 body runes",
+      "25 coins in the player's bank account"
+    ],
+    "enemies_to_defeat": []
+  },
+  {
+    "category": "free_to_play",
+    "id": "14",
+    "name": "The Knight's Sword",
+    "difficulty": "Intermediate",
+    "length": "Short",
+    "quest_points": "1",
+    "series": "N/A",
+    "release_date": "6 April 2001",
+    "url": "https://oldschool.runescape.wiki/w/The_Knight%27s_Sword",
+    "start_point": "Talk to the squire in the courtyard of the White Knights' Castle in Falador.",
+    "skill_requirements": [
+      {
+        "skill": "Mining",
+        "level": 10,
+        "boostable": true
+      }
+    ],
+    "quest_requirements": [],
     "item_requirements": [
-      "Air talisman (is given for free at the start of the quest)"
+      "Redberry pie (not half a redberry pie)",
+      "2 or 4 iron bars (4 if you want your own blurite sword)",
+      "1-3 Blurite ore (obtained during the quest) - optionally an additional ore each for your own blurite sword and the Falador easy diary (Members only)",
+      "Any pickaxe (one spawns in Rimmington)"
     ],
     "rewards": [
       "1 Quest point",
-      "The ability to mine rune essence",
-      "An air talisman",
-      "The ability to use lamps and books of knowledge from random events on Runecraft",
-      "Completing this quest awards the player with 5 Kudos which can be claimed by talking to Historian Minas in the Varrock Museum."
+      "12,725 Smithing experience",
+      "A blurite sword (if you got Thurgo to make you an extra one)",
+      "The ability to smelt blurite ore into blurite bars (members only)"
+    ],
+    "enemies_to_defeat": []
+  },
+  {
+    "category": "free_to_play",
+    "id": "9",
+    "name": "Imp Catcher",
+    "difficulty": "Novice",
+    "length": "Short",
+    "quest_points": "1",
+    "series": "N/A",
+    "release_date": "16 February 2001",
+    "url": "https://oldschool.runescape.wiki/w/Imp_Catcher",
+    "start_point": "Talk to Wizard Mizgog on the top floor of the Wizards' Tower.",
+    "skill_requirements": [],
+    "quest_requirements": [],
+    "item_requirements": [
+      "Black bead",
+      "Yellow bead",
+      "Red bead",
+      "White bead"
+    ],
+    "rewards": [
+      "1 Quest point",
+      "875 Magic experience",
+      "The amulet of accuracy",
+      "After the quest players can obtain more amulets by speaking to Wizard Mizgog with a complete set of beads."
+    ],
+    "enemies_to_defeat": [
+      "Multiple imps (level 2) (optional unless ironman)"
+    ]
+  },
+  {
+    "category": "free_to_play",
+    "id": "15",
+    "name": "Goblin Diplomacy",
+    "difficulty": "Novice",
+    "length": "Very Short",
+    "quest_points": "5",
+    "series": "N/A",
+    "release_date": "8 May 2001",
+    "url": "https://oldschool.runescape.wiki/w/Goblin_Diplomacy",
+    "start_point": "Talk to General Bentnoze or General Wartface in Goblin Village.",
+    "skill_requirements": [],
+    "quest_requirements": [],
+    "item_requirements": [
+      "3 sets of Goblin mail (obtained during the quest)",
+      "1 Blue dye (or 2 woad leaves and 5 coins to obtain a blue dye from Aggie)",
+      "1 Orange dye – created by combining red dye with yellow dye"
+    ],
+    "rewards": [],
+    "enemies_to_defeat": []
+  },
+  {
+    "category": "free_to_play",
+    "id": "7",
+    "name": "Ernest the Chicken",
+    "difficulty": "Novice",
+    "length": "Very Short",
+    "quest_points": "4",
+    "series": "N/A",
+    "release_date": "21 January 2001",
+    "url": "https://oldschool.runescape.wiki/w/Ernest_the_Chicken",
+    "start_point": "Talk to Veronica, south of Draynor Manor by the gate.",
+    "skill_requirements": [],
+    "quest_requirements": [
+      {
+        "name": "Skeleton",
+        "url": "https://oldschool.runescape.wiki/w/Skeleton"
+      }
+    ],
+    "item_requirements": [
+      "Spade (obtainable during the quest)",
+      "Fish food (obtainable during the quest)",
+      "Poison (obtainable during the quest)"
+    ],
+    "rewards": [
+      "4 Quest points",
+      "300 Coins",
+      "Access to the Killerwatt Plane (Members only)"
     ],
     "enemies_to_defeat": []
   },
@@ -236,103 +490,102 @@
   },
   {
     "category": "free_to_play",
-    "id": "16",
-    "name": "Pirate's Treasure",
+    "id": "11",
+    "name": "Doric's Quest",
     "difficulty": "Novice",
     "length": "Very Short",
-    "quest_points": "2",
+    "quest_points": "1",
     "series": "N/A",
-    "release_date": "11 June 2001",
-    "url": "https://oldschool.runescape.wiki/w/Pirate%27s_Treasure",
-    "start_point": "Talk to Redbeard Frank at the northernmost dock at Port Sarim, just outside The Rusty Anchor.",
+    "release_date": "6 April 2001",
+    "url": "https://oldschool.runescape.wiki/w/Doric%27s_Quest",
+    "start_point": "Talk to Doric in the small house north of Falador, just outside the east gate of Taverley.",
     "skill_requirements": [],
     "quest_requirements": [],
     "item_requirements": [
-      "Karamjan rum (obtainable during the quest for 30 coins)",
-      "White apron (obtainable during the quest in Port Sarim at Gerrant's Fishy Business.)",
-      "60 coins (only 30 are needed if using a Ring of charos(a))",
-      "10 bananas (obtainable during the quest)",
-      "Spade (obtainable during the quest)"
+      "6 clay (not soft clay)",
+      "4 copper ores",
+      "2 iron ores"
     ],
-    "rewards": [],
+    "rewards": [
+      "1 Quest point",
+      "1,300 Mining experience",
+      "180 coins",
+      "The ability to use Doric's anvils",
+      "Bronze pickaxe given at the start of the quest"
+    ],
     "enemies_to_defeat": []
   },
   {
     "category": "free_to_play",
-    "id": "15",
-    "name": "Goblin Diplomacy",
+    "id": "2",
+    "name": "Demon Slayer",
     "difficulty": "Novice",
-    "length": "Very Short",
-    "quest_points": "5",
-    "series": "N/A",
-    "release_date": "8 May 2001",
-    "url": "https://oldschool.runescape.wiki/w/Goblin_Diplomacy",
-    "start_point": "Talk to General Bentnoze or General Wartface in Goblin Village.",
+    "length": "Short",
+    "quest_points": "3",
+    "series": "Demon Slayer, #1",
+    "release_date": "4 January 2001",
+    "url": "https://oldschool.runescape.wiki/w/Demon_Slayer",
+    "start_point": "Talk to Aris in the tent on the western side of Varrock Square.",
     "skill_requirements": [],
     "quest_requirements": [],
     "item_requirements": [
-      "3 sets of Goblin mail (obtained during the quest)",
-      "1 Blue dye (or 2 woad leaves and 5 coins to obtain a blue dye from Aggie)",
-      "1 Orange dye – created by combining red dye with yellow dye"
+      "A water container, such as a bucket of water (obtainable during the quest)",
+      "25 bones (can't be noted, but can be delivered in increments)",
+      "1 coin"
     ],
-    "rewards": [],
+    "rewards": [
+      "3 Quest points",
+      "Silverlight (if lost, players may retrieve it from Sir Prysin for a fee of 500 coins.)",
+      "5 Kudos, which members can claim by talking to Historian Minas in the Varrock Museum"
+    ],
     "enemies_to_defeat": []
   },
   {
     "category": "free_to_play",
-    "id": "14",
-    "name": "The Knight's Sword",
+    "id": "135",
+    "name": "The Corsair Curse",
     "difficulty": "Intermediate",
     "length": "Short",
-    "quest_points": "1",
+    "quest_points": "2",
     "series": "N/A",
-    "release_date": "6 April 2001",
-    "url": "https://oldschool.runescape.wiki/w/The_Knight%27s_Sword",
-    "start_point": "Talk to the squire in the courtyard of the White Knights' Castle in Falador.",
-    "skill_requirements": [
-      {
-        "skill": "Mining",
-        "level": 10,
-        "boostable": true
-      }
-    ],
+    "release_date": "7 December 2017",
+    "url": "https://oldschool.runescape.wiki/w/The_Corsair_Curse",
+    "start_point": "Talk to Captain Tock at the crossroads north of Port Sarim.",
+    "skill_requirements": [],
     "quest_requirements": [],
     "item_requirements": [
-      "Redberry pie (not half a redberry pie)",
-      "2 or 4 iron bars (4 if you want your own blurite sword)",
-      "1-3 Blurite ore (obtained during the quest) - optionally an additional ore each for your own blurite sword and the Falador easy diary (Members only)",
-      "Any pickaxe (one spawns in Rimmington)"
+      "Spade (obtainable during quest)",
+      "Tinderbox (obtainable during quest)"
     ],
     "rewards": [
-      "1 Quest point",
-      "12,725 Smithing experience",
-      "A blurite sword (if you got Thurgo to make you an extra one)",
-      "The ability to smelt blurite ore into blurite bars (members only)"
+      "2 Quest points",
+      "Access to Yusuf's bank in the Corsair Cove.",
+      "The ability to dock your Boat at the Corsair Cove Port"
     ],
     "enemies_to_defeat": []
   },
   {
     "category": "free_to_play",
-    "id": "13",
-    "name": "Witch's Potion",
+    "id": "1",
+    "name": "Cook's Assistant",
     "difficulty": "Novice",
     "length": "Very Short",
     "quest_points": "1",
     "series": "N/A",
-    "release_date": "6 April 2001",
-    "url": "https://oldschool.runescape.wiki/w/Witch%27s_Potion",
-    "start_point": "Talk to Hetty in her house in Rimmington, south of Falador and west of Port Sarim.",
+    "release_date": "4 January 2001",
+    "url": "https://oldschool.runescape.wiki/w/Cook%27s_Assistant",
+    "start_point": "Talk to the Cook in the kitchen of Lumbridge Castle.",
     "skill_requirements": [],
     "quest_requirements": [],
     "item_requirements": [
-      "Burnt meat",
-      "Eye of newt",
-      "Onion",
-      "Rat's tail (only obtainable after starting the quest)"
+      "Egg (can be obtained during the quest)",
+      "Bucket of milk",
+      "Pot of flour"
     ],
     "rewards": [
       "1 Quest point",
-      "325 Magic experience"
+      "300 Cooking experience",
+      "Permission to use the Cook-o-matic 100, which reduces the chance of burning some foods."
     ],
     "enemies_to_defeat": []
   },
@@ -364,282 +617,29 @@
   },
   {
     "category": "free_to_play",
-    "id": "11",
-    "name": "Doric's Quest",
+    "id": "148",
+    "name": "Below Ice Mountain",
     "difficulty": "Novice",
-    "length": "Very Short",
+    "length": "Short",
     "quest_points": "1",
     "series": "N/A",
-    "release_date": "6 April 2001",
-    "url": "https://oldschool.runescape.wiki/w/Doric%27s_Quest",
-    "start_point": "Talk to Doric in the small house north of Falador, just outside the east gate of Taverley.",
+    "release_date": "14 April 2021",
+    "url": "https://oldschool.runescape.wiki/w/Below_Ice_Mountain",
+    "start_point": "Talk to Willow on the path south of Ice Mountain.",
     "skill_requirements": [],
     "quest_requirements": [],
     "item_requirements": [
-      "6 clay (not soft clay)",
-      "4 copper ores",
-      "2 iron ores"
+      "Cooked meat (obtainable during the quest)",
+      "Bread",
+      "Knife",
+      "Beer (obtainable during the quest)"
     ],
     "rewards": [
       "1 Quest point",
-      "1,300 Mining experience",
-      "180 coins",
-      "The ability to use Doric's anvils",
-      "Bronze pickaxe given at the start of the quest"
-    ],
-    "enemies_to_defeat": []
-  },
-  {
-    "category": "free_to_play",
-    "id": "10",
-    "name": "Prince Ali Rescue",
-    "difficulty": "Novice",
-    "length": "Short",
-    "quest_points": "3",
-    "series": "Kharidian, #1",
-    "release_date": "28 February 2001",
-    "url": "https://oldschool.runescape.wiki/w/Prince_Ali_Rescue",
-    "start_point": "Talk to Hassan in the palace at Al Kharid.",
-    "skill_requirements": [],
-    "quest_requirements": [],
-    "item_requirements": [
-      "Soft clay",
-      "3 balls of wool",
-      "Yellow dye or 2 onions and 5 coins",
-      "Redberries",
-      "Ashes",
-      "Bucket of water or jug of water (obtainable during quest)",
-      "Pot of flour",
-      "Bronze bar",
-      "Pink skirt",
-      "3 beers",
-      "Rope (can be bought during the quest from Ned for 18 coins)",
-      "30-40 coins for the Al Kharid toll gate if not using teleports to and from Al Kharid"
-    ],
-    "rewards": [
-      "3 Quest points",
-      "700 coins",
-      "Free passage through the Lumbridge - Al Kharid toll gate from now on.",
-      "(Members) Access to the Sorceress's Garden Thieving minigame.",
-      "(Members) Use of the window shortcut at the rear of Al Kharid Palace (requires 70 Agility)."
-    ],
-    "enemies_to_defeat": []
-  },
-  {
-    "category": "free_to_play",
-    "id": "9",
-    "name": "Imp Catcher",
-    "difficulty": "Novice",
-    "length": "Short",
-    "quest_points": "1",
-    "series": "N/A",
-    "release_date": "16 February 2001",
-    "url": "https://oldschool.runescape.wiki/w/Imp_Catcher",
-    "start_point": "Talk to Wizard Mizgog on the top floor of the Wizards' Tower.",
-    "skill_requirements": [],
-    "quest_requirements": [],
-    "item_requirements": [
-      "Black bead",
-      "Yellow bead",
-      "Red bead",
-      "White bead"
-    ],
-    "rewards": [
-      "1 Quest point",
-      "875 Magic experience",
-      "The amulet of accuracy",
-      "After the quest players can obtain more amulets by speaking to Wizard Mizgog with a complete set of beads."
-    ],
-    "enemies_to_defeat": [
-      "Multiple imps (level 2) (optional unless ironman)"
-    ]
-  },
-  {
-    "category": "free_to_play",
-    "id": "8",
-    "name": "Vampyre Slayer",
-    "difficulty": "Intermediate",
-    "length": "Very Short",
-    "quest_points": "3",
-    "series": "N/A",
-    "release_date": "28 January 2001",
-    "url": "https://oldschool.runescape.wiki/w/Vampyre_Slayer",
-    "start_point": "Talk to Morgan in his house in Draynor Village, just north of Ned's house.",
-    "skill_requirements": [],
-    "quest_requirements": [],
-    "item_requirements": [
-      "Hammer (can be bought from the general store just north of the Blue Moon Inn for 1 coin)",
-      "Beer (obtainable during the quest for 2 coins)",
-      "Stake (obtained during the quest)"
-    ],
-    "rewards": [],
-    "enemies_to_defeat": []
-  },
-  {
-    "category": "free_to_play",
-    "id": "7",
-    "name": "Ernest the Chicken",
-    "difficulty": "Novice",
-    "length": "Very Short",
-    "quest_points": "4",
-    "series": "N/A",
-    "release_date": "21 January 2001",
-    "url": "https://oldschool.runescape.wiki/w/Ernest_the_Chicken",
-    "start_point": "Talk to Veronica, south of Draynor Manor by the gate.",
-    "skill_requirements": [],
-    "quest_requirements": [
-      {
-        "name": "Skeleton",
-        "url": "https://oldschool.runescape.wiki/w/Skeleton"
-      }
-    ],
-    "item_requirements": [
-      "Spade (obtainable during the quest)",
-      "Fish food (obtainable during the quest)",
-      "Poison (obtainable during the quest)"
-    ],
-    "rewards": [
-      "4 Quest points",
-      "300 Coins",
-      "Access to the Killerwatt Plane (Members only)"
-    ],
-    "enemies_to_defeat": []
-  },
-  {
-    "category": "free_to_play",
-    "id": "3",
-    "name": "The Restless Ghost",
-    "difficulty": "Novice",
-    "length": "Short",
-    "quest_points": "1",
-    "series": "N/A",
-    "release_date": "4 January 2001",
-    "url": "https://oldschool.runescape.wiki/w/The_Restless_Ghost",
-    "start_point": "Talk to Father Aereck in the chapel south-east of Lumbridge Castle.",
-    "skill_requirements": [],
-    "quest_requirements": [],
-    "item_requirements": [],
-    "rewards": [],
-    "enemies_to_defeat": []
-  },
-  {
-    "category": "free_to_play",
-    "id": "5",
-    "name": "Sheep Shearer",
-    "difficulty": "Novice",
-    "length": "Very Short",
-    "quest_points": "1",
-    "series": "N/A",
-    "release_date": "4 January 2001",
-    "url": "https://oldschool.runescape.wiki/w/Sheep_Shearer",
-    "start_point": "Talk to Fred the Farmer in the house by the sheep pen north of Lumbridge Castle.",
-    "skill_requirements": [],
-    "quest_requirements": [],
-    "item_requirements": [
-      "20 balls of wool (unnoted)"
-    ],
-    "rewards": [
-      "1 Quest point",
-      "150 Crafting experience (An additional 50 experience if you make the balls of wool on a spinning wheel instead of buying it yourself)",
-      "60 coins"
-    ],
-    "enemies_to_defeat": []
-  },
-  {
-    "category": "free_to_play",
-    "id": "6",
-    "name": "Shield of Arrav",
-    "difficulty": "Novice",
-    "length": "Short",
-    "quest_points": "1",
-    "series": "N/A",
-    "release_date": "4 January 2001",
-    "url": "https://oldschool.runescape.wiki/w/Shield_of_Arrav",
-    "start_point": "Talk to Reldo in the Varrock library, located within the northern end of Varrock Castle.",
-    "skill_requirements": [],
-    "quest_requirements": [],
-    "item_requirements": [
-      "Phoenix Gang: 20 coins",
-      "Black Arm Gang: 2 Phoenix crossbows (obtained during the quest)"
-    ],
-    "rewards": [
-      "1 Quest point",
-      "600 coins",
-      "Ability to claim 5 Kudos and an Antique lamp rewarding 1,000 XP in any skill of at least level 20 from Historian Minas after completion of the quest (members only)"
-    ],
-    "enemies_to_defeat": [
-      "Black Arm Gang: Weaponsmaster (level 23)",
-      "Phoenix Gang: Jonny the Beard (level 2)"
-    ]
-  },
-  {
-    "category": "free_to_play",
-    "id": "2",
-    "name": "Demon Slayer",
-    "difficulty": "Novice",
-    "length": "Short",
-    "quest_points": "3",
-    "series": "Demon Slayer, #1",
-    "release_date": "4 January 2001",
-    "url": "https://oldschool.runescape.wiki/w/Demon_Slayer",
-    "start_point": "Talk to Aris in the tent on the western side of Varrock Square.",
-    "skill_requirements": [],
-    "quest_requirements": [],
-    "item_requirements": [
-      "A water container, such as a bucket of water (obtainable during the quest)",
-      "25 bones (can't be noted, but can be delivered in increments)",
-      "1 coin"
-    ],
-    "rewards": [
-      "3 Quest points",
-      "Silverlight (if lost, players may retrieve it from Sir Prysin for a fee of 500 coins.)",
-      "5 Kudos, which members can claim by talking to Historian Minas in the Varrock Museum"
-    ],
-    "enemies_to_defeat": []
-  },
-  {
-    "category": "free_to_play",
-    "id": "4",
-    "name": "Romeo & Juliet",
-    "difficulty": "Novice",
-    "length": "Short",
-    "quest_points": "5",
-    "series": "N/A",
-    "release_date": "4 January 2001",
-    "url": "https://oldschool.runescape.wiki/w/Romeo_%26_Juliet",
-    "start_point": "Talk to Romeo in Varrock Square.",
-    "skill_requirements": [],
-    "quest_requirements": [],
-    "item_requirements": [
-      "Cadava berries (obtainable during the quest)"
-    ],
-    "rewards": [
-      "5 Quest points"
-    ],
-    "enemies_to_defeat": []
-  },
-  {
-    "category": "free_to_play",
-    "id": "1",
-    "name": "Cook's Assistant",
-    "difficulty": "Novice",
-    "length": "Very Short",
-    "quest_points": "1",
-    "series": "N/A",
-    "release_date": "4 January 2001",
-    "url": "https://oldschool.runescape.wiki/w/Cook%27s_Assistant",
-    "start_point": "Talk to the Cook in the kitchen of Lumbridge Castle.",
-    "skill_requirements": [],
-    "quest_requirements": [],
-    "item_requirements": [
-      "Egg (can be obtained during the quest)",
-      "Bucket of milk",
-      "Pot of flour"
-    ],
-    "rewards": [
-      "1 Quest point",
-      "300 Cooking experience",
-      "Permission to use the Cook-o-matic 100, which reduces the chance of burning some foods."
+      "2,000 coins",
+      "Access to the Ruins of Camdozaal",
+      "Flex emote",
+      "The ability to make a steak sandwich"
     ],
     "enemies_to_defeat": []
   },
