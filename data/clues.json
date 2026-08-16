@@ -1,7 +1,7 @@
 {
   "meta": {
     "source": "https://oldschool.runescape.wiki",
-    "generated_at": "2026-08-09T04:53:17Z"
+    "generated_at": "2026-08-16T04:23:02Z"
   },
   "anagrams": [
     {
@@ -1054,7 +1054,7 @@
     {
       "cipher": "ECRVCKP MJCNGF",
       "decoded": "Captain Khaled",
-      "npc": "Large eastern building in Port Piscarilius. The reminisce teleport fisher's flute in the Book of the dead takes you to just west of the building.",
+      "npc": "Large eastern building in Port Piscarilius. The reminisce teleport fisher's flute in the Book of the Dead takes you to just west of the building.",
       "challenge_answer": "5"
     },
     {
@@ -5200,7 +5200,7 @@
       "clue": "Bow in the Iorwerth Camp. Beware of double agents! Equip a charged crystal bow.",
       "items": [
         "Crystal bow",
-        "Bow of faerdhinen"
+        "Bow of Faerdhinen"
       ],
       "notes": "Bow near the stools at the south-eastern fire in the Iorwerth Camp. Works with any amount of charges left on the bow, or the Bow of Faerdhinen.",
       "map_image_url": "https://oldschool.runescape.wiki/images/thumb/Emote_clue_-_bow_near_lord_iorwerth.png/150px-Emote_clue_-_bow_near_lord_iorwerth.png?c450f"
