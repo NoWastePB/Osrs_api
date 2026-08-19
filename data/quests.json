@@ -9993,6 +9993,7 @@
     "rewards": [
       "5 Quest points",
       "Three ancient lamps, each offering 100,000 experience in Attack, Strength, Defence, Hitpoints, Ranged, Magic, or Prayer at level 60 or above.",
+      "The ability to smelt Chromium ingots at the Blast Furnace; the first bar smelted gives 35,000 Smithing XP.",
       "Access to Scar essence mine",
       "Ring of shadows",
       "The ability to wear ancient rings.",
@@ -11176,7 +11177,7 @@
       {
         "skill": "Mining",
         "level": 53,
-        "boostable": true
+        "boostable": false
       }
     ],
     "quest_requirements": [
