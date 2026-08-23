@@ -1,7 +1,7 @@
 {
   "meta": {
     "source": "https://oldschool.runescape.wiki",
-    "generated_at": "2026-08-16T04:23:02Z"
+    "generated_at": "2026-08-23T04:25:07Z"
   },
   "anagrams": [
     {
@@ -1054,7 +1054,7 @@
     {
       "cipher": "ECRVCKP MJCNGF",
       "decoded": "Captain Khaled",
-      "npc": "Large eastern building in Port Piscarilius. The reminisce teleport fisher's flute in the Book of the Dead takes you to just west of the building.",
+      "npc": "Large eastern building in Port Piscarilius. The reminisce teleport The Fisher's Flute in Kharedst's memoirs/the Book of the Dead takes you to just west of the building.",
       "challenge_answer": "5"
     },
     {
@@ -3563,7 +3563,7 @@
     {
       "difficulty": "hard",
       "clue": "The magic of 4 colours, an early experience you could learn. The large beast caged up top, rages, as his demised kin's loot now returns.",
-      "solution": "Speak to Wizard Mizgog at the top of the Wizards' Tower south of Draynor. Fairy ring code DIS takes you to the wizard's tower. The Amulet of the eye allows easy access to the wizard tower basement, use it to teleport to the Temple of the Eye and then leave via the portal.",
+      "solution": "Speak to Wizard Mizgog at the top of the Wizards' Tower south of Draynor. Fairy ring code DIS takes you to the wizard's tower. The Amulet of the Eye allows easy access to the wizard tower basement, use it to teleport to the Temple of the Eye and then leave via the portal.",
       "extra": ""
     },
     {
@@ -5027,11 +5027,11 @@
     },
     {
       "difficulty": "elite",
-      "clue": "Headbang at the top of the Slayer Tower. Equip a seercull, a combat bracelet, and helm of neitiznot.",
+      "clue": "Headbang at the top of the Slayer Tower. Equip a seercull, a combat bracelet, and helm of Neitiznot.",
       "items": [
         "Seercull",
         "Combat bracelet",
-        "Helm of neitiznot"
+        "Helm of Neitiznot"
       ],
       "notes": "Equipping the Helm of Neitiznot requires completion of The Fremennik Isles. If taking shortcuts to the top, it is advised to have a nosepeg or Slayer helmet in order to avoid stat draining from aberrant spectres.",
       "map_image_url": "https://oldschool.runescape.wiki/images/thumb/Emote_clue_-_headbang_top_of_slayer_tower.png/150px-Emote_clue_-_headbang_top_of_slayer_tower.png?72ace"
@@ -5189,7 +5189,7 @@
       "difficulty": "master",
       "clue": "Bow in front of the cave on Brittle Isle. Beware of double agents! Equip a medallion of the deep and a rosewood blowpipe.",
       "items": [
-        "Medallion of the deep",
+        "Medallion of the Deep",
         "Rosewood blowpipe"
       ],
       "notes": "81 Sailing and a boat with an eternal brazier are required to dock at Brittle Isle. At least one dart (adamant or lower) must be loaded in the blowpipe in order to equip it.",
@@ -5350,20 +5350,20 @@
       "clue": "Slap your head in the centre of the Kourend catacombs. Beware of double agents! Equip arclight or emberlight along with the amulet of the damned.",
       "items": [
         "Arclight",
-        "Amulet of the damned"
+        "Amulet of the Damned"
       ],
       "notes": "Kourend Castle Teleport teleports the player directly to the Catacombs' main entrance. Partially charged items work. An Emberlight or an inactive Arclight will work for this step.",
       "map_image_url": "https://oldschool.runescape.wiki/images/thumb/Emote_clue_-_slap_head_kourend_catacombs.png/150px-Emote_clue_-_slap_head_kourend_catacombs.png?af3ae"
     },
     {
       "difficulty": "master",
-      "clue": "Spin in front of the Soul Altar. Beware of double agents! Equip a dragon pickaxe, helm of neitiznot and a pair of rune boots.",
+      "clue": "Spin in front of the Soul Altar. Beware of double agents! Equip a dragon pickaxe, helm of Neitiznot and a pair of rune boots.",
       "items": [
         "Dragon pickaxe",
-        "Helm of neitiznot",
+        "Helm of Neitiznot",
         "Rune boots"
       ],
-      "notes": "Completion of The Fremennik Isles is required to wear the helm of neitiznot. The neitiznot faceguard can't be used. Any variant of a dragon pickaxe will work, as well as a crystal pickaxe.",
+      "notes": "Completion of The Fremennik Isles is required to wear the helm of Neitiznot. The neitiznot faceguard can't be used. Any variant of a dragon pickaxe will work, as well as a crystal pickaxe.",
       "map_image_url": "https://oldschool.runescape.wiki/images/thumb/Emote_clue_-_spin_Soul_Altar.png/150px-Emote_clue_-_spin_Soul_Altar.png?ae361"
     },
     {
