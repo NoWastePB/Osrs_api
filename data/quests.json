@@ -11145,9 +11145,9 @@
       "Alan's bones can be picked up from just south of the temple (if the player is wearing the Bonecrusher necklace the bones will automatically be buried and the player will receive 1.5 prayer xp)."
     ],
     "enemies_to_defeat": [
-      "Large chicken (level 16)",
-      "Black jaguar (level 88) - can be safespotted",
-      "Red dragon (level 106) - can be safespotted"
+      "Large chicken (level 16) - can be recoiled",
+      "Black jaguar (level 88) - can be safespotted or recoiled",
+      "Red dragon (level 106) - can be safespotted or recoiled"
     ]
   },
   {
