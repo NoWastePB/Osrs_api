@@ -1,7 +1,7 @@
 {
   "meta": {
     "source": "https://oldschool.runescape.wiki",
-    "generated_at": "2026-08-23T04:25:07Z"
+    "generated_at": "2026-08-30T09:30:45Z"
   },
   "anagrams": [
     {
@@ -1043,109 +1043,127 @@
     {
       "cipher": "ESBZOPS QJH QFO",
       "decoded": "Draynor Pig Pen",
-      "npc": "Draynor Village, north of the market."
+      "npc": "+1",
+      "challenge_answer": "Draynor Village, north of the market."
     },
     {
       "cipher": "BMJ UIF LFCBC TFMMFS",
       "decoded": "Ali the Kebab seller (Known as Isma'il The Kebab Seller after The Feud quest)",
-      "npc": "Pollnivneach",
-      "challenge_answer": "399"
+      "npc": "+1",
+      "challenge_answer": "Pollnivneach",
+      "location": "399"
     },
     {
       "cipher": "ECRVCKP MJCNGF",
       "decoded": "Captain Khaled",
-      "npc": "Large eastern building in Port Piscarilius. The reminisce teleport The Fisher's Flute in Kharedst's memoirs/the Book of the Dead takes you to just west of the building.",
-      "challenge_answer": "5"
+      "npc": "+2",
+      "challenge_answer": "Large eastern building in Port Piscarilius. The reminisce teleport The Fisher's Flute in Kharedst's memoirs/the Book of the Dead takes you to just west of the building.",
+      "location": "5"
     },
     {
       "cipher": "GUHCHO",
       "decoded": "Drezel",
-      "npc": "Paterdomus Temple; Drezel can be found in the cave north of the Paterdomus Temple, which lies next to Canifis. Drezel is also an NPC for several quests (fairy code CKS and then go north-west to the end of the bridge, where you can climb down the trapdoor to find Drezel)",
-      "challenge_answer": "7"
+      "npc": "+3",
+      "challenge_answer": "Paterdomus Temple; Drezel can be found in the cave north of the Paterdomus Temple, which lies next to Canifis. Drezel is also an NPC for several quests (fairy code CKS and then go north-west to the end of the bridge, where you can climb down the trapdoor to find Drezel)",
+      "location": "7"
     },
     {
       "cipher": "HQNM LZM STSNQ",
       "decoded": "Ironman tutor",
-      "npc": "Lumbridge",
-      "challenge_answer": "666"
+      "npc": "-1",
+      "challenge_answer": "Lumbridge",
+      "location": "666"
     },
     {
       "cipher": "QSPGFTTPS HSBDLMFCPOF",
       "decoded": "Professor Gracklebone",
-      "npc": "Arceuus Library, ground floor[UK]1st floor[US] (fairy ring code CIS)",
-      "challenge_answer": "9"
+      "npc": "+1",
+      "challenge_answer": "Arceuus Library, ground floor[UK]1st floor[US] (fairy ring code CIS)",
+      "location": "9"
     },
     {
       "cipher": "XJABSE USBJCPSO",
       "decoded": "Wizard Traiborn",
-      "npc": "Wizards' Tower, 1st floor[UK]2nd floor[US] (fairy ring code DIS)",
-      "challenge_answer": "3150"
+      "npc": "+1",
+      "challenge_answer": "Wizards' Tower, 1st floor[UK]2nd floor[US] (fairy ring code DIS)",
+      "location": "3150"
     },
     {
       "cipher": "BSOPME MZETQPS",
       "decoded": "Arnold Lydspor",
-      "npc": "Piscatoris Fishing Colony general store/bank (requires completion of Swan Song) (North of fairy ring AKQ)",
-      "challenge_answer": "Puzzle box"
+      "npc": "+1",
+      "challenge_answer": "Piscatoris Fishing Colony general store/bank (requires completion of Swan Song) (North of fairy ring AKQ)",
+      "location": "Puzzle box"
     },
     {
       "cipher": "BXJA UNJMNA YRCAR",
       "decoded": "Soar Leader Pitri",
-      "npc": "1st floor[UK]2nd floor[US] of the Hunter Guild (requires completion of Children of the Sun) (North-west of fairy ring AJP)",
-      "challenge_answer": "Puzzle box"
+      "npc": "+9",
+      "challenge_answer": "1st floor[UK]2nd floor[US] of the Hunter Guild (requires completion of Children of the Sun) (North-west of fairy ring AJP)",
+      "location": "Puzzle box"
     },
     {
       "cipher": "GBJSZ RVFFO",
       "decoded": "Fairy Queen",
-      "npc": "Fairy Resistance Hideout (requires Fairytale II - Cure a Queen quest to be finished, use a fairy ring with the codes AIR, DLR, DJQ, and AJS in that order)",
-      "challenge_answer": "Puzzle box"
+      "npc": "+1",
+      "challenge_answer": "Fairy Resistance Hideout (requires Fairytale II - Cure a Queen quest to be finished, use a fairy ring with the codes AIR, DLR, DJQ, and AJS in that order)",
+      "location": "Puzzle box"
     },
     {
       "cipher": "HCKTA IQFHCVJGT",
       "decoded": "Fairy Godfather",
-      "npc": "Zanaris throne room (requires you to have started Fairytale I - Growing Pains)",
-      "challenge_answer": "64"
+      "npc": "+2",
+      "challenge_answer": "Zanaris throne room (requires you to have started Fairytale I - Growing Pains)",
+      "location": "64"
     },
     {
       "cipher": "IWPPLQTP",
       "decoded": "Gunnjorn",
-      "npc": "Barbarian Outpost Agility course",
-      "challenge_answer": "Puzzle box"
+      "npc": "+2",
+      "challenge_answer": "Barbarian Outpost Agility course",
+      "location": "Puzzle box"
     },
     {
       "cipher": "OVEXON",
       "decoded": "Eluned",
-      "npc": "Outside Lletya or north-east of the Tyras Camp; requires you to have started Regicide quest (after talking to the Elf Tracker). After completion of Song of the Elves, she can be found in the city of Prifddinas north of the dye trader.",
-      "challenge_answer": "53,000"
+      "npc": "+10",
+      "challenge_answer": "Outside Lletya or north-east of the Tyras Camp; requires you to have started Regicide quest (after talking to the Elf Tracker). After completion of Song of the Elves, she can be found in the city of Prifddinas north of the dye trader.",
+      "location": "53,000"
     },
     {
       "cipher": "UZZU MUJHRKYYKJ",
       "decoded": "Otto Godblessed",
-      "npc": "Otto's Grotto",
-      "challenge_answer": "3"
+      "npc": "+6",
+      "challenge_answer": "Otto's Grotto",
+      "location": "3"
     },
     {
       "cipher": "VTYR APCNTGLW",
       "decoded": "King Percival",
-      "npc": "Fisher Realm - requires partial completion of the Holy Grail quest (fairy ring code BJR, then run south up into the castle). He can be found on the second story of the castle.",
-      "challenge_answer": "5"
+      "npc": "+11",
+      "challenge_answer": "Fisher Realm - requires partial completion of the Holy Grail quest (fairy ring code BJR, then run south up into the castle). He can be found on the second story of the castle.",
+      "location": "5"
     },
     {
       "cipher": "YAROYGR",
       "decoded": "Sulisal",
-      "npc": "Sulisal's Superb Fishing Store in Kastori",
-      "challenge_answer": "4"
+      "npc": "+6",
+      "challenge_answer": "Sulisal's Superb Fishing Store in Kastori",
+      "location": "4"
     },
     {
       "cipher": "ZHLUG ROG PDQ",
       "decoded": "Weird Old Man",
-      "npc": "Kalphite Lair entrance (north-west of fairy ring BIQ)",
-      "challenge_answer": "150"
+      "npc": "+3",
+      "challenge_answer": "Kalphite Lair entrance (north-west of fairy ring BIQ)",
+      "location": "150"
     },
     {
       "cipher": "ZSBKDO ZODO",
       "decoded": "Pirate Pete",
-      "npc": "On the dock north-east of the Ectofuntus",
-      "challenge_answer": "Puzzle box"
+      "npc": "+10",
+      "challenge_answer": "On the dock north-east of the Ectofuntus",
+      "location": "Puzzle box"
     }
   ],
   "coordinates": [
@@ -4671,7 +4689,7 @@
         "Ruby amulet",
         "Steel platelegs"
       ],
-      "notes": "Pendant of ates teleport to Twilight Temple, or Quetzal Transport System to Salvager Overlook and head east towards the East Salvager Overlook mine.",
+      "notes": "Pendant of Ates teleport to Twilight Temple, or Quetzal Transport System to Salvager Overlook and head east towards the East Salvager Overlook mine.",
       "map_image_url": "https://oldschool.runescape.wiki/images/thumb/Emote_clue_-_Jump_for_Joy_Twlight_Temple_mine.png/150px-Emote_clue_-_Jump_for_Joy_Twlight_Temple_mine.png?c9536"
     },
     {
@@ -4703,7 +4721,7 @@
         "Blue wizard hat",
         "Blue wizard robe"
       ],
-      "notes": "Pendant of ates teleport to Twilight Temple, then run north-west past the Tower of Ascension to the end of the River Ortus.",
+      "notes": "Pendant of Ates teleport to Twilight Temple, then run north-west past the Tower of Ascension to the end of the River Ortus.",
       "map_image_url": "https://oldschool.runescape.wiki/images/thumb/Emote_clue_-_Yes_Proudspire.png/150px-Emote_clue_-_Yes_Proudspire.png?4c7cc"
     },
     {
