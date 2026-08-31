@@ -1697,8 +1697,8 @@
     ],
     "rewards": [
       "2 Quest points",
-      "15,300 Mining exp",
-      "2,000 Herblore exp",
+      "15,300 Mining experience",
+      "2,000 Herblore experience",
       "2 gold bars",
       "Giving the museum curator the Level 3 certificate allows you to pick between something to drink (Fruit blast) or something to eat (chocolate cake). You will lose the reward if you exit the dialogue after he has taken your certificate but before you have chosen the reward. You do not need to give him the other two certificates to receive the reward. Get the cake for Desert Treasure I or the fruit blast for Recipe for Disaster.",
       "The ability to do Varrock Museum specimen cleaning to obtain a Digsite pendant.",
@@ -6420,8 +6420,8 @@
     "item_requirements": [
       "2 Tarromin potion (unf) or 2 vials of water and 2 tarromins",
       "Seed dibber (leprechaun is nearby). Not needed if the Farming portion of the Barbarian Training miniquest is completed",
-      "Watering can with at least 1 dose (can also be stored with the leprechaun)",
-      "Any axe",
+      "Watering can or Gricoller's can with at least 1 dose (can also be stored with the leprechaun)",
+      "Any axe (a felling axe does work)",
       "Leather gloves (obtainable during quest, optional if willing to take 17 damage)",
       "High healing food",
       "Good armour and a weapon (Ranged or Magic equipment recommended if you have low melee levels)"
