@@ -384298,5 +384298,475 @@
         }
       ]
     }
+  },
+  {
+    "id": 34404,
+    "name": "Air diamond",
+    "examine": "I wonder if I could use this to dry clothes quicker.",
+    "members": true,
+    "limit": null,
+    "value": 20000,
+    "high_alch": 12000,
+    "low_alch": 8000,
+    "wiki": {
+      "released": "2 September 2026 ( Update )",
+      "members": "Yes",
+      "quest_item": null,
+      "tradeable": "Yes",
+      "equipable": "No",
+      "stackable": "No",
+      "noteable": "Yes",
+      "options": "Drop",
+      "examine": "I wonder if I could use this to dry clothes quicker.",
+      "value": "20,000 coins",
+      "high_alch": "12,000 coins",
+      "low_alch": "8,000 coins",
+      "weight": "0.001 kg",
+      "combat_stats": {},
+      "sources": [
+        {
+          "source": "Killerwatt",
+          "level": "55",
+          "quantity": "1",
+          "rarity": "1/64",
+          "league_region": ""
+        }
+      ]
+    }
+  },
+  {
+    "id": 34425,
+    "name": "Amulet of fire",
+    "examine": "I hope my clothes don't catch on fire.",
+    "members": true,
+    "limit": null,
+    "value": 21000,
+    "high_alch": 12600,
+    "low_alch": 8400,
+    "wiki": {
+      "released": "2 September 2026 ( Update )",
+      "members": "Yes",
+      "quest_item": null,
+      "tradeable": "Yes",
+      "equipable": "Yes",
+      "stackable": "No",
+      "noteable": "Yes",
+      "options": "Wear, Drop",
+      "examine": "I hope my clothes don't catch on fire.",
+      "value": "21,000 coins",
+      "high_alch": "12,600 coins",
+      "low_alch": "8,400 coins",
+      "weight": "0.107 kg",
+      "combat_stats": {
+        "attack_bonuses": {
+          "stab": 0,
+          "slash": 0,
+          "crush": 0,
+          "magic": 10,
+          "ranged": 0
+        },
+        "defence_bonuses": {
+          "stab": 0,
+          "slash": 0,
+          "crush": 0,
+          "magic": 0,
+          "ranged": 0
+        },
+        "other_bonuses": {
+          "strength": 0,
+          "ranged": 0,
+          "magic_damage": 0,
+          "prayer": 0
+        },
+        "slot": "neck"
+      },
+      "sources": []
+    }
+  },
+  {
+    "id": 34419,
+    "name": "Amulet of earth",
+    "examine": "Heavy is the amulet.",
+    "members": true,
+    "limit": null,
+    "value": 21000,
+    "high_alch": 12600,
+    "low_alch": 8400,
+    "wiki": {
+      "released": "2 September 2026 ( Update )",
+      "members": "Yes",
+      "quest_item": null,
+      "tradeable": "Yes",
+      "equipable": "Yes",
+      "stackable": "No",
+      "noteable": "Yes",
+      "options": "Wear, Drop",
+      "examine": "Heavy is the amulet.",
+      "value": "21,000 coins",
+      "high_alch": "12,600 coins",
+      "low_alch": "8,400 coins",
+      "weight": "2 kg",
+      "combat_stats": {
+        "attack_bonuses": {
+          "stab": 0,
+          "slash": 0,
+          "crush": 0,
+          "magic": 10,
+          "ranged": 0
+        },
+        "defence_bonuses": {
+          "stab": 0,
+          "slash": 0,
+          "crush": 0,
+          "magic": 0,
+          "ranged": 0
+        },
+        "other_bonuses": {
+          "strength": 0,
+          "ranged": 0,
+          "magic_damage": 0,
+          "prayer": 0
+        },
+        "slot": "neck"
+      },
+      "sources": []
+    }
+  },
+  {
+    "id": 34407,
+    "name": "Amulet of air",
+    "examine": "Might be as light as a feather.",
+    "members": true,
+    "limit": null,
+    "value": 21000,
+    "high_alch": 12600,
+    "low_alch": 8400,
+    "wiki": {
+      "released": "2 September 2026 ( Update )",
+      "members": "Yes",
+      "quest_item": null,
+      "tradeable": "Yes",
+      "equipable": "Yes",
+      "stackable": "No",
+      "noteable": "Yes",
+      "options": "Wear, Drop",
+      "examine": "Might be as light as a feather.",
+      "value": "21,000 coins",
+      "high_alch": "12,600 coins",
+      "low_alch": "8,400 coins",
+      "weight": "0.101 kg",
+      "combat_stats": {
+        "attack_bonuses": {
+          "stab": 0,
+          "slash": 0,
+          "crush": 0,
+          "magic": 10,
+          "ranged": 0
+        },
+        "defence_bonuses": {
+          "stab": 0,
+          "slash": 0,
+          "crush": 0,
+          "magic": 0,
+          "ranged": 0
+        },
+        "other_bonuses": {
+          "strength": 0,
+          "ranged": 0,
+          "magic_damage": 0,
+          "prayer": 0
+        },
+        "slot": "neck"
+      },
+      "sources": []
+    }
+  },
+  {
+    "id": 34413,
+    "name": "Amulet of water",
+    "examine": "I'm going to get my clothes wet wearing this.",
+    "members": true,
+    "limit": null,
+    "value": 21000,
+    "high_alch": 12600,
+    "low_alch": 8400,
+    "wiki": {
+      "released": "2 September 2026 ( Update )",
+      "members": "Yes",
+      "quest_item": null,
+      "tradeable": "Yes",
+      "equipable": "Yes",
+      "stackable": "No",
+      "noteable": "Yes",
+      "options": "Wear, Drop",
+      "examine": "I'm going to get my clothes wet wearing this.",
+      "value": "21,000 coins",
+      "high_alch": "12,600 coins",
+      "low_alch": "8,400 coins",
+      "weight": "0.107 kg",
+      "combat_stats": {
+        "attack_bonuses": {
+          "stab": 0,
+          "slash": 0,
+          "crush": 0,
+          "magic": 10,
+          "ranged": 0
+        },
+        "defence_bonuses": {
+          "stab": 0,
+          "slash": 0,
+          "crush": 0,
+          "magic": 0,
+          "ranged": 0
+        },
+        "other_bonuses": {
+          "strength": 0,
+          "ranged": 0,
+          "magic_damage": 0,
+          "prayer": 0
+        },
+        "slot": "neck"
+      },
+      "sources": []
+    }
+  },
+  {
+    "id": 34416,
+    "name": "Earth emerald",
+    "examine": "This seems rather heavy for a gem.",
+    "members": true,
+    "limit": null,
+    "value": 20000,
+    "high_alch": 12000,
+    "low_alch": 8000,
+    "wiki": {
+      "released": "2 September 2026 ( Update )",
+      "members": "Yes",
+      "quest_item": null,
+      "tradeable": "Yes",
+      "equipable": "No",
+      "stackable": "No",
+      "noteable": "Yes",
+      "options": "Drop",
+      "examine": "This seems rather heavy for a gem.",
+      "value": "20,000 coins",
+      "high_alch": "12,000 coins",
+      "low_alch": "8,000 coins",
+      "weight": "1 kg",
+      "combat_stats": {},
+      "sources": [
+        {
+          "source": "Molanisk",
+          "level": "51",
+          "quantity": "1",
+          "rarity": "1/64",
+          "league_region": ""
+        }
+      ]
+    }
+  },
+  {
+    "id": 34428,
+    "name": "Elemental amulet",
+    "examine": "Water, earth, fire, air. The four elements living together in harmony.",
+    "members": true,
+    "limit": null,
+    "value": 84000,
+    "high_alch": 50400,
+    "low_alch": 33600,
+    "wiki": {
+      "released": "2 September 2026 ( Update )",
+      "members": "Yes",
+      "quest_item": null,
+      "tradeable": "Yes",
+      "equipable": "Yes",
+      "stackable": "No",
+      "noteable": "Yes",
+      "options": "Wear, Drop",
+      "examine": "Water, earth, fire, air. The four elements living together in harmony.",
+      "value": "84,000 coins",
+      "high_alch": "50,400 coins",
+      "low_alch": "33,600 coins",
+      "weight": "0.007 kg",
+      "combat_stats": {
+        "attack_bonuses": {
+          "stab": 0,
+          "slash": 0,
+          "crush": 0,
+          "magic": 10,
+          "ranged": 0
+        },
+        "defence_bonuses": {
+          "stab": 0,
+          "slash": 0,
+          "crush": 0,
+          "magic": 0,
+          "ranged": 0
+        },
+        "other_bonuses": {
+          "strength": 0,
+          "ranged": 0,
+          "magic_damage": 0,
+          "prayer": 0
+        },
+        "slot": "neck"
+      },
+      "sources": []
+    }
+  },
+  {
+    "id": 34422,
+    "name": "Fire ruby",
+    "examine": "Rather hot to the touch, maybe I could start a fire with this.",
+    "members": true,
+    "limit": null,
+    "value": 20000,
+    "high_alch": 12000,
+    "low_alch": 8000,
+    "wiki": {
+      "released": "2 September 2026 ( Update )",
+      "members": "Yes",
+      "quest_item": null,
+      "tradeable": "Yes",
+      "equipable": "No",
+      "stackable": "No",
+      "noteable": "Yes",
+      "options": "Drop",
+      "examine": "Rather hot to the touch, maybe I could start a fire with this.",
+      "value": "20,000 coins",
+      "high_alch": "12,000 coins",
+      "low_alch": "8,000 coins",
+      "weight": "0.1 kg",
+      "combat_stats": {},
+      "sources": [
+        {
+          "source": "Infernal Mage",
+          "level": "66",
+          "quantity": "1",
+          "rarity": "1/64",
+          "league_region": ""
+        },
+        {
+          "source": "Malevolent Mage",
+          "level": "162",
+          "quantity": "1",
+          "rarity": "3 × 1/64",
+          "league_region": ""
+        }
+      ]
+    }
+  },
+  {
+    "id": 34401,
+    "name": "Necklace of fangs",
+    "examine": "Toothy, and makes for decent arrowheads in a pinch.",
+    "members": true,
+    "limit": null,
+    "value": 50000,
+    "high_alch": 30000,
+    "low_alch": 20000,
+    "wiki": {
+      "released": "2 September 2026 ( Update )",
+      "members": "Yes",
+      "quest_item": null,
+      "tradeable": "Yes",
+      "equipable": "Yes",
+      "stackable": "No",
+      "noteable": "Yes",
+      "options": "Wear, Drop",
+      "examine": "Toothy, and makes for decent arrowheads in a pinch.",
+      "value": "50,000 coins",
+      "high_alch": "30,000 coins",
+      "low_alch": "20,000 coins",
+      "weight": "0.01 kg",
+      "combat_stats": {
+        "attack_bonuses": {
+          "stab": 0,
+          "slash": 0,
+          "crush": 0,
+          "magic": 0,
+          "ranged": 12
+        },
+        "defence_bonuses": {
+          "stab": 0,
+          "slash": 0,
+          "crush": 0,
+          "magic": 0,
+          "ranged": 0
+        },
+        "other_bonuses": {
+          "strength": 0,
+          "ranged": 1,
+          "magic_damage": 0,
+          "prayer": 0
+        },
+        "slot": "neck"
+      },
+      "sources": [
+        {
+          "source": "Turoth",
+          "level": "83; 85; 87; 89",
+          "quantity": "1",
+          "rarity": "1/129",
+          "league_region": ""
+        },
+        {
+          "source": "Spiked Turoth",
+          "level": "244",
+          "quantity": "1",
+          "rarity": "3 × 1/128",
+          "league_region": ""
+        }
+      ]
+    }
+  },
+  {
+    "id": 34410,
+    "name": "Water sapphire",
+    "examine": "Who needs a watering can these days.",
+    "members": true,
+    "limit": null,
+    "value": 20000,
+    "high_alch": 12000,
+    "low_alch": 8000,
+    "wiki": {
+      "released": "2 September 2026 ( Update )",
+      "members": "Yes",
+      "quest_item": null,
+      "tradeable": "Yes",
+      "equipable": "No",
+      "stackable": "No",
+      "noteable": "Yes",
+      "options": "Drop",
+      "examine": "Who needs a watering can these days.",
+      "value": "20,000 coins",
+      "high_alch": "12,000 coins",
+      "low_alch": "8,000 coins",
+      "weight": "0.1 kg",
+      "combat_stats": {},
+      "sources": [
+        {
+          "source": "Sea Snake Hatchling",
+          "level": "62",
+          "quantity": "1",
+          "rarity": "1/64",
+          "league_region": ""
+        },
+        {
+          "source": "Sea Snake Young",
+          "level": "90",
+          "quantity": "1",
+          "rarity": "1/64",
+          "league_region": ""
+        },
+        {
+          "source": "Giant Sea Snake",
+          "level": "149",
+          "quantity": "1",
+          "rarity": "1/64",
+          "league_region": ""
+        }
+      ]
+    }
   }
 ]
