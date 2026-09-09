@@ -3473,7 +3473,8 @@
       "2,500 Crafting experience",
       "1,500 Magic experience",
       "1,500 Thieving experience",
-      "1,500 Firemaking experience"
+      "1,500 Firemaking experience",
+      "Ability to do more delivery tasks for the director whose company you joined in exchange for coins."
     ],
     "enemies_to_defeat": []
   },
@@ -11210,6 +11211,136 @@
       "3 mountain trolls (level 69)",
       "Mad Angel (level 270)"
     ]
+  },
+  {
+    "category": "members",
+    "id": "182",
+    "name": "A Ruff Situation",
+    "difficulty": "Novice",
+    "length": "Short",
+    "quest_points": "1",
+    "series": "N/A",
+    "release_date": "8 September 2026",
+    "url": "https://oldschool.runescape.wiki/w/A_Ruff_Situation",
+    "start_point": "Talk to Talia in the camp just south-west of the Edgeville Monastery.",
+    "skill_requirements": [
+      {
+        "skill": "Crafting",
+        "level": 15,
+        "boostable": true
+      }
+    ],
+    "quest_requirements": [],
+    "item_requirements": [
+      "Either a needle or a costume needle",
+      "Thread. Not required if using costume needle.",
+      "Fur, bear fur, gray wolf fur, or fox fur. Can be purchased from Baraek for 20 coins in Varrock Square.",
+      "Grain (obtainable during quest)"
+    ],
+    "rewards": [
+      "1 Quest point",
+      "1,000 Crafting experience",
+      "Access to puppies, which can be grown into dogs."
+    ],
+    "enemies_to_defeat": []
+  },
+  {
+    "category": "members",
+    "id": "183",
+    "name": "Crab Quest",
+    "difficulty": "Intermediate",
+    "length": "Short",
+    "quest_points": "1",
+    "series": "N/A",
+    "release_date": "8 September 2026",
+    "url": "https://oldschool.runescape.wiki/w/Crab_Quest",
+    "start_point": "Sail to Dognose Island (north-west of the Great Conch) and drink from the strange bottle to start the quest.",
+    "skill_requirements": [
+      {
+        "skill": "Sailing",
+        "level": 40,
+        "boostable": true
+      },
+      {
+        "skill": "Fishing",
+        "level": 30,
+        "boostable": true
+      }
+    ],
+    "quest_requirements": [],
+    "item_requirements": [],
+    "rewards": [
+      "1 Quest point",
+      "10,000 Sailing experience",
+      "3,000 Fishing experience",
+      "The Shell collection, that can be unpacked into a set of seven shells that can play notes which are audible for other players, allowing you to play music in-game."
+    ],
+    "enemies_to_defeat": []
+  },
+  {
+    "category": "members",
+    "id": "182",
+    "name": "A Ruff Situation/Quick guide",
+    "difficulty": "Novice",
+    "length": "Short",
+    "quest_points": "1",
+    "series": "N/A",
+    "release_date": "8 September 2026",
+    "url": "https://oldschool.runescape.wiki/w/A_Ruff_Situation/Quick_guide",
+    "start_point": "Talk to Talia in the camp just south-west of the Edgeville Monastery.",
+    "skill_requirements": [
+      {
+        "skill": "Crafting",
+        "level": 15,
+        "boostable": true
+      }
+    ],
+    "quest_requirements": [],
+    "item_requirements": [
+      "Either a needle or a costume needle",
+      "Thread",
+      "Fur, bear fur, Gray wolf fur, or fox fur. Can be purchased from Baraek for 20 coins in Varrock Square.",
+      "Grain (obtainable during quest)"
+    ],
+    "rewards": [
+      "1 Quest point",
+      "1,000 Crafting experience",
+      "Access to puppies, which can be grown into dogs."
+    ],
+    "enemies_to_defeat": []
+  },
+  {
+    "category": "members",
+    "id": "183",
+    "name": "Crab Quest/Quick guide",
+    "difficulty": "Intermediate",
+    "length": "Short",
+    "quest_points": "1",
+    "series": "N/A",
+    "release_date": "8 September 2026",
+    "url": "https://oldschool.runescape.wiki/w/Crab_Quest/Quick_guide",
+    "start_point": "Sail To Dognose Island (north-west of the Great Conch) and drink from the strange bottle to start the quest.",
+    "skill_requirements": [
+      {
+        "skill": "Sailing",
+        "level": 40,
+        "boostable": true
+      },
+      {
+        "skill": "Fishing",
+        "level": 30,
+        "boostable": true
+      }
+    ],
+    "quest_requirements": [],
+    "item_requirements": [],
+    "rewards": [
+      "1 Quest point",
+      "10,000 Sailing experience",
+      "3,000 Fishing experience",
+      "The shell collection, that can be unpacked into a set of seven shells that can play notes which are audible for other players, allowing you to play music in-game."
+    ],
+    "enemies_to_defeat": []
   },
   {
     "category": "miniquest",
