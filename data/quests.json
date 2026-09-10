@@ -11234,8 +11234,8 @@
     "item_requirements": [
       "Either a needle or a costume needle",
       "Thread. Not required if using costume needle.",
-      "Fur, bear fur, gray wolf fur, or fox fur. Can be purchased from Baraek for 20 coins in Varrock Square.",
-      "Grain (obtainable during quest)"
+      "Fur, bear fur, grey wolf fur, fox fur, or jaguar fur. Can be purchased from Baraek for 20 coins in Varrock Square.",
+      "Grain. Can be picked from the nearby wheat field north of the Cooks' Guild."
     ],
     "rewards": [
       "1 Quest point",
@@ -11279,47 +11279,15 @@
   },
   {
     "category": "members",
-    "id": "182",
-    "name": "A Ruff Situation/Quick guide",
-    "difficulty": "Novice",
-    "length": "Short",
-    "quest_points": "1",
-    "series": "N/A",
-    "release_date": "8 September 2026",
-    "url": "https://oldschool.runescape.wiki/w/A_Ruff_Situation/Quick_guide",
-    "start_point": "Talk to Talia in the camp just south-west of the Edgeville Monastery.",
-    "skill_requirements": [
-      {
-        "skill": "Crafting",
-        "level": 15,
-        "boostable": true
-      }
-    ],
-    "quest_requirements": [],
-    "item_requirements": [
-      "Either a needle or a costume needle",
-      "Thread",
-      "Fur, bear fur, Gray wolf fur, or fox fur. Can be purchased from Baraek for 20 coins in Varrock Square.",
-      "Grain (obtainable during quest)"
-    ],
-    "rewards": [
-      "1 Quest point",
-      "1,000 Crafting experience",
-      "Access to puppies, which can be grown into dogs."
-    ],
-    "enemies_to_defeat": []
-  },
-  {
-    "category": "members",
-    "id": "183",
+    "id": "",
     "name": "Crab Quest/Quick guide",
-    "difficulty": "Intermediate",
-    "length": "Short",
-    "quest_points": "1",
-    "series": "N/A",
-    "release_date": "8 September 2026",
+    "difficulty": "",
+    "length": "data-sort-value=\"\"",
+    "quest_points": "",
+    "series": "",
+    "release_date": "",
     "url": "https://oldschool.runescape.wiki/w/Crab_Quest/Quick_guide",
-    "start_point": "Sail To Dognose Island (north-west of the Great Conch) and drink from the strange bottle to start the quest.",
+    "start_point": "Sail to Dognose Island (north-west of the Great Conch) and drink from the strange bottle to start the quest.",
     "skill_requirements": [
       {
         "skill": "Sailing",
@@ -11338,7 +11306,7 @@
       "1 Quest point",
       "10,000 Sailing experience",
       "3,000 Fishing experience",
-      "The shell collection, that can be unpacked into a set of seven shells that can play notes which are audible for other players, allowing you to play music in-game."
+      "The Shell collection, that can be unpacked into a set of seven shells that can play notes which are audible for other players, allowing you to play music in-game."
     ],
     "enemies_to_defeat": []
   },
