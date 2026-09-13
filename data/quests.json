@@ -2554,7 +2554,7 @@
     ],
     "item_requirements": [
       "Iron bar",
-      "Any common, non-silver ring (such as a gold ring) that you're willing to lose (not onyx/dragonstone/explorer/beacon/'perfect' ring/nature/pineapple/Charos/fremennik/ancient)",
+      "Any common, non-silver ring (such as a gold ring) that you're willing to lose (not onyx/dragonstone/explorer/beacon/'perfect' ring/nature/pineapple/Charos/fremennik/ancient/key)",
       "At least one of the following to gain favour during the quest",
       "Logs (obtainable during the quest if you bring an axe)"
     ],
@@ -11273,7 +11273,7 @@
       "1 Quest point",
       "10,000 Sailing experience",
       "3,000 Fishing experience",
-      "The Shell collection, that can be unpacked into a set of seven shells that can play notes which are audible for other players, allowing you to play music in-game."
+      "The shell collection, that can be unpacked into a set of seven shells that can play notes which are audible for other players, allowing you to play music in-game."
     ],
     "enemies_to_defeat": []
   },
