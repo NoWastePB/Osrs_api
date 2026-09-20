@@ -1,7 +1,7 @@
 {
   "meta": {
     "source": "https://oldschool.runescape.wiki",
-    "generated_at": "2026-09-13T08:34:46Z"
+    "generated_at": "2026-09-20T08:51:22Z"
   },
   "anagrams": [
     {
@@ -4984,7 +4984,7 @@
       "difficulty": "elite",
       "clue": "Bow on the ground floor of the Legend's[sic] guild. Equip Legend's[sic] cape, a dragon battleaxe and an amulet of glory.",
       "items": [
-        "Cape of legends",
+        "Cape of Legends",
         "Dragon battleaxe",
         "Amulet of glory(4)"
       ],
@@ -5290,10 +5290,10 @@
       "clue": "Flap at the Death Altar. Beware of double agents! Equip a death tiara, a legend's cape and any ring of wealth.",
       "items": [
         "Death tiara",
-        "Cape of legends",
+        "Cape of Legends",
         "Ring of wealth"
       ],
-      "notes": "The flap emote requires opening the Gift of Peace at the centre of the Stronghold of Security's first level. Accessing the Death Altar requires completion of Mourning's End Part II, and a Cape of legends can only be obtained after completion of Legends' Quest. Accessing the altar through Guardians of the Rift works for this clue.",
+      "notes": "The flap emote requires opening the Gift of Peace at the centre of the Stronghold of Security's first level. Accessing the Death Altar requires completion of Mourning's End Part II, and a Cape of Legends can only be obtained after completion of Legends' Quest. Accessing the altar through Guardians of the Rift works for this clue.",
       "map_image_url": "https://oldschool.runescape.wiki/images/thumb/Emote_clue_-_flap_at_Death_Altar.png/150px-Emote_clue_-_flap_at_Death_Altar.png?7ea63"
     },
     {
@@ -5335,10 +5335,10 @@
       "difficulty": "master",
       "clue": "Salute outside the gates of Cam Torum. Beware of double agents! Equip a full set of blue moon equipment.",
       "items": [
-        "Blue moon helm",
-        "Blue moon chestplate",
-        "Blue moon tassets",
-        "Blue moon spear"
+        "Blue Moon helm",
+        "Blue Moon chestplate",
+        "Blue Moon tassets",
+        "Blue Moon spear"
       ],
       "notes": "Perform the emote at the entrance to Cam Torum. Used versions of the armour pieces can be used for this clue (but not fully broken).",
       "map_image_url": "https://oldschool.runescape.wiki/images/thumb/Emote_clue_-_salute_Cam_Torum.png/150px-Emote_clue_-_salute_Cam_Torum.png?a7100"
@@ -5348,7 +5348,7 @@
       "clue": "Show your anger at the Wise old man. Beware of double agents! Equip an abyssal whip, a legend's cape and some spined chaps.",
       "items": [
         "Abyssal whip",
-        "Cape of legends",
+        "Cape of Legends",
         "Spined chaps"
       ],
       "notes": "Any whip variant can be used for this clue.",
