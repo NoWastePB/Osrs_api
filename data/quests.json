@@ -7250,7 +7250,7 @@
       "50,000 Hunter experience",
       "2x 50,000 experience rewards from Duke in your choice of Magic, Ranged, Attack, Defence, Strength, or Hitpoints. Found on the hill east of main gate of Ape Atoll. (Walk up west hill, and climb the ladder to reach the east hill). You cannot be trained if you have not yet been trained by Daero after completing Monkey Madness I. This effectively prevents certain account builds from receiving the training. Players must also accept both Duke's and Daero's training in order to make use of the Heavy Ballista.",
       "A Royal seed pod, which provides unlimited teleports to the Grand Tree (up to level 30 Wilderness).",
-      "Access to the Crash Site Cavern containing demonic gorillas.",
+      "Access to the Crash Site Cavern containing demonic gorillas, who drop zenyte shard needed for zenyte jewelry.",
       "Access to a new maniacal monkey hunting area where Glough's laboratory used to be in Kruk's Dungeon.",
       "Access to Ape Atoll bank and Oobapohk's Javelin Store.",
       "Access to new glider spot directly to Ape Atoll.",
@@ -7719,7 +7719,13 @@
       "Bucket of water",
       "Charcoal or ground charcoal (buy in Shilo Village, Jiminua's Jungle Store, or Gunslik's Assorted Items)"
     ],
-    "rewards": [],
+    "rewards": [
+      "1 Quest point",
+      "1,000 Cooking experience",
+      "1,000 Farming experience",
+      "1,000 Crafting experience",
+      "Further access to the Culinaromancer's Chest."
+    ],
     "enemies_to_defeat": []
   },
   {
@@ -7757,7 +7763,13 @@
       "306 coins (300 + 1 coin per ale, 100 instead of 300 if you choose to bring a Ring of Charos(a), 150 instead of 300 if you choose to bring a chocolate bar)",
       "Gloves, If not using gloves make sure to bring Telekinetic Grab spell runes (Ice gloves are the best, but other gloves will work fine too)"
     ],
-    "rewards": [],
+    "rewards": [
+      "1 Quest point",
+      "1,000 Slayer experience",
+      "1,000 Cooking experience",
+      "Further access to the Culinaromancer's Chest",
+      "Ability to obtain additional dwarven rock cakes from Rohak for either 100 coins or the raw ingredients"
+    ],
     "enemies_to_defeat": []
   },
   {
@@ -7802,7 +7814,14 @@
       "Any cat except an overgrown cat (note that each cat has a different effective rat catch rate -- kittens or lazy cats are not recommended)",
       "Several bowls of stew (9 at most)"
     ],
-    "rewards": [],
+    "rewards": [
+      "1 Quest point",
+      "7,000 Cooking experience",
+      "The ability to catch hellrats to get a Hellcat",
+      "The ability to have your cat fight Hell-Rat Behemoths",
+      "The ability to add coloured spices to stew by catching hellrats (Spicy stews can boost and lower certain stats)",
+      "Further access to the Culinaromancer's Chest"
+    ],
     "enemies_to_defeat": []
   },
   {
@@ -7842,7 +7861,17 @@
       "A needle (Costume needle does not work)",
       "3 bronze wire"
     ],
-    "rewards": [],
+    "rewards": [
+      "1 Quest point",
+      "1,000 Cooking experience",
+      "1,000 Crafting experience",
+      "1,000 Fishing experience",
+      "1,000 Smithing experience",
+      "The ability to go diving and fight crabs (you need your diving apparatus)",
+      "The ability to cook crab meat (heals 10 hitpoints in 5 bites)",
+      "The ability to kill crabs to get their shells and claws, which can be made into a helmet and gloves with a chisel",
+      "Further access to the Culinaromancer's Chest"
+    ],
     "enemies_to_defeat": [
       "5 Mudskippers (level 30/31)",
       "Crab (level 21/23)"
@@ -7918,7 +7947,12 @@
       "A pot of flour",
       "A cake tin"
     ],
-    "rewards": [],
+    "rewards": [
+      "1 Quest point",
+      "2,500 Cooking experience",
+      "2,500 Magic experience",
+      "Further access to the Culinaromancer's Chest"
+    ],
     "enemies_to_defeat": []
   },
   {
@@ -8024,7 +8058,13 @@
       "Ice gloves (only required if wanting to take no damage from the flambé. Anti-dragon shield will mitigate most of the damage. (<10)",
       "Raw chicken"
     ],
-    "rewards": [],
+    "rewards": [
+      "1 Quest point",
+      "4,000 Cooking experience",
+      "4,000 Hitpoints experience",
+      "Access to the Evil Chicken's Lair, where you can fight black dragons (The fowl beast himself has moved on to other things.)",
+      "Further access to the Culinaromancer's Chest."
+    ],
     "enemies_to_defeat": [
       "Evil Chicken (level varies) (see below)",
       "Black dragon (level 227)"
@@ -8089,7 +8129,13 @@
       "Knife or slashing weapon",
       "Pestle and mortar"
     ],
-    "rewards": [],
+    "rewards": [
+      "1 Quest point",
+      "10,000 Cooking experience",
+      "10,000 Agility experience",
+      "Ape Atoll Teleport spell",
+      "Further access to the Culinaromancer's Chest"
+    ],
     "enemies_to_defeat": [
       "Big Snake (level 84) - (recommended to kill several as they burn often when cooking)",
       "To obtain the greegrees: Zombie monkey (levels 82/129) Monkey guard (level 167) Monkey archer (level 86)",
@@ -8147,7 +8193,15 @@
       "Ogre bow or comp ogre bow (can be purchased from Rantz during the quest for at most 600 coins)",
       "Ogre arrows Chisel, knife, wolf bones, and feathers if you are making your own ogre arrows (Brutal arrows also work if using a comp ogre bow)"
     ],
-    "rewards": [],
+    "rewards": [
+      "1 Quest point",
+      "1,500 Woodcutting experience",
+      "1,500 Cooking experience",
+      "1,500 Crafting experience",
+      "1,500 Ranged experience",
+      "The ability to use the boat trip to travel between Karamja and the Feldip Hills (you must pay a fee of chompies or exotic herbs)",
+      "Further access to the Culinaromancer's Chest"
+    ],
     "enemies_to_defeat": [
       "Jubbly bird (Level 11)"
     ]
@@ -8520,7 +8574,11 @@
       "Certain armour and weapons for each boss",
       "Good healing food, such as sharks"
     ],
-    "rewards": [],
+    "rewards": [
+      "1 Quest point",
+      "An experience lamp, which grants 20,000 experience to any skill above 50 (can be banked for later use)",
+      "Full access to the Culinaromancer's Chest, containing barrows gloves"
+    ],
     "enemies_to_defeat": [
       "Agrith-Na-Na (level 146)",
       "Flambeed (level 149)",
@@ -9541,6 +9599,7 @@
       "2 Quest points",
       "50,000 Agility experience",
       "Access to the Tombs of Amascut",
+      "Access to Menaphos (upcoming)",
       "A Keris partisan. (If your inventory was full, you may claim one for free from Selim in front of Al Kharid Palace.)",
       "The circlet of water, an untradeable helm that acts like a waterskin when worn. (If your inventory was full, you may claim one for free from the High Priest in Sophanem.)",
       "Access to a fairy ring on a small island south-west of the necropolis, code AKP. (Unlocked when entering the necropolis at the beginning of the quest.)",
@@ -11233,7 +11292,7 @@
     "item_requirements": [
       "Either a needle or a costume needle",
       "Thread. Not required if using costume needle.",
-      "Fur, bear fur, grey wolf fur, fox fur, or jaguar fur. Can be purchased from Baraek for 20 coins in Varrock Square.",
+      "Fur, you can use; Fur, bear fur, grey wolf fur, fox fur, or jaguar fur. Some fur's can be purchased from Baraek for 20 coins in Varrock Square (Fur, Bear Fur, Grey Wolf Fur).",
       "Grain. Can be picked from the nearby wheat field north of the Cooks' Guild."
     ],
     "rewards": [
