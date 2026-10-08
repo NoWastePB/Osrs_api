@@ -1687,7 +1687,7 @@
       "Vial",
       "Tinderbox",
       "Cup of tea (can be stolen from the Varrock tea stall) or nettle tea or cup of tea (nettle)",
-      "2 ropes",
+      "2 ropes (can be pickpocketed from the digsite workman)",
       "Opal or uncut opal (small chance to acquire while panning for a quest item)",
       "Charcoal (obtainable during the quest, but may take some time)",
       "Specimen brush (obtained during the quest)",
@@ -7066,7 +7066,8 @@
       "100 death runes, 100 fire runes, 100 coal, and 100 magic logs can be looted from Movario's base",
       "Elite black armour and Dark Squall robes",
       "Access to the Black Knight Catacombs",
-      "The broav, if kept"
+      "The broav, if kept",
+      "Access to The Fractured Archive raid"
     ],
     "enemies_to_defeat": [
       "2 Assassins (level 167)",
