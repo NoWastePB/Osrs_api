@@ -2178,7 +2178,7 @@
       }
     ],
     "item_requirements": [
-      "5 coal in the bank (although at least 25 is recommended; you may bring the coal noted to save you a bank trip)",
+      "6-9 coal in the bank (although at least 25 is recommended; you may bring the coal noted to save you a bank trip)",
       "Bow and some arrows (or lit fire arrows if you already have some.)",
       "2 ropes (3 in case you fail)",
       "Spade",
@@ -2250,7 +2250,7 @@
       "Small fishing net",
       "Pestle and mortar (obtainable during the quest for 6 gp)",
       "2 Logs to quickly make Poison karambwan at fishing site and to cook Pasty jogre bones later in the quest",
-      "Iron spear, Steel spear, Mithril spear, Adamant spear, Rune spear or Dragon spear which will be consumed during the quest.",
+      "Iron spear, Steel spear, Mithril spear, Adamant spear, Rune spear, or Dragon spear which will be consumed during the quest.",
       "Agility potion(4) (must be 4 doses)",
       "Ranged equipment, Magic equipment, or a halberd to kill a monkey for a monkey corpse (adjacent melee does 0 damage to monkeys)",
       "Tinderbox (If you wish to avoid running back to the range in Brimhaven)",
@@ -3210,6 +3210,11 @@
         "skill": "Slayer",
         "level": 10,
         "boostable": false
+      },
+      {
+        "skill": "Magic",
+        "level": 61,
+        "boostable": true
       }
     ],
     "quest_requirements": [
@@ -3261,7 +3266,7 @@
       "Spice (gnome spice and Evil Dave's spices will not work)",
       "A sweet (cake, chocolate cake (part cakes are accepted), chocolate bar, cooking apple, or pineapple pizza)",
       "Spiked boots (obtainable during the quest by bringing Dunstan climbing boots and an iron bar; do so before attempting to obtain the ice diamond)",
-      "Climbing boots (if Eadgar's Ruse isn't completed and/or you lack 61 Magic for the Trollheim Teleport)",
+      "Climbing boots (unless Eadgar's Ruse is completed and you have 61 Magic for the Trollheim Teleport)",
       "A facemask, slayer helmet, or gas mask",
       "A tinderbox",
       "20-50+ lockpicks"
