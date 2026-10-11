@@ -384768,5 +384768,32 @@
         }
       ]
     }
+  },
+  {
+    "id": 34631,
+    "name": "Net trap",
+    "examine": "A rope tied onto a small net - genius!",
+    "members": true,
+    "limit": null,
+    "value": null,
+    "high_alch": null,
+    "low_alch": null,
+    "wiki": {
+      "released": "21 November 2006 ( Update )",
+      "members": "Yes",
+      "quest_item": null,
+      "tradeable": null,
+      "equipable": null,
+      "stackable": null,
+      "noteable": null,
+      "options": "Dismantle, Investigate",
+      "examine": "Theoretically, it should close around anything that trips the trigger string.",
+      "value": null,
+      "high_alch": null,
+      "low_alch": null,
+      "weight": null,
+      "combat_stats": {},
+      "sources": []
+    }
   }
 ]
