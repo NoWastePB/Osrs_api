@@ -11969,5 +11969,214 @@
       "Access to the Fletching minigame Vale Totems"
     ],
     "enemies_to_defeat": []
+  },
+  {
+    "category": "miniquest",
+    "id": "",
+    "name": "The Fractured Archive",
+    "difficulty": "Grandmaster",
+    "length": "Medium",
+    "quest_points": "N/A",
+    "series": "N/A",
+    "release_date": "20 October 2026",
+    "url": "https://oldschool.runescape.wiki/w/The_Fractured_Archive_(miniquest)",
+    "start_point": "Near the entrance of the Ancient Guthixian Temple.",
+    "skill_requirements": [],
+    "quest_requirements": [
+      {
+        "name": "Defender of Varrock",
+        "url": "https://oldschool.runescape.wiki/w/Defender_of_Varrock"
+      },
+      {
+        "name": "Shield of Arrav",
+        "url": "https://oldschool.runescape.wiki/w/Shield_of_Arrav"
+      },
+      {
+        "name": "Temple of Ikov",
+        "url": "https://oldschool.runescape.wiki/w/Temple_of_Ikov"
+      },
+      {
+        "name": "Below Ice Mountain",
+        "url": "https://oldschool.runescape.wiki/w/Below_Ice_Mountain"
+      },
+      {
+        "name": "Family Crest",
+        "url": "https://oldschool.runescape.wiki/w/Family_Crest"
+      },
+      {
+        "name": "What Lies Below",
+        "url": "https://oldschool.runescape.wiki/w/What_Lies_Below"
+      },
+      {
+        "name": "Romeo & Juliet",
+        "url": "https://oldschool.runescape.wiki/w/Romeo_%26_Juliet"
+      },
+      {
+        "name": "Demon Slayer",
+        "url": "https://oldschool.runescape.wiki/w/Demon_Slayer"
+      },
+      {
+        "name": "Garden of Tranquillity",
+        "url": "https://oldschool.runescape.wiki/w/Garden_of_Tranquillity"
+      },
+      {
+        "name": "Creature of Fenkenstrain",
+        "url": "https://oldschool.runescape.wiki/w/Creature_of_Fenkenstrain"
+      },
+      {
+        "name": "Priest in Peril",
+        "url": "https://oldschool.runescape.wiki/w/Priest_in_Peril"
+      },
+      {
+        "name": "The Restless Ghost",
+        "url": "https://oldschool.runescape.wiki/w/The_Restless_Ghost"
+      },
+      {
+        "name": "The Path of Glouphrie",
+        "url": "https://oldschool.runescape.wiki/w/The_Path_of_Glouphrie"
+      },
+      {
+        "name": "The Eyes of Glouphrie",
+        "url": "https://oldschool.runescape.wiki/w/The_Eyes_of_Glouphrie"
+      },
+      {
+        "name": "The Grand Tree",
+        "url": "https://oldschool.runescape.wiki/w/The_Grand_Tree"
+      },
+      {
+        "name": "Waterfall Quest",
+        "url": "https://oldschool.runescape.wiki/w/Waterfall_Quest"
+      },
+      {
+        "name": "Tree Gnome Village",
+        "url": "https://oldschool.runescape.wiki/w/Tree_Gnome_Village"
+      },
+      {
+        "name": "Fight Arena",
+        "url": "https://oldschool.runescape.wiki/w/Fight_Arena"
+      },
+      {
+        "name": "Dream Mentor",
+        "url": "https://oldschool.runescape.wiki/w/Dream_Mentor"
+      },
+      {
+        "name": "Eadgar's Ruse",
+        "url": "https://oldschool.runescape.wiki/w/Eadgar%27s_Ruse"
+      },
+      {
+        "name": "Druidic Ritual",
+        "url": "https://oldschool.runescape.wiki/w/Druidic_Ritual"
+      },
+      {
+        "name": "Troll Stronghold",
+        "url": "https://oldschool.runescape.wiki/w/Troll_Stronghold"
+      },
+      {
+        "name": "Death Plateau",
+        "url": "https://oldschool.runescape.wiki/w/Death_Plateau"
+      },
+      {
+        "name": "Lunar Diplomacy",
+        "url": "https://oldschool.runescape.wiki/w/Lunar_Diplomacy"
+      },
+      {
+        "name": "The Fremennik Trials",
+        "url": "https://oldschool.runescape.wiki/w/The_Fremennik_Trials"
+      },
+      {
+        "name": "Lost City",
+        "url": "https://oldschool.runescape.wiki/w/Lost_City"
+      },
+      {
+        "name": "Rune Mysteries",
+        "url": "https://oldschool.runescape.wiki/w/Rune_Mysteries"
+      },
+      {
+        "name": "Shilo Village",
+        "url": "https://oldschool.runescape.wiki/w/Shilo_Village"
+      },
+      {
+        "name": "Jungle Potion",
+        "url": "https://oldschool.runescape.wiki/w/Jungle_Potion"
+      },
+      {
+        "name": "The Hand in the Sand",
+        "url": "https://oldschool.runescape.wiki/w/The_Hand_in_the_Sand"
+      },
+      {
+        "name": "Wanted!",
+        "url": "https://oldschool.runescape.wiki/w/Wanted!"
+      },
+      {
+        "name": "Recruitment Drive",
+        "url": "https://oldschool.runescape.wiki/w/Recruitment_Drive"
+      },
+      {
+        "name": "Black Knights' Fortress",
+        "url": "https://oldschool.runescape.wiki/w/Black_Knights%27_Fortress"
+      },
+      {
+        "name": "Druidic Ritual",
+        "url": "https://oldschool.runescape.wiki/w/Druidic_Ritual"
+      },
+      {
+        "name": "The Lost Tribe",
+        "url": "https://oldschool.runescape.wiki/w/The_Lost_Tribe"
+      },
+      {
+        "name": "Goblin Diplomacy",
+        "url": "https://oldschool.runescape.wiki/w/Goblin_Diplomacy"
+      },
+      {
+        "name": "Temple of the Eye",
+        "url": "https://oldschool.runescape.wiki/w/Temple_of_the_Eye"
+      },
+      {
+        "name": "Enter the Abyss",
+        "url": "https://oldschool.runescape.wiki/w/Enter_the_Abyss"
+      },
+      {
+        "name": "Rune Mysteries",
+        "url": "https://oldschool.runescape.wiki/w/Rune_Mysteries"
+      },
+      {
+        "name": "Tears of Guthix",
+        "url": "https://oldschool.runescape.wiki/w/Tears_of_Guthix"
+      },
+      {
+        "name": "Nature Spirit",
+        "url": "https://oldschool.runescape.wiki/w/Nature_Spirit"
+      },
+      {
+        "name": "Priest in Peril",
+        "url": "https://oldschool.runescape.wiki/w/Priest_in_Peril"
+      },
+      {
+        "name": "The Restless Ghost",
+        "url": "https://oldschool.runescape.wiki/w/The_Restless_Ghost"
+      },
+      {
+        "name": "A Tail of Two Cats",
+        "url": "https://oldschool.runescape.wiki/w/A_Tail_of_Two_Cats"
+      },
+      {
+        "name": "Icthlarin's Little Helper",
+        "url": "https://oldschool.runescape.wiki/w/Icthlarin%27s_Little_Helper"
+      },
+      {
+        "name": "Gertrude's Cat",
+        "url": "https://oldschool.runescape.wiki/w/Gertrude%27s_Cat"
+      }
+    ],
+    "item_requirements": [],
+    "rewards": [],
+    "enemies_to_defeat": [
+      "Every boss encountered in the Fractured Archive: Archive Guardian Ezekiel or Bork and the Smorks Moia or Dreadnoth the Jellied Xarth or the Dagon'hai Elder and Dagon'hai Monks Ocellus",
+      "Archive Guardian",
+      "Ezekiel or Bork and the Smorks",
+      "Moia or Dreadnoth the Jellied",
+      "Xarth or the Dagon'hai Elder and Dagon'hai Monks",
+      "Ocellus"
+    ]
   }
 ]
