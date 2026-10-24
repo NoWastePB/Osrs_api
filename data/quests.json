@@ -12169,7 +12169,9 @@
       }
     ],
     "item_requirements": [],
-    "rewards": [],
+    "rewards": [
+      "Access to further runs of The Fractured Archive"
+    ],
     "enemies_to_defeat": [
       "Every boss encountered in the Fractured Archive: Archive Guardian Ezekiel or Bork and the Smorks Moia or Dreadnoth the Jellied Xarth or the Dagon'hai Elder and Dagon'hai Monks Ocellus",
       "Archive Guardian",
