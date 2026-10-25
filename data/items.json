@@ -384795,5 +384795,562 @@
       "combat_stats": {},
       "sources": []
     }
+  },
+  {
+    "id": 34684,
+    "name": "Ascension bolts",
+    "examine": "Bolts chiselled from powerful crystals.",
+    "members": true,
+    "limit": 11000,
+    "value": null,
+    "high_alch": null,
+    "low_alch": null,
+    "wiki": {
+      "released": "20 October 2026 ( Update )",
+      "members": "Yes",
+      "quest_item": null,
+      "tradeable": "Yes",
+      "equipable": "Yes",
+      "stackable": "Yes",
+      "noteable": "No",
+      "options": "Wield, Drop",
+      "examine": "Bolts chiseled from powerful crystals.",
+      "value": "575 coins",
+      "high_alch": "345 coins",
+      "low_alch": "230 coins",
+      "weight": "0 kg",
+      "combat_stats": {
+        "attack_bonuses": {
+          "stab": 0,
+          "slash": 0,
+          "crush": 0,
+          "magic": 0,
+          "ranged": 0
+        },
+        "defence_bonuses": {
+          "stab": 0,
+          "slash": 0,
+          "crush": 0,
+          "magic": 0,
+          "ranged": 0
+        },
+        "other_bonuses": {
+          "strength": 0,
+          "ranged": 53,
+          "magic_damage": 0,
+          "prayer": 0
+        },
+        "slot": "ammo"
+      },
+      "sources": []
+    }
+  },
+  {
+    "id": 34690,
+    "name": "Diamond ascension bolts",
+    "examine": "Bolts chiselled from powerful crystals, tipped with diamond.",
+    "members": true,
+    "limit": null,
+    "value": null,
+    "high_alch": null,
+    "low_alch": null,
+    "wiki": {
+      "released": "20 October 2026 ( Update )",
+      "members": "Yes",
+      "quest_item": null,
+      "tradeable": "Yes",
+      "equipable": "Yes",
+      "stackable": "Yes",
+      "noteable": "No",
+      "options": "Wield, Drop",
+      "examine": "Bolts chiselled from powerful crystals, tipped with diamond.",
+      "value": "1,000 coins",
+      "high_alch": "600 coins",
+      "low_alch": "400 coins",
+      "weight": "0 kg",
+      "combat_stats": {
+        "attack_bonuses": {
+          "stab": 0,
+          "slash": 0,
+          "crush": 0,
+          "magic": 0,
+          "ranged": 0
+        },
+        "defence_bonuses": {
+          "stab": 0,
+          "slash": 0,
+          "crush": 0,
+          "magic": 0,
+          "ranged": 0
+        },
+        "other_bonuses": {
+          "strength": 0,
+          "ranged": 58,
+          "magic_damage": 0,
+          "prayer": 0
+        },
+        "slot": "ammo"
+      },
+      "sources": []
+    }
+  },
+  {
+    "id": 34681,
+    "name": "Ascension crossbows",
+    "examine": "Ancient crossbows formed of powerful crystal.",
+    "members": true,
+    "limit": null,
+    "value": null,
+    "high_alch": null,
+    "low_alch": null,
+    "wiki": {
+      "released": "20 October 2026 ( Update )",
+      "members": "Yes",
+      "quest_item": null,
+      "tradeable": "Yes",
+      "equipable": "Yes",
+      "stackable": "No",
+      "noteable": "Yes",
+      "options": "Wield, Drop",
+      "examine": "Ancient crossbows formed of powerful crystal.",
+      "value": "4,000,000 coins",
+      "high_alch": "2,400,000 coins",
+      "low_alch": "1,600,000 coins",
+      "weight": "6 kg",
+      "combat_stats": {
+        "attack_bonuses": {
+          "stab": 0,
+          "slash": 0,
+          "crush": 0,
+          "magic": 3,
+          "ranged": 34
+        },
+        "defence_bonuses": {
+          "stab": -7,
+          "slash": -5,
+          "crush": 0,
+          "magic": 10,
+          "ranged": 0
+        },
+        "other_bonuses": {
+          "strength": 0,
+          "ranged": 0,
+          "magic_damage": 0,
+          "prayer": 0
+        },
+        "slot": "2h"
+      },
+      "sources": [
+        {
+          "source": "Chest (The Fractured Archive) Unique",
+          "level": "N/A",
+          "quantity": "1",
+          "rarity": "2/15",
+          "league_region": "N/A"
+        }
+      ]
+    }
+  },
+  {
+    "id": 34669,
+    "name": "Ascension shards",
+    "examine": "Shards of powerful crystal.",
+    "members": true,
+    "limit": 100,
+    "value": null,
+    "high_alch": null,
+    "low_alch": null,
+    "wiki": {
+      "released": "20 October 2026 ( Update )",
+      "members": "Yes",
+      "quest_item": null,
+      "tradeable": "Yes",
+      "equipable": "No",
+      "stackable": "Yes",
+      "noteable": "No",
+      "options": "Drop",
+      "examine": "Shards of powerful crystal.",
+      "value": "1,000 coins",
+      "high_alch": "600 coins",
+      "low_alch": "400 coins",
+      "weight": "0 kg",
+      "combat_stats": {},
+      "sources": [
+        {
+          "source": "Sprite",
+          "level": "",
+          "quantity": "1–2",
+          "rarity": "Always",
+          "league_region": ""
+        },
+        {
+          "source": "Ascension rocks",
+          "level": "80",
+          "quantity": "1",
+          "rarity": "Common",
+          "league_region": "N/A"
+        },
+        {
+          "source": "Chest (The Fractured Archive) Standard",
+          "level": "N/A",
+          "quantity": "75–82",
+          "rarity": "3 × 55/330",
+          "league_region": "N/A"
+        }
+      ]
+    }
+  },
+  {
+    "id": 34696,
+    "name": "Diamond ascension bolts (e)",
+    "examine": "Enchanted bolts chiselled from powerful crystals, tipped with diamond.",
+    "members": true,
+    "limit": 11000,
+    "value": null,
+    "high_alch": null,
+    "low_alch": null,
+    "wiki": {
+      "released": "20 October 2026 ( Update )",
+      "members": "Yes",
+      "quest_item": null,
+      "tradeable": "Yes",
+      "equipable": "Yes",
+      "stackable": "Yes",
+      "noteable": "No",
+      "options": "Wield, Drop",
+      "examine": "Enchanted bolts chiselled from powerful crystals, tipped with diamond.",
+      "value": "1,030 coins",
+      "high_alch": "618 coins",
+      "low_alch": "412 coins",
+      "weight": "0 kg",
+      "combat_stats": {
+        "attack_bonuses": {
+          "stab": 0,
+          "slash": 0,
+          "crush": 0,
+          "magic": 0,
+          "ranged": 0
+        },
+        "defence_bonuses": {
+          "stab": 0,
+          "slash": 0,
+          "crush": 0,
+          "magic": 0,
+          "ranged": 0
+        },
+        "other_bonuses": {
+          "strength": 0,
+          "ranged": 58,
+          "magic_damage": 0,
+          "prayer": 0
+        },
+        "slot": "ammo"
+      },
+      "sources": []
+    }
+  },
+  {
+    "id": 34679,
+    "name": "Horn of Bran",
+    "examine": "Based on text inscribed upon it, it presumably belonged to someone called Bran.",
+    "members": true,
+    "limit": null,
+    "value": null,
+    "high_alch": null,
+    "low_alch": null,
+    "wiki": {
+      "released": "20 October 2026 ( Update )",
+      "members": "Yes",
+      "quest_item": null,
+      "tradeable": "Yes",
+      "equipable": "No",
+      "stackable": "No",
+      "noteable": "Yes",
+      "options": "Inspect, Drop",
+      "examine": "Based on text inscribed upon it, it presumably belonged to someone called Bran.",
+      "value": "3,000,000 coins",
+      "high_alch": "1,800,000 coins",
+      "low_alch": "1,200,000 coins",
+      "weight": "0.453 kg",
+      "combat_stats": {},
+      "sources": [
+        {
+          "source": "Chest (The Fractured Archive) Unique",
+          "level": "N/A",
+          "quantity": "1",
+          "rarity": "3/15",
+          "league_region": "N/A"
+        }
+      ]
+    }
+  },
+  {
+    "id": 34717,
+    "name": "Obligator (uncharged)",
+    "examine": "A huge mace on a writhing vine.",
+    "members": true,
+    "limit": null,
+    "value": null,
+    "high_alch": null,
+    "low_alch": null,
+    "wiki": {
+      "released": "20 October 2026 ( Update )",
+      "members": "Yes",
+      "quest_item": "No",
+      "tradeable": "Yes",
+      "equipable": "Yes",
+      "stackable": "No",
+      "noteable": "Yes",
+      "options": "Wield, Charge, Drop",
+      "examine": "A huge mace on a writhing vine.",
+      "value": "4,000,000 coins",
+      "high_alch": "2,400,000 coins",
+      "low_alch": "1,600,000 coins",
+      "weight": "4.989 kg",
+      "combat_stats": {
+        "attack_bonuses": {
+          "stab": 22,
+          "slash": -8,
+          "crush": 120,
+          "magic": 0,
+          "ranged": 0
+        },
+        "defence_bonuses": {
+          "stab": 0,
+          "slash": 16,
+          "crush": 0,
+          "magic": 3,
+          "ranged": 8
+        },
+        "other_bonuses": {
+          "strength": 40,
+          "ranged": 0,
+          "magic_damage": 0,
+          "prayer": 3
+        },
+        "slot": "2h"
+      },
+      "sources": [
+        {
+          "source": "Chest (The Fractured Archive) Unique",
+          "level": "N/A",
+          "quantity": "1",
+          "rarity": "1/15",
+          "league_region": "N/A"
+        }
+      ]
+    }
+  },
+  {
+    "id": 34702,
+    "name": "Onyx ascension bolts",
+    "examine": "Bolts chiselled from powerful crystals, tipped with onyx.",
+    "members": true,
+    "limit": null,
+    "value": 14050,
+    "high_alch": 8430,
+    "low_alch": 5620,
+    "wiki": {
+      "released": "20 October 2026 ( Update )",
+      "members": "Yes",
+      "quest_item": null,
+      "tradeable": "Yes",
+      "equipable": "Yes",
+      "stackable": "Yes",
+      "noteable": "No",
+      "options": "Wield, Drop",
+      "examine": "Bolts chiselled from powerful crystals, tipped with onyx.",
+      "value": "14,050 coins",
+      "high_alch": "8,430 coins",
+      "low_alch": "5,620 coins",
+      "weight": "0 kg",
+      "combat_stats": {
+        "attack_bonuses": {
+          "stab": 0,
+          "slash": 0,
+          "crush": 0,
+          "magic": 0,
+          "ranged": 0
+        },
+        "defence_bonuses": {
+          "stab": 0,
+          "slash": 0,
+          "crush": 0,
+          "magic": 0,
+          "ranged": 0
+        },
+        "other_bonuses": {
+          "strength": 0,
+          "ranged": 58,
+          "magic_damage": 0,
+          "prayer": 0
+        },
+        "slot": "ammo"
+      },
+      "sources": []
+    }
+  },
+  {
+    "id": 34708,
+    "name": "Onyx ascension bolts (e)",
+    "examine": "Enchanted bolts chiselled from powerful crystals, tipped with onyx.",
+    "members": true,
+    "limit": 11000,
+    "value": 15950,
+    "high_alch": 9570,
+    "low_alch": 6380,
+    "wiki": {
+      "released": "20 October 2026 ( Update )",
+      "members": "Yes",
+      "quest_item": null,
+      "tradeable": "Yes",
+      "equipable": "Yes",
+      "stackable": "Yes",
+      "noteable": "No",
+      "options": "Wield, Drop",
+      "examine": "Enchanted bolts chiselled from powerful crystals, tipped with onyx.",
+      "value": "15,950 coins",
+      "high_alch": "9,570 coins",
+      "low_alch": "6,380 coins",
+      "weight": "0 kg",
+      "combat_stats": {
+        "attack_bonuses": {
+          "stab": 0,
+          "slash": 0,
+          "crush": 0,
+          "magic": 0,
+          "ranged": 0
+        },
+        "defence_bonuses": {
+          "stab": 0,
+          "slash": 0,
+          "crush": 0,
+          "magic": 0,
+          "ranged": 0
+        },
+        "other_bonuses": {
+          "strength": 0,
+          "ranged": 58,
+          "magic_damage": 0,
+          "prayer": 0
+        },
+        "slot": "ammo"
+      },
+      "sources": []
+    }
+  },
+  {
+    "id": 34719,
+    "name": "Rondache",
+    "examine": "A finely crafted rondache shield.",
+    "members": true,
+    "limit": null,
+    "value": null,
+    "high_alch": null,
+    "low_alch": null,
+    "wiki": {
+      "released": "20 October 2026 ( Update )",
+      "members": "Yes",
+      "quest_item": null,
+      "tradeable": "Yes",
+      "equipable": "Yes",
+      "stackable": "No",
+      "noteable": "Yes",
+      "options": "Wield, Drop",
+      "examine": "A finely crafted rondache shield.",
+      "value": "4,000,000 coins",
+      "high_alch": "2,400,000 coins",
+      "low_alch": "1,600,000 coins",
+      "weight": "4.122 kg",
+      "combat_stats": {
+        "attack_bonuses": {
+          "stab": 0,
+          "slash": 0,
+          "crush": 0,
+          "magic": -5,
+          "ranged": -8
+        },
+        "defence_bonuses": {
+          "stab": 35,
+          "slash": 41,
+          "crush": 38,
+          "magic": -6,
+          "ranged": 55
+        },
+        "other_bonuses": {
+          "strength": 8,
+          "ranged": 0,
+          "magic_damage": 0,
+          "prayer": 0
+        },
+        "slot": "shield"
+      },
+      "sources": [
+        {
+          "source": "Chest (The Fractured Archive) Unique",
+          "level": "N/A",
+          "quantity": "1",
+          "rarity": "5/15",
+          "league_region": "N/A"
+        }
+      ]
+    }
+  },
+  {
+    "id": 34727,
+    "name": "Zorya's tome (uncharged)",
+    "examine": "The book is weighed down by all the knowledge it contains.",
+    "members": true,
+    "limit": null,
+    "value": null,
+    "high_alch": null,
+    "low_alch": null,
+    "wiki": {
+      "released": "20 October 2026 ( Update )",
+      "members": "Yes",
+      "quest_item": "No",
+      "tradeable": "Yes",
+      "equipable": "Yes",
+      "stackable": "No",
+      "noteable": "Yes",
+      "options": "Wield, Charge, Drop",
+      "examine": "The book is weighed down by all the knowledge it contains.",
+      "value": "4,000,000 coins",
+      "high_alch": "2,400,000 coins",
+      "low_alch": "1,600,000 coins",
+      "weight": "4 kg",
+      "combat_stats": {
+        "attack_bonuses": {
+          "stab": 0,
+          "slash": 0,
+          "crush": 0,
+          "magic": 45,
+          "ranged": 0
+        },
+        "defence_bonuses": {
+          "stab": 1,
+          "slash": 5,
+          "crush": 5,
+          "magic": 10,
+          "ranged": 0
+        },
+        "other_bonuses": {
+          "strength": 0,
+          "ranged": 0,
+          "magic_damage": 15,
+          "prayer": 2
+        },
+        "slot": "2h"
+      },
+      "sources": [
+        {
+          "source": "Chest (The Fractured Archive) Unique",
+          "level": "N/A",
+          "quantity": "1",
+          "rarity": "4/15",
+          "league_region": "N/A"
+        }
+      ]
+    }
   }
 ]
