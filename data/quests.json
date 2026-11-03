@@ -1,6 +1,70 @@
 [
   {
     "category": "free_to_play",
+    "id": "186",
+    "name": "The Writing's on the Wall",
+    "difficulty": "Intermediate",
+    "length": "Short",
+    "quest_points": "2",
+    "series": "N/A",
+    "release_date": "3 November 2026",
+    "url": "https://oldschool.runescape.wiki/w/The_Writing%27s_on_the_Wall",
+    "start_point": "Talk to Betty at Land's End.",
+    "skill_requirements": [
+      {
+        "skill": "Agility",
+        "level": 22,
+        "boostable": true
+      },
+      {
+        "skill": "Thieving",
+        "level": 20,
+        "boostable": true
+      }
+    ],
+    "quest_requirements": [],
+    "item_requirements": [],
+    "rewards": [
+      "2 Quest points",
+      "2500 Agility experience",
+      "2500 Thieving experience",
+      "The amulet of sight",
+      "After the quest players can obtain more amulets by purchasing them from Hudson."
+    ],
+    "enemies_to_defeat": []
+  },
+  {
+    "category": "free_to_play",
+    "id": "185",
+    "name": "Mudfoot's Big Adventure",
+    "difficulty": "Novice",
+    "length": "Very Short",
+    "quest_points": "1",
+    "series": "N/A",
+    "release_date": "3 November 2026",
+    "url": "https://oldschool.runescape.wiki/w/Mudfoot%27s_Big_Adventure",
+    "start_point": "Talk to Captain Harlan just outside the Lumbridge General Store.",
+    "skill_requirements": [],
+    "quest_requirements": [
+      {
+        "name": "Magic",
+        "url": "https://oldschool.runescape.wiki/w/Magic"
+      },
+      {
+        "name": "Protect from Melee",
+        "url": "https://oldschool.runescape.wiki/w/Protect_from_Melee"
+      }
+    ],
+    "item_requirements": [],
+    "rewards": [
+      "1 Quest point",
+      "Four combat lamps which provide 500 experience each in any combat skill, including Prayer.",
+      "500 coins"
+    ],
+    "enemies_to_defeat": []
+  },
+  {
+    "category": "free_to_play",
     "id": "178",
     "name": "The Ides of Milk",
     "difficulty": "Novice",
@@ -67,7 +131,8 @@
       "2,000 coins",
       "Access to the Ruins of Camdozaal",
       "Flex emote",
-      "The ability to make a steak sandwich"
+      "The ability to make a steak sandwich",
+      "1,200 Mining experience"
     ],
     "enemies_to_defeat": []
   },
@@ -117,7 +182,8 @@
     "rewards": [
       "2 Quest points",
       "Access to Yusuf's bank in the Corsair Cove.",
-      "The ability to dock your Boat at the Corsair Cove Port"
+      "The ability to dock your Boat at the Corsair Cove Port",
+      "1,200 Firemaking experience"
     ],
     "enemies_to_defeat": []
   },
@@ -169,7 +235,8 @@
       "The ability to mine rune essence",
       "An air talisman",
       "The ability to use lamps and books of knowledge from random events on Runecraft",
-      "Completing this quest awards the player with 5 Kudos which can be claimed by talking to Historian Minas in the Varrock Museum."
+      "Completing this quest awards the player with 5 Kudos which can be claimed by talking to Historian Minas in the Varrock Museum.",
+      "500 Runecraft experience"
     ],
     "enemies_to_defeat": []
   },
@@ -420,6 +487,8 @@
       "3 Quest points",
       "700 coins",
       "Free passage through the Lumbridge - Al Kharid toll gate from now on.",
+      "500 Smithing experience",
+      "500 Crafting experience",
       "(Members) Access to the Sorceress's Garden Thieving minigame.",
       "(Members) Use of the window shortcut at the rear of Al Kharid Palace (requires 70 Agility)."
     ],
@@ -501,7 +570,8 @@
     "rewards": [
       "4 Quest points",
       "300 Coins",
-      "Access to the Killerwatt Plane (Members only)"
+      "Access to the Killerwatt Plane (Members only)",
+      "An antique lamp giving 500 XP in a skill of the player's choice"
     ],
     "enemies_to_defeat": []
   },
@@ -565,7 +635,8 @@
     "rewards": [
       "1 Quest point",
       "600 coins",
-      "Ability to claim 5 Kudos and an Antique lamp rewarding 1,000 XP in any skill of at least level 20 from Historian Minas after completion of the quest (members only)"
+      "Ability to claim 5 Kudos and an Antique lamp rewarding 1,000 XP in any skill of at least level 20 from Historian Minas after completion of the quest (members only)",
+      "An antique lamp, giving 500 XP in a skill of the player's choice"
     ],
     "enemies_to_defeat": [
       "Black Arm Gang: Weaponsmaster (level 23)",
@@ -593,7 +664,8 @@
     "rewards": [
       "3 Quest points",
       "Silverlight (if lost, players may retrieve it from Sir Prysin for a fee of 500 coins.)",
-      "5 Kudos, which members can claim by talking to Historian Minas in the Varrock Museum"
+      "5 Kudos, which members can claim by talking to Historian Minas in the Varrock Museum",
+      "2 antique lamps giving 1,000 XP each in any combat skill, including Prayer"
     ],
     "enemies_to_defeat": []
   },
@@ -614,7 +686,8 @@
       "Cadava berries (obtainable during the quest)"
     ],
     "rewards": [
-      "5 Quest points"
+      "5 Quest points",
+      "An antique lamp giving 500 XP in a skill of the player's choice."
     ],
     "enemies_to_defeat": []
   },
@@ -707,7 +780,9 @@
       "Access to Zanaris",
       "Ability to buy and wield the Dragon longsword and the Dragon dagger (with level 60 Attack)",
       "Ability to make cosmic runes with the Runecraft skill",
-      "A permanent portal to Puro-Puro in the wheat field east of the fairy ring in Zanaris."
+      "A permanent portal to Puro-Puro in the wheat field east of the fairy ring in Zanaris.",
+      "1,500 Woodcutting experience",
+      "1,500 Crafting experience"
     ],
     "enemies_to_defeat": [
       "Tree Spirit (level 101) (Safespottable)",
@@ -762,7 +837,8 @@
       "6 Quest points",
       "Excalibur (Required for Holy Grail quest.)",
       "Ability to claim 5 Kudos and an Antique lamp rewarding 1,000 XP in any skill of at least level 20 from Historian Minas after completion of the quest",
-      "Appointment with a title as a Honorary Knight of the Round Table."
+      "Appointment with a title as a Honorary Knight of the Round Table.",
+      "1,000 Firemaking experience"
     ],
     "enemies_to_defeat": [
       "Sir Mordred (level 39)",
@@ -1095,7 +1171,8 @@
     ],
     "rewards": [
       "1 Quest point",
-      "500 coins"
+      "500 coins",
+      "1,000 Firemaking experience"
     ],
     "enemies_to_defeat": []
   },
@@ -1245,6 +1322,7 @@
     "rewards": [
       "4 Quest points",
       "3,100 coins",
+      "1,000 Hunter experience",
       "Ability to hunt goats on Wyrmscraig"
     ],
     "enemies_to_defeat": []
@@ -2122,7 +2200,7 @@
     "quest_requirements": [],
     "item_requirements": [
       "50 unnoted rune essence or pure essence (can be mined by talking to Aubury in Varrock, after completing Rune Mysteries. All 50 essence do not have to be of the same type) (does not needed to be handed in all at once; multiple trips can be made.)",
-      "Bucket (obtainable during the quest from Varrock general store for 2 coins)"
+      "Bucket (obtainable during the quest from an item spawn near Drezel's cell)"
     ],
     "rewards": [
       "1 Quest point",
@@ -2309,7 +2387,8 @@
       "Law talismans can be obtained via Guardians of the Rift",
       "Ability to make law runes",
       "Access to Trollheim, the Troll Stronghold and the Law Altar",
-      "Ability to access the God Wars Dungeon (though it can be accessed without the quest via the Ghommal's Hilt teleport)"
+      "Ability to access the God Wars Dungeon (though it can be accessed without the quest via the Ghommal's Hilt teleport)",
+      "2,000 Agility experience"
     ],
     "enemies_to_defeat": [
       "Dad (level 101) (can be safespotted)",
@@ -2562,7 +2641,11 @@
       "1 Quest point",
       "Management of Miscellania",
       "10,000 coins (inside the Miscellania coffers)",
-      "The ability to teleport to Miscellania using a ring of wealth"
+      "The ability to teleport to Miscellania using a ring of wealth",
+      "1,000 Woodcutting experience",
+      "1,000 Mining experience",
+      "1,000 Fishing experience",
+      "1,000 Farming experience"
     ],
     "enemies_to_defeat": []
   },
@@ -6574,7 +6657,7 @@
       "Access to Shilo Village",
       "Ability to quick travel to Shilo Village using the cart near the Brimhaven docks",
       "After completing the quest, you can sell every item you obtained during the quest to Yanni Salika in Shilo Village for a total of 2,000 — 100 each for the stone-plaque, tattered scroll, crumpled scroll, Bervirius notes, and the bone key; 500 for the locating crystal; and 1000 for the Beads of the Dead.",
-      "Ability to charter the Lady of the Waves west to Shilo Village to Port Khazard or Port Sarim",
+      "Ability to charter the Lady of the Waves west of Shilo Village to Port Khazard or Port Sarim",
       "Nazastarool accessible in the Nightmare Zone."
     ],
     "enemies_to_defeat": [
@@ -8342,6 +8425,7 @@
     "rewards": [
       "1 Quest point",
       "8,000 coins",
+      "1,500 Mining experience",
       "A page for Kharedst's memoirs, 'History and Hearsay.' It teleports players to the Graveyard of Heroes south-west of the Shayzien bank.",
       "Ability to recolour the graceful outfit to the colours of Shayzien.",
       "Ability to fight the Corrupt Lizardman within the Nightmare Zone.",
@@ -9408,6 +9492,29 @@
       "Xamphur (level 239)",
       "Barbarian Warlord (Level 91)"
     ]
+  },
+  {
+    "category": "members",
+    "id": "184",
+    "name": "Daddy's Home",
+    "difficulty": "Novice",
+    "length": "Short",
+    "quest_points": "1",
+    "series": "N/A",
+    "release_date": "26 August 2020",
+    "url": "https://oldschool.runescape.wiki/w/Daddy%27s_Home",
+    "start_point": "Speak to Marlo in the Estate Agent's house in north-east Varrock.",
+    "skill_requirements": [],
+    "quest_requirements": [],
+    "item_requirements": [
+      "10 planks – (oak/teak/mahogany will not work)",
+      "5 bolts of cloth (can be bought from the Sawmill for 650 coins per bolt)",
+      "At least 16 nails of any type, e.g. steel nails (more are recommended as nails bend when building furniture. 100 is recommended at 1 Construction, obtainable from the Sawmill during the quest)",
+      "Hammer (Obtainable during the quest from Yarlo)",
+      "Saw (Obtainable during the quest)"
+    ],
+    "rewards": [],
+    "enemies_to_defeat": []
   },
   {
     "category": "members",
@@ -11721,29 +11828,6 @@
       "Combat equipment",
       "5 pieces of food (must be meat, fish or vegetables)",
       "A slash weapon or knife to cut through webs"
-    ],
-    "rewards": [],
-    "enemies_to_defeat": []
-  },
-  {
-    "category": "miniquest",
-    "id": "",
-    "name": "Daddy's Home",
-    "difficulty": "Novice",
-    "length": "Short",
-    "quest_points": "N/A",
-    "series": "N/A",
-    "release_date": "26 August 2020",
-    "url": "https://oldschool.runescape.wiki/w/Daddy%27s_Home",
-    "start_point": "Speak to Marlo in the Estate Agent's house in north-east Varrock.",
-    "skill_requirements": [],
-    "quest_requirements": [],
-    "item_requirements": [
-      "10 planks – (oak/teak/mahogany will not work)",
-      "5 bolts of cloth (can be bought from the Sawmill for 650 coins per bolt)",
-      "At least 16 nails of any type, e.g. steel nails (more are recommended as nails bend when building furniture. 100 is recommended at 1 Construction, obtainable from the Sawmill during the quest)",
-      "Hammer (Obtainable during the quest from Yarlo)",
-      "Saw (Obtainable during the quest)"
     ],
     "rewards": [],
     "enemies_to_defeat": []
