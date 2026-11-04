@@ -1,40 +1,6 @@
 [
   {
     "category": "free_to_play",
-    "id": "186",
-    "name": "The Writing's on the Wall",
-    "difficulty": "Intermediate",
-    "length": "Short",
-    "quest_points": "2",
-    "series": "N/A",
-    "release_date": "3 November 2026",
-    "url": "https://oldschool.runescape.wiki/w/The_Writing%27s_on_the_Wall",
-    "start_point": "Talk to Betty at Land's End.",
-    "skill_requirements": [
-      {
-        "skill": "Agility",
-        "level": 22,
-        "boostable": true
-      },
-      {
-        "skill": "Thieving",
-        "level": 20,
-        "boostable": true
-      }
-    ],
-    "quest_requirements": [],
-    "item_requirements": [],
-    "rewards": [
-      "2 Quest points",
-      "2500 Agility experience",
-      "2500 Thieving experience",
-      "The amulet of sight",
-      "After the quest players can obtain more amulets by purchasing them from Hudson."
-    ],
-    "enemies_to_defeat": []
-  },
-  {
-    "category": "free_to_play",
     "id": "185",
     "name": "Mudfoot's Big Adventure",
     "difficulty": "Novice",
@@ -45,23 +11,21 @@
     "url": "https://oldschool.runescape.wiki/w/Mudfoot%27s_Big_Adventure",
     "start_point": "Talk to Captain Harlan just outside the Lumbridge General Store.",
     "skill_requirements": [],
-    "quest_requirements": [
-      {
-        "name": "Magic",
-        "url": "https://oldschool.runescape.wiki/w/Magic"
-      },
-      {
-        "name": "Protect from Melee",
-        "url": "https://oldschool.runescape.wiki/w/Protect_from_Melee"
-      }
-    ],
+    "quest_requirements": [],
     "item_requirements": [],
     "rewards": [
       "1 Quest point",
-      "Four combat lamps which provide 500 experience each in any combat skill, including Prayer.",
-      "500 coins"
+      "Four antique lamps granting 500 experience each in any combat skill, including Prayer",
+      "500 coins",
+      "Shortbow and 80 bronze arrows (as a drop from the first outlaw)",
+      "Staff, 80 mind runes, and 80 air runes (as a drop from the second outlaw)",
+      "Iron scimitar and iron kiteshield (as a drop from the final outlaw)"
     ],
-    "enemies_to_defeat": []
+    "enemies_to_defeat": [
+      "1 ranger outlaw (level 6)",
+      "1 mage outlaw (level 6)",
+      "1 meleer outlaw (level 8)"
+    ]
   },
   {
     "category": "free_to_play",
@@ -102,7 +66,7 @@
       "1 Quest point",
       "Access to the Mainland!",
       "Access to the Lumbridge Home Teleport spell",
-      "A bronze axe, bronze pickaxe, tinderbox, small fishing net, one couple of shrimps, bronze dagger, bronze sword, wooden shield, shortbow, 25 bronze arrows, 25 air runes, 15 mind runes, bucket, pot, one loaf of bread, 6 water runes, 4 earth runes and 2 body runes",
+      "A bronze axe, bronze pickaxe, tinderbox, small fishing net, one couple of shrimps, bronze dagger, bronze shortsword, wooden shield, shortbow, 25 bronze arrows, 25 air runes, 15 mind runes, bucket, pot, one loaf of bread, 6 water runes, 4 earth runes and 2 body runes",
       "25 coins in the player's bank account"
     ],
     "enemies_to_defeat": []
@@ -665,7 +629,7 @@
       "3 Quest points",
       "Silverlight (if lost, players may retrieve it from Sir Prysin for a fee of 500 coins.)",
       "5 Kudos, which members can claim by talking to Historian Minas in the Varrock Museum",
-      "2 antique lamps giving 1,000 XP each in any combat skill, including Prayer"
+      "2 antique lamps giving 1,000 XP each in any combat skill, including Prayer (obtained from speaking to Aris after the quest)"
     ],
     "enemies_to_defeat": []
   },
@@ -11447,6 +11411,40 @@
       "10,000 Sailing experience",
       "3,000 Fishing experience",
       "The shell collection, that can be unpacked into a set of seven shells that can play notes which are audible for other players, allowing you to play music in-game."
+    ],
+    "enemies_to_defeat": []
+  },
+  {
+    "category": "members",
+    "id": "186",
+    "name": "The Writing's on the Wall",
+    "difficulty": "Intermediate",
+    "length": "Short",
+    "quest_points": "1",
+    "series": "N/A",
+    "release_date": "3 November 2026",
+    "url": "https://oldschool.runescape.wiki/w/The_Writing%27s_on_the_Wall",
+    "start_point": "Talk to Betty at Land's End.",
+    "skill_requirements": [
+      {
+        "skill": "Agility",
+        "level": 22,
+        "boostable": true
+      },
+      {
+        "skill": "Thieving",
+        "level": 20,
+        "boostable": true
+      }
+    ],
+    "quest_requirements": [],
+    "item_requirements": [],
+    "rewards": [
+      "1 Quest point",
+      "2500 Agility experience",
+      "2500 Thieving experience",
+      "The amulet of sight",
+      "After the quest players can obtain more amulets by purchasing them from Sergeant Hudson"
     ],
     "enemies_to_defeat": []
   },
