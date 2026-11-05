@@ -12,11 +12,14 @@
     "start_point": "Talk to Captain Harlan just outside the Lumbridge General Store.",
     "skill_requirements": [],
     "quest_requirements": [],
-    "item_requirements": [],
+    "item_requirements": [
+      "Magic or Ranged gear to defeat the final outlaw (obtainable during the quest). It is possible to bypass this requirement through the use of poisoned weapons."
+    ],
     "rewards": [
       "1 Quest point",
       "Four antique lamps granting 500 experience each in any combat skill, including Prayer",
       "500 coins",
+      "Ability to claim basic equipment in each combat style from Captain Harlan every 30 minutes (unlocked during the quest)",
       "Shortbow and 80 bronze arrows (as a drop from the first outlaw)",
       "Staff, 80 mind runes, and 80 air runes (as a drop from the second outlaw)",
       "Iron scimitar and iron kiteshield (as a drop from the final outlaw)"
@@ -24,7 +27,7 @@
     "enemies_to_defeat": [
       "1 ranger outlaw (level 6)",
       "1 mage outlaw (level 6)",
-      "1 meleer outlaw (level 8)"
+      "1 warrior outlaw (level 8)"
     ]
   },
   {
@@ -7011,10 +7014,6 @@
       {
         "name": "Lost City",
         "url": "https://oldschool.runescape.wiki/w/Lost_City"
-      },
-      {
-        "name": "Rune Mysteries",
-        "url": "https://oldschool.runescape.wiki/w/Rune_Mysteries"
       },
       {
         "name": "Shilo Village",
