@@ -2782,7 +2782,7 @@
     ],
     "item_requirements": [
       "A steel longsword",
-      "2 steel swords",
+      "2 steel shortswords",
       "A steel mace",
       "A steel warhammer",
       "A steel dagger",
@@ -11428,7 +11428,7 @@
       {
         "skill": "Agility",
         "level": 22,
-        "boostable": true
+        "boostable": false
       },
       {
         "skill": "Thieving",
@@ -11440,8 +11440,8 @@
     "item_requirements": [],
     "rewards": [
       "1 Quest point",
-      "2500 Agility experience",
-      "2500 Thieving experience",
+      "2,500 Agility experience",
+      "2,500 Thieving experience",
       "The amulet of sight",
       "After the quest players can obtain more amulets by purchasing them from Sergeant Hudson"
     ],
