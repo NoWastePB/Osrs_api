@@ -385352,5 +385352,54 @@
         }
       ]
     }
+  },
+  {
+    "id": 34762,
+    "name": "Amulet of sight",
+    "examine": "A useful amulet for a ranger.",
+    "members": true,
+    "limit": null,
+    "value": null,
+    "high_alch": null,
+    "low_alch": null,
+    "wiki": {
+      "released": "3 November 2026 ( Update )",
+      "members": "Yes",
+      "quest_item": "The Writing's on the Wall",
+      "tradeable": "Yes",
+      "equipable": "Yes",
+      "stackable": "No",
+      "noteable": "Yes",
+      "options": "Wear, Drop",
+      "examine": "A useful amulet for a ranger.",
+      "value": "1,500 coins",
+      "high_alch": "900 coins",
+      "low_alch": "600 coins",
+      "weight": "0.01 kg",
+      "combat_stats": {
+        "attack_bonuses": {
+          "stab": 0,
+          "slash": 0,
+          "crush": 0,
+          "magic": 0,
+          "ranged": 10
+        },
+        "defence_bonuses": {
+          "stab": 0,
+          "slash": 0,
+          "crush": 0,
+          "magic": 0,
+          "ranged": 0
+        },
+        "other_bonuses": {
+          "strength": 0,
+          "ranged": 0,
+          "magic_damage": 0,
+          "prayer": 0
+        },
+        "slot": "neck"
+      },
+      "sources": []
+    }
   }
 ]
