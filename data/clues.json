@@ -1,7 +1,7 @@
 {
   "meta": {
     "source": "https://oldschool.runescape.wiki",
-    "generated_at": "2026-11-01T10:50:51Z"
+    "generated_at": "2026-11-08T10:48:45Z"
   },
   "anagrams": [
     {
@@ -75,12 +75,6 @@
       "answer": "Nicholas",
       "location": "Most north-eastern point of Port Piscarilius, north of the fishing shop.",
       "area": "4"
-    },
-    {
-      "anagram": "CUTE HI",
-      "answer": "Teicuh",
-      "location": "Rune Shop in Tal Teklan.",
-      "area": "4097"
     },
     {
       "anagram": "DT RUN B",
@@ -602,6 +596,12 @@
     },
     {
       "difficulty": "medium",
+      "clue": "Captain Harlan",
+      "challenge": "How many snakeskins are needed in order to craft 44 boots, 29 vambraces and 34 bandanas?",
+      "answer": "666"
+    },
+    {
+      "difficulty": "medium",
       "clue": "Captain Khaled",
       "challenge": "How many fishing cranes can you find around here?",
       "answer": "5"
@@ -719,12 +719,6 @@
       "clue": "Horphis",
       "challenge": "On a scale of 1-10, how helpful is Logosia?",
       "answer": "1"
-    },
-    {
-      "difficulty": "medium",
-      "clue": "Ironman tutor",
-      "challenge": "How many snakeskins are needed in order to craft 44 boots, 29 vambraces and 34 bandanas?",
-      "answer": "666"
     },
     {
       "difficulty": "medium",
@@ -1054,6 +1048,13 @@
       "location": "399"
     },
     {
+      "cipher": "BZOSZHM GZQKZM",
+      "decoded": "Captain Harlan",
+      "npc": "+1",
+      "challenge_answer": "Lumbridge (combat tutor)",
+      "location": "666"
+    },
+    {
       "cipher": "ECRVCKP MJCNGF",
       "decoded": "Captain Khaled",
       "npc": "+2",
@@ -1066,13 +1067,6 @@
       "npc": "+3",
       "challenge_answer": "Paterdomus Temple; Drezel can be found in the cave north of the Paterdomus Temple, which lies next to Canifis. Drezel is also an NPC for several quests (fairy code CKS and then go north-west to the end of the bridge, where you can climb down the trapdoor to find Drezel)",
       "location": "7"
-    },
-    {
-      "cipher": "HQNM LZM STSNQ",
-      "decoded": "Ironman tutor",
-      "npc": "-1",
-      "challenge_answer": "Lumbridge",
-      "location": "666"
     },
     {
       "cipher": "QSPGFTTPS HSBDLMFCPOF",
@@ -2404,7 +2398,7 @@
     },
     {
       "difficulty": "easy",
-      "clue": "I wonder how many bronze swords he has handed out.",
+      "clue": "I wonder how many bronze shortswords he has handed out.",
       "solution": "Talk to Vannaka in Edgeville Dungeon.",
       "extra": ""
     },
@@ -4617,9 +4611,9 @@
     },
     {
       "difficulty": "medium",
-      "clue": "Cry in the Draynor Village jail. Jump for joy before you talk to me. Equip an adamant sword, a sapphire amulet and an adamant plateskirt.",
+      "clue": "Cry in the Draynor Village jail. Jump for joy before you talk to me. Equip an adamant shortsword, a sapphire amulet and an adamant plateskirt.",
       "items": [
-        "Adamant sword",
+        "Adamant shortsword",
         "Sapphire amulet",
         "Adamant plateskirt"
       ],
