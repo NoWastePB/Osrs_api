@@ -9,7 +9,7 @@
     "series": "N/A",
     "release_date": "3 November 2026",
     "url": "https://oldschool.runescape.wiki/w/Mudfoot%27s_Big_Adventure",
-    "start_point": "Talk to Captain Harlan just outside the Lumbridge General Store.",
+    "start_point": "Talk to Captain Harlan just outside the Lumbridge general store.",
     "skill_requirements": [],
     "quest_requirements": [],
     "item_requirements": [
@@ -25,9 +25,9 @@
       "Iron scimitar and iron kiteshield (as a drop from the final outlaw)"
     ],
     "enemies_to_defeat": [
-      "1 ranger outlaw (level 6)",
-      "1 mage outlaw (level 6)",
-      "1 warrior outlaw (level 8)"
+      "1 Ranger outlaw (level 6)",
+      "1 Mage outlaw (level 6)",
+      "1 Warrior outlaw (level 8)"
     ]
   },
   {
@@ -2600,7 +2600,7 @@
     ],
     "item_requirements": [
       "Iron bar",
-      "Any common, non-silver ring (such as a gold ring) that you're willing to lose (not onyx/dragonstone/explorer/beacon/'perfect' ring/nature/pineapple/Charos/fremennik/ancient/key)",
+      "A gold ring, sapphire ring, emerald ring, ruby ring, or diamond ring",
       "At least one of the following to gain favour during the quest",
       "Logs (obtainable during the quest if you bring an axe)"
     ],
@@ -11433,7 +11433,7 @@
       {
         "skill": "Thieving",
         "level": 20,
-        "boostable": true
+        "boostable": false
       }
     ],
     "quest_requirements": [],
