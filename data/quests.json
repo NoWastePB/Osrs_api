@@ -1,7 +1,7 @@
 [
   {
     "category": "free_to_play",
-    "id": "185",
+    "id": "186",
     "name": "Mudfoot's Big Adventure",
     "difficulty": "Novice",
     "length": "Very Short",
@@ -53,13 +53,13 @@
   },
   {
     "category": "free_to_play",
-    "id": "0",
+    "id": "174",
     "name": "Learning the Ropes",
     "difficulty": "Novice",
     "length": "Very Short",
     "quest_points": "1",
     "series": "N/A",
-    "release_date": "22 October 2025",
+    "release_date": "24 September 2002",
     "url": "https://oldschool.runescape.wiki/w/Learning_the_Ropes",
     "start_point": "Talk to the Quest Guide on Tutorial Island.",
     "skill_requirements": [],
@@ -10720,7 +10720,7 @@
   },
   {
     "category": "members",
-    "id": "180",
+    "id": "181",
     "name": "The Blood Moon Rises",
     "difficulty": "Grandmaster",
     "length": "Very Long",
@@ -10937,7 +10937,7 @@
   },
   {
     "category": "members",
-    "id": "174",
+    "id": "175",
     "name": "Pandemonium",
     "difficulty": "Novice",
     "length": "Short",
@@ -10966,7 +10966,7 @@
   },
   {
     "category": "members",
-    "id": "175",
+    "id": "176",
     "name": "Prying Times",
     "difficulty": "Intermediate",
     "length": "Short",
@@ -11017,7 +11017,7 @@
   },
   {
     "category": "members",
-    "id": "176",
+    "id": "177",
     "name": "Current Affairs",
     "difficulty": "Novice",
     "length": "Short",
@@ -11056,7 +11056,7 @@
   },
   {
     "category": "members",
-    "id": "177",
+    "id": "178",
     "name": "Troubled Tortugans",
     "difficulty": "Experienced",
     "length": "Medium",
@@ -11117,7 +11117,7 @@
   },
   {
     "category": "members",
-    "id": "179",
+    "id": "180",
     "name": "The Red Reef",
     "difficulty": "Experienced",
     "length": "Medium",
@@ -11287,7 +11287,7 @@
   },
   {
     "category": "members",
-    "id": "181",
+    "id": "182",
     "name": "Fallen From Grace",
     "difficulty": "Experienced",
     "length": "Short",
@@ -11348,7 +11348,7 @@
   },
   {
     "category": "members",
-    "id": "182",
+    "id": "183",
     "name": "A Ruff Situation",
     "difficulty": "Novice",
     "length": "Short",
@@ -11380,7 +11380,7 @@
   },
   {
     "category": "members",
-    "id": "183",
+    "id": "184",
     "name": "Crab Quest",
     "difficulty": "Intermediate",
     "length": "Short",
@@ -11415,12 +11415,12 @@
   },
   {
     "category": "members",
-    "id": "186",
+    "id": "187",
     "name": "The Writing's on the Wall",
     "difficulty": "Intermediate",
     "length": "Short",
     "quest_points": "1",
-    "series": "N/A",
+    "series": "Twisted Tales",
     "release_date": "3 November 2026",
     "url": "https://oldschool.runescape.wiki/w/The_Writing%27s_on_the_Wall",
     "start_point": "Talk to Betty at Land's End.",
@@ -11444,6 +11444,78 @@
       "2,500 Thieving experience",
       "The amulet of sight",
       "After the quest players can obtain more amulets by purchasing them from Sergeant Hudson"
+    ],
+    "enemies_to_defeat": []
+  },
+  {
+    "category": "members",
+    "id": "189",
+    "name": "A Shell of a Friend",
+    "difficulty": "Intermediate",
+    "length": "Very Short",
+    "quest_points": "2",
+    "series": "N/A",
+    "release_date": "11 November 2026",
+    "url": "https://oldschool.runescape.wiki/w/A_Shell_of_a_Friend",
+    "start_point": "Talk to the Juvenile Snail in the Haunted Woods.",
+    "skill_requirements": [
+      {
+        "skill": "Herblore",
+        "level": 16,
+        "boostable": true
+      },
+      {
+        "skill": "Construction",
+        "level": 15,
+        "boostable": true
+      }
+    ],
+    "quest_requirements": [
+      {
+        "name": "Priest in Peril",
+        "url": "https://oldschool.runescape.wiki/w/Priest_in_Peril"
+      }
+    ],
+    "item_requirements": [
+      "Any woodcutting axe (obtainable during quest)"
+    ],
+    "rewards": [
+      "2 Quest points",
+      "2,500 Herblore experience",
+      "2,500 Construction experience",
+      "Pink snelm"
+    ],
+    "enemies_to_defeat": [
+      "Leech (level 39)",
+      "SnelmLover500 (level 50)"
+    ]
+  },
+  {
+    "category": "members",
+    "id": "188",
+    "name": "The Birds and the Wasps",
+    "difficulty": "Novice",
+    "length": "Short",
+    "quest_points": "1",
+    "series": "N/A",
+    "release_date": "11 November 2026",
+    "url": "https://oldschool.runescape.wiki/w/The_Birds_and_the_Wasps",
+    "start_point": "Talk to Farmer Bea inside the Digsite, on the ridge just east of the South-east Varrock mine.",
+    "skill_requirements": [],
+    "quest_requirements": [],
+    "item_requirements": [
+      "Insect repellent (Obtainable during quest)",
+      "Beekeeper's hat or Bee hunter's hat (Obtainable during quest)",
+      "Magic insect net or Insect net (Obtainable during quest)",
+      "Bird snare (Obtainable during quest, multiple helpful for faster catching)"
+    ],
+    "rewards": [
+      "1 Quest point",
+      "1,000 Hunter experience",
+      "250 Fletching experience",
+      "Ability to hunt wasps, killer wasps, honey buzzards, and black honey buzzards",
+      "Ability to fletch wasp darts and killer wasp darts",
+      "Ability to trade 35 wasp darts or 20 killer wasp darts with Farmer Bea for supply bags."
     ],
     "enemies_to_defeat": []
   },
