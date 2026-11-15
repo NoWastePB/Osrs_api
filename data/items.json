@@ -385401,5 +385401,279 @@
       },
       "sources": []
     }
+  },
+  {
+    "id": 34769,
+    "name": "Painted kiteshield",
+    "examine": "A pretty kiteshield.",
+    "members": false,
+    "limit": null,
+    "value": null,
+    "high_alch": null,
+    "low_alch": null,
+    "wiki": {
+      "released": "11 November 2026 ( Update )",
+      "members": "No",
+      "quest_item": null,
+      "tradeable": "Yes",
+      "equipable": "Yes",
+      "stackable": "No",
+      "noteable": "Yes",
+      "options": "Wear, Drop",
+      "examine": "A pretty kiteshield.",
+      "value": "30 coins",
+      "high_alch": "18 coins",
+      "low_alch": "12 coins",
+      "weight": "5.443 kg",
+      "combat_stats": {
+        "attack_bonuses": {
+          "stab": 0,
+          "slash": 0,
+          "crush": 0,
+          "magic": -8,
+          "ranged": -3
+        },
+        "defence_bonuses": {
+          "stab": 5,
+          "slash": 7,
+          "crush": 6,
+          "magic": -1,
+          "ranged": 6
+        },
+        "other_bonuses": {
+          "strength": 0,
+          "ranged": 0,
+          "magic_damage": 0,
+          "prayer": 0
+        },
+        "slot": "shield"
+      },
+      "sources": []
+    }
+  },
+  {
+    "id": 34772,
+    "name": "Painted shortbow",
+    "examine": "A pretty shortbow.",
+    "members": false,
+    "limit": null,
+    "value": null,
+    "high_alch": null,
+    "low_alch": null,
+    "wiki": {
+      "released": "11 November 2026 ( Update )",
+      "members": "No",
+      "quest_item": null,
+      "tradeable": "Yes",
+      "equipable": "Yes",
+      "stackable": "No",
+      "noteable": "Yes",
+      "options": "Wield, Drop",
+      "examine": "A pretty shortbow.",
+      "value": "30 coins",
+      "high_alch": "18 coins",
+      "low_alch": "12 coins",
+      "weight": "1.36 kg",
+      "combat_stats": {
+        "attack_bonuses": {
+          "stab": 0,
+          "slash": 0,
+          "crush": 0,
+          "magic": 0,
+          "ranged": 8
+        },
+        "defence_bonuses": {
+          "stab": 0,
+          "slash": 0,
+          "crush": 0,
+          "magic": 0,
+          "ranged": 0
+        },
+        "other_bonuses": {
+          "strength": 0,
+          "ranged": 0,
+          "magic_damage": 0,
+          "prayer": 0
+        },
+        "slot": "2h"
+      },
+      "sources": []
+    }
+  },
+  {
+    "id": 34785,
+    "name": "Black feather",
+    "examine": "A fairly plain feather.",
+    "members": true,
+    "limit": null,
+    "value": null,
+    "high_alch": null,
+    "low_alch": null,
+    "wiki": {
+      "released": "11 November 2026 ( Update )",
+      "members": "Yes",
+      "quest_item": null,
+      "tradeable": "Yes",
+      "equipable": "No",
+      "stackable": "Yes",
+      "noteable": "No",
+      "options": "Drop",
+      "examine": "A fairly plain feather.",
+      "value": "15 coins",
+      "high_alch": "9 coins",
+      "low_alch": "6 coins",
+      "weight": "0.002 kg",
+      "combat_stats": {},
+      "sources": [
+        {
+          "source": "Black Honey Buzzard",
+          "level": "17",
+          "quantity": "10–24",
+          "rarity": "Always",
+          "league_region": ""
+        }
+      ]
+    }
+  },
+  {
+    "id": 34783,
+    "name": "Brown feather",
+    "examine": "A fairly plain feather.",
+    "members": true,
+    "limit": null,
+    "value": null,
+    "high_alch": null,
+    "low_alch": null,
+    "wiki": {
+      "released": "11 November 2026 ( Update )",
+      "members": "Yes",
+      "quest_item": null,
+      "tradeable": "Yes",
+      "equipable": "No",
+      "stackable": "Yes",
+      "noteable": "No",
+      "options": "Drop",
+      "examine": "A fairly plain feather.",
+      "value": "15 coins",
+      "high_alch": "9 coins",
+      "low_alch": "6 coins",
+      "weight": "0.002 kg",
+      "combat_stats": {},
+      "sources": [
+        {
+          "source": "Honey Buzzard",
+          "level": "1",
+          "quantity": "Varies",
+          "rarity": "Always",
+          "league_region": ""
+        }
+      ]
+    }
+  },
+  {
+    "id": 34766,
+    "name": "Painted shortsword",
+    "examine": "A pretty shortsword.",
+    "members": false,
+    "limit": null,
+    "value": null,
+    "high_alch": null,
+    "low_alch": null,
+    "wiki": {
+      "released": "11 November 2026 ( Update )",
+      "members": "No",
+      "quest_item": null,
+      "tradeable": "Yes",
+      "equipable": "Yes",
+      "stackable": "No",
+      "noteable": "No",
+      "options": "Wield, Drop",
+      "examine": "A pretty shortsword.",
+      "value": "30 coins",
+      "high_alch": "18 coins",
+      "low_alch": "12 coins",
+      "weight": "1.814 kg",
+      "combat_stats": {
+        "attack_bonuses": {
+          "stab": 4,
+          "slash": 3,
+          "crush": -2,
+          "magic": 0,
+          "ranged": 0
+        },
+        "defence_bonuses": {
+          "stab": 0,
+          "slash": 2,
+          "crush": 1,
+          "magic": 0,
+          "ranged": 0
+        },
+        "other_bonuses": {
+          "strength": 5,
+          "ranged": 0,
+          "magic_damage": 0,
+          "prayer": 0
+        },
+        "slot": "one-handed"
+      },
+      "sources": []
+    }
+  },
+  {
+    "id": 34801,
+    "name": "Pink snelm",
+    "examine": "A pink snail shell helmet.",
+    "members": true,
+    "limit": null,
+    "value": null,
+    "high_alch": null,
+    "low_alch": null,
+    "wiki": {
+      "released": "11 November 2026 ( Update )",
+      "members": "Yes",
+      "quest_item": "A Shell of a Friend",
+      "tradeable": "Yes",
+      "equipable": "Yes",
+      "stackable": "No",
+      "noteable": "Yes",
+      "options": "Wear, Drop",
+      "examine": "A pink snail shell helmet.",
+      "value": "300 coins",
+      "high_alch": "180 coins",
+      "low_alch": "120 coins",
+      "weight": "2 kg",
+      "combat_stats": {
+        "attack_bonuses": {
+          "stab": 0,
+          "slash": 0,
+          "crush": 0,
+          "magic": -3,
+          "ranged": -1
+        },
+        "defence_bonuses": {
+          "stab": 7,
+          "slash": 8,
+          "crush": 6,
+          "magic": -1,
+          "ranged": 7
+        },
+        "other_bonuses": {
+          "strength": 0,
+          "ranged": 0,
+          "magic_damage": 0,
+          "prayer": 0
+        },
+        "slot": "head"
+      },
+      "sources": [
+        {
+          "source": "SnelmLover500",
+          "level": "50",
+          "quantity": "1",
+          "rarity": "Always",
+          "league_region": "N/A"
+        }
+      ]
+    }
   }
 ]
