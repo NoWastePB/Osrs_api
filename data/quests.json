@@ -10915,7 +10915,12 @@
       "Emissary robes",
       "Any kind of bones (except sun-kissed bones) or raw meat/cooked meat",
       "A knife (obtainable during the quest)",
-      "A beer (obtainable during the quest)"
+      "A beer (obtainable during the quest)",
+      "An empty sack (obtainable during the quest)",
+      "A wizard's mind bomb (obtainable during the quest)",
+      "A steamforge brew (obtainable during the quest)",
+      "A dwarven stout (obtainable during the quest)",
+      "A beer glass (obtainable during the quest)"
     ],
     "rewards": [
       "3 Quest points",
