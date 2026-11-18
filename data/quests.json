@@ -4408,12 +4408,12 @@
       "One of the following: bread, any kind of pie, cake or chocolate cake, any kind of pizza, or a baked potato with topping (partial pies, cakes and pizzas do not work, and neither will burnt versions)",
       "Tinderbox",
       "Lit candle (a black candle will not work)",
-      "Logs",
-      "Oak logs",
-      "Willow logs",
-      "Maple logs",
+      "One normal log",
+      "One oak log",
+      "One willow log",
+      "One maple log",
       "Pickaxe (unless you already have the required items)",
-      "Soft clay (obtainable during quest if you bring a pickaxe and bucket, vial or jug of water)",
+      "One soft clay (obtainable during quest if you bring a pickaxe and bucket, vial or jug of water)",
       "Coal (obtainable during quest with level 30 Mining[boostable] from the quarry)",
       "52 kg of sandstone (obtainable during quest with level 35 Mining [boostable])",
       "Two 5 kg pieces of granite (obtainable during quest with level 45 Mining [boostable])",
@@ -4428,7 +4428,7 @@
       "7,000 Mining experience",
       "7,000 Firemaking experience",
       "7,000 Magic experience",
-      "Camulet, which allows you to talk to camels and teleport to the temple four times. It can be recharged by using camel dung on it. You can pay Lazim 1 million gold pieces to give it unlimited charges.",
+      "Camulet, which allows you to talk to camels and teleport to Enakhra's Temple four times. It can be recharged by using camel dung on it. You can pay Lazim 1 million gold pieces to give it unlimited charges.",
       "Camel mask (Use a piece of soft clay on the pedestal with the globes on it to make.)"
     ],
     "enemies_to_defeat": []
@@ -11525,6 +11525,71 @@
     "enemies_to_defeat": []
   },
   {
+    "category": "members",
+    "id": "",
+    "name": "A New Leaf",
+    "difficulty": "Intermediate",
+    "length": "Short",
+    "quest_points": "1",
+    "series": "",
+    "release_date": "18 November 2026",
+    "url": "https://oldschool.runescape.wiki/w/A_New_Leaf",
+    "start_point": "Pick and eat a cabbage south of Hosidius",
+    "skill_requirements": [
+      {
+        "skill": "Farming",
+        "level": 45,
+        "boostable": true
+      },
+      {
+        "skill": "Cooking",
+        "level": 35,
+        "boostable": true
+      },
+      {
+        "skill": "Herblore",
+        "level": 32,
+        "boostable": true
+      }
+    ],
+    "quest_requirements": [
+      {
+        "name": "Priest in Peril",
+        "url": "https://oldschool.runescape.wiki/w/Priest_in_Peril"
+      }
+    ],
+    "item_requirements": [],
+    "rewards": [
+      "1 Quest point"
+    ],
+    "enemies_to_defeat": []
+  },
+  {
+    "category": "members",
+    "id": "",
+    "name": "Rag and Bone Man III",
+    "difficulty": "Experienced",
+    "length": "Medium",
+    "quest_points": "",
+    "series": "Rag and Bone Man, #3",
+    "release_date": "18 November 2026",
+    "url": "https://oldschool.runescape.wiki/w/Rag_and_Bone_Man_III",
+    "start_point": "Talk to the Odd Old Man in Silvarea north-east of Varrock, by the Limestone Mine.",
+    "skill_requirements": [
+      {
+        "skill": "Slayer",
+        "level": 58,
+        "boostable": true
+      }
+    ],
+    "quest_requirements": [],
+    "item_requirements": [],
+    "rewards": [
+      "Quest points"
+    ],
+    "enemies_to_defeat": []
+  },
+  {
     "category": "miniquest",
     "id": "",
     "name": "Alfred Grimhand's Barcrawl",
@@ -11901,7 +11966,7 @@
     "item_requirements": [
       "Combat equipment",
       "5 pieces of food (must be meat, fish or vegetables)",
-      "A slash weapon or knife to cut through webs"
+      "A slash weapon or knife to cut through webs, or aranea boots for their web-negating mechanic"
     ],
     "rewards": [],
     "enemies_to_defeat": []
