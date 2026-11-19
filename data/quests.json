@@ -4979,9 +4979,7 @@
     "quest_requirements": [],
     "item_requirements": [
       "8 coins for 8 pots of vinegar (bring 68 coins if walking to and from Karamja for boat fare)",
-      "8 pots",
-      "8 logs of any type (or an axe to obtain them)",
-      "Tinderbox"
+      "8 pots"
     ],
     "rewards": [
       "1 Quest point",
@@ -6738,8 +6736,6 @@
     "item_requirements": [
       "27 pots",
       "27 jugs of vinegar (bought from Fortunato for 27 coins)",
-      "27 sets of logs (any logs - normal logs can be obtained on the path just below the Odd Old Man's hut if you bring an axe).",
-      "Tinderbox",
       "Light source",
       "Dusty key (if under 70 Agility)",
       "Rope",
@@ -11526,12 +11522,12 @@
   },
   {
     "category": "members",
-    "id": "",
+    "id": "190",
     "name": "A New Leaf",
     "difficulty": "Intermediate",
     "length": "Short",
-    "quest_points": "1",
-    "series": "",
+    "quest_points": "2",
+    "series": "N/A",
     "release_date": "18 November 2026",
     "url": "https://oldschool.runescape.wiki/w/A_New_Leaf",
     "start_point": "Pick and eat a cabbage south of Hosidius",
@@ -11558,19 +11554,40 @@
         "url": "https://oldschool.runescape.wiki/w/Priest_in_Peril"
       }
     ],
-    "item_requirements": [],
-    "rewards": [
-      "1 Quest point"
+    "item_requirements": [
+      "2 Cabbages (obtainable during the quest, Draynor Manor Cabbages don't work)",
+      "Compost (obtainable during the quest)",
+      "Vial of water",
+      "Spade",
+      "Cabbage seed (obtainable during the quest)",
+      "Rosemary seed (obtainable during the quest)",
+      "Potato seed (obtainable during the quest)",
+      "4 Bowls (obtainable during the quest)"
     ],
-    "enemies_to_defeat": []
+    "rewards": [
+      "2 Quest points",
+      "10,000 Farming experience",
+      "2,000 Cooking experience",
+      "2,000 Herblore experience",
+      "An antique lamp granting 2,500 experience in any combat skill",
+      "Farming Guild allotment patches are permanently protected from disease.",
+      "Seed packs have a 1 in 100 chance of dropping an extra seed of growth every time you take seeds from them."
+    ],
+    "enemies_to_defeat": [
+      "Gardener of Armadyl (level 64)",
+      "Bandit cactus cultivator (level 57)",
+      "Fermenter of chaos (level 53)",
+      "Sir Loin (level 52)",
+      "Goblin meat tenderiser (level 50)"
+    ]
   },
   {
     "category": "members",
-    "id": "",
+    "id": "191",
     "name": "Rag and Bone Man III",
     "difficulty": "Experienced",
     "length": "Medium",
-    "quest_points": "",
+    "quest_points": "3",
     "series": "Rag and Bone Man, #3",
     "release_date": "18 November 2026",
     "url": "https://oldschool.runescape.wiki/w/Rag_and_Bone_Man_III",
@@ -11582,12 +11599,152 @@
         "boostable": true
       }
     ],
-    "quest_requirements": [],
-    "item_requirements": [],
-    "rewards": [
-      "Quest points"
+    "quest_requirements": [
+      {
+        "name": "Rag and Bone Man II",
+        "url": "https://oldschool.runescape.wiki/w/Rag_and_Bone_Man_II"
+      },
+      {
+        "name": "Rag and Bone Man I",
+        "url": "https://oldschool.runescape.wiki/w/Rag_and_Bone_Man_I"
+      },
+      {
+        "name": "Skippy and the Mogres",
+        "url": "https://oldschool.runescape.wiki/w/Skippy_and_the_Mogres"
+      },
+      {
+        "name": "Creature of Fenkenstrain",
+        "url": "https://oldschool.runescape.wiki/w/Creature_of_Fenkenstrain"
+      },
+      {
+        "name": "Dragon Slayer I",
+        "url": "https://oldschool.runescape.wiki/w/Dragon_Slayer_I"
+      },
+      {
+        "name": "The Great Brain Robbery",
+        "url": "https://oldschool.runescape.wiki/w/The_Great_Brain_Robbery"
+      },
+      {
+        "name": "Creature of Fenkenstrain",
+        "url": "https://oldschool.runescape.wiki/w/Creature_of_Fenkenstrain"
+      },
+      {
+        "name": "Cabin Fever",
+        "url": "https://oldschool.runescape.wiki/w/Cabin_Fever"
+      },
+      {
+        "name": "Pirate's Treasure",
+        "url": "https://oldschool.runescape.wiki/w/Pirate%27s_Treasure"
+      },
+      {
+        "name": "Rum Deal",
+        "url": "https://oldschool.runescape.wiki/w/Rum_Deal"
+      },
+      {
+        "name": "Priest in Peril",
+        "url": "https://oldschool.runescape.wiki/w/Priest_in_Peril"
+      },
+      {
+        "name": "Zogre Flesh Eaters",
+        "url": "https://oldschool.runescape.wiki/w/Zogre_Flesh_Eaters"
+      },
+      {
+        "name": "Big Chompy Bird Hunting",
+        "url": "https://oldschool.runescape.wiki/w/Big_Chompy_Bird_Hunting"
+      },
+      {
+        "name": "Jungle Potion",
+        "url": "https://oldschool.runescape.wiki/w/Jungle_Potion"
+      },
+      {
+        "name": "Druidic Ritual",
+        "url": "https://oldschool.runescape.wiki/w/Druidic_Ritual"
+      },
+      {
+        "name": "Recipe for Disaster/Freeing Pirate Pete",
+        "url": "https://oldschool.runescape.wiki/w/Recipe_for_Disaster/Freeing_Pirate_Pete"
+      },
+      {
+        "name": "Recipe for Disaster/Another Cook's Quest",
+        "url": "https://oldschool.runescape.wiki/w/Recipe_for_Disaster/Another_Cook%27s_Quest"
+      },
+      {
+        "name": "Cook's Assistant",
+        "url": "https://oldschool.runescape.wiki/w/Cook%27s_Assistant"
+      },
+      {
+        "name": "Defender of Varrock",
+        "url": "https://oldschool.runescape.wiki/w/Defender_of_Varrock"
+      },
+      {
+        "name": "Shield of Arrav",
+        "url": "https://oldschool.runescape.wiki/w/Shield_of_Arrav"
+      },
+      {
+        "name": "Temple of Ikov",
+        "url": "https://oldschool.runescape.wiki/w/Temple_of_Ikov"
+      },
+      {
+        "name": "Below Ice Mountain",
+        "url": "https://oldschool.runescape.wiki/w/Below_Ice_Mountain"
+      },
+      {
+        "name": "Family Crest",
+        "url": "https://oldschool.runescape.wiki/w/Family_Crest"
+      },
+      {
+        "name": "Garden of Tranquillity",
+        "url": "https://oldschool.runescape.wiki/w/Garden_of_Tranquillity"
+      },
+      {
+        "name": "Creature of Fenkenstrain",
+        "url": "https://oldschool.runescape.wiki/w/Creature_of_Fenkenstrain"
+      },
+      {
+        "name": "Priest in Peril",
+        "url": "https://oldschool.runescape.wiki/w/Priest_in_Peril"
+      },
+      {
+        "name": "The Restless Ghost",
+        "url": "https://oldschool.runescape.wiki/w/The_Restless_Ghost"
+      },
+      {
+        "name": "What Lies Below",
+        "url": "https://oldschool.runescape.wiki/w/What_Lies_Below"
+      },
+      {
+        "name": "Rune Mysteries",
+        "url": "https://oldschool.runescape.wiki/w/Rune_Mysteries"
+      },
+      {
+        "name": "Romeo & Juliet",
+        "url": "https://oldschool.runescape.wiki/w/Romeo_%26_Juliet"
+      },
+      {
+        "name": "Demon Slayer",
+        "url": "https://oldschool.runescape.wiki/w/Demon_Slayer"
+      },
+      {
+        "name": "Tower of Life",
+        "url": "https://oldschool.runescape.wiki/w/Tower_of_Life"
+      },
+      {
+        "name": "A Soul's Bane",
+        "url": "https://oldschool.runescape.wiki/w/A_Soul%27s_Bane"
+      }
     ],
-    "enemies_to_defeat": []
+    "item_requirements": [
+      "Slayer helmet or earmuffs (obtainable during quest)"
+    ],
+    "rewards": [
+      "3 Quest points",
+      "Two magic lamps offering a total of 10,000 Prayer XP and 10,000 Slayer XP",
+      "Ability to upgrade the bonesack to the heavy bonesack, which holds up to 28 bones, by talking to the Odd Old Man after the quest"
+    ],
+    "enemies_to_defeat": [
+      "Ancient Banshee (level 113)",
+      "Skeletal Horror (level 220)"
+    ]
   },
   {
     "category": "miniquest",
