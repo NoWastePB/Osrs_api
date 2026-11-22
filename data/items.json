@@ -385675,5 +385675,40 @@
         }
       ]
     }
+  },
+  {
+    "id": 34813,
+    "name": "Seed of growth",
+    "examine": "Planting this will return you to the Farming Guild.",
+    "members": true,
+    "limit": null,
+    "value": null,
+    "high_alch": null,
+    "low_alch": null,
+    "wiki": {
+      "released": "18 November 2026 ( Update )",
+      "members": "Yes",
+      "quest_item": "A New Leaf",
+      "tradeable": "Yes",
+      "equipable": "No",
+      "stackable": "Yes",
+      "noteable": "No",
+      "options": "Plant",
+      "examine": "Planting this will return you to the Farming Guild.",
+      "value": "250 coins",
+      "high_alch": "150 coins",
+      "low_alch": "100 coins",
+      "weight": "0 kg",
+      "combat_stats": {},
+      "sources": [
+        {
+          "source": "Seed pack Seed of growth",
+          "level": "N/A",
+          "quantity": "1",
+          "rarity": "1/100",
+          "league_region": ""
+        }
+      ]
+    }
   }
 ]
