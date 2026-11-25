@@ -11288,6 +11288,125 @@
   },
   {
     "category": "members",
+    "id": "192",
+    "name": "The Graveyard",
+    "difficulty": "Master",
+    "length": "Medium",
+    "quest_points": "3",
+    "series": "Fremennik, #5",
+    "release_date": "25 November 2026",
+    "url": "https://oldschool.runescape.wiki/w/The_Graveyard",
+    "start_point": "Talk to Olaf Hradson east of Rellekka, just south of the Rellekka Hunter area.",
+    "skill_requirements": [
+      {
+        "skill": "Sailing",
+        "level": 65,
+        "boostable": true
+      },
+      {
+        "skill": "Agility",
+        "level": 65,
+        "boostable": true
+      },
+      {
+        "skill": "Woodcutting",
+        "level": 56,
+        "boostable": true
+      },
+      {
+        "skill": "Fletching",
+        "level": 54,
+        "boostable": true
+      }
+    ],
+    "quest_requirements": [
+      {
+        "name": "The Fremennik Exiles",
+        "url": "https://oldschool.runescape.wiki/w/The_Fremennik_Exiles"
+      },
+      {
+        "name": "The Fremennik Isles",
+        "url": "https://oldschool.runescape.wiki/w/The_Fremennik_Isles"
+      },
+      {
+        "name": "The Fremennik Trials",
+        "url": "https://oldschool.runescape.wiki/w/The_Fremennik_Trials"
+      },
+      {
+        "name": "Lunar Diplomacy",
+        "url": "https://oldschool.runescape.wiki/w/Lunar_Diplomacy"
+      },
+      {
+        "name": "Lost City",
+        "url": "https://oldschool.runescape.wiki/w/Lost_City"
+      },
+      {
+        "name": "Rune Mysteries",
+        "url": "https://oldschool.runescape.wiki/w/Rune_Mysteries"
+      },
+      {
+        "name": "Shilo Village",
+        "url": "https://oldschool.runescape.wiki/w/Shilo_Village"
+      },
+      {
+        "name": "Jungle Potion",
+        "url": "https://oldschool.runescape.wiki/w/Jungle_Potion"
+      },
+      {
+        "name": "Druidic Ritual",
+        "url": "https://oldschool.runescape.wiki/w/Druidic_Ritual"
+      },
+      {
+        "name": "Mountain Daughter",
+        "url": "https://oldschool.runescape.wiki/w/Mountain_Daughter"
+      },
+      {
+        "name": "Heroes' Quest",
+        "url": "https://oldschool.runescape.wiki/w/Heroes%27_Quest"
+      },
+      {
+        "name": "Dragon Slayer I",
+        "url": "https://oldschool.runescape.wiki/w/Dragon_Slayer_I"
+      },
+      {
+        "name": "Lost City",
+        "url": "https://oldschool.runescape.wiki/w/Lost_City"
+      },
+      {
+        "name": "Merlin's Crystal",
+        "url": "https://oldschool.runescape.wiki/w/Merlin%27s_Crystal"
+      },
+      {
+        "name": "Shield of Arrav",
+        "url": "https://oldschool.runescape.wiki/w/Shield_of_Arrav"
+      },
+      {
+        "name": "Olaf's Quest",
+        "url": "https://oldschool.runescape.wiki/w/Olaf%27s_Quest"
+      },
+      {
+        "name": "The Fremennik Trials",
+        "url": "https://oldschool.runescape.wiki/w/The_Fremennik_Trials"
+      },
+      {
+        "name": "Pandemonium",
+        "url": "https://oldschool.runescape.wiki/w/Pandemonium"
+      }
+    ],
+    "item_requirements": [],
+    "rewards": [
+      "3 Quest points",
+      "35,000 Agility experience",
+      "15,000 Runecraft experience",
+      "35,000 Sailing experience",
+      "10,000 Fletching experience",
+      "2 salt-crusted lamps each offering 75,000 XP in Attack, Strength, Defence, Hitpoints, or Prayer",
+      "Access to the The Graveyard island, containing the Prison of Ræun, a level 65 Agility course"
+    ],
+    "enemies_to_defeat": []
+  },
+  {
+    "category": "members",
     "id": "182",
     "name": "Fallen From Grace",
     "difficulty": "Experienced",
@@ -11556,12 +11675,12 @@
     ],
     "item_requirements": [
       "2 Cabbages (obtainable during the quest, Draynor Manor Cabbages don't work)",
-      "Compost (obtainable during the quest)",
+      "Compost (given during the quest)",
       "Vial of water",
       "Spade",
-      "Cabbage seed (obtainable during the quest)",
-      "Rosemary seed (obtainable during the quest)",
-      "Potato seed (obtainable during the quest)",
+      "3 Cabbage seeds (given during the quest)",
+      "Rosemary seed (given during the quest)",
+      "3 Potato seeds (given during the quest)",
       "4 Bowls (obtainable during the quest)"
     ],
     "rewards": [
