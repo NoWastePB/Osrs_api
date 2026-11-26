@@ -11393,7 +11393,17 @@
         "url": "https://oldschool.runescape.wiki/w/Pandemonium"
       }
     ],
-    "item_requirements": [],
+    "item_requirements": [
+      "Parchment (or Spade to retrieve if unowned)",
+      "A Knife or fletching knife",
+      "7 arctic pine logs",
+      "21 soul runes",
+      "Hammer, chisel or jeweller's chisel",
+      "Axe (obtainable during the quest)",
+      "Spyglass (obtainable from your ship's cargo hold or from Volf if you took his boat)",
+      "5000 coins (if taking Volf's ship)",
+      "Talisman to access a runic altar (not needed if using the astral altar)"
+    ],
     "rewards": [
       "3 Quest points",
       "35,000 Agility experience",
@@ -11403,7 +11413,11 @@
       "2 salt-crusted lamps each offering 75,000 XP in Attack, Strength, Defence, Hitpoints, or Prayer",
       "Access to the The Graveyard island, containing the Prison of Ræun, a level 65 Agility course"
     ],
-    "enemies_to_defeat": []
+    "enemies_to_defeat": [
+      "Several Skeletons that attack with Melee (all attacks can be negated by praying protect from Melee)",
+      "Several Skeleton Captain that attacks with Ranged (negated by praying Protect from Missiles)",
+      "Ræun"
+    ]
   },
   {
     "category": "members",
@@ -11654,7 +11668,7 @@
       {
         "skill": "Farming",
         "level": 45,
-        "boostable": true
+        "boostable": false
       },
       {
         "skill": "Cooking",
