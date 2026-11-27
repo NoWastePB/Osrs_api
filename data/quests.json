@@ -11402,7 +11402,8 @@
       "Axe (obtainable during the quest)",
       "Spyglass (obtainable from your ship's cargo hold or from Volf if you took his boat)",
       "5000 coins (if taking Volf's ship)",
-      "Talisman to access a runic altar (not needed if using the astral altar)"
+      "Talisman to access a runic altar (not needed if using the astral altar)",
+      "Teleport to get off of the Graveyard after defeating the boss. There is no default way to get back to the mainland until after the quest. Alternatively, you can ride back on another player's ship."
     ],
     "rewards": [
       "3 Quest points",
@@ -11410,7 +11411,7 @@
       "15,000 Runecraft experience",
       "35,000 Sailing experience",
       "10,000 Fletching experience",
-      "2 salt-crusted lamps each offering 75,000 XP in Attack, Strength, Defence, Hitpoints, or Prayer",
+      "2 salt-crusted lamps, obtainable from Brundt the Chieftain after the quest, each offering 75,000 XP in Attack, Strength, Defence, Hitpoints, or Prayer",
       "Access to the The Graveyard island, containing the Prison of Ræun, a level 65 Agility course"
     ],
     "enemies_to_defeat": [
